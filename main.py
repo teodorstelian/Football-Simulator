@@ -1,25 +1,21 @@
 import database
+import leagues
 import matches
-from teams import Team
+import teams as Teams
 
-database.create_teams_table()  # Create the teams table if it doesn't exist
+db, country_teams = leagues.select_league()
 
-teams = database.get_teams()  # Retrieve teams from the database
+database.create_teams_table(db)  # Create the teams table if it doesn't exist
 
-if len(teams) == 0:
-    teams = [
-        Team("Team A"),
-        Team("Team B"),
-        Team("Team C"),
-        Team("Team D"),
-    ]
-    for team in teams:
-        database.insert_team(team)  # Insert teams into the database
+cur_teams = database.get_teams(db)  # Retrieve teams from the database
 
-matches.generate_fixtures(teams)
+if len(cur_teams) == 0:
+    cur_teams = Teams.generate_teams(country_teams, db)
 
-for team in teams:
-    database.update_team(team)  # Update team data in the database
+matches.generate_fixtures(cur_teams)
 
-teams = database.get_teams()  # Retrieve teams with updated data from the database
+for team in cur_teams:
+    database.update_team(team, db)  # Update team data in the database
+
+teams = database.get_teams(db)  # Retrieve teams with updated data from the database
 matches.generate_standings(teams)

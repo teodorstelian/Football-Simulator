@@ -1,11 +1,10 @@
 import sqlite3
 
-from settings import DATABASE_NAME
 from teams import Team
 
 
-def create_teams_table():
-    conn = sqlite3.connect(DATABASE_NAME)
+def create_teams_table(database):
+    conn = sqlite3.connect(database)
     c = conn.cursor()
     c.execute('''CREATE TABLE IF NOT EXISTS teams (name TEXT, matches_played INTEGER, wins INTEGER, draws INTEGER, 
     losses INTEGER, points INTEGER, goals_scored INTEGER, goals_against INTEGER)''')
@@ -13,8 +12,8 @@ def create_teams_table():
     conn.close()
 
 
-def insert_team(team):
-    conn = sqlite3.connect(DATABASE_NAME)
+def insert_team(team, database):
+    conn = sqlite3.connect(database)
     c = conn.cursor()
     c.execute("INSERT INTO teams VALUES (?, ?, ?, ?, ?, ?, ?, ?)", (
         team.name, team.matches_played, team.wins, team.draws, team.losses, team.points, team.goals_scored,
@@ -23,8 +22,8 @@ def insert_team(team):
     conn.close()
 
 
-def update_team(team):
-    conn = sqlite3.connect(DATABASE_NAME)
+def update_team(team, database):
+    conn = sqlite3.connect(database)
     c = conn.cursor()
     c.execute("UPDATE teams SET matches_played=?, wins=?, draws=?, losses=?, points=?, goals_scored=?, goals_against=? "
               "WHERE name=?", (team.matches_played, team.wins, team.draws, team.losses, team.points, team.goals_scored,
@@ -33,8 +32,8 @@ def update_team(team):
     conn.close()
 
 
-def get_teams():
-    conn = sqlite3.connect(DATABASE_NAME)
+def get_teams(database):
+    conn = sqlite3.connect(database)
     c = conn.cursor()
     c.execute("SELECT * FROM teams")
     teams_data = c.fetchall()
