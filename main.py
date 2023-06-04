@@ -1,21 +1,14 @@
-import database
-import leagues
-import matches
-import teams as Teams
+from database import get_best_teams
+from leagues import simulate_season, select_league
 
-db, country_teams = leagues.select_league()
+while True:
+    print("1. Simulate a league \n"
+          "2. Check best teams")
+    action = input("Select action: ")
 
-database.create_teams_table(db)  # Create the teams table if it doesn't exist
+    league, league_teams = select_league()
+    if action == "1":
+        simulate_season(league, league_teams)
+    if action == "2":
+        get_best_teams(league)
 
-cur_teams = database.get_teams(db)  # Retrieve teams from the database
-
-if len(cur_teams) == 0:
-    cur_teams = Teams.generate_teams(country_teams, db)
-
-matches.generate_fixtures(cur_teams)
-
-for team in cur_teams:
-    database.update_team(team, db)  # Update team data in the database
-
-teams = database.get_teams(db)  # Retrieve teams with updated data from the database
-matches.generate_standings(teams)

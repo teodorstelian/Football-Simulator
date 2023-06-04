@@ -1,4 +1,12 @@
+# Countries
+ENG = "England"
+ESP = "Spain"
+GER = "Germany"
+ITA = "Italy"
+FRA = "France"
+
 # Databases
+COMPETITIONS_DB = "Competitions.db"
 ENG_DB = "Premier_League.db"
 ESP_DB = "LaLiga.db"
 GER_DB = "Bundesliga.db"

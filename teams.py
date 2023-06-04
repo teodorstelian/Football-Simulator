@@ -1,15 +1,5 @@
 import random
 
-import database
-
-
-def generate_teams(country_teams, db):
-    teams = [Team(_) for _ in country_teams]
-    for team in teams:
-        database.insert_team(team, db)  # Insert teams into the database
-
-    return teams
-
 
 class Team:
     def __init__(self, name, matches=0, wins=0, draws=0, losses=0, points=0, scored=0, against=0):
@@ -24,6 +14,7 @@ class Team:
 
     def play_match(self, opponent):
         self.matches_played += 1
+        opponent.matches_played += 1
         goals_scored = random.randint(0, 5)
         goals_conceded = random.randint(0, 5)
         if goals_scored > goals_conceded:
