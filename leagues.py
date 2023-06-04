@@ -2,31 +2,28 @@ import settings
 
 
 def select_league():
-    print("1. Premier League \n"
-          "2. La Liga \n"
-          "3. Bundesliga \n"
-          "4. Ligue 1 \n"
-          "5. Serie A")
-    league = input("Select the league: ")
+    print("1. Premier League (England) \n"
+          "2. La Liga (Spain) \n"
+          "3. Bundesliga (Germany) \n"
+          "4. Ligue 1 (France) \n"
+          "5. Serie A (Italy)")
 
-    if league == '1':
-        db = settings.ENG_DB
-        teams = settings.ENG_TEAMS
+    league_mapping = {
+        '1': (settings.ENG_DB, settings.ENG_TEAMS),
+        '2': (settings.ESP_DB, settings.ESP_TEAMS),
+        '3': (settings.GER_DB, settings.GER_TEAMS),
+        '4': (settings.FRA_DB, settings.FRA_TEAMS),
+        '5': (settings.ITA_DB, settings.ITA_TEAMS),
+    }
 
-    if league == '2':
-        db = settings.ESP_DB
-        teams = settings.ESP_TEAMS
+    league = input("Enter the league number: ")
+    db, teams = league_mapping.get(league, (None, None))
 
-    if league == '3':
-        db = settings.GER_DB
-        teams = settings.GER_TEAMS
+    if db is None or teams is None:
+        raise ValueError("Invalid value")
 
-    if league == '4':
-        db = settings.FRA_DB
-        teams = settings.FRA_TEAMS
-
-    if league == '5':
-        db = settings.ITA_DB
-        teams = settings.ITA_TEAMS
+    print(f"Selected league: {league}")
+    print(f"Database: {db}")
+    print(f"Teams: {teams}")
 
     return db, teams
