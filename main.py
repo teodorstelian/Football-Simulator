@@ -1,14 +1,23 @@
-from database import get_best_teams
-from leagues import simulate_season, select_league
+from database import get_best_teams, update_general_table, create_general_table
+from leagues import simulate_season, select_league, generate_teams_table
 
 while True:
     print("1. Simulate a league \n"
-          "2. Check best teams")
+          "2. Check best teams \n"
+          "3. See stats for a team")
     action = input("Select action: ")
 
-    league, league_teams = select_league()
+    league, teams_obj, teams_name = select_league()
+    generate_teams_table(league, teams_obj)
+    create_general_table()
+    for team in teams_obj:
+        update_general_table(team)
     if action == "1":
-        simulate_season(league, league_teams)
+        simulate_season(league, teams_obj)
+        for team in teams_obj:
+            update_general_table(team)
     if action == "2":
         get_best_teams(league)
-
+    if action == "3":
+        team = input("Select team: ")
+        update_general_table(team)

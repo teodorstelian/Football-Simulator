@@ -1,39 +1,28 @@
-import random
+import settings
+from classes import Team
 
 
-class Team:
-    def __init__(self, name, matches=0, wins=0, draws=0, losses=0, points=0, scored=0, against=0):
-        self.name = name
-        self.points = points
-        self.matches_played = matches
-        self.goals_scored = scored
-        self.goals_against = against
-        self.wins = wins
-        self.draws = draws
-        self.losses = losses
+def teams_england():
+    Arsenal = Team(name="Arsenal", country=settings.ENG, skill="90")
+    Aston_Villa = Team(name="Aston Villa", country=settings.ENG, skill="70")
+    Bournemouth = Team(name="Bournemouth", country=settings.ENG, skill="65")
+    Brentford = Team(name="Brentford", country=settings.ENG, skill="60")
+    all_teams_obj = [Arsenal, Aston_Villa, Bournemouth, Brentford]
+    all_teams_names = [Arsenal.name, Aston_Villa.name, Bournemouth.name, Brentford.name]
+    return all_teams_obj, all_teams_names
 
-    def play_match(self, opponent):
-        self.matches_played += 1
-        opponent.matches_played += 1
-        goals_scored = random.randint(0, 5)
-        goals_conceded = random.randint(0, 5)
-        if goals_scored > goals_conceded:
-            self.points += 3
-            self.wins += 1
-            opponent.losses += 1
-            print(f"{self.name} won against {opponent.name} {goals_scored} - {goals_conceded}")
-        elif goals_scored < goals_conceded:
-            opponent.points += 3
-            opponent.wins += 1
-            self.losses += 1
-            print(f"{opponent.name} won against {self.name} {goals_scored} - {goals_conceded}")
-        else:
-            self.points += 1
-            opponent.points += 1
-            self.draws += 1
-            opponent.draws += 1
-            print(f"{self.name} drew with {opponent.name} {goals_scored} - {goals_conceded}")
-        self.goals_scored += goals_scored
-        self.goals_against += goals_conceded
-        opponent.goals_scored += goals_conceded
-        opponent.goals_against += goals_scored
+
+def teams_spain():
+    return teams_england()
+
+
+def teams_germany():
+    return teams_england()
+
+
+def teams_italy():
+    return teams_england()
+
+
+def teams_france():
+    return teams_england()

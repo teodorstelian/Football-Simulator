@@ -1,7 +1,7 @@
 import sqlite3
 
 from settings import COMPETITIONS_DB
-from teams import Team
+from classes import Team
 
 
 def create_teams_table(league):
@@ -37,6 +37,25 @@ def update_team(team, league):
     conn.close()
 
 
+def create_general_table():
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+    query = '''CREATE TABLE IF NOT EXISTS GENERAL (name TEXT, country TEXT, skill INTEGER, league_titles INTEGER, 
+    ucl INTEGER, uel INTEGER, uecl INTEGER) '''
+    c.execute(query)
+    conn.commit()
+    conn.close()
+
+
+def update_general_table(team):
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+    query = "UPDATE GENERAL SET country=?, skill=?, league_titles=?, ucl=?, uel=?, uecl=? WHERE name=?"
+    c.execute(query, (team.country, team.skill, team.league_titles, team.ucl, team.uel, team.uecl, team.name))
+    conn.commit()
+    conn.close()
+
+
 def get_teams(league):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
@@ -46,7 +65,8 @@ def get_teams(league):
     conn.close()
     teams = []
     for data in teams_data:
-        team = Team(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])
+        team = Team(name=data[0], country=league, skill="0", matches=data[1], wins=data[2], draws=data[3],
+                    losses=data[4], points=data[5], scored=data[6], against=data[7])
         teams.append(team)
     return teams
 
