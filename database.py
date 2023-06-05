@@ -1,5 +1,6 @@
 import sqlite3
 
+import settings
 from settings import COMPETITIONS_DB
 from classes import Team
 
@@ -40,8 +41,8 @@ def update_team(team, league):
 def create_general_table():
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
-    query = '''CREATE TABLE IF NOT EXISTS GENERAL (name TEXT, country TEXT, skill INTEGER, league_titles INTEGER, 
-    ucl INTEGER, uel INTEGER, uecl INTEGER) '''
+    query = f'''CREATE TABLE IF NOT EXISTS {settings.GENERAL_TABLE} 
+    (name TEXT, country TEXT, skill INTEGER, league_titles INTEGER, ucl INTEGER, uel INTEGER, uecl INTEGER) '''
     c.execute(query)
     conn.commit()
     conn.close()
@@ -50,8 +51,20 @@ def create_general_table():
 def update_general_table(team):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
-    query = "UPDATE GENERAL SET country=?, skill=?, league_titles=?, ucl=?, uel=?, uecl=? WHERE name=?"
-    c.execute(query, (team.country, team.skill, team.league_titles, team.ucl, team.uel, team.uecl, team.name))
+
+    # Check if the team name already exists in the table
+    c.execute(f"SELECT COUNT(*) FROM {settings.GENERAL_TABLE} WHERE name=?", (team.name,))
+    count = c.fetchone()[0]
+
+    if count == 0:  # Team name does not exist, insert a new row
+        query = f"INSERT INTO {settings.GENERAL_TABLE} " \
+                f"(name, country, skill, league_titles, ucl, uel, uecl) VALUES (?, ?, ?, ?, ?, ?, ?)"
+        c.execute(query, (team.name, team.country, team.skill, team.league_titles, team.ucl, team.uel, team.uecl))
+    else:  # Team name exists, update the matching row
+        query = f"UPDATE {settings.GENERAL_TABLE} " \
+                f"SET country=?, skill=?, league_titles=?, ucl=?, uel=?, uecl=? WHERE name=?"
+        c.execute(query, (team.country, team.skill, team.league_titles, team.ucl, team.uel, team.uecl, team.name))
+
     conn.commit()
     conn.close()
 

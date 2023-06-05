@@ -14,7 +14,11 @@ def generate_fixtures(teams):
 def generate_standings(teams):
     print("--- Final Standings ---")
     teams.sort(key=lambda x: (x.points, x.wins, x.goals_scored), reverse=True)
+
     for i, team in enumerate(teams):
+        if i == 0:
+            print(f"Winner: {team.name}")
+            team.league_titles += 1
         print(
             f"{i + 1}. {team.name} - {team.points} points - {team.wins} wins - {team.draws} draws - {team.losses} losses"
             f" - {team.goals_scored} scored - {team.goals_against} against")
