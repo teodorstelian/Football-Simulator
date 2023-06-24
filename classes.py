@@ -1,4 +1,5 @@
 import random
+from math import ceil
 
 
 class Team:
@@ -22,8 +23,15 @@ class Team:
     def play_match(self, opponent):
         self.matches_played += 1
         opponent.matches_played += 1
-        goals_scored = random.randint(0, 5)
-        goals_conceded = random.randint(0, 5)
+        skill_diff = int(self.skill[0]) - int(opponent.skill[0])
+        losing_max = ceil(3-(skill_diff/10))
+        winning_max = ceil(3+(skill_diff/10))
+        if skill_diff >= 0:
+            goals_scored = random.randint(0, winning_max)
+            goals_conceded = random.randint(0, losing_max)
+        else:
+            goals_scored = random.randint(0, losing_max)
+            goals_conceded = random.randint(0, winning_max)
         if goals_scored > goals_conceded:
             self.points += 3
             self.wins += 1

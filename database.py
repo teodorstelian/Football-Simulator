@@ -72,15 +72,19 @@ def update_general_table(team):
 def get_teams(league):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
-    query = f"SELECT * FROM {league}"
-    c.execute(query)
+    league_query = f"SELECT * FROM {league}"
+    c.execute(league_query)
     teams_data = c.fetchall()
-    conn.close()
     teams = []
     for data in teams_data:
-        team = Team(name=data[0], country=league, skill="0", matches=data[1], wins=data[2], draws=data[3],
+        team_name = data[0]
+        team_query = f"SELECT skill FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
+        c.execute(team_query)
+        team_skill = c.fetchone()
+        team = Team(name=team_name, country=league, skill=team_skill, matches=data[1], wins=data[2], draws=data[3],
                     losses=data[4], points=data[5], scored=data[6], against=data[7])
         teams.append(team)
+    conn.close()
     return teams
 
 
