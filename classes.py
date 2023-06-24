@@ -3,7 +3,7 @@ from math import ceil
 
 
 class Team:
-    def __init__(self, name, country, skill, league_titles=0, ucl=0, uel=0, uecl=0,
+    def __init__(self, name, country, skill, league_titles=0, ucl=0, uel=0, uecl=0, europe="False",
                  matches=0, wins=0, draws=0, losses=0, points=0, scored=0, against=0):
         self.name = name
         self.country = country
@@ -12,6 +12,7 @@ class Team:
         self.ucl = ucl
         self.uel = uel
         self.uecl = uecl
+        self.europe = europe
         self.points = points
         self.matches_played = matches
         self.goals_scored = scored
@@ -23,7 +24,7 @@ class Team:
     def play_match(self, opponent):
         self.matches_played += 1
         opponent.matches_played += 1
-        skill_diff = int(self.skill[0]) - int(opponent.skill[0])
+        skill_diff = int(self.skill) - int(opponent.skill)
         losing_max = ceil(3-(skill_diff/10))
         winning_max = ceil(3+(skill_diff/10))
         goals_scored = random.randint(0, winning_max)

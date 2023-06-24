@@ -42,7 +42,7 @@ def create_general_table():
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
     query = f'''CREATE TABLE IF NOT EXISTS {settings.GENERAL_TABLE} 
-    (name TEXT, country TEXT, skill INTEGER, league_titles INTEGER, ucl INTEGER, uel INTEGER, uecl INTEGER) '''
+    (name TEXT, country TEXT, skill INTEGER, league_titles INTEGER, ucl INTEGER, uel INTEGER, uecl INTEGER, europe TEXT) '''
     c.execute(query)
     conn.commit()
     conn.close()
@@ -58,12 +58,12 @@ def update_general_table(team):
 
     if count == 0:  # Team name does not exist, insert a new row
         query = f"INSERT INTO {settings.GENERAL_TABLE} " \
-                f"(name, country, skill, league_titles, ucl, uel, uecl) VALUES (?, ?, ?, ?, ?, ?, ?)"
-        c.execute(query, (team.name, team.country, team.skill, team.league_titles, team.ucl, team.uel, team.uecl))
+                f"(name, country, skill, league_titles, ucl, uel, uecl, europe) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+        c.execute(query, (team.name, team.country, team.skill, team.league_titles, team.ucl, team.uel, team.uecl, team.europe))
     else:  # Team name exists, update the matching row
         query = f"UPDATE {settings.GENERAL_TABLE} " \
-                f"SET country=?, skill=?, league_titles=?, ucl=?, uel=?, uecl=? WHERE name=?"
-        c.execute(query, (team.country, team.skill, team.league_titles, team.ucl, team.uel, team.uecl, team.name))
+                f"SET country=?, skill=?, league_titles=?, ucl=?, uel=?, uecl=?, europe=? WHERE name=?"
+        c.execute(query, (team.country, team.skill, team.league_titles, team.ucl, team.uel, team.uecl, team.europe, team.name))
 
     conn.commit()
     conn.close()
@@ -78,11 +78,13 @@ def get_teams(league):
     teams = []
     for data in teams_data:
         team_name = data[0]
-        team_query = f"SELECT skill FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
+        team_query = f"SELECT skill, league_titles FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
         c.execute(team_query)
-        team_skill = c.fetchone()
+        team_attrib = c.fetchone()
+        team_skill = team_attrib[0]
+        team_titles = team_attrib[1]
         team = Team(name=team_name, country=league, skill=team_skill, matches=data[1], wins=data[2], draws=data[3],
-                    losses=data[4], points=data[5], scored=data[6], against=data[7])
+                    losses=data[4], points=data[5], scored=data[6], against=data[7], league_titles=team_titles)
         teams.append(team)
     conn.close()
     return teams
@@ -103,3 +105,15 @@ def get_best_teams(league):
     print(f"{league}'s Best Teams:")
     for team in best_teams:
         print(f"Team: {team[0]}, Points: {team[1]}")
+
+def generate_teams_table(league, teams_obj):
+    create_teams_table(league)  # Create the teams table if it doesn't exist
+
+    cur_teams = get_teams(league)  # Retrieve teams from the database
+
+    if len(cur_teams) == 0:
+        for team in teams_obj:
+            insert_team(team, league)
+        cur_teams = teams_obj
+
+    return cur_teams

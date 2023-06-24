@@ -1,11 +1,14 @@
-import settings
-
 import matches
-from database import create_teams_table, get_teams, update_team, insert_team
+import settings
 from classes import Team
+from database import create_teams_table, get_teams, update_team
 
 
 def select_league():
+    """
+        Method used to select which league to use. Creates the league table if it doesn't exist.
+    :return:
+    """
     print("1. Premier League (England) \n"
           "2. La Liga (Spain) \n"
           "3. Bundesliga (Germany) \n"
@@ -22,7 +25,14 @@ def select_league():
 
     league = input("Enter the league number: ")
     country, teams = league_mapping.get(league, (None, None))
-    teams_obj, teams_name = get_teams_country(teams, country)
+    create_teams_table(country) # Create the league table if it doesn't exist
+    teams_obj = get_teams(country)
+    # Checks if the database is empty
+    if len(teams_obj) == 0:
+        # Get original teams from settings
+        teams_obj, teams_name = get_default_teams_country(teams, country)
+    else:
+        teams_name = [team.name for team in teams_obj]
 
     if country is None or teams_obj is None or teams_name is None:
         raise ValueError("Invalid value")
@@ -33,40 +43,32 @@ def select_league():
 
     return country, teams_obj, teams_name
 
-
-def generate_teams(teams, league):
-    for team in teams:
-        insert_team(team, league)  # Insert teams into the database
-
-    return teams
-
-
-def generate_teams_table(league, teams_obj):
-    create_teams_table(league)  # Create the teams table if it doesn't exist
-
-    cur_teams = get_teams(league)  # Retrieve teams from the database
-
-    if len(cur_teams) == 0:
-        cur_teams = generate_teams(teams_obj, league)
-
-    return cur_teams
-
-
 def simulate_season(league, teams_obj):
-    cur_teams = generate_teams_table(league, teams_obj)
-    matches.play_fixture(cur_teams)
+    """
+        Simulate a league by playing th efixtures, updating the teams and generating the standings
+    :param league:
+    :param teams_obj:
+    :return:
+    """
+    matches.play_fixture(teams_obj)
 
-    for team in cur_teams:
+    for team in teams_obj:
         update_team(team, league)  # Update team data in the database
 
     teams = get_teams(league)  # Retrieve teams with updated data from the database
-    matches.generate_standings(teams)
+    return matches.generate_standings(teams)
 
-def get_teams_country(teams, country):
+def get_default_teams_country(teams, country):
+    """
+        Generate the teams found in the settings
+    :param teams: The default teams from settings
+    :param country: The country we want to add the default teams
+    :return: The teams as objects and the name of them
+    """
     all_teams_obj = []
     all_teams_names = []
     for team, skill in teams:
         new_team = Team(name=team, country=country, skill=skill)
         all_teams_obj.append(new_team)
-        all_teams_names += new_team.name
+        all_teams_names.append(new_team.name)
     return all_teams_obj, all_teams_names

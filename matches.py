@@ -30,6 +30,9 @@ def generate_standings(teams):
         if i == 0:
             print(f"Winner: {team.name}")
             team.league_titles += 1
+            team.europe = "Champions League"
         print(
             f"{i + 1}. {team.name} - {team.points} points - {team.wins} wins - {team.draws} draws - {team.losses} losses"
             f" - {team.goals_scored} scored - {team.goals_against} against")
+
+    return teams
