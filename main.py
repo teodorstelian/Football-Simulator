@@ -19,5 +19,7 @@ while True:
     if action == "2":
         get_best_teams(league)
     if action == "3":
-        team = input("Select team: ")
-        update_general_table(team)
+        input_team = input("Select team: ")
+        for team in teams_obj:
+            if input_team == team.name:
+                update_general_table(team)

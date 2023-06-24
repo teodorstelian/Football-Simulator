@@ -3,7 +3,6 @@ import settings
 import matches
 from database import create_teams_table, get_teams, update_team, insert_team
 from classes import Team
-from teams import teams_england, teams_spain, teams_germany, teams_italy, teams_france
 
 
 def select_league():
@@ -14,15 +13,16 @@ def select_league():
           "5. Serie A (Italy)")
 
     league_mapping = {
-        '1': (settings.ENG, teams_england()[0], teams_england()[1]),
-        '2': (settings.ESP, teams_spain()[0], teams_spain()[1]),
-        '3': (settings.GER, teams_germany()[0], teams_germany()[1]),
-        '4': (settings.FRA, teams_france()[0], teams_france()[1]),
-        '5': (settings.ITA, teams_italy()[0], teams_italy()[1]),
+        '1': (settings.ENG, settings.ENG_TEAMS),
+        '2': (settings.ESP, settings.ESP_TEAMS),
+        '3': (settings.GER, settings.GER_TEAMS),
+        '4': (settings.FRA, settings.FRA_TEAMS),
+        '5': (settings.ITA, settings.ITA_TEAMS),
     }
 
     league = input("Enter the league number: ")
-    country, teams_obj, teams_name = league_mapping.get(league, (None, None, None))
+    country, teams = league_mapping.get(league, (None, None))
+    teams_obj, teams_name = get_teams_country(teams, country)
 
     if country is None or teams_obj is None or teams_name is None:
         raise ValueError("Invalid value")
@@ -61,3 +61,12 @@ def simulate_season(league, teams_obj):
 
     teams = get_teams(league)  # Retrieve teams with updated data from the database
     matches.generate_standings(teams)
+
+def get_teams_country(teams, country):
+    all_teams_obj = []
+    all_teams_names = []
+    for team, skill in teams:
+        new_team = Team(name=team, country=country, skill=skill)
+        all_teams_obj.append(new_team)
+        all_teams_names += new_team.name
+    return all_teams_obj, all_teams_names
