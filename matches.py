@@ -1,15 +1,26 @@
-import random
-
 
 def generate_fixtures(teams):
-    fixtures = [(teams[i], teams[j]) for i in range(len(teams)) for j in range(i + 1, len(teams))]
+    fixtures = []
+    rounds = len(teams) - 1
 
-    for _ in range(1, len(teams)):
-        print(f"--- Round {_} ---")
-        random.shuffle(fixtures)
-        for home_team, away_team in fixtures:
-            home_team.play_match(away_team)
+    for _ in range(rounds):
+        round_fixtures = []
+        half_round = len(teams) // 2
+        for i in range(half_round):
+            fixture = (teams[i], teams[-i - 1])
+            round_fixtures.append(fixture)
+        fixtures.append(round_fixtures)
+        teams.insert(1, teams.pop())
 
+    return fixtures
+
+def play_fixture(teams):
+    fixtures = generate_fixtures(teams)
+
+    for _, round_fixtures in enumerate(fixtures):
+        print(f"Round {_ + 1}:")
+        for home, away in round_fixtures:
+            home.play_match(away)
 
 def generate_standings(teams):
     print("--- Final Standings ---")

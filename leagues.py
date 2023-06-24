@@ -54,7 +54,7 @@ def generate_teams_table(league, teams_obj):
 
 def simulate_season(league, teams_obj):
     cur_teams = generate_teams_table(league, teams_obj)
-    matches.generate_fixtures(cur_teams)
+    matches.play_fixture(cur_teams)
 
     for team in cur_teams:
         update_team(team, league)  # Update team data in the database
