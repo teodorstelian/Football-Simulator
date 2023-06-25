@@ -2,7 +2,7 @@ import sqlite3
 
 import settings
 from settings import COMPETITIONS_DB
-from classes import Team
+from team import Team
 
 
 def create_teams_table(league):
@@ -78,13 +78,14 @@ def get_teams(league):
     teams = []
     for data in teams_data:
         team_name = data[0]
-        team_query = f"SELECT skill, league_titles FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
+        team_query = f"SELECT skill, league_titles, europe FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
         c.execute(team_query)
         team_attrib = c.fetchone()
         team_skill = team_attrib[0]
         team_titles = team_attrib[1]
+        europe = team_attrib[2]
         team = Team(name=team_name, country=league, skill=team_skill, matches=data[1], wins=data[2], draws=data[3],
-                    losses=data[4], points=data[5], scored=data[6], against=data[7], league_titles=team_titles)
+                    losses=data[4], points=data[5], scored=data[6], against=data[7], league_titles=team_titles, europe=europe)
         teams.append(team)
     conn.close()
     return teams
@@ -117,3 +118,41 @@ def generate_teams_table(league, teams_obj):
         cur_teams = teams_obj
 
     return cur_teams
+
+def check_team_stats(team, league):
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+
+    # Get info from General Table
+    c.execute(f"SELECT * FROM {settings.GENERAL_TABLE} WHERE name=?", (team.name,))
+    general = c.fetchone()
+    # Get info from League Table
+    c.execute(f"SELECT * FROM {league} WHERE name=?", (team.name,))
+    league = c.fetchone()
+
+    if general and league:
+        # Access the column values from General table
+        name, country, skill, league_titles, ucl, uel, uecl, europe = general
+        # Access the column values from League table
+        name, matches, wins, draws, losses, points, goals_scored, goals_against = league
+
+        # Print the values
+        print("Name:", name)
+        print("Country:", country)
+        print("Skill:", skill)
+        print("Matches played:", matches)
+        print("Wins:", wins)
+        print("Draws:", draws)
+        print("Losses:", losses)
+        print("Points:", points)
+        print("Goals scored:", goals_scored)
+        print("Goals against:", goals_against)
+        print("League Titles:", league_titles)
+        print("UCL:", ucl)
+        print("UEL:", uel)
+        print("UECL:", uecl)
+        print("European Qualification:", europe)
+
+    # Close the connection
+    c.close()
+    conn.close()

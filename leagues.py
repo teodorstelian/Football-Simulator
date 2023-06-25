@@ -1,6 +1,6 @@
 import matches
 import settings
-from classes import Team
+from team import Team
 from database import create_teams_table, get_teams, update_team
 
 
@@ -56,7 +56,7 @@ def simulate_season(league, teams_obj):
         update_team(team, league)  # Update team data in the database
 
     teams = get_teams(league)  # Retrieve teams with updated data from the database
-    return matches.generate_standings(teams)
+    return matches.generate_standings(teams, league)
 
 def get_default_teams_country(teams, country):
     """
