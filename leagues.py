@@ -50,7 +50,7 @@ def simulate_season(league, teams_obj):
     :param teams_obj:
     :return:
     """
-    matches.play_fixture(teams_obj)
+    matches.play_fixture_league(teams_obj)
 
     for team in teams_obj:
         update_team(team, league)  # Update team data in the database

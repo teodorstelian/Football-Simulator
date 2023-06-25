@@ -1,4 +1,7 @@
-from database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats
+import settings
+from database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats, \
+    get_european_teams
+from european_cups import champions_league
 from leagues import simulate_season, select_league
 
 
@@ -16,11 +19,10 @@ class MainProgram:
               "3. See stats for a team \n"
               "4. Simulate European Cup")
         self.choice = input("Select action: ")
-        self.league, self.teams_obj, self.teams_name = select_league()
-        generate_teams_table(self.league, self.teams_obj)
-        create_general_table()
-        for team in self.teams_obj:
-            update_general_table(team)
+        if self.choice != "4":
+            self.league, self.teams_obj, self.teams_name = select_league()
+            generate_teams_table(self.league, self.teams_obj)
+
 
     def select_choice(self):
         if self.choice == "1":
@@ -39,11 +41,18 @@ class MainProgram:
             print("1. Champions League \n"
                   "2. Europa League \n"
                   "3. Europa Conference League \n")
+            cup = input("Select competition:")
+            if cup == "1":
+                self.teams_obj = get_european_teams(competition=settings.UCL)
+                champions_league(self.teams_obj)
 
     def run(self):
         while True:
             self.select_league_and_teams()
             self.select_choice()
+            create_general_table()
+            for team in self.teams_obj:
+                update_general_table(team)
 
 
 if __name__ == "__main__":

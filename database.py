@@ -78,14 +78,13 @@ def get_teams(league):
     teams = []
     for data in teams_data:
         team_name = data[0]
-        team_query = f"SELECT skill, league_titles, europe FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
+        team_query = f"SELECT * FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
         c.execute(team_query)
         team_attrib = c.fetchone()
-        team_skill = team_attrib[0]
-        team_titles = team_attrib[1]
-        europe = team_attrib[2]
-        team = Team(name=team_name, country=league, skill=team_skill, matches=data[1], wins=data[2], draws=data[3],
-                    losses=data[4], points=data[5], scored=data[6], against=data[7], league_titles=team_titles, europe=europe)
+        name, country, skill, titles, ucl, uel, uecl, europe = team_attrib
+        team = Team(name=team_name, country=league, skill=skill, matches=data[1], wins=data[2], draws=data[3],
+                    losses=data[4], points=data[5], scored=data[6], against=data[7], league_titles=titles,
+                    europe=europe, ucl=ucl, uel=uel, uecl=uecl)
         teams.append(team)
     conn.close()
     return teams
@@ -156,3 +155,22 @@ def check_team_stats(team, league):
     # Close the connection
     c.close()
     conn.close()
+
+
+def get_european_teams(competition):
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+    league_query = f"SELECT * FROM {settings.GENERAL_TABLE} where europe='{competition}'"
+    c.execute(league_query)
+    teams_data = c.fetchall()
+    teams = []
+    for data in teams_data:
+        team_name = data[0]
+        team_query = f"SELECT * FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
+        c.execute(team_query)
+        team_attrib = c.fetchone()
+        name, country, skill, titles, ucl, uel, uecl, europe = team_attrib
+        team = Team(name=name, country=country, skill=skill, league_titles=titles, ucl=ucl, uecl=uecl, europe=europe)
+        teams.append(team)
+    conn.close()
+    return teams

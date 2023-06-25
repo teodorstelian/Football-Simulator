@@ -11,12 +11,16 @@ GENERAL_TABLE = "General"
 
 # Europe Places - UCL, UEL, UECL
 # Temporary - To be changed
+UCL = "Champions League"
+UEL = "Europa League"
+UECL = "Europa Conference League"
+
 EUROPEAN_PLACES = {
-    ENG: (2, 3, 4),
-    ESP: (2, 3, 4),
-    GER: (2, 3, 4),
-    FRA: (1, 3, 4),
-    ITA: (1, 3, 4)
+    ENG: (4, 4, 4),
+    ESP: (3, 3, 3),
+    GER: (3, 3, 3),
+    FRA: (3, 3, 3),
+    ITA: (3, 3, 3)
 }
 
 # Teams
@@ -49,7 +53,25 @@ GER_TEAMS = [("Bayern Munich", 100),
              ("Dortmund", 90)]
 
 ITA_TEAMS = [("AC Milan", 90),
-             ("AS Roma", 85)]
+             ("AS Roma", 85),
+             ("Atalanta", 85),
+             ("Bologna", 75),
+             ("Cagliari", 65),
+             ("Empoli", 70),
+             ("Fiorentina", 80),
+             ("Frosinone", 65),
+             ("Genoa", 65),
+             ("Hellas Verona", 65),
+             ("Inter Milan", 90),
+             ("Juventus", 90),
+             ("Lazio", 85),
+             ("Lecce", 70),
+             ("Monza", 75),
+             ("Napoli", 90),
+             ("Salernitana", 70),
+             ("Sassuolo", 70),
+             ("Torino", 75),
+             ("Udinese", 70),]
 
 FRA_TEAMS = [("PSG", 100),
              ("RC Lens", 80)]
