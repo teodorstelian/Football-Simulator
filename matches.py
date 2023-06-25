@@ -2,7 +2,7 @@ import math
 
 import settings
 
-def generate_fixtures_cup(teams):
+def generate_fixtures_cup(teams, competition):
     num_teams = len(teams)
     num_rounds = int(math.log(num_teams, 2))
     current_participants = teams
@@ -20,7 +20,12 @@ def generate_fixtures_cup(teams):
         current_participants = next_round
 
     winner = current_participants[0].name
-    current_participants[0].ucl += 1
+    if competition == settings.UCL:
+        current_participants[0].ucl += 1
+    elif competition == settings.UEL:
+        current_participants[0].uel += 1
+    elif competition == settings.UECL:
+        current_participants[0].uecl += 1
     print("Overall Winner:", winner)
 
 
