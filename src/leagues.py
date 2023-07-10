@@ -13,7 +13,9 @@ def select_league():
           "2. La Liga (Spain) \n"
           "3. Bundesliga (Germany) \n"
           "4. Ligue 1 (France) \n"
-          "5. Serie A (Italy)")
+          "5. Serie A (Italy) \n"
+          "6. Eredivisie (Netherlands) \n"
+          "7. Primeira Liga (Portugal) ")
 
     league_mapping = {
         '1': (settings.ENG, settings.ENG_TEAMS),
@@ -21,6 +23,8 @@ def select_league():
         '3': (settings.GER, settings.GER_TEAMS),
         '4': (settings.FRA, settings.FRA_TEAMS),
         '5': (settings.ITA, settings.ITA_TEAMS),
+        '6': (settings.NED, settings.NED_TEAMS),
+        '7': (settings.POR, settings.POR_TEAMS)
     }
 
     league = input("Enter the league number: ")
@@ -45,7 +49,7 @@ def select_league():
 
 def simulate_league(league, teams):
     """
-        Simulate a league by playing th efixtures, updating the teams and generating the standings
+        Simulate a league by playing the fixtures, updating the teams and generating the standings
     :param league:
     :param teams:
     :return:

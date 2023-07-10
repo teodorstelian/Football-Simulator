@@ -4,23 +4,27 @@ ESP = "Spain"
 GER = "Germany"
 ITA = "Italy"
 FRA = "France"
+NED = "Netherlands"
+POR = "Portugal"
 
 # Databases + Tables
 COMPETITIONS_DB = "Competitions.db"
 GENERAL_TABLE = "General"
 
 # Europe Places - UCL, UEL, UECL
-# Temporary - To be changed
 UCL = "Champions League"
 UEL = "Europa League"
 UECL = "Europa Conference League"
 
+# Temporary - To be changed
 EUROPEAN_PLACES = {
-    ENG: (4, 4, 4),
+    ENG: (3, 3, 3),
     ESP: (3, 3, 3),
     GER: (3, 3, 3),
-    FRA: (3, 3, 3),
-    ITA: (3, 3, 3)
+    FRA: (2, 2, 2),
+    ITA: (3, 3, 3),
+    POR: (1, 1, 1),
+    NED: (1, 1, 1)
 }
 
 # Teams
@@ -125,3 +129,43 @@ FRA_TEAMS = [("Brest", 70),
              ("Rennes", 80),
              ("Strasbourg", 70),
              ("Toulouse", 70)]
+
+NED_TEAMS = [("Ajax", 85),
+             ("Almere City", 60),
+             ("AZ", 75),
+             ("Excelsior", 60),
+             ("Feyenoord", 80),
+             ("Fortuna Sittard", 65),
+             ("Go Ahead Eagles", 65),
+             ("SC Heerenveen", 70),
+             ("Heracles Almelo", 60),
+             ("NEC", 65),
+             ("PEC Zwolle", 60),
+             ("PSV Eindhoven", 80),
+             ("RKC Waalwijk", 65),
+             ("Sparta Rotterdam", 70),
+             ("Twente", 75),
+             ("Utrecht", 70),
+             ("Vitesse", 65),
+             ("Volendam", 60)
+             ]
+
+POR_TEAMS = [("Arouca", 70),
+             ("Benfica", 85),
+             ("Boavista", 70),
+             ("Braga", 80),
+             ("Casa Pia", 65),
+             ("Chaves", 70),
+             ("Estoril", 60),
+             ("Estrela da Amadora", 60),
+             ("Famalicao", 70),
+             ("Farense", 60),
+             ("Gil Vicente", 65),
+             ("Moreirense", 60),
+             ("Portimonense", 60),
+             ("Porto", 85),
+             ("Rio Ave", 65),
+             ("Sporting CP", 80),
+             ("Vitoria de Guimaraes", 75),
+             ("Vizela", 65)
+             ]
