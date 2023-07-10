@@ -43,19 +43,18 @@ def select_league():
 
     return country, teams_obj, teams_name
 
-def simulate_season(league, teams_obj):
+def simulate_league(league, teams):
     """
         Simulate a league by playing th efixtures, updating the teams and generating the standings
     :param league:
-    :param teams_obj:
+    :param teams:
     :return:
     """
-    matches.play_fixture_league(teams_obj)
+    matches.play_fixture_league(teams)
 
-    for team in teams_obj:
+    for team in teams:
         update_team(team, league)  # Update team data in the database
 
-    teams = get_teams(league)  # Retrieve teams with updated data from the database
     return matches.generate_standings(teams, league)
 
 def get_default_teams_country(teams, country):

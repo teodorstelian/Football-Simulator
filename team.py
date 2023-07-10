@@ -20,30 +20,35 @@ class Team:
         self.wins = wins
         self.draws = draws
         self.losses = losses
+        self.current = {"points": 0,
+                        "wins": 0,
+                        "draws": 0,
+                        "losses": 0,
+                        "matches": 0,
+                        "scored": 0,
+                        "against": 0}
 
     def update_goals(self, opponent, scored, conceded):
-        self.goals_scored += scored
-        self.goals_against += conceded
-        opponent.goals_scored += conceded
-        opponent.goals_against += scored
+        self.current["scored"] += scored
+        self.current["against"] += conceded
+        opponent.current["scored"] += conceded
+        opponent.current["against"] += scored
 
     def match_with_extra_time(self, scored, conceded, opponent):
         if scored > conceded:
-            self.wins += 1
-            opponent.losses += 1
+            self.current["wins"] += 1
+            opponent.current["losses"] += 1
             print(f"{self.name} won against {opponent.name} {scored} - {conceded}")
             return self
         elif scored < conceded:
-            opponent.wins += 1
-            self.losses += 1
+            self.current["losses"] += 1
+            opponent.current["wins"] += 1
             print(f"{opponent.name} won against {self.name} {scored} - {conceded}")
             return opponent
         else:
             return "Draw"
 
     def play_match(self, opponent, knockouts = False):
-        self.matches_played += 1
-        opponent.matches_played += 1
         skill_diff = int(self.skill) - int(opponent.skill)
         losing_max = ceil(3-(skill_diff/20))
         winning_max = ceil(3+(skill_diff/20))
@@ -58,19 +63,26 @@ class Team:
             self.update_goals(opponent, goals_scored, goals_conceded)
             return result
         elif goals_scored > goals_conceded:
-            self.points += 3
-            self.wins += 1
-            opponent.losses += 1
+            self.current["wins"] += 1
+            opponent.current["losses"] += 1
             print(f"{self.name} won against {opponent.name} {goals_scored} - {goals_conceded}")
         elif goals_scored < goals_conceded:
-            opponent.points += 3
-            opponent.wins += 1
-            self.losses += 1
+            opponent.current["wins"] += 1
+            self.current["losses"] += 1
             print(f"{opponent.name} won against {self.name} {goals_scored} - {goals_conceded}")
         else:
-            self.points += 1
-            opponent.points += 1
-            self.draws += 1
-            opponent.draws += 1
+            self.current["draws"] += 1
+            opponent.current["draws"] += 1
             print(f"{self.name} drew with {opponent.name} {goals_scored} - {goals_conceded}")
         self.update_goals(opponent, goals_scored, goals_conceded)
+
+    def update_current(self):
+        self.wins += self.current["wins"]
+        self.draws += self.current["draws"]
+        self.losses += self.current["losses"]
+        self.current["matches"] = self.current["wins"] + self.current["draws"] + self.current["losses"]
+        self.matches_played += self.current["matches"]
+        self.current["points"] = 3 * self.current["wins"] + self.current["draws"]
+        self.points += self.current["points"]
+        self.goals_scored += self.current["scored"]
+        self.goals_against += self.current["against"]

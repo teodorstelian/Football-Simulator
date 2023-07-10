@@ -17,6 +17,8 @@ def generate_fixtures_cup(teams, competition):
             away = current_participants[i + 1]
             winner = home.play_match(away, knockouts=True)
             next_round.append(winner)
+        for team in current_participants:
+            team.update_current()
         current_participants = next_round
 
     winner = current_participants[0].name
@@ -53,9 +55,12 @@ def play_fixture_league(teams):
         for home, away in round_fixtures:
             home.play_match(away)
 
+    for team in teams:
+        team.update_current()
+
 def generate_standings(teams, league):
     print("--- Final Standings ---")
-    teams.sort(key=lambda x: (x.points, x.wins, x.goals_scored), reverse=True)
+    teams.sort(key=lambda x: (x.current['points'], x.current['wins'], x.current['scored']), reverse=True)
     cl_places = settings.EUROPEAN_PLACES[league][0]
     el_places = settings.EUROPEAN_PLACES[league][1]
     ecl_places = settings.EUROPEAN_PLACES[league][2]
@@ -73,8 +78,10 @@ def generate_standings(teams, league):
             team.europe = settings.UECL
         else:
             team.europe = "No qualification"
+        current_team = team.current
         print(
-            f"{i + 1}. {team.name} - {team.points} points - {team.wins} wins - {team.draws} draws - {team.losses} losses"
-            f" - {team.goals_scored} scored - {team.goals_against} against - {team.europe}")
+            f"{i + 1}. {team.name} - {current_team['points']} points - {current_team['wins']} wins - "
+            f"{current_team['draws']} draws - {current_team['losses']} losses"
+            f" - {current_team['scored']} scored - {current_team['against']} against - {team.europe}")
 
     return teams
