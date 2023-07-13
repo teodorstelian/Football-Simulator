@@ -27,6 +27,8 @@ POR = {"name": "Portugal",
        "teams": POR_TEAMS,
        "europe": [1, 1, 1]}
 
+ALL_COUNTRIES = [ENG, ESP, GER, ITA, FRA, NED, POR]
+
 # Europe Places - UCL, UEL, UECL
 UCL = "Champions League"
 UEL = "Europa League"

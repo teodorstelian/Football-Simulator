@@ -31,7 +31,8 @@ class MainProgram:
               "6. See stats for a team \n"
               )
         self.choice = input("Select action: ")
-        if self.choice != "4":
+        no_selection = ["1", "4"]
+        if self.choice not in no_selection:
             country = select_league()
             self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(country)
             generate_teams_table(self.league, self.teams_obj)
@@ -44,7 +45,13 @@ class MainProgram:
             update_general_table(team)
 
     def simulate_season(self):
-        pass
+        """Simulates a season by playing all leagues and all european"""
+        for country in settings.ALL_COUNTRIES:
+            self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(country)
+            generate_teams_table(self.league, self.teams_obj)
+            self.simulate_league()
+            self.simulate_cup()
+        self.simulate_european(all_comps=True)
 
     def simulate_league(self):
         """Simulate a league"""
@@ -54,21 +61,26 @@ class MainProgram:
     def simulate_cup(self):
         pass
 
-    def simulate_european(self):
-        print("1. Champions League \n"
-              "2. Europa League \n"
-              "3. Europa Conference League \n")
-        cup = input("Select competition:")
-        if cup == "1":
-            competition = settings.UCL
-        elif cup == "2":
-            competition = settings.UEL
-        elif cup == "3":
-            competition = settings.UECL
-        else:
-            return
-        self.teams_obj = get_european_teams(competition)
-        play_european_cup(self.teams_obj, competition)
+    def simulate_european(self, all_comps=False):
+        if not all_comps:
+            print("1. Champions League \n"
+                  "2. Europa League \n"
+                  "3. Europa Conference League \n")
+            cup = input("Select competition:")
+            if cup == "1":
+                competition = settings.UCL
+            elif cup == "2":
+                competition = settings.UEL
+            elif cup == "3":
+                competition = settings.UECL
+            else:
+                return
+            self.teams_obj = get_european_teams(competition)
+            play_european_cup(self.teams_obj, competition)
+        elif all_comps:
+            for competition in [settings.UECL, settings.UEL, settings.UCL]:
+                self.teams_obj = get_european_teams(competition)
+                play_european_cup(self.teams_obj, competition)
 
     def check_team_stats(self):
         input_team = input("Select team: ")
