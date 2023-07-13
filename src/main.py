@@ -2,7 +2,7 @@ import settings
 from database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats, \
     get_european_teams
 from european_cups import play_european_cup
-from leagues import simulate_league, select_league
+from leagues import simulate_league, select_league, select_teams_from_league
 
 
 class MainProgram:
@@ -10,6 +10,7 @@ class MainProgram:
         # Initialize any variables or resources needed
         self.choice = None
         self.league = None
+        self.europe_places = None
         self.teams_name = []
         self.teams_obj = []
 
@@ -31,7 +32,8 @@ class MainProgram:
               )
         self.choice = input("Select action: ")
         if self.choice != "4":
-            self.league, self.teams_obj, self.teams_name = select_league()
+            country = select_league()
+            self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(country)
             generate_teams_table(self.league, self.teams_obj)
         self.update_general(create=True)
 
@@ -46,7 +48,7 @@ class MainProgram:
 
     def simulate_league(self):
         """Simulate a league"""
-        self.teams_obj = simulate_league(self.league, self.teams_obj)
+        self.teams_obj = simulate_league(self.league, self.teams_obj, self.europe_places)
         self.update_general()
 
     def simulate_cup(self):
@@ -75,7 +77,6 @@ class MainProgram:
                 update_general_table(team)
                 check_team_stats(team, self.league)
 
-
     def select_choice(self):
         if self.choice == "1":
             self.simulate_season()
@@ -89,7 +90,6 @@ class MainProgram:
             get_best_teams(self.league)
         if self.choice == "6":
             self.check_team_stats()
-
 
 
 if __name__ == "__main__":

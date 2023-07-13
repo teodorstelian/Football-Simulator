@@ -2,6 +2,7 @@ import math
 
 import settings
 
+
 def generate_fixtures_cup(teams, competition):
     num_teams = len(teams)
     num_rounds = int(math.log(num_teams, 2))
@@ -47,6 +48,7 @@ def generate_fixtures_league(teams):
     # Returns double the number of fixtures because of the 2 times schedule in leagues
     return fixtures + fixtures
 
+
 def play_fixture_league(teams):
     fixtures = generate_fixtures_league(teams)
 
@@ -58,12 +60,13 @@ def play_fixture_league(teams):
     for team in teams:
         team.update_current()
 
-def generate_standings(teams, league):
+
+def generate_standings(teams, europe):
     print("--- Final Standings ---")
     teams.sort(key=lambda x: (x.current['points'], x.current['wins'], x.current['scored']), reverse=True)
-    cl_places = settings.EUROPEAN_PLACES[league][0]
-    el_places = settings.EUROPEAN_PLACES[league][1]
-    ecl_places = settings.EUROPEAN_PLACES[league][2]
+    cl_places = europe[0]
+    el_places = europe[1]
+    ecl_places = europe[2]
 
     for i, team in enumerate(teams):
         if i == 0:

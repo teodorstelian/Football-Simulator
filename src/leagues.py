@@ -18,36 +18,43 @@ def select_league():
           "7. Primeira Liga (Portugal) ")
 
     league_mapping = {
-        '1': (settings.ENG, settings.ENG_TEAMS),
-        '2': (settings.ESP, settings.ESP_TEAMS),
-        '3': (settings.GER, settings.GER_TEAMS),
-        '4': (settings.FRA, settings.FRA_TEAMS),
-        '5': (settings.ITA, settings.ITA_TEAMS),
-        '6': (settings.NED, settings.NED_TEAMS),
-        '7': (settings.POR, settings.POR_TEAMS)
+        '1': settings.ENG,
+        '2': settings.ESP,
+        '3': settings.GER,
+        '4': settings.FRA,
+        '5': settings.ITA,
+        '6': settings.NED,
+        '7': settings.POR
     }
 
-    league = input("Enter the league number: ")
-    country, teams = league_mapping.get(league, (None, None))
-    create_teams_table(country) # Create the league table if it doesn't exist
-    teams_obj = get_teams(country)
+    user_input = input("Enter the league number: ")
+    country = league_mapping.get(user_input)
+    return country
+
+
+def select_teams_from_league(country):
+    country_name = country["name"]
+    teams = country["teams"]
+    europe_places = country["europe"]
+    create_teams_table(country_name)  # Create the league table if it doesn't exist
+    teams_obj = get_teams(country_name)
     # Checks if the database is empty
     if len(teams_obj) == 0:
         # Get original teams from settings
-        teams_obj, teams_name = get_default_teams_country(teams, country)
+        teams_obj, teams_name = get_default_teams_country(teams, country_name)
     else:
         teams_name = [team.name for team in teams_obj]
 
-    if country is None or teams_obj is None or teams_name is None:
+    if country_name is None or teams_obj is None or teams_name is None:
         raise ValueError("Invalid value")
 
-    print(f"Selected league: {league}")
-    print(f"Country: {country}")
+    print(f"Country: {country_name}")
     print(f"Teams: {teams_name}")
 
-    return country, teams_obj, teams_name
+    return country_name, teams_obj, teams_name, europe_places
 
-def simulate_league(league, teams):
+
+def simulate_league(league, teams, europe):
     """
         Simulate a league by playing the fixtures, updating the teams and generating the standings
     :param league:
@@ -59,7 +66,8 @@ def simulate_league(league, teams):
     for team in teams:
         update_team(team, league)  # Update team data in the database
 
-    return matches.generate_standings(teams, league)
+    return matches.generate_standings(teams, europe)
+
 
 def get_default_teams_country(teams, country):
     """
