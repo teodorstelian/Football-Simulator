@@ -1,22 +1,37 @@
 import math
+from pathlib import Path
 
 import settings
+
+
+def play_european_cup(teams, competition):
+    competition_text = Path(f"{settings.RESULTS_FOLDER}/{competition}.txt")
+    competition_text.touch(exist_ok=True)
+    teams_name = [team.name for team in teams]
+    print(teams_name)
+    with open(competition_text, 'a') as file:
+        file.write(f"Teams of current competition: {teams_name}\n")
+    generate_fixtures_cup(teams, competition)
 
 
 def generate_fixtures_cup(teams, competition):
     num_teams = len(teams)
     num_rounds = int(math.log(num_teams, 2))
     current_participants = teams
+    competition_text = Path(f"{settings.RESULTS_FOLDER}/{competition}.txt")
+    competition_text.touch(exist_ok=True)
 
     for round_num in range(num_rounds):
         round_name = f"Round {str(round_num + 1)}"
+        with open(competition_text, 'a') as file:
+            file.write(f"Current round: {round_name}\n")
         print(round_name)
         next_round = []
 
         for i in range(0, len(current_participants), 2):
             home = current_participants[i]
             away = current_participants[i + 1]
-            winner = home.play_match(away, knockouts=True)
+            winner = home.play_match(away, knockouts=True, file=competition_text)
             next_round.append(winner)
         for team in current_participants:
             team.update_current()
@@ -30,6 +45,12 @@ def generate_fixtures_cup(teams, competition):
     elif competition == settings.UECL:
         current_participants[0].uecl += 1
     print("Overall Winner:", winner)
+    with open(competition_text, 'a') as file:
+        file.write(f"Winner of {competition}: {winner}\n")
+    winners_file = Path(f"{settings.RESULTS_FOLDER}/{settings.WINNERS_TEXT}")
+    winners_file.touch(exist_ok=True)
+    with open(winners_file, 'a') as winners:
+        winners.write(f"Winner of {competition}: {winner}\n")
 
 
 def generate_fixtures_league(teams):
@@ -61,16 +82,24 @@ def play_fixture_league(teams):
         team.update_current()
 
 
-def generate_standings(teams, europe):
+def generate_standings(teams, league, europe):
     print("--- Final Standings ---")
     teams.sort(key=lambda x: (x.current['points'], x.current['wins'], x.current['scored']), reverse=True)
     cl_places = europe[0]
     el_places = europe[1]
     ecl_places = europe[2]
+    league_text = Path(f"{settings.RESULTS_FOLDER}/{league}.txt")
+    league_text.touch(exist_ok=True)
 
     for i, team in enumerate(teams):
         if i == 0:
-            print(f"Winner: {team.name}")
+            with open(league_text, 'a') as file:
+                file.write(f"Winner of {league}: {team.name}\n")
+            print(f"Winner of {league}: {team.name}")
+            winners_file = Path(f"{settings.RESULTS_FOLDER}/{settings.WINNERS_TEXT}")
+            winners_file.touch(exist_ok=True)
+            with open(winners_file, 'a') as winners:
+                winners.write(f"Winner of {league}: {team.name}\n")
             team.league_titles += 1
             team.europe = settings.UCL
         elif i < cl_places:
@@ -82,6 +111,11 @@ def generate_standings(teams, europe):
         else:
             team.europe = "No qualification"
         current_team = team.current
+        with open(league_text, 'a') as file:
+            file.write(
+                f"{i + 1}. {team.name} - {current_team['points']} points - {current_team['wins']} wins - "
+                f"{current_team['draws']} draws - {current_team['losses']} losses"
+                f" - {current_team['scored']} scored - {current_team['against']} against - {team.europe}\n")
         print(
             f"{i + 1}. {team.name} - {current_team['points']} points - {current_team['wins']} wins - "
             f"{current_team['draws']} draws - {current_team['losses']} losses"

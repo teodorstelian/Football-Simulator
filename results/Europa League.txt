@@ -1,0 +1,21 @@
+Teams of current competition: ['Brighton', 'Manchester City', 'Newcastle United', 'Rayo Vallecano', 'Real Madrid', 'Sevilla', 'SC Freiburg', '1899 Hoffenheim', '1. FC Koln', 'AS Monaco', 'Nice', 'AC Milan', 'Inter Milan', 'Monza', 'SC Heerenveen', 'Braga']
+Current round: Round 1
+Manchester City won against Brighton 5 - 3
+Rayo Vallecano won against Newcastle United 2 - 1
+Real Madrid won against Sevilla 3 - 2
+SC Freiburg won against 1899 Hoffenheim 4 - 0
+AS Monaco won against 1. FC Koln 4 - 2
+AC Milan won against Nice 3 - 0
+Inter Milan won against Monza 2 - 0
+SC Heerenveen won against Braga 5 - 4
+Current round: Round 2
+Rayo Vallecano won against Manchester City 2 - 1
+SC Freiburg won against Real Madrid 2 - 0
+AC Milan won against AS Monaco 3 - 0
+Inter Milan won against SC Heerenveen 4 - 2
+Current round: Round 3
+SC Freiburg won against Rayo Vallecano 2 - 1
+AC Milan won against Inter Milan 3 - 0
+Current round: Round 4
+AC Milan won against SC Freiburg 6 - 5
+Winner of Europa League: AC Milan

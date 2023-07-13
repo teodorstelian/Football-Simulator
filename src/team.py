@@ -34,46 +34,62 @@ class Team:
         opponent.current["scored"] += conceded
         opponent.current["against"] += scored
 
-    def match_with_extra_time(self, scored, conceded, opponent):
+    def match_with_extra_time(self, scored, conceded, opponent, file=None):
         if scored > conceded:
             self.current["wins"] += 1
             opponent.current["losses"] += 1
             print(f"{self.name} won against {opponent.name} {scored} - {conceded}")
+            if file:
+                with open(file, 'a') as file:
+                    file.write(f"{self.name} won against {opponent.name} {scored} - {conceded}\n")
             return self
         elif scored < conceded:
             self.current["losses"] += 1
             opponent.current["wins"] += 1
-            print(f"{opponent.name} won against {self.name} {scored} - {conceded}")
+            print(f"{opponent.name} won against {self.name} {conceded} - {scored}")
+            if file:
+                with open(file, 'a') as file:
+                    file.write(f"{opponent.name} won against {self.name} {conceded} - {scored}\n")
             return opponent
         else:
             return "Draw"
 
-    def play_match(self, opponent, knockouts = False):
+    def play_match(self, opponent, knockouts=False, file=None):
         skill_diff = int(self.skill) - int(opponent.skill)
-        losing_max = ceil(3-(skill_diff/20))
-        winning_max = ceil(3+(skill_diff/20))
+        losing_max = ceil(3 - (skill_diff / 20))
+        winning_max = ceil(3 + (skill_diff / 20))
         goals_scored = random.randint(0, winning_max)
         goals_conceded = random.randint(0, losing_max)
         if knockouts:
-            result = self.match_with_extra_time(goals_scored, goals_conceded, opponent)
+            result = self.match_with_extra_time(goals_scored, goals_conceded, opponent, file)
             while result == "Draw":
                 goals_scored += random.randint(0, winning_max)
                 goals_conceded += random.randint(0, losing_max)
-                result = self.match_with_extra_time(goals_scored, goals_conceded, opponent)
+                result = self.match_with_extra_time(goals_scored, goals_conceded, opponent, file)
             self.update_goals(opponent, goals_scored, goals_conceded)
             return result
         elif goals_scored > goals_conceded:
             self.current["wins"] += 1
             opponent.current["losses"] += 1
             print(f"{self.name} won against {opponent.name} {goals_scored} - {goals_conceded}")
+            if file:
+                with open(file, 'a') as file:
+                    file.write(f"{self.name} won against {opponent.name} {goals_scored} - {goals_conceded}\n")
+
         elif goals_scored < goals_conceded:
             opponent.current["wins"] += 1
             self.current["losses"] += 1
-            print(f"{opponent.name} won against {self.name} {goals_scored} - {goals_conceded}")
+            print(f"{opponent.name} won against {self.name} {goals_conceded} - {goals_scored}")
+            if file:
+                with open(file, 'a') as file:
+                    file.write(f"{opponent.name} won against {self.name} {goals_conceded} - {goals_scored}\n")
         else:
             self.current["draws"] += 1
             opponent.current["draws"] += 1
             print(f"{self.name} drew with {opponent.name} {goals_scored} - {goals_conceded}")
+            if file:
+                with open(file, 'a') as file:
+                    file.write(f"{self.name} drew with {opponent.name} {goals_scored} - {goals_conceded}\n")
         self.update_goals(opponent, goals_scored, goals_conceded)
 
     def update_current(self):

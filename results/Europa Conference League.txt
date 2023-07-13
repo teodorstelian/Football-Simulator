@@ -1,0 +1,21 @@
+Teams of current competition: ['Brentford', 'Chelsea', 'Manchester United', 'Real Betis', 'Real Sociedad', 'Valencia', 'FC Augsburg', 'Mainz 05', 'Borussia Monchengladbach', 'RC Lens', 'Olympique Lyon', 'Fiorentina', 'Salernitana', 'Torino', 'Twente', 'Porto']
+Current round: Round 1
+Brentford won against Chelsea 2 - 0
+Manchester United won against Real Betis 4 - 0
+Real Sociedad won against Valencia 4 - 2
+Mainz 05 won against FC Augsburg 3 - 2
+Borussia Monchengladbach won against RC Lens 3 - 1
+Fiorentina won against Olympique Lyon 3 - 0
+Torino won against Salernitana 4 - 0
+Twente won against Porto 3 - 1
+Current round: Round 2
+Manchester United won against Brentford 2 - 1
+Real Sociedad won against Mainz 05 3 - 0
+Fiorentina won against Borussia Monchengladbach 3 - 2
+Torino won against Twente 6 - 4
+Current round: Round 3
+Manchester United won against Real Sociedad 6 - 3
+Fiorentina won against Torino 4 - 3
+Current round: Round 4
+Manchester United won against Fiorentina 3 - 1
+Winner of Europa Conference League: Manchester United

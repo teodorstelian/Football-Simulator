@@ -1,5 +1,9 @@
 from src.all_teams import *
 
+# Folders
+RESULTS_FOLDER = "../results"
+WINNERS_TEXT = "winners.txt"
+
 # Databases + Tables
 COMPETITIONS_DB = "Competitions.db"
 GENERAL_TABLE = "General"

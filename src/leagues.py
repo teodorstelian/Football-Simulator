@@ -66,7 +66,7 @@ def simulate_league(league, teams, europe):
     for team in teams:
         update_team(team, league)  # Update team data in the database
 
-    return matches.generate_standings(teams, europe)
+    return matches.generate_standings(teams, league, europe)
 
 
 def get_default_teams_country(teams, country):

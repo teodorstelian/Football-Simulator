@@ -1,8 +1,8 @@
 import settings
 from database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats, \
     get_european_teams
-from european_cups import play_european_cup
 from leagues import simulate_league, select_league, select_teams_from_league
+from src.matches import play_european_cup
 
 
 class MainProgram:
@@ -59,9 +59,14 @@ class MainProgram:
         self.update_general()
 
     def simulate_cup(self):
+        """Simulate a cup"""
         pass
 
     def simulate_european(self, all_comps=False):
+        """
+            Simulate a european cup
+        :param all_comps: If True, simulate all cups
+        """
         if not all_comps:
             print("1. Champions League \n"
                   "2. Europa League \n"
@@ -83,6 +88,9 @@ class MainProgram:
                 play_european_cup(self.teams_obj, competition)
 
     def check_team_stats(self):
+        """
+            Check the stats of a team
+        """
         input_team = input("Select team: ")
         for team in self.teams_obj:
             if input_team == team.name:
