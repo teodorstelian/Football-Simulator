@@ -1,21 +1,22 @@
-Winner of Italy: Juventus
-1. Juventus - 83 points - 25 wins - 8 draws - 5 losses - 85 scored - 43 against - Champions League
-2. Napoli - 77 points - 23 wins - 8 draws - 7 losses - 80 scored - 43 against - Champions League
-3. Lazio - 70 points - 20 wins - 10 draws - 8 losses - 80 scored - 55 against - Champions League
-4. AC Milan - 66 points - 21 wins - 3 draws - 14 losses - 71 scored - 46 against - Europa League
-5. Inter Milan - 64 points - 19 wins - 7 draws - 12 losses - 78 scored - 56 against - Europa League
-6. Monza - 62 points - 18 wins - 8 draws - 12 losses - 76 scored - 67 against - Europa League
-7. Torino - 62 points - 17 wins - 11 draws - 10 losses - 64 scored - 53 against - Europa Conference League
-8. Salernitana - 57 points - 16 wins - 9 draws - 13 losses - 62 scored - 63 against - Europa Conference League
-9. Fiorentina - 56 points - 17 wins - 5 draws - 16 losses - 74 scored - 74 against - Europa Conference League
-10. Sassuolo - 50 points - 14 wins - 8 draws - 16 losses - 66 scored - 70 against - No qualification
-11. Atalanta - 50 points - 13 wins - 11 draws - 14 losses - 70 scored - 66 against - No qualification
-12. AS Roma - 48 points - 14 wins - 6 draws - 18 losses - 69 scored - 69 against - No qualification
-13. Hellas Verona - 47 points - 13 wins - 8 draws - 17 losses - 59 scored - 70 against - No qualification
-14. Udinese - 46 points - 14 wins - 4 draws - 20 losses - 60 scored - 74 against - No qualification
-15. Bologna - 44 points - 10 wins - 14 draws - 14 losses - 55 scored - 66 against - No qualification
-16. Empoli - 41 points - 12 wins - 5 draws - 21 losses - 64 scored - 79 against - No qualification
-17. Frosinone - 39 points - 11 wins - 6 draws - 21 losses - 63 scored - 89 against - No qualification
-18. Cagliari - 37 points - 10 wins - 7 draws - 21 losses - 41 scored - 73 against - No qualification
-19. Lecce - 36 points - 10 wins - 6 draws - 22 losses - 50 scored - 77 against - No qualification
-20. Genoa - 29 points - 7 wins - 8 draws - 23 losses - 48 scored - 82 against - No qualification
+Winner of League: Napoli
+1. Napoli - 84 points - 26 wins - 6 draws - 6 losses - 74 scored - 42 against - Champions League
+2. Lazio - 76 points - 24 wins - 4 draws - 10 losses - 86 scored - 55 against - Champions League
+3. AS Roma - 70 points - 21 wins - 7 draws - 10 losses - 75 scored - 54 against - Champions League
+4. Fiorentina - 70 points - 21 wins - 7 draws - 10 losses - 66 scored - 41 against - Europa League
+5. AC Milan - 66 points - 20 wins - 6 draws - 12 losses - 68 scored - 51 against - Europa League
+6. Juventus - 61 points - 18 wins - 7 draws - 13 losses - 74 scored - 55 against - Europa League
+7. Atalanta - 61 points - 18 wins - 7 draws - 13 losses - 70 scored - 62 against - Europa Conference League
+8. Monza - 59 points - 17 wins - 8 draws - 13 losses - 61 scored - 52 against - Europa Conference League
+9. Salernitana - 56 points - 16 wins - 8 draws - 14 losses - 57 scored - 59 against - Europa Conference League
+10. Bologna - 53 points - 15 wins - 8 draws - 15 losses - 58 scored - 59 against - No qualification
+11. Inter Milan - 52 points - 14 wins - 10 draws - 14 losses - 56 scored - 46 against - No qualification
+12. Genoa - 46 points - 15 wins - 1 draws - 22 losses - 62 scored - 74 against - No qualification
+13. Torino - 44 points - 13 wins - 5 draws - 20 losses - 57 scored - 72 against - No qualification
+14. Hellas Verona - 44 points - 12 wins - 8 draws - 18 losses - 48 scored - 69 against - No qualification
+15. Frosinone - 43 points - 13 wins - 4 draws - 21 losses - 54 scored - 69 against - No qualification
+16. Udinese - 43 points - 12 wins - 7 draws - 19 losses - 68 scored - 83 against - No qualification
+17. Empoli - 40 points - 11 wins - 7 draws - 20 losses - 47 scored - 66 against - No qualification
+18. Cagliari - 38 points - 10 wins - 8 draws - 20 losses - 45 scored - 69 against - No qualification
+19. Sassuolo - 34 points - 9 wins - 7 draws - 22 losses - 50 scored - 72 against - No qualification
+20. Lecce - 32 points - 7 wins - 11 draws - 20 losses - 48 scored - 74 against - No qualification
+Winner of Italy Cup: Monza

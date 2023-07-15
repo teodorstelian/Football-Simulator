@@ -28,8 +28,7 @@ def select_league():
     }
 
     user_input = input("Enter the league number: ")
-    country = league_mapping.get(user_input)
-    return country
+    return league_mapping.get(user_input)
 
 
 def select_teams_from_league(country):
@@ -37,7 +36,7 @@ def select_teams_from_league(country):
     teams = country["teams"]
     europe_places = country["europe"]
     create_teams_table(country_name)  # Create the league table if it doesn't exist
-    teams_obj = get_teams(country_name)
+    teams_obj = get_teams(league=country_name)
     # Checks if the database is empty
     if len(teams_obj) == 0:
         # Get original teams from settings
@@ -54,11 +53,12 @@ def select_teams_from_league(country):
     return country_name, teams_obj, teams_name, europe_places
 
 
-def simulate_league(league, teams, europe):
+def league_simulation(league, teams, europe):
     """
         Simulate a league by playing the fixtures, updating the teams and generating the standings
-    :param league:
-    :param teams:
+    :param europe: How many places are for UCL, UEL, UECL
+    :param league: The league we want to simulate
+    :param teams: The teams found in the league
     :return:
     """
     matches.play_fixture_league(teams)
@@ -67,6 +67,16 @@ def simulate_league(league, teams, europe):
         update_team(team, league)  # Update team data in the database
 
     return matches.generate_standings(teams, league, europe)
+
+def cup_simulation(league, teams):
+    sorted_teams = sorted(teams, key=lambda x: x.skill, reverse=True)
+    new_teams = sorted_teams[:16]
+
+    teams = matches.play_country_cup(new_teams, league)
+
+    for team in teams:
+        update_team(team, league)  # Update team data in the database
+    return teams
 
 
 def get_default_teams_country(teams, country):

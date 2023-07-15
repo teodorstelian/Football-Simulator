@@ -1,21 +1,21 @@
-Teams of current competition: ['Brighton', 'Manchester City', 'Newcastle United', 'Rayo Vallecano', 'Real Madrid', 'Sevilla', 'SC Freiburg', '1899 Hoffenheim', '1. FC Koln', 'AS Monaco', 'Nice', 'AC Milan', 'Inter Milan', 'Monza', 'SC Heerenveen', 'Braga']
+Teams of current competition: ['Tottenham Hotspur', 'Manchester United', 'Everton', 'Barcelona', 'Real Sociedad', 'Valencia', 'Werder Bremen', 'Union Berlin', 'Eintracht Frankfurt', 'Juventus', 'AC Milan', 'Fiorentina', 'PSG', 'Lille', 'Sparta Rotterdam', 'Sporting CP']
 Current round: Round 1
-Manchester City won against Brighton 5 - 3
-Rayo Vallecano won against Newcastle United 2 - 1
-Real Madrid won against Sevilla 3 - 2
-SC Freiburg won against 1899 Hoffenheim 4 - 0
-AS Monaco won against 1. FC Koln 4 - 2
-AC Milan won against Nice 3 - 0
-Inter Milan won against Monza 2 - 0
-SC Heerenveen won against Braga 5 - 4
+Manchester United won against Tottenham Hotspur 3 - 2
+Everton won against Barcelona 2 - 1
+Real Sociedad won against Valencia 4 - 3
+Union Berlin won against Werder Bremen 4 - 3
+Eintracht Frankfurt won against Juventus 3 - 1
+AC Milan won against Fiorentina 3 - 1
+PSG won against Lille 4 - 0
+Sparta Rotterdam won against Sporting CP 3 - 0
 Current round: Round 2
-Rayo Vallecano won against Manchester City 2 - 1
-SC Freiburg won against Real Madrid 2 - 0
-AC Milan won against AS Monaco 3 - 0
-Inter Milan won against SC Heerenveen 4 - 2
+Manchester United won against Everton 4 - 1
+Union Berlin won against Real Sociedad 1 - 0
+Eintracht Frankfurt won against AC Milan 1 - 0
+Sparta Rotterdam won against PSG 3 - 2
 Current round: Round 3
-SC Freiburg won against Rayo Vallecano 2 - 1
-AC Milan won against Inter Milan 3 - 0
+Manchester United won against Union Berlin 4 - 0
+Eintracht Frankfurt won against Sparta Rotterdam 1 - 0
 Current round: Round 4
-AC Milan won against SC Freiburg 6 - 5
-Winner of Europa League: AC Milan
+Manchester United won against Eintracht Frankfurt 4 - 0
+Winner of Europa League: Manchester United

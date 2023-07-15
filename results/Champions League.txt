@@ -1,21 +1,21 @@
-Teams of current competition: ['Arsenal', 'Liverpool', 'Tottenham Hotspur', 'Athletic Bilbao', 'Atletico Madrid', 'Barcelona', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'PSG', 'Rennes', 'Juventus', 'Lazio', 'Napoli', 'Feyenoord', 'Sporting CP']
+Teams of current competition: ['Manchester City', 'Liverpool', 'Arsenal', 'Real Madrid', 'Atletico Madrid', 'Sevilla', 'Borussia Dortmund', 'Bayern Munchen', 'RB Leipzig', 'Napoli', 'AS Roma', 'Lazio', 'Rennes', 'AS Monaco', 'PSV Eindhoven', 'Porto']
 Current round: Round 1
-Arsenal won against Liverpool 1 - 0
-Tottenham Hotspur won against Athletic Bilbao 1 - 0
-Atletico Madrid won against Barcelona 3 - 1
-Borussia Dortmund won against RB Leipzig 4 - 3
-PSG won against Bayern Munchen 3 - 2
-Juventus won against Rennes 8 - 6
-Napoli won against Lazio 4 - 1
-Sporting CP won against Feyenoord 3 - 1
+Manchester City won against Liverpool 2 - 0
+Real Madrid won against Arsenal 3 - 0
+Sevilla won against Atletico Madrid 1 - 0
+Bayern Munchen won against Borussia Dortmund 4 - 2
+Napoli won against RB Leipzig 3 - 0
+Lazio won against AS Roma 1 - 0
+AS Monaco won against Rennes 3 - 2
+Porto won against PSV Eindhoven 4 - 2
 Current round: Round 2
-Tottenham Hotspur won against Arsenal 1 - 0
-Atletico Madrid won against Borussia Dortmund 6 - 3
-PSG won against Juventus 2 - 1
-Sporting CP won against Napoli 1 - 0
+Manchester City won against Real Madrid 6 - 5
+Sevilla won against Bayern Munchen 3 - 0
+Lazio won against Napoli 2 - 1
+Porto won against AS Monaco 3 - 0
 Current round: Round 3
-Atletico Madrid won against Tottenham Hotspur 3 - 1
-PSG won against Sporting CP 3 - 0
+Manchester City won against Sevilla 3 - 0
+Porto won against Lazio 3 - 1
 Current round: Round 4
-Atletico Madrid won against PSG 3 - 1
-Winner of Champions League: Atletico Madrid
+Manchester City won against Porto 2 - 0
+Winner of Champions League: Manchester City

@@ -3,12 +3,13 @@ from math import ceil
 
 
 class Team:
-    def __init__(self, name, country, skill, league_titles=0, ucl=0, uel=0, uecl=0, europe="No Europe",
+    def __init__(self, name, country, skill, league_titles=0, cup_titles=0, ucl=0, uel=0, uecl=0, europe="No Europe",
                  matches=0, wins=0, draws=0, losses=0, points=0, scored=0, against=0):
         self.name = name
         self.country = country
         self.skill = skill
         self.league_titles = league_titles
+        self.cup_titles = cup_titles
         self.ucl = ucl
         self.uel = uel
         self.uecl = uecl

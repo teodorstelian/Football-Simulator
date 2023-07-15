@@ -42,7 +42,8 @@ def create_general_table():
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
     query = f'''CREATE TABLE IF NOT EXISTS {settings.GENERAL_TABLE} 
-    (name TEXT, country TEXT, skill INTEGER, league_titles INTEGER, ucl INTEGER, uel INTEGER, uecl INTEGER, europe TEXT) '''
+    (name TEXT, country TEXT, skill INTEGER, league_titles INTEGER, cup_titles INTEGER, 
+    ucl INTEGER, uel INTEGER, uecl INTEGER, europe TEXT) '''
     c.execute(query)
     conn.commit()
     conn.close()
@@ -58,22 +59,27 @@ def update_general_table(team):
 
     if count == 0:  # Team name does not exist, insert a new row
         query = f"INSERT INTO {settings.GENERAL_TABLE} " \
-                f"(name, country, skill, league_titles, ucl, uel, uecl, europe) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
-        c.execute(query, (team.name, team.country, team.skill, team.league_titles, team.ucl, team.uel, team.uecl, team.europe))
+                f"(name, country, skill, league_titles, cup_titles, ucl, uel, uecl, europe) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        c.execute(query, (team.name, team.country, team.skill, team.league_titles, team.cup_titles, team.ucl, team.uel, team.uecl, team.europe))
     else:  # Team name exists, update the matching row
         query = f"UPDATE {settings.GENERAL_TABLE} " \
-                f"SET country=?, skill=?, league_titles=?, ucl=?, uel=?, uecl=?, europe=? WHERE name=?"
-        c.execute(query, (team.country, team.skill, team.league_titles, team.ucl, team.uel, team.uecl, team.europe, team.name))
+                f"SET country=?, skill=?, league_titles=?, cup_titles=?, ucl=?, uel=?, uecl=?, europe=? WHERE name=?"
+        c.execute(query, (team.country, team.skill, team.league_titles, team.cup_titles, team.ucl, team.uel, team.uecl, team.europe, team.name))
 
     conn.commit()
     conn.close()
 
 
-def get_teams(league):
+def get_teams(league=None, european_cup=None):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
-    league_query = f"SELECT * FROM {league}"
-    c.execute(league_query)
+    if league:
+        query = f"SELECT * FROM {league}"
+    elif european_cup:
+        query = f"SELECT * FROM {settings.GENERAL_TABLE} where europe='{european_cup}'"
+    else:
+        return
+    c.execute(query)
     teams_data = c.fetchall()
     teams = []
     for data in teams_data:
@@ -81,10 +87,17 @@ def get_teams(league):
         team_query = f"SELECT * FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
         c.execute(team_query)
         team_attrib = c.fetchone()
-        name, country, skill, titles, ucl, uel, uecl, europe = team_attrib
-        team = Team(name=team_name, country=league, skill=skill, matches=data[1], wins=data[2], draws=data[3],
-                    losses=data[4], points=data[5], scored=data[6], against=data[7], league_titles=titles,
-                    europe=europe, ucl=ucl, uel=uel, uecl=uecl)
+        name, country, skill, titles, cups, ucl, uel, uecl, europe = team_attrib
+        if european_cup:
+            league_query = f"SELECT * FROM {country} WHERE name = '{team_name}'"
+            c.execute(league_query)
+            team_stats = c.fetchone()
+            name, matches, wins, draws, losses, points, scored, against = team_stats
+        elif league:
+            name, matches, wins, draws, losses, points, scored, against = data
+        team = Team(name=name, country=country, skill=skill, matches=matches, wins=wins, draws=draws,
+                    losses=losses, points=points, scored=scored, against=against, league_titles=titles,
+                    cup_titles=cups, europe=europe, ucl=ucl, uel=uel, uecl=uecl)
         teams.append(team)
     conn.close()
     return teams
@@ -109,7 +122,7 @@ def get_best_teams(league):
 def generate_teams_table(league, teams_obj):
     create_teams_table(league)  # Create the teams table if it doesn't exist
 
-    cur_teams = get_teams(league)  # Retrieve teams from the database
+    cur_teams = get_teams(league=league)  # Retrieve teams from the database
 
     if len(cur_teams) == 0:
         for team in teams_obj:
@@ -131,7 +144,7 @@ def check_team_stats(team, league):
 
     if general and league:
         # Access the column values from General table
-        name, country, skill, league_titles, ucl, uel, uecl, europe = general
+        name, country, skill, league_titles, cup_titles, ucl, uel, uecl, europe = general
         # Access the column values from League table
         name, matches, wins, draws, losses, points, goals_scored, goals_against = league
 
@@ -147,6 +160,7 @@ def check_team_stats(team, league):
         print("Goals scored:", goals_scored)
         print("Goals against:", goals_against)
         print("League Titles:", league_titles)
+        print("Cup Titles:", cup_titles)
         print("UCL:", ucl)
         print("UEL:", uel)
         print("UECL:", uecl)
@@ -155,22 +169,3 @@ def check_team_stats(team, league):
     # Close the connection
     c.close()
     conn.close()
-
-
-def get_european_teams(competition):
-    conn = sqlite3.connect(COMPETITIONS_DB)
-    c = conn.cursor()
-    league_query = f"SELECT * FROM {settings.GENERAL_TABLE} where europe='{competition}'"
-    c.execute(league_query)
-    teams_data = c.fetchall()
-    teams = []
-    for data in teams_data:
-        team_name = data[0]
-        team_query = f"SELECT * FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
-        c.execute(team_query)
-        team_attrib = c.fetchone()
-        name, country, skill, titles, ucl, uel, uecl, europe = team_attrib
-        team = Team(name=name, country=country, skill=skill, league_titles=titles, ucl=ucl, uecl=uecl, europe=europe)
-        teams.append(team)
-    conn.close()
-    return teams

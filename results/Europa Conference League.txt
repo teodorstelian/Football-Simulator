@@ -1,21 +1,21 @@
-Teams of current competition: ['Brentford', 'Chelsea', 'Manchester United', 'Real Betis', 'Real Sociedad', 'Valencia', 'FC Augsburg', 'Mainz 05', 'Borussia Monchengladbach', 'RC Lens', 'Olympique Lyon', 'Fiorentina', 'Salernitana', 'Torino', 'Twente', 'Porto']
+Teams of current competition: ['Chelsea', 'Aston Villa', 'Newcastle United', 'Celta Vigo', 'Girona', 'Almeria', 'VfL Bochum', 'Bayer Leverkusen', 'Mainz 05', 'Atalanta', 'Salernitana', 'Monza', 'RC Lens', 'Strasbourg', 'SC Heerenveen', 'Benfica']
 Current round: Round 1
-Brentford won against Chelsea 2 - 0
-Manchester United won against Real Betis 4 - 0
-Real Sociedad won against Valencia 4 - 2
-Mainz 05 won against FC Augsburg 3 - 2
-Borussia Monchengladbach won against RC Lens 3 - 1
-Fiorentina won against Olympique Lyon 3 - 0
-Torino won against Salernitana 4 - 0
-Twente won against Porto 3 - 1
+Aston Villa won against Chelsea 2 - 1
+Celta Vigo won against Newcastle United 2 - 0
+Girona won against Almeria 3 - 2
+Bayer Leverkusen won against VfL Bochum 1 - 0
+Atalanta won against Mainz 05 4 - 0
+Monza won against Salernitana 2 - 1
+RC Lens won against Strasbourg 4 - 1
+SC Heerenveen won against Benfica 2 - 0
 Current round: Round 2
-Manchester United won against Brentford 2 - 1
-Real Sociedad won against Mainz 05 3 - 0
-Fiorentina won against Borussia Monchengladbach 3 - 2
-Torino won against Twente 6 - 4
+Aston Villa won against Celta Vigo 3 - 1
+Girona won against Bayer Leverkusen 6 - 3
+Monza won against Atalanta 1 - 0
+RC Lens won against SC Heerenveen 6 - 3
 Current round: Round 3
-Manchester United won against Real Sociedad 6 - 3
-Fiorentina won against Torino 4 - 3
+Aston Villa won against Girona 3 - 2
+Monza won against RC Lens 2 - 1
 Current round: Round 4
-Manchester United won against Fiorentina 3 - 1
-Winner of Europa Conference League: Manchester United
+Monza won against Aston Villa 2 - 0
+Winner of Europa Conference League: Monza
