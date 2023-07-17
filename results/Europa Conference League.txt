@@ -1,21 +1,38 @@
-Teams of current competition: ['Chelsea', 'Aston Villa', 'Newcastle United', 'Celta Vigo', 'Girona', 'Almeria', 'VfL Bochum', 'Bayer Leverkusen', 'Mainz 05', 'Atalanta', 'Salernitana', 'Monza', 'RC Lens', 'Strasbourg', 'SC Heerenveen', 'Benfica']
+Teams of current competition: ['West Ham United', 'Crystal Palace', 'Brighton', 'Wolverhampton Wanderers', 'Real Sociedad', 'Celta Vigo', 'Real Betis', 'Getafe', 'Borussia Monchengladbach', 'FC Augsburg', '1899 Hoffenheim', 'Mainz 05', 'Salernitana', 'Empoli', 'Fiorentina', 'Torino', 'Rennes', 'Montpellier', 'Toulouse', 'Reims', 'Sparta Rotterdam', 'Feyenoord', 'Heracles Almelo', 'Rio Ave', 'Casa Pia', 'Portimonense', 'Westerlo', 'RWD Molenbeek', 'Rangers', 'Celtic', 'Austria Wien', 'Austria Lustenau']
 Current round: Round 1
-Aston Villa won against Chelsea 2 - 1
-Celta Vigo won against Newcastle United 2 - 0
-Girona won against Almeria 3 - 2
-Bayer Leverkusen won against VfL Bochum 1 - 0
-Atalanta won against Mainz 05 4 - 0
-Monza won against Salernitana 2 - 1
-RC Lens won against Strasbourg 4 - 1
-SC Heerenveen won against Benfica 2 - 0
+West Ham United won against Crystal Palace 2 - 0
+Brighton won against Wolverhampton Wanderers 2 - 1
+Real Sociedad won against Celta Vigo 3 - 2
+Getafe won against Real Betis 2 - 1
+Borussia Monchengladbach won against FC Augsburg 4 - 0
+1899 Hoffenheim won against Mainz 05 3 - 0
+Empoli won against Salernitana 5 - 2
+Torino won against Fiorentina 2 - 0
+Rennes won against Montpellier 4 - 1
+Reims won against Toulouse 2 - 0
+Sparta Rotterdam won against Feyenoord 2 - 0
+Rio Ave won against Heracles Almelo 2 - 1
+Casa Pia won against Portimonense 2 - 1
+RWD Molenbeek won against Westerlo 3 - 1
+Celtic won against Rangers 2 - 0
+Austria Wien won against Austria Lustenau 6 - 5
 Current round: Round 2
-Aston Villa won against Celta Vigo 3 - 1
-Girona won against Bayer Leverkusen 6 - 3
-Monza won against Atalanta 1 - 0
-RC Lens won against SC Heerenveen 6 - 3
+Brighton won against West Ham United 3 - 0
+Getafe won against Real Sociedad 3 - 0
+Borussia Monchengladbach won against 1899 Hoffenheim 4 - 0
+Torino won against Empoli 1 - 0
+Rennes won against Reims 5 - 2
+Sparta Rotterdam won against Rio Ave 4 - 0
+Casa Pia won against RWD Molenbeek 4 - 2
+Celtic won against Austria Wien 4 - 2
 Current round: Round 3
-Aston Villa won against Girona 3 - 2
-Monza won against RC Lens 2 - 1
+Brighton won against Getafe 1 - 0
+Borussia Monchengladbach won against Torino 2 - 1
+Rennes won against Sparta Rotterdam 4 - 2
+Celtic won against Casa Pia 1 - 0
 Current round: Round 4
-Monza won against Aston Villa 2 - 0
-Winner of Europa Conference League: Monza
+Brighton won against Borussia Monchengladbach 3 - 1
+Rennes won against Celtic 1 - 0
+Current round: Round 5
+Brighton won against Rennes 2 - 0
+Winner of Europa Conference League: Brighton

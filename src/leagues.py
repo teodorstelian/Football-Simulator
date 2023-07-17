@@ -15,7 +15,10 @@ def select_league():
           "4. Ligue 1 (France) \n"
           "5. Serie A (Italy) \n"
           "6. Eredivisie (Netherlands) \n"
-          "7. Primeira Liga (Portugal) ")
+          "7. Primeira Liga (Portugal) \n"
+          "8. Belgian Pro League (Belgium) \n"
+          "9. Scottish Premiership (Scotland) \n"
+          "10. Austrian Bundesliga (Austria)")
 
     league_mapping = {
         '1': settings.ENG,
@@ -24,7 +27,10 @@ def select_league():
         '4': settings.FRA,
         '5': settings.ITA,
         '6': settings.NED,
-        '7': settings.POR
+        '7': settings.POR,
+        '8': settings.BEL,
+        '9': settings.SCO,
+        '10': settings.AUS
     }
 
     user_input = input("Enter the league number: ")
@@ -68,9 +74,13 @@ def league_simulation(league, teams, europe):
 
     return matches.generate_standings(teams, league, europe)
 
+
 def cup_simulation(league, teams):
     sorted_teams = sorted(teams, key=lambda x: x.skill, reverse=True)
-    new_teams = sorted_teams[:16]
+    if len(teams) >= 16:
+        new_teams = sorted_teams[:16]
+    else:
+        new_teams = sorted_teams[:8]
 
     teams = matches.play_country_cup(new_teams, league)
 

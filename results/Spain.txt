@@ -1,22 +1,22 @@
 Winner of League: Real Madrid
-1. Real Madrid - 73 points - 22 wins - 7 draws - 9 losses - 72 scored - 38 against - Champions League
-2. Sevilla - 70 points - 21 wins - 7 draws - 10 losses - 76 scored - 47 against - Champions League
-3. Atletico Madrid - 64 points - 19 wins - 7 draws - 12 losses - 79 scored - 59 against - Champions League
-4. Real Sociedad - 60 points - 17 wins - 9 draws - 12 losses - 65 scored - 47 against - Europa League
-5. Barcelona - 60 points - 16 wins - 12 draws - 10 losses - 67 scored - 41 against - Europa League
-6. Valencia - 59 points - 16 wins - 11 draws - 11 losses - 78 scored - 60 against - Europa League
-7. Almeria - 57 points - 16 wins - 9 draws - 13 losses - 59 scored - 57 against - Europa Conference League
-8. Girona - 56 points - 15 wins - 11 draws - 12 losses - 57 scored - 58 against - Europa Conference League
-9. Celta Vigo - 54 points - 13 wins - 15 draws - 10 losses - 65 scored - 64 against - Europa Conference League
-10. Osasuna - 53 points - 14 wins - 11 draws - 13 losses - 61 scored - 62 against - No qualification
-11. Athletic Bilbao - 52 points - 13 wins - 13 draws - 12 losses - 65 scored - 64 against - No qualification
-12. Granada - 48 points - 14 wins - 6 draws - 18 losses - 41 scored - 59 against - No qualification
-13. Villareal - 46 points - 12 wins - 10 draws - 16 losses - 57 scored - 63 against - No qualification
-14. Alaves - 46 points - 12 wins - 10 draws - 16 losses - 52 scored - 72 against - No qualification
-15. Getafe - 45 points - 12 wins - 9 draws - 17 losses - 53 scored - 68 against - No qualification
-16. Mallorca - 45 points - 11 wins - 12 draws - 15 losses - 59 scored - 70 against - No qualification
-17. Real Betis - 43 points - 11 wins - 10 draws - 17 losses - 65 scored - 69 against - No qualification
-18. Las Palmas - 40 points - 11 wins - 7 draws - 20 losses - 56 scored - 86 against - No qualification
-19. Cadiz - 39 points - 11 wins - 6 draws - 21 losses - 59 scored - 79 against - No qualification
-20. Rayo Vallecano - 35 points - 9 wins - 8 draws - 21 losses - 60 scored - 83 against - No qualification
-Winner of Spain Cup: Real Madrid
+1. Real Madrid - 95 points - 30 wins - 5 draws - 3 losses - 104 scored - 38 against - Champions League
+2. Barcelona - 68 points - 20 wins - 8 draws - 10 losses - 65 scored - 40 against - Champions League
+3. Sevilla - 67 points - 21 wins - 4 draws - 13 losses - 77 scored - 53 against - Champions League
+4. Athletic Bilbao - 65 points - 20 wins - 5 draws - 13 losses - 78 scored - 63 against - Champions League
+5. Villareal - 64 points - 19 wins - 7 draws - 12 losses - 65 scored - 52 against - Europa League
+6. Girona - 62 points - 20 wins - 2 draws - 16 losses - 72 scored - 70 against - Europa League
+7. Rayo Vallecano - 62 points - 19 wins - 5 draws - 14 losses - 74 scored - 65 against - Europa League
+8. Atletico Madrid - 59 points - 18 wins - 5 draws - 15 losses - 69 scored - 54 against - Europa League
+9. Real Sociedad - 58 points - 18 wins - 4 draws - 16 losses - 67 scored - 66 against - Europa Conference League
+10. Getafe - 55 points - 17 wins - 4 draws - 17 losses - 70 scored - 73 against - Europa Conference League
+11. Celta Vigo - 52 points - 16 wins - 4 draws - 18 losses - 60 scored - 72 against - Europa Conference League
+12. Real Betis - 52 points - 15 wins - 7 draws - 16 losses - 64 scored - 63 against - Europa Conference League
+13. Mallorca - 49 points - 14 wins - 7 draws - 17 losses - 66 scored - 74 against - No qualification
+14. Valencia - 45 points - 12 wins - 9 draws - 17 losses - 56 scored - 63 against - No qualification
+15. Almeria - 44 points - 13 wins - 5 draws - 20 losses - 55 scored - 70 against - No qualification
+16. Osasuna - 44 points - 12 wins - 8 draws - 18 losses - 52 scored - 64 against - No qualification
+17. Las Palmas - 40 points - 11 wins - 7 draws - 20 losses - 60 scored - 79 against - No qualification
+18. Alaves - 35 points - 9 wins - 8 draws - 21 losses - 54 scored - 80 against - No qualification
+19. Granada - 33 points - 8 wins - 9 draws - 21 losses - 48 scored - 84 against - No qualification
+20. Cadiz - 29 points - 6 wins - 11 draws - 21 losses - 39 scored - 72 against - No qualification
+Winner of Spain Cup: Osasuna

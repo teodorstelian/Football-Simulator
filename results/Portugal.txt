@@ -1,20 +1,20 @@
-Winner of League: Porto
-1. Porto - 69 points - 21 wins - 6 draws - 7 losses - 80 scored - 48 against - Champions League
-2. Sporting CP - 66 points - 19 wins - 9 draws - 6 losses - 76 scored - 40 against - Europa League
-3. Benfica - 64 points - 19 wins - 7 draws - 8 losses - 69 scored - 44 against - Europa Conference League
-4. Boavista - 56 points - 15 wins - 11 draws - 8 losses - 60 scored - 45 against - No qualification
-5. Braga - 55 points - 17 wins - 4 draws - 13 losses - 69 scored - 61 against - No qualification
-6. Chaves - 54 points - 16 wins - 6 draws - 12 losses - 61 scored - 61 against - No qualification
-7. Rio Ave - 53 points - 16 wins - 5 draws - 13 losses - 68 scored - 54 against - No qualification
-8. Vitoria de Guimaraes - 51 points - 15 wins - 6 draws - 13 losses - 63 scored - 58 against - No qualification
-9. Gil Vicente - 51 points - 15 wins - 6 draws - 13 losses - 62 scored - 60 against - No qualification
-10. Casa Pia - 49 points - 16 wins - 1 draws - 17 losses - 59 scored - 61 against - No qualification
-11. Arouca - 45 points - 12 wins - 9 draws - 13 losses - 51 scored - 53 against - No qualification
-12. Famalicao - 40 points - 12 wins - 4 draws - 18 losses - 68 scored - 75 against - No qualification
-13. Moreirense - 40 points - 11 wins - 7 draws - 16 losses - 51 scored - 63 against - No qualification
-14. Portimonense - 36 points - 9 wins - 9 draws - 16 losses - 45 scored - 72 against - No qualification
-15. Estrela da Amadora - 35 points - 9 wins - 8 draws - 17 losses - 59 scored - 76 against - No qualification
-16. Farense - 33 points - 8 wins - 9 draws - 17 losses - 52 scored - 69 against - No qualification
-17. Estoril - 31 points - 8 wins - 7 draws - 19 losses - 36 scored - 64 against - No qualification
-18. Vizela - 30 points - 8 wins - 6 draws - 20 losses - 41 scored - 66 against - No qualification
-Winner of Portugal Cup: Famalicao
+Winner of League: Sporting CP
+1. Sporting CP - 71 points - 21 wins - 8 draws - 5 losses - 82 scored - 47 against - Champions League
+2. Benfica - 70 points - 21 wins - 7 draws - 6 losses - 84 scored - 52 against - Champions League
+3. Braga - 68 points - 21 wins - 5 draws - 8 losses - 78 scored - 51 against - Champions League
+4. Porto - 58 points - 16 wins - 10 draws - 8 losses - 73 scored - 53 against - Europa League
+5. Famalicao - 57 points - 18 wins - 3 draws - 13 losses - 71 scored - 58 against - Europa League
+6. Arouca - 49 points - 14 wins - 7 draws - 13 losses - 62 scored - 56 against - Europa League
+7. Rio Ave - 48 points - 13 wins - 9 draws - 12 losses - 61 scored - 52 against - Europa Conference League
+8. Portimonense - 47 points - 14 wins - 5 draws - 15 losses - 48 scored - 47 against - Europa Conference League
+9. Casa Pia - 45 points - 12 wins - 9 draws - 13 losses - 59 scored - 61 against - Europa Conference League
+10. Vitoria de Guimaraes - 45 points - 12 wins - 9 draws - 13 losses - 52 scored - 58 against - No qualification
+11. Gil Vicente - 44 points - 13 wins - 5 draws - 16 losses - 62 scored - 65 against - No qualification
+12. Chaves - 43 points - 12 wins - 7 draws - 15 losses - 64 scored - 70 against - No qualification
+13. Estrela da Amadora - 42 points - 11 wins - 9 draws - 14 losses - 56 scored - 69 against - No qualification
+14. Boavista - 41 points - 11 wins - 8 draws - 15 losses - 52 scored - 60 against - No qualification
+15. Vizela - 34 points - 9 wins - 7 draws - 18 losses - 53 scored - 76 against - No qualification
+16. Estoril - 33 points - 9 wins - 6 draws - 19 losses - 56 scored - 73 against - No qualification
+17. Farense - 32 points - 9 wins - 5 draws - 20 losses - 48 scored - 80 against - No qualification
+18. Moreirense - 29 points - 8 wins - 5 draws - 21 losses - 40 scored - 73 against - No qualification
+Winner of Portugal Cup: Estoril

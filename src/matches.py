@@ -3,6 +3,7 @@ from pathlib import Path
 
 import settings
 
+
 def play_country_cup(teams, country):
     competition_text = Path(f"{settings.RESULTS_FOLDER}/{country}.txt")
     competition_text.touch(exist_ok=True)
@@ -21,6 +22,7 @@ def play_country_cup(teams, country):
         team.update_current()
     setattr(winner_obj, "cup_titles", getattr(winner_obj, "cup_titles") + 1)
     return teams
+
 
 def play_european_cup(teams, competition):
     competition_text = Path(f"{settings.RESULTS_FOLDER}/{competition}.txt")
@@ -75,6 +77,7 @@ def generate_fixtures_cup(teams, competition, logging=None):
 
     return teams, current_participants[0]
 
+
 def generate_fixtures_league(teams):
     fixtures = []
     rounds = len(teams) - 1
@@ -102,6 +105,7 @@ def play_fixture_league(teams):
 
     for team in teams:
         team.update_current()
+
 
 def generate_standings(teams, league, europe):
     print("--- Final Standings ---")

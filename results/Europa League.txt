@@ -1,21 +1,38 @@
-Teams of current competition: ['Tottenham Hotspur', 'Manchester United', 'Everton', 'Barcelona', 'Real Sociedad', 'Valencia', 'Werder Bremen', 'Union Berlin', 'Eintracht Frankfurt', 'Juventus', 'AC Milan', 'Fiorentina', 'PSG', 'Lille', 'Sparta Rotterdam', 'Sporting CP']
+Teams of current competition: ['Liverpool', 'Chelsea', 'Tottenham Hotspur', 'Fulham', 'Atletico Madrid', 'Rayo Vallecano', 'Girona', 'Villareal', 'SC Freiburg', 'Union Berlin', '1. FC Koln', 'VfL Wolfsburg', 'AC Milan', 'AS Roma', 'Juventus', 'Monza', 'AS Monaco', 'Brest', 'Marseille', 'Nice', 'NEC', 'Twente', 'Volendam', 'Porto', 'Famalicao', 'Arouca', 'Standard Liege', 'Antwerp', 'St Johnstone', 'Kilmarnock', 'LASK', 'Blau-WeiB Linz']
 Current round: Round 1
-Manchester United won against Tottenham Hotspur 3 - 2
-Everton won against Barcelona 2 - 1
-Real Sociedad won against Valencia 4 - 3
-Union Berlin won against Werder Bremen 4 - 3
-Eintracht Frankfurt won against Juventus 3 - 1
-AC Milan won against Fiorentina 3 - 1
-PSG won against Lille 4 - 0
-Sparta Rotterdam won against Sporting CP 3 - 0
+Chelsea won against Liverpool 3 - 2
+Tottenham Hotspur won against Fulham 3 - 2
+Rayo Vallecano won against Atletico Madrid 3 - 1
+Villareal won against Girona 4 - 1
+Union Berlin won against SC Freiburg 3 - 2
+VfL Wolfsburg won against 1. FC Koln 1 - 0
+AS Roma won against AC Milan 1 - 0
+Juventus won against Monza 3 - 2
+Brest won against AS Monaco 2 - 0
+Marseille won against Nice 4 - 1
+Twente won against NEC 4 - 2
+Porto won against Volendam 3 - 1
+Famalicao won against Arouca 3 - 1
+Antwerp won against Standard Liege 3 - 0
+St Johnstone won against Kilmarnock 1 - 0
+Blau-WeiB Linz won against LASK 3 - 0
 Current round: Round 2
-Manchester United won against Everton 4 - 1
-Union Berlin won against Real Sociedad 1 - 0
-Eintracht Frankfurt won against AC Milan 1 - 0
-Sparta Rotterdam won against PSG 3 - 2
+Tottenham Hotspur won against Chelsea 4 - 3
+Villareal won against Rayo Vallecano 1 - 0
+VfL Wolfsburg won against Union Berlin 5 - 3
+Juventus won against AS Roma 3 - 0
+Marseille won against Brest 3 - 0
+Twente won against Porto 2 - 0
+Antwerp won against Famalicao 2 - 1
+Blau-WeiB Linz won against St Johnstone 3 - 1
 Current round: Round 3
-Manchester United won against Union Berlin 4 - 0
-Eintracht Frankfurt won against Sparta Rotterdam 1 - 0
+Tottenham Hotspur won against Villareal 3 - 1
+Juventus won against VfL Wolfsburg 4 - 0
+Marseille won against Twente 1 - 0
+Antwerp won against Blau-WeiB Linz 4 - 1
 Current round: Round 4
-Manchester United won against Eintracht Frankfurt 4 - 0
-Winner of Europa League: Manchester United
+Tottenham Hotspur won against Juventus 3 - 2
+Antwerp won against Marseille 1 - 0
+Current round: Round 5
+Tottenham Hotspur won against Antwerp 4 - 3
+Winner of Europa League: Tottenham Hotspur

@@ -1,20 +1,20 @@
-Winner of League: PSV Eindhoven
-1. PSV Eindhoven - 63 points - 18 wins - 9 draws - 7 losses - 61 scored - 43 against - Champions League
-2. Sparta Rotterdam - 61 points - 19 wins - 4 draws - 11 losses - 63 scored - 52 against - Europa League
-3. SC Heerenveen - 60 points - 18 wins - 6 draws - 10 losses - 67 scored - 45 against - Europa Conference League
-4. Ajax - 59 points - 17 wins - 8 draws - 9 losses - 65 scored - 43 against - No qualification
-5. Twente - 52 points - 15 wins - 7 draws - 12 losses - 53 scored - 44 against - No qualification
-6. Feyenoord - 52 points - 14 wins - 10 draws - 10 losses - 54 scored - 44 against - No qualification
-7. NEC - 51 points - 15 wins - 6 draws - 13 losses - 57 scored - 50 against - No qualification
-8. RKC Waalwijk - 51 points - 13 wins - 12 draws - 9 losses - 60 scored - 51 against - No qualification
-9. Utrecht - 50 points - 15 wins - 5 draws - 14 losses - 60 scored - 56 against - No qualification
-10. Vitesse - 49 points - 15 wins - 4 draws - 15 losses - 63 scored - 63 against - No qualification
-11. PEC Zwolle - 46 points - 13 wins - 7 draws - 14 losses - 53 scored - 60 against - No qualification
-12. Heracles Almelo - 43 points - 11 wins - 10 draws - 13 losses - 43 scored - 50 against - No qualification
-13. AZ - 41 points - 12 wins - 5 draws - 17 losses - 66 scored - 75 against - No qualification
-14. Go Ahead Eagles - 41 points - 11 wins - 8 draws - 15 losses - 47 scored - 54 against - No qualification
-15. Almere City - 38 points - 11 wins - 5 draws - 18 losses - 46 scored - 57 against - No qualification
-16. Volendam - 38 points - 10 wins - 8 draws - 16 losses - 42 scored - 63 against - No qualification
-17. Fortuna Sittard - 32 points - 8 wins - 8 draws - 18 losses - 56 scored - 75 against - No qualification
-18. Excelsior - 26 points - 6 wins - 8 draws - 20 losses - 38 scored - 69 against - No qualification
-Winner of Netherlands Cup: PSV Eindhoven
+Winner of League: Ajax
+1. Ajax - 72 points - 22 wins - 6 draws - 6 losses - 81 scored - 41 against - Champions League
+2. PSV Eindhoven - 67 points - 21 wins - 4 draws - 9 losses - 72 scored - 41 against - Champions League
+3. Vitesse - 54 points - 16 wins - 6 draws - 12 losses - 62 scored - 57 against - Champions League
+4. Twente - 53 points - 16 wins - 5 draws - 13 losses - 53 scored - 51 against - Europa League
+5. NEC - 52 points - 15 wins - 7 draws - 12 losses - 66 scored - 64 against - Europa League
+6. Volendam - 51 points - 15 wins - 6 draws - 13 losses - 54 scored - 60 against - Europa League
+7. Feyenoord - 50 points - 15 wins - 5 draws - 14 losses - 58 scored - 53 against - Europa Conference League
+8. Heracles Almelo - 50 points - 15 wins - 5 draws - 14 losses - 55 scored - 59 against - Europa Conference League
+9. Sparta Rotterdam - 50 points - 15 wins - 5 draws - 14 losses - 51 scored - 44 against - Europa Conference League
+10. Go Ahead Eagles - 50 points - 14 wins - 8 draws - 12 losses - 57 scored - 56 against - No qualification
+11. Almere City - 46 points - 13 wins - 7 draws - 14 losses - 55 scored - 56 against - No qualification
+12. Fortuna Sittard - 45 points - 13 wins - 6 draws - 15 losses - 54 scored - 60 against - No qualification
+13. RKC Waalwijk - 44 points - 13 wins - 5 draws - 16 losses - 56 scored - 57 against - No qualification
+14. PEC Zwolle - 43 points - 13 wins - 4 draws - 17 losses - 48 scored - 60 against - No qualification
+15. Utrecht - 43 points - 12 wins - 7 draws - 15 losses - 57 scored - 62 against - No qualification
+16. AZ - 42 points - 12 wins - 6 draws - 16 losses - 54 scored - 56 against - No qualification
+17. SC Heerenveen - 34 points - 9 wins - 7 draws - 18 losses - 51 scored - 72 against - No qualification
+18. Excelsior - 20 points - 5 wins - 5 draws - 24 losses - 35 scored - 70 against - No qualification
+Winner of Netherlands Cup: Feyenoord

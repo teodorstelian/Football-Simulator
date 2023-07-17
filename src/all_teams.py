@@ -140,3 +140,47 @@ POR_TEAMS = [("Arouca", 70),
              ("Vitoria de Guimaraes", 75),
              ("Vizela", 65)
              ]
+
+BEL_TEAMS = [("Anderlecht", 75),
+             ("Antwerp", 75),
+             ("Cercle Brugge", 70),
+             ("Charleroi", 70),
+             ("Club Brugge", 75),
+             ("Eupen", 60),
+             ("Genk", 80),
+             ("Gent", 75),
+             ("Kortrijk", 60),
+             ("Mechelen", 60),
+             ("OH Leuven", 65),
+             ("RWD Molenbeek", 60),
+             ("Sint-Truiden", 65),
+             ("Standard Liege", 75),
+             ("Union SG", 80),
+             ("Westerlo", 70)]
+
+SCO_TEAMS = [("Aberdeen", 75),
+             ("Celtic", 80),
+             ("Dundee", 60),
+             ("Hearts", 70),
+             ("Hibernian", 70),
+             ("Kilmarnock", 60),
+             ("Livingston", 65),
+             ("Motherwell", 70),
+             ("Rangers", 80),
+             ("Ross County", 60),
+             ("St Johnstone", 65),
+             ("St Mirren", 65)]
+
+AUS_TEAMS = [("Austria Klagenfurt", 65),
+             ("Austria Lustenau", 65),
+             ("Austria Wien", 70),
+             ("Blau-WeiB Linz", 60),
+             ("LASK", 70),
+             ("Rapid Wien", 70),
+             ("Red Bull Salzburg", 80),
+             ("Rheindorf Altach", 60),
+             ("Sturm Graz", 75),
+             ("TSV Hartberg", 60),
+             ("Wolfsberger AC", 65),
+             ("WSG Tirol", 65)
+             ]

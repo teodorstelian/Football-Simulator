@@ -1,22 +1,22 @@
-Winner of League: Arsenal
-1. Arsenal - 82 points - 25 wins - 7 draws - 6 losses - 83 scored - 39 against - Champions League
-2. Manchester City - 79 points - 23 wins - 10 draws - 5 losses - 102 scored - 44 against - Champions League
-3. Liverpool - 71 points - 21 wins - 8 draws - 9 losses - 84 scored - 45 against - Champions League
-4. Manchester United - 67 points - 20 wins - 7 draws - 11 losses - 75 scored - 55 against - Europa League
-5. Everton - 65 points - 20 wins - 5 draws - 13 losses - 60 scored - 64 against - Europa League
-6. Tottenham Hotspur - 63 points - 17 wins - 12 draws - 9 losses - 82 scored - 54 against - Europa League
-7. Newcastle United - 60 points - 16 wins - 12 draws - 10 losses - 78 scored - 55 against - Europa Conference League
-8. Chelsea - 55 points - 14 wins - 13 draws - 11 losses - 69 scored - 57 against - Europa Conference League
-9. Aston Villa - 53 points - 15 wins - 8 draws - 15 losses - 66 scored - 73 against - Europa Conference League
-10. Fulham - 49 points - 14 wins - 7 draws - 17 losses - 51 scored - 61 against - No qualification
-11. Nottingham Forest - 49 points - 13 wins - 10 draws - 15 losses - 56 scored - 61 against - No qualification
-12. Crystal Palace - 48 points - 12 wins - 12 draws - 14 losses - 56 scored - 63 against - No qualification
-13. Luton - 47 points - 15 wins - 2 draws - 21 losses - 50 scored - 82 against - No qualification
-14. Brighton - 44 points - 13 wins - 5 draws - 20 losses - 58 scored - 71 against - No qualification
-15. Wolverhampton Wanderers - 42 points - 13 wins - 3 draws - 22 losses - 59 scored - 72 against - No qualification
-16. West Ham United - 42 points - 10 wins - 12 draws - 16 losses - 56 scored - 63 against - No qualification
-17. Bournemouth - 37 points - 11 wins - 4 draws - 23 losses - 53 scored - 96 against - No qualification
-18. Burnley - 35 points - 8 wins - 11 draws - 19 losses - 67 scored - 88 against - No qualification
-19. Sheffield United - 35 points - 8 wins - 11 draws - 19 losses - 57 scored - 96 against - No qualification
-20. Brentford - 34 points - 9 wins - 7 draws - 22 losses - 50 scored - 73 against - No qualification
-Winner of England Cup: Aston Villa
+Winner of League: Manchester City
+1. Manchester City - 80 points - 24 wins - 8 draws - 6 losses - 90 scored - 34 against - Champions League
+2. Newcastle United - 78 points - 23 wins - 9 draws - 6 losses - 81 scored - 38 against - Champions League
+3. Arsenal - 73 points - 21 wins - 10 draws - 7 losses - 94 scored - 46 against - Champions League
+4. Manchester United - 68 points - 20 wins - 8 draws - 10 losses - 66 scored - 51 against - Champions League
+5. Chelsea - 67 points - 21 wins - 4 draws - 13 losses - 83 scored - 57 against - Europa League
+6. Tottenham Hotspur - 67 points - 20 wins - 7 draws - 11 losses - 76 scored - 54 against - Europa League
+7. Liverpool - 62 points - 17 wins - 11 draws - 10 losses - 80 scored - 47 against - Europa League
+8. Fulham - 55 points - 16 wins - 7 draws - 15 losses - 63 scored - 64 against - Europa League
+9. West Ham United - 55 points - 15 wins - 10 draws - 13 losses - 66 scored - 69 against - Europa Conference League
+10. Brighton - 52 points - 15 wins - 7 draws - 16 losses - 63 scored - 63 against - Europa Conference League
+11. Wolverhampton Wanderers - 48 points - 14 wins - 6 draws - 18 losses - 64 scored - 78 against - Europa Conference League
+12. Crystal Palace - 48 points - 13 wins - 9 draws - 16 losses - 51 scored - 64 against - Europa Conference League
+13. Burnley - 46 points - 12 wins - 10 draws - 16 losses - 54 scored - 69 against - No qualification
+14. Aston Villa - 45 points - 12 wins - 9 draws - 17 losses - 60 scored - 69 against - No qualification
+15. Sheffield United - 41 points - 11 wins - 8 draws - 19 losses - 58 scored - 79 against - No qualification
+16. Nottingham Forest - 41 points - 10 wins - 11 draws - 17 losses - 53 scored - 77 against - No qualification
+17. Brentford - 39 points - 10 wins - 9 draws - 19 losses - 42 scored - 70 against - No qualification
+18. Everton - 37 points - 11 wins - 4 draws - 23 losses - 50 scored - 82 against - No qualification
+19. Bournemouth - 35 points - 8 wins - 11 draws - 19 losses - 55 scored - 85 against - No qualification
+20. Luton - 21 points - 5 wins - 6 draws - 27 losses - 33 scored - 86 against - No qualification
+Winner of England Cup: Manchester City

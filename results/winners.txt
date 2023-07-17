@@ -1,17 +1,23 @@
-Winner of England League: Arsenal
-Winner of England Cup: Aston Villa
+Winner of England League: Manchester City
+Winner of England Cup: Manchester City
 Winner of Spain League: Real Madrid
-Winner of Spain Cup: Real Madrid
+Winner of Spain Cup: Osasuna
 Winner of Germany League: Bayern Munchen
-Winner of Germany Cup: Bayern Munchen
+Winner of Germany Cup: Borussia Dortmund
 Winner of Italy League: Napoli
-Winner of Italy Cup: Monza
-Winner of France League: AS Monaco
-Winner of France Cup: Rennes
-Winner of Netherlands League: PSV Eindhoven
-Winner of Netherlands Cup: PSV Eindhoven
-Winner of Portugal League: Porto
-Winner of Portugal Cup: Famalicao
-Winner of Europa Conference League: Monza
-Winner of Europa League: Manchester United
-Winner of Champions League: Manchester City
+Winner of Italy Cup: Napoli
+Winner of France League: PSG
+Winner of France Cup: Lille
+Winner of Netherlands League: Ajax
+Winner of Netherlands Cup: Feyenoord
+Winner of Portugal League: Sporting CP
+Winner of Portugal Cup: Estoril
+Winner of Belgium League: Genk
+Winner of Belgium Cup: Union SG
+Winner of Scotland League: Aberdeen
+Winner of Scotland Cup: Livingston
+Winner of Austria League: Red Bull Salzburg
+Winner of Austria Cup: Rapid Wien
+Winner of Europa Conference League: Brighton
+Winner of Europa League: Tottenham Hotspur
+Winner of Champions League: RB Leipzig
