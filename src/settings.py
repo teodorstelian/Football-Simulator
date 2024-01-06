@@ -1,7 +1,7 @@
-from src.all_teams import *
+from src.teams_data import *
 
 # Folders
-RESULTS_FOLDER = "../results"
+RESULTS_FOLDER = "results"
 WINNERS_TEXT = "winners.txt"
 
 # Databases + Tables

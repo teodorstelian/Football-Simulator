@@ -1,8 +1,8 @@
 import sqlite3
 
-import settings
-from settings import COMPETITIONS_DB
-from team import Team
+from src import settings
+from src.settings import COMPETITIONS_DB
+from src.team import Team
 
 
 def create_teams_table(league):

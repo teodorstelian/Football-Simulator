@@ -1,7 +1,7 @@
-import settings
-from database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats, \
+from src import settings
+from src.database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats, \
     get_teams, update_team
-from leagues import league_simulation, select_league, select_teams_from_league, cup_simulation
+from src.leagues import league_simulation, select_league, select_teams_from_league, cup_simulation
 from src.matches import play_european_cup
 
 
