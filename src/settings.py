@@ -1,4 +1,4 @@
-from src.teams_data import *
+from src.initial_data import *
 
 # Folders
 RESULTS_FOLDER = "results"

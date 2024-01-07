@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
 
-{% block title %}Your Form Title{% endblock %}
+{% block title %}Football Simulator{% endblock %}
 
 {% block content %}
-    <h1>Your Form Title</h1>
+    <h1>Football Simulator</h1>
 
     <form method="post" action="{% url 'new_game_view' %}">
         {% csrf_token %}

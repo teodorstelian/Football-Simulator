@@ -3,10 +3,20 @@
 {% block title %}Team Detail - {{ team.name }}{% endblock %}
 
 {% block content %}
-    <h1>Team Detail - {{ team.name }}</h1>
-    <p>Country: {{ team.country }}</p>
-    <p>Skill: {{ team.skill }}</p>
-    {% if team.logo %}
-        <img src="{{ team.logo.url }}" alt="{{ team.name }} Logo">
-    {% endif %}
+    <div style="text-align: center;">
+        <h1>Team Detail - {{ team.name }}</h1>
+        {% if team.logo %}
+            <img src="{{ team.logo.url }}" alt="{{ team.name }} Logo" style="max-width: 200px;">
+        {% endif %}
+        <p>Country: {{ team.country }}</p>
+        <p>Skill: {{ team.skill }}</p>
+        <p>UCL: {{ team.ucl }}</p>
+        <p>UEL: {{ team.uel }}</p>
+        <p>UECL: {{ team.uecl }}</p>
+        {% if team.europe %}
+            <p>Europe Status: {{ team.europe }}</p>
+        {% else %}
+            <p>Europe Status: No European competition next season</p>
+        {% endif %}
+    </div>
 {% endblock %}

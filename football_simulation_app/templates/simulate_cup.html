@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Simulate Cup{% endblock %}
+
+{% block content %}
+    <h1>Simulate Cup</h1>
+
+    <form method="post" action="{% url 'simulate_cup_view' %}">
+        {% csrf_token %}
+
+        <label>Teams in the league:</label><br>
+        {% for team in teams %}
+            <input type="checkbox" name="selected_teams" value="{{ team.id }}"> {{ team.name }}<br>
+        {% endfor %}
+
+        <button type="submit">Simulate Cup</button>
+    </form>
+{% endblock %}

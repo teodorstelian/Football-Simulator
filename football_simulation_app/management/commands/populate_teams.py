@@ -1,7 +1,6 @@
-# football_simulation_app/management/commands/populate_teams.py
 from django.core.management.base import BaseCommand
-from football_simulation_app.models import Team
-from src.teams_data import *
+from football_simulation_app.models import Team, Country
+from src.initial_data import *
 
 class Command(BaseCommand):
     help = 'Populate initial teams_logo data'
@@ -19,7 +18,8 @@ class Command(BaseCommand):
         self.create_team(SCO_TEAMS, "Scotland")
         self.create_team(AUS_TEAMS, "Austria")
 
-    def create_team(self, teams, country):
+    def create_team(self, teams, country_name):
+        country, created = Country.objects.get_or_create(name=country_name)
         for name, skill, *rest in teams:
             logo_path = rest[0] if rest else None  # Extract logo_path if provided, else set to None
             team, created = Team.objects.get_or_create(

@@ -1,5 +1,20 @@
+# Countries
+
+COUNTRIES = {
+    "England": {"ucl": 4, "uel": 4, "uecl": 4},
+    "Spain": {"ucl": 4, "uel": 4, "uecl": 4},
+    "Germany": {"ucl": 4, "uel": 4, "uecl": 4},
+    "Italy": {"ucl": 4, "uel": 4, "uecl": 4},
+    "France": {"ucl": 4, "uel": 4, "uecl": 4},
+    "Netherlands": {"ucl": 3, "uel": 3, "uecl": 3},
+    "Portugal": {"ucl": 3, "uel": 3, "uecl": 3},
+    "Belgium": {"ucl": 2, "uel": 2, "uecl": 2},
+    "Scotland": {"ucl": 2, "uel": 2, "uecl": 2},
+    "Austria": {"ucl": 2, "uel": 2, "uecl": 2},
+}
+
 # Teams
-# Name, Skill
+# Name, Skill, Logo
 ENG_TEAMS = [("Arsenal", 95),
              ("Aston Villa", 75),
              ("Bournemouth", 65),

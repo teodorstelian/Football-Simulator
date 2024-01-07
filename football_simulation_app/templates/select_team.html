@@ -4,9 +4,40 @@
 
 {% block content %}
     <h1>Select Team</h1>
-    <form method="post" action="{% url 'select_team' %}">
+    <form method="post" action="{% url 'select_team' %}" id="selectTeamForm">
         {% csrf_token %}
-        {{ form.as_p }}
+        <label for="team">Select team:</label>
+        <input type="text" name="team_name" id="teamNameInput" autocomplete="off">
+        <div id="suggestions"></div>
         <button type="submit">View Team Stats</button>
     </form>
+
+    <script>
+        const teamNameInput = document.getElementById('teamNameInput');
+        const suggestionsDiv = document.getElementById('suggestions');
+
+        teamNameInput.addEventListener('input', function () {
+            const inputText = teamNameInput.value.trim().toLowerCase();
+            suggestionsDiv.innerHTML = ''; // Clear previous suggestions
+
+            if (inputText.length > 2) {
+                // Make an AJAX request to fetch suggestions from the server
+                fetch(`/get_team_suggestions/?query=${inputText}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        // Render suggestions in the suggestionsDiv
+                        data.forEach(team => {
+                            const suggestion = document.createElement('div');
+                            suggestion.textContent = team.name;
+                            suggestion.addEventListener('click', function () {
+                                teamNameInput.value = team.name;
+                                suggestionsDiv.innerHTML = ''; // Clear suggestions after selection
+                            });
+                            suggestionsDiv.appendChild(suggestion);
+                        });
+                    })
+                    .catch(error => console.error('Error fetching suggestions:', error));
+            }
+        });
+    </script>
 {% endblock %}
