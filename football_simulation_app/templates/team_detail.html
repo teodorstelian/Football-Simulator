@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Team Detail - {{ team.name }}{% endblock %}
+
+{% block content %}
+    <h1>Team Detail - {{ team.name }}</h1>
+    <p>Country: {{ team.country }}</p>
+    <p>Skill: {{ team.skill }}</p>
+    {% if team.logo %}
+        <img src="{{ team.logo.url }}" alt="{{ team.name }} Logo">
+    {% endif %}
+{% endblock %}

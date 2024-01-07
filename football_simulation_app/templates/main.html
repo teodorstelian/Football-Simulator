@@ -1,12 +1,20 @@
-<form method="post" action="{% url 'simulation_view' %}">
-    {% csrf_token %}
+{% extends 'base.html' %}
 
-    <label>Select action:</label><br>
+{% block title %}Your Form Title{% endblock %}
 
-    <button type="submit" name="choice" value="simulate_season">Simulate a season</button><br>
-    <button type="submit" name="choice" value="simulate_league">Simulate a league</button><br>
-    <button type="submit" name="choice" value="simulate_cup">Simulate a cup</button><br>
-    <button type="submit" name="choice" value="simulate_european">Simulate an European Cup</button><br>
-    <button type="submit" name="choice" value="get_best_teams">Check best teams</button><br>
-    <button type="submit" name="choice" value="check_team_stats">See stats for a team</button><br>
-</form>
+{% block content %}
+    <h1>Your Form Title</h1>
+
+    <form method="post" action="{% url 'new_game_view' %}">
+        {% csrf_token %}
+
+        <label>Select action:</label><br>
+
+        <button class="button-85" role="button" type="submit" name="choice" value="simulate_season">Simulate a season</button><br>
+        <button class="button-85" role="button" type="submit" name="choice" value="simulate_league">Simulate a league</button><br>
+        <button class="button-85" role="button" type="submit" name="choice" value="simulate_cup">Simulate a cup</button><br>
+        <button class="button-85" role="button" type="submit" name="choice" value="simulate_european">Simulate a European Cup</button><br>
+        <button class="button-85" role="button" type="submit" name="choice" value="get_best_teams">Check best teams</button><br>
+        <button class="button-85" role="button" type="submit" name="choice" value="check_team_stats">See stats for a team</button><br>
+    </form>
+{% endblock %}

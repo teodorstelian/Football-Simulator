@@ -4,6 +4,7 @@ class Team(models.Model):
     name = models.CharField(max_length=255)
     country = models.CharField(max_length=255)
     skill = models.IntegerField()
+    logo = models.ImageField(upload_to='team_logos/', null=True, blank=True)
     league_titles = models.IntegerField(default=0)
     cup_titles = models.IntegerField(default=0)
     ucl = models.IntegerField(default=0)

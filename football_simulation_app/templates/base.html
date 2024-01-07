@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+    <title>{% block title %}Football Simulation{% endblock %}</title>
+</head>
+<body>
+    <div id="sidebar">
+        <!-- Sidebar content goes here -->
+        <ul>
+            <li><a href="{% url 'new_game_view' %}">Home</a></li>
+            <li><a href="{% url 'select_team' %}">Select Team</a></li>
+            <!-- Add other sidebar links as needed -->
+        </ul>
+    </div>
+
+    <div id="content">
+        <!-- Main content goes here -->
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

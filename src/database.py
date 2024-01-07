@@ -104,11 +104,11 @@ def get_teams(league=None, european_cup=None):
 
 
 def get_best_teams(league):
-    number = input("Select number of best teams:")
+    number = input("Select number of best teams_logo:")
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
 
-    # Query for best teams by points
+    # Query for best teams_logo by points
     query = f"SELECT name, points FROM {league} ORDER BY points DESC LIMIT {number}"
     c.execute(query)
     best_teams = c.fetchall()
@@ -120,9 +120,9 @@ def get_best_teams(league):
         print(f"Team: {team[0]}, Points: {team[1]}")
 
 def generate_teams_table(league, teams_obj):
-    create_teams_table(league)  # Create the teams table if it doesn't exist
+    create_teams_table(league)  # Create the teams_logo table if it doesn't exist
 
-    cur_teams = get_teams(league=league)  # Retrieve teams from the database
+    cur_teams = get_teams(league=league)  # Retrieve teams_logo from the database
 
     if len(cur_teams) == 0:
         for team in teams_obj:

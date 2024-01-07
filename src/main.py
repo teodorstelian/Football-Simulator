@@ -25,7 +25,7 @@ class MainProgram:
               "2. Simulate a league \n"
               "3. Simulate a cup \n"
               "4. Simulate an European Cup \n"
-              "5. Check best teams \n"
+              "5. Check best teams_logo \n"
               "6. See stats for a team \n"
               )
         self.choice = input("Select action: ")

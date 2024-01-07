@@ -4,7 +4,7 @@ from football_simulation_app.models import Team
 from src.teams_data import *
 
 class Command(BaseCommand):
-    help = 'Populate initial teams data'
+    help = 'Populate initial teams_logo data'
 
     def handle(self, *args, **options):
 
@@ -19,9 +19,9 @@ class Command(BaseCommand):
         self.create_team(SCO_TEAMS, "Scotland")
         self.create_team(AUS_TEAMS, "Austria")
 
-
     def create_team(self, teams, country):
-        for name, skill in teams:
+        for name, skill, *rest in teams:
+            logo_path = rest[0] if rest else None  # Extract logo_path if provided, else set to None
             team, created = Team.objects.get_or_create(
                 name=name,
                 defaults={
@@ -29,6 +29,10 @@ class Command(BaseCommand):
                     "country": country,
                 }
             )
+
+            if logo_path:
+                team.logo.name = logo_path
+                team.save()
 
             if created:
                 self.stdout.write(self.style.SUCCESS(f'Successfully created team: {team.name}'))

@@ -1,10 +1,28 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404, redirect
 
+from football_simulation_app.forms import TeamSelectionForm
+from football_simulation_app.models import Team
 from src.main import MainProgram
 
 
 # Create your views here.
-def simulation_view(request):
+
+def team_detail_view(request, team_name):
+    team = get_object_or_404(Team, name=team_name)
+    return render(request, 'team_detail.html', {'team': team})
+
+def select_team_view(request):
+    if request.method == 'POST':
+        form = TeamSelectionForm(request.POST)
+        if form.is_valid():
+            team_name = form.cleaned_data['team_name']
+            return redirect('team_detail', team_name=team_name)
+    else:
+        form = TeamSelectionForm()
+
+    return render(request, 'select_team.html', {'form': form})
+
+def new_game_view(request):
     program = MainProgram()
 
     if request.method == 'POST':

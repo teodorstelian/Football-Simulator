@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Select Team{% endblock %}
+
+{% block content %}
+    <h1>Select Team</h1>
+    <form method="post" action="{% url 'select_team' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">View Team Stats</button>
+    </form>
+{% endblock %}

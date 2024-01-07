@@ -39,13 +39,13 @@ def select_league():
 
 def select_teams_from_league(country):
     country_name = country["name"]
-    teams = country["teams"]
+    teams = country["teams_logo"]
     europe_places = country["europe"]
     create_teams_table(country_name)  # Create the league table if it doesn't exist
     teams_obj = get_teams(league=country_name)
     # Checks if the database is empty
     if len(teams_obj) == 0:
-        # Get original teams from settings
+        # Get original teams_logo from settings
         teams_obj, teams_name = get_default_teams_country(teams, country_name)
     else:
         teams_name = [team.name for team in teams_obj]
@@ -61,10 +61,10 @@ def select_teams_from_league(country):
 
 def league_simulation(league, teams, europe):
     """
-        Simulate a league by playing the fixtures, updating the teams and generating the standings
+        Simulate a league by playing the fixtures, updating the teams_logo and generating the standings
     :param europe: How many places are for UCL, UEL, UECL
     :param league: The league we want to simulate
-    :param teams: The teams found in the league
+    :param teams: The teams_logo found in the league
     :return:
     """
     matches.play_fixture_league(teams)
@@ -91,10 +91,10 @@ def cup_simulation(league, teams):
 
 def get_default_teams_country(teams, country):
     """
-        Generate the teams found in the settings
-    :param teams: The default teams from settings
-    :param country: The country we want to add the default teams
-    :return: The teams as objects and the name of them
+        Generate the teams_logo found in the settings
+    :param teams: The default teams_logo from settings
+    :param country: The country we want to add the default teams_logo
+    :return: The teams_logo as objects and the name of them
     """
     all_teams_obj = []
     all_teams_names = []
