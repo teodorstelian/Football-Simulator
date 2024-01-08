@@ -199,3 +199,8 @@ AUS_TEAMS = [("Austria Klagenfurt", 65),
              ("Wolfsberger AC", 65),
              ("WSG Tirol", 65)
              ]
+
+# player_name, team_name, country_name, skill, main_position, secondary_positions, tertiary_positions, age
+PLAYERS = [("Cole Palmer", "Chelsea", "England", 72, ["RW", "CAM"], ["LW", "CM", "RM"], ["LM"], 21),
+           ("Erling Haaland", "Manchester City", "Norway", 95, ["ST"], [], [], 21)
+           ]
