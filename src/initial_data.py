@@ -13,7 +13,11 @@ COUNTRIES = {
     "Austria": {"ucl": 2, "uel": 2, "uecl": 2},
 }
 
-POSITIONS = ["GK", "LB", "RB", "CB", "WLB", "WRB", "LM", "RM", "CDM", "CM", "CAM", "LW", "RW", "ST"]
+DEFENSE_POSITIONS = ["GK", "LB", "RB", "CB", "WLB", "WRB"]
+MIDFIELD_POSITIONS = ["LM", "RM", "CDM", "CM", "CAM"]
+ATTACK_POSITIONS = ["LW", "RW", "ST"]
+
+POSITIONS = DEFENSE_POSITIONS + MIDFIELD_POSITIONS + ATTACK_POSITIONS
 
 # Teams
 # Name, Skill, Logo
@@ -206,4 +210,14 @@ AUS_TEAMS = [("Austria Klagenfurt", 65),
 PLAYERS = [("Cole Palmer", "Chelsea", "England", 72, ["RW", "CAM"], ["LW", "CM", "RM"], ["LM"], 21),
            ("Erling Haaland", "Manchester City", "Norway", 95, ["ST"], [], [], 21),
            ("Alisson", "Liverpool", "Brazil", 90, ["GK"], [], [], 31),
+           ("Andrew Robertson", "Liverpool", "Scotland", 86, ["LB", "WLB"], ["LM"], ["RB"], 29),
+           ("Virgil van Dijk", "Liverpool", "Netherlands", 90, ["CB"], [], [], 32),
+           ("Ibrahima Konate", "Liverpool", "France", 81, ["CB"], [], [], 24),
+           ("Trent Alexander-Arnold", "Liverpool", "Brazil", 86, ["RB", "WRB"], ["CM", "CDM"], ["RM"], 25),
+           ("Thiago", "Liverpool", "Spain", 84, ["CM", "CDM"], ["CAM"], ["LM"], 32),
+           ("Dominik Szoboszlai", "Liverpool", "Hungary", 82, ["CM", "CAM"], ["LM", "RW", "LW"], ["RM"], 22),
+           ("Alexis Mac Allister", "Liverpool", "Argentina", 82, ["CM", "CAM"], ["CDM", "LM"], ["ST"], 24),
+           ("Diogo Jota", "Liverpool", "Portugal", 84, ["LW", "ST"], ["RW"], ["CAM"], 26),
+           ("Mohamed Salah", "Liverpool", "Egypt", 90, ["RW", "ST"], ["LW"], ["CAM"], 31),
+           ("Darwin Nunez", "Liverpool", "Uruguay", 82, ["ST"], ["LW"], ["CAM", "RW"], 24),
            ]

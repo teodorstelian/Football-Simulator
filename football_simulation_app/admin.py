@@ -8,5 +8,3 @@ class TeamAdmin(admin.ModelAdmin):
 admin.site.register(Team)
 admin.site.register(Country)
 admin.site.register(Player)
-# admin.site.register(LeagueTeam)
-# admin.site.register(GeneralTeam)

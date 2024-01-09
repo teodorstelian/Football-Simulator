@@ -57,7 +57,7 @@ class Command(BaseCommand):
             )
 
             if created:
-                self.stdout.write(self.style.SUCCESS(f'Successfully created player: {player.team.name} - {player.main_positions}'))
+                self.stdout.write(self.style.SUCCESS(f'Successfully created player: {player.name} - {player.main_positions}'))
             else:
-                self.stdout.write(self.style.SUCCESS(f'Player already exists: {player.team.name} - {player.main_positions}'))
+                self.stdout.write(self.style.SUCCESS(f'Player already exists: {player.name} - {player.main_positions}'))
 
