@@ -14,7 +14,7 @@ def calculate_position_ovr(skill, main, sec, ter):
         elif pos in ter:
             rat[pos] = 0.75 * skill
         else:
-            rat[pos] = 0
+            rat[pos] = 0.6 * skill
     return rat
 
 
@@ -35,7 +35,7 @@ class Command(BaseCommand):
                 country=country,
                 defaults={
                     "skill": skill,
-                    "main_positions": main_pos,
+                    "main_position": main_pos,
                     "secondary_positions": sec_pos,
                     "tertiary_positions": ter_pos,
                     "age": age,
@@ -57,7 +57,7 @@ class Command(BaseCommand):
             )
 
             if created:
-                self.stdout.write(self.style.SUCCESS(f'Successfully created player: {player.name} - {player.main_positions}'))
+                self.stdout.write(self.style.SUCCESS(f'Successfully created player: {player.name} - {player.main_position}'))
             else:
-                self.stdout.write(self.style.SUCCESS(f'Player already exists: {player.name} - {player.main_positions}'))
+                self.stdout.write(self.style.SUCCESS(f'Player already exists: {player.name} - {player.main_position}'))
 

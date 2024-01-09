@@ -20,27 +20,27 @@ ATTACK_POSITIONS = ["LW", "RW", "ST"]
 POSITIONS = DEFENSE_POSITIONS + MIDFIELD_POSITIONS + ATTACK_POSITIONS
 
 # Teams
-# Name, Skill, Logo
-ENG_TEAMS = [("Arsenal", 95),
-             ("Aston Villa", 75),
-             ("Bournemouth", 65),
-             ("Brentford", 70),
-             ("Brighton", 80),
-             ("Burnley", 65),
-             ("Chelsea", 90, "teams_logo/england/chelsea.png"),
-             ("Crystal Palace", 70),
-             ("Everton", 70),
-             ("Fulham", 70),
-             ("Liverpool", 100),
-             ("Luton", 55),
-             ("Manchester City", 100),
-             ("Manchester United", 90),
-             ("Newcastle United", 90),
-             ("Nottingham Forest", 70),
-             ("Sheffield United", 65),
-             ("Tottenham Hotspur", 90),
-             ("West Ham United", 75),
-             ("Wolverhampton Wanderers", 70)]
+# Name
+ENG_TEAMS = ["Arsenal",
+             "Aston Villa",
+             "Bournemouth",
+             "Brentford",
+             "Brighton",
+             "Burnley",
+             "Chelsea",
+             "Crystal Palace",
+             "Everton",
+             "Fulham",
+             "Liverpool",
+             "Luton",
+             "Manchester City",
+             "Manchester United",
+             "Newcastle United",
+             "Nottingham Forest",
+             "Sheffield United",
+             "Tottenham Hotspur",
+             "West Ham United",
+             "Wolverhampton Wanderers"]
 
 ESP_TEAMS = [("Alaves", 65),
              ("Almeria", 70),
@@ -206,18 +206,18 @@ AUS_TEAMS = [("Austria Klagenfurt", 65),
              ("WSG Tirol", 65)
              ]
 
-# player_name, team_name, country_name, skill, main_position, secondary_positions, tertiary_positions, age
-PLAYERS = [("Cole Palmer", "Chelsea", "England", 72, ["RW", "CAM"], ["LW", "CM", "RM"], ["LM"], 21),
+# player_name, team_name, country_name, skill, main_position - can only have one, secondary_positions, tertiary_positions, age
+PLAYERS = [("Cole Palmer", "Chelsea", "England", 72, ["CAM"], ["RW", "CM", "RM"], ["LM", "LW"], 21),
            ("Erling Haaland", "Manchester City", "Norway", 95, ["ST"], [], [], 21),
            ("Alisson", "Liverpool", "Brazil", 90, ["GK"], [], [], 31),
-           ("Andrew Robertson", "Liverpool", "Scotland", 86, ["LB", "WLB"], ["LM"], ["RB"], 29),
+           ("Andrew Robertson", "Liverpool", "Scotland", 86, ["LB"], ["WLB"], ["RB", "LM"], 29),
            ("Virgil van Dijk", "Liverpool", "Netherlands", 90, ["CB"], [], [], 32),
            ("Ibrahima Konate", "Liverpool", "France", 81, ["CB"], [], [], 24),
-           ("Trent Alexander-Arnold", "Liverpool", "Brazil", 86, ["RB", "WRB"], ["CM", "CDM"], ["RM"], 25),
-           ("Thiago", "Liverpool", "Spain", 84, ["CM", "CDM"], ["CAM"], ["LM"], 32),
-           ("Dominik Szoboszlai", "Liverpool", "Hungary", 82, ["CM", "CAM"], ["LM", "RW", "LW"], ["RM"], 22),
-           ("Alexis Mac Allister", "Liverpool", "Argentina", 82, ["CM", "CAM"], ["CDM", "LM"], ["ST"], 24),
-           ("Diogo Jota", "Liverpool", "Portugal", 84, ["LW", "ST"], ["RW"], ["CAM"], 26),
-           ("Mohamed Salah", "Liverpool", "Egypt", 90, ["RW", "ST"], ["LW"], ["CAM"], 31),
+           ("Trent Alexander-Arnold", "Liverpool", "Brazil", 86, ["RB"], ["WRB", "CM", "CDM"], ["RM"], 25),
+           ("Thiago", "Liverpool", "Spain", 84, ["CM"], ["CAM", "CDM"], ["LM"], 32),
+           ("Dominik Szoboszlai", "Liverpool", "Hungary", 82, ["CM"], ["CAM", "LM", "RW", "LW"], ["RM"], 22),
+           ("Alexis Mac Allister", "Liverpool", "Argentina", 82, ["CM"], ["CDM", "CAM"], ["LM", "ST"], 24),
+           ("Diogo Jota", "Liverpool", "Portugal", 84, ["LW"], ["RW", "ST"], ["CAM"], 26),
+           ("Mohamed Salah", "Liverpool", "Egypt", 90, ["RW"], ["LW", "ST"], ["CAM"], 31),
            ("Darwin Nunez", "Liverpool", "Uruguay", 82, ["ST"], ["LW"], ["CAM", "RW"], 24),
            ]
