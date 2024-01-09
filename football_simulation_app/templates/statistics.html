@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}Top 10 Teams{% endblock %}
+
+{% block content %}
+  <h1>Statistics</h1>
+  <h2>Top 10 Teams by Skill</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Team Name</th>
+                <th>Skill</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for team in top_teams %}
+                <tr style="text-align: center;">
+                    <td>{{ forloop.counter }}</td>
+                     <td>
+                      <a href="{% url 'team_detail' team.id %}">
+                      {{ team.name }}
+                      </a>
+                    </td>
+                    <td>{{ team.skill }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+  <h2>Top 10 Players by Skill</h2>
+  <table>
+      <thead>
+          <tr>
+              <th>Rank</th>
+              <th>Player Name</th>
+              <th>Main Position</th>
+              <th>Team</th>
+              <th>Skill</th>
+          </tr>
+      </thead>
+      <tbody>
+          {% for player in top_players %}
+              <tr style="text-align: center;">
+                  <td>{{ forloop.counter }}</td>
+                  <td>
+                    <a href="{% url 'player_detail' player.id %}">
+                    {{ player.name }}
+                    </a>
+                  </td>
+                  <td>{{ player.main_position }}</td>
+                  <td>
+                    <a href="{% url 'team_detail' player.team.id %}">
+                    {{ player.team }}
+                    </a>
+                  </td>
+                  <td>{{ player.skill }}</td>
+              </tr>
+          {% endfor %}
+      </tbody>
+  </table>
+{% endblock %}

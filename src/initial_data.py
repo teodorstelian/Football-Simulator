@@ -207,17 +207,31 @@ AUS_TEAMS = [("Austria Klagenfurt", 65),
              ]
 
 # player_name, team_name, country_name, skill, main_position - can only have one, secondary_positions, tertiary_positions, age
-PLAYERS = [("Cole Palmer", "Chelsea", "England", 72, ["CAM"], ["RW", "CM", "RM"], ["LM", "LW"], 21),
+PLAYERS = [("Cole Palmer", "Chelsea", "England", 76, ["CAM"], ["RW", "CM", "RM"], ["LM", "LW"], 21),
+           ("Reece James", "Chelsea", "England", 84, ["RB"], ["WBR", "CB"], ["CDM"], 24),
+           ("Thiago Silva", "Chelsea", "Brazil", 85, ["CB"], [], ["CDM"], 39),
+
            ("Erling Haaland", "Manchester City", "Norway", 95, ["ST"], [], [], 21),
+           ("Kevin De Bruyne", "Manchester City", "Belgium", 95, ["CAM"], ["CM"], ["LM", "RW"], 32),
+
+
            ("Alisson", "Liverpool", "Brazil", 90, ["GK"], [], [], 31),
            ("Andrew Robertson", "Liverpool", "Scotland", 86, ["LB"], ["WLB"], ["RB", "LM"], 29),
-           ("Virgil van Dijk", "Liverpool", "Netherlands", 90, ["CB"], [], [], 32),
+           ("Virgil van Dijk", "Liverpool", "Netherlands", 93, ["CB"], [], [], 32),
            ("Ibrahima Konate", "Liverpool", "France", 81, ["CB"], [], [], 24),
            ("Trent Alexander-Arnold", "Liverpool", "Brazil", 86, ["RB"], ["WRB", "CM", "CDM"], ["RM"], 25),
            ("Thiago", "Liverpool", "Spain", 84, ["CM"], ["CAM", "CDM"], ["LM"], 32),
            ("Dominik Szoboszlai", "Liverpool", "Hungary", 82, ["CM"], ["CAM", "LM", "RW", "LW"], ["RM"], 22),
            ("Alexis Mac Allister", "Liverpool", "Argentina", 82, ["CM"], ["CDM", "CAM"], ["LM", "ST"], 24),
            ("Diogo Jota", "Liverpool", "Portugal", 84, ["LW"], ["RW", "ST"], ["CAM"], 26),
-           ("Mohamed Salah", "Liverpool", "Egypt", 90, ["RW"], ["LW", "ST"], ["CAM"], 31),
+           ("Mohamed Salah", "Liverpool", "Egypt", 93, ["RW"], ["LW", "ST"], ["CAM"], 31),
            ("Darwin Nunez", "Liverpool", "Uruguay", 82, ["ST"], ["LW"], ["CAM", "RW"], 24),
+
+           ("Bukayo Saka", "Arsenal", "England", 87, ["RW"], ["LM", "RM", "LW"], ["WLB"], 22),
+           ("Gabriel Martinelli", "Arsenal", "Brazil", 80, ["LW"], ["ST"], ["RW"], 22),
+
+
+           ("Ansu Fati", "Brighton", "Spain", 79, ["LW"], ["ST"], ["CAM", "RW"], 21),
+
+           ("Harry Maguire", "Manchester United", "England", 80, ["CB"], [], [], 30),
            ]

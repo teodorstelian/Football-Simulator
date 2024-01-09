@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Country Detail - {{ country.name }}{% endblock %}
+
+{% block content %}
+    <div style="text-align: center;">
+        <h1>Country Detail - {{ country.name }}</h1>
+        {% if country.flag %}
+            <img src="{{ country.flag.url }}" alt="{{ country.name }} Logo" style="max-width: 200px;">
+        {% endif %}
+        <p>UCL Places: {{ country.ucl_places }}</p>
+        <p>UEL Places: {{ country.uel_places }}</p>
+        <p>UECL Places: {{ country.uecl_places }}</p>
+
+        <!-- Display list of players -->
+        <h2>Players</h2>
+        <ul>
+            {% for player in players %}
+                <li>
+                    <a href="{% url 'player_detail' player.id %}">
+                        {{ player.name }} - {{ player.main_position }} - {{ player.skill }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

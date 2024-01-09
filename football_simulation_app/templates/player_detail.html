@@ -17,7 +17,12 @@
             </a>
         </p>
 
-        <p>Country: {{ player.country }}</p>
+        <p>
+            Country:
+            <a href="{% url 'country_detail' player.country.id %}">
+                {{ player.country }}
+            </a>
+        </p>
         <p>Age: {{ player.age }}</p>
         <p>Skill: {{ player.skill }}</p>
 

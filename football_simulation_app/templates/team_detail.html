@@ -5,11 +5,16 @@
 {% block content %}
     <div style="text-align: center;">
         <h1>Team Detail - {{ team.name }}</h1>
-        {% if team.logo %}
+        {% if team.logo.url %}
             <img src="{{ team.logo.url }}" alt="{{ team.name }} Logo" style="max-width: 200px;">
         {% endif %}
-        <p>Country: {{ team.country }}</p>
-        <p>Skill: {{ team.skill }}</p>
+
+        <p>
+            Country:
+            <a href="{% url 'country_detail' team.country.id %}">
+                {{ team.country }}
+            </a>
+        </p>
         <p>UCL: {{ team.ucl }}</p>
         <p>UEL: {{ team.uel }}</p>
         <p>UECL: {{ team.uecl }}</p>
@@ -24,6 +29,7 @@
         <p>Defense Skill: {{ team.defense_skill }}</p>
         <p>Midfield Skill: {{ team.midfield_skill }}</p>
         <p>Attack Skill: {{ team.attack_skill }}</p>
+        <p>Overall Skill: {{ team.skill }}</p>
 
         <!-- Display list of players -->
         <h2>Players</h2>

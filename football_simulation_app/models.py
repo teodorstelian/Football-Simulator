@@ -8,6 +8,7 @@ from src.initial_data import DEFENSE_POSITIONS, MIDFIELD_POSITIONS, ATTACK_POSIT
 
 class Country(models.Model):
     name = models.CharField(max_length=100, unique=True)
+    flag = models.ImageField(null=True, blank=True)
     ucl_places = models.IntegerField(default=0)
     uel_places = models.IntegerField(default=0)
     uecl_places = models.IntegerField(default=0)
@@ -20,12 +21,8 @@ class Country(models.Model):
 def team_logo_path(instance):
     if not instance.name:
         return "teams_logo/default.png"
-    photo_path = Path(f"teams_logo/{instance.country}/{instance.name}.png")
-    return (
-        str(photo_path)
-        if photo_path.exists()
-        else "teams_logo/default.png"
-    )
+    photo_path = Path("teams_logo") / f"{instance.country}" / f"{instance.name}.png"
+    return str(photo_path)
 
 class Team(models.Model):
     name = models.CharField(max_length=255)
@@ -50,7 +47,6 @@ class Team(models.Model):
             filter_conditions |= Q(main_position__contains=[position])
             # Filter players based on team ID and the conditions
         players = Player.objects.filter(team=self.id).filter(filter_conditions)
-        #breakpoint()
         if players is None:
             return 0
         total_skill = sum(player.skill for player in players)
@@ -83,11 +79,7 @@ def player_photo_path(instance):
     if not instance.name:
         return "players_photo/default.png"
     photo_path = Path(f"players_photo/{instance.name}.png")
-    return (
-        str(photo_path)
-        if photo_path.exists()
-        else "players_photo/default.png"
-    )
+    return str(photo_path)
 
 class Player(models.Model):
     name = models.CharField(max_length=255)

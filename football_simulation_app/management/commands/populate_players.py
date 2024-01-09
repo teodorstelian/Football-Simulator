@@ -10,11 +10,11 @@ def calculate_position_ovr(skill, main, sec, ter):
         if pos in main:
             rat[pos] = skill
         elif pos in sec:
-            rat[pos] = 0.9 * skill
+            rat[pos] = 0.92 * skill
         elif pos in ter:
-            rat[pos] = 0.75 * skill
+            rat[pos] = 0.82 * skill
         else:
-            rat[pos] = 0.6 * skill
+            rat[pos] = 0.65 * skill
     return rat
 
 

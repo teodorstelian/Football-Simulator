@@ -6,9 +6,17 @@ from django.urls import reverse
 from django.views import View
 
 from football_simulation_app.forms import TeamSelectionForm, SelectPlayerForm
-from football_simulation_app.models import Team, Player
+from football_simulation_app.models import Team, Player, Country
+from src.initial_data import POSITIONS
 from src.leagues import cup_simulation
 from src.main import MainProgram
+
+def country_detail_view(request, country_id):
+    country = get_object_or_404(Country, id=country_id)
+    players = Player.objects.filter(country=country)
+
+    context = {'country': country, 'players': players}
+    return render(request, 'country_detail.html', context)
 
 def team_detail_view(request, team_id):
     team = get_object_or_404(Team, id=team_id)
@@ -71,28 +79,28 @@ def new_game_view(request):
     return render(request, 'main.html')
 
 
-def simulate_cup_view(request):
-    league_name = "YourLeagueName"  # Replace with your actual league name
-    num_teams_to_select = 8  # Adjust the number of top teams you want to select
-
-    teams = Team.objects.filter(country=league_name).order_by('-skill')[:num_teams_to_select]
-
-    if request.method == 'POST':
-        # Run cup simulation
-        teams = cup_simulation(league_name, teams)
-
-        # Update teams in the database
-        for team in teams:
-            team.save()
-
-        # Redirect to the same page to avoid form resubmission on page reload
-        return HttpResponseRedirect(reverse('simulate_cup_view'))
-
-    context = {
-        'teams': teams,
-    }
-
-    return render(request, 'simulate_cup.html', context)
+# def simulate_cup_view(request):
+#     league_name = 1 # Replace with your actual league name
+#     num_teams_to_select = 8  # Adjust the number of top teams you want to select
+#
+#     teams = Team.objects.filter(country=league_name).order_by('-skill')[:num_teams_to_select]
+#
+#     if request.method == 'POST':
+#         # Run cup simulation
+#         teams = cup_simulation(league_name, teams)
+#
+#         # Update teams in the database
+#         for team in teams:
+#             team.save()
+#
+#         # Redirect to the same page to avoid form resubmission on page reload
+#         return HttpResponseRedirect(reverse('simulate_cup_view'))
+#
+#     context = {
+#         'teams': teams,
+#     }
+#
+#     return render(request, 'simulate_cup.html', context)
 
 class TeamSuggestionsView(View):
     def get(self, request, *args, **kwargs):
@@ -109,3 +117,10 @@ class PlayerSuggestionsView(View):
 
         suggestions = [{'name': player.name} for player in player_suggestions]
         return JsonResponse(suggestions, safe=False)
+
+def statistics_view(request):
+    # Retrieve the top 10 teams by skill in descending order
+    top_teams = Team.objects.order_by('-skill')[:10]
+    top_players = Player.objects.order_by('-skill')[:10]
+    context = {'top_teams': top_teams, 'top_players': top_players}
+    return render(request, 'statistics.html', context)
