@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}Player Detail - {{ player.name }}{% endblock %}
+
+{% load static %}
+
+{% block content %}
+
+    <h1>Player Detail - {{ player.name }}</h1>
+    <p>Team: {{ player.team }}</p>
+    <p>Country: {{ player.country }}</p>
+    <p>Age: {{ player.age }}</p>
+    <p>Skill: {{ player.skill }}</p>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'positions.css' %}">
+
+    <h2>Ratings</h2>
+    <div class="wrapper">
+        <div class="campo">
+             <div class="semi1"></div>
+             <div class="semi2"></div>
+             <div class="divisoria"></div>
+             <div class="interior"></div>
+             <div class="penalty"></div>
+             <div class="gk">{{player.GK}}</div>
+             <div class="cb">{{player.CB}}</div>
+             <div class="lb">{{player.LB}}</div>
+             <div class="rb">{{player.RB}}</div>
+             <div class="lwb">{{player.WLB}}</div>
+             <div class="dm">{{player.CDM}}</div>
+             <div class="rwb">{{player.WRB}}</div>
+             <div class="lm">{{player.LM}}</div>
+             <div class="cm">{{player.CM}}</div>
+             <div class="rm">{{player.RM}}</div>
+             <div class="cam">{{player.CAM}}</div>
+             <div class="lw">{{player.LW}}</div>
+             <div class="rw">{{player.RW}}</div>
+             <div class="st">{{player.ST}}</div>
+          </div>
+    </div>
+
+{% endblock %}

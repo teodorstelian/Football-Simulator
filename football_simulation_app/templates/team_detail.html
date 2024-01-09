@@ -18,5 +18,17 @@
         {% else %}
             <p>Europe Status: No European competition next season</p>
         {% endif %}
+
+        <!-- Display list of players -->
+        <h2>Players</h2>
+        <ul>
+            {% for player in players %}
+                <li>
+                    <a href="{% url 'player_detail' player.id %}">
+                        {{ player.name }} - {{ player.main_positions }} - {{ player.skill }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
     </div>
 {% endblock %}

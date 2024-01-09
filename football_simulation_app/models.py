@@ -36,6 +36,20 @@ class Player(models.Model):
     main_positions = models.CharField(max_length=255)
     secondary_positions = models.CharField(max_length=255, null=True, blank=True)
     tertiary_positions = models.CharField(max_length=255, null=True, blank=True)
+    GK = models.IntegerField(default=0)
+    LB = models.IntegerField(default=0)
+    CB = models.IntegerField(default=0)
+    RB = models.IntegerField(default=0)
+    WLB = models.IntegerField(default=0)
+    WRB = models.IntegerField(default=0)
+    LM = models.IntegerField(default=0)
+    CDM = models.IntegerField(default=0)
+    CM = models.IntegerField(default=0)
+    CAM = models.IntegerField(default=0)
+    RM = models.IntegerField(default=0)
+    LW = models.IntegerField(default=0)
+    RW = models.IntegerField(default=0)
+    ST = models.IntegerField(default=0)
 
     def __str__(self):
         return self.name

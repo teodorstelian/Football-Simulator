@@ -13,6 +13,8 @@ COUNTRIES = {
     "Austria": {"ucl": 2, "uel": 2, "uecl": 2},
 }
 
+POSITIONS = ["GK", "LB", "RB", "CB", "WLB", "WRB", "LM", "RM", "CDM", "CM", "CAM", "LW", "RW", "ST"]
+
 # Teams
 # Name, Skill, Logo
 ENG_TEAMS = [("Arsenal", 95),
@@ -202,5 +204,6 @@ AUS_TEAMS = [("Austria Klagenfurt", 65),
 
 # player_name, team_name, country_name, skill, main_position, secondary_positions, tertiary_positions, age
 PLAYERS = [("Cole Palmer", "Chelsea", "England", 72, ["RW", "CAM"], ["LW", "CM", "RM"], ["LM"], 21),
-           ("Erling Haaland", "Manchester City", "Norway", 95, ["ST"], [], [], 21)
+           ("Erling Haaland", "Manchester City", "Norway", 95, ["ST"], [], [], 21),
+           ("Alisson", "Liverpool", "Brazil", 90, ["GK"], [], [], 31),
            ]

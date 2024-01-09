@@ -5,25 +5,46 @@ from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
 from django.views import View
 
-from football_simulation_app.forms import TeamSelectionForm
-from football_simulation_app.models import Team
+from football_simulation_app.forms import TeamSelectionForm, SelectPlayerForm
+from football_simulation_app.models import Team, Player
 from src.leagues import cup_simulation
 from src.main import MainProgram
 
-def team_detail_view(request, team_name):
-    team = get_object_or_404(Team, name=team_name)
-    return render(request, 'team_detail.html', {'team': team})
+def team_detail_view(request, team_id):
+    team = get_object_or_404(Team, id=team_id)
+    players = Player.objects.filter(team=team)
+
+    context = {'team': team, 'players': players}
+    return render(request, 'team_detail.html', context)
+
+def player_detail_view(request, player_id):
+    player = get_object_or_404(Player, id=player_id)
+    return render(request, 'player_detail.html', {'player': player})
 
 def select_team_view(request):
     if request.method == 'POST':
         form = TeamSelectionForm(request.POST)
         if form.is_valid():
             team_name = form.cleaned_data['team_name']
-            return redirect('team_detail', team_name=team_name)
+            team_id = get_object_or_404(Team, name=team_name).id
+            return redirect('team_detail', team_id=team_id)
     else:
         form = TeamSelectionForm()
 
     return render(request, 'select_team.html', {'form': form})
+
+
+def select_player_view(request):
+    if request.method == 'POST':
+        form = SelectPlayerForm(request.POST)
+        if form.is_valid():
+            player_name = form.cleaned_data['player_name']
+            player_id = get_object_or_404(Player, name=player_name).id
+            return redirect('player_detail', player_id=player_id)
+    else:
+        form = SelectPlayerForm()
+
+    return render(request, 'select_player.html', {'form': form})
 
 def new_game_view(request):
     program = MainProgram()
@@ -79,4 +100,12 @@ class TeamSuggestionsView(View):
         team_suggestions = Team.objects.filter(Q(name__icontains=query))
 
         suggestions = [{'name': team.name} for team in team_suggestions]
+        return JsonResponse(suggestions, safe=False)
+
+class PlayerSuggestionsView(View):
+    def get(self, request, *args, **kwargs):
+        query = self.request.GET.get('query', '')
+        player_suggestions = Player.objects.filter(Q(name__icontains=query))
+
+        suggestions = [{'name': player.name} for player in player_suggestions]
         return JsonResponse(suggestions, safe=False)
