@@ -1,0 +1,101 @@
+<!-- select_lineup.html -->
+{% extends 'base.html' %}
+
+{% block title %}Select Lineup{% endblock %}
+
+{% block extra_head %}
+
+{% endblock %}
+
+{% block content %}
+    <form action="{% url 'select_lineup' %}" method="post">
+        {% csrf_token %}
+        <p>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="" selected disabled>Select Country</option>
+                {% for country in countries %}
+                    <option value="{{ country.id }}">{{ country.name }}</option>
+                {% endfor %}
+            </select>
+        </p>
+        <p>
+            <label for="team">Team:</label>
+            <select id="team" name="team" disabled>
+                <option value="" selected disabled>Select Team</option>
+            </select>
+        </p>
+        <p>
+            <label for="GK">GK:</label>
+            <select id="GK" name="GK" disabled>
+                <option value="" selected disabled>Select GK</option>
+            </select>
+        </p>
+        <p>
+            <label for="LB">LB:</label>
+            <select id="LB" name="LB" disabled>
+                <option value="" selected disabled>Select LB</option>
+            </select>
+        </p>
+        <p>
+            <label for="CB1">CB:</label>
+            <select id="CB1" name="CB1" disabled>
+                <option value="" selected disabled>Select CB</option>
+            </select>
+        </p>
+        <p>
+            <label for="CB2">CB:</label>
+            <select id="CB2" name="CB2" disabled>
+                <option value="" selected disabled>Select CB</option>
+            </select>
+        </p>
+        <!-- Add similar sections for other positions as needed -->
+        <input type="submit" value="Submit">
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#country").change(function () {
+                var countryId = $(this).val();
+                $.ajax({
+                    url: "/ajax_get_teams_and_players/",
+                    data: {country_id: countryId},
+                    dataType: 'json',
+                    success: function (data) {
+                        $("#team").prop('disabled', false).empty().append('<option value="" selected disabled>Select Team</option>');
+                        $("#GK").prop('disabled', true).empty().append('<option value="" selected disabled>Select GK</option>');
+                        $("#LB").prop('disabled', true).empty().append('<option value="" selected disabled>Select LB</option>');
+                        // Add similar sections for other positions as needed
+                        $.each(data.teams, function (key, value) {
+                            $("#team").append('<option value="' + value.id + '">' + value.name + '</option>');
+                        });
+                        // Update players dropdown if needed
+                        // ...
+                    }
+                });
+            });
+
+            $("#team").change(function () {
+                var teamId = $(this).val();
+                $.ajax({
+                    url: "/ajax_get_teams_and_players/",
+                    data: {team_id: teamId},
+                    dataType: 'json',
+                    success: function (data) {
+                        $("#GK").prop('disabled', false).empty().append('<option value="" selected disabled>Select GK</option>');
+                        $("#LB").prop('disabled', false).empty().append('<option value="" selected disabled>Select LB</option>');
+                        // Add similar sections for other positions as needed
+                        $.each(data.players, function (key, value) {
+                            $("#GK").append('<option value="' + value.id + '">' + value.name + " - " + value.GK + '</option>');
+                        });
+                        $.each(data.players, function (key, value) {
+                            $("#LB").append('<option value="' + value.id + '">' + value.name + " - " + value.LB + '</option>');
+                        });
+                        // Update other position dropdowns if needed
+                        // ...
+                    }
+                });
+            });
+        });
+    </script>
+{% endblock %}

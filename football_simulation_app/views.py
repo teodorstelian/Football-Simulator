@@ -124,3 +124,23 @@ def statistics_view(request):
     top_players = Player.objects.order_by('-skill')[:10]
     context = {'top_teams': top_teams, 'top_players': top_players}
     return render(request, 'statistics.html', context)
+
+
+def select_lineup(request):
+    countries = Country.objects.all()
+    teams = Team.objects.none()
+    players = Player.objects.none()
+    context = {'countries': countries, 'teams': teams, 'players': players}
+    return render(request, 'select_lineup.html', context)
+
+def ajax_get_teams_and_players(request):
+    if request.method == 'GET':
+        country_id = request.GET.get('country_id')
+        team_id = request.GET.get('team_id')
+        if country_id or team_id:
+            teams = Team.objects.filter(country=country_id).values('id', 'name')
+            players = Player.objects.filter(team=team_id).values('id', 'name', 'GK', 'LB', 'CB', 'RB')
+
+            return JsonResponse({'teams': list(teams), 'players': list(players)})
+
+    return JsonResponse({'error': 'Invalid request'})
