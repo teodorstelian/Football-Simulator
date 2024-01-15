@@ -49,6 +49,48 @@
                 <option value="" selected disabled>Select CB</option>
             </select>
         </p>
+         <p>
+            <label for="RB">RB:</label>
+            <select id="RB" name="RB" disabled>
+                <option value="" selected disabled>Select RB</option>
+            </select>
+        </p>
+         <p>
+            <label for="CDM1">CDM:</label>
+            <select id="CDM1" name="CDM" disabled>
+                <option value="" selected disabled>Select CDM</option>
+            </select>
+        </p>
+         <p>
+            <label for="CDM2">CDM:</label>
+            <select id="CDM2" name="CB2" disabled>
+                <option value="" selected disabled>Select CDM</option>
+            </select>
+        </p>
+         <p>
+            <label for="CAM">CAM:</label>
+            <select id="CAM" name="CAM" disabled>
+                <option value="" selected disabled>Select CAM</option>
+            </select>
+        </p>
+         <p>
+            <label for="LW">LW:</label>
+            <select id="LW" name="LW" disabled>
+                <option value="" selected disabled>Select LW</option>
+            </select>
+        </p>
+         <p>
+            <label for="RW">RW:</label>
+            <select id="RW" name="RW" disabled>
+                <option value="" selected disabled>Select RW</option>
+            </select>
+        </p>
+         <p>
+            <label for="ST">ST:</label>
+            <select id="ST" name="ST" disabled>
+                <option value="" selected disabled>Select ST</option>
+            </select>
+        </p>
         <!-- Add similar sections for other positions as needed -->
         <input type="submit" value="Submit">
     </form>
@@ -65,6 +107,15 @@
                         $("#team").prop('disabled', false).empty().append('<option value="" selected disabled>Select Team</option>');
                         $("#GK").prop('disabled', true).empty().append('<option value="" selected disabled>Select GK</option>');
                         $("#LB").prop('disabled', true).empty().append('<option value="" selected disabled>Select LB</option>');
+                        $("#CB1").prop('disabled', true).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#CB2").prop('disabled', true).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#RB").prop('disabled', true).empty().append('<option value="" selected disabled>Select RB</option>');
+                        $("#CDM1").prop('disabled', true).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#CDM2").prop('disabled', true).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#CAM").prop('disabled', true).empty().append('<option value="" selected disabled>Select CAM</option>');
+                        $("#LW").prop('disabled', true).empty().append('<option value="" selected disabled>Select LW</option>');
+                        $("#RW").prop('disabled', true).empty().append('<option value="" selected disabled>Select RW</option>');
+                        $("#ST").prop('disabled', true).empty().append('<option value="" selected disabled>Select ST</option>');
                         // Add similar sections for other positions as needed
                         $.each(data.teams, function (key, value) {
                             $("#team").append('<option value="' + value.id + '">' + value.name + '</option>');
@@ -84,12 +135,48 @@
                     success: function (data) {
                         $("#GK").prop('disabled', false).empty().append('<option value="" selected disabled>Select GK</option>');
                         $("#LB").prop('disabled', false).empty().append('<option value="" selected disabled>Select LB</option>');
+                        $("#CB1").prop('disabled', false).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#CB2").prop('disabled', false).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#RB").prop('disabled', false).empty().append('<option value="" selected disabled>Select RB</option>');
+                        $("#CDM1").prop('disabled', false).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#CDM2").prop('disabled', false).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#CAM").prop('disabled', false).empty().append('<option value="" selected disabled>Select CAM</option>');
+                        $("#LW").prop('disabled', false).empty().append('<option value="" selected disabled>Select LW</option>');
+                        $("#RW").prop('disabled', false).empty().append('<option value="" selected disabled>Select RW</option>');
+                        $("#ST").prop('disabled', false).empty().append('<option value="" selected disabled>Select ST</option>');
                         // Add similar sections for other positions as needed
                         $.each(data.players, function (key, value) {
                             $("#GK").append('<option value="' + value.id + '">' + value.name + " - " + value.GK + '</option>');
                         });
                         $.each(data.players, function (key, value) {
                             $("#LB").append('<option value="' + value.id + '">' + value.name + " - " + value.LB + '</option>');
+                        });
+                        $.each(data.players, function (key, value) {
+                            $("#CB1").append('<option value="' + value.id + '">' + value.name + " - " + value.CB + '</option>');
+                        });
+                        $.each(data.players, function (key, value) {
+                            $("#CB2").append('<option value="' + value.id + '">' + value.name + " - " + value.CB + '</option>');
+                        });
+                        $.each(data.players, function (key, value) {
+                            $("#RB").append('<option value="' + value.id + '">' + value.name + " - " + value.RB + '</option>');
+                        });
+                        $.each(data.players, function (key, value) {
+                            $("#CDM1").append('<option value="' + value.id + '">' + value.name + " - " + value.CDM + '</option>');
+                        });
+                        $.each(data.players, function (key, value) {
+                            $("#CDM2").append('<option value="' + value.id + '">' + value.name + " - " + value.CDM + '</option>');
+                        });
+                        $.each(data.players, function (key, value) {
+                            $("#CAM").append('<option value="' + value.id + '">' + value.name + " - " + value.CAM + '</option>');
+                        });
+                        $.each(data.players, function (key, value) {
+                            $("#LW").append('<option value="' + value.id + '">' + value.name + " - " + value.LW + '</option>');
+                        });
+                        $.each(data.players, function (key, value) {
+                            $("#RW").append('<option value="' + value.id + '">' + value.name + " - " + value.RW + '</option>');
+                        });
+                        $.each(data.players, function (key, value) {
+                            $("#ST").append('<option value="' + value.id + '">' + value.name + " - " + value.ST + '</option>');
                         });
                         // Update other position dropdowns if needed
                         // ...

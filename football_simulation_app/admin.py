@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Team, Country, Player
+from .models import Team, Country, Player, Statistics
 
 
 class TeamAdmin(admin.ModelAdmin):
@@ -16,3 +16,5 @@ class PlayerAdmin(admin.ModelAdmin):
     list_display = ['name', 'skill', 'country', 'team', 'photo']
 
 admin.site.register(Player, PlayerAdmin)
+
+admin.site.register(Statistics)

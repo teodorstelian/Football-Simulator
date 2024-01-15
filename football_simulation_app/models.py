@@ -113,3 +113,17 @@ class Player(models.Model):
 
     def __str__(self):
         return self.name
+
+class Statistics(models.Model):
+    player = models.ForeignKey('Player', on_delete=models.CASCADE)
+    team = models.ForeignKey('Team', on_delete=models.CASCADE)
+    position = models.CharField(max_length=50)
+    season = models.CharField(max_length=50)
+    apps = models.IntegerField(default=0)
+    goals = models.IntegerField(default=0)
+    assists = models.IntegerField(default=0)
+    yellow_cards = models.IntegerField(default=0)
+    red_cards = models.IntegerField(default=0)
+
+    def __str__(self):
+        return f"{self.player.name} - {self.team.name} - {self.position} - {self.season}"

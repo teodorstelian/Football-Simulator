@@ -14,7 +14,7 @@ def calculate_position_ovr(skill, main, sec, ter):
             rat[pos] = 0.82 * skill
         else:
             rat[pos] = 0.65 * skill
-    if "GK" not in (main, sec, ter):
+    if "GK" not in main:
         rat["GK"] = 40
     return rat
 

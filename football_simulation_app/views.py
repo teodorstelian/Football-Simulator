@@ -139,7 +139,7 @@ def ajax_get_teams_and_players(request):
         team_id = request.GET.get('team_id')
         if country_id or team_id:
             teams = Team.objects.filter(country=country_id).values('id', 'name')
-            players = Player.objects.filter(team=team_id).values('id', 'name', 'GK', 'LB', 'CB', 'RB')
+            players = Player.objects.filter(team=team_id).values('id', 'name', 'GK', 'LB', 'CB', 'RB', 'CDM', 'CAM', 'LW', 'RW','ST')
 
             return JsonResponse({'teams': list(teams), 'players': list(players)})
 
