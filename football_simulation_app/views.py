@@ -1,4 +1,4 @@
-from django.db.models import Q
+from django.db.models import Q, Sum
 from django.http import HttpResponseRedirect
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, redirect, render
@@ -25,9 +25,40 @@ def team_detail_view(request, team_id):
     context = {'team': team, 'players': players}
     return render(request, 'team_detail.html', context)
 
+
 def player_detail_view(request, player_id):
     player = get_object_or_404(Player, id=player_id)
-    return render(request, 'player_detail.html', {'player': player})
+
+    # Fetch statistics for the player
+    player_statistics = Statistics.objects.filter(player=player)
+
+    # Calculate total statistics
+    total_apps = player_statistics.aggregate(total_apps=Sum('apps'))['total_apps'] or 0
+    total_goals = player_statistics.aggregate(total_goals=Sum('goals'))['total_goals'] or 0
+    total_assists = player_statistics.aggregate(total_assists=Sum('assists'))['total_assists'] or 0
+
+    # Group statistics by club
+    club_statistics = player_statistics.values('team__name').annotate(
+        total_apps=Sum('apps'),
+        total_goals=Sum('goals'),
+        total_assists=Sum('assists')
+    )
+
+    # Group statistics by position
+    position_statistics = player_statistics.values('position').annotate(
+        total_apps=Sum('apps'),
+        total_goals=Sum('goals'),
+        total_assists=Sum('assists')
+    )
+
+    return render(request, 'player_detail.html', {
+        'player': player,
+        'total_apps': total_apps,
+        'total_goals': total_goals,
+        'total_assists': total_assists,
+        'club_statistics': club_statistics,
+        'position_statistics': position_statistics,
+    })
 
 def select_team_view(request):
     if request.method == 'POST':
@@ -176,24 +207,5 @@ def ajax_get_teams_and_players(request):
             players = Player.objects.filter(team=team_id).values('id', 'name', 'GK', 'LB', 'CB', 'RB', 'CDM', 'CAM',
                                                                  'LW', 'RW', 'ST')
             return JsonResponse({'players': list(players)})
-
-    elif request.method == 'POST':
-        # Handle form submission and update Statistics model
-        country_id = request.POST.get('country')
-        team_id = request.POST.get('team')
-        gk_id = request.POST.get('GK')
-
-        # You need to add similar lines for other positions
-        lb_id = request.POST.get('LB')
-        cb1_id = request.POST.get('CB1')
-        cb2_id = request.POST.get('CB2')
-        # Add similar lines for other positions
-
-        # Create Statistics entries for the selected players
-        Statistics.objects.create(player_id=gk_id, team_id=team_id, position='GK', apps=1, goals=0, assists=0,
-                                  yellowcards=0, redcards=0)
-        # Add similar lines for other positions
-
-        return JsonResponse({'message': 'Statistics updated successfully'})
 
     return JsonResponse({'error': 'Invalid request'})

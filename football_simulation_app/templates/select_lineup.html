@@ -186,9 +186,25 @@
             });
 
             $("#lineupForm").submit(function (event) {
-                event.preventDefault();  // Prevent the form from submitting the traditional way
+                event.preventDefault();
 
-                var formData = $(this).serializeArray();  // Serialize form data as an array
+                // Check if there are different players selected in each position
+                var selectedPlayers = [];
+                var positions = ["GK", "LB", "CB1", "CB2", "RB", "CDM1", "CDM2", "CAM", "LW", "RW", "ST"];
+                for (var i = 0; i < positions.length; i++) {
+                    var position = positions[i];
+                    var playerId = $("#" + position).val();
+
+                    // Check if the player is already selected for another position
+                    if (selectedPlayers.includes(playerId)) {
+                        alert("Player can't be selected in multiple positions.");
+                        return; // Prevent form submission
+                    }
+
+                    selectedPlayers.push(playerId);
+                }
+
+                var formData = $(this).serializeArray();
 
                 $.ajax({
                     type: "POST",
@@ -196,7 +212,7 @@
                     data: formData,
                     dataType: 'json',
                     success: function (response) {
-                        console.log(response.message);  // Log the server response
+                        console.log(response.message);
                         // Add any additional logic or UI updates as needed
                     },
                     error: function (error) {

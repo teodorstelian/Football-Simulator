@@ -52,5 +52,38 @@
                  <div class="st">{{player.ST}}</div>
               </div>
         </div>
+
+        <h2>Total Statistics</h2>
+        <p>Apps: {{ total_apps }}</p>
+        <p>Goals: {{ total_goals }}</p>
+        <p>Assists: {{ total_assists }}</p>
+
+        <h2>Club-wise Statistics</h2>
+        <p>
+          {% for club_stat in club_statistics %}
+            <p>
+              {{ club_stat.team__name }}:
+              <p>
+                <p>Apps: {{ club_stat.total_apps }}</p>
+                <p>Goals: {{ club_stat.total_goals }}</p>
+                <p>Assists: {{ club_stat.total_assists }}</p>
+              </p>
+            </p>
+          {% endfor %}
+        </p>
+
+        <h2>Position-wise Statistics</h2>
+        <ul>
+          {% for position_stat in position_statistics %}
+            <li>
+              {{ position_stat.position }}:
+              <ul>
+                <li>Apps: {{ position_stat.total_apps }}</li>
+                <li>Goals: {{ position_stat.total_goals }}</li>
+                <li>Assists: {{ position_stat.total_assists }}</li>
+              </ul>
+            </li>
+          {% endfor %}
+        </ul>
     </div>
 {% endblock %}
