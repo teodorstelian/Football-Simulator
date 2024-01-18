@@ -5,8 +5,8 @@ from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
 from django.views import View
 
-from football_simulation_app.forms import TeamSelectionForm, SelectPlayerForm
-from football_simulation_app.models import Team, Player, Country
+from football_simulation_app.forms import TeamSelectionForm, SelectPlayerForm, LineupForm
+from football_simulation_app.models import Team, Player, Country, Statistics
 from src.initial_data import POSITIONS
 from src.leagues import cup_simulation
 from src.main import MainProgram
@@ -128,19 +128,72 @@ def statistics_view(request):
 
 def select_lineup(request):
     countries = Country.objects.all()
-    teams = Team.objects.none()
-    players = Player.objects.none()
-    context = {'countries': countries, 'teams': teams, 'players': players}
+
+    if request.method == 'POST':
+        form = LineupForm(request.POST)
+        if form.is_valid():
+
+            team_id = form.cleaned_data['team']
+            positions = ["GK", "LB", "CB1", "CB2", "RB", "CDM1", "CDM2", "CAM", "LW", "RW", "ST"]
+            for pos in positions:
+                current_pos_id = form.cleaned_data[pos]
+                if pos in ["CB1", "CB2"]:
+                    pos = "CB"
+                elif pos in ["CDM1", "CDM2"]:
+                    pos = "CDM"
+
+                # Check if the Statistics object already exists for the player and position
+                existing_stats = Statistics.objects.filter(player_id=current_pos_id, team_id=team_id,
+                                                           position=pos).first()
+
+                if existing_stats:
+                    existing_stats.apps += 1
+                    existing_stats.save()
+                else:
+                    Statistics.objects.create(player_id=current_pos_id, team_id=team_id, position=pos, apps=1, goals=0, assists=0,
+                                          yellow_cards=0, red_cards=0, season="2023/24")
+
+            return JsonResponse({'message': 'Lineup submitted successfully'})
+        else:
+            errors = {field: form.errors[field][0] for field in form.errors}
+            return JsonResponse({'message': 'Invalid form submission', 'errors': errors})
+    else:
+        form = LineupForm()
+
+    context = {'countries': countries, 'form': form}
     return render(request, 'select_lineup.html', context)
 
 def ajax_get_teams_and_players(request):
     if request.method == 'GET':
         country_id = request.GET.get('country_id')
         team_id = request.GET.get('team_id')
-        if country_id or team_id:
-            teams = Team.objects.filter(country=country_id).values('id', 'name')
-            players = Player.objects.filter(team=team_id).values('id', 'name', 'GK', 'LB', 'CB', 'RB', 'CDM', 'CAM', 'LW', 'RW','ST')
 
-            return JsonResponse({'teams': list(teams), 'players': list(players)})
+        if country_id:
+            teams = Team.objects.filter(country=country_id).values('id', 'name')
+            return JsonResponse({'teams': list(teams)})
+
+        elif team_id:
+            players = Player.objects.filter(team=team_id).values('id', 'name', 'GK', 'LB', 'CB', 'RB', 'CDM', 'CAM',
+                                                                 'LW', 'RW', 'ST')
+            return JsonResponse({'players': list(players)})
+
+    elif request.method == 'POST':
+        # Handle form submission and update Statistics model
+        country_id = request.POST.get('country')
+        team_id = request.POST.get('team')
+        gk_id = request.POST.get('GK')
+
+        # You need to add similar lines for other positions
+        lb_id = request.POST.get('LB')
+        cb1_id = request.POST.get('CB1')
+        cb2_id = request.POST.get('CB2')
+        # Add similar lines for other positions
+
+        # Create Statistics entries for the selected players
+        Statistics.objects.create(player_id=gk_id, team_id=team_id, position='GK', apps=1, goals=0, assists=0,
+                                  yellowcards=0, redcards=0)
+        # Add similar lines for other positions
+
+        return JsonResponse({'message': 'Statistics updated successfully'})
 
     return JsonResponse({'error': 'Invalid request'})

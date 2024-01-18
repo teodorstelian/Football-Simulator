@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block content %}
-    <form action="{% url 'select_lineup' %}" method="post">
+    <form id="lineupForm">
         {% csrf_token %}
         <p>
             <label for="country">Country:</label>
@@ -30,6 +30,7 @@
             <select id="GK" name="GK" disabled>
                 <option value="" selected disabled>Select GK</option>
             </select>
+            <input type="hidden" id="id_GK" name="GK_id">
         </p>
         <p>
             <label for="LB">LB:</label>
@@ -57,13 +58,13 @@
         </p>
          <p>
             <label for="CDM1">CDM:</label>
-            <select id="CDM1" name="CDM" disabled>
+            <select id="CDM1" name="CDM1" disabled>
                 <option value="" selected disabled>Select CDM</option>
             </select>
         </p>
          <p>
             <label for="CDM2">CDM:</label>
-            <select id="CDM2" name="CB2" disabled>
+            <select id="CDM2" name="CDM2" disabled>
                 <option value="" selected disabled>Select CDM</option>
             </select>
         </p>
@@ -180,6 +181,27 @@
                         });
                         // Update other position dropdowns if needed
                         // ...
+                    }
+                });
+            });
+
+            $("#lineupForm").submit(function (event) {
+                event.preventDefault();  // Prevent the form from submitting the traditional way
+
+                var formData = $(this).serializeArray();  // Serialize form data as an array
+
+                $.ajax({
+                    type: "POST",
+                    url: "{% url 'select_lineup' %}",
+                    data: formData,
+                    dataType: 'json',
+                    success: function (response) {
+                        console.log(response.message);  // Log the server response
+                        // Add any additional logic or UI updates as needed
+                    },
+                    error: function (error) {
+                        console.log("Error:", error);
+                        // Handle errors or display a message to the user
                     }
                 });
             });
