@@ -146,37 +146,37 @@
                         $("#RW").prop('disabled', false).empty().append('<option value="" selected disabled>Select RW</option>');
                         $("#ST").prop('disabled', false).empty().append('<option value="" selected disabled>Select ST</option>');
                         // Add similar sections for other positions as needed
-                        $.each(data.players, function (key, value) {
+                        $.each(data.GK, function (key, value) {
                             $("#GK").append('<option value="' + value.id + '">' + value.name + " - " + value.GK + '</option>');
                         });
-                        $.each(data.players, function (key, value) {
+                        $.each(data.LB, function (key, value) {
                             $("#LB").append('<option value="' + value.id + '">' + value.name + " - " + value.LB + '</option>');
                         });
-                        $.each(data.players, function (key, value) {
+                        $.each(data.CB, function (key, value) {
                             $("#CB1").append('<option value="' + value.id + '">' + value.name + " - " + value.CB + '</option>');
                         });
-                        $.each(data.players, function (key, value) {
+                        $.each(data.CB, function (key, value) {
                             $("#CB2").append('<option value="' + value.id + '">' + value.name + " - " + value.CB + '</option>');
                         });
-                        $.each(data.players, function (key, value) {
+                        $.each(data.RB, function (key, value) {
                             $("#RB").append('<option value="' + value.id + '">' + value.name + " - " + value.RB + '</option>');
                         });
-                        $.each(data.players, function (key, value) {
+                        $.each(data.CDM, function (key, value) {
                             $("#CDM1").append('<option value="' + value.id + '">' + value.name + " - " + value.CDM + '</option>');
                         });
-                        $.each(data.players, function (key, value) {
+                        $.each(data.CDM, function (key, value) {
                             $("#CDM2").append('<option value="' + value.id + '">' + value.name + " - " + value.CDM + '</option>');
                         });
-                        $.each(data.players, function (key, value) {
+                        $.each(data.CAM, function (key, value) {
                             $("#CAM").append('<option value="' + value.id + '">' + value.name + " - " + value.CAM + '</option>');
                         });
-                        $.each(data.players, function (key, value) {
+                        $.each(data.LW, function (key, value) {
                             $("#LW").append('<option value="' + value.id + '">' + value.name + " - " + value.LW + '</option>');
                         });
-                        $.each(data.players, function (key, value) {
+                        $.each(data.RW, function (key, value) {
                             $("#RW").append('<option value="' + value.id + '">' + value.name + " - " + value.RW + '</option>');
                         });
-                        $.each(data.players, function (key, value) {
+                        $.each(data.ST, function (key, value) {
                             $("#ST").append('<option value="' + value.id + '">' + value.name + " - " + value.ST + '</option>');
                         });
                         // Update other position dropdowns if needed

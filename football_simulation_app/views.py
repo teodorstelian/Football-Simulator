@@ -1,15 +1,12 @@
 from django.db.models import Q, Sum
-from django.http import HttpResponseRedirect
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, redirect, render
-from django.urls import reverse
 from django.views import View
 
 from football_simulation_app.forms import TeamSelectionForm, SelectPlayerForm, LineupForm
 from football_simulation_app.models import Team, Player, Country, Statistics
-from src.initial_data import POSITIONS
-from src.leagues import cup_simulation
-from src.main import MainProgram
+from football_simulation_project.settings import POSITION_THRESHOLD, FORMATION_4_4_2
+
 
 def country_detail_view(request, country_id):
     country = get_object_or_404(Country, id=country_id)
@@ -85,29 +82,29 @@ def select_player_view(request):
 
     return render(request, 'select_player.html', {'form': form})
 
-def new_game_view(request):
-    program = MainProgram()
-
-    if request.method == 'POST':
-        choice = request.POST.get('choice')
-
-        if choice == "simulate_season":
-            program.simulate_season()
-        elif choice == "simulate_league":
-            program.simulate_league()
-        elif choice == "simulate_cup":
-            program.simulate_cup()
-        elif choice == "simulate_european":
-            program.simulate_european()
-        elif choice == "get_best_teams":
-            result = program.get_best_teams(program.league)
-            return render(request, 'main.html', {'result': result})
-        elif choice == "check_team_stats":
-            input_team = request.POST.get('team_name')
-            result = program.check_team_stats(input_team)
-            return render(request, 'main.html', {'result': result})
-
-    return render(request, 'main.html')
+# def new_game_view(request):
+#     program = MainProgram()
+#
+#     if request.method == 'POST':
+#         choice = request.POST.get('choice')
+#
+#         if choice == "simulate_season":
+#             program.simulate_season()
+#         elif choice == "simulate_league":
+#             program.simulate_league()
+#         elif choice == "simulate_cup":
+#             program.simulate_cup()
+#         elif choice == "simulate_european":
+#             program.simulate_european()
+#         elif choice == "get_best_teams":
+#             result = program.get_best_teams(program.league)
+#             return render(request, 'main.html', {'result': result})
+#         elif choice == "check_team_stats":
+#             input_team = request.POST.get('team_name')
+#             result = program.check_team_stats(input_team)
+#             return render(request, 'main.html', {'result': result})
+#
+#     return render(request, 'main.html')
 
 
 # def simulate_cup_view(request):
@@ -165,7 +162,7 @@ def select_lineup(request):
         if form.is_valid():
 
             team_id = form.cleaned_data['team']
-            positions = ["GK", "LB", "CB1", "CB2", "RB", "CDM1", "CDM2", "CAM", "LW", "RW", "ST"]
+            positions = FORMATION_4_4_2
             for pos in positions:
                 current_pos_id = form.cleaned_data[pos]
                 if pos in ["CB1", "CB2"]:
@@ -204,8 +201,24 @@ def ajax_get_teams_and_players(request):
             return JsonResponse({'teams': list(teams)})
 
         elif team_id:
-            players = Player.objects.filter(team=team_id).values('id', 'name', 'GK', 'LB', 'CB', 'RB', 'CDM', 'CAM',
-                                                                 'LW', 'RW', 'ST')
-            return JsonResponse({'players': list(players)})
+            gk = Player.objects.filter(team=team_id, GK__gt = POSITION_THRESHOLD).values('id', 'name', 'GK')
+            lb = Player.objects.filter(team=team_id, LB__gt = POSITION_THRESHOLD).values('id', 'name', 'LB')
+            cb = Player.objects.filter(team=team_id, CB__gt = POSITION_THRESHOLD).values('id', 'name', 'CB')
+            rb = Player.objects.filter(team=team_id, RB__gt = POSITION_THRESHOLD).values('id', 'name', 'RB')
+            cdm = Player.objects.filter(team=team_id, CDM__gt = POSITION_THRESHOLD).values('id', 'name', 'CDM')
+            cam = Player.objects.filter(team=team_id, CAM__gt = POSITION_THRESHOLD).values('id', 'name', 'CAM')
+            lw = Player.objects.filter(team=team_id, LW__gt = POSITION_THRESHOLD).values('id', 'name', 'LW')
+            rw = Player.objects.filter(team=team_id, RW__gt = POSITION_THRESHOLD).values('id', 'name', 'RW')
+            st = Player.objects.filter(team=team_id, ST__gt = POSITION_THRESHOLD).values('id', 'name', 'ST')
+            return JsonResponse({'GK': list(gk),
+                                 'LB': list(lb),
+                                 'CB': list(cb),
+                                 'RB': list(rb),
+                                 'CDM': list(cdm),
+                                 'CAM': list(cam),
+                                 'LW': list(lw),
+                                 'RW': list(rw),
+                                 'ST': list(st)},
+                                )
 
     return JsonResponse({'error': 'Invalid request'})

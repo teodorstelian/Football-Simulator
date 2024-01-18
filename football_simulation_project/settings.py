@@ -125,3 +125,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / "media"
+
+
+# GLOBAL VARIABLES
+POSITION_THRESHOLD = 65
+FORMATION_4_4_2 = ["GK", "LB", "CB1", "CB2", "RB", "CDM1", "CDM2", "CAM", "LW", "RW", "ST"]
