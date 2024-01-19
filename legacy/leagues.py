@@ -1,7 +1,7 @@
-from src import matches
-from src import settings
-from src.team import Team
-from src.database import create_teams_table, get_teams, update_team
+from legacy import matches
+from legacy import settings
+from legacy.team import Team
+from legacy.database import create_teams_table, get_teams, update_team
 
 
 def select_league():

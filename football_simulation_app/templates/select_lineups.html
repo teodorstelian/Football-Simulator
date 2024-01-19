@@ -1,7 +1,6 @@
-<!-- select_lineup.html -->
 {% extends 'base.html' %}
 
-{% block title %}Select Lineup{% endblock %}
+{% block title %}Play Friendly{% endblock %}
 
 {% block extra_head %}
 
@@ -379,7 +378,7 @@
 
                 $.ajax({
                     type: "POST",
-                    url: "{% url 'select_lineup' %}",
+                    url: "{% url 'select_lineups' %}",
                     data: formData,
                     dataType: 'json',
                     success: function (response) {

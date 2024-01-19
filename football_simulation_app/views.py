@@ -3,7 +3,7 @@ from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views import View
 
-from football_simulation_app.forms import TeamSelectionForm, SelectPlayerForm, LineupForm
+from football_simulation_app.forms import SelectTeamForm, SelectPlayerForm, LineupForm
 from football_simulation_app.models import Team, Player, Country, Statistics
 from football_simulation_project.settings import POSITION_THRESHOLD, FORMATION_4_4_2
 
@@ -57,30 +57,25 @@ def player_detail_view(request, player_id):
         'position_statistics': position_statistics,
     })
 
-def select_team_view(request):
+def search_view(request):
     if request.method == 'POST':
-        form = TeamSelectionForm(request.POST)
-        if form.is_valid():
-            team_name = form.cleaned_data['team_name']
+        team_form = SelectTeamForm(request.POST)
+        if team_form.is_valid():
+            team_name = team_form.cleaned_data['team_name']
             team_id = get_object_or_404(Team, name=team_name).id
             return redirect('team_detail', team_id=team_id)
-    else:
-        form = TeamSelectionForm()
 
-    return render(request, 'select_team.html', {'form': form})
-
-
-def select_player_view(request):
-    if request.method == 'POST':
-        form = SelectPlayerForm(request.POST)
-        if form.is_valid():
-            player_name = form.cleaned_data['player_name']
+        player_form = SelectPlayerForm(request.POST)
+        if player_form.is_valid():
+            player_name = player_form.cleaned_data['player_name']
             player_id = get_object_or_404(Player, name=player_name).id
             return redirect('player_detail', player_id=player_id)
-    else:
-        form = SelectPlayerForm()
 
-    return render(request, 'select_player.html', {'form': form})
+    else:
+        team_form = SelectTeamForm()
+        player_form = SelectPlayerForm()
+
+    return render(request, 'search.html', {'team_form': team_form, 'player_form': player_form})
 
 # def new_game_view(request):
 #     program = MainProgram()
@@ -189,7 +184,7 @@ def select_lineup(request):
         form = LineupForm()
 
     context = {'countries': countries, 'form': form}
-    return render(request, 'select_lineup.html', context)
+    return render(request, 'select_lineups.html', context)
 
 def ajax_get_teams_and_players(request):
     if request.method == 'GET':

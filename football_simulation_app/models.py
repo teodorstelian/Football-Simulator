@@ -3,7 +3,7 @@ from pathlib import Path
 from django.db import models
 from django.db.models import Q
 
-from src.initial_data import DEFENSE_POSITIONS, MIDFIELD_POSITIONS, ATTACK_POSITIONS, POSITIONS
+from football_simulation_app.management.initial_data import DEFENSE_POSITIONS, MIDFIELD_POSITIONS, ATTACK_POSITIONS, POSITIONS
 
 
 class Country(models.Model):

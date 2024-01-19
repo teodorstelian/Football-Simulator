@@ -1,7 +1,7 @@
 import math
 from pathlib import Path
 
-from src import settings
+from legacy import settings
 
 
 def play_country_cup(teams, country):

@@ -1,8 +1,8 @@
 import sqlite3
 
-from src import settings
-from src.settings import COMPETITIONS_DB
-from src.team import Team
+from legacy import settings
+from legacy.settings import COMPETITIONS_DB
+from legacy.team import Team
 
 
 def create_teams_table(league):

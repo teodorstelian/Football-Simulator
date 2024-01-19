@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block title %}Select Team{% endblock %}
+
+{% block content %}
+    <h1>Search</h1>
+    <form method="post" action="{% url 'search' %}" id="selectTeamForm">
+        {% csrf_token %}
+        <label for="teamNameInput">Select team:</label>
+        <input type="text" name="team_name" id="teamNameInput" autocomplete="off">
+        <div id="team_suggestions"></div>
+        <button type="submit">View Team Stats</button>
+    </form>
+
+    <script>
+        const teamNameInput = document.getElementById('teamNameInput');
+        const teamsuggestionsDiv = document.getElementById('team_suggestions');
+
+        teamNameInput.addEventListener('input', function () {
+            const teaminputText = teamNameInput.value.trim().toLowerCase();
+            teamsuggestionsDiv.innerHTML = ''; // Clear previous suggestions
+
+            if (teaminputText.length > 2) {
+                // Make an AJAX request to fetch suggestions from the server
+                fetch(`/ajax_get_team_suggestions/?query=${teaminputText}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        // Render suggestions in the suggestionsDiv
+                        data.forEach(team => {
+                            const suggestion = document.createElement('div');
+                            suggestion.textContent = team.name;
+                            suggestion.addEventListener('click', function () {
+                                teamNameInput.value = team.name;
+                                teamsuggestionsDiv.innerHTML = ''; // Clear suggestions after selection
+                            });
+                            teamsuggestionsDiv.appendChild(suggestion);
+                        });
+                    })
+                    .catch(error => console.error('Error fetching suggestions:', error));
+            }
+        });
+    </script>
+
+    <form method="post" action="{% url 'search' %}" id="selectPlayerForm">
+        {% csrf_token %}
+        <label for="playerNameInput">Select player:</label>
+        <input type="text" name="player_name" id="playerNameInput" autocomplete="off">
+        <div id="player_suggestions"></div>
+        <button type="submit">View Player Stats</button>
+    </form>
+
+    <script>
+        const playerNameInput = document.getElementById('playerNameInput');
+        const playersuggestionsDiv = document.getElementById('player_suggestions');
+
+        playerNameInput.addEventListener('input', function () {
+            const playerinputText = playerNameInput.value.trim().toLowerCase();
+            playersuggestionsDiv.innerHTML = ''; // Clear previous suggestions
+
+            if (playerinputText.length > 2) {
+                // Make an AJAX request to fetch suggestions from the server
+                fetch(`/ajax_get_player_suggestions/?query=${playerinputText}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        // Render suggestions in the suggestionsDiv
+                        data.forEach(player => {
+                            const suggestion = document.createElement('div');
+                            suggestion.textContent = player.name;
+                            suggestion.addEventListener('click', function () {
+                                playerNameInput.value = player.name;
+                                playersuggestionsDiv.innerHTML = ''; // Clear suggestions after selection
+                            });
+                            playersuggestionsDiv.appendChild(suggestion);
+                        });
+                    })
+                    .catch(error => console.error('Error fetching suggestions:', error));
+            }
+        });
+    </script>
+{% endblock %}

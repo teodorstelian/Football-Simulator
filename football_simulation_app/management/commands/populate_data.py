@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand
 from football_simulation_app.models import Team, Country, Player
 from django.contrib.auth.models import User
-from src.initial_data import *
+from football_simulation_app.management.initial_data import *
 
 def calculate_position_ovr(skill, main, sec, ter):
     rat= {}
