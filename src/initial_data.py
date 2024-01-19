@@ -230,8 +230,8 @@ PLAYERS = [
            ("Ibrahima Konate", "Liverpool", "France", 81, ["CB"], [], [], 24),
            ("Trent Alexander-Arnold", "Liverpool", "Brazil", 86, ["RB"], ["WRB", "CM", "CDM"], ["RM"], 25),
            ("Thiago", "Liverpool", "Spain", 84, ["CM"], ["CAM", "CDM"], ["LM"], 32),
-           ("Dominik Szoboszlai", "Liverpool", "Hungary", 82, ["CM"], ["CAM", "LM", "RW", "LW"], ["RM"], 22),
-           ("Alexis Mac Allister", "Liverpool", "Argentina", 82, ["CM"], ["CDM", "CAM"], ["LM", "ST"], 24),
+           ("Dominik Szoboszlai", "Liverpool", "Hungary", 83, ["CM"], ["CAM", "LM", "RW", "LW"], ["RM"], 22),
+           ("Alexis Mac Allister", "Liverpool", "Argentina", 83, ["CM"], ["CDM", "CAM"], ["LM", "ST"], 24),
            ("Diogo Jota", "Liverpool", "Portugal", 84, ["LW"], ["RW", "ST"], ["CAM"], 26),
            ("Mohamed Salah", "Liverpool", "Egypt", 93, ["RW"], ["LW", "ST"], ["CAM"], 31),
            ("Darwin Nunez", "Liverpool", "Uruguay", 82, ["ST"], ["LW"], ["CAM", "RW"], 24),
@@ -243,4 +243,16 @@ PLAYERS = [
            ("Ansu Fati", "Brighton", "Spain", 79, ["LW"], ["ST"], ["CAM", "RW"], 21),
 
            ("Harry Maguire", "Manchester United", "England", 80, ["CB"], [], [], 30),
+
+           ("Guglielmo Vicario", "Tottenham Hotspur", "Italy", 82, ["GK"], [], [], 27),
+           ("Destiny Udogie", "Tottenham Hotspur", "Italy", 76, ["LB"], ["WLB"], ["LM"], 21),
+           ("Cristian Romero", "Tottenham Hotspur", "Argentina", 85, ["CB"], [], [], 25),
+           ("Radu Dragusin", "Tottenham Hotspur", "Romania", 74, ["CB"], ["RB"], [], 21),
+           ("Pedro Porro", "Tottenham Hotspur", "Spain", 81, ["RB"], ["WRB"], ["RM", "RW"], 24),
+           ("Yves Bissouma", "Tottenham Hotspur", "Mali", 81, ["CDM"], ["CM"], [], 27),
+           ("Rodrigo Bentancur", "Tottenham Hotspur", "Uruguay", 83, ["CM"], ["CDM"], ["CAM"], 26),
+           ("Pierre-Emile Hojbjerg", "Tottenham Hotspur", "Denmark", 85, ["CDM"], ["CM"], ["CAM", "RM"], 28),
+           ("James Maddison", "Tottenham Hotspur", "England", 84, ["CAM"], ["CM", "RM", "LM", "RW"], ["LW"], 27),
+           ("Richarlison", "Tottenham Hotspur", "Brazil", 81, ["ST"], ["LW"], ["RW"], 27),
+           ("Heung-Min Son", "Tottenham Hotspur", "South Korea", 88, ["LW"], ["ST", "RW"], ["CAM", "LM"], 31),
            ]

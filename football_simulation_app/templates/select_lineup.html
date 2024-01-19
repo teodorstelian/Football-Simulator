@@ -10,177 +10,348 @@
 {% block content %}
     <form id="lineupForm">
         {% csrf_token %}
-        <p>
-            <label for="country">Country:</label>
-            <select id="country" name="country">
-                <option value="" selected disabled>Select Country</option>
-                {% for country in countries %}
-                    <option value="{{ country.id }}">{{ country.name }}</option>
-                {% endfor %}
-            </select>
-        </p>
-        <p>
-            <label for="team">Team:</label>
-            <select id="team" name="team" disabled>
-                <option value="" selected disabled>Select Team</option>
-            </select>
-        </p>
-        <p>
-            <label for="GK">GK:</label>
-            <select id="GK" name="GK" disabled>
-                <option value="" selected disabled>Select GK</option>
-            </select>
-            <input type="hidden" id="id_GK" name="GK_id">
-        </p>
-        <p>
-            <label for="LB">LB:</label>
-            <select id="LB" name="LB" disabled>
-                <option value="" selected disabled>Select LB</option>
-            </select>
-        </p>
-        <p>
-            <label for="CB1">CB:</label>
-            <select id="CB1" name="CB1" disabled>
-                <option value="" selected disabled>Select CB</option>
-            </select>
-        </p>
-        <p>
-            <label for="CB2">CB:</label>
-            <select id="CB2" name="CB2" disabled>
-                <option value="" selected disabled>Select CB</option>
-            </select>
-        </p>
-         <p>
-            <label for="RB">RB:</label>
-            <select id="RB" name="RB" disabled>
-                <option value="" selected disabled>Select RB</option>
-            </select>
-        </p>
-         <p>
-            <label for="CDM1">CDM:</label>
-            <select id="CDM1" name="CDM1" disabled>
-                <option value="" selected disabled>Select CDM</option>
-            </select>
-        </p>
-         <p>
-            <label for="CDM2">CDM:</label>
-            <select id="CDM2" name="CDM2" disabled>
-                <option value="" selected disabled>Select CDM</option>
-            </select>
-        </p>
-         <p>
-            <label for="CAM">CAM:</label>
-            <select id="CAM" name="CAM" disabled>
-                <option value="" selected disabled>Select CAM</option>
-            </select>
-        </p>
-         <p>
-            <label for="LW">LW:</label>
-            <select id="LW" name="LW" disabled>
-                <option value="" selected disabled>Select LW</option>
-            </select>
-        </p>
-         <p>
-            <label for="RW">RW:</label>
-            <select id="RW" name="RW" disabled>
-                <option value="" selected disabled>Select RW</option>
-            </select>
-        </p>
-         <p>
-            <label for="ST">ST:</label>
-            <select id="ST" name="ST" disabled>
-                <option value="" selected disabled>Select ST</option>
-            </select>
-        </p>
-        <!-- Add similar sections for other positions as needed -->
+         <div style="float: left; width: 48%;">
+            <h2>Home Team</h2>
+                <p>
+                    <label for="h_country">Country:</label>
+                    <select id="h_country" name="country">
+                        <option value="" selected disabled>Select Country</option>
+                        {% for country in countries %}
+                            <option value="{{ country.id }}">{{ country.name }}</option>
+                        {% endfor %}
+                    </select>
+                </p>
+                <p>
+                    <label for="h_team">Team:</label>
+                    <select id="h_team" name="team" disabled>
+                        <option value="" selected disabled>Select Team</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="h_GK">GK:</label>
+                    <select id="h_GK" name="GK" disabled>
+                        <option value="" selected disabled>Select GK</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="h_LB">LB:</label>
+                    <select id="h_LB" name="LB" disabled>
+                        <option value="" selected disabled>Select LB</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="h_CB1">CB:</label>
+                    <select id="h_CB1" name="CB1" disabled>
+                        <option value="" selected disabled>Select CB</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="h_CB2">CB:</label>
+                    <select id="h_CB2" name="CB2" disabled>
+                        <option value="" selected disabled>Select CB</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="h_RB">RB:</label>
+                    <select id="h_RB" name="RB" disabled>
+                        <option value="" selected disabled>Select RB</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="h_CDM1">CDM:</label>
+                    <select id="h_CDM1" name="CDM1" disabled>
+                        <option value="" selected disabled>Select CDM</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="h_CDM2">CDM:</label>
+                    <select id="h_CDM2" name="CDM2" disabled>
+                        <option value="" selected disabled>Select CDM</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="h_CAM">CAM:</label>
+                    <select id="h_CAM" name="CAM" disabled>
+                        <option value="" selected disabled>Select CAM</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="h_LW">LW:</label>
+                    <select id="h_LW" name="LW" disabled>
+                        <option value="" selected disabled>Select LW</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="h_RW">RW:</label>
+                    <select id="h_RW" name="RW" disabled>
+                        <option value="" selected disabled>Select RW</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="h_ST">ST:</label>
+                    <select id="h_ST" name="ST" disabled>
+                        <option value="" selected disabled>Select ST</option>
+                    </select>
+                </p>
+         </div>
+
+        <div style="float: right; width: 48%;">
+            <h2>Away Team</h2>
+                <p>
+                    <label for="a_country">Country:</label>
+                    <select id="a_country" name="country">
+                        <option value="" selected disabled>Select Country</option>
+                        {% for country in countries %}
+                            <option value="{{ country.id }}">{{ country.name }}</option>
+                        {% endfor %}
+                    </select>
+                </p>
+                <p>
+                    <label for="a_team">Team:</label>
+                    <select id="a_team" name="team" disabled>
+                        <option value="" selected disabled>Select Team</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="a_GK">GK:</label>
+                    <select id="a_GK" name="GK" disabled>
+                        <option value="" selected disabled>Select GK</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="a_LB">LB:</label>
+                    <select id="a_LB" name="LB" disabled>
+                        <option value="" selected disabled>Select LB</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="a_CB1">CB:</label>
+                    <select id="a_CB1" name="CB1" disabled>
+                        <option value="" selected disabled>Select CB</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="a_CB2">CB:</label>
+                    <select id="a_CB2" name="CB2" disabled>
+                        <option value="" selected disabled>Select CB</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="a_RB">RB:</label>
+                    <select id="a_RB" name="RB" disabled>
+                        <option value="" selected disabled>Select RB</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="a_CDM1">CDM:</label>
+                    <select id="a_CDM1" name="CDM1" disabled>
+                        <option value="" selected disabled>Select CDM</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="a_CDM2">CDM:</label>
+                    <select id="a_CDM2" name="CDM2" disabled>
+                        <option value="" selected disabled>Select CDM</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="a_CAM">CAM:</label>
+                    <select id="a_CAM" name="CAM" disabled>
+                        <option value="" selected disabled>Select CAM</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="a_LW">LW:</label>
+                    <select id="a_LW" name="LW" disabled>
+                        <option value="" selected disabled>Select LW</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="a_RW">RW:</label>
+                    <select id="a_RW" name="RW" disabled>
+                        <option value="" selected disabled>Select RW</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="a_ST">ST:</label>
+                    <select id="a_ST" name="ST" disabled>
+                        <option value="" selected disabled>Select ST</option>
+                    </select>
+                </p>
+         </div>
+
+
+        <div style="clear: both;"></div>
         <input type="submit" value="Submit">
     </form>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
         $(document).ready(function () {
-            $("#country").change(function () {
+            $("#h_country").change(function () {
                 var countryId = $(this).val();
                 $.ajax({
                     url: "/ajax_get_teams_and_players/",
                     data: {country_id: countryId},
                     dataType: 'json',
                     success: function (data) {
-                        $("#team").prop('disabled', false).empty().append('<option value="" selected disabled>Select Team</option>');
-                        $("#GK").prop('disabled', true).empty().append('<option value="" selected disabled>Select GK</option>');
-                        $("#LB").prop('disabled', true).empty().append('<option value="" selected disabled>Select LB</option>');
-                        $("#CB1").prop('disabled', true).empty().append('<option value="" selected disabled>Select CB</option>');
-                        $("#CB2").prop('disabled', true).empty().append('<option value="" selected disabled>Select CB</option>');
-                        $("#RB").prop('disabled', true).empty().append('<option value="" selected disabled>Select RB</option>');
-                        $("#CDM1").prop('disabled', true).empty().append('<option value="" selected disabled>Select CDM</option>');
-                        $("#CDM2").prop('disabled', true).empty().append('<option value="" selected disabled>Select CDM</option>');
-                        $("#CAM").prop('disabled', true).empty().append('<option value="" selected disabled>Select CAM</option>');
-                        $("#LW").prop('disabled', true).empty().append('<option value="" selected disabled>Select LW</option>');
-                        $("#RW").prop('disabled', true).empty().append('<option value="" selected disabled>Select RW</option>');
-                        $("#ST").prop('disabled', true).empty().append('<option value="" selected disabled>Select ST</option>');
-                        // Add similar sections for other positions as needed
+                        $("#h_team").prop('disabled', false).empty().append('<option value="" selected disabled>Select Team</option>');
+                        $("#h_GK").prop('disabled', true).empty().append('<option value="" selected disabled>Select GK</option>');
+                        $("#h_LB").prop('disabled', true).empty().append('<option value="" selected disabled>Select LB</option>');
+                        $("#h_CB1").prop('disabled', true).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#h_CB2").prop('disabled', true).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#h_RB").prop('disabled', true).empty().append('<option value="" selected disabled>Select RB</option>');
+                        $("#h_CDM1").prop('disabled', true).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#h_CDM2").prop('disabled', true).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#h_CAM").prop('disabled', true).empty().append('<option value="" selected disabled>Select CAM</option>');
+                        $("#h_LW").prop('disabled', true).empty().append('<option value="" selected disabled>Select LW</option>');
+                        $("#h_RW").prop('disabled', true).empty().append('<option value="" selected disabled>Select RW</option>');
+                        $("#h_ST").prop('disabled', true).empty().append('<option value="" selected disabled>Select ST</option>');
+
                         $.each(data.teams, function (key, value) {
-                            $("#team").append('<option value="' + value.id + '">' + value.name + '</option>');
+                            $("#h_team").append('<option value="' + value.id + '">' + value.name + '</option>');
                         });
-                        // Update players dropdown if needed
-                        // ...
+
                     }
                 });
             });
 
-            $("#team").change(function () {
+            $("#a_country").change(function () {
+                var countryId = $(this).val();
+                $.ajax({
+                    url: "/ajax_get_teams_and_players/",
+                    data: {country_id: countryId},
+                    dataType: 'json',
+                    success: function (data) {
+                        $("#a_team").prop('disabled', false).empty().append('<option value="" selected disabled>Select Team</option>');
+                        $("#a_GK").prop('disabled', true).empty().append('<option value="" selected disabled>Select GK</option>');
+                        $("#a_LB").prop('disabled', true).empty().append('<option value="" selected disabled>Select LB</option>');
+                        $("#a_CB1").prop('disabled', true).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#a_CB2").prop('disabled', true).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#a_RB").prop('disabled', true).empty().append('<option value="" selected disabled>Select RB</option>');
+                        $("#a_CDM1").prop('disabled', true).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#a_CDM2").prop('disabled', true).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#a_CAM").prop('disabled', true).empty().append('<option value="" selected disabled>Select CAM</option>');
+                        $("#a_LW").prop('disabled', true).empty().append('<option value="" selected disabled>Select LW</option>');
+                        $("#a_RW").prop('disabled', true).empty().append('<option value="" selected disabled>Select RW</option>');
+                        $("#a_ST").prop('disabled', true).empty().append('<option value="" selected disabled>Select ST</option>');
+
+                        $.each(data.teams, function (key, value) {
+                            $("#a_team").append('<option value="' + value.id + '">' + value.name + '</option>');
+                        });
+
+                    }
+                });
+            });
+
+
+            $("#h_team").change(function () {
                 var teamId = $(this).val();
                 $.ajax({
                     url: "/ajax_get_teams_and_players/",
                     data: {team_id: teamId},
                     dataType: 'json',
                     success: function (data) {
-                        $("#GK").prop('disabled', false).empty().append('<option value="" selected disabled>Select GK</option>');
-                        $("#LB").prop('disabled', false).empty().append('<option value="" selected disabled>Select LB</option>');
-                        $("#CB1").prop('disabled', false).empty().append('<option value="" selected disabled>Select CB</option>');
-                        $("#CB2").prop('disabled', false).empty().append('<option value="" selected disabled>Select CB</option>');
-                        $("#RB").prop('disabled', false).empty().append('<option value="" selected disabled>Select RB</option>');
-                        $("#CDM1").prop('disabled', false).empty().append('<option value="" selected disabled>Select CDM</option>');
-                        $("#CDM2").prop('disabled', false).empty().append('<option value="" selected disabled>Select CDM</option>');
-                        $("#CAM").prop('disabled', false).empty().append('<option value="" selected disabled>Select CAM</option>');
-                        $("#LW").prop('disabled', false).empty().append('<option value="" selected disabled>Select LW</option>');
-                        $("#RW").prop('disabled', false).empty().append('<option value="" selected disabled>Select RW</option>');
-                        $("#ST").prop('disabled', false).empty().append('<option value="" selected disabled>Select ST</option>');
-                        // Add similar sections for other positions as needed
+                        $("#h_GK").prop('disabled', false).empty().append('<option value="" selected disabled>Select GK</option>');
+                        $("#h_LB").prop('disabled', false).empty().append('<option value="" selected disabled>Select LB</option>');
+                        $("#h_CB1").prop('disabled', false).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#h_CB2").prop('disabled', false).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#h_RB").prop('disabled', false).empty().append('<option value="" selected disabled>Select RB</option>');
+                        $("#h_CDM1").prop('disabled', false).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#h_CDM2").prop('disabled', false).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#h_CAM").prop('disabled', false).empty().append('<option value="" selected disabled>Select CAM</option>');
+                        $("#h_LW").prop('disabled', false).empty().append('<option value="" selected disabled>Select LW</option>');
+                        $("#h_RW").prop('disabled', false).empty().append('<option value="" selected disabled>Select RW</option>');
+                        $("#h_ST").prop('disabled', false).empty().append('<option value="" selected disabled>Select ST</option>');
+
                         $.each(data.GK, function (key, value) {
-                            $("#GK").append('<option value="' + value.id + '">' + value.name + " - " + value.GK + '</option>');
+                            $("#h_GK").append('<option value="' + value.id + '">' + value.name + " - " + value.GK + '</option>');
                         });
                         $.each(data.LB, function (key, value) {
-                            $("#LB").append('<option value="' + value.id + '">' + value.name + " - " + value.LB + '</option>');
+                            $("#h_LB").append('<option value="' + value.id + '">' + value.name + " - " + value.LB + '</option>');
                         });
                         $.each(data.CB, function (key, value) {
-                            $("#CB1").append('<option value="' + value.id + '">' + value.name + " - " + value.CB + '</option>');
+                            $("#h_CB1").append('<option value="' + value.id + '">' + value.name + " - " + value.CB + '</option>');
                         });
                         $.each(data.CB, function (key, value) {
-                            $("#CB2").append('<option value="' + value.id + '">' + value.name + " - " + value.CB + '</option>');
+                            $("#h_CB2").append('<option value="' + value.id + '">' + value.name + " - " + value.CB + '</option>');
                         });
                         $.each(data.RB, function (key, value) {
-                            $("#RB").append('<option value="' + value.id + '">' + value.name + " - " + value.RB + '</option>');
+                            $("#h_RB").append('<option value="' + value.id + '">' + value.name + " - " + value.RB + '</option>');
                         });
                         $.each(data.CDM, function (key, value) {
-                            $("#CDM1").append('<option value="' + value.id + '">' + value.name + " - " + value.CDM + '</option>');
+                            $("#h_CDM1").append('<option value="' + value.id + '">' + value.name + " - " + value.CDM + '</option>');
                         });
                         $.each(data.CDM, function (key, value) {
-                            $("#CDM2").append('<option value="' + value.id + '">' + value.name + " - " + value.CDM + '</option>');
+                            $("#h_CDM2").append('<option value="' + value.id + '">' + value.name + " - " + value.CDM + '</option>');
                         });
                         $.each(data.CAM, function (key, value) {
-                            $("#CAM").append('<option value="' + value.id + '">' + value.name + " - " + value.CAM + '</option>');
+                            $("#h_CAM").append('<option value="' + value.id + '">' + value.name + " - " + value.CAM + '</option>');
                         });
                         $.each(data.LW, function (key, value) {
-                            $("#LW").append('<option value="' + value.id + '">' + value.name + " - " + value.LW + '</option>');
+                            $("#h_LW").append('<option value="' + value.id + '">' + value.name + " - " + value.LW + '</option>');
                         });
                         $.each(data.RW, function (key, value) {
-                            $("#RW").append('<option value="' + value.id + '">' + value.name + " - " + value.RW + '</option>');
+                            $("#h_RW").append('<option value="' + value.id + '">' + value.name + " - " + value.RW + '</option>');
                         });
                         $.each(data.ST, function (key, value) {
-                            $("#ST").append('<option value="' + value.id + '">' + value.name + " - " + value.ST + '</option>');
+                            $("#h_ST").append('<option value="' + value.id + '">' + value.name + " - " + value.ST + '</option>');
                         });
-                        // Update other position dropdowns if needed
-                        // ...
+                    }
+                });
+            });
+
+            $("#a_team").change(function () {
+                var teamId = $(this).val();
+                $.ajax({
+                    url: "/ajax_get_teams_and_players/",
+                    data: {team_id: teamId},
+                    dataType: 'json',
+                    success: function (data) {
+                        $("#a_GK").prop('disabled', false).empty().append('<option value="" selected disabled>Select GK</option>');
+                        $("#a_LB").prop('disabled', false).empty().append('<option value="" selected disabled>Select LB</option>');
+                        $("#a_CB1").prop('disabled', false).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#a_CB2").prop('disabled', false).empty().append('<option value="" selected disabled>Select CB</option>');
+                        $("#a_RB").prop('disabled', false).empty().append('<option value="" selected disabled>Select RB</option>');
+                        $("#a_CDM1").prop('disabled', false).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#a_CDM2").prop('disabled', false).empty().append('<option value="" selected disabled>Select CDM</option>');
+                        $("#a_CAM").prop('disabled', false).empty().append('<option value="" selected disabled>Select CAM</option>');
+                        $("#a_LW").prop('disabled', false).empty().append('<option value="" selected disabled>Select LW</option>');
+                        $("#a_RW").prop('disabled', false).empty().append('<option value="" selected disabled>Select RW</option>');
+                        $("#a_ST").prop('disabled', false).empty().append('<option value="" selected disabled>Select ST</option>');
+
+                        $.each(data.GK, function (key, value) {
+                            $("#a_GK").append('<option value="' + value.id + '">' + value.name + " - " + value.GK + '</option>');
+                        });
+                        $.each(data.LB, function (key, value) {
+                            $("#a_LB").append('<option value="' + value.id + '">' + value.name + " - " + value.LB + '</option>');
+                        });
+                        $.each(data.CB, function (key, value) {
+                            $("#a_CB1").append('<option value="' + value.id + '">' + value.name + " - " + value.CB + '</option>');
+                        });
+                        $.each(data.CB, function (key, value) {
+                            $("#a_CB2").append('<option value="' + value.id + '">' + value.name + " - " + value.CB + '</option>');
+                        });
+                        $.each(data.RB, function (key, value) {
+                            $("#a_RB").append('<option value="' + value.id + '">' + value.name + " - " + value.RB + '</option>');
+                        });
+                        $.each(data.CDM, function (key, value) {
+                            $("#a_CDM1").append('<option value="' + value.id + '">' + value.name + " - " + value.CDM + '</option>');
+                        });
+                        $.each(data.CDM, function (key, value) {
+                            $("#a_CDM2").append('<option value="' + value.id + '">' + value.name + " - " + value.CDM + '</option>');
+                        });
+                        $.each(data.CAM, function (key, value) {
+                            $("#a_CAM").append('<option value="' + value.id + '">' + value.name + " - " + value.CAM + '</option>');
+                        });
+                        $.each(data.LW, function (key, value) {
+                            $("#a_LW").append('<option value="' + value.id + '">' + value.name + " - " + value.LW + '</option>');
+                        });
+                        $.each(data.RW, function (key, value) {
+                            $("#a_RW").append('<option value="' + value.id + '">' + value.name + " - " + value.RW + '</option>');
+                        });
+                        $.each(data.ST, function (key, value) {
+                            $("#a_ST").append('<option value="' + value.id + '">' + value.name + " - " + value.ST + '</option>');
+                        });
                     }
                 });
             });
@@ -188,16 +359,16 @@
             $("#lineupForm").submit(function (event) {
                 event.preventDefault();
 
-                // Check if there are different players selected in each position
                 var selectedPlayers = [];
-                var positions = ["GK", "LB", "CB1", "CB2", "RB", "CDM1", "CDM2", "CAM", "LW", "RW", "ST"];
+                var positions = ["h_GK", "h_LB", "h_CB1", "h_CB2", "h_RB", "h_CDM1", "h_CDM2", "h_CAM", "h_LW", "h_RW", "h_ST",
+                                 "a_GK", "a_LB", "a_CB1", "a_CB2", "a_RB", "a_CDM1", "a_CDM2", "a_CAM", "a_LW", "a_RW", "a_ST"];
                 for (var i = 0; i < positions.length; i++) {
                     var position = positions[i];
                     var playerId = $("#" + position).val();
 
                     // Check if the player is already selected for another position
                     if (selectedPlayers.includes(playerId)) {
-                        alert("Player can't be selected in multiple positions.");
+                        alert("Player with ID " + playerId + " can't be selected in multiple positions.");
                         return; // Prevent form submission
                     }
 
