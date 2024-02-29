@@ -1,13 +1,14 @@
 Football Simulator
 ====================================
 
-A script written in Python that simulate seasons of professional football.
+A Django Project where the user can manage a football team.
 
 Requirements
 ------------
 -   Any python environment
+-   A browser
  
-Features
+Features (Legacy - Script Mode)
 --------
 - Simulate a game between 2 teams based on their skill
 - Currently 7 leagues implemented 
@@ -20,20 +21,25 @@ Features
 - Folder with the results of all simulations
 - Statistics for each team 
 
-To be added
+Features (Django App)
 -----------
-- Add more teams and more leagues
-- Add more teams for country cups
-- Add better and bigger european competitions (Champions League, Europa League etc)
-- Add better statistics for each team, league, competition
+- Database of 30+ players with skills and positions
+- Playable teams with first 11 (Chelsea, Liverpool) and many more to be added
+- Ability to generate a lineup
+- Statistics of top teams, players
+- Specific page for every team, player in the database
+- Search function
+- Ability to start a new game
 
-Usage
+To be added in the near future
+-----------
+- Simulation of a game with scores taking in account the skills of players
+- Substitutions
+- Auto-generate lineup
+- Generation of fixtures in a season like
+- Addition of more players and teams
+
+
+Bugs
 -----
-- Run the main.py
-- Select your choice:
-1. Press 1 to simulate a whole season
-2. Press 2 to simulate a chosen league
-3. Press 3 to simulate a chosen cup
-4. Press 4 to play a european cup
-5. Press 5 to see the best teams in a specific league
-6. Press 6 to see the stats of a specific team
+- When simulating a game, stats update only for the team in right (adds 1 app), nothing for the team on left

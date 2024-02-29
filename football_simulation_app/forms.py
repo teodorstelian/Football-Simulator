@@ -1,10 +1,14 @@
 from django import forms
 
-class SelectTeamForm(forms.Form):
+class EnterTeamForm(forms.Form):
     team_name = forms.CharField(label='Enter Team Name')
 
-class SelectPlayerForm(forms.Form):
+class EnterPlayerForm(forms.Form):
     player_name = forms.CharField(label='Enter Player Name', max_length=100)
+
+class SelectTeamForm(forms.Form):
+    country = forms.CharField()
+    team = forms.CharField()
 
 class LineupForm(forms.Form):
     country = forms.CharField()

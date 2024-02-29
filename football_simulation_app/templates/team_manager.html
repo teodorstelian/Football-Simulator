@@ -1,0 +1,26 @@
+<!-- team_manager.html -->
+
+{% extends 'save_menu/base.html' %}
+
+{% block title %}Team Manager{% endblock %}
+
+{% block additional_styles %}
+    <!-- Add any additional styles specific to new_game.html -->
+{% endblock %}
+
+{% block content %}
+
+    <h1>Team Manager</h1>
+    <h2>{{ team.name }}</h2>
+
+    <h3>Players:</h3>
+    <ul>
+        {% for player in players %}
+            <li>{{ player.name }}</li>
+            <!-- Add more player details as needed -->
+        {% endfor %}
+    </ul>
+
+
+{% endblock %}
+

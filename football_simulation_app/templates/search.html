@@ -1,10 +1,10 @@
-{% extends 'base.html' %}
+{% extends 'main_menu/base.html' %}
 
 {% block title %}Select Team{% endblock %}
 
 {% block content %}
     <h1>Search</h1>
-    <form method="post" action="{% url 'search' %}" id="selectTeamForm">
+    <form method="post" action="{% url 'search' %}" id="enterTeamForm">
         {% csrf_token %}
         <label for="teamNameInput">Select team:</label>
         <input type="text" name="team_name" id="teamNameInput" autocomplete="off">
@@ -41,7 +41,7 @@
         });
     </script>
 
-    <form method="post" action="{% url 'search' %}" id="selectPlayerForm">
+    <form method="post" action="{% url 'search' %}" id="enterPlayerForm">
         {% csrf_token %}
         <label for="playerNameInput">Select player:</label>
         <input type="text" name="player_name" id="playerNameInput" autocomplete="off">

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+    <title>{% block title %}Football Simulation{% endblock %}</title>
+</head>
+<body>
+    <div id="sidebar">
+        <p><a href="{% url 'team_manager' %}">Team Manager</a></p>
+        <p><a href="{% url 'search' %}">Search</a></p>
+        <p><a href="{% url 'statistics' %}">Statistics</a></p>
+        <p><a href="{% url 'new_game' %}">New Game</a></p>
+    </div>
+
+    <div id="content">
+        <!-- Main content goes here -->
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

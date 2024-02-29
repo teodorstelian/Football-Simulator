@@ -1,10 +1,10 @@
 from django.db.models import Q, Sum
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views import View
 
-from football_simulation_app.forms import SelectTeamForm, SelectPlayerForm, LineupForm
-from football_simulation_app.models import Team, Player, Country, Statistics
+from football_simulation_app.forms import EnterTeamForm, EnterPlayerForm, LineupForm, SelectTeamForm
+from football_simulation_app.models import Team, Player, Country, Statistics, UserSelectedTeam
 from football_simulation_project.settings import POSITION_THRESHOLD, FORMATION_4_4_2
 
 
@@ -59,78 +59,54 @@ def player_detail_view(request, player_id):
 
 def search_view(request):
     if request.method == 'POST':
-        team_form = SelectTeamForm(request.POST)
+        team_form = EnterTeamForm(request.POST)
         if team_form.is_valid():
             team_name = team_form.cleaned_data['team_name']
             team_id = get_object_or_404(Team, name=team_name).id
             return redirect('team_detail', team_id=team_id)
 
-        player_form = SelectPlayerForm(request.POST)
+        player_form = EnterPlayerForm(request.POST)
         if player_form.is_valid():
             player_name = player_form.cleaned_data['player_name']
             player_id = get_object_or_404(Player, name=player_name).id
             return redirect('player_detail', player_id=player_id)
 
     else:
-        team_form = SelectTeamForm()
-        player_form = SelectPlayerForm()
+        team_form = EnterTeamForm()
+        player_form = EnterPlayerForm()
 
     return render(request, 'search.html', {'team_form': team_form, 'player_form': player_form})
 
 def new_game_view(request):
     countries = Country.objects.all()
     teams = Team.objects.all()
-
     context = {'countries': countries, 'teams': teams}
+
+    if request.method == 'POST':
+        team_form = SelectTeamForm(request.POST)
+        if team_form.is_valid():
+
+            team_id = team_form.cleaned_data['team']
+            user_selected_team, created = UserSelectedTeam.objects.get_or_create(user=request.user)
+            user_selected_team.selected_team_id = team_id
+            user_selected_team.save()
+            return redirect('team_manager')  # Redirect to the manager page for the selected team
+
+
+    # If not a POST request or form is invalid, render the new game template
     return render(request, 'new_game.html', context)
 
-# def new_game_view(request):
-#     program = MainProgram()
-#
-#     if request.method == 'POST':
-#         choice = request.POST.get('choice')
-#
-#         if choice == "simulate_season":
-#             program.simulate_season()
-#         elif choice == "simulate_league":
-#             program.simulate_league()
-#         elif choice == "simulate_cup":
-#             program.simulate_cup()
-#         elif choice == "simulate_european":
-#             program.simulate_european()
-#         elif choice == "get_best_teams":
-#             result = program.get_best_teams(program.league)
-#             return render(request, 'main.html', {'result': result})
-#         elif choice == "check_team_stats":
-#             input_team = request.POST.get('team_name')
-#             result = program.check_team_stats(input_team)
-#             return render(request, 'main.html', {'result': result})
-#
-#     return render(request, 'main.html')
+def team_manager_view(request):
+    # Retrieve the selected team ID for the current user from the database
+    selected_team = UserSelectedTeam.objects.filter(user=request.user).first()
+    if selected_team is None:
+        return HttpResponse("No team selected")  # Handle case where no team is selected
 
+    team = selected_team.selected_team
+    players = Player.objects.filter(team=team)
+    context = {'team': team, 'players': players}
+    return render(request, 'team_manager.html', context)
 
-# def simulate_cup_view(request):
-#     league_name = 1 # Replace with your actual league name
-#     num_teams_to_select = 8  # Adjust the number of top teams you want to select
-#
-#     teams = Team.objects.filter(country=league_name).order_by('-skill')[:num_teams_to_select]
-#
-#     if request.method == 'POST':
-#         # Run cup simulation
-#         teams = cup_simulation(league_name, teams)
-#
-#         # Update teams in the database
-#         for team in teams:
-#             team.save()
-#
-#         # Redirect to the same page to avoid form resubmission on page reload
-#         return HttpResponseRedirect(reverse('simulate_cup_view'))
-#
-#     context = {
-#         'teams': teams,
-#     }
-#
-#     return render(request, 'simulate_cup.html', context)
 
 class TeamSuggestionsView(View):
     def get(self, request, *args, **kwargs):

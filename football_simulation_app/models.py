@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from django.contrib.auth.models import User
 from django.db import models
 from django.db.models import Q
 
@@ -127,3 +128,7 @@ class Statistics(models.Model):
 
     def __str__(self):
         return f"{self.player.name} - {self.team.name} - {self.position} - {self.season}"
+
+class UserSelectedTeam(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    selected_team = models.ForeignKey(Team, on_delete=models.CASCADE, blank=True)
