@@ -77,6 +77,13 @@ def search_view(request):
 
     return render(request, 'search.html', {'team_form': team_form, 'player_form': player_form})
 
+def new_game_view(request):
+    countries = Country.objects.all()
+    teams = Team.objects.all()
+
+    context = {'countries': countries, 'teams': teams}
+    return render(request, 'new_game.html', context)
+
 # def new_game_view(request):
 #     program = MainProgram()
 #

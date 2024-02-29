@@ -1,8 +1,9 @@
 from django.urls import path
+from django.views.generic import TemplateView
 
 from . import views
 from .views import team_detail_view, TeamSuggestionsView, player_detail_view, \
-    PlayerSuggestionsView, country_detail_view, statistics_view, select_lineup, search_view
+    PlayerSuggestionsView, country_detail_view, statistics_view, select_lineup, search_view, new_game_view
 
 urlpatterns = [
     path('', search_view),
@@ -19,7 +20,8 @@ urlpatterns = [
     path('ajax_get_team_suggestions/', TeamSuggestionsView.as_view(), name='ajax_get_team_suggestions'),
     path('ajax_get_player_suggestions/', PlayerSuggestionsView.as_view(), name='ajax_get_player_suggestions'),
 
-    # path('new_game/', new_game_view, name='new_game_view'),
+    path('new_game/', new_game_view, name='new_game'),
+    path('play_match/', TemplateView.as_view(template_name='play_match.html'), name='play_match')
     # path('simulate_cup/', simulate_cup_view, name='simulate_cup_view'),
 
 ]

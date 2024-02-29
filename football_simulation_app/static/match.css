@@ -1,0 +1,238 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: url("http://bgfons.com/upload/grass_texture241.jpg") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+.app__container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.app__launch-btn {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+
+.team-panel {
+  width: 100%;
+  height: 100px;
+  box-shadow: 1px 1px 10px #000;
+  border-radius: 10px;
+  position: relative;
+  transition: 3s;
+  margin-bottom: 5%;
+  display: flex;
+}
+.team-panel__side {
+  width: 50%;
+  height: inherit;
+  border: 1px solid #fff;
+  display: flex;
+  position: relative;
+}
+.team-panel__side::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(38, 182, 251, 0.5);
+}
+.team-panel__side--left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: none;
+  justify-content: flex-start;
+}
+.team-panel__side--left::after {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  left: 0;
+}
+.team-panel__side--right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: none;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+.team-panel__side--right::after {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  right: 0;
+}
+.team-panel__badge {
+  width: 100px;
+  height: 100%;
+  border-radius: 10px;
+  border: 3px solid #ddd;
+  box-shadow: 1px 1px 3px #000;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.team-panel__badge--mu {
+  background: linear-gradient(to bottom, #fff 80%, #da080d);
+  margin-left: -30px;
+}
+.team-panel__badge--bar {
+  margin-right: -30px;
+  background: linear-gradient(to bottom, #fff 80%, #a50044);
+}
+.team-panel__logo {
+  width: 100%;
+  height: auto;
+}
+
+.ball {
+  background-image: url("https://files.hsmedia.ru/elle/uploaded/ball_1580224861.svg");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: cover;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  z-index: 50;
+  display: block;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.animation::after {
+  animation-name: tv;
+  animation-duration: 3s;
+}
+.animation__opacity {
+  animation-name: opacity;
+  animation-duration: 3s;
+}
+.animation__ball {
+  animation: rotate 3s;
+}
+.animation__team {
+  animation: team 3s;
+}
+.animation__img {
+  animation: img 3s;
+}
+.animation__team1 {
+  animation: teamName1 3s;
+}
+.animation__team2 {
+  animation: teamName2 3s;
+}
+
+.team-name {
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  line-height: 100px;
+  text-shadow: 1px 1px 3px #000;
+  z-index: 1;
+  user-select: none;
+}
+.team-name_left {
+  padding-right: 60px;
+}
+.team-name_right {
+  padding-left: 60px;
+}
+
+@keyframes tv {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes rotate {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  60% {
+    transform: translate(-50%, -110px) rotate(360deg);
+  }
+  70% {
+    transform: translate(-50%, 0px) rotate(360deg);
+  }
+  78% {
+    transform: translate(-50% -50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes team {
+  from {
+    transform: translateY(-500px);
+  }
+  to {
+    transform: traslateY(0px);
+  }
+}
+@keyframes img {
+  0%, 50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+    transform: scale(0.5) rotate(-45deg);
+  }
+  70% {
+    transform: scale(1.5) rotate(0deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes teamName1 {
+  0%, 50% {
+    transform: translateX(-1500px);
+  }
+  80% {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes teamName2 {
+  0%, 50% {
+    transform: translateX(1500px);
+  }
+  80% {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

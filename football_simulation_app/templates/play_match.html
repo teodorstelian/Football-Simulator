@@ -1,0 +1,35 @@
+<!-- my_template.html -->
+
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}CodePen Demo{% endblock %}
+
+{% block content %}
+<div class="app" id="app">
+    <button class="btn btn-primary btn-lg app__launch-btn" :disabled="animation" @click="launch">Launch animation</button>
+    <audio :src="audioSrc" ref="audio"></audio>
+    <div class="container app__container">
+        <div class="team-panel" :class="{ 'animation__opacity': animation }">
+            <div class="ball" :class="{ 'animation__ball': animation }"></div>
+            <div class="team-panel__side team-panel__side--left" :class="{ 'animation': animation }">
+                <div class="team-panel__badge team-panel__badge--mu" :class="{' animation__team': animation }">
+                    <img class="team-panel__logo" src="{% static 'path/to/logos/mu.png' %}" :class="{ 'animation__img': animation }"/>
+                </div>
+                <div class="team-name team-name_left" :class="{ 'animation__team1': animation }">Manchester United</div>
+            </div>
+            <div class="team-panel__side team-panel__side--right" :class="{ 'animation': animation }">
+                <div class="team-panel__badge team-panel__badge--bar" :class="{' animation__team': animation }">
+                    <img class="team-panel__logo" src="{% static 'path/to/logos/bar.png' %}" :class="{ 'animation__img': animation }"/>
+                </div>
+                <div class="team-name team-name_right" :class="{ 'animation__team2': animation }">FC BARCELONA</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+<script src="{% static 'match.js' %}" crossorigin></script>
+
+{% endblock %}
