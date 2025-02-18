@@ -162,3 +162,29 @@ Current round: Round 4
 Chelsea won against Fulham 3 - 0
 
 Winner of England Cup: Chelsea
+Teams of England Cup: ['Liverpool', 'Manchester City', 'Arsenal', 'Chelsea', 'Manchester United', 'Newcastle United', 'Tottenham Hotspur', 'Brighton', 'Aston Villa', 'West Ham United', 'Brentford', 'Crystal Palace', 'Everton', 'Fulham', 'Nottingham Forest', 'Wolverhampton Wanderers']
+
+Current round: Round 1
+Liverpool won against Manchester City 4 - 3
+Arsenal won against Chelsea 4 - 2
+Newcastle United won against Manchester United 6 - 5
+Tottenham Hotspur won against Brighton 3 - 0
+West Ham United won against Aston Villa 6 - 5
+Brentford won against Crystal Palace 4 - 1
+Fulham won against Everton 5 - 0
+Wolverhampton Wanderers won against Nottingham Forest 2 - 0
+
+Current round: Round 2
+Arsenal won against Liverpool 3 - 2
+Newcastle United won against Tottenham Hotspur 4 - 1
+West Ham United won against Brentford 3 - 1
+Wolverhampton Wanderers won against Fulham 6 - 5
+
+Current round: Round 3
+Arsenal won against Newcastle United 4 - 1
+West Ham United won against Wolverhampton Wanderers 4 - 0
+
+Current round: Round 4
+Arsenal won against West Ham United 5 - 0
+
+Winner of England Cup: Arsenal

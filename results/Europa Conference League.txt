@@ -462,3 +462,140 @@ Aggregate Score: Athletic Bilbao 3 - 5 Sparta Rotterdam
 Sparta Rotterdam advances!
 
 Winner of Europa Conference League: Sparta Rotterdam
+Teams of current competition: ['West Ham United', 'Fulham', 'Bournemouth', 'Everton', 'Real Sociedad', 'Athletic Bilbao', 'Mallorca', 'Real Betis', 'RB Leipzig', 'Borussia Monchengladbach', '1. FC Koln', 'VfL Bochum', 'Fiorentina', 'Hellas Verona', 'Cagliari', 'Udinese', 'RC Lens', 'Strasbourg', 'Toulouse', 'Le Havre', 'Ajax', 'Sparta Rotterdam', 'RKC Waalwijk', 'Arouca', 'Farense', 'Casa Pia', 'Standard Liege', 'Anderlecht', 'Motherwell', 'Hibernian', 'LASK', 'Rheindorf Altach']
+
+Current round: Round 1
+1st Leg: West Ham United (Home) 5 - 1 Fulham (Away)
+2nd Leg: Fulham (Home) 1 - 3 West Ham United (Away)
+Aggregate Score: West Ham United 8 - 2 Fulham
+West Ham United advances!
+1st Leg: Bournemouth (Home) 3 - 1 Everton (Away)
+2nd Leg: Everton (Home) 4 - 3 Bournemouth (Away)
+Aggregate Score: Bournemouth 6 - 5 Everton
+Bournemouth advances!
+1st Leg: Real Sociedad (Home) 3 - 3 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 3 - 3 Real Sociedad (Away)
+Aggregate Score: Real Sociedad 6 - 6 Athletic Bilbao
+Real Sociedad won against Athletic Bilbao 1 - 0
+1st Leg: Mallorca (Home) 2 - 2 Real Betis (Away)
+2nd Leg: Real Betis (Home) 4 - 1 Mallorca (Away)
+Aggregate Score: Mallorca 3 - 6 Real Betis
+Real Betis advances!
+1st Leg: RB Leipzig (Home) 2 - 2 Borussia Monchengladbach (Away)
+2nd Leg: Borussia Monchengladbach (Home) 0 - 3 RB Leipzig (Away)
+Aggregate Score: RB Leipzig 5 - 2 Borussia Monchengladbach
+RB Leipzig advances!
+1st Leg: 1. FC Koln (Home) 3 - 1 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 3 - 1 1. FC Koln (Away)
+Aggregate Score: 1. FC Koln 4 - 4 VfL Bochum
+VfL Bochum won against 1. FC Koln 1 - 0
+1st Leg: Fiorentina (Home) 4 - 0 Hellas Verona (Away)
+2nd Leg: Hellas Verona (Home) 1 - 5 Fiorentina (Away)
+Aggregate Score: Fiorentina 9 - 1 Hellas Verona
+Fiorentina advances!
+1st Leg: Cagliari (Home) 2 - 3 Udinese (Away)
+2nd Leg: Udinese (Home) 5 - 2 Cagliari (Away)
+Aggregate Score: Cagliari 4 - 8 Udinese
+Udinese advances!
+1st Leg: RC Lens (Home) 5 - 0 Strasbourg (Away)
+2nd Leg: Strasbourg (Home) 0 - 5 RC Lens (Away)
+Aggregate Score: RC Lens 10 - 0 Strasbourg
+RC Lens advances!
+1st Leg: Toulouse (Home) 2 - 0 Le Havre (Away)
+2nd Leg: Le Havre (Home) 2 - 3 Toulouse (Away)
+Aggregate Score: Toulouse 5 - 2 Le Havre
+Toulouse advances!
+1st Leg: Ajax (Home) 4 - 0 Sparta Rotterdam (Away)
+2nd Leg: Sparta Rotterdam (Home) 2 - 6 Ajax (Away)
+Aggregate Score: Ajax 10 - 2 Sparta Rotterdam
+Ajax advances!
+1st Leg: RKC Waalwijk (Home) 1 - 4 Arouca (Away)
+2nd Leg: Arouca (Home) 3 - 3 RKC Waalwijk (Away)
+Aggregate Score: RKC Waalwijk 4 - 7 Arouca
+Arouca advances!
+1st Leg: Farense (Home) 0 - 3 Casa Pia (Away)
+2nd Leg: Casa Pia (Home) 3 - 1 Farense (Away)
+Aggregate Score: Farense 1 - 6 Casa Pia
+Casa Pia advances!
+1st Leg: Standard Liege (Home) 2 - 2 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 3 - 1 Standard Liege (Away)
+Aggregate Score: Standard Liege 3 - 5 Anderlecht
+Anderlecht advances!
+1st Leg: Motherwell (Home) 1 - 1 Hibernian (Away)
+2nd Leg: Hibernian (Home) 3 - 2 Motherwell (Away)
+Aggregate Score: Motherwell 3 - 4 Hibernian
+Hibernian advances!
+1st Leg: LASK (Home) 3 - 1 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 1 - 4 LASK (Away)
+Aggregate Score: LASK 7 - 2 Rheindorf Altach
+LASK advances!
+
+Current round: Round 2
+1st Leg: West Ham United (Home) 4 - 1 Bournemouth (Away)
+2nd Leg: Bournemouth (Home) 1 - 3 West Ham United (Away)
+Aggregate Score: West Ham United 7 - 2 Bournemouth
+West Ham United advances!
+1st Leg: Real Sociedad (Home) 2 - 2 Real Betis (Away)
+2nd Leg: Real Betis (Home) 2 - 1 Real Sociedad (Away)
+Aggregate Score: Real Sociedad 3 - 4 Real Betis
+Real Betis advances!
+1st Leg: RB Leipzig (Home) 4 - 0 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 1 - 4 RB Leipzig (Away)
+Aggregate Score: RB Leipzig 8 - 1 VfL Bochum
+RB Leipzig advances!
+1st Leg: Fiorentina (Home) 3 - 0 Udinese (Away)
+2nd Leg: Udinese (Home) 1 - 4 Fiorentina (Away)
+Aggregate Score: Fiorentina 7 - 1 Udinese
+Fiorentina advances!
+1st Leg: RC Lens (Home) 5 - 0 Toulouse (Away)
+2nd Leg: Toulouse (Home) 0 - 4 RC Lens (Away)
+Aggregate Score: RC Lens 9 - 0 Toulouse
+RC Lens advances!
+1st Leg: Ajax (Home) 4 - 0 Arouca (Away)
+2nd Leg: Arouca (Home) 1 - 2 Ajax (Away)
+Aggregate Score: Ajax 6 - 1 Arouca
+Ajax advances!
+1st Leg: Casa Pia (Home) 1 - 3 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 3 - 1 Casa Pia (Away)
+Aggregate Score: Casa Pia 2 - 6 Anderlecht
+Anderlecht advances!
+1st Leg: Hibernian (Home) 0 - 2 LASK (Away)
+2nd Leg: LASK (Home) 2 - 3 Hibernian (Away)
+Aggregate Score: Hibernian 3 - 4 LASK
+LASK advances!
+
+Current round: Round 3
+1st Leg: West Ham United (Home) 2 - 1 Real Betis (Away)
+2nd Leg: Real Betis (Home) 2 - 2 West Ham United (Away)
+Aggregate Score: West Ham United 4 - 3 Real Betis
+West Ham United advances!
+1st Leg: RB Leipzig (Home) 4 - 1 Fiorentina (Away)
+2nd Leg: Fiorentina (Home) 0 - 3 RB Leipzig (Away)
+Aggregate Score: RB Leipzig 7 - 1 Fiorentina
+RB Leipzig advances!
+1st Leg: RC Lens (Home) 1 - 2 Ajax (Away)
+2nd Leg: Ajax (Home) 1 - 1 RC Lens (Away)
+Aggregate Score: RC Lens 2 - 3 Ajax
+Ajax advances!
+1st Leg: Anderlecht (Home) 5 - 2 LASK (Away)
+2nd Leg: LASK (Home) 1 - 2 Anderlecht (Away)
+Aggregate Score: Anderlecht 7 - 3 LASK
+Anderlecht advances!
+
+Current round: Round 4
+1st Leg: West Ham United (Home) 0 - 2 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 4 - 1 West Ham United (Away)
+Aggregate Score: West Ham United 1 - 6 RB Leipzig
+RB Leipzig advances!
+1st Leg: Ajax (Home) 5 - 0 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 3 - 3 Ajax (Away)
+Aggregate Score: Ajax 8 - 3 Anderlecht
+Ajax advances!
+
+Current round: Round 5
+1st Leg: RB Leipzig (Home) 4 - 1 Ajax (Away)
+2nd Leg: Ajax (Home) 2 - 5 RB Leipzig (Away)
+Aggregate Score: RB Leipzig 9 - 3 Ajax
+RB Leipzig advances!
+
+Winner of Europa Conference League: RB Leipzig

@@ -119,6 +119,43 @@ def get_best_teams(league):
     for team in best_teams:
         print(f"Team: {team[0]}, Points: {team[1]}")
 
+def get_competition_winners_from_db(competition_name):
+    """
+    Fetches teams with the most wins for a specific competition from the GENERAL_TABLE.
+
+    :param competition_name: Name of the competition (e.g., 'league_titles', 'cup_titles', 'ucl', 'uel', 'uecl').
+    :return: List of tuples containing team names and their number of titles, descending by wins.
+    """
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+
+    # Map competition name to the appropriate field in GENERAL_TABLE
+    valid_competitions = {
+        "league_titles": "league_titles",
+        "cup_titles": "cup_titles",
+        "ucl": "ucl",
+        "uel": "uel",
+        "uecl": "uecl"
+    }
+
+    competition_field = valid_competitions.get(competition_name.lower())
+    if not competition_field:
+        print(f"Invalid competition name: {competition_name}")
+        conn.close()
+        return []
+
+    # Query to fetch the winners sorted by the specified competition field
+    query = f"""
+        SELECT name, {competition_field}
+        FROM {settings.GENERAL_TABLE}
+        WHERE {competition_field} > 0
+        ORDER BY {competition_field} DESC
+    """
+    c.execute(query)
+    results = c.fetchall()
+    conn.close()
+    return results
+
 def generate_teams_table(league, teams_obj):
     create_teams_table(league)  # Create the teams table if it doesn't exist
 

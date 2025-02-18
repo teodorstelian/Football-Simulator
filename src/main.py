@@ -1,13 +1,15 @@
+import sys  # Import sys for clean program exit
+from collections import Counter
 import settings
+from pathlib import Path
 from database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats, \
-    get_teams, update_team
+    get_teams, update_team, get_competition_winners_from_db
 from leagues import league_simulation, select_league, select_teams_from_league, cup_simulation
 from src.matches import play_european_cup
 
 
 class MainProgram:
     def __init__(self):
-        # Initialize any variables or resources needed
         self.choice = None
         self.league = None
         self.europe_places = None
@@ -18,7 +20,9 @@ class MainProgram:
         while True:
             self.select_league_and_teams()
             self.select_choice()
-            self.update_general(create=True)
+            if self.choice == "8":  # Exit choice
+                print("Thank you for using the program. Goodbye!")
+                sys.exit(0)  # Gracefully exit
 
     def select_league_and_teams(self):
         print("1. Simulate a season \n"
@@ -27,9 +31,10 @@ class MainProgram:
               "4. Simulate an European Cup \n"
               "5. Check best teams \n"
               "6. See stats for a team \n"
-              )
+              "7. See most winners of a competition\n"
+              "8. Exit\n")  # Exit option added
         self.choice = input("Select action: ")
-        no_selection = ["1", "4"]
+        no_selection = ["1", "4", "7", "8"]  # Updated "no selection" list to include the Exit option
         if self.choice not in no_selection:
             country = select_league()
             self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(country)
@@ -105,6 +110,24 @@ class MainProgram:
                 self.update_general()
                 check_team_stats(team, self.league)
 
+    def most_winners_by_competition(self):
+        """
+        Displays the teams with the most wins for a specific competition.
+        """
+        competition = input(
+            "Enter the name of the competition (e.g., 'league_titles', 'cup_titles', 'ucl', 'uel', 'uecl'): ").strip()
+
+        # Fetch competition winners from the database
+        winners = get_competition_winners_from_db(competition)
+
+        if not winners:
+            print(f"No winners found or invalid competition: {competition}")
+            return
+
+        print(f"--- Teams with Most {competition.replace('_', ' ').title()} ---")
+        for rank, (team, titles) in enumerate(winners, start=1):
+            print(f"{rank}. {team}: {titles} titles")
+
     def select_choice(self):
         if self.choice == "1":
             self.simulate_season()
@@ -118,6 +141,11 @@ class MainProgram:
             get_best_teams(self.league)
         if self.choice == "6":
             self.check_team_stats()
+        if self.choice == "7":
+            self.most_winners_by_competition()
+        if self.choice == "8":  # Exit choice handled here
+            print("Thank you for using the program. Goodbye!")
+            sys.exit(0)
 
 
 if __name__ == "__main__":

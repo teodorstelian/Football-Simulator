@@ -55,6 +55,17 @@ class Team:
         else:
             return "Draw"
 
+    @staticmethod
+    def calculate_goals(skill_level, opponent_skill_level, is_home):
+        """
+        Calculates goals scored based on skills and home advantage.
+        """
+        base = 1.5  # Base value for average goals
+        skill_diff = (skill_level - opponent_skill_level) / 15
+        home_advantage = 0.5 if is_home else 0  # Slight boost for home teams
+        max_goals = max(0, random.gauss(base + skill_diff + home_advantage, 1))
+        return round(max_goals)
+
     def play_match(self, opponent, knockouts=False, has_2_legs=False, file=None):
         """
         Simulates a match or two-legged tie between self and the opponent.
@@ -67,12 +78,8 @@ class Team:
         # Two-legged logic
         if has_2_legs:
             # First Leg: self (home), opponent (away)
-            skill_diff = int(self.skill) - int(opponent.skill)
-            home_max_self = ceil(3 + (skill_diff / 20))
-            away_max_opponent = ceil(3 - (skill_diff / 20))
-
-            self_home_score = random.randint(0, home_max_self)
-            opponent_away_score = random.randint(0, away_max_opponent)
+            self_home_score = self.calculate_goals(self.skill, opponent.skill, is_home=True)
+            opponent_away_score = self.calculate_goals(opponent.skill, self.skill, is_home=False)
             print(f"1st Leg: {self.name} (Home) {self_home_score} - {opponent_away_score} {opponent.name} (Away)")
             if file:
                 with open(file, 'a') as f:
@@ -80,11 +87,9 @@ class Team:
                         f"1st Leg: {self.name} (Home) {self_home_score} - {opponent_away_score} {opponent.name} (Away)\n")
 
             # Second Leg: opponent (home), self (away)
-            home_max_opponent = ceil(3 + (skill_diff / 20))
-            away_max_self = ceil(3 - (skill_diff / 20))
+            opponent_home_score = self.calculate_goals(opponent.skill, self.skill, is_home=True)
+            self_away_score = self.calculate_goals(self.skill, opponent.skill, is_home=False)
 
-            opponent_home_score = random.randint(0, home_max_opponent)
-            self_away_score = random.randint(0, away_max_self)
             print(f"2nd Leg: {opponent.name} (Home) {opponent_home_score} - {self_away_score} {self.name} (Away)")
             if file:
                 with open(file, 'a') as f:
@@ -132,17 +137,14 @@ class Team:
                     return "Draw"
 
         # Single-leg match logic (regular match)
-        skill_diff = int(self.skill) - int(opponent.skill)
-        losing_max = ceil(3 - (skill_diff / 20))
-        winning_max = ceil(3 + (skill_diff / 20))
-        goals_scored = random.randint(0, winning_max)
-        goals_conceded = random.randint(0, losing_max)
+        goals_scored = self.calculate_goals(self.skill, opponent.skill, is_home=True)
+        goals_conceded = self.calculate_goals(opponent.skill, self.skill, is_home=False)
 
         if knockouts:
             result = self.match_with_extra_time(goals_scored, goals_conceded, opponent, file)
             while result == "Draw":
-                goals_scored += random.randint(0, winning_max)
-                goals_conceded += random.randint(0, losing_max)
+                goals_scored += self.calculate_goals(self.skill, opponent.skill, is_home=True)
+                goals_conceded += self.calculate_goals(opponent.skill, self.skill, is_home=False)
                 result = self.match_with_extra_time(goals_scored, goals_conceded, opponent, file)
             self.update_goals(opponent, goals_scored, goals_conceded)
             return result

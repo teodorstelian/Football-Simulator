@@ -89,3 +89,29 @@ Current round: Round 4
 Athletic Bilbao won against Real Madrid 2 - 0
 
 Winner of Spain Cup: Athletic Bilbao
+Teams of Spain Cup: ['Real Madrid', 'Barcelona', 'Atletico Madrid', 'Real Sociedad', 'Sevilla', 'Athletic Bilbao', 'Real Betis', 'Valencia', 'Villareal', 'Celta Vigo', 'Girona', 'Mallorca', 'Osasuna', 'Rayo Vallecano', 'Almeria', 'Cadiz']
+
+Current round: Round 1
+Barcelona won against Real Madrid 2 - 1
+Real Sociedad won against Atletico Madrid 1 - 0
+Athletic Bilbao won against Sevilla 2 - 1
+Real Betis won against Valencia 2 - 1
+Villareal won against Celta Vigo 3 - 1
+Girona won against Mallorca 2 - 1
+Rayo Vallecano won against Osasuna 3 - 2
+Cadiz won against Almeria 4 - 3
+
+Current round: Round 2
+Barcelona won against Real Sociedad 2 - 1
+Athletic Bilbao won against Real Betis 2 - 1
+Villareal won against Girona 4 - 2
+Rayo Vallecano won against Cadiz 3 - 1
+
+Current round: Round 3
+Barcelona won against Athletic Bilbao 3 - 2
+Villareal won against Rayo Vallecano 3 - 0
+
+Current round: Round 4
+Barcelona won against Villareal 3 - 0
+
+Winner of Spain Cup: Barcelona
