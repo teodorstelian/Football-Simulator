@@ -36,3 +36,429 @@ Rennes won against Celtic 1 - 0
 Current round: Round 5
 Brighton won against Rennes 2 - 0
 Winner of Europa Conference League: Brighton
+Teams of current competition: ['West Ham United', 'Crystal Palace', 'Brighton', 'Wolverhampton Wanderers', 'Real Sociedad', 'Celta Vigo', 'Real Betis', 'Getafe', 'Borussia Monchengladbach', 'FC Augsburg', '1899 Hoffenheim', 'Mainz 05', 'Salernitana', 'Empoli', 'Fiorentina', 'Torino', 'Rennes', 'Montpellier', 'Toulouse', 'Reims', 'Sparta Rotterdam', 'Feyenoord', 'Heracles Almelo', 'Rio Ave', 'Casa Pia', 'Portimonense', 'Westerlo', 'RWD Molenbeek', 'Rangers', 'Celtic', 'Austria Wien', 'Austria Lustenau']
+Current round: Round 1
+West Ham United won against Crystal Palace 4 - 3
+Wolverhampton Wanderers won against Brighton 3 - 0
+Real Sociedad won against Celta Vigo 4 - 1
+Real Betis won against Getafe 4 - 0
+FC Augsburg won against Borussia Monchengladbach 3 - 1
+1899 Hoffenheim won against Mainz 05 3 - 0
+Empoli won against Salernitana 3 - 0
+Torino won against Fiorentina 1 - 0
+Rennes won against Montpellier 4 - 0
+Reims won against Toulouse 3 - 2
+Sparta Rotterdam won against Feyenoord 2 - 0
+Rio Ave won against Heracles Almelo 4 - 0
+Casa Pia won against Portimonense 4 - 2
+Westerlo won against RWD Molenbeek 4 - 2
+Celtic won against Rangers 2 - 0
+Austria Lustenau won against Austria Wien 3 - 1
+Current round: Round 2
+West Ham United won against Wolverhampton Wanderers 4 - 3
+Real Sociedad won against Real Betis 5 - 3
+FC Augsburg won against 1899 Hoffenheim 1 - 0
+Torino won against Empoli 1 - 0
+Reims won against Rennes 2 - 1
+Rio Ave won against Sparta Rotterdam 1 - 0
+Westerlo won against Casa Pia 4 - 3
+Austria Lustenau won against Celtic 1 - 0
+Current round: Round 3
+West Ham United won against Real Sociedad 3 - 1
+Torino won against FC Augsburg 4 - 0
+Rio Ave won against Reims 3 - 2
+Austria Lustenau won against Westerlo 3 - 0
+Current round: Round 4
+Torino won against West Ham United 8 - 7
+Rio Ave won against Austria Lustenau 4 - 3
+Current round: Round 5
+Torino won against Rio Ave 4 - 1
+Winner of Europa Conference League: Torino
+Teams of current competition: ['West Ham United', 'Sheffield United', 'Everton', 'Wolverhampton Wanderers', 'Sevilla', 'Girona', 'Almeria', 'Las Palmas', 'Bayer Leverkusen', 'VfB Stuttgart', '1. FC Koln', 'VfL Wolfsburg', 'Empoli', 'Sassuolo', 'Lazio', 'Udinese', 'Brest', 'Olympique Lyon', 'Le Havre', 'Nice', 'Vitesse', 'Go Ahead Eagles', 'Fortuna Sittard', 'Sporting CP', 'Boavista', 'Casa Pia', 'Club Brugge', 'Antwerp', 'Aberdeen', 'Hibernian', 'LASK', 'Wolfsberger AC']
+Current round: Round 1
+Sheffield United won against West Ham United 1 - 0
+Wolverhampton Wanderers won against Everton 3 - 0
+Girona won against Sevilla 4 - 3
+Almeria won against Las Palmas 2 - 0
+Bayer Leverkusen won against VfB Stuttgart 2 - 1
+VfL Wolfsburg won against 1. FC Koln 9 - 7
+Empoli won against Sassuolo 2 - 0
+Lazio won against Udinese 7 - 3
+Olympique Lyon won against Brest 4 - 1
+Nice won against Le Havre 2 - 1
+Vitesse won against Go Ahead Eagles 2 - 0
+Fortuna Sittard won against Sporting CP 1 - 0
+Casa Pia won against Boavista 3 - 0
+Antwerp won against Club Brugge 2 - 1
+Aberdeen won against Hibernian 2 - 1
+LASK won against Wolfsberger AC 3 - 2
+Current round: Round 2
+Sheffield United won against Wolverhampton Wanderers 2 - 1
+Girona won against Almeria 2 - 1
+VfL Wolfsburg won against Bayer Leverkusen 2 - 1
+Lazio won against Empoli 4 - 3
+Nice won against Olympique Lyon 4 - 3
+Fortuna Sittard won against Vitesse 1 - 0
+Casa Pia won against Antwerp 1 - 0
+LASK won against Aberdeen 1 - 0
+Current round: Round 3
+Girona won against Sheffield United 2 - 1
+Lazio won against VfL Wolfsburg 4 - 2
+Nice won against Fortuna Sittard 7 - 4
+LASK won against Casa Pia 2 - 1
+Current round: Round 4
+Girona won against Lazio 1 - 0
+Nice won against LASK 5 - 3
+Current round: Round 5
+Girona won against Nice 1 - 0
+Winner of Europa Conference League: Girona
+Teams of current competition: ['West Ham United', 'Sheffield United', 'Everton', 'Wolverhampton Wanderers', 'Sevilla', 'Girona', 'Almeria', 'Las Palmas', 'Bayer Leverkusen', 'VfB Stuttgart', '1. FC Koln', 'VfL Wolfsburg', 'Empoli', 'Sassuolo', 'Lazio', 'Udinese', 'Brest', 'Olympique Lyon', 'Le Havre', 'Nice', 'Vitesse', 'Go Ahead Eagles', 'Fortuna Sittard', 'Sporting CP', 'Boavista', 'Casa Pia', 'Club Brugge', 'Antwerp', 'Aberdeen', 'Hibernian', 'LASK', 'Wolfsberger AC']
+Current round: Round 1
+West Ham United won against Sheffield United 3 - 2
+Wolverhampton Wanderers won against Everton 2 - 0
+Sevilla won against Girona 3 - 2
+Almeria won against Las Palmas 4 - 3
+VfB Stuttgart won against Bayer Leverkusen 1 - 0
+VfL Wolfsburg won against 1. FC Koln 2 - 1
+Sassuolo won against Empoli 3 - 2
+Lazio won against Udinese 3 - 1
+Olympique Lyon won against Brest 1 - 0
+Le Havre won against Nice 1 - 0
+Go Ahead Eagles won against Vitesse 3 - 2
+Fortuna Sittard won against Sporting CP 2 - 1
+Boavista won against Casa Pia 3 - 0
+Antwerp won against Club Brugge 6 - 5
+Hibernian won against Aberdeen 3 - 1
+Wolfsberger AC won against LASK 4 - 3
+Current round: Round 2
+West Ham United won against Wolverhampton Wanderers 2 - 1
+Sevilla won against Almeria 3 - 1
+VfL Wolfsburg won against VfB Stuttgart 4 - 0
+Lazio won against Sassuolo 4 - 2
+Le Havre won against Olympique Lyon 3 - 0
+Go Ahead Eagles won against Fortuna Sittard 5 - 4
+Antwerp won against Boavista 3 - 0
+Hibernian won against Wolfsberger AC 1 - 0
+Current round: Round 3
+West Ham United won against Sevilla 2 - 0
+VfL Wolfsburg won against Lazio 1 - 0
+Go Ahead Eagles won against Le Havre 3 - 2
+Hibernian won against Antwerp 1 - 0
+Current round: Round 4
+VfL Wolfsburg won against West Ham United 5 - 3
+Hibernian won against Go Ahead Eagles 1 - 0
+Current round: Round 5
+Hibernian won against VfL Wolfsburg 2 - 1
+Winner of Europa Conference League: Hibernian
+Teams of current competition: ['West Ham United', 'Sheffield United', 'Everton', 'Wolverhampton Wanderers', 'Sevilla', 'Girona', 'Almeria', 'Las Palmas', 'Bayer Leverkusen', 'VfB Stuttgart', '1. FC Koln', 'VfL Wolfsburg', 'Empoli', 'Sassuolo', 'Lazio', 'Udinese', 'Brest', 'Olympique Lyon', 'Le Havre', 'Nice', 'Vitesse', 'Go Ahead Eagles', 'Fortuna Sittard', 'Sporting CP', 'Boavista', 'Casa Pia', 'Club Brugge', 'Antwerp', 'Aberdeen', 'Hibernian', 'LASK', 'Wolfsberger AC']
+Current round: Round 1
+West Ham United won against Sheffield United 4 - 1
+Everton won against Wolverhampton Wanderers 1 - 0
+Sevilla won against Girona 3 - 1
+Las Palmas won against Almeria 6 - 4
+Bayer Leverkusen won against VfB Stuttgart 6 - 3
+1. FC Koln won against VfL Wolfsburg 3 - 1
+Empoli won against Sassuolo 4 - 3
+Lazio won against Udinese 3 - 2
+Brest won against Olympique Lyon 3 - 0
+Nice won against Le Havre 2 - 1
+Vitesse won against Go Ahead Eagles 6 - 5
+Fortuna Sittard won against Sporting CP 3 - 1
+Boavista won against Casa Pia 6 - 5
+Antwerp won against Club Brugge 6 - 4
+Hibernian won against Aberdeen 2 - 0
+Wolfsberger AC won against LASK 3 - 0
+Current round: Round 2
+Everton won against West Ham United 3 - 2
+Las Palmas won against Sevilla 2 - 0
+Bayer Leverkusen won against 1. FC Koln 4 - 0
+Empoli won against Lazio 2 - 0
+Brest won against Nice 3 - 1
+Vitesse won against Fortuna Sittard 3 - 1
+Antwerp won against Boavista 1 - 0
+Wolfsberger AC won against Hibernian 5 - 3
+Current round: Round 3
+Everton won against Las Palmas 6 - 3
+Bayer Leverkusen won against Empoli 2 - 1
+Brest won against Vitesse 2 - 0
+Antwerp won against Wolfsberger AC 4 - 3
+Current round: Round 4
+Everton won against Bayer Leverkusen 4 - 3
+Brest won against Antwerp 1 - 0
+Current round: Round 5
+Brest won against Everton 8 - 5
+Winner of Europa Conference League: Brest
+Teams of current competition: ['West Ham United', 'Sheffield United', 'Everton', 'Wolverhampton Wanderers', 'Sevilla', 'Girona', 'Almeria', 'Las Palmas', 'Bayer Leverkusen', 'VfB Stuttgart', '1. FC Koln', 'VfL Wolfsburg', 'Empoli', 'Sassuolo', 'Lazio', 'Udinese', 'Brest', 'Olympique Lyon', 'Le Havre', 'Nice', 'Vitesse', 'Go Ahead Eagles', 'Fortuna Sittard', 'Sporting CP', 'Boavista', 'Casa Pia', 'Club Brugge', 'Antwerp', 'Aberdeen', 'Hibernian', 'LASK', 'Wolfsberger AC']
+
+Current round: Round 1
+1st Leg: West Ham United (Home) 1 - 2 Sheffield United (Away)
+2nd Leg: Sheffield United (Home) 4 - 3 West Ham United (Away)
+Aggregate Score: West Ham United 4 - 6 Sheffield United
+Sheffield United advances!
+1st Leg: Everton (Home) 1 - 2 Wolverhampton Wanderers (Away)
+2nd Leg: Wolverhampton Wanderers (Home) 2 - 2 Everton (Away)
+Aggregate Score: Everton 3 - 4 Wolverhampton Wanderers
+Wolverhampton Wanderers advances!
+1st Leg: Sevilla (Home) 0 - 0 Girona (Away)
+2nd Leg: Girona (Home) 4 - 1 Sevilla (Away)
+Aggregate Score: Sevilla 1 - 4 Girona
+Girona advances!
+1st Leg: Almeria (Home) 2 - 1 Las Palmas (Away)
+2nd Leg: Las Palmas (Home) 0 - 0 Almeria (Away)
+Aggregate Score: Almeria 2 - 1 Las Palmas
+Almeria advances!
+1st Leg: Bayer Leverkusen (Home) 3 - 0 VfB Stuttgart (Away)
+2nd Leg: VfB Stuttgart (Home) 2 - 3 Bayer Leverkusen (Away)
+Aggregate Score: Bayer Leverkusen 6 - 2 VfB Stuttgart
+Bayer Leverkusen advances!
+1st Leg: 1. FC Koln (Home) 1 - 3 VfL Wolfsburg (Away)
+2nd Leg: VfL Wolfsburg (Home) 1 - 4 1. FC Koln (Away)
+Aggregate Score: 1. FC Koln 5 - 4 VfL Wolfsburg
+1. FC Koln advances!
+1st Leg: Empoli (Home) 1 - 1 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 3 - 3 Empoli (Away)
+Aggregate Score: Empoli 4 - 4 Sassuolo
+Sassuolo won against Empoli 1 - 0
+1st Leg: Lazio (Home) 1 - 1 Udinese (Away)
+2nd Leg: Udinese (Home) 4 - 2 Lazio (Away)
+Aggregate Score: Lazio 3 - 5 Udinese
+Udinese advances!
+1st Leg: Brest (Home) 2 - 3 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 3 - 3 Brest (Away)
+Aggregate Score: Brest 5 - 6 Olympique Lyon
+Olympique Lyon advances!
+1st Leg: Le Havre (Home) 1 - 0 Nice (Away)
+2nd Leg: Nice (Home) 0 - 3 Le Havre (Away)
+Aggregate Score: Le Havre 4 - 0 Nice
+Le Havre advances!
+1st Leg: Vitesse (Home) 1 - 3 Go Ahead Eagles (Away)
+2nd Leg: Go Ahead Eagles (Home) 2 - 1 Vitesse (Away)
+Aggregate Score: Vitesse 2 - 5 Go Ahead Eagles
+Go Ahead Eagles advances!
+1st Leg: Fortuna Sittard (Home) 1 - 1 Sporting CP (Away)
+2nd Leg: Sporting CP (Home) 0 - 1 Fortuna Sittard (Away)
+Aggregate Score: Fortuna Sittard 2 - 1 Sporting CP
+Fortuna Sittard advances!
+1st Leg: Boavista (Home) 0 - 0 Casa Pia (Away)
+2nd Leg: Casa Pia (Home) 3 - 3 Boavista (Away)
+Aggregate Score: Boavista 3 - 3 Casa Pia
+Boavista won against Casa Pia 1 - 0
+1st Leg: Club Brugge (Home) 2 - 0 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 3 Club Brugge (Away)
+Aggregate Score: Club Brugge 5 - 2 Antwerp
+Club Brugge advances!
+1st Leg: Aberdeen (Home) 2 - 3 Hibernian (Away)
+2nd Leg: Hibernian (Home) 3 - 2 Aberdeen (Away)
+Aggregate Score: Aberdeen 4 - 6 Hibernian
+Hibernian advances!
+1st Leg: LASK (Home) 4 - 3 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 1 - 3 LASK (Away)
+Aggregate Score: LASK 7 - 4 Wolfsberger AC
+LASK advances!
+
+Current round: Round 2
+1st Leg: Sheffield United (Home) 0 - 4 Wolverhampton Wanderers (Away)
+2nd Leg: Wolverhampton Wanderers (Home) 3 - 4 Sheffield United (Away)
+Aggregate Score: Sheffield United 4 - 7 Wolverhampton Wanderers
+Wolverhampton Wanderers advances!
+1st Leg: Girona (Home) 4 - 0 Almeria (Away)
+2nd Leg: Almeria (Home) 4 - 0 Girona (Away)
+Aggregate Score: Girona 4 - 4 Almeria
+Almeria won against Girona 1 - 0
+1st Leg: Bayer Leverkusen (Home) 0 - 3 1. FC Koln (Away)
+2nd Leg: 1. FC Koln (Home) 3 - 3 Bayer Leverkusen (Away)
+Aggregate Score: Bayer Leverkusen 3 - 6 1. FC Koln
+1. FC Koln advances!
+1st Leg: Sassuolo (Home) 3 - 3 Udinese (Away)
+2nd Leg: Udinese (Home) 0 - 2 Sassuolo (Away)
+Aggregate Score: Sassuolo 5 - 3 Udinese
+Sassuolo advances!
+1st Leg: Olympique Lyon (Home) 2 - 1 Le Havre (Away)
+2nd Leg: Le Havre (Home) 2 - 1 Olympique Lyon (Away)
+Aggregate Score: Olympique Lyon 3 - 3 Le Havre
+Olympique Lyon won against Le Havre 1 - 0
+1st Leg: Go Ahead Eagles (Home) 1 - 2 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 0 - 0 Go Ahead Eagles (Away)
+Aggregate Score: Go Ahead Eagles 1 - 2 Fortuna Sittard
+Fortuna Sittard advances!
+1st Leg: Boavista (Home) 3 - 3 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 0 - 0 Boavista (Away)
+Aggregate Score: Boavista 3 - 3 Club Brugge
+Club Brugge won against Boavista 1 - 0
+1st Leg: Hibernian (Home) 0 - 2 LASK (Away)
+2nd Leg: LASK (Home) 2 - 1 Hibernian (Away)
+Aggregate Score: Hibernian 1 - 4 LASK
+LASK advances!
+
+Current round: Round 3
+1st Leg: Wolverhampton Wanderers (Home) 1 - 3 Almeria (Away)
+2nd Leg: Almeria (Home) 1 - 3 Wolverhampton Wanderers (Away)
+Aggregate Score: Wolverhampton Wanderers 4 - 4 Almeria
+Wolverhampton Wanderers won against Almeria 1 - 0
+1st Leg: 1. FC Koln (Home) 0 - 1 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 1 - 1 1. FC Koln (Away)
+Aggregate Score: 1. FC Koln 1 - 2 Sassuolo
+Sassuolo advances!
+1st Leg: Olympique Lyon (Home) 0 - 0 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 4 - 1 Olympique Lyon (Away)
+Aggregate Score: Olympique Lyon 1 - 4 Fortuna Sittard
+Fortuna Sittard advances!
+1st Leg: Club Brugge (Home) 3 - 2 LASK (Away)
+2nd Leg: LASK (Home) 2 - 3 Club Brugge (Away)
+Aggregate Score: Club Brugge 6 - 4 LASK
+Club Brugge advances!
+
+Current round: Round 4
+1st Leg: Wolverhampton Wanderers (Home) 1 - 3 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 2 - 3 Wolverhampton Wanderers (Away)
+Aggregate Score: Wolverhampton Wanderers 4 - 5 Sassuolo
+Sassuolo advances!
+1st Leg: Fortuna Sittard (Home) 0 - 4 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 0 - 0 Fortuna Sittard (Away)
+Aggregate Score: Fortuna Sittard 0 - 4 Club Brugge
+Club Brugge advances!
+
+Current round: Round 5
+1st Leg: Sassuolo (Home) 1 - 4 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 2 - 1 Sassuolo (Away)
+Aggregate Score: Sassuolo 2 - 6 Club Brugge
+Club Brugge advances!
+
+Winner of Europa Conference League: Club Brugge
+Teams of current competition: ['West Ham United', 'Fulham', 'Bournemouth', 'Everton', 'Real Sociedad', 'Athletic Bilbao', 'Mallorca', 'Real Betis', 'RB Leipzig', 'Borussia Monchengladbach', '1. FC Koln', 'VfL Bochum', 'Fiorentina', 'Hellas Verona', 'Cagliari', 'Udinese', 'RC Lens', 'Strasbourg', 'Toulouse', 'Le Havre', 'Ajax', 'Sparta Rotterdam', 'RKC Waalwijk', 'Arouca', 'Farense', 'Casa Pia', 'Standard Liege', 'Anderlecht', 'Motherwell', 'Hibernian', 'LASK', 'Rheindorf Altach']
+
+Current round: Round 1
+1st Leg: West Ham United (Home) 1 - 1 Fulham (Away)
+2nd Leg: Fulham (Home) 1 - 1 West Ham United (Away)
+Aggregate Score: West Ham United 2 - 2 Fulham
+West Ham United won against Fulham 1 - 0
+1st Leg: Bournemouth (Home) 1 - 4 Everton (Away)
+2nd Leg: Everton (Home) 3 - 4 Bournemouth (Away)
+Aggregate Score: Bournemouth 5 - 7 Everton
+Everton advances!
+1st Leg: Real Sociedad (Home) 0 - 3 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 3 Real Sociedad (Away)
+Aggregate Score: Real Sociedad 3 - 5 Athletic Bilbao
+Athletic Bilbao advances!
+1st Leg: Mallorca (Home) 2 - 1 Real Betis (Away)
+2nd Leg: Real Betis (Home) 2 - 4 Mallorca (Away)
+Aggregate Score: Mallorca 6 - 3 Real Betis
+Mallorca advances!
+1st Leg: RB Leipzig (Home) 0 - 0 Borussia Monchengladbach (Away)
+2nd Leg: Borussia Monchengladbach (Home) 1 - 3 RB Leipzig (Away)
+Aggregate Score: RB Leipzig 3 - 1 Borussia Monchengladbach
+RB Leipzig advances!
+1st Leg: 1. FC Koln (Home) 2 - 2 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 3 - 1 1. FC Koln (Away)
+Aggregate Score: 1. FC Koln 3 - 5 VfL Bochum
+VfL Bochum advances!
+1st Leg: Fiorentina (Home) 1 - 1 Hellas Verona (Away)
+2nd Leg: Hellas Verona (Home) 2 - 0 Fiorentina (Away)
+Aggregate Score: Fiorentina 1 - 3 Hellas Verona
+Hellas Verona advances!
+1st Leg: Cagliari (Home) 1 - 4 Udinese (Away)
+2nd Leg: Udinese (Home) 0 - 3 Cagliari (Away)
+Aggregate Score: Cagliari 4 - 4 Udinese
+Cagliari won against Udinese 1 - 0
+1st Leg: RC Lens (Home) 2 - 0 Strasbourg (Away)
+2nd Leg: Strasbourg (Home) 1 - 1 RC Lens (Away)
+Aggregate Score: RC Lens 3 - 1 Strasbourg
+RC Lens advances!
+1st Leg: Toulouse (Home) 4 - 1 Le Havre (Away)
+2nd Leg: Le Havre (Home) 3 - 0 Toulouse (Away)
+Aggregate Score: Toulouse 4 - 4 Le Havre
+Le Havre won against Toulouse 1 - 0
+1st Leg: Ajax (Home) 0 - 3 Sparta Rotterdam (Away)
+2nd Leg: Sparta Rotterdam (Home) 3 - 0 Ajax (Away)
+Aggregate Score: Ajax 0 - 6 Sparta Rotterdam
+Sparta Rotterdam advances!
+1st Leg: RKC Waalwijk (Home) 0 - 1 Arouca (Away)
+2nd Leg: Arouca (Home) 0 - 4 RKC Waalwijk (Away)
+Aggregate Score: RKC Waalwijk 4 - 1 Arouca
+RKC Waalwijk advances!
+1st Leg: Farense (Home) 1 - 1 Casa Pia (Away)
+2nd Leg: Casa Pia (Home) 3 - 4 Farense (Away)
+Aggregate Score: Farense 5 - 4 Casa Pia
+Farense advances!
+1st Leg: Standard Liege (Home) 0 - 0 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 0 - 3 Standard Liege (Away)
+Aggregate Score: Standard Liege 3 - 0 Anderlecht
+Standard Liege advances!
+1st Leg: Motherwell (Home) 0 - 0 Hibernian (Away)
+2nd Leg: Hibernian (Home) 0 - 2 Motherwell (Away)
+Aggregate Score: Motherwell 2 - 0 Hibernian
+Motherwell advances!
+1st Leg: LASK (Home) 3 - 2 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 4 - 1 LASK (Away)
+Aggregate Score: LASK 4 - 6 Rheindorf Altach
+Rheindorf Altach advances!
+
+Current round: Round 2
+1st Leg: West Ham United (Home) 3 - 1 Everton (Away)
+2nd Leg: Everton (Home) 4 - 3 West Ham United (Away)
+Aggregate Score: West Ham United 6 - 5 Everton
+West Ham United advances!
+1st Leg: Athletic Bilbao (Home) 3 - 0 Mallorca (Away)
+2nd Leg: Mallorca (Home) 2 - 0 Athletic Bilbao (Away)
+Aggregate Score: Athletic Bilbao 3 - 2 Mallorca
+Athletic Bilbao advances!
+1st Leg: RB Leipzig (Home) 0 - 2 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 4 - 2 RB Leipzig (Away)
+Aggregate Score: RB Leipzig 2 - 6 VfL Bochum
+VfL Bochum advances!
+1st Leg: Hellas Verona (Home) 3 - 0 Cagliari (Away)
+2nd Leg: Cagliari (Home) 1 - 1 Hellas Verona (Away)
+Aggregate Score: Hellas Verona 4 - 1 Cagliari
+Hellas Verona advances!
+1st Leg: RC Lens (Home) 4 - 2 Le Havre (Away)
+2nd Leg: Le Havre (Home) 1 - 1 RC Lens (Away)
+Aggregate Score: RC Lens 5 - 3 Le Havre
+RC Lens advances!
+1st Leg: Sparta Rotterdam (Home) 3 - 0 RKC Waalwijk (Away)
+2nd Leg: RKC Waalwijk (Home) 3 - 3 Sparta Rotterdam (Away)
+Aggregate Score: Sparta Rotterdam 6 - 3 RKC Waalwijk
+Sparta Rotterdam advances!
+1st Leg: Farense (Home) 2 - 2 Standard Liege (Away)
+2nd Leg: Standard Liege (Home) 1 - 2 Farense (Away)
+Aggregate Score: Farense 4 - 3 Standard Liege
+Farense advances!
+1st Leg: Motherwell (Home) 2 - 1 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 0 - 1 Motherwell (Away)
+Aggregate Score: Motherwell 3 - 1 Rheindorf Altach
+Motherwell advances!
+
+Current round: Round 3
+1st Leg: West Ham United (Home) 1 - 4 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 1 - 2 West Ham United (Away)
+Aggregate Score: West Ham United 3 - 5 Athletic Bilbao
+Athletic Bilbao advances!
+1st Leg: VfL Bochum (Home) 2 - 1 Hellas Verona (Away)
+2nd Leg: Hellas Verona (Home) 1 - 2 VfL Bochum (Away)
+Aggregate Score: VfL Bochum 4 - 2 Hellas Verona
+VfL Bochum advances!
+1st Leg: RC Lens (Home) 1 - 2 Sparta Rotterdam (Away)
+2nd Leg: Sparta Rotterdam (Home) 2 - 3 RC Lens (Away)
+Aggregate Score: RC Lens 4 - 4 Sparta Rotterdam
+Sparta Rotterdam won against RC Lens 1 - 0
+1st Leg: Farense (Home) 3 - 2 Motherwell (Away)
+2nd Leg: Motherwell (Home) 3 - 1 Farense (Away)
+Aggregate Score: Farense 4 - 5 Motherwell
+Motherwell advances!
+
+Current round: Round 4
+1st Leg: Athletic Bilbao (Home) 3 - 0 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 4 - 2 Athletic Bilbao (Away)
+Aggregate Score: Athletic Bilbao 5 - 4 VfL Bochum
+Athletic Bilbao advances!
+1st Leg: Sparta Rotterdam (Home) 3 - 1 Motherwell (Away)
+2nd Leg: Motherwell (Home) 1 - 2 Sparta Rotterdam (Away)
+Aggregate Score: Sparta Rotterdam 5 - 2 Motherwell
+Sparta Rotterdam advances!
+
+Current round: Round 5
+1st Leg: Athletic Bilbao (Home) 3 - 2 Sparta Rotterdam (Away)
+2nd Leg: Sparta Rotterdam (Home) 3 - 0 Athletic Bilbao (Away)
+Aggregate Score: Athletic Bilbao 3 - 5 Sparta Rotterdam
+Sparta Rotterdam advances!
+
+Winner of Europa Conference League: Sparta Rotterdam

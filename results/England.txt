@@ -20,3 +20,145 @@ Winner of League: Manchester City
 19. Bournemouth - 35 points - 8 wins - 11 draws - 19 losses - 55 scored - 85 against - No qualification
 20. Luton - 21 points - 5 wins - 6 draws - 27 losses - 33 scored - 86 against - No qualification
 Winner of England Cup: Manchester City
+Winner of League: Manchester City
+1. Manchester City - 84 points - 26 wins - 6 draws - 6 losses - 89 scored - 44 against - Champions League
+2. Arsenal - 73 points - 22 wins - 7 draws - 9 losses - 87 scored - 54 against - Champions League
+3. Chelsea - 73 points - 22 wins - 7 draws - 9 losses - 76 scored - 44 against - Champions League
+4. Liverpool - 71 points - 20 wins - 11 draws - 7 losses - 93 scored - 52 against - Champions League
+5. Tottenham Hotspur - 70 points - 20 wins - 10 draws - 8 losses - 80 scored - 59 against - Europa League
+6. Manchester United - 64 points - 18 wins - 10 draws - 10 losses - 93 scored - 58 against - Europa League
+7. Newcastle United - 64 points - 18 wins - 10 draws - 10 losses - 66 scored - 54 against - Europa League
+8. Aston Villa - 59 points - 16 wins - 11 draws - 11 losses - 64 scored - 54 against - Europa League
+9. Everton - 55 points - 16 wins - 7 draws - 15 losses - 64 scored - 68 against - Europa Conference League
+10. Wolverhampton Wanderers - 51 points - 15 wins - 6 draws - 17 losses - 57 scored - 71 against - Europa Conference League
+11. West Ham United - 48 points - 14 wins - 6 draws - 18 losses - 65 scored - 77 against - Europa Conference League
+12. Sheffield United - 46 points - 12 wins - 10 draws - 16 losses - 62 scored - 82 against - Europa Conference League
+13. Crystal Palace - 46 points - 12 wins - 10 draws - 16 losses - 61 scored - 71 against - No qualification
+14. Fulham - 43 points - 11 wins - 10 draws - 17 losses - 63 scored - 75 against - No qualification
+15. Luton - 39 points - 11 wins - 6 draws - 21 losses - 44 scored - 73 against - No qualification
+16. Brighton - 37 points - 11 wins - 4 draws - 23 losses - 51 scored - 69 against - No qualification
+17. Nottingham Forest - 37 points - 10 wins - 7 draws - 21 losses - 54 scored - 72 against - No qualification
+18. Brentford - 36 points - 10 wins - 6 draws - 22 losses - 54 scored - 81 against - No qualification
+19. Bournemouth - 34 points - 10 wins - 4 draws - 24 losses - 53 scored - 84 against - No qualification
+20. Burnley - 33 points - 9 wins - 6 draws - 23 losses - 53 scored - 87 against - No qualification
+Winner of England Cup: Manchester United
+Winner of League: Manchester City
+1. Manchester City - 89 points - 28 wins - 5 draws - 5 losses - 98 scored - 47 against - Champions League
+2. Newcastle United - 73 points - 22 wins - 7 draws - 9 losses - 82 scored - 48 against - Champions League
+3. Liverpool - 69 points - 19 wins - 12 draws - 7 losses - 77 scored - 43 against - Champions League
+4. Arsenal - 65 points - 19 wins - 8 draws - 11 losses - 73 scored - 52 against - Champions League
+5. Manchester United - 64 points - 20 wins - 4 draws - 14 losses - 72 scored - 54 against - Europa League
+6. Tottenham Hotspur - 61 points - 18 wins - 7 draws - 13 losses - 81 scored - 55 against - Europa League
+7. Chelsea - 61 points - 17 wins - 10 draws - 11 losses - 91 scored - 60 against - Europa League
+8. West Ham United - 61 points - 17 wins - 10 draws - 11 losses - 73 scored - 63 against - Europa League
+9. Aston Villa - 60 points - 16 wins - 12 draws - 10 losses - 70 scored - 57 against - Europa Conference League
+10. Brighton - 59 points - 17 wins - 8 draws - 13 losses - 66 scored - 59 against - Europa Conference League
+11. Wolverhampton Wanderers - 55 points - 15 wins - 10 draws - 13 losses - 60 scored - 60 against - Europa Conference League
+12. Nottingham Forest - 53 points - 13 wins - 14 draws - 11 losses - 57 scored - 59 against - Europa Conference League
+13. Everton - 48 points - 14 wins - 6 draws - 18 losses - 56 scored - 70 against - No qualification
+14. Burnley - 47 points - 13 wins - 8 draws - 17 losses - 60 scored - 76 against - No qualification
+15. Fulham - 42 points - 11 wins - 9 draws - 18 losses - 41 scored - 58 against - No qualification
+16. Sheffield United - 37 points - 10 wins - 7 draws - 21 losses - 57 scored - 91 against - No qualification
+17. Bournemouth - 33 points - 8 wins - 9 draws - 21 losses - 52 scored - 91 against - No qualification
+18. Crystal Palace - 33 points - 8 wins - 9 draws - 21 losses - 44 scored - 73 against - No qualification
+19. Luton - 23 points - 6 wins - 5 draws - 27 losses - 45 scored - 90 against - No qualification
+20. Brentford - 22 points - 4 wins - 10 draws - 24 losses - 38 scored - 87 against - No qualification
+Teams of England Cup: ['Liverpool', 'Manchester City', 'Arsenal', 'Chelsea', 'Manchester United', 'Newcastle United', 'Tottenham Hotspur', 'Brighton', 'Aston Villa', 'West Ham United', 'Brentford', 'Crystal Palace', 'Everton', 'Fulham', 'Nottingham Forest', 'Wolverhampton Wanderers']
+
+Current round: Round 1
+Manchester City won against Liverpool 2 - 0
+Chelsea won against Arsenal 1 - 0
+Newcastle United won against Manchester United 3 - 1
+Tottenham Hotspur won against Brighton 5 - 4
+Aston Villa won against West Ham United 3 - 2
+Crystal Palace won against Brentford 2 - 0
+Everton won against Fulham 3 - 1
+Nottingham Forest won against Wolverhampton Wanderers 1 - 0
+
+Current round: Round 2
+Manchester City won against Chelsea 1 - 0
+Tottenham Hotspur won against Newcastle United 2 - 1
+Aston Villa won against Crystal Palace 4 - 3
+Nottingham Forest won against Everton 3 - 2
+
+Current round: Round 3
+Manchester City won against Tottenham Hotspur 4 - 0
+Nottingham Forest won against Aston Villa 3 - 1
+
+Current round: Round 4
+Manchester City won against Nottingham Forest 1 - 0
+
+Winner of England Cup: Manchester City
+Teams of England Cup: ['Liverpool', 'Manchester City', 'Arsenal', 'Chelsea', 'Manchester United', 'Newcastle United', 'Tottenham Hotspur', 'Brighton', 'Aston Villa', 'West Ham United', 'Brentford', 'Crystal Palace', 'Everton', 'Fulham', 'Nottingham Forest', 'Wolverhampton Wanderers']
+
+Current round: Round 1
+Liverpool won against Manchester City 1 - 0
+Arsenal won against Chelsea 3 - 0
+Newcastle United won against Manchester United 1 - 0
+Tottenham Hotspur won against Brighton 1 - 0
+West Ham United won against Aston Villa 2 - 0
+Brentford won against Crystal Palace 3 - 2
+Everton won against Fulham 3 - 1
+Wolverhampton Wanderers won against Nottingham Forest 3 - 1
+
+Current round: Round 2
+Liverpool won against Arsenal 4 - 0
+Tottenham Hotspur won against Newcastle United 2 - 0
+West Ham United won against Brentford 2 - 1
+Wolverhampton Wanderers won against Everton 4 - 3
+
+Current round: Round 3
+Tottenham Hotspur won against Liverpool 3 - 1
+West Ham United won against Wolverhampton Wanderers 4 - 1
+
+Current round: Round 4
+West Ham United won against Tottenham Hotspur 2 - 0
+
+Winner of England Cup: West Ham United
+Winner of League: Liverpool
+1. Liverpool - 80 points - 25 wins - 5 draws - 8 losses - 100 scored - 42 against - Champions League
+2. Newcastle United - 77 points - 23 wins - 8 draws - 7 losses - 78 scored - 41 against - Champions League
+3. Arsenal - 76 points - 22 wins - 10 draws - 6 losses - 104 scored - 45 against - Champions League
+4. Manchester City - 71 points - 21 wins - 8 draws - 9 losses - 87 scored - 42 against - Champions League
+5. Aston Villa - 67 points - 20 wins - 7 draws - 11 losses - 74 scored - 59 against - Europa League
+6. Tottenham Hotspur - 63 points - 18 wins - 9 draws - 11 losses - 73 scored - 51 against - Europa League
+7. Chelsea - 61 points - 18 wins - 7 draws - 13 losses - 75 scored - 59 against - Europa League
+8. Manchester United - 60 points - 18 wins - 6 draws - 14 losses - 64 scored - 41 against - Europa League
+9. Everton - 55 points - 16 wins - 7 draws - 15 losses - 57 scored - 74 against - Europa Conference League
+10. West Ham United - 55 points - 15 wins - 10 draws - 13 losses - 71 scored - 68 against - Europa Conference League
+11. Fulham - 52 points - 14 wins - 10 draws - 14 losses - 50 scored - 55 against - Europa Conference League
+12. Bournemouth - 45 points - 12 wins - 9 draws - 17 losses - 57 scored - 83 against - Europa Conference League
+13. Crystal Palace - 43 points - 13 wins - 4 draws - 21 losses - 56 scored - 85 against - No qualification
+14. Wolverhampton Wanderers - 43 points - 11 wins - 10 draws - 17 losses - 59 scored - 73 against - No qualification
+15. Brighton - 40 points - 11 wins - 7 draws - 20 losses - 55 scored - 75 against - No qualification
+16. Nottingham Forest - 38 points - 10 wins - 8 draws - 20 losses - 56 scored - 76 against - No qualification
+17. Burnley - 37 points - 11 wins - 4 draws - 23 losses - 54 scored - 95 against - No qualification
+18. Luton - 36 points - 8 wins - 12 draws - 18 losses - 45 scored - 73 against - No qualification
+19. Sheffield United - 33 points - 9 wins - 6 draws - 23 losses - 41 scored - 89 against - No qualification
+20. Brentford - 30 points - 7 wins - 9 draws - 22 losses - 53 scored - 83 against - No qualification
+Teams of England Cup: ['Liverpool', 'Manchester City', 'Arsenal', 'Newcastle United', 'Tottenham Hotspur', 'Chelsea', 'Manchester United', 'Brighton', 'Aston Villa', 'West Ham United', 'Everton', 'Fulham', 'Crystal Palace', 'Wolverhampton Wanderers', 'Nottingham Forest', 'Brentford']
+
+Current round: Round 1
+Manchester City won against Liverpool 3 - 1
+Arsenal won against Newcastle United 2 - 1
+Chelsea won against Tottenham Hotspur 5 - 4
+Brighton won against Manchester United 1 - 0
+West Ham United won against Aston Villa 2 - 0
+Fulham won against Everton 1 - 0
+Crystal Palace won against Wolverhampton Wanderers 1 - 0
+Brentford won against Nottingham Forest 3 - 2
+
+Current round: Round 2
+Manchester City won against Arsenal 3 - 0
+Chelsea won against Brighton 5 - 1
+Fulham won against West Ham United 3 - 2
+Crystal Palace won against Brentford 1 - 0
+
+Current round: Round 3
+Chelsea won against Manchester City 5 - 3
+Fulham won against Crystal Palace 2 - 1
+
+Current round: Round 4
+Chelsea won against Fulham 3 - 0
+
+Winner of England Cup: Chelsea

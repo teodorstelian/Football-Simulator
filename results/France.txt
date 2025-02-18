@@ -18,3 +18,68 @@ Winner of League: PSG
 17. Nantes - 35 points - 9 wins - 8 draws - 17 losses - 48 scored - 68 against - No qualification
 18. Metz - 22 points - 5 wins - 7 draws - 22 losses - 50 scored - 84 against - No qualification
 Winner of France Cup: Lille
+Winner of League: PSG
+1. PSG - 75 points - 23 wins - 6 draws - 5 losses - 85 scored - 39 against - Champions League
+2. RC Lens - 67 points - 21 wins - 4 draws - 9 losses - 71 scored - 47 against - Champions League
+3. AS Monaco - 59 points - 18 wins - 5 draws - 11 losses - 75 scored - 60 against - Champions League
+4. Rennes - 53 points - 16 wins - 5 draws - 13 losses - 63 scored - 54 against - Champions League
+5. Lille - 52 points - 16 wins - 4 draws - 14 losses - 59 scored - 51 against - Europa League
+6. Marseille - 50 points - 14 wins - 8 draws - 12 losses - 62 scored - 57 against - Europa League
+7. Nantes - 50 points - 13 wins - 11 draws - 10 losses - 63 scored - 57 against - Europa League
+8. Clermont - 47 points - 14 wins - 5 draws - 15 losses - 47 scored - 49 against - Europa League
+9. Olympique Lyon - 45 points - 13 wins - 6 draws - 15 losses - 48 scored - 56 against - Europa Conference League
+10. Nice - 44 points - 13 wins - 5 draws - 16 losses - 63 scored - 67 against - Europa Conference League
+11. Le Havre - 44 points - 12 wins - 8 draws - 14 losses - 52 scored - 66 against - Europa Conference League
+12. Brest - 44 points - 12 wins - 8 draws - 14 losses - 51 scored - 55 against - Europa Conference League
+13. Strasbourg - 42 points - 12 wins - 6 draws - 16 losses - 54 scored - 60 against - No qualification
+14. Metz - 39 points - 12 wins - 3 draws - 19 losses - 53 scored - 69 against - No qualification
+15. Montpellier - 39 points - 11 wins - 6 draws - 17 losses - 44 scored - 58 against - No qualification
+16. Toulouse - 39 points - 10 wins - 9 draws - 15 losses - 58 scored - 64 against - No qualification
+17. Reims - 38 points - 11 wins - 5 draws - 18 losses - 62 scored - 76 against - No qualification
+18. Lorient - 37 points - 11 wins - 4 draws - 19 losses - 41 scored - 66 against - No qualification
+Winner of France Cup: Olympique Lyon
+Winner of League: PSG
+1. PSG - 83 points - 26 wins - 5 draws - 3 losses - 97 scored - 31 against - Champions League
+2. Nice - 61 points - 18 wins - 7 draws - 9 losses - 73 scored - 57 against - Champions League
+3. AS Monaco - 61 points - 18 wins - 7 draws - 9 losses - 64 scored - 50 against - Champions League
+4. Rennes - 57 points - 16 wins - 9 draws - 9 losses - 62 scored - 45 against - Champions League
+5. Olympique Lyon - 54 points - 16 wins - 6 draws - 12 losses - 61 scored - 53 against - Europa League
+6. Marseille - 51 points - 13 wins - 12 draws - 9 losses - 58 scored - 51 against - Europa League
+7. Metz - 50 points - 14 wins - 8 draws - 12 losses - 50 scored - 56 against - Europa League
+8. Lille - 49 points - 14 wins - 7 draws - 13 losses - 57 scored - 45 against - Europa League
+9. Strasbourg - 46 points - 13 wins - 7 draws - 14 losses - 47 scored - 49 against - Europa Conference League
+10. Le Havre - 45 points - 12 wins - 9 draws - 13 losses - 64 scored - 62 against - Europa Conference League
+11. RC Lens - 45 points - 12 wins - 9 draws - 13 losses - 51 scored - 54 against - Europa Conference League
+12. Toulouse - 39 points - 11 wins - 6 draws - 17 losses - 49 scored - 63 against - Europa Conference League
+13. Lorient - 38 points - 10 wins - 8 draws - 16 losses - 52 scored - 66 against - No qualification
+14. Montpellier - 37 points - 10 wins - 7 draws - 17 losses - 45 scored - 61 against - No qualification
+15. Clermont - 37 points - 9 wins - 10 draws - 15 losses - 45 scored - 56 against - No qualification
+16. Nantes - 36 points - 8 wins - 12 draws - 14 losses - 46 scored - 67 against - No qualification
+17. Reims - 35 points - 9 wins - 8 draws - 17 losses - 39 scored - 59 against - No qualification
+18. Brest - 23 points - 6 wins - 5 draws - 23 losses - 38 scored - 73 against - No qualification
+Teams of France Cup: ['PSG', 'RC Lens', 'AS Monaco', 'Rennes', 'Olympique Lyon', 'Marseille', 'Lille', 'Nice', 'Strasbourg', 'Toulouse', 'Lorient', 'Montpellier', 'Clermont', 'Nantes', 'Reims', 'Brest']
+
+Current round: Round 1
+RC Lens won against PSG 3 - 0
+Rennes won against AS Monaco 1 - 0
+Olympique Lyon won against Marseille 3 - 1
+Lille won against Nice 4 - 0
+Strasbourg won against Toulouse 3 - 0
+Montpellier won against Lorient 2 - 0
+Nantes won against Clermont 1 - 0
+Brest won against Reims 3 - 2
+
+Current round: Round 2
+Rennes won against RC Lens 3 - 0
+Olympique Lyon won against Lille 6 - 5
+Montpellier won against Strasbourg 2 - 1
+Brest won against Nantes 4 - 2
+
+Current round: Round 3
+Olympique Lyon won against Rennes 3 - 2
+Brest won against Montpellier 3 - 2
+
+Current round: Round 4
+Brest won against Olympique Lyon 1 - 0
+
+Winner of France Cup: Brest

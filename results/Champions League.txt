@@ -36,3 +36,254 @@ RC Lens won against Sporting CP 1 - 0
 Current round: Round 5
 RB Leipzig won against RC Lens 4 - 2
 Winner of Champions League: RB Leipzig
+Teams of current competition: ['Manchester City', 'Newcastle United', 'Manchester United', 'Arsenal', 'Real Madrid', 'Sevilla', 'Barcelona', 'Athletic Bilbao', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'Eintracht Frankfurt', 'Inter Milan', 'Napoli', 'Atalanta', 'Lazio', 'RC Lens', 'PSG', 'Lille', 'Olympique Lyon', 'Ajax', 'PSV Eindhoven', 'Vitesse', 'Benfica', 'Braga', 'Sporting CP', 'Genk', 'Club Brugge', 'Hearts', 'Aberdeen', 'Red Bull Salzburg', 'WSG Tirol']
+Current round: Round 1
+Newcastle United won against Manchester City 2 - 1
+Arsenal won against Manchester United 1 - 0
+Real Madrid won against Sevilla 2 - 0
+Barcelona won against Athletic Bilbao 4 - 3
+RB Leipzig won against Borussia Dortmund 1 - 0
+Bayern Munchen won against Eintracht Frankfurt 9 - 5
+Napoli won against Inter Milan 2 - 0
+Atalanta won against Lazio 6 - 4
+RC Lens won against PSG 2 - 0
+Lille won against Olympique Lyon 2 - 0
+Ajax won against PSV Eindhoven 4 - 2
+Benfica won against Vitesse 4 - 0
+Braga won against Sporting CP 1 - 0
+Genk won against Club Brugge 3 - 0
+Aberdeen won against Hearts 5 - 1
+Red Bull Salzburg won against WSG Tirol 3 - 2
+Current round: Round 2
+Newcastle United won against Arsenal 3 - 2
+Barcelona won against Real Madrid 6 - 4
+RB Leipzig won against Bayern Munchen 1 - 0
+Atalanta won against Napoli 3 - 0
+RC Lens won against Lille 3 - 1
+Benfica won against Ajax 2 - 1
+Braga won against Genk 3 - 0
+Red Bull Salzburg won against Aberdeen 2 - 0
+Current round: Round 3
+Barcelona won against Newcastle United 3 - 2
+RB Leipzig won against Atalanta 5 - 3
+Benfica won against RC Lens 2 - 1
+Red Bull Salzburg won against Braga 1 - 0
+Current round: Round 4
+RB Leipzig won against Barcelona 3 - 0
+Red Bull Salzburg won against Benfica 5 - 3
+Current round: Round 5
+Red Bull Salzburg won against RB Leipzig 2 - 0
+Winner of Champions League: Red Bull Salzburg
+Teams of current competition: ['Manchester City', 'Liverpool', 'Chelsea', 'Arsenal', 'Atletico Madrid', 'Real Madrid', 'Real Sociedad', 'Barcelona', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'Eintracht Frankfurt', 'Inter Milan', 'Napoli', 'AC Milan', 'Fiorentina', 'RC Lens', 'Rennes', 'PSG', 'AS Monaco', 'Ajax', 'Feyenoord', 'NEC', 'Braga', 'Famalicao', 'Arouca', 'Union SG', 'Anderlecht', 'Rangers', 'Celtic', 'Austria Klagenfurt', 'Sturm Graz']
+Current round: Round 1
+Manchester City won against Liverpool 2 - 0
+Chelsea won against Arsenal 3 - 1
+Atletico Madrid won against Real Madrid 4 - 3
+Real Sociedad won against Barcelona 2 - 0
+RB Leipzig won against Borussia Dortmund 2 - 1
+Bayern Munchen won against Eintracht Frankfurt 6 - 3
+Napoli won against Inter Milan 3 - 1
+AC Milan won against Fiorentina 5 - 4
+Rennes won against RC Lens 3 - 0
+PSG won against AS Monaco 1 - 0
+Ajax won against Feyenoord 4 - 2
+Braga won against NEC 2 - 1
+Famalicao won against Arouca 2 - 0
+Union SG won against Anderlecht 3 - 1
+Celtic won against Rangers 2 - 1
+Sturm Graz won against Austria Klagenfurt 2 - 1
+Current round: Round 2
+Chelsea won against Manchester City 2 - 0
+Atletico Madrid won against Real Sociedad 4 - 0
+Bayern Munchen won against RB Leipzig 3 - 2
+AC Milan won against Napoli 3 - 1
+PSG won against Rennes 4 - 0
+Ajax won against Braga 5 - 2
+Famalicao won against Union SG 1 - 0
+Celtic won against Sturm Graz 2 - 0
+Current round: Round 3
+Chelsea won against Atletico Madrid 3 - 0
+AC Milan won against Bayern Munchen 3 - 1
+PSG won against Ajax 7 - 3
+Celtic won against Famalicao 4 - 0
+Current round: Round 4
+Chelsea won against AC Milan 6 - 5
+Celtic won against PSG 2 - 0
+Current round: Round 5
+Chelsea won against Celtic 3 - 2
+Winner of Champions League: Chelsea
+Teams of current competition: ['Manchester City', 'Liverpool', 'Chelsea', 'Arsenal', 'Atletico Madrid', 'Real Madrid', 'Real Sociedad', 'Barcelona', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'Eintracht Frankfurt', 'Inter Milan', 'Napoli', 'AC Milan', 'Fiorentina', 'RC Lens', 'Rennes', 'PSG', 'AS Monaco', 'Ajax', 'Feyenoord', 'NEC', 'Braga', 'Famalicao', 'Arouca', 'Union SG', 'Anderlecht', 'Rangers', 'Celtic', 'Austria Klagenfurt', 'Sturm Graz']
+Current round: Round 1
+Liverpool won against Manchester City 3 - 1
+Arsenal won against Chelsea 3 - 0
+Atletico Madrid won against Real Madrid 3 - 0
+Barcelona won against Real Sociedad 4 - 3
+Borussia Dortmund won against RB Leipzig 4 - 2
+Bayern Munchen won against Eintracht Frankfurt 3 - 1
+Inter Milan won against Napoli 5 - 4
+Fiorentina won against AC Milan 2 - 0
+RC Lens won against Rennes 2 - 0
+PSG won against AS Monaco 5 - 2
+Ajax won against Feyenoord 1 - 0
+NEC won against Braga 2 - 1
+Arouca won against Famalicao 4 - 3
+Union SG won against Anderlecht 4 - 1
+Celtic won against Rangers 2 - 1
+Sturm Graz won against Austria Klagenfurt 3 - 0
+Current round: Round 2
+Liverpool won against Arsenal 2 - 0
+Barcelona won against Atletico Madrid 1 - 0
+Bayern Munchen won against Borussia Dortmund 2 - 0
+Fiorentina won against Inter Milan 3 - 2
+PSG won against RC Lens 2 - 1
+NEC won against Ajax 2 - 1
+Arouca won against Union SG 3 - 2
+Celtic won against Sturm Graz 4 - 2
+Current round: Round 3
+Liverpool won against Barcelona 4 - 3
+Bayern Munchen won against Fiorentina 3 - 0
+PSG won against NEC 1 - 0
+Celtic won against Arouca 3 - 2
+Current round: Round 4
+Bayern Munchen won against Liverpool 1 - 0
+PSG won against Celtic 2 - 1
+Current round: Round 5
+Bayern Munchen won against PSG 8 - 7
+Winner of Champions League: Bayern Munchen
+Teams of current competition: ['Manchester City', 'Newcastle United', 'Liverpool', 'Arsenal', 'Atletico Madrid', 'Real Madrid', 'Barcelona', 'Osasuna', 'Borussia Dortmund', 'Bayern Munchen', 'Eintracht Frankfurt', 'Union Berlin', 'Inter Milan', 'Napoli', 'Juventus', 'Lazio', 'Rennes', 'PSG', 'AS Monaco', 'Nice', 'PSV Eindhoven', 'Vitesse', 'Feyenoord', 'Benfica', 'Porto', 'Sporting CP', 'Genk', 'Club Brugge', 'Rangers', 'St Johnstone', 'Red Bull Salzburg', 'Austria Wien']
+
+Current round: Round 1
+1st Leg: Manchester City (Home) 4 - 2 Newcastle United (Away)
+2nd Leg: Newcastle United (Home) 1 - 2 Manchester City (Away)
+Aggregate Score: Manchester City 6 - 3 Newcastle United
+Manchester City advances!
+1st Leg: Liverpool (Home) 0 - 2 Arsenal (Away)
+2nd Leg: Arsenal (Home) 0 - 1 Liverpool (Away)
+Aggregate Score: Liverpool 1 - 2 Arsenal
+Arsenal advances!
+1st Leg: Atletico Madrid (Home) 1 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 1 - 0 Atletico Madrid (Away)
+Aggregate Score: Atletico Madrid 1 - 2 Real Madrid
+Real Madrid advances!
+1st Leg: Barcelona (Home) 1 - 0 Osasuna (Away)
+2nd Leg: Osasuna (Home) 2 - 0 Barcelona (Away)
+Aggregate Score: Barcelona 1 - 2 Osasuna
+Osasuna advances!
+1st Leg: Borussia Dortmund (Home) 1 - 2 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 1 - 0 Borussia Dortmund (Away)
+Aggregate Score: Borussia Dortmund 1 - 3 Bayern Munchen
+Bayern Munchen advances!
+1st Leg: Eintracht Frankfurt (Home) 3 - 0 Union Berlin (Away)
+2nd Leg: Union Berlin (Home) 2 - 2 Eintracht Frankfurt (Away)
+Aggregate Score: Eintracht Frankfurt 5 - 2 Union Berlin
+Eintracht Frankfurt advances!
+1st Leg: Inter Milan (Home) 2 - 3 Napoli (Away)
+2nd Leg: Napoli (Home) 1 - 0 Inter Milan (Away)
+Aggregate Score: Inter Milan 2 - 4 Napoli
+Napoli advances!
+1st Leg: Juventus (Home) 4 - 3 Lazio (Away)
+2nd Leg: Lazio (Home) 3 - 0 Juventus (Away)
+Aggregate Score: Juventus 4 - 6 Lazio
+Lazio advances!
+1st Leg: Rennes (Home) 0 - 3 PSG (Away)
+2nd Leg: PSG (Home) 1 - 4 Rennes (Away)
+Aggregate Score: Rennes 4 - 4 PSG
+Rennes won against PSG 1 - 0
+1st Leg: AS Monaco (Home) 3 - 0 Nice (Away)
+2nd Leg: Nice (Home) 1 - 2 AS Monaco (Away)
+Aggregate Score: AS Monaco 5 - 1 Nice
+AS Monaco advances!
+1st Leg: PSV Eindhoven (Home) 0 - 2 Vitesse (Away)
+2nd Leg: Vitesse (Home) 2 - 2 PSV Eindhoven (Away)
+Aggregate Score: PSV Eindhoven 2 - 4 Vitesse
+Vitesse advances!
+1st Leg: Feyenoord (Home) 2 - 3 Benfica (Away)
+2nd Leg: Benfica (Home) 0 - 2 Feyenoord (Away)
+Aggregate Score: Feyenoord 4 - 3 Benfica
+Feyenoord advances!
+1st Leg: Porto (Home) 4 - 2 Sporting CP (Away)
+2nd Leg: Sporting CP (Home) 4 - 0 Porto (Away)
+Aggregate Score: Porto 4 - 6 Sporting CP
+Sporting CP advances!
+1st Leg: Genk (Home) 4 - 1 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 1 - 1 Genk (Away)
+Aggregate Score: Genk 5 - 2 Club Brugge
+Genk advances!
+1st Leg: Rangers (Home) 1 - 2 St Johnstone (Away)
+2nd Leg: St Johnstone (Home) 1 - 0 Rangers (Away)
+Aggregate Score: Rangers 1 - 3 St Johnstone
+St Johnstone advances!
+1st Leg: Red Bull Salzburg (Home) 1 - 2 Austria Wien (Away)
+2nd Leg: Austria Wien (Home) 0 - 1 Red Bull Salzburg (Away)
+Aggregate Score: Red Bull Salzburg 2 - 2 Austria Wien
+Red Bull Salzburg won against Austria Wien 1 - 0
+
+Current round: Round 2
+1st Leg: Manchester City (Home) 4 - 1 Arsenal (Away)
+2nd Leg: Arsenal (Home) 3 - 1 Manchester City (Away)
+Aggregate Score: Manchester City 5 - 4 Arsenal
+Manchester City advances!
+1st Leg: Real Madrid (Home) 2 - 2 Osasuna (Away)
+2nd Leg: Osasuna (Home) 2 - 1 Real Madrid (Away)
+Aggregate Score: Real Madrid 3 - 4 Osasuna
+Osasuna advances!
+1st Leg: Bayern Munchen (Home) 1 - 1 Eintracht Frankfurt (Away)
+2nd Leg: Eintracht Frankfurt (Home) 1 - 3 Bayern Munchen (Away)
+Aggregate Score: Bayern Munchen 4 - 2 Eintracht Frankfurt
+Bayern Munchen advances!
+1st Leg: Napoli (Home) 2 - 3 Lazio (Away)
+2nd Leg: Lazio (Home) 2 - 1 Napoli (Away)
+Aggregate Score: Napoli 3 - 5 Lazio
+Lazio advances!
+1st Leg: Rennes (Home) 0 - 3 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 1 - 1 Rennes (Away)
+Aggregate Score: Rennes 1 - 4 AS Monaco
+AS Monaco advances!
+1st Leg: Vitesse (Home) 0 - 3 Feyenoord (Away)
+2nd Leg: Feyenoord (Home) 3 - 2 Vitesse (Away)
+Aggregate Score: Vitesse 2 - 6 Feyenoord
+Feyenoord advances!
+1st Leg: Sporting CP (Home) 3 - 1 Genk (Away)
+2nd Leg: Genk (Home) 3 - 0 Sporting CP (Away)
+Aggregate Score: Sporting CP 3 - 4 Genk
+Genk advances!
+1st Leg: St Johnstone (Home) 3 - 0 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 1 - 3 St Johnstone (Away)
+Aggregate Score: St Johnstone 6 - 1 Red Bull Salzburg
+St Johnstone advances!
+
+Current round: Round 3
+1st Leg: Manchester City (Home) 2 - 2 Osasuna (Away)
+2nd Leg: Osasuna (Home) 4 - 0 Manchester City (Away)
+Aggregate Score: Manchester City 2 - 6 Osasuna
+Osasuna advances!
+1st Leg: Bayern Munchen (Home) 3 - 1 Lazio (Away)
+2nd Leg: Lazio (Home) 0 - 0 Bayern Munchen (Away)
+Aggregate Score: Bayern Munchen 3 - 1 Lazio
+Bayern Munchen advances!
+1st Leg: AS Monaco (Home) 0 - 1 Feyenoord (Away)
+2nd Leg: Feyenoord (Home) 3 - 3 AS Monaco (Away)
+Aggregate Score: AS Monaco 3 - 4 Feyenoord
+Feyenoord advances!
+1st Leg: Genk (Home) 2 - 1 St Johnstone (Away)
+2nd Leg: St Johnstone (Home) 0 - 0 Genk (Away)
+Aggregate Score: Genk 2 - 1 St Johnstone
+Genk advances!
+
+Current round: Round 4
+1st Leg: Osasuna (Home) 2 - 4 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 1 - 0 Osasuna (Away)
+Aggregate Score: Osasuna 2 - 5 Bayern Munchen
+Bayern Munchen advances!
+1st Leg: Feyenoord (Home) 2 - 3 Genk (Away)
+2nd Leg: Genk (Home) 0 - 2 Feyenoord (Away)
+Aggregate Score: Feyenoord 4 - 3 Genk
+Feyenoord advances!
+
+Current round: Round 5
+1st Leg: Bayern Munchen (Home) 1 - 0 Feyenoord (Away)
+2nd Leg: Feyenoord (Home) 2 - 0 Bayern Munchen (Away)
+Aggregate Score: Bayern Munchen 1 - 2 Feyenoord
+Feyenoord advances!
+
+Winner of Champions League: Feyenoord

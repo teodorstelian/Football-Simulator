@@ -21,3 +21,60 @@ Winner of Austria Cup: Rapid Wien
 Winner of Europa Conference League: Brighton
 Winner of Europa League: Tottenham Hotspur
 Winner of Champions League: RB Leipzig
+Winner of Champions League: Red Bull Salzburg
+Winner of Europa League: Girona
+Winner of Europa Conference League: Torino
+Winner of England League: Manchester City
+Winner of England Cup: Manchester United
+Winner of Spain League: Real Madrid
+Winner of Spain Cup: Real Madrid
+Winner of Germany League: Bayern Munchen
+Winner of Germany Cup: Mainz 05
+Winner of Italy League: Napoli
+Winner of Italy Cup: Inter Milan
+Winner of France League: PSG
+Winner of France Cup: Olympique Lyon
+Winner of Netherlands League: Feyenoord
+Winner of Netherlands Cup: AZ
+Winner of Portugal League: Famalicao
+Winner of Portugal Cup: Chaves
+Winner of Belgium League: Anderlecht
+Winner of Belgium Cup: Westerlo
+Winner of Scotland League: Celtic
+Winner of Scotland Cup: Motherwell
+Winner of Austria League: Austria Klagenfurt
+Winner of Austria Cup: Rapid Wien
+Winner of Europa Conference League: Girona
+Winner of Europa League: Atalanta
+Winner of Champions League: Chelsea
+Winner of Champions League: Bayern Munchen
+Winner of Europa League: Juventus
+Winner of Europa Conference League: Hibernian
+Winner of Europa Conference League: Brest
+Winner of Europa Conference League: Club Brugge
+Winner of England League: Manchester City
+Winner of England Cup: Manchester City
+Winner of England Cup: West Ham United
+Winner of England League: Liverpool
+Winner of England Cup: Chelsea
+Winner of Spain League: Real Madrid
+Winner of Spain Cup: Athletic Bilbao
+Winner of Germany League: Bayern Munchen
+Winner of Germany Cup: Bayern Munchen
+Winner of Italy League: Juventus
+Winner of Italy Cup: Atalanta
+Winner of France League: PSG
+Winner of France Cup: Brest
+Winner of Netherlands League: PSV Eindhoven
+Winner of Netherlands Cup: Feyenoord
+Winner of Portugal League: Sporting CP
+Winner of Portugal Cup: Vitoria de Guimaraes
+Winner of Belgium League: Genk
+Winner of Belgium Cup: Kortrijk
+Winner of Scotland League: Rangers
+Winner of Scotland Cup: Celtic
+Winner of Austria League: Red Bull Salzburg
+Winner of Austria Cup: Sturm Graz
+Winner of Europa Conference League: Sparta Rotterdam
+Winner of Europa League: NEC
+Winner of Champions League: Feyenoord

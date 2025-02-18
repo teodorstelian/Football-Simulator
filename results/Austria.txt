@@ -12,3 +12,46 @@ Winner of League: Red Bull Salzburg
 11. Sturm Graz - 20 points - 5 wins - 5 draws - 12 losses - 28 scored - 44 against - No qualification
 12. Rheindorf Altach - 16 points - 4 wins - 4 draws - 14 losses - 31 scored - 48 against - No qualification
 Winner of Austria Cup: Rapid Wien
+Winner of League: Austria Klagenfurt
+1. Austria Klagenfurt - 37 points - 11 wins - 4 draws - 7 losses - 47 scored - 44 against - Champions League
+2. Sturm Graz - 36 points - 10 wins - 6 draws - 6 losses - 31 scored - 29 against - Champions League
+3. WSG Tirol - 35 points - 10 wins - 5 draws - 7 losses - 40 scored - 34 against - Europa League
+4. Rheindorf Altach - 34 points - 10 wins - 4 draws - 8 losses - 34 scored - 27 against - Europa League
+5. Wolfsberger AC - 32 points - 9 wins - 5 draws - 8 losses - 31 scored - 34 against - Europa Conference League
+6. LASK - 32 points - 9 wins - 5 draws - 8 losses - 30 scored - 28 against - Europa Conference League
+7. TSV Hartberg - 30 points - 9 wins - 3 draws - 10 losses - 37 scored - 35 against - No qualification
+8. Austria Wien - 30 points - 9 wins - 3 draws - 10 losses - 32 scored - 37 against - No qualification
+9. Austria Lustenau - 30 points - 8 wins - 6 draws - 8 losses - 39 scored - 40 against - No qualification
+10. Rapid Wien - 29 points - 8 wins - 5 draws - 9 losses - 42 scored - 48 against - No qualification
+11. Red Bull Salzburg - 28 points - 8 wins - 4 draws - 10 losses - 36 scored - 31 against - No qualification
+12. Blau-WeiB Linz - 16 points - 4 wins - 4 draws - 14 losses - 41 scored - 53 against - No qualification
+Winner of Austria Cup: Rapid Wien
+Winner of League: Red Bull Salzburg
+1. Red Bull Salzburg - 49 points - 15 wins - 4 draws - 3 losses - 54 scored - 31 against - Champions League
+2. Austria Wien - 42 points - 13 wins - 3 draws - 6 losses - 51 scored - 29 against - Champions League
+3. Austria Lustenau - 40 points - 13 wins - 1 draws - 8 losses - 49 scored - 33 against - Europa League
+4. Rapid Wien - 36 points - 11 wins - 3 draws - 8 losses - 45 scored - 39 against - Europa League
+5. Rheindorf Altach - 33 points - 10 wins - 3 draws - 9 losses - 36 scored - 39 against - Europa Conference League
+6. LASK - 32 points - 9 wins - 5 draws - 8 losses - 41 scored - 35 against - Europa Conference League
+7. Austria Klagenfurt - 29 points - 8 wins - 5 draws - 9 losses - 35 scored - 43 against - No qualification
+8. TSV Hartberg - 27 points - 8 wins - 3 draws - 11 losses - 29 scored - 44 against - No qualification
+9. Wolfsberger AC - 27 points - 7 wins - 6 draws - 9 losses - 34 scored - 35 against - No qualification
+10. Sturm Graz - 24 points - 7 wins - 3 draws - 12 losses - 33 scored - 40 against - No qualification
+11. Blau-WeiB Linz - 22 points - 6 wins - 4 draws - 12 losses - 28 scored - 41 against - No qualification
+12. WSG Tirol - 12 points - 2 wins - 6 draws - 14 losses - 23 scored - 49 against - No qualification
+Teams of Austria Cup: ['Red Bull Salzburg', 'Sturm Graz', 'Austria Wien', 'Rapid Wien', 'LASK', 'Austria Lustenau', 'Austria Klagenfurt', 'Wolfsberger AC']
+
+Current round: Round 1
+Sturm Graz won against Red Bull Salzburg 3 - 1
+Rapid Wien won against Austria Wien 1 - 0
+LASK won against Austria Lustenau 2 - 1
+Austria Klagenfurt won against Wolfsberger AC 4 - 3
+
+Current round: Round 2
+Sturm Graz won against Rapid Wien 4 - 1
+Austria Klagenfurt won against LASK 2 - 0
+
+Current round: Round 3
+Sturm Graz won against Austria Klagenfurt 4 - 1
+
+Winner of Austria Cup: Sturm Graz

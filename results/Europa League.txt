@@ -36,3 +36,254 @@ Antwerp won against Marseille 1 - 0
 Current round: Round 5
 Tottenham Hotspur won against Antwerp 4 - 3
 Winner of Europa League: Tottenham Hotspur
+Teams of current competition: ['Liverpool', 'Chelsea', 'Tottenham Hotspur', 'Fulham', 'Atletico Madrid', 'Rayo Vallecano', 'Girona', 'Villareal', 'SC Freiburg', 'Union Berlin', '1. FC Koln', 'VfL Wolfsburg', 'AC Milan', 'AS Roma', 'Juventus', 'Monza', 'AS Monaco', 'Brest', 'Marseille', 'Nice', 'NEC', 'Twente', 'Volendam', 'Porto', 'Famalicao', 'Arouca', 'Standard Liege', 'Antwerp', 'St Johnstone', 'Kilmarnock', 'LASK', 'Blau-WeiB Linz']
+Current round: Round 1
+Chelsea won against Liverpool 2 - 1
+Fulham won against Tottenham Hotspur 2 - 1
+Rayo Vallecano won against Atletico Madrid 3 - 2
+Girona won against Villareal 3 - 0
+Union Berlin won against SC Freiburg 3 - 0
+VfL Wolfsburg won against 1. FC Koln 3 - 0
+AC Milan won against AS Roma 3 - 1
+Monza won against Juventus 2 - 0
+Brest won against AS Monaco 2 - 0
+Marseille won against Nice 1 - 0
+Twente won against NEC 2 - 0
+Porto won against Volendam 3 - 2
+Famalicao won against Arouca 5 - 3
+Antwerp won against Standard Liege 2 - 1
+Kilmarnock won against St Johnstone 3 - 0
+LASK won against Blau-WeiB Linz 2 - 1
+Current round: Round 2
+Chelsea won against Fulham 6 - 2
+Girona won against Rayo Vallecano 3 - 2
+Union Berlin won against VfL Wolfsburg 5 - 2
+Monza won against AC Milan 4 - 1
+Brest won against Marseille 3 - 1
+Porto won against Twente 2 - 1
+Antwerp won against Famalicao 2 - 1
+Kilmarnock won against LASK 1 - 0
+Current round: Round 3
+Girona won against Chelsea 3 - 2
+Union Berlin won against Monza 4 - 2
+Porto won against Brest 3 - 2
+Antwerp won against Kilmarnock 3 - 1
+Current round: Round 4
+Girona won against Union Berlin 3 - 2
+Antwerp won against Porto 3 - 1
+Current round: Round 5
+Girona won against Antwerp 2 - 1
+Winner of Europa League: Girona
+Teams of current competition: ['Newcastle United', 'Manchester United', 'Tottenham Hotspur', 'Aston Villa', 'Athletic Bilbao', 'Real Betis', 'Valencia', 'Osasuna', 'SC Freiburg', 'Union Berlin', 'Mainz 05', 'VfL Bochum', 'AS Roma', 'Atalanta', 'Juventus', 'Monza', 'Nantes', 'Clermont', 'Lille', 'Marseille', 'SC Heerenveen', 'AZ', 'Twente', 'Benfica', 'Porto', 'Vitoria de Guimaraes', 'Sint-Truiden', 'Westerlo', 'Livingston', 'St Johnstone', 'WSG Tirol', 'Rheindorf Altach']
+Current round: Round 1
+Manchester United won against Newcastle United 2 - 0
+Tottenham Hotspur won against Aston Villa 4 - 0
+Real Betis won against Athletic Bilbao 5 - 4
+Osasuna won against Valencia 2 - 0
+SC Freiburg won against Union Berlin 1 - 0
+VfL Bochum won against Mainz 05 3 - 0
+Atalanta won against AS Roma 3 - 0
+Juventus won against Monza 4 - 1
+Nantes won against Clermont 4 - 2
+Marseille won against Lille 2 - 0
+AZ won against SC Heerenveen 12 - 10
+Twente won against Benfica 3 - 2
+Porto won against Vitoria de Guimaraes 5 - 3
+Sint-Truiden won against Westerlo 7 - 4
+St Johnstone won against Livingston 3 - 2
+WSG Tirol won against Rheindorf Altach 2 - 0
+Current round: Round 2
+Manchester United won against Tottenham Hotspur 2 - 0
+Osasuna won against Real Betis 2 - 1
+VfL Bochum won against SC Freiburg 3 - 0
+Atalanta won against Juventus 4 - 2
+Nantes won against Marseille 4 - 1
+Twente won against AZ 2 - 0
+Porto won against Sint-Truiden 3 - 2
+WSG Tirol won against St Johnstone 3 - 2
+Current round: Round 3
+Osasuna won against Manchester United 6 - 5
+Atalanta won against VfL Bochum 11 - 7
+Nantes won against Twente 3 - 2
+Porto won against WSG Tirol 2 - 0
+Current round: Round 4
+Atalanta won against Osasuna 2 - 1
+Nantes won against Porto 2 - 0
+Current round: Round 5
+Atalanta won against Nantes 2 - 1
+Winner of Europa League: Atalanta
+Teams of current competition: ['Newcastle United', 'Manchester United', 'Tottenham Hotspur', 'Aston Villa', 'Athletic Bilbao', 'Real Betis', 'Valencia', 'Osasuna', 'SC Freiburg', 'Union Berlin', 'Mainz 05', 'VfL Bochum', 'AS Roma', 'Atalanta', 'Juventus', 'Monza', 'Nantes', 'Clermont', 'Lille', 'Marseille', 'SC Heerenveen', 'AZ', 'Twente', 'Benfica', 'Porto', 'Vitoria de Guimaraes', 'Sint-Truiden', 'Westerlo', 'Livingston', 'St Johnstone', 'WSG Tirol', 'Rheindorf Altach']
+Current round: Round 1
+Newcastle United won against Manchester United 3 - 0
+Tottenham Hotspur won against Aston Villa 3 - 0
+Real Betis won against Athletic Bilbao 3 - 2
+Osasuna won against Valencia 5 - 4
+SC Freiburg won against Union Berlin 4 - 3
+VfL Bochum won against Mainz 05 4 - 3
+AS Roma won against Atalanta 2 - 1
+Juventus won against Monza 2 - 0
+Clermont won against Nantes 2 - 1
+Marseille won against Lille 1 - 0
+SC Heerenveen won against AZ 3 - 1
+Benfica won against Twente 3 - 1
+Vitoria de Guimaraes won against Porto 3 - 1
+Westerlo won against Sint-Truiden 2 - 1
+Livingston won against St Johnstone 1 - 0
+Rheindorf Altach won against WSG Tirol 2 - 0
+Current round: Round 2
+Newcastle United won against Tottenham Hotspur 3 - 2
+Osasuna won against Real Betis 6 - 5
+SC Freiburg won against VfL Bochum 4 - 2
+Juventus won against AS Roma 1 - 0
+Marseille won against Clermont 7 - 4
+SC Heerenveen won against Benfica 1 - 0
+Westerlo won against Vitoria de Guimaraes 3 - 1
+Rheindorf Altach won against Livingston 2 - 1
+Current round: Round 3
+Newcastle United won against Osasuna 4 - 3
+Juventus won against SC Freiburg 3 - 2
+Marseille won against SC Heerenveen 4 - 0
+Westerlo won against Rheindorf Altach 1 - 0
+Current round: Round 4
+Juventus won against Newcastle United 3 - 0
+Marseille won against Westerlo 3 - 1
+Current round: Round 5
+Juventus won against Marseille 1 - 0
+Winner of Europa League: Juventus
+Teams of current competition: ['Manchester United', 'Chelsea', 'Tottenham Hotspur', 'Aston Villa', 'Sevilla', 'Villareal', 'Celta Vigo', 'Valencia', 'Bayer Leverkusen', 'FC Augsburg', 'VfB Stuttgart', 'Mainz 05', 'AC Milan', 'AS Roma', 'Atalanta', 'Monza', 'Lille', 'Olympique Lyon', 'Marseille', 'Metz', 'SC Heerenveen', 'AZ', 'NEC', 'Braga', 'Chaves', 'Vitoria de Guimaraes', 'Cercle Brugge', 'Charleroi', 'Celtic', 'Aberdeen', 'Austria Lustenau', 'Rapid Wien']
+
+Current round: Round 1
+1st Leg: Manchester United (Home) 1 - 2 Chelsea (Away)
+2nd Leg: Chelsea (Home) 2 - 1 Manchester United (Away)
+Aggregate Score: Manchester United 2 - 4 Chelsea
+Chelsea advances!
+1st Leg: Tottenham Hotspur (Home) 4 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 4 - 3 Tottenham Hotspur (Away)
+Aggregate Score: Tottenham Hotspur 7 - 5 Aston Villa
+Tottenham Hotspur advances!
+1st Leg: Sevilla (Home) 0 - 1 Villareal (Away)
+2nd Leg: Villareal (Home) 4 - 2 Sevilla (Away)
+Aggregate Score: Sevilla 2 - 5 Villareal
+Villareal advances!
+1st Leg: Celta Vigo (Home) 3 - 4 Valencia (Away)
+2nd Leg: Valencia (Home) 2 - 2 Celta Vigo (Away)
+Aggregate Score: Celta Vigo 5 - 6 Valencia
+Valencia advances!
+1st Leg: Bayer Leverkusen (Home) 1 - 2 FC Augsburg (Away)
+2nd Leg: FC Augsburg (Home) 1 - 3 Bayer Leverkusen (Away)
+Aggregate Score: Bayer Leverkusen 4 - 3 FC Augsburg
+Bayer Leverkusen advances!
+1st Leg: VfB Stuttgart (Home) 2 - 4 Mainz 05 (Away)
+2nd Leg: Mainz 05 (Home) 3 - 1 VfB Stuttgart (Away)
+Aggregate Score: VfB Stuttgart 3 - 7 Mainz 05
+Mainz 05 advances!
+1st Leg: AC Milan (Home) 3 - 2 AS Roma (Away)
+2nd Leg: AS Roma (Home) 3 - 1 AC Milan (Away)
+Aggregate Score: AC Milan 4 - 5 AS Roma
+AS Roma advances!
+1st Leg: Atalanta (Home) 0 - 3 Monza (Away)
+2nd Leg: Monza (Home) 0 - 2 Atalanta (Away)
+Aggregate Score: Atalanta 2 - 3 Monza
+Monza advances!
+1st Leg: Lille (Home) 0 - 1 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 2 - 3 Lille (Away)
+Aggregate Score: Lille 3 - 3 Olympique Lyon
+Lille won against Olympique Lyon 1 - 0
+1st Leg: Marseille (Home) 0 - 2 Metz (Away)
+2nd Leg: Metz (Home) 4 - 2 Marseille (Away)
+Aggregate Score: Marseille 2 - 6 Metz
+Metz advances!
+1st Leg: SC Heerenveen (Home) 0 - 1 AZ (Away)
+2nd Leg: AZ (Home) 3 - 0 SC Heerenveen (Away)
+Aggregate Score: SC Heerenveen 0 - 4 AZ
+AZ advances!
+1st Leg: NEC (Home) 1 - 1 Braga (Away)
+2nd Leg: Braga (Home) 2 - 4 NEC (Away)
+Aggregate Score: NEC 5 - 3 Braga
+NEC advances!
+1st Leg: Chaves (Home) 0 - 0 Vitoria de Guimaraes (Away)
+2nd Leg: Vitoria de Guimaraes (Home) 1 - 3 Chaves (Away)
+Aggregate Score: Chaves 3 - 1 Vitoria de Guimaraes
+Chaves advances!
+1st Leg: Cercle Brugge (Home) 3 - 3 Charleroi (Away)
+2nd Leg: Charleroi (Home) 3 - 3 Cercle Brugge (Away)
+Aggregate Score: Cercle Brugge 6 - 6 Charleroi
+Cercle Brugge won against Charleroi 1 - 0
+1st Leg: Celtic (Home) 4 - 3 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 3 - 1 Celtic (Away)
+Aggregate Score: Celtic 5 - 6 Aberdeen
+Aberdeen advances!
+1st Leg: Austria Lustenau (Home) 3 - 1 Rapid Wien (Away)
+2nd Leg: Rapid Wien (Home) 3 - 0 Austria Lustenau (Away)
+Aggregate Score: Austria Lustenau 3 - 4 Rapid Wien
+Rapid Wien advances!
+
+Current round: Round 2
+1st Leg: Chelsea (Home) 3 - 2 Tottenham Hotspur (Away)
+2nd Leg: Tottenham Hotspur (Home) 0 - 2 Chelsea (Away)
+Aggregate Score: Chelsea 5 - 2 Tottenham Hotspur
+Chelsea advances!
+1st Leg: Villareal (Home) 0 - 1 Valencia (Away)
+2nd Leg: Valencia (Home) 3 - 3 Villareal (Away)
+Aggregate Score: Villareal 3 - 4 Valencia
+Valencia advances!
+1st Leg: Bayer Leverkusen (Home) 2 - 2 Mainz 05 (Away)
+2nd Leg: Mainz 05 (Home) 3 - 1 Bayer Leverkusen (Away)
+Aggregate Score: Bayer Leverkusen 3 - 5 Mainz 05
+Mainz 05 advances!
+1st Leg: AS Roma (Home) 4 - 0 Monza (Away)
+2nd Leg: Monza (Home) 3 - 0 AS Roma (Away)
+Aggregate Score: AS Roma 4 - 3 Monza
+AS Roma advances!
+1st Leg: Lille (Home) 0 - 2 Metz (Away)
+2nd Leg: Metz (Home) 0 - 1 Lille (Away)
+Aggregate Score: Lille 1 - 2 Metz
+Metz advances!
+1st Leg: AZ (Home) 1 - 3 NEC (Away)
+2nd Leg: NEC (Home) 1 - 1 AZ (Away)
+Aggregate Score: AZ 2 - 4 NEC
+NEC advances!
+1st Leg: Chaves (Home) 1 - 0 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 1 - 3 Chaves (Away)
+Aggregate Score: Chaves 4 - 1 Cercle Brugge
+Chaves advances!
+1st Leg: Aberdeen (Home) 3 - 3 Rapid Wien (Away)
+2nd Leg: Rapid Wien (Home) 4 - 1 Aberdeen (Away)
+Aggregate Score: Aberdeen 4 - 7 Rapid Wien
+Rapid Wien advances!
+
+Current round: Round 3
+1st Leg: Chelsea (Home) 0 - 2 Valencia (Away)
+2nd Leg: Valencia (Home) 1 - 0 Chelsea (Away)
+Aggregate Score: Chelsea 0 - 3 Valencia
+Valencia advances!
+1st Leg: Mainz 05 (Home) 2 - 2 AS Roma (Away)
+2nd Leg: AS Roma (Home) 1 - 4 Mainz 05 (Away)
+Aggregate Score: Mainz 05 6 - 3 AS Roma
+Mainz 05 advances!
+1st Leg: Metz (Home) 0 - 2 NEC (Away)
+2nd Leg: NEC (Home) 3 - 1 Metz (Away)
+Aggregate Score: Metz 1 - 5 NEC
+NEC advances!
+1st Leg: Chaves (Home) 0 - 1 Rapid Wien (Away)
+2nd Leg: Rapid Wien (Home) 0 - 0 Chaves (Away)
+Aggregate Score: Chaves 0 - 1 Rapid Wien
+Rapid Wien advances!
+
+Current round: Round 4
+1st Leg: Valencia (Home) 3 - 2 Mainz 05 (Away)
+2nd Leg: Mainz 05 (Home) 4 - 0 Valencia (Away)
+Aggregate Score: Valencia 3 - 6 Mainz 05
+Mainz 05 advances!
+1st Leg: NEC (Home) 1 - 3 Rapid Wien (Away)
+2nd Leg: Rapid Wien (Home) 1 - 3 NEC (Away)
+Aggregate Score: NEC 4 - 4 Rapid Wien
+NEC won against Rapid Wien 1 - 0
+
+Current round: Round 5
+1st Leg: Mainz 05 (Home) 0 - 0 NEC (Away)
+2nd Leg: NEC (Home) 1 - 0 Mainz 05 (Away)
+Aggregate Score: Mainz 05 0 - 1 NEC
+NEC advances!
+
+Winner of Europa League: NEC

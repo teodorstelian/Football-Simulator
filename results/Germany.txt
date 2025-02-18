@@ -18,3 +18,68 @@ Winner of League: Bayern Munchen
 17. 1. FC Heidenheim - 33 points - 9 wins - 6 draws - 19 losses - 45 scored - 74 against - No qualification
 18. Bayer Leverkusen - 31 points - 8 wins - 7 draws - 19 losses - 35 scored - 57 against - No qualification
 Winner of Germany Cup: Borussia Dortmund
+Winner of League: Bayern Munchen
+1. Bayern Munchen - 74 points - 22 wins - 8 draws - 4 losses - 87 scored - 40 against - Champions League
+2. Borussia Dortmund - 73 points - 23 wins - 4 draws - 7 losses - 78 scored - 39 against - Champions League
+3. Eintracht Frankfurt - 70 points - 22 wins - 4 draws - 8 losses - 71 scored - 43 against - Champions League
+4. RB Leipzig - 61 points - 19 wins - 4 draws - 11 losses - 66 scored - 41 against - Champions League
+5. VfL Bochum - 51 points - 16 wins - 3 draws - 15 losses - 50 scored - 53 against - Europa League
+6. Union Berlin - 50 points - 15 wins - 5 draws - 14 losses - 60 scored - 59 against - Europa League
+7. SC Freiburg - 50 points - 15 wins - 5 draws - 14 losses - 58 scored - 58 against - Europa League
+8. Mainz 05 - 50 points - 15 wins - 5 draws - 14 losses - 57 scored - 63 against - Europa League
+9. VfL Wolfsburg - 49 points - 14 wins - 7 draws - 13 losses - 64 scored - 60 against - Europa Conference League
+10. Bayer Leverkusen - 42 points - 12 wins - 6 draws - 16 losses - 63 scored - 65 against - Europa Conference League
+11. VfB Stuttgart - 41 points - 11 wins - 8 draws - 15 losses - 52 scored - 60 against - Europa Conference League
+12. 1. FC Koln - 41 points - 11 wins - 8 draws - 15 losses - 49 scored - 55 against - Europa Conference League
+13. Werder Bremen - 40 points - 11 wins - 7 draws - 16 losses - 45 scored - 60 against - No qualification
+14. 1899 Hoffenheim - 39 points - 11 wins - 6 draws - 17 losses - 52 scored - 68 against - No qualification
+15. Borussia Monchengladbach - 38 points - 11 wins - 5 draws - 18 losses - 50 scored - 67 against - No qualification
+16. FC Augsburg - 35 points - 10 wins - 5 draws - 19 losses - 44 scored - 62 against - No qualification
+17. 1. FC Heidenheim - 34 points - 10 wins - 4 draws - 20 losses - 45 scored - 72 against - No qualification
+18. Darmstadt 98 - 31 points - 9 wins - 4 draws - 21 losses - 38 scored - 64 against - No qualification
+Winner of Germany Cup: Mainz 05
+Winner of League: Bayern Munchen
+1. Bayern Munchen - 69 points - 22 wins - 3 draws - 9 losses - 78 scored - 41 against - Champions League
+2. Borussia Dortmund - 65 points - 20 wins - 5 draws - 9 losses - 90 scored - 35 against - Champions League
+3. Eintracht Frankfurt - 60 points - 19 wins - 3 draws - 12 losses - 64 scored - 46 against - Champions League
+4. Union Berlin - 57 points - 17 wins - 6 draws - 11 losses - 70 scored - 56 against - Champions League
+5. VfB Stuttgart - 55 points - 16 wins - 7 draws - 11 losses - 52 scored - 48 against - Europa League
+6. Bayer Leverkusen - 54 points - 16 wins - 6 draws - 12 losses - 67 scored - 56 against - Europa League
+7. Mainz 05 - 51 points - 14 wins - 9 draws - 11 losses - 55 scored - 58 against - Europa League
+8. FC Augsburg - 50 points - 15 wins - 5 draws - 14 losses - 51 scored - 53 against - Europa League
+9. VfL Bochum - 47 points - 13 wins - 8 draws - 13 losses - 68 scored - 69 against - Europa Conference League
+10. Borussia Monchengladbach - 46 points - 14 wins - 4 draws - 16 losses - 54 scored - 67 against - Europa Conference League
+11. 1. FC Koln - 46 points - 12 wins - 10 draws - 12 losses - 55 scored - 60 against - Europa Conference League
+12. RB Leipzig - 45 points - 12 wins - 9 draws - 13 losses - 52 scored - 54 against - Europa Conference League
+13. VfL Wolfsburg - 43 points - 12 wins - 7 draws - 15 losses - 54 scored - 59 against - No qualification
+14. SC Freiburg - 42 points - 12 wins - 6 draws - 16 losses - 60 scored - 61 against - No qualification
+15. 1. FC Heidenheim - 40 points - 11 wins - 7 draws - 16 losses - 53 scored - 71 against - No qualification
+16. Werder Bremen - 32 points - 8 wins - 8 draws - 18 losses - 42 scored - 76 against - No qualification
+17. Darmstadt 98 - 32 points - 8 wins - 8 draws - 18 losses - 42 scored - 66 against - No qualification
+18. 1899 Hoffenheim - 25 points - 6 wins - 7 draws - 21 losses - 36 scored - 67 against - No qualification
+Teams of Germany Cup: ['Bayern Munchen', 'Borussia Dortmund', 'RB Leipzig', 'Eintracht Frankfurt', 'Bayer Leverkusen', 'Union Berlin', 'SC Freiburg', 'Mainz 05', 'Borussia Monchengladbach', 'VfL Wolfsburg', 'VfB Stuttgart', 'FC Augsburg', 'VfL Bochum', '1. FC Koln', 'Werder Bremen', '1899 Hoffenheim']
+
+Current round: Round 1
+Bayern Munchen won against Borussia Dortmund 2 - 1
+RB Leipzig won against Eintracht Frankfurt 3 - 2
+Bayer Leverkusen won against Union Berlin 3 - 1
+Mainz 05 won against SC Freiburg 2 - 0
+VfL Wolfsburg won against Borussia Monchengladbach 2 - 1
+VfB Stuttgart won against FC Augsburg 3 - 0
+VfL Bochum won against 1. FC Koln 2 - 0
+1899 Hoffenheim won against Werder Bremen 2 - 1
+
+Current round: Round 2
+Bayern Munchen won against RB Leipzig 5 - 3
+Bayer Leverkusen won against Mainz 05 3 - 0
+VfL Wolfsburg won against VfB Stuttgart 3 - 1
+VfL Bochum won against 1899 Hoffenheim 3 - 2
+
+Current round: Round 3
+Bayern Munchen won against Bayer Leverkusen 3 - 2
+VfL Wolfsburg won against VfL Bochum 3 - 1
+
+Current round: Round 4
+Bayern Munchen won against VfL Wolfsburg 5 - 0
+
+Winner of Germany Cup: Bayern Munchen

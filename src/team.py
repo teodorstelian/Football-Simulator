@@ -55,12 +55,89 @@ class Team:
         else:
             return "Draw"
 
-    def play_match(self, opponent, knockouts=False, file=None):
+    def play_match(self, opponent, knockouts=False, has_2_legs=False, file=None):
+        """
+        Simulates a match or two-legged tie between self and the opponent.
+        :param opponent: The opposing team
+        :param knockouts: True if the match requires a winner (e.g., knockout round)
+        :param has_2_legs: True if the match is played over two legs (home and away)
+        :param file: Output file to log match results
+        :return: The winning team object or "Draw" if no winner
+        """
+        # Two-legged logic
+        if has_2_legs:
+            # First Leg: self (home), opponent (away)
+            skill_diff = int(self.skill) - int(opponent.skill)
+            home_max_self = ceil(3 + (skill_diff / 20))
+            away_max_opponent = ceil(3 - (skill_diff / 20))
+
+            self_home_score = random.randint(0, home_max_self)
+            opponent_away_score = random.randint(0, away_max_opponent)
+            print(f"1st Leg: {self.name} (Home) {self_home_score} - {opponent_away_score} {opponent.name} (Away)")
+            if file:
+                with open(file, 'a') as f:
+                    f.write(
+                        f"1st Leg: {self.name} (Home) {self_home_score} - {opponent_away_score} {opponent.name} (Away)\n")
+
+            # Second Leg: opponent (home), self (away)
+            home_max_opponent = ceil(3 + (skill_diff / 20))
+            away_max_self = ceil(3 - (skill_diff / 20))
+
+            opponent_home_score = random.randint(0, home_max_opponent)
+            self_away_score = random.randint(0, away_max_self)
+            print(f"2nd Leg: {opponent.name} (Home) {opponent_home_score} - {self_away_score} {self.name} (Away)")
+            if file:
+                with open(file, 'a') as f:
+                    f.write(
+                        f"2nd Leg: {opponent.name} (Home) {opponent_home_score} - {self_away_score} {self.name} (Away)\n")
+
+            # Aggregate scores
+            self_aggregate = self_home_score + self_away_score
+            opponent_aggregate = opponent_home_score + opponent_away_score
+            print(f"Aggregate Score: {self.name} {self_aggregate} - {opponent_aggregate} {opponent.name}")
+            if file:
+                with open(file, 'a') as f:
+                    f.write(f"Aggregate Score: {self.name} {self_aggregate} - {opponent_aggregate} {opponent.name}\n")
+
+            # Determine winner (aggregate)
+            if self_aggregate > opponent_aggregate:
+                print(f"{self.name} advances!")
+                if file:
+                    with open(file, 'a') as f:
+                        f.write(f"{self.name} advances!\n")
+                self.update_goals(opponent, self_aggregate, opponent_aggregate)
+                return self
+            elif self_aggregate < opponent_aggregate:
+                print(f"{opponent.name} advances!")
+                if file:
+                    with open(file, 'a') as f:
+                        f.write(f"{opponent.name} advances!\n")
+                self.update_goals(opponent, self_aggregate, opponent_aggregate)
+                return opponent
+            else:
+                # Tie-breaking logic (extra time or penalties)
+                if knockouts:
+                    print("Aggregate is tied! Proceeding to extra time...")
+                    result = self.match_with_extra_time(self_aggregate, opponent_aggregate, opponent, file)
+                    while result == "Draw":
+                        extra_self_score = random.randint(0, 1)
+                        extra_opponent_score = random.randint(0, 1)
+                        self_aggregate += extra_self_score
+                        opponent_aggregate += extra_opponent_score
+                        result = self.match_with_extra_time(extra_self_score, extra_opponent_score, opponent, file)
+                    self.update_goals(opponent, self_aggregate, opponent_aggregate)
+                    return result
+                else:
+                    print("Match ends in a draw (no tie-breaking).")
+                    return "Draw"
+
+        # Single-leg match logic (regular match)
         skill_diff = int(self.skill) - int(opponent.skill)
         losing_max = ceil(3 - (skill_diff / 20))
         winning_max = ceil(3 + (skill_diff / 20))
         goals_scored = random.randint(0, winning_max)
         goals_conceded = random.randint(0, losing_max)
+
         if knockouts:
             result = self.match_with_extra_time(goals_scored, goals_conceded, opponent, file)
             while result == "Draw":
@@ -76,7 +153,6 @@ class Team:
             if file:
                 with open(file, 'a') as file:
                     file.write(f"{self.name} won against {opponent.name} {goals_scored} - {goals_conceded}\n")
-
         elif goals_scored < goals_conceded:
             opponent.current["wins"] += 1
             self.current["losses"] += 1

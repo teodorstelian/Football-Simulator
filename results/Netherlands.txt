@@ -18,3 +18,68 @@ Winner of League: Ajax
 17. SC Heerenveen - 34 points - 9 wins - 7 draws - 18 losses - 51 scored - 72 against - No qualification
 18. Excelsior - 20 points - 5 wins - 5 draws - 24 losses - 35 scored - 70 against - No qualification
 Winner of Netherlands Cup: Feyenoord
+Winner of League: Feyenoord
+1. Feyenoord - 67 points - 20 wins - 7 draws - 7 losses - 63 scored - 29 against - Champions League
+2. Ajax - 64 points - 20 wins - 4 draws - 10 losses - 70 scored - 41 against - Champions League
+3. NEC - 59 points - 18 wins - 5 draws - 11 losses - 74 scored - 62 against - Champions League
+4. SC Heerenveen - 57 points - 17 wins - 6 draws - 11 losses - 71 scored - 53 against - Europa League
+5. Twente - 56 points - 16 wins - 8 draws - 10 losses - 68 scored - 55 against - Europa League
+6. AZ - 52 points - 15 wins - 7 draws - 12 losses - 63 scored - 46 against - Europa League
+7. Fortuna Sittard - 49 points - 14 wins - 7 draws - 13 losses - 66 scored - 62 against - Europa Conference League
+8. Vitesse - 49 points - 14 wins - 7 draws - 13 losses - 53 scored - 62 against - Europa Conference League
+9. Go Ahead Eagles - 49 points - 14 wins - 7 draws - 13 losses - 52 scored - 66 against - Europa Conference League
+10. PSV Eindhoven - 48 points - 14 wins - 6 draws - 14 losses - 65 scored - 54 against - No qualification
+11. Volendam - 47 points - 12 wins - 11 draws - 11 losses - 56 scored - 53 against - No qualification
+12. Utrecht - 46 points - 13 wins - 7 draws - 14 losses - 47 scored - 52 against - No qualification
+13. Sparta Rotterdam - 44 points - 12 wins - 8 draws - 14 losses - 64 scored - 72 against - No qualification
+14. Heracles Almelo - 41 points - 12 wins - 5 draws - 17 losses - 46 scored - 60 against - No qualification
+15. RKC Waalwijk - 35 points - 10 wins - 5 draws - 19 losses - 53 scored - 68 against - No qualification
+16. Almere City - 33 points - 9 wins - 6 draws - 19 losses - 35 scored - 59 against - No qualification
+17. Excelsior - 32 points - 9 wins - 5 draws - 20 losses - 54 scored - 78 against - No qualification
+18. PEC Zwolle - 31 points - 8 wins - 7 draws - 19 losses - 35 scored - 63 against - No qualification
+Winner of Netherlands Cup: AZ
+Winner of League: PSV Eindhoven
+1. PSV Eindhoven - 65 points - 20 wins - 5 draws - 9 losses - 70 scored - 46 against - Champions League
+2. Feyenoord - 61 points - 19 wins - 4 draws - 11 losses - 66 scored - 49 against - Champions League
+3. Vitesse - 59 points - 17 wins - 8 draws - 9 losses - 65 scored - 42 against - Champions League
+4. NEC - 57 points - 17 wins - 6 draws - 11 losses - 60 scored - 51 against - Europa League
+5. AZ - 57 points - 15 wins - 12 draws - 7 losses - 74 scored - 58 against - Europa League
+6. SC Heerenveen - 52 points - 15 wins - 7 draws - 12 losses - 63 scored - 61 against - Europa League
+7. Ajax - 52 points - 14 wins - 10 draws - 10 losses - 60 scored - 46 against - Europa Conference League
+8. Sparta Rotterdam - 50 points - 15 wins - 5 draws - 14 losses - 55 scored - 55 against - Europa Conference League
+9. RKC Waalwijk - 50 points - 14 wins - 8 draws - 12 losses - 55 scored - 47 against - Europa Conference League
+10. Fortuna Sittard - 45 points - 12 wins - 9 draws - 13 losses - 55 scored - 53 against - No qualification
+11. PEC Zwolle - 43 points - 12 wins - 7 draws - 15 losses - 52 scored - 56 against - No qualification
+12. Go Ahead Eagles - 43 points - 11 wins - 10 draws - 13 losses - 49 scored - 60 against - No qualification
+13. Utrecht - 41 points - 13 wins - 2 draws - 19 losses - 51 scored - 56 against - No qualification
+14. Almere City - 40 points - 11 wins - 7 draws - 16 losses - 50 scored - 76 against - No qualification
+15. Excelsior - 38 points - 10 wins - 8 draws - 16 losses - 61 scored - 75 against - No qualification
+16. Twente - 37 points - 10 wins - 7 draws - 17 losses - 51 scored - 63 against - No qualification
+17. Volendam - 33 points - 9 wins - 6 draws - 19 losses - 55 scored - 81 against - No qualification
+18. Heracles Almelo - 31 points - 8 wins - 7 draws - 19 losses - 45 scored - 62 against - No qualification
+Teams of Netherlands Cup: ['Ajax', 'PSV Eindhoven', 'Feyenoord', 'AZ', 'Twente', 'SC Heerenveen', 'Sparta Rotterdam', 'Utrecht', 'Vitesse', 'NEC', 'RKC Waalwijk', 'Fortuna Sittard', 'Go Ahead Eagles', 'PEC Zwolle', 'Almere City', 'Excelsior']
+
+Current round: Round 1
+Ajax won against PSV Eindhoven 4 - 3
+Feyenoord won against AZ 4 - 0
+Twente won against SC Heerenveen 4 - 3
+Sparta Rotterdam won against Utrecht 2 - 0
+Vitesse won against NEC 3 - 1
+Fortuna Sittard won against RKC Waalwijk 2 - 0
+Go Ahead Eagles won against PEC Zwolle 3 - 0
+Excelsior won against Almere City 7 - 4
+
+Current round: Round 2
+Feyenoord won against Ajax 3 - 1
+Twente won against Sparta Rotterdam 1 - 0
+Vitesse won against Fortuna Sittard 3 - 2
+Go Ahead Eagles won against Excelsior 1 - 0
+
+Current round: Round 3
+Feyenoord won against Twente 4 - 3
+Go Ahead Eagles won against Vitesse 3 - 0
+
+Current round: Round 4
+Feyenoord won against Go Ahead Eagles 2 - 1
+
+Winner of Netherlands Cup: Feyenoord
