@@ -424,3 +424,142 @@ Aggregate Score: Bayern Munchen 3 - 2 PSG
 Bayern Munchen advances!
 
 Winner of Champions League: Bayern Munchen
+Teams of current competition: ['Manchester City', 'Newcastle United', 'Liverpool', 'Arsenal', 'Atletico Madrid', 'Real Madrid', 'Barcelona', 'Osasuna', 'Borussia Dortmund', 'Bayern Munchen', 'Eintracht Frankfurt', 'Union Berlin', 'Inter Milan', 'Napoli', 'Juventus', 'Lazio', 'Rennes', 'PSG', 'AS Monaco', 'Nice', 'PSV Eindhoven', 'Vitesse', 'Feyenoord', 'Benfica', 'Porto', 'Sporting CP', 'Genk', 'Club Brugge', 'Rangers', 'St Johnstone', 'Red Bull Salzburg', 'Austria Wien']
+
+Current round: Round 1
+1st Leg: Manchester City (Home) 2 - 2 Newcastle United (Away)
+2nd Leg: Newcastle United (Home) 0 - 4 Manchester City (Away)
+Aggregate Score: Manchester City 6 - 2 Newcastle United
+Manchester City advances!
+1st Leg: Liverpool (Home) 2 - 2 Arsenal (Away)
+2nd Leg: Arsenal (Home) 1 - 3 Liverpool (Away)
+Aggregate Score: Liverpool 5 - 3 Arsenal
+Liverpool advances!
+1st Leg: Atletico Madrid (Home) 1 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 2 - 2 Atletico Madrid (Away)
+Aggregate Score: Atletico Madrid 3 - 3 Real Madrid
+Aggregate is tied! Proceeding to extra time...
+Real Madrid won against Atletico Madrid 1 - 0
+1st Leg: Barcelona (Home) 3 - 1 Osasuna (Away)
+2nd Leg: Osasuna (Home) 1 - 3 Barcelona (Away)
+Aggregate Score: Barcelona 6 - 2 Osasuna
+Barcelona advances!
+1st Leg: Borussia Dortmund (Home) 2 - 2 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 2 - 2 Borussia Dortmund (Away)
+Aggregate Score: Borussia Dortmund 4 - 4 Bayern Munchen
+Aggregate is tied! Proceeding to extra time...
+Borussia Dortmund won against Bayern Munchen 1 - 0
+1st Leg: Eintracht Frankfurt (Home) 3 - 0 Union Berlin (Away)
+2nd Leg: Union Berlin (Home) 1 - 2 Eintracht Frankfurt (Away)
+Aggregate Score: Eintracht Frankfurt 5 - 1 Union Berlin
+Eintracht Frankfurt advances!
+1st Leg: Inter Milan (Home) 0 - 3 Napoli (Away)
+2nd Leg: Napoli (Home) 1 - 3 Inter Milan (Away)
+Aggregate Score: Inter Milan 3 - 4 Napoli
+Napoli advances!
+1st Leg: Juventus (Home) 3 - 1 Lazio (Away)
+2nd Leg: Lazio (Home) 1 - 1 Juventus (Away)
+Aggregate Score: Juventus 4 - 2 Lazio
+Juventus advances!
+1st Leg: Rennes (Home) 0 - 4 PSG (Away)
+2nd Leg: PSG (Home) 3 - 0 Rennes (Away)
+Aggregate Score: Rennes 0 - 7 PSG
+PSG advances!
+1st Leg: AS Monaco (Home) 3 - 1 Nice (Away)
+2nd Leg: Nice (Home) 1 - 3 AS Monaco (Away)
+Aggregate Score: AS Monaco 6 - 2 Nice
+AS Monaco advances!
+1st Leg: PSV Eindhoven (Home) 3 - 0 Vitesse (Away)
+2nd Leg: Vitesse (Home) 1 - 2 PSV Eindhoven (Away)
+Aggregate Score: PSV Eindhoven 5 - 1 Vitesse
+PSV Eindhoven advances!
+1st Leg: Feyenoord (Home) 1 - 2 Benfica (Away)
+2nd Leg: Benfica (Home) 1 - 3 Feyenoord (Away)
+Aggregate Score: Feyenoord 4 - 3 Benfica
+Feyenoord advances!
+1st Leg: Porto (Home) 2 - 0 Sporting CP (Away)
+2nd Leg: Sporting CP (Home) 2 - 2 Porto (Away)
+Aggregate Score: Porto 4 - 2 Sporting CP
+Porto advances!
+1st Leg: Genk (Home) 0 - 3 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 0 - 2 Genk (Away)
+Aggregate Score: Genk 2 - 3 Club Brugge
+Club Brugge advances!
+1st Leg: Rangers (Home) 3 - 1 St Johnstone (Away)
+2nd Leg: St Johnstone (Home) 1 - 2 Rangers (Away)
+Aggregate Score: Rangers 5 - 2 St Johnstone
+Rangers advances!
+1st Leg: Red Bull Salzburg (Home) 3 - 1 Austria Wien (Away)
+2nd Leg: Austria Wien (Home) 2 - 2 Red Bull Salzburg (Away)
+Aggregate Score: Red Bull Salzburg 5 - 3 Austria Wien
+Red Bull Salzburg advances!
+
+Current round: Round 2
+1st Leg: Manchester City (Home) 2 - 2 Liverpool (Away)
+2nd Leg: Liverpool (Home) 3 - 1 Manchester City (Away)
+Aggregate Score: Manchester City 3 - 5 Liverpool
+Liverpool advances!
+1st Leg: Real Madrid (Home) 2 - 0 Barcelona (Away)
+2nd Leg: Barcelona (Home) 2 - 3 Real Madrid (Away)
+Aggregate Score: Real Madrid 5 - 2 Barcelona
+Real Madrid advances!
+1st Leg: Borussia Dortmund (Home) 4 - 2 Eintracht Frankfurt (Away)
+2nd Leg: Eintracht Frankfurt (Home) 1 - 1 Borussia Dortmund (Away)
+Aggregate Score: Borussia Dortmund 5 - 3 Eintracht Frankfurt
+Borussia Dortmund advances!
+1st Leg: Napoli (Home) 3 - 3 Juventus (Away)
+2nd Leg: Juventus (Home) 2 - 1 Napoli (Away)
+Aggregate Score: Napoli 4 - 5 Juventus
+Juventus advances!
+1st Leg: PSG (Home) 2 - 0 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 2 - 3 PSG (Away)
+Aggregate Score: PSG 5 - 2 AS Monaco
+PSG advances!
+1st Leg: PSV Eindhoven (Home) 1 - 2 Feyenoord (Away)
+2nd Leg: Feyenoord (Home) 3 - 2 PSV Eindhoven (Away)
+Aggregate Score: PSV Eindhoven 3 - 5 Feyenoord
+Feyenoord advances!
+1st Leg: Porto (Home) 1 - 0 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 1 - 3 Porto (Away)
+Aggregate Score: Porto 4 - 1 Club Brugge
+Porto advances!
+1st Leg: Rangers (Home) 4 - 0 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 3 - 2 Rangers (Away)
+Aggregate Score: Rangers 6 - 3 Red Bull Salzburg
+Rangers advances!
+
+Current round: Round 3
+1st Leg: Liverpool (Home) 1 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 2 - 3 Liverpool (Away)
+Aggregate Score: Liverpool 4 - 3 Real Madrid
+Liverpool advances!
+1st Leg: Borussia Dortmund (Home) 3 - 3 Juventus (Away)
+2nd Leg: Juventus (Home) 1 - 2 Borussia Dortmund (Away)
+Aggregate Score: Borussia Dortmund 5 - 4 Juventus
+Borussia Dortmund advances!
+1st Leg: PSG (Home) 4 - 2 Feyenoord (Away)
+2nd Leg: Feyenoord (Home) 2 - 3 PSG (Away)
+Aggregate Score: PSG 7 - 4 Feyenoord
+PSG advances!
+1st Leg: Porto (Home) 1 - 0 Rangers (Away)
+2nd Leg: Rangers (Home) 4 - 2 Porto (Away)
+Aggregate Score: Porto 3 - 4 Rangers
+Rangers advances!
+
+Current round: Round 4
+1st Leg: Liverpool (Home) 4 - 2 Borussia Dortmund (Away)
+2nd Leg: Borussia Dortmund (Home) 1 - 2 Liverpool (Away)
+Aggregate Score: Liverpool 6 - 3 Borussia Dortmund
+Liverpool advances!
+1st Leg: PSG (Home) 4 - 0 Rangers (Away)
+2nd Leg: Rangers (Home) 0 - 1 PSG (Away)
+Aggregate Score: PSG 5 - 0 Rangers
+PSG advances!
+
+Current round: Round 5
+1st Leg: Liverpool (Home) 3 - 3 PSG (Away)
+2nd Leg: PSG (Home) 3 - 1 Liverpool (Away)
+Aggregate Score: Liverpool 4 - 6 PSG
+PSG advances!
+
+Winner of Champions League: PSG

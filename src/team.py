@@ -75,101 +75,86 @@ class Team:
         :param file: Output file to log match results
         :return: The winning team object or "Draw" if no winner
         """
-        # Two-legged logic
-        if has_2_legs:
-            # First Leg: self (home), opponent (away)
-            self_home_score = self.calculate_goals(self.skill, opponent.skill, is_home=True)
-            opponent_away_score = self.calculate_goals(opponent.skill, self.skill, is_home=False)
-            print(f"1st Leg: {self.name} (Home) {self_home_score} - {opponent_away_score} {opponent.name} (Away)")
+
+        def log_message(message):
+            """Logs or prints messages."""
+            print(message)
             if file:
                 with open(file, 'a') as f:
-                    f.write(
-                        f"1st Leg: {self.name} (Home) {self_home_score} - {opponent_away_score} {opponent.name} (Away)\n")
+                    f.write(message + '\n')
 
-            # Second Leg: opponent (home), self (away)
-            opponent_home_score = self.calculate_goals(opponent.skill, self.skill, is_home=True)
-            self_away_score = self.calculate_goals(self.skill, opponent.skill, is_home=False)
-
-            print(f"2nd Leg: {opponent.name} (Home) {opponent_home_score} - {self_away_score} {self.name} (Away)")
-            if file:
-                with open(file, 'a') as f:
-                    f.write(
-                        f"2nd Leg: {opponent.name} (Home) {opponent_home_score} - {self_away_score} {self.name} (Away)\n")
-
-            # Aggregate scores
-            self_aggregate = self_home_score + self_away_score
-            opponent_aggregate = opponent_home_score + opponent_away_score
-            print(f"Aggregate Score: {self.name} {self_aggregate} - {opponent_aggregate} {opponent.name}")
-            if file:
-                with open(file, 'a') as f:
-                    f.write(f"Aggregate Score: {self.name} {self_aggregate} - {opponent_aggregate} {opponent.name}\n")
-
-            # Determine winner (aggregate)
+        def calculate_aggregate_and_winner(scores_self, scores_opponent):
+            """Calculates aggregate scores and determines the winner."""
+            self_aggregate = sum(scores_self)
+            opponent_aggregate = sum(scores_opponent)
+            log_message(f"Aggregate Score: {self.name} {self_aggregate} - {opponent_aggregate} {opponent.name}")
             if self_aggregate > opponent_aggregate:
-                print(f"{self.name} advances!")
-                if file:
-                    with open(file, 'a') as f:
-                        f.write(f"{self.name} advances!\n")
-                self.update_goals(opponent, self_aggregate, opponent_aggregate)
-                return self
+                log_message(f"{self.name} advances!")
+                return self, self_aggregate, opponent_aggregate
             elif self_aggregate < opponent_aggregate:
-                print(f"{opponent.name} advances!")
-                if file:
-                    with open(file, 'a') as f:
-                        f.write(f"{opponent.name} advances!\n")
-                self.update_goals(opponent, self_aggregate, opponent_aggregate)
-                return opponent
-            else:
-                # Tie-breaking logic (extra time or penalties)
-                if knockouts:
-                    print("Aggregate is tied! Proceeding to extra time...")
-                    result = self.match_with_extra_time(self_aggregate, opponent_aggregate, opponent, file)
-                    while result == "Draw":
-                        extra_self_score = random.randint(0, 1)
-                        extra_opponent_score = random.randint(0, 1)
-                        self_aggregate += extra_self_score
-                        opponent_aggregate += extra_opponent_score
-                        result = self.match_with_extra_time(extra_self_score, extra_opponent_score, opponent, file)
-                    self.update_goals(opponent, self_aggregate, opponent_aggregate)
-                    return result
-                else:
-                    print("Match ends in a draw (no tie-breaking).")
-                    return "Draw"
+                log_message(f"{opponent.name} advances!")
+                return opponent, self_aggregate, opponent_aggregate
+            return None, self_aggregate, opponent_aggregate  # Tie
 
-        # Single-leg match logic (regular match)
-        goals_scored = self.calculate_goals(self.skill, opponent.skill, is_home=True)
-        goals_conceded = self.calculate_goals(opponent.skill, self.skill, is_home=False)
-
-        if knockouts:
-            result = self.match_with_extra_time(goals_scored, goals_conceded, opponent, file)
+        def handle_tie_breaking(self_aggregate, opponent_aggregate):
+            """Handles tie-breaking logic for knockout matches."""
+            log_message("Aggregate is tied! Proceeding to extra time...")
+            result = "Draw"
             while result == "Draw":
-                goals_scored += self.calculate_goals(self.skill, opponent.skill, is_home=True)
-                goals_conceded += self.calculate_goals(opponent.skill, self.skill, is_home=False)
-                result = self.match_with_extra_time(goals_scored, goals_conceded, opponent, file)
-            self.update_goals(opponent, goals_scored, goals_conceded)
-            return result
-        elif goals_scored > goals_conceded:
+                extra_self_score = random.randint(0, 1)
+                extra_opponent_score = random.randint(0, 1)
+                self_aggregate += extra_self_score
+                opponent_aggregate += extra_opponent_score
+                result = self.match_with_extra_time(extra_self_score, extra_opponent_score, opponent, file)
+            return result, self_aggregate, opponent_aggregate
+
+        if has_2_legs:
+            scores_self = [
+                self.calculate_goals(self.skill, opponent.skill, is_home=True),
+                self.calculate_goals(self.skill, opponent.skill, is_home=False)
+            ]
+            scores_opponent = [
+                self.calculate_goals(opponent.skill, self.skill, is_home=False),
+                self.calculate_goals(opponent.skill, self.skill, is_home=True)
+            ]
+
+            log_message(f"1st Leg: {self.name} (Home) {scores_self[0]} - {scores_opponent[0]} {opponent.name} (Away)")
+            log_message(f"2nd Leg: {opponent.name} (Home) {scores_opponent[1]} - {scores_self[1]} {self.name} (Away)")
+
+            winner, self_aggregate, opponent_aggregate = calculate_aggregate_and_winner(scores_self, scores_opponent)
+
+            if not winner and knockouts:  # Handle tie in knockouts
+                winner, self_aggregate, opponent_aggregate = handle_tie_breaking(self_aggregate, opponent_aggregate)
+
+            self.update_goals(opponent, self_aggregate, opponent_aggregate)
+            return winner or "Draw"
+
+        # Single-leg match
+        goals_self = self.calculate_goals(self.skill, opponent.skill, is_home=True)
+        goals_opponent = self.calculate_goals(opponent.skill, self.skill, is_home=False)
+        log_message(f"{self.name} {goals_self} - {goals_opponent} {opponent.name}")
+
+        if goals_self > goals_opponent:
             self.current["wins"] += 1
             opponent.current["losses"] += 1
-            print(f"{self.name} won against {opponent.name} {goals_scored} - {goals_conceded}")
-            if file:
-                with open(file, 'a') as file:
-                    file.write(f"{self.name} won against {opponent.name} {goals_scored} - {goals_conceded}\n")
-        elif goals_scored < goals_conceded:
+            log_message(f"{self.name} won against {opponent.name}")
+            winner = self
+        elif goals_self < goals_opponent:
             opponent.current["wins"] += 1
             self.current["losses"] += 1
-            print(f"{opponent.name} won against {self.name} {goals_conceded} - {goals_scored}")
-            if file:
-                with open(file, 'a') as file:
-                    file.write(f"{opponent.name} won against {self.name} {goals_conceded} - {goals_scored}\n")
+            log_message(f"{opponent.name} won against {self.name}")
+            winner = opponent
         else:
-            self.current["draws"] += 1
-            opponent.current["draws"] += 1
-            print(f"{self.name} drew with {opponent.name} {goals_scored} - {goals_conceded}")
-            if file:
-                with open(file, 'a') as file:
-                    file.write(f"{self.name} drew with {opponent.name} {goals_scored} - {goals_conceded}\n")
-        self.update_goals(opponent, goals_scored, goals_conceded)
+            if knockouts:
+                winner, goals_self, goals_opponent = handle_tie_breaking(goals_self, goals_opponent)
+            else:
+                self.current["draws"] += 1
+                opponent.current["draws"] += 1
+                log_message(f"{self.name} drew with {opponent.name}")
+                winner = "Draw"
+
+        self.update_goals(opponent, goals_self, goals_opponent)
+        return winner
 
     def update_current(self):
         self.wins += self.current["wins"]
