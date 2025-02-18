@@ -55,3 +55,191 @@ Current round: Round 3
 Sturm Graz won against Austria Klagenfurt 4 - 1
 
 Winner of Austria Cup: Sturm Graz
+Winner of League: Red Bull Salzburg
+1. Red Bull Salzburg - 55 points - 17 wins - 4 draws - 1 losses - 62 scored - 19 against - Champions League
+2. Sturm Graz - 52 points - 16 wins - 4 draws - 2 losses - 49 scored - 25 against - Champions League
+3. LASK - 40 points - 12 wins - 4 draws - 6 losses - 49 scored - 37 against - Europa League
+4. Austria Wien - 40 points - 11 wins - 7 draws - 4 losses - 50 scored - 29 against - Europa League
+5. Austria Klagenfurt - 29 points - 8 wins - 5 draws - 9 losses - 39 scored - 38 against - Europa Conference League
+6. Rapid Wien - 28 points - 7 wins - 7 draws - 8 losses - 43 scored - 37 against - Europa Conference League
+7. WSG Tirol - 26 points - 7 wins - 5 draws - 10 losses - 33 scored - 43 against - No qualification
+8. Austria Lustenau - 26 points - 7 wins - 5 draws - 10 losses - 32 scored - 44 against - No qualification
+9. Rheindorf Altach - 21 points - 6 wins - 3 draws - 13 losses - 31 scored - 51 against - No qualification
+10. Wolfsberger AC - 19 points - 5 wins - 4 draws - 13 losses - 32 scored - 47 against - No qualification
+11. Blau-WeiB Linz - 18 points - 4 wins - 6 draws - 12 losses - 36 scored - 54 against - No qualification
+12. TSV Hartberg - 13 points - 3 wins - 4 draws - 15 losses - 25 scored - 57 against - No qualification
+Teams of Austria Cup: ['Red Bull Salzburg', 'Sturm Graz', 'LASK', 'Austria Wien', 'Rapid Wien', 'Austria Klagenfurt', 'WSG Tirol', 'Austria Lustenau']
+
+Current round: Round 1
+Red Bull Salzburg 0 - 2 Sturm Graz
+Sturm Graz won against Red Bull Salzburg
+LASK 2 - 1 Austria Wien
+LASK won against Austria Wien
+Rapid Wien 1 - 1 Austria Klagenfurt
+Aggregate is tied! Proceeding to extra time...
+Rapid Wien won against Austria Klagenfurt 1 - 0
+WSG Tirol 2 - 0 Austria Lustenau
+WSG Tirol won against Austria Lustenau
+
+Current round: Round 2
+Sturm Graz 2 - 2 LASK
+Aggregate is tied! Proceeding to extra time...
+LASK won against Sturm Graz 1 - 0
+Rapid Wien 1 - 2 WSG Tirol
+WSG Tirol won against Rapid Wien
+
+Current round: Round 3
+LASK 3 - 1 WSG Tirol
+LASK won against WSG Tirol
+
+Winner of Austria Cup: LASK
+Winner of League: Red Bull Salzburg
+1. Red Bull Salzburg - 55 points - 18 wins - 1 draws - 3 losses - 53 scored - 23 against - Champions League
+2. Sturm Graz - 50 points - 15 wins - 5 draws - 2 losses - 53 scored - 30 against - Champions League
+3. LASK - 45 points - 14 wins - 3 draws - 5 losses - 51 scored - 33 against - Europa League
+4. WSG Tirol - 39 points - 12 wins - 3 draws - 7 losses - 51 scored - 44 against - Europa League
+5. Austria Wien - 37 points - 11 wins - 4 draws - 7 losses - 41 scored - 32 against - Europa Conference League
+6. Rapid Wien - 35 points - 10 wins - 5 draws - 7 losses - 45 scored - 40 against - Europa Conference League
+7. Austria Klagenfurt - 31 points - 9 wins - 4 draws - 9 losses - 41 scored - 35 against - No qualification
+8. Austria Lustenau - 29 points - 8 wins - 5 draws - 9 losses - 41 scored - 43 against - No qualification
+9. Wolfsberger AC - 26 points - 7 wins - 5 draws - 10 losses - 39 scored - 47 against - No qualification
+10. Rheindorf Altach - 11 points - 3 wins - 2 draws - 17 losses - 26 scored - 52 against - No qualification
+11. TSV Hartberg - 10 points - 3 wins - 1 draws - 18 losses - 23 scored - 57 against - No qualification
+12. Blau-WeiB Linz - 7 points - 1 wins - 4 draws - 17 losses - 29 scored - 57 against - No qualification
+Teams of Austria Cup: ['Red Bull Salzburg', 'Sturm Graz', 'LASK', 'Austria Wien', 'Rapid Wien', 'WSG Tirol', 'Austria Klagenfurt', 'Austria Lustenau']
+
+Current round: Round 1
+Red Bull Salzburg 4 - 1 Sturm Graz
+Red Bull Salzburg won the match!
+LASK 1 - 0 Austria Wien
+LASK won the match!
+Rapid Wien 2 - 0 WSG Tirol
+Rapid Wien won the match!
+Austria Klagenfurt 0 - 1 Austria Lustenau
+Austria Lustenau won the match!
+
+Current round: Round 2
+Red Bull Salzburg 3 - 0 LASK
+Red Bull Salzburg won the match!
+Rapid Wien 2 - 1 Austria Lustenau
+Rapid Wien won the match!
+
+Current round: Round 3
+Red Bull Salzburg 2 - 0 Rapid Wien
+Red Bull Salzburg won the match!
+
+Winner of Austria Cup: Red Bull Salzburg
+Winner of League: Red Bull Salzburg
+1. Red Bull Salzburg - 57 points - 18 wins - 3 draws - 1 losses - 56 scored - 16 against - Champions League
+2. Sturm Graz - 46 points - 13 wins - 7 draws - 2 losses - 49 scored - 31 against - Champions League
+3. Austria Wien - 41 points - 12 wins - 5 draws - 5 losses - 48 scored - 29 against - Europa League
+4. LASK - 32 points - 8 wins - 8 draws - 6 losses - 38 scored - 33 against - Europa League
+5. WSG Tirol - 31 points - 9 wins - 4 draws - 9 losses - 38 scored - 43 against - Europa Conference League
+6. Rheindorf Altach - 28 points - 8 wins - 4 draws - 10 losses - 36 scored - 48 against - Europa Conference League
+7. Austria Klagenfurt - 26 points - 6 wins - 8 draws - 8 losses - 35 scored - 35 against - No qualification
+8. Rapid Wien - 25 points - 6 wins - 7 draws - 9 losses - 41 scored - 43 against - No qualification
+9. Wolfsberger AC - 23 points - 6 wins - 5 draws - 11 losses - 29 scored - 40 against - No qualification
+10. Blau-WeiB Linz - 21 points - 6 wins - 3 draws - 13 losses - 31 scored - 48 against - No qualification
+11. Austria Lustenau - 18 points - 4 wins - 6 draws - 12 losses - 37 scored - 49 against - No qualification
+12. TSV Hartberg - 17 points - 5 wins - 2 draws - 15 losses - 27 scored - 50 against - No qualification
+Teams of Austria Cup: ['Red Bull Salzburg', 'Sturm Graz', 'Austria Wien', 'LASK', 'Rapid Wien', 'WSG Tirol', 'Austria Klagenfurt', 'Wolfsberger AC']
+
+Current round: Round 1
+Red Bull Salzburg 2 - 3 Sturm Graz
+Sturm Graz won the match!
+Austria Wien 3 - 1 LASK
+Austria Wien won the match!
+Rapid Wien 3 - 1 WSG Tirol
+Rapid Wien won the match!
+Austria Klagenfurt 2 - 1 Wolfsberger AC
+Austria Klagenfurt won the match!
+
+Current round: Round 2
+Sturm Graz 2 - 0 Austria Wien
+Sturm Graz won the match!
+Rapid Wien 1 - 2 Austria Klagenfurt
+Austria Klagenfurt won the match!
+
+Current round: Round 3
+Sturm Graz 3 - 0 Austria Klagenfurt
+Sturm Graz won the match!
+
+Winner of Austria Cup: Sturm Graz
+Winner of League: Rapid Wien
+1. Rapid Wien - 48 points - 15 wins - 3 draws - 4 losses - 52 scored - 31 against - Champions League
+2. Red Bull Salzburg - 46 points - 14 wins - 4 draws - 4 losses - 53 scored - 26 against - Champions League
+3. Austria Wien - 46 points - 14 wins - 4 draws - 4 losses - 51 scored - 30 against - Europa League
+4. Sturm Graz - 44 points - 13 wins - 5 draws - 4 losses - 49 scored - 24 against - Europa League
+5. LASK - 41 points - 11 wins - 8 draws - 3 losses - 51 scored - 32 against - Europa Conference League
+6. Austria Klagenfurt - 34 points - 9 wins - 7 draws - 6 losses - 45 scored - 40 against - Europa Conference League
+7. WSG Tirol - 21 points - 6 wins - 3 draws - 13 losses - 31 scored - 48 against - No qualification
+8. Wolfsberger AC - 21 points - 6 wins - 3 draws - 13 losses - 25 scored - 44 against - No qualification
+9. Austria Lustenau - 18 points - 5 wins - 3 draws - 14 losses - 34 scored - 48 against - No qualification
+10. Blau-WeiB Linz - 16 points - 3 wins - 7 draws - 12 losses - 33 scored - 54 against - No qualification
+11. TSV Hartberg - 16 points - 3 wins - 7 draws - 12 losses - 29 scored - 54 against - No qualification
+12. Rheindorf Altach - 15 points - 3 wins - 6 draws - 13 losses - 30 scored - 52 against - No qualification
+Teams of Austria Cup: ['Red Bull Salzburg', 'Sturm Graz', 'Rapid Wien', 'Austria Wien', 'LASK', 'Austria Klagenfurt', 'WSG Tirol', 'Wolfsberger AC']
+
+Current round: Round 1
+Red Bull Salzburg 2 - 1 Sturm Graz
+Red Bull Salzburg won the match!
+Rapid Wien 2 - 2 Austria Wien
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rapid Wien 0 - 0 Austria Wien (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rapid Wien 2 - 5 Austria Wien
+Austria Wien wins on penalties!
+LASK 3 - 1 Austria Klagenfurt
+LASK won the match!
+WSG Tirol 2 - 1 Wolfsberger AC
+WSG Tirol won the match!
+
+Current round: Round 2
+Red Bull Salzburg 3 - 2 Austria Wien
+Red Bull Salzburg won the match!
+LASK 2 - 2 WSG Tirol
+Aggregate is tied! Proceeding to extra time...
+Extra Time: LASK 1 - 0 WSG Tirol (Aggregate: 3 - 2)
+
+Current round: Round 3
+Red Bull Salzburg 2 - 1 LASK
+Red Bull Salzburg won the match!
+
+Winner of Austria Cup: Red Bull Salzburg
+Winner of League: Red Bull Salzburg
+1. Red Bull Salzburg - 55 points - 18 wins - 1 draws - 3 losses - 52 scored - 20 against - Champions League
+2. Sturm Graz - 52 points - 16 wins - 4 draws - 2 losses - 52 scored - 22 against - Champions League
+3. Austria Klagenfurt - 44 points - 14 wins - 2 draws - 6 losses - 43 scored - 33 against - Europa League
+4. Austria Wien - 39 points - 12 wins - 3 draws - 7 losses - 48 scored - 32 against - Europa League
+5. LASK - 36 points - 10 wins - 6 draws - 6 losses - 42 scored - 31 against - Europa Conference League
+6. Rapid Wien - 32 points - 9 wins - 5 draws - 8 losses - 42 scored - 36 against - Europa Conference League
+7. WSG Tirol - 28 points - 8 wins - 4 draws - 10 losses - 30 scored - 41 against - No qualification
+8. Austria Lustenau - 23 points - 5 wins - 8 draws - 9 losses - 32 scored - 38 against - No qualification
+9. Wolfsberger AC - 19 points - 4 wins - 7 draws - 11 losses - 30 scored - 43 against - No qualification
+10. TSV Hartberg - 18 points - 4 wins - 6 draws - 12 losses - 22 scored - 46 against - No qualification
+11. Rheindorf Altach - 13 points - 3 wins - 4 draws - 15 losses - 26 scored - 47 against - No qualification
+12. Blau-WeiB Linz - 9 points - 1 wins - 6 draws - 15 losses - 27 scored - 57 against - No qualification
+Teams of Austria Cup: ['Red Bull Salzburg', 'Sturm Graz', 'Austria Wien', 'LASK', 'Rapid Wien', 'Austria Klagenfurt', 'WSG Tirol', 'Austria Lustenau']
+
+Current round: Round 1
+Sturm Graz 3 - 1 Austria Klagenfurt
+Sturm Graz won the match!
+Red Bull Salzburg 1 - 0 Rapid Wien
+Red Bull Salzburg won the match!
+LASK 2 - 1 Austria Lustenau
+LASK won the match!
+Austria Wien 3 - 2 WSG Tirol
+Austria Wien won the match!
+
+Current round: Round 2
+Red Bull Salzburg 4 - 1 LASK
+Red Bull Salzburg won the match!
+Austria Wien 2 - 2 Sturm Graz
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Austria Wien 1 - 0 Sturm Graz (Aggregate: 3 - 2)
+
+Current round: Round 3
+Austria Wien 2 - 1 Red Bull Salzburg
+Austria Wien won the match!
+
+Winner of Austria Cup: Austria Wien

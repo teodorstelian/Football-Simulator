@@ -184,3 +184,17 @@ AUS_TEAMS = [("Austria Klagenfurt", 65),
              ("Wolfsberger AC", 65),
              ("WSG Tirol", 65)
              ]
+
+ROM_TEAMS = [("FCSB", 75),
+             ("CFR Cluj", 70),
+             ("Universitatea Craiova", 65),
+             ("Farul Constanta", 65),
+             ("Sepsi", 60),
+             ("Rapid Bucuresti", 65),
+             ("Dinamo Bucuresti", 65),
+             ("UTA Arad", 60),
+             ("Otelul Galati", 60),
+             ("U Cluj", 65),
+             ("Petrolul Ploiesti", 60),
+             ("Politehnica Iasi", 60)
+            ]

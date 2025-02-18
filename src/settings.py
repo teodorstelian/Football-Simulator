@@ -30,19 +30,23 @@ NED = {"name": "Netherlands",
 POR = {"name": "Portugal",
        "teams": POR_TEAMS,
        "europe": [3, 3, 3]}
-
 BEL = {"name": "Belgium",
        "teams": BEL_TEAMS,
        "europe": [2, 2, 2]}
 
 SCO = {"name": "Scotland",
        "teams": SCO_TEAMS,
-       "europe": [2, 2, 2]}
+       "europe": [1, 1, 1]}
 
 AUS = {"name": "Austria",
        "teams": AUS_TEAMS,
        "europe": [2, 2, 2]}
-ALL_COUNTRIES = [ENG, ESP, GER, ITA, FRA, NED, POR, BEL, SCO, AUS]
+
+ROM = {"name": "Romania",
+       "teams": ROM_TEAMS,
+       "europe": [1, 1, 1]}
+
+ALL_COUNTRIES = [ENG, ESP, GER, ITA, FRA, NED, POR, BEL, SCO, AUS, ROM]
 
 # Europe Places - UCL, UEL, UECL
 UCL = "Champions League"

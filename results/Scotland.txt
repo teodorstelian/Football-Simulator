@@ -55,3 +55,216 @@ Current round: Round 3
 Celtic won against St Johnstone 4 - 1
 
 Winner of Scotland Cup: Celtic
+Winner of League: Aberdeen
+1. Aberdeen - 60 points - 20 wins - 0 draws - 2 losses - 60 scored - 19 against - Champions League
+2. Celtic - 56 points - 17 wins - 5 draws - 0 losses - 59 scored - 19 against - Champions League
+3. Rangers - 52 points - 16 wins - 4 draws - 2 losses - 58 scored - 24 against - Europa League
+4. Hibernian - 44 points - 14 wins - 2 draws - 6 losses - 46 scored - 36 against - Europa League
+5. Motherwell - 31 points - 9 wins - 4 draws - 9 losses - 41 scored - 39 against - Europa Conference League
+6. Hearts - 28 points - 7 wins - 7 draws - 8 losses - 35 scored - 36 against - Europa Conference League
+7. Livingston - 23 points - 6 wins - 5 draws - 11 losses - 38 scored - 51 against - No qualification
+8. Ross County - 23 points - 6 wins - 5 draws - 11 losses - 29 scored - 43 against - No qualification
+9. St Mirren - 22 points - 6 wins - 4 draws - 12 losses - 38 scored - 52 against - No qualification
+10. St Johnstone - 15 points - 4 wins - 3 draws - 15 losses - 24 scored - 46 against - No qualification
+11. Dundee - 10 points - 2 wins - 4 draws - 16 losses - 26 scored - 51 against - No qualification
+12. Kilmarnock - 9 points - 2 wins - 3 draws - 17 losses - 21 scored - 59 against - No qualification
+Teams of Scotland Cup: ['Celtic', 'Rangers', 'Aberdeen', 'Hibernian', 'Motherwell', 'Hearts', 'Livingston', 'St Mirren']
+
+Current round: Round 1
+Celtic 3 - 2 Rangers
+Celtic won against Rangers
+Aberdeen 3 - 1 Hibernian
+Aberdeen won against Hibernian
+Motherwell 0 - 1 Hearts
+Hearts won against Motherwell
+Livingston 1 - 3 St Mirren
+St Mirren won against Livingston
+
+Current round: Round 2
+Celtic 2 - 0 Aberdeen
+Celtic won against Aberdeen
+Hearts 5 - 2 St Mirren
+Hearts won against St Mirren
+
+Current round: Round 3
+Celtic 2 - 0 Hearts
+Celtic won against Hearts
+
+Winner of Scotland Cup: Celtic
+Winner of League: Aberdeen
+1. Aberdeen - 58 points - 18 wins - 4 draws - 0 losses - 53 scored - 17 against - Champions League
+2. Celtic - 48 points - 15 wins - 3 draws - 4 losses - 58 scored - 30 against - Champions League
+3. Rangers - 44 points - 13 wins - 5 draws - 4 losses - 57 scored - 24 against - Europa League
+4. Hearts - 39 points - 11 wins - 6 draws - 5 losses - 46 scored - 35 against - Europa League
+5. Motherwell - 38 points - 11 wins - 5 draws - 6 losses - 40 scored - 36 against - Europa Conference League
+6. Hibernian - 29 points - 8 wins - 5 draws - 9 losses - 45 scored - 45 against - Europa Conference League
+7. Livingston - 25 points - 7 wins - 4 draws - 11 losses - 33 scored - 44 against - No qualification
+8. Ross County - 24 points - 7 wins - 3 draws - 12 losses - 29 scored - 47 against - No qualification
+9. St Johnstone - 20 points - 6 wins - 2 draws - 14 losses - 32 scored - 47 against - No qualification
+10. Dundee - 20 points - 6 wins - 2 draws - 14 losses - 30 scored - 50 against - No qualification
+11. St Mirren - 20 points - 5 wins - 5 draws - 12 losses - 29 scored - 47 against - No qualification
+12. Kilmarnock - 8 points - 2 wins - 2 draws - 18 losses - 24 scored - 54 against - No qualification
+Teams of Scotland Cup: ['Celtic', 'Rangers', 'Aberdeen', 'Hearts', 'Motherwell', 'Hibernian', 'Livingston', 'St Johnstone']
+
+Current round: Round 1
+Celtic 1 - 2 Rangers
+Rangers won the match!
+Aberdeen 1 - 2 Hearts
+Hearts won the match!
+Motherwell 2 - 3 Hibernian
+Hibernian won the match!
+Livingston 3 - 2 St Johnstone
+Livingston won the match!
+
+Current round: Round 2
+Rangers 5 - 0 Hearts
+Rangers won the match!
+Hibernian 1 - 1 Livingston
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Hibernian 1 - 1 Livingston (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Hibernian 3 - 4 Livingston
+Livingston wins on penalties!
+
+Current round: Round 3
+Rangers 2 - 2 Livingston
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rangers 0 - 0 Livingston (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rangers 4 - 3 Livingston
+Rangers wins on penalties!
+
+Winner of Scotland Cup: Rangers
+Winner of League: Celtic
+1. Celtic - 54 points - 17 wins - 3 draws - 2 losses - 63 scored - 25 against - Champions League
+2. Aberdeen - 53 points - 17 wins - 2 draws - 3 losses - 51 scored - 25 against - Champions League
+3. Rangers - 50 points - 16 wins - 2 draws - 4 losses - 48 scored - 16 against - Europa League
+4. Motherwell - 37 points - 10 wins - 7 draws - 5 losses - 39 scored - 30 against - Europa League
+5. Hearts - 33 points - 10 wins - 3 draws - 9 losses - 40 scored - 39 against - Europa Conference League
+6. Hibernian - 32 points - 9 wins - 5 draws - 8 losses - 40 scored - 38 against - Europa Conference League
+7. Livingston - 25 points - 7 wins - 4 draws - 11 losses - 38 scored - 46 against - No qualification
+8. St Johnstone - 25 points - 7 wins - 4 draws - 11 losses - 36 scored - 47 against - No qualification
+9. Dundee - 23 points - 7 wins - 2 draws - 13 losses - 32 scored - 51 against - No qualification
+10. St Mirren - 20 points - 5 wins - 5 draws - 12 losses - 39 scored - 47 against - No qualification
+11. Kilmarnock - 13 points - 4 wins - 1 draws - 17 losses - 30 scored - 60 against - No qualification
+12. Ross County - 10 points - 2 wins - 4 draws - 16 losses - 25 scored - 57 against - No qualification
+Teams of Scotland Cup: ['Celtic', 'Rangers', 'Aberdeen', 'Motherwell', 'Hearts', 'Hibernian', 'Livingston', 'St Johnstone']
+
+Current round: Round 1
+Celtic 2 - 2 Rangers
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Celtic 0 - 0 Rangers (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Celtic 5 - 1 Rangers
+Celtic wins on penalties!
+Aberdeen 2 - 2 Motherwell
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Aberdeen 1 - 0 Motherwell (Aggregate: 3 - 2)
+Hearts 1 - 1 Hibernian
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Hearts 1 - 0 Hibernian (Aggregate: 2 - 1)
+Livingston 1 - 4 St Johnstone
+St Johnstone won the match!
+
+Current round: Round 2
+Celtic 2 - 2 Aberdeen
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Celtic 1 - 1 Aberdeen (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Celtic 3 - 3 Aberdeen
+Penalties are tied! Sudden death begins!
+Sudden Death: Celtic 3 - 4 Aberdeen
+Aberdeen wins on sudden death penalties!
+Hearts 2 - 2 St Johnstone
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Hearts 0 - 1 St Johnstone (Aggregate: 2 - 3)
+
+Current round: Round 3
+Aberdeen 2 - 3 St Johnstone
+St Johnstone won the match!
+
+Winner of Scotland Cup: St Johnstone
+Winner of League: Aberdeen
+1. Aberdeen - 55 points - 17 wins - 4 draws - 1 losses - 61 scored - 22 against - Champions League
+2. Celtic - 53 points - 16 wins - 5 draws - 1 losses - 53 scored - 18 against - Europa League
+3. Rangers - 43 points - 13 wins - 4 draws - 5 losses - 56 scored - 32 against - Europa Conference League
+4. Hearts - 39 points - 11 wins - 6 draws - 5 losses - 43 scored - 31 against - No qualification
+5. Hibernian - 32 points - 8 wins - 8 draws - 6 losses - 37 scored - 29 against - No qualification
+6. St Mirren - 28 points - 8 wins - 4 draws - 10 losses - 36 scored - 43 against - No qualification
+7. Motherwell - 25 points - 7 wins - 4 draws - 11 losses - 37 scored - 43 against - No qualification
+8. St Johnstone - 23 points - 6 wins - 5 draws - 11 losses - 30 scored - 40 against - No qualification
+9. Dundee - 21 points - 5 wins - 6 draws - 11 losses - 28 scored - 45 against - No qualification
+10. Livingston - 18 points - 4 wins - 6 draws - 12 losses - 31 scored - 49 against - No qualification
+11. Ross County - 18 points - 4 wins - 6 draws - 12 losses - 26 scored - 52 against - No qualification
+12. Kilmarnock - 10 points - 2 wins - 4 draws - 16 losses - 20 scored - 54 against - No qualification
+Teams of Scotland Cup: ['Celtic', 'Rangers', 'Aberdeen', 'Hearts', 'Hibernian', 'Motherwell', 'St Mirren', 'St Johnstone']
+
+Current round: Round 1
+Celtic 2 - 2 Rangers
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Celtic 1 - 1 Rangers (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Celtic 3 - 3 Rangers
+Penalties are tied! Sudden death begins!
+Sudden Death: Celtic 7 - 8 Rangers
+Rangers wins on sudden death penalties!
+Aberdeen 3 - 1 Hearts
+Aberdeen won the match!
+Hibernian 2 - 0 Motherwell
+Hibernian won the match!
+St Mirren 2 - 2 St Johnstone
+Aggregate is tied! Proceeding to extra time...
+Extra Time: St Mirren 0 - 0 St Johnstone (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: St Mirren 3 - 3 St Johnstone
+Penalties are tied! Sudden death begins!
+Sudden Death: St Mirren 4 - 3 St Johnstone
+St Mirren wins on sudden death penalties!
+
+Current round: Round 2
+Rangers 4 - 0 Aberdeen
+Rangers won the match!
+Hibernian 3 - 2 St Mirren
+Hibernian won the match!
+
+Current round: Round 3
+Rangers 3 - 2 Hibernian
+Rangers won the match!
+
+Winner of Scotland Cup: Rangers
+Winner of League: Rangers
+1. Rangers - 52 points - 16 wins - 4 draws - 2 losses - 57 scored - 19 against - Champions League
+2. Celtic - 49 points - 15 wins - 4 draws - 3 losses - 62 scored - 27 against - Europa League
+3. Aberdeen - 46 points - 14 wins - 4 draws - 4 losses - 52 scored - 19 against - Europa Conference League
+4. Hibernian - 37 points - 10 wins - 7 draws - 5 losses - 34 scored - 26 against - No qualification
+5. Motherwell - 35 points - 10 wins - 5 draws - 7 losses - 39 scored - 31 against - No qualification
+6. Livingston - 33 points - 10 wins - 3 draws - 9 losses - 28 scored - 36 against - No qualification
+7. Hearts - 26 points - 7 wins - 5 draws - 10 losses - 38 scored - 43 against - No qualification
+8. St Mirren - 23 points - 6 wins - 5 draws - 11 losses - 35 scored - 50 against - No qualification
+9. St Johnstone - 21 points - 6 wins - 3 draws - 13 losses - 32 scored - 48 against - No qualification
+10. Ross County - 21 points - 6 wins - 3 draws - 13 losses - 28 scored - 48 against - No qualification
+11. Kilmarnock - 15 points - 3 wins - 6 draws - 13 losses - 26 scored - 51 against - No qualification
+12. Dundee - 12 points - 3 wins - 3 draws - 16 losses - 26 scored - 59 against - No qualification
+Teams of Scotland Cup: ['Rangers', 'Celtic', 'Aberdeen', 'Hibernian', 'Motherwell', 'Hearts', 'Livingston', 'St Mirren']
+
+Current round: Round 1
+Livingston 0 - 3 Aberdeen
+Aberdeen won the match!
+Hearts 1 - 3 Hibernian
+Hibernian won the match!
+Motherwell 2 - 0 Rangers
+Motherwell won the match!
+Celtic 2 - 0 St Mirren
+Celtic won the match!
+
+Current round: Round 2
+Hibernian 2 - 1 Aberdeen
+Hibernian won the match!
+Celtic 2 - 0 Motherwell
+Celtic won the match!
+
+Current round: Round 3
+Hibernian 1 - 2 Celtic
+Celtic won the match!
+
+Winner of Scotland Cup: Celtic

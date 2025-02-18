@@ -83,3 +83,329 @@ Current round: Round 4
 Vitoria de Guimaraes won against Vizela 3 - 0
 
 Winner of Portugal Cup: Vitoria de Guimaraes
+Winner of League: Porto
+1. Porto - 85 points - 27 wins - 4 draws - 3 losses - 94 scored - 34 against - Champions League
+2. Sporting CP - 83 points - 27 wins - 2 draws - 5 losses - 90 scored - 37 against - Champions League
+3. Benfica - 83 points - 27 wins - 2 draws - 5 losses - 83 scored - 23 against - Champions League
+4. Braga - 78 points - 24 wins - 6 draws - 4 losses - 82 scored - 36 against - Europa League
+5. Vitoria de Guimaraes - 65 points - 19 wins - 8 draws - 7 losses - 76 scored - 51 against - Europa League
+6. Arouca - 60 points - 18 wins - 6 draws - 10 losses - 80 scored - 59 against - Europa League
+7. Boavista - 54 points - 14 wins - 12 draws - 8 losses - 71 scored - 61 against - Europa Conference League
+8. Famalicao - 51 points - 15 wins - 6 draws - 13 losses - 56 scored - 57 against - Europa Conference League
+9. Chaves - 47 points - 14 wins - 5 draws - 15 losses - 63 scored - 68 against - Europa Conference League
+10. Vizela - 39 points - 11 wins - 6 draws - 17 losses - 58 scored - 67 against - No qualification
+11. Portimonense - 34 points - 10 wins - 4 draws - 20 losses - 49 scored - 75 against - No qualification
+12. Casa Pia - 33 points - 8 wins - 9 draws - 17 losses - 57 scored - 78 against - No qualification
+13. Gil Vicente - 32 points - 8 wins - 8 draws - 18 losses - 45 scored - 70 against - No qualification
+14. Estoril - 30 points - 8 wins - 6 draws - 20 losses - 48 scored - 80 against - No qualification
+15. Estrela da Amadora - 27 points - 7 wins - 6 draws - 21 losses - 46 scored - 77 against - No qualification
+16. Rio Ave - 24 points - 6 wins - 6 draws - 22 losses - 47 scored - 78 against - No qualification
+17. Moreirense - 22 points - 5 wins - 7 draws - 22 losses - 45 scored - 85 against - No qualification
+18. Farense - 17 points - 4 wins - 5 draws - 25 losses - 34 scored - 88 against - No qualification
+Teams of Portugal Cup: ['Porto', 'Benfica', 'Sporting CP', 'Braga', 'Vitoria de Guimaraes', 'Arouca', 'Boavista', 'Famalicao', 'Chaves', 'Vizela', 'Casa Pia', 'Gil Vicente', 'Rio Ave', 'Portimonense', 'Estoril', 'Estrela da Amadora']
+
+Current round: Round 1
+Porto 2 - 1 Benfica
+Porto won against Benfica
+Sporting CP 1 - 0 Braga
+Sporting CP won against Braga
+Vitoria de Guimaraes 3 - 0 Arouca
+Vitoria de Guimaraes won against Arouca
+Boavista 1 - 2 Famalicao
+Famalicao won against Boavista
+Chaves 4 - 1 Vizela
+Chaves won against Vizela
+Casa Pia 2 - 1 Gil Vicente
+Casa Pia won against Gil Vicente
+Rio Ave 3 - 2 Portimonense
+Rio Ave won against Portimonense
+Estoril 2 - 2 Estrela da Amadora
+Aggregate is tied! Proceeding to extra time...
+Estrela da Amadora won against Estoril 1 - 0
+
+Current round: Round 2
+Porto 2 - 3 Sporting CP
+Sporting CP won against Porto
+Vitoria de Guimaraes 2 - 1 Famalicao
+Vitoria de Guimaraes won against Famalicao
+Chaves 1 - 0 Casa Pia
+Chaves won against Casa Pia
+Rio Ave 1 - 0 Estrela da Amadora
+Rio Ave won against Estrela da Amadora
+
+Current round: Round 3
+Sporting CP 2 - 3 Vitoria de Guimaraes
+Vitoria de Guimaraes won against Sporting CP
+Chaves 1 - 1 Rio Ave
+Aggregate is tied! Proceeding to extra time...
+Rio Ave won against Chaves 1 - 0
+
+Current round: Round 4
+Vitoria de Guimaraes 3 - 2 Rio Ave
+Vitoria de Guimaraes won against Rio Ave
+
+Winner of Portugal Cup: Vitoria de Guimaraes
+Winner of League: Benfica
+1. Benfica - 92 points - 30 wins - 2 draws - 2 losses - 94 scored - 21 against - Champions League
+2. Braga - 82 points - 26 wins - 4 draws - 4 losses - 83 scored - 26 against - Champions League
+3. Porto - 79 points - 25 wins - 4 draws - 5 losses - 87 scored - 31 against - Champions League
+4. Arouca - 73 points - 22 wins - 7 draws - 5 losses - 77 scored - 43 against - Europa League
+5. Sporting CP - 71 points - 22 wins - 5 draws - 7 losses - 73 scored - 37 against - Europa League
+6. Vitoria de Guimaraes - 63 points - 19 wins - 6 draws - 9 losses - 64 scored - 32 against - Europa League
+7. Famalicao - 54 points - 16 wins - 6 draws - 12 losses - 64 scored - 53 against - Europa Conference League
+8. Boavista - 49 points - 15 wins - 4 draws - 15 losses - 61 scored - 56 against - Europa Conference League
+9. Chaves - 43 points - 11 wins - 10 draws - 13 losses - 61 scored - 64 against - Europa Conference League
+10. Rio Ave - 41 points - 11 wins - 8 draws - 15 losses - 56 scored - 65 against - No qualification
+11. Vizela - 36 points - 9 wins - 9 draws - 16 losses - 45 scored - 66 against - No qualification
+12. Gil Vicente - 35 points - 11 wins - 2 draws - 21 losses - 38 scored - 72 against - No qualification
+13. Farense - 33 points - 8 wins - 9 draws - 17 losses - 50 scored - 70 against - No qualification
+14. Casa Pia - 32 points - 8 wins - 8 draws - 18 losses - 46 scored - 81 against - No qualification
+15. Estoril - 28 points - 7 wins - 7 draws - 20 losses - 35 scored - 79 against - No qualification
+16. Portimonense - 23 points - 6 wins - 5 draws - 23 losses - 43 scored - 85 against - No qualification
+17. Estrela da Amadora - 18 points - 4 wins - 6 draws - 24 losses - 30 scored - 75 against - No qualification
+18. Moreirense - 12 points - 2 wins - 6 draws - 26 losses - 38 scored - 89 against - No qualification
+Teams of Portugal Cup: ['Benfica', 'Porto', 'Braga', 'Sporting CP', 'Vitoria de Guimaraes', 'Arouca', 'Famalicao', 'Boavista', 'Chaves', 'Rio Ave', 'Vizela', 'Gil Vicente', 'Casa Pia', 'Farense', 'Estoril', 'Portimonense']
+
+Current round: Round 1
+Benfica 1 - 2 Porto
+Porto won the match!
+Braga 3 - 0 Sporting CP
+Braga won the match!
+Vitoria de Guimaraes 0 - 2 Arouca
+Arouca won the match!
+Famalicao 0 - 1 Boavista
+Boavista won the match!
+Chaves 2 - 1 Rio Ave
+Chaves won the match!
+Vizela 2 - 0 Gil Vicente
+Vizela won the match!
+Casa Pia 2 - 0 Farense
+Casa Pia won the match!
+Estoril 1 - 2 Portimonense
+Portimonense won the match!
+
+Current round: Round 2
+Porto 3 - 0 Braga
+Porto won the match!
+Arouca 3 - 1 Boavista
+Arouca won the match!
+Chaves 3 - 0 Vizela
+Chaves won the match!
+Casa Pia 1 - 1 Portimonense
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Casa Pia 0 - 1 Portimonense (Aggregate: 1 - 2)
+
+Current round: Round 3
+Porto 4 - 1 Arouca
+Porto won the match!
+Chaves 4 - 2 Portimonense
+Chaves won the match!
+
+Current round: Round 4
+Porto 2 - 1 Chaves
+Porto won the match!
+
+Winner of Portugal Cup: Porto
+Winner of League: Porto
+1. Porto - 92 points - 30 wins - 2 draws - 2 losses - 107 scored - 29 against - Champions League
+2. Benfica - 92 points - 30 wins - 2 draws - 2 losses - 106 scored - 24 against - Champions League
+3. Sporting CP - 84 points - 26 wins - 6 draws - 2 losses - 94 scored - 42 against - Champions League
+4. Braga - 76 points - 24 wins - 4 draws - 6 losses - 70 scored - 33 against - Europa League
+5. Vitoria de Guimaraes - 66 points - 21 wins - 3 draws - 10 losses - 77 scored - 52 against - Europa League
+6. Boavista - 54 points - 17 wins - 3 draws - 14 losses - 63 scored - 56 against - Europa League
+7. Famalicao - 53 points - 16 wins - 5 draws - 13 losses - 59 scored - 52 against - Europa Conference League
+8. Arouca - 49 points - 14 wins - 7 draws - 13 losses - 66 scored - 59 against - Europa Conference League
+9. Gil Vicente - 48 points - 14 wins - 6 draws - 14 losses - 57 scored - 60 against - Europa Conference League
+10. Chaves - 41 points - 11 wins - 8 draws - 15 losses - 57 scored - 66 against - No qualification
+11. Casa Pia - 40 points - 10 wins - 10 draws - 14 losses - 58 scored - 76 against - No qualification
+12. Rio Ave - 38 points - 11 wins - 5 draws - 18 losses - 50 scored - 72 against - No qualification
+13. Farense - 33 points - 8 wins - 9 draws - 17 losses - 49 scored - 75 against - No qualification
+14. Estrela da Amadora - 26 points - 6 wins - 8 draws - 20 losses - 48 scored - 76 against - No qualification
+15. Vizela - 23 points - 6 wins - 5 draws - 23 losses - 39 scored - 74 against - No qualification
+16. Portimonense - 22 points - 6 wins - 4 draws - 24 losses - 38 scored - 87 against - No qualification
+17. Estoril - 20 points - 4 wins - 8 draws - 22 losses - 43 scored - 93 against - No qualification
+18. Moreirense - 10 points - 1 wins - 7 draws - 26 losses - 41 scored - 96 against - No qualification
+Teams of Portugal Cup: ['Porto', 'Benfica', 'Sporting CP', 'Braga', 'Vitoria de Guimaraes', 'Boavista', 'Famalicao', 'Arouca', 'Chaves', 'Gil Vicente', 'Casa Pia', 'Rio Ave', 'Vizela', 'Farense', 'Estrela da Amadora', 'Portimonense']
+
+Current round: Round 1
+Porto 3 - 2 Benfica
+Porto won the match!
+Sporting CP 1 - 2 Braga
+Braga won the match!
+Vitoria de Guimaraes 0 - 2 Boavista
+Boavista won the match!
+Famalicao 3 - 1 Arouca
+Famalicao won the match!
+Chaves 3 - 2 Gil Vicente
+Chaves won the match!
+Casa Pia 1 - 0 Rio Ave
+Casa Pia won the match!
+Vizela 2 - 1 Farense
+Vizela won the match!
+Estrela da Amadora 0 - 1 Portimonense
+Portimonense won the match!
+
+Current round: Round 2
+Porto 3 - 2 Braga
+Porto won the match!
+Boavista 2 - 3 Famalicao
+Famalicao won the match!
+Chaves 2 - 2 Casa Pia
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Chaves 1 - 1 Casa Pia (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Chaves 3 - 3 Casa Pia
+Penalties are tied! Sudden death begins!
+Sudden Death: Chaves 3 - 4 Casa Pia
+Casa Pia wins on sudden death penalties!
+Vizela 2 - 2 Portimonense
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Vizela 1 - 1 Portimonense (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Vizela 3 - 3 Portimonense
+Penalties are tied! Sudden death begins!
+Sudden Death: Vizela 5 - 6 Portimonense
+Portimonense wins on sudden death penalties!
+
+Current round: Round 3
+Porto 2 - 0 Famalicao
+Porto won the match!
+Casa Pia 5 - 0 Portimonense
+Casa Pia won the match!
+
+Current round: Round 4
+Porto 3 - 0 Casa Pia
+Porto won the match!
+
+Winner of Portugal Cup: Porto
+Winner of League: Porto
+1. Porto - 97 points - 32 wins - 1 draws - 1 losses - 98 scored - 17 against - Champions League
+2. Benfica - 93 points - 31 wins - 0 draws - 3 losses - 99 scored - 29 against - Champions League
+3. Sporting CP - 74 points - 23 wins - 5 draws - 6 losses - 86 scored - 40 against - Champions League
+4. Braga - 71 points - 22 wins - 5 draws - 7 losses - 84 scored - 51 against - Europa League
+5. Vitoria de Guimaraes - 66 points - 20 wins - 6 draws - 8 losses - 77 scored - 53 against - Europa League
+6. Arouca - 58 points - 17 wins - 7 draws - 10 losses - 71 scored - 54 against - Europa League
+7. Chaves - 51 points - 14 wins - 9 draws - 11 losses - 68 scored - 62 against - Europa Conference League
+8. Boavista - 50 points - 14 wins - 8 draws - 12 losses - 64 scored - 61 against - Europa Conference League
+9. Casa Pia - 44 points - 13 wins - 5 draws - 16 losses - 54 scored - 65 against - Europa Conference League
+10. Famalicao - 43 points - 11 wins - 10 draws - 13 losses - 62 scored - 65 against - No qualification
+11. Gil Vicente - 42 points - 13 wins - 3 draws - 18 losses - 52 scored - 62 against - No qualification
+12. Moreirense - 33 points - 9 wins - 6 draws - 19 losses - 55 scored - 88 against - No qualification
+13. Rio Ave - 30 points - 7 wins - 9 draws - 18 losses - 47 scored - 74 against - No qualification
+14. Estoril - 26 points - 7 wins - 5 draws - 22 losses - 40 scored - 81 against - No qualification
+15. Portimonense - 26 points - 7 wins - 5 draws - 22 losses - 38 scored - 74 against - No qualification
+16. Vizela - 23 points - 6 wins - 5 draws - 23 losses - 38 scored - 74 against - No qualification
+17. Estrela da Amadora - 22 points - 5 wins - 7 draws - 22 losses - 45 scored - 82 against - No qualification
+18. Farense - 18 points - 4 wins - 6 draws - 24 losses - 32 scored - 78 against - No qualification
+Teams of Portugal Cup: ['Porto', 'Benfica', 'Sporting CP', 'Braga', 'Vitoria de Guimaraes', 'Arouca', 'Chaves', 'Boavista', 'Famalicao', 'Casa Pia', 'Gil Vicente', 'Rio Ave', 'Vizela', 'Moreirense', 'Estoril', 'Portimonense']
+
+Current round: Round 1
+Porto 2 - 1 Benfica
+Porto won the match!
+Sporting CP 3 - 2 Braga
+Sporting CP won the match!
+Vitoria de Guimaraes 2 - 1 Arouca
+Vitoria de Guimaraes won the match!
+Chaves 1 - 0 Boavista
+Chaves won the match!
+Famalicao 2 - 0 Casa Pia
+Famalicao won the match!
+Gil Vicente 0 - 2 Rio Ave
+Rio Ave won the match!
+Vizela 2 - 1 Moreirense
+Vizela won the match!
+Estoril 2 - 0 Portimonense
+Estoril won the match!
+
+Current round: Round 2
+Porto 1 - 1 Sporting CP
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Porto 1 - 0 Sporting CP (Aggregate: 2 - 1)
+Vitoria de Guimaraes 2 - 1 Chaves
+Vitoria de Guimaraes won the match!
+Famalicao 2 - 1 Rio Ave
+Famalicao won the match!
+Vizela 2 - 1 Estoril
+Vizela won the match!
+
+Current round: Round 3
+Porto 2 - 2 Vitoria de Guimaraes
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Porto 1 - 1 Vitoria de Guimaraes (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Porto 4 - 2 Vitoria de Guimaraes
+Porto wins on penalties!
+Famalicao 2 - 1 Vizela
+Famalicao won the match!
+
+Current round: Round 4
+Porto 4 - 0 Famalicao
+Porto won the match!
+
+Winner of Portugal Cup: Porto
+Winner of League: Benfica
+1. Benfica - 84 points - 27 wins - 3 draws - 4 losses - 92 scored - 24 against - Champions League
+2. Braga - 81 points - 26 wins - 3 draws - 5 losses - 101 scored - 31 against - Champions League
+3. Sporting CP - 79 points - 25 wins - 4 draws - 5 losses - 86 scored - 44 against - Champions League
+4. Porto - 79 points - 23 wins - 10 draws - 1 losses - 92 scored - 31 against - Europa League
+5. Vitoria de Guimaraes - 74 points - 23 wins - 5 draws - 6 losses - 76 scored - 42 against - Europa League
+6. Chaves - 63 points - 19 wins - 6 draws - 9 losses - 62 scored - 45 against - Europa League
+7. Arouca - 62 points - 20 wins - 2 draws - 12 losses - 70 scored - 48 against - Europa Conference League
+8. Famalicao - 43 points - 12 wins - 7 draws - 15 losses - 55 scored - 62 against - Europa Conference League
+9. Casa Pia - 41 points - 12 wins - 5 draws - 17 losses - 58 scored - 68 against - Europa Conference League
+10. Gil Vicente - 40 points - 12 wins - 4 draws - 18 losses - 53 scored - 76 against - No qualification
+11. Boavista - 39 points - 10 wins - 9 draws - 15 losses - 56 scored - 66 against - No qualification
+12. Vizela - 38 points - 9 wins - 11 draws - 14 losses - 57 scored - 66 against - No qualification
+13. Rio Ave - 32 points - 7 wins - 11 draws - 16 losses - 48 scored - 77 against - No qualification
+14. Estrela da Amadora - 26 points - 8 wins - 2 draws - 24 losses - 44 scored - 82 against - No qualification
+15. Portimonense - 26 points - 7 wins - 5 draws - 22 losses - 45 scored - 80 against - No qualification
+16. Estoril - 20 points - 5 wins - 5 draws - 24 losses - 37 scored - 86 against - No qualification
+17. Moreirense - 20 points - 5 wins - 5 draws - 24 losses - 33 scored - 87 against - No qualification
+18. Farense - 20 points - 5 wins - 5 draws - 24 losses - 32 scored - 82 against - No qualification
+Teams of Portugal Cup: ['Benfica', 'Porto', 'Braga', 'Sporting CP', 'Vitoria de Guimaraes', 'Chaves', 'Arouca', 'Famalicao', 'Boavista', 'Casa Pia', 'Gil Vicente', 'Vizela', 'Rio Ave', 'Estrela da Amadora', 'Portimonense', 'Estoril']
+
+Current round: Round 1
+Portimonense 3 - 1 Vitoria de Guimaraes
+Portimonense won the match!
+Vizela 2 - 1 Casa Pia
+Vizela won the match!
+Braga 1 - 0 Estoril
+Braga won the match!
+Arouca 1 - 2 Famalicao
+Famalicao won the match!
+Boavista 3 - 1 Chaves
+Boavista won the match!
+Gil Vicente 1 - 0 Rio Ave
+Gil Vicente won the match!
+Estrela da Amadora 2 - 0 Sporting CP
+Estrela da Amadora won the match!
+Benfica 1 - 0 Porto
+Benfica won the match!
+
+Current round: Round 2
+Portimonense 2 - 2 Vizela
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Portimonense 1 - 0 Vizela (Aggregate: 3 - 2)
+Boavista 3 - 2 Gil Vicente
+Boavista won the match!
+Estrela da Amadora 1 - 1 Famalicao
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Estrela da Amadora 0 - 0 Famalicao (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Estrela da Amadora 4 - 2 Famalicao
+Estrela da Amadora wins on penalties!
+Benfica 2 - 2 Braga
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Benfica 1 - 0 Braga (Aggregate: 3 - 2)
+
+Current round: Round 3
+Boavista 1 - 2 Benfica
+Benfica won the match!
+Estrela da Amadora 2 - 0 Portimonense
+Estrela da Amadora won the match!
+
+Current round: Round 4
+Benfica 5 - 2 Estrela da Amadora
+Benfica won the match!
+
+Winner of Portugal Cup: Benfica

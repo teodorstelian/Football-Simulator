@@ -563,3 +563,682 @@ Aggregate Score: Liverpool 4 - 6 PSG
 PSG advances!
 
 Winner of Champions League: PSG
+Teams of current competition: ['Manchester City', 'Newcastle United', 'Liverpool', 'Arsenal', 'Atletico Madrid', 'Real Madrid', 'Barcelona', 'Osasuna', 'Borussia Dortmund', 'Bayern Munchen', 'Eintracht Frankfurt', 'Union Berlin', 'Inter Milan', 'Napoli', 'Juventus', 'Lazio', 'Rennes', 'PSG', 'AS Monaco', 'Nice', 'PSV Eindhoven', 'Vitesse', 'Feyenoord', 'Benfica', 'Porto', 'Sporting CP', 'Genk', 'Club Brugge', 'Rangers', 'St Johnstone', 'Red Bull Salzburg', 'Austria Wien']
+
+Current round: Round 1
+1st Leg: Manchester City (Home) 2 - 2 Newcastle United (Away)
+2nd Leg: Newcastle United (Home) 1 - 3 Manchester City (Away)
+Aggregate Score: Manchester City 5 - 3 Newcastle United
+Manchester City advances!
+1st Leg: Liverpool (Home) 3 - 1 Arsenal (Away)
+2nd Leg: Arsenal (Home) 1 - 3 Liverpool (Away)
+Aggregate Score: Liverpool 6 - 2 Arsenal
+Liverpool advances!
+1st Leg: Atletico Madrid (Home) 1 - 3 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 5 - 1 Atletico Madrid (Away)
+Aggregate Score: Atletico Madrid 2 - 8 Real Madrid
+Real Madrid advances!
+1st Leg: Barcelona (Home) 3 - 1 Osasuna (Away)
+2nd Leg: Osasuna (Home) 1 - 4 Barcelona (Away)
+Aggregate Score: Barcelona 7 - 2 Osasuna
+Barcelona advances!
+1st Leg: Borussia Dortmund (Home) 1 - 1 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 2 - 4 Borussia Dortmund (Away)
+Aggregate Score: Borussia Dortmund 5 - 3 Bayern Munchen
+Borussia Dortmund advances!
+1st Leg: Eintracht Frankfurt (Home) 3 - 1 Union Berlin (Away)
+2nd Leg: Union Berlin (Home) 2 - 3 Eintracht Frankfurt (Away)
+Aggregate Score: Eintracht Frankfurt 6 - 3 Union Berlin
+Eintracht Frankfurt advances!
+1st Leg: Inter Milan (Home) 1 - 1 Napoli (Away)
+2nd Leg: Napoli (Home) 2 - 0 Inter Milan (Away)
+Aggregate Score: Inter Milan 1 - 3 Napoli
+Napoli advances!
+1st Leg: Juventus (Home) 3 - 1 Lazio (Away)
+2nd Leg: Lazio (Home) 0 - 2 Juventus (Away)
+Aggregate Score: Juventus 5 - 1 Lazio
+Juventus advances!
+1st Leg: Rennes (Home) 1 - 3 PSG (Away)
+2nd Leg: PSG (Home) 4 - 1 Rennes (Away)
+Aggregate Score: Rennes 2 - 7 PSG
+PSG advances!
+1st Leg: AS Monaco (Home) 4 - 0 Nice (Away)
+2nd Leg: Nice (Home) 2 - 2 AS Monaco (Away)
+Aggregate Score: AS Monaco 6 - 2 Nice
+AS Monaco advances!
+1st Leg: PSV Eindhoven (Home) 2 - 2 Vitesse (Away)
+2nd Leg: Vitesse (Home) 0 - 1 PSV Eindhoven (Away)
+Aggregate Score: PSV Eindhoven 3 - 2 Vitesse
+PSV Eindhoven advances!
+1st Leg: Feyenoord (Home) 0 - 1 Benfica (Away)
+2nd Leg: Benfica (Home) 1 - 2 Feyenoord (Away)
+Aggregate Score: Feyenoord 2 - 2 Benfica
+Aggregate is tied! Proceeding to extra time...
+Benfica won against Feyenoord 1 - 0
+1st Leg: Porto (Home) 3 - 0 Sporting CP (Away)
+2nd Leg: Sporting CP (Home) 3 - 2 Porto (Away)
+Aggregate Score: Porto 5 - 3 Sporting CP
+Porto advances!
+1st Leg: Genk (Home) 3 - 2 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 3 - 2 Genk (Away)
+Aggregate Score: Genk 5 - 5 Club Brugge
+Aggregate is tied! Proceeding to extra time...
+Club Brugge won against Genk 1 - 0
+1st Leg: Rangers (Home) 5 - 0 St Johnstone (Away)
+2nd Leg: St Johnstone (Home) 2 - 1 Rangers (Away)
+Aggregate Score: Rangers 6 - 2 St Johnstone
+Rangers advances!
+1st Leg: Red Bull Salzburg (Home) 2 - 2 Austria Wien (Away)
+2nd Leg: Austria Wien (Home) 1 - 3 Red Bull Salzburg (Away)
+Aggregate Score: Red Bull Salzburg 5 - 3 Austria Wien
+Red Bull Salzburg advances!
+
+Current round: Round 2
+1st Leg: Manchester City (Home) 3 - 2 Liverpool (Away)
+2nd Leg: Liverpool (Home) 3 - 2 Manchester City (Away)
+Aggregate Score: Manchester City 5 - 5 Liverpool
+Aggregate is tied! Proceeding to extra time...
+Liverpool won against Manchester City 1 - 0
+1st Leg: Real Madrid (Home) 3 - 1 Barcelona (Away)
+2nd Leg: Barcelona (Home) 1 - 4 Real Madrid (Away)
+Aggregate Score: Real Madrid 7 - 2 Barcelona
+Real Madrid advances!
+1st Leg: Borussia Dortmund (Home) 3 - 1 Eintracht Frankfurt (Away)
+2nd Leg: Eintracht Frankfurt (Home) 1 - 4 Borussia Dortmund (Away)
+Aggregate Score: Borussia Dortmund 7 - 2 Eintracht Frankfurt
+Borussia Dortmund advances!
+1st Leg: Napoli (Home) 1 - 1 Juventus (Away)
+2nd Leg: Juventus (Home) 1 - 0 Napoli (Away)
+Aggregate Score: Napoli 1 - 2 Juventus
+Juventus advances!
+1st Leg: PSG (Home) 2 - 0 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 1 - 3 PSG (Away)
+Aggregate Score: PSG 5 - 1 AS Monaco
+PSG advances!
+1st Leg: PSV Eindhoven (Home) 1 - 1 Benfica (Away)
+2nd Leg: Benfica (Home) 1 - 2 PSV Eindhoven (Away)
+Aggregate Score: PSV Eindhoven 3 - 2 Benfica
+PSV Eindhoven advances!
+1st Leg: Porto (Home) 3 - 1 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 2 - 2 Porto (Away)
+Aggregate Score: Porto 5 - 3 Club Brugge
+Porto advances!
+1st Leg: Rangers (Home) 3 - 2 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 2 - 1 Rangers (Away)
+Aggregate Score: Rangers 4 - 4 Red Bull Salzburg
+Aggregate is tied! Proceeding to extra time...
+Red Bull Salzburg won against Rangers 1 - 0
+
+Current round: Round 3
+1st Leg: Liverpool (Home) 3 - 0 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 4 - 1 Liverpool (Away)
+Aggregate Score: Liverpool 4 - 4 Real Madrid
+Aggregate is tied! Proceeding to extra time...
+Liverpool won against Real Madrid 1 - 0
+1st Leg: Borussia Dortmund (Home) 5 - 3 Juventus (Away)
+2nd Leg: Juventus (Home) 1 - 1 Borussia Dortmund (Away)
+Aggregate Score: Borussia Dortmund 6 - 4 Juventus
+Borussia Dortmund advances!
+1st Leg: PSG (Home) 3 - 1 PSV Eindhoven (Away)
+2nd Leg: PSV Eindhoven (Home) 0 - 1 PSG (Away)
+Aggregate Score: PSG 4 - 1 PSV Eindhoven
+PSG advances!
+1st Leg: Porto (Home) 5 - 2 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 1 - 4 Porto (Away)
+Aggregate Score: Porto 9 - 3 Red Bull Salzburg
+Porto advances!
+
+Current round: Round 4
+1st Leg: Liverpool (Home) 4 - 1 Borussia Dortmund (Away)
+2nd Leg: Borussia Dortmund (Home) 0 - 2 Liverpool (Away)
+Aggregate Score: Liverpool 6 - 1 Borussia Dortmund
+Liverpool advances!
+1st Leg: PSG (Home) 3 - 1 Porto (Away)
+2nd Leg: Porto (Home) 1 - 4 PSG (Away)
+Aggregate Score: PSG 7 - 2 Porto
+PSG advances!
+
+Current round: Round 5
+1st Leg: Liverpool (Home) 2 - 1 PSG (Away)
+2nd Leg: PSG (Home) 2 - 3 Liverpool (Away)
+Aggregate Score: Liverpool 5 - 3 PSG
+Liverpool advances!
+
+Winner of Champions League: Liverpool
+Teams of current competition: ['Manchester City', 'Liverpool', 'Arsenal', 'Tottenham Hotspur', 'Atletico Madrid', 'Real Madrid', 'Sevilla', 'Barcelona', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'Eintracht Frankfurt', 'Inter Milan', 'Napoli', 'AC Milan', 'Juventus', 'RC Lens', 'PSG', 'Olympique Lyon', 'Marseille', 'Ajax', 'AZ', 'Feyenoord', 'Benfica', 'Porto', 'Sporting CP', 'Genk', 'Anderlecht', 'Celtic', 'Aberdeen', 'Red Bull Salzburg', 'Sturm Graz']
+
+Current round: Round 1
+1st Leg: Manchester City (Home) 3 - 1 Liverpool (Away)
+2nd Leg: Liverpool (Home) 0 - 1 Manchester City (Away)
+Aggregate Score: Manchester City 4 - 1 Liverpool
+Manchester City advances!
+1st Leg: Arsenal (Home) 2 - 0 Tottenham Hotspur (Away)
+2nd Leg: Tottenham Hotspur (Home) 0 - 2 Arsenal (Away)
+Aggregate Score: Arsenal 4 - 0 Tottenham Hotspur
+Arsenal advances!
+1st Leg: Atletico Madrid (Home) 0 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 2 - 0 Atletico Madrid (Away)
+Aggregate Score: Atletico Madrid 0 - 3 Real Madrid
+Real Madrid advances!
+1st Leg: Sevilla (Home) 2 - 2 Barcelona (Away)
+2nd Leg: Barcelona (Home) 1 - 0 Sevilla (Away)
+Aggregate Score: Sevilla 2 - 3 Barcelona
+Barcelona advances!
+1st Leg: Borussia Dortmund (Home) 3 - 2 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 3 - 0 Borussia Dortmund (Away)
+Aggregate Score: Borussia Dortmund 3 - 5 RB Leipzig
+RB Leipzig advances!
+1st Leg: Bayern Munchen (Home) 3 - 0 Eintracht Frankfurt (Away)
+2nd Leg: Eintracht Frankfurt (Home) 2 - 2 Bayern Munchen (Away)
+Aggregate Score: Bayern Munchen 5 - 2 Eintracht Frankfurt
+Bayern Munchen advances!
+1st Leg: Inter Milan (Home) 2 - 4 Napoli (Away)
+2nd Leg: Napoli (Home) 3 - 0 Inter Milan (Away)
+Aggregate Score: Inter Milan 2 - 7 Napoli
+Napoli advances!
+1st Leg: AC Milan (Home) 3 - 1 Juventus (Away)
+2nd Leg: Juventus (Home) 4 - 3 AC Milan (Away)
+Aggregate Score: AC Milan 6 - 5 Juventus
+AC Milan advances!
+1st Leg: RC Lens (Home) 1 - 3 PSG (Away)
+2nd Leg: PSG (Home) 3 - 1 RC Lens (Away)
+Aggregate Score: RC Lens 2 - 6 PSG
+PSG advances!
+1st Leg: Olympique Lyon (Home) 3 - 3 Marseille (Away)
+2nd Leg: Marseille (Home) 1 - 3 Olympique Lyon (Away)
+Aggregate Score: Olympique Lyon 6 - 4 Marseille
+Olympique Lyon advances!
+1st Leg: Ajax (Home) 3 - 1 AZ (Away)
+2nd Leg: AZ (Home) 2 - 3 Ajax (Away)
+Aggregate Score: Ajax 6 - 3 AZ
+Ajax advances!
+1st Leg: Feyenoord (Home) 2 - 2 Benfica (Away)
+2nd Leg: Benfica (Home) 4 - 1 Feyenoord (Away)
+Aggregate Score: Feyenoord 3 - 6 Benfica
+Benfica advances!
+1st Leg: Porto (Home) 3 - 0 Sporting CP (Away)
+2nd Leg: Sporting CP (Home) 0 - 4 Porto (Away)
+Aggregate Score: Porto 7 - 0 Sporting CP
+Porto advances!
+1st Leg: Genk (Home) 3 - 1 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 2 - 1 Genk (Away)
+Aggregate Score: Genk 4 - 3 Anderlecht
+Genk advances!
+1st Leg: Celtic (Home) 3 - 1 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 2 - 1 Celtic (Away)
+Aggregate Score: Celtic 4 - 3 Aberdeen
+Celtic advances!
+1st Leg: Red Bull Salzburg (Home) 2 - 0 Sturm Graz (Away)
+2nd Leg: Sturm Graz (Home) 2 - 2 Red Bull Salzburg (Away)
+Aggregate Score: Red Bull Salzburg 4 - 2 Sturm Graz
+Red Bull Salzburg advances!
+
+Current round: Round 2
+1st Leg: Manchester City (Home) 1 - 3 Arsenal (Away)
+2nd Leg: Arsenal (Home) 1 - 4 Manchester City (Away)
+Aggregate Score: Manchester City 5 - 4 Arsenal
+Manchester City advances!
+1st Leg: Real Madrid (Home) 2 - 0 Barcelona (Away)
+2nd Leg: Barcelona (Home) 2 - 3 Real Madrid (Away)
+Aggregate Score: Real Madrid 5 - 2 Barcelona
+Real Madrid advances!
+1st Leg: RB Leipzig (Home) 1 - 0 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 2 - 0 RB Leipzig (Away)
+Aggregate Score: RB Leipzig 1 - 2 Bayern Munchen
+Bayern Munchen advances!
+1st Leg: Napoli (Home) 3 - 1 AC Milan (Away)
+2nd Leg: AC Milan (Home) 3 - 1 Napoli (Away)
+Aggregate Score: Napoli 4 - 4 AC Milan
+Aggregate is tied! Proceeding to extra time...
+AC Milan won against Napoli 1 - 0
+1st Leg: PSG (Home) 5 - 2 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 2 - 4 PSG (Away)
+Aggregate Score: PSG 9 - 4 Olympique Lyon
+PSG advances!
+1st Leg: Ajax (Home) 2 - 2 Benfica (Away)
+2nd Leg: Benfica (Home) 4 - 2 Ajax (Away)
+Aggregate Score: Ajax 4 - 6 Benfica
+Benfica advances!
+1st Leg: Porto (Home) 1 - 2 Genk (Away)
+2nd Leg: Genk (Home) 2 - 3 Porto (Away)
+Aggregate Score: Porto 4 - 4 Genk
+Aggregate is tied! Proceeding to extra time...
+Porto won against Genk 1 - 0
+1st Leg: Celtic (Home) 2 - 2 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 2 - 1 Celtic (Away)
+Aggregate Score: Celtic 3 - 4 Red Bull Salzburg
+Red Bull Salzburg advances!
+
+Current round: Round 3
+1st Leg: Manchester City (Home) 2 - 3 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 3 - 0 Manchester City (Away)
+Aggregate Score: Manchester City 2 - 6 Real Madrid
+Real Madrid advances!
+1st Leg: Bayern Munchen (Home) 2 - 1 AC Milan (Away)
+2nd Leg: AC Milan (Home) 2 - 3 Bayern Munchen (Away)
+Aggregate Score: Bayern Munchen 5 - 3 AC Milan
+Bayern Munchen advances!
+1st Leg: PSG (Home) 3 - 0 Benfica (Away)
+2nd Leg: Benfica (Home) 2 - 1 PSG (Away)
+Aggregate Score: PSG 4 - 2 Benfica
+PSG advances!
+1st Leg: Porto (Home) 4 - 1 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 1 - 1 Porto (Away)
+Aggregate Score: Porto 5 - 2 Red Bull Salzburg
+Porto advances!
+
+Current round: Round 4
+1st Leg: Real Madrid (Home) 1 - 2 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 2 - 0 Real Madrid (Away)
+Aggregate Score: Real Madrid 1 - 4 Bayern Munchen
+Bayern Munchen advances!
+1st Leg: PSG (Home) 4 - 0 Porto (Away)
+2nd Leg: Porto (Home) 1 - 2 PSG (Away)
+Aggregate Score: PSG 6 - 1 Porto
+PSG advances!
+
+Current round: Round 5
+1st Leg: Bayern Munchen (Home) 1 - 1 PSG (Away)
+2nd Leg: PSG (Home) 2 - 3 Bayern Munchen (Away)
+Aggregate Score: Bayern Munchen 4 - 3 PSG
+Bayern Munchen advances!
+
+Winner of Champions League: Bayern Munchen
+Teams of current competition: ['Manchester City', 'Liverpool', 'Chelsea', 'Arsenal', 'Atletico Madrid', 'Real Madrid', 'Sevilla', 'Barcelona', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'Eintracht Frankfurt', 'Inter Milan', 'AC Milan', 'AS Roma', 'Juventus', 'RC Lens', 'PSG', 'AS Monaco', 'Olympique Lyon', 'Ajax', 'PSV Eindhoven', 'Feyenoord', 'Benfica', 'Braga', 'Porto', 'Genk', 'Anderlecht', 'Celtic', 'Aberdeen', 'Red Bull Salzburg', 'Sturm Graz']
+
+Current round: Round 1
+1st Leg: Manchester City (Home) 3 - 3 Liverpool (Away)
+2nd Leg: Liverpool (Home) 2 - 1 Manchester City (Away)
+1st Leg: Chelsea (Home) 1 - 2 Arsenal (Away)
+2nd Leg: Arsenal (Home) 3 - 1 Chelsea (Away)
+1st Leg: Atletico Madrid (Home) 2 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 4 - 1 Atletico Madrid (Away)
+1st Leg: Sevilla (Home) 1 - 3 Barcelona (Away)
+2nd Leg: Barcelona (Home) 1 - 2 Sevilla (Away)
+1st Leg: Borussia Dortmund (Home) 2 - 2 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 2 - 2 Borussia Dortmund (Away)
+1st Leg: Bayern Munchen (Home) 6 - 0 Eintracht Frankfurt (Away)
+2nd Leg: Eintracht Frankfurt (Home) 0 - 1 Bayern Munchen (Away)
+1st Leg: Inter Milan (Home) 0 - 1 AC Milan (Away)
+2nd Leg: AC Milan (Home) 2 - 1 Inter Milan (Away)
+1st Leg: AS Roma (Home) 2 - 1 Juventus (Away)
+2nd Leg: Juventus (Home) 4 - 3 AS Roma (Away)
+1st Leg: RC Lens (Home) 3 - 3 PSG (Away)
+2nd Leg: PSG (Home) 4 - 1 RC Lens (Away)
+1st Leg: AS Monaco (Home) 2 - 2 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 4 - 2 AS Monaco (Away)
+1st Leg: Ajax (Home) 2 - 0 PSV Eindhoven (Away)
+2nd Leg: PSV Eindhoven (Home) 4 - 2 Ajax (Away)
+1st Leg: Feyenoord (Home) 3 - 2 Benfica (Away)
+2nd Leg: Benfica (Home) 2 - 0 Feyenoord (Away)
+1st Leg: Braga (Home) 1 - 2 Porto (Away)
+2nd Leg: Porto (Home) 0 - 2 Braga (Away)
+1st Leg: Genk (Home) 3 - 0 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 2 - 2 Genk (Away)
+1st Leg: Celtic (Home) 2 - 2 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 2 - 2 Celtic (Away)
+1st Leg: Red Bull Salzburg (Home) 2 - 0 Sturm Graz (Away)
+2nd Leg: Sturm Graz (Home) 1 - 1 Red Bull Salzburg (Away)
+
+Current round: Round 2
+1st Leg: Liverpool (Home) 3 - 3 Arsenal (Away)
+2nd Leg: Arsenal (Home) 2 - 2 Liverpool (Away)
+1st Leg: Real Madrid (Home) 3 - 2 Barcelona (Away)
+2nd Leg: Barcelona (Home) 1 - 1 Real Madrid (Away)
+Teams of current competition: ['Manchester City', 'Liverpool', 'Chelsea', 'Arsenal', 'Atletico Madrid', 'Real Madrid', 'Sevilla', 'Barcelona', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'Eintracht Frankfurt', 'Inter Milan', 'AC Milan', 'AS Roma', 'Juventus', 'RC Lens', 'PSG', 'AS Monaco', 'Olympique Lyon', 'Ajax', 'PSV Eindhoven', 'Feyenoord', 'Benfica', 'Braga', 'Porto', 'Genk', 'Anderlecht', 'Celtic', 'Aberdeen', 'Red Bull Salzburg', 'Sturm Graz']
+
+Current round: Round 1
+1st Leg: Manchester City (Home) 2 - 2 Liverpool (Away)
+2nd Leg: Liverpool (Home) 2 - 2 Manchester City (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Manchester City 1 - 0 Liverpool (Aggregate: 5 - 4)
+1st Leg: Chelsea (Home) 1 - 2 Arsenal (Away)
+2nd Leg: Arsenal (Home) 3 - 1 Chelsea (Away)
+1st Leg: Atletico Madrid (Home) 2 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 3 - 0 Atletico Madrid (Away)
+1st Leg: Sevilla (Home) 0 - 3 Barcelona (Away)
+2nd Leg: Barcelona (Home) 1 - 2 Sevilla (Away)
+1st Leg: Borussia Dortmund (Home) 4 - 2 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 3 - 0 Borussia Dortmund (Away)
+1st Leg: Bayern Munchen (Home) 2 - 1 Eintracht Frankfurt (Away)
+2nd Leg: Eintracht Frankfurt (Home) 2 - 3 Bayern Munchen (Away)
+1st Leg: Inter Milan (Home) 3 - 2 AC Milan (Away)
+2nd Leg: AC Milan (Home) 2 - 2 Inter Milan (Away)
+1st Leg: AS Roma (Home) 0 - 3 Juventus (Away)
+2nd Leg: Juventus (Home) 2 - 0 AS Roma (Away)
+1st Leg: RC Lens (Home) 0 - 2 PSG (Away)
+2nd Leg: PSG (Home) 2 - 2 RC Lens (Away)
+1st Leg: AS Monaco (Home) 3 - 1 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 2 - 4 AS Monaco (Away)
+1st Leg: Ajax (Home) 3 - 1 PSV Eindhoven (Away)
+2nd Leg: PSV Eindhoven (Home) 1 - 2 Ajax (Away)
+1st Leg: Feyenoord (Home) 2 - 3 Benfica (Away)
+2nd Leg: Benfica (Home) 4 - 2 Feyenoord (Away)
+1st Leg: Braga (Home) 2 - 2 Porto (Away)
+2nd Leg: Porto (Home) 1 - 1 Braga (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Braga 1 - 1 Porto (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Braga 2 - 3 Porto
+Porto wins on penalties!
+1st Leg: Genk (Home) 2 - 1 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 2 - 3 Genk (Away)
+1st Leg: Celtic (Home) 1 - 1 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 2 - 2 Celtic (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Celtic 0 - 0 Aberdeen (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Celtic 3 - 4 Aberdeen
+Aberdeen wins on penalties!
+1st Leg: Red Bull Salzburg (Home) 1 - 1 Sturm Graz (Away)
+2nd Leg: Sturm Graz (Home) 3 - 1 Red Bull Salzburg (Away)
+
+Current round: Round 2
+1st Leg: Manchester City (Home) 1 - 1 Arsenal (Away)
+2nd Leg: Arsenal (Home) 1 - 3 Manchester City (Away)
+1st Leg: Real Madrid (Home) 1 - 0 Barcelona (Away)
+2nd Leg: Barcelona (Home) 2 - 3 Real Madrid (Away)
+1st Leg: RB Leipzig (Home) 2 - 1 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 2 - 0 RB Leipzig (Away)
+1st Leg: Inter Milan (Home) 2 - 2 Juventus (Away)
+2nd Leg: Juventus (Home) 4 - 2 Inter Milan (Away)
+1st Leg: PSG (Home) 3 - 0 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 2 - 0 PSG (Away)
+1st Leg: Ajax (Home) 2 - 0 Benfica (Away)
+2nd Leg: Benfica (Home) 2 - 2 Ajax (Away)
+1st Leg: Porto (Home) 3 - 2 Genk (Away)
+2nd Leg: Genk (Home) 0 - 1 Porto (Away)
+1st Leg: Aberdeen (Home) 3 - 2 Sturm Graz (Away)
+2nd Leg: Sturm Graz (Home) 2 - 2 Aberdeen (Away)
+
+Current round: Round 3
+1st Leg: Manchester City (Home) 4 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 1 - 4 Manchester City (Away)
+1st Leg: Bayern Munchen (Home) 3 - 2 Juventus (Away)
+2nd Leg: Juventus (Home) 2 - 3 Bayern Munchen (Away)
+1st Leg: PSG (Home) 3 - 0 Ajax (Away)
+2nd Leg: Ajax (Home) 0 - 2 PSG (Away)
+1st Leg: Porto (Home) 4 - 1 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 2 - 2 Porto (Away)
+
+Current round: Round 4
+1st Leg: Manchester City (Home) 2 - 1 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 3 - 1 Manchester City (Away)
+1st Leg: PSG (Home) 3 - 0 Porto (Away)
+2nd Leg: Porto (Home) 0 - 4 PSG (Away)
+
+Current round: Round 5
+1st Leg: Bayern Munchen (Home) 2 - 2 PSG (Away)
+2nd Leg: PSG (Home) 2 - 3 Bayern Munchen (Away)
+
+Winner of Champions League: Bayern Munchen
+Teams of current competition: ['Manchester City', 'Newcastle United', 'Liverpool', 'Arsenal', 'Atletico Madrid', 'Real Madrid', 'Sevilla', 'Barcelona', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'Bayer Leverkusen', 'Inter Milan', 'Napoli', 'AC Milan', 'Atalanta', 'RC Lens', 'PSG', 'Lille', 'Olympique Lyon', 'Ajax', 'PSV Eindhoven', 'Feyenoord', 'Benfica', 'Porto', 'Sporting CP', 'Genk', 'Union SG', 'Celtic', 'Aberdeen', 'Red Bull Salzburg', 'Sturm Graz']
+
+Current round: Round 1
+1st Leg: Manchester City (Home) 3 - 0 Newcastle United (Away)
+2nd Leg: Newcastle United (Home) 3 - 0 Manchester City (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Manchester City 1 - 0 Newcastle United (Aggregate: 4 - 3)
+1st Leg: Liverpool (Home) 3 - 1 Arsenal (Away)
+2nd Leg: Arsenal (Home) 2 - 1 Liverpool (Away)
+1st Leg: Atletico Madrid (Home) 1 - 2 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 2 - 1 Atletico Madrid (Away)
+1st Leg: Sevilla (Home) 2 - 3 Barcelona (Away)
+2nd Leg: Barcelona (Home) 4 - 0 Sevilla (Away)
+1st Leg: Borussia Dortmund (Home) 2 - 3 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 1 - 2 Borussia Dortmund (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Borussia Dortmund 0 - 1 RB Leipzig (Aggregate: 4 - 5)
+1st Leg: Bayern Munchen (Home) 4 - 1 Bayer Leverkusen (Away)
+2nd Leg: Bayer Leverkusen (Home) 0 - 3 Bayern Munchen (Away)
+1st Leg: Inter Milan (Home) 3 - 1 Napoli (Away)
+2nd Leg: Napoli (Home) 3 - 2 Inter Milan (Away)
+1st Leg: AC Milan (Home) 3 - 2 Atalanta (Away)
+2nd Leg: Atalanta (Home) 0 - 1 AC Milan (Away)
+1st Leg: RC Lens (Home) 1 - 3 PSG (Away)
+2nd Leg: PSG (Home) 5 - 0 RC Lens (Away)
+1st Leg: Lille (Home) 4 - 0 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 2 - 3 Lille (Away)
+1st Leg: Ajax (Home) 2 - 1 PSV Eindhoven (Away)
+2nd Leg: PSV Eindhoven (Home) 2 - 2 Ajax (Away)
+1st Leg: Feyenoord (Home) 1 - 3 Benfica (Away)
+2nd Leg: Benfica (Home) 3 - 2 Feyenoord (Away)
+1st Leg: Porto (Home) 1 - 1 Sporting CP (Away)
+2nd Leg: Sporting CP (Home) 2 - 2 Porto (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Porto 0 - 0 Sporting CP (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Porto 4 - 4 Sporting CP
+Penalties are tied! Sudden death begins!
+Sudden Death: Porto 5 - 4 Sporting CP
+Porto wins on sudden death penalties!
+1st Leg: Genk (Home) 0 - 3 Union SG (Away)
+2nd Leg: Union SG (Home) 3 - 1 Genk (Away)
+1st Leg: Celtic (Home) 2 - 2 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 3 - 1 Celtic (Away)
+1st Leg: Red Bull Salzburg (Home) 2 - 1 Sturm Graz (Away)
+2nd Leg: Sturm Graz (Home) 2 - 2 Red Bull Salzburg (Away)
+
+Current round: Round 2
+1st Leg: Manchester City (Home) 2 - 1 Liverpool (Away)
+2nd Leg: Liverpool (Home) 3 - 3 Manchester City (Away)
+1st Leg: Real Madrid (Home) 1 - 1 Barcelona (Away)
+2nd Leg: Barcelona (Home) 1 - 3 Real Madrid (Away)
+1st Leg: RB Leipzig (Home) 3 - 3 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 4 - 1 RB Leipzig (Away)
+1st Leg: Inter Milan (Home) 3 - 1 AC Milan (Away)
+2nd Leg: AC Milan (Home) 3 - 2 Inter Milan (Away)
+1st Leg: PSG (Home) 5 - 1 Lille (Away)
+2nd Leg: Lille (Home) 1 - 1 PSG (Away)
+1st Leg: Ajax (Home) 2 - 3 Benfica (Away)
+2nd Leg: Benfica (Home) 2 - 2 Ajax (Away)
+1st Leg: Porto (Home) 2 - 2 Union SG (Away)
+2nd Leg: Union SG (Home) 0 - 3 Porto (Away)
+1st Leg: Aberdeen (Home) 3 - 1 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 1 - 3 Aberdeen (Away)
+
+Current round: Round 3
+1st Leg: Manchester City (Home) 1 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 2 - 2 Manchester City (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Manchester City 0 - 1 Real Madrid (Aggregate: 3 - 4)
+1st Leg: Bayern Munchen (Home) 1 - 0 Inter Milan (Away)
+2nd Leg: Inter Milan (Home) 3 - 2 Bayern Munchen (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bayern Munchen 0 - 1 Inter Milan (Aggregate: 3 - 4)
+1st Leg: PSG (Home) 4 - 0 Benfica (Away)
+2nd Leg: Benfica (Home) 3 - 2 PSG (Away)
+1st Leg: Porto (Home) 2 - 1 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 3 - 4 Porto (Away)
+
+Current round: Round 4
+1st Leg: Real Madrid (Home) 2 - 1 Inter Milan (Away)
+2nd Leg: Inter Milan (Home) 3 - 1 Real Madrid (Away)
+1st Leg: PSG (Home) 2 - 0 Porto (Away)
+2nd Leg: Porto (Home) 2 - 4 PSG (Away)
+
+Current round: Round 5
+1st Leg: Inter Milan (Home) 2 - 1 PSG (Away)
+2nd Leg: PSG (Home) 2 - 1 Inter Milan (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Inter Milan 1 - 0 PSG (Aggregate: 4 - 3)
+
+Winner of Champions League: Inter Milan
+Teams of current competition: ['Manchester City', 'Liverpool', 'Chelsea', 'Arsenal', 'Atletico Madrid', 'Real Madrid', 'Real Sociedad', 'Barcelona', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'Eintracht Frankfurt', 'Inter Milan', 'Napoli', 'AC Milan', 'Juventus', 'RC Lens', 'Rennes', 'PSG', 'AS Monaco', 'Ajax', 'PSV Eindhoven', 'Feyenoord', 'Benfica', 'Porto', 'Sporting CP', 'Genk', 'Anderlecht', 'Aberdeen', 'Red Bull Salzburg', 'Rapid Wien', 'FCSB']
+
+Current round: Round 1
+1st Leg: Manchester City (Home) 2 - 1 Liverpool (Away)
+2nd Leg: Liverpool (Home) 2 - 0 Manchester City (Away)
+1st Leg: Chelsea (Home) 1 - 1 Arsenal (Away)
+2nd Leg: Arsenal (Home) 0 - 0 Chelsea (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Chelsea 1 - 1 Arsenal (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Chelsea 2 - 3 Arsenal
+Arsenal wins on penalties!
+1st Leg: Atletico Madrid (Home) 0 - 3 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 4 - 2 Atletico Madrid (Away)
+1st Leg: Real Sociedad (Home) 1 - 2 Barcelona (Away)
+2nd Leg: Barcelona (Home) 3 - 1 Real Sociedad (Away)
+1st Leg: Borussia Dortmund (Home) 3 - 2 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 2 - 1 Borussia Dortmund (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Borussia Dortmund 0 - 1 RB Leipzig (Aggregate: 4 - 5)
+1st Leg: Bayern Munchen (Home) 5 - 0 Eintracht Frankfurt (Away)
+2nd Leg: Eintracht Frankfurt (Home) 3 - 3 Bayern Munchen (Away)
+1st Leg: Inter Milan (Home) 2 - 0 Napoli (Away)
+2nd Leg: Napoli (Home) 2 - 1 Inter Milan (Away)
+1st Leg: AC Milan (Home) 1 - 2 Juventus (Away)
+2nd Leg: Juventus (Home) 2 - 1 AC Milan (Away)
+1st Leg: RC Lens (Home) 3 - 0 Rennes (Away)
+2nd Leg: Rennes (Home) 1 - 2 RC Lens (Away)
+1st Leg: PSG (Home) 4 - 0 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 1 - 2 PSG (Away)
+1st Leg: Ajax (Home) 3 - 1 PSV Eindhoven (Away)
+2nd Leg: PSV Eindhoven (Home) 1 - 2 Ajax (Away)
+1st Leg: Feyenoord (Home) 2 - 4 Benfica (Away)
+2nd Leg: Benfica (Home) 0 - 2 Feyenoord (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Feyenoord 1 - 1 Benfica (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Feyenoord 4 - 3 Benfica
+Feyenoord wins on penalties!
+1st Leg: Porto (Home) 1 - 0 Sporting CP (Away)
+2nd Leg: Sporting CP (Home) 4 - 1 Porto (Away)
+1st Leg: Genk (Home) 2 - 0 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 3 - 2 Genk (Away)
+1st Leg: Aberdeen (Home) 1 - 3 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 2 - 1 Aberdeen (Away)
+1st Leg: Rapid Wien (Home) 2 - 3 FCSB (Away)
+2nd Leg: FCSB (Home) 2 - 2 Rapid Wien (Away)
+
+Current round: Round 2
+1st Leg: Liverpool (Home) 1 - 3 Arsenal (Away)
+2nd Leg: Arsenal (Home) 4 - 2 Liverpool (Away)
+1st Leg: Real Madrid (Home) 3 - 2 Barcelona (Away)
+2nd Leg: Barcelona (Home) 1 - 0 Real Madrid (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Real Madrid 0 - 1 Barcelona (Aggregate: 3 - 4)
+1st Leg: RB Leipzig (Home) 1 - 1 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 3 - 1 RB Leipzig (Away)
+1st Leg: Inter Milan (Home) 1 - 1 Juventus (Away)
+2nd Leg: Juventus (Home) 1 - 0 Inter Milan (Away)
+1st Leg: RC Lens (Home) 2 - 2 PSG (Away)
+2nd Leg: PSG (Home) 2 - 0 RC Lens (Away)
+1st Leg: Ajax (Home) 3 - 3 Feyenoord (Away)
+2nd Leg: Feyenoord (Home) 1 - 2 Ajax (Away)
+1st Leg: Sporting CP (Home) 2 - 1 Genk (Away)
+2nd Leg: Genk (Home) 2 - 1 Sporting CP (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sporting CP 1 - 1 Genk (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Sporting CP 3 - 3 Genk
+Penalties are tied! Sudden death begins!
+Sudden Death: Sporting CP 3 - 4 Genk
+Genk wins on sudden death penalties!
+1st Leg: Red Bull Salzburg (Home) 2 - 2 FCSB (Away)
+2nd Leg: FCSB (Home) 2 - 1 Red Bull Salzburg (Away)
+
+Current round: Round 3
+1st Leg: Arsenal (Home) 3 - 2 Barcelona (Away)
+2nd Leg: Barcelona (Home) 2 - 1 Arsenal (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Arsenal 0 - 0 Barcelona (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Arsenal 2 - 5 Barcelona
+Barcelona wins on penalties!
+1st Leg: Bayern Munchen (Home) 3 - 1 Juventus (Away)
+2nd Leg: Juventus (Home) 3 - 3 Bayern Munchen (Away)
+1st Leg: PSG (Home) 2 - 1 Ajax (Away)
+2nd Leg: Ajax (Home) 0 - 5 PSG (Away)
+1st Leg: Genk (Home) 2 - 1 FCSB (Away)
+2nd Leg: FCSB (Home) 2 - 2 Genk (Away)
+
+Current round: Round 4
+1st Leg: Barcelona (Home) 3 - 2 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 4 - 0 Barcelona (Away)
+1st Leg: PSG (Home) 4 - 0 Genk (Away)
+2nd Leg: Genk (Home) 0 - 3 PSG (Away)
+
+Current round: Round 5
+1st Leg: Bayern Munchen (Home) 2 - 2 PSG (Away)
+2nd Leg: PSG (Home) 2 - 0 Bayern Munchen (Away)
+
+Winner of Champions League: PSG
+Teams of current competition: ['Manchester City', 'Liverpool', 'Arsenal', 'Tottenham Hotspur', 'Atletico Madrid', 'Real Madrid', 'Sevilla', 'Barcelona', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'Bayer Leverkusen', 'Napoli', 'AC Milan', 'AS Roma', 'Juventus', 'RC Lens', 'PSG', 'Lille', 'Marseille', 'Ajax', 'PSV Eindhoven', 'Feyenoord', 'Benfica', 'Braga', 'Sporting CP', 'Genk', 'Union SG', 'Rangers', 'Red Bull Salzburg', 'Sturm Graz', 'FCSB']
+
+Current round: Round 1
+1st Leg: Juventus (Home) 3 - 1 Union SG (Away)
+2nd Leg: Union SG (Home) 1 - 2 Juventus (Away)
+1st Leg: Real Madrid (Home) 3 - 1 Liverpool (Away)
+2nd Leg: Liverpool (Home) 4 - 1 Real Madrid (Away)
+1st Leg: Tottenham Hotspur (Home) 3 - 1 Rangers (Away)
+2nd Leg: Rangers (Home) 0 - 0 Tottenham Hotspur (Away)
+1st Leg: Feyenoord (Home) 0 - 2 Borussia Dortmund (Away)
+2nd Leg: Borussia Dortmund (Home) 3 - 2 Feyenoord (Away)
+1st Leg: Marseille (Home) 1 - 3 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 2 - 1 Marseille (Away)
+1st Leg: Braga (Home) 1 - 2 Lille (Away)
+2nd Leg: Lille (Home) 1 - 2 Braga (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Braga 1 - 0 Lille (Aggregate: 4 - 3)
+1st Leg: AC Milan (Home) 3 - 0 Benfica (Away)
+2nd Leg: Benfica (Home) 2 - 0 AC Milan (Away)
+1st Leg: PSV Eindhoven (Home) 2 - 1 Sporting CP (Away)
+2nd Leg: Sporting CP (Home) 1 - 2 PSV Eindhoven (Away)
+1st Leg: Ajax (Home) 0 - 3 Barcelona (Away)
+2nd Leg: Barcelona (Home) 4 - 2 Ajax (Away)
+1st Leg: PSG (Home) 2 - 2 RC Lens (Away)
+2nd Leg: RC Lens (Home) 2 - 1 PSG (Away)
+1st Leg: Napoli (Home) 4 - 1 FCSB (Away)
+2nd Leg: FCSB (Home) 1 - 1 Napoli (Away)
+1st Leg: Sturm Graz (Home) 0 - 4 Arsenal (Away)
+2nd Leg: Arsenal (Home) 3 - 0 Sturm Graz (Away)
+1st Leg: Atletico Madrid (Home) 1 - 2 Genk (Away)
+2nd Leg: Genk (Home) 2 - 2 Atletico Madrid (Away)
+1st Leg: Bayer Leverkusen (Home) 2 - 1 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 0 - 2 Bayer Leverkusen (Away)
+1st Leg: Sevilla (Home) 0 - 3 Manchester City (Away)
+2nd Leg: Manchester City (Home) 2 - 0 Sevilla (Away)
+1st Leg: AS Roma (Home) 4 - 1 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 3 - 1 AS Roma (Away)
+
+Current round: Round 2
+1st Leg: Arsenal (Home) 3 - 0 Barcelona (Away)
+2nd Leg: Barcelona (Home) 1 - 0 Arsenal (Away)
+1st Leg: AS Roma (Home) 2 - 0 Bayer Leverkusen (Away)
+2nd Leg: Bayer Leverkusen (Home) 2 - 2 AS Roma (Away)
+1st Leg: PSV Eindhoven (Home) 3 - 2 Juventus (Away)
+2nd Leg: Juventus (Home) 3 - 1 PSV Eindhoven (Away)
+1st Leg: Borussia Dortmund (Home) 2 - 2 Manchester City (Away)
+2nd Leg: Manchester City (Home) 3 - 1 Borussia Dortmund (Away)
+1st Leg: Napoli (Home) 2 - 0 Braga (Away)
+2nd Leg: Braga (Home) 1 - 1 Napoli (Away)
+1st Leg: Bayern Munchen (Home) 3 - 1 RC Lens (Away)
+2nd Leg: RC Lens (Home) 1 - 2 Bayern Munchen (Away)
+1st Leg: Tottenham Hotspur (Home) 3 - 1 Genk (Away)
+2nd Leg: Genk (Home) 0 - 2 Tottenham Hotspur (Away)
+1st Leg: AC Milan (Home) 2 - 3 Liverpool (Away)
+2nd Leg: Liverpool (Home) 2 - 0 AC Milan (Away)
+
+Current round: Round 3
+1st Leg: Bayern Munchen (Home) 2 - 1 Juventus (Away)
+2nd Leg: Juventus (Home) 1 - 3 Bayern Munchen (Away)
+1st Leg: AS Roma (Home) 2 - 1 Tottenham Hotspur (Away)
+2nd Leg: Tottenham Hotspur (Home) 2 - 2 AS Roma (Away)
+1st Leg: Liverpool (Home) 3 - 0 Napoli (Away)
+2nd Leg: Napoli (Home) 1 - 2 Liverpool (Away)
+1st Leg: Arsenal (Home) 0 - 4 Manchester City (Away)
+2nd Leg: Manchester City (Home) 2 - 0 Arsenal (Away)
+
+Current round: Round 4
+1st Leg: Manchester City (Home) 2 - 2 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 4 - 1 Manchester City (Away)
+1st Leg: Liverpool (Home) 2 - 0 AS Roma (Away)
+2nd Leg: AS Roma (Home) 2 - 3 Liverpool (Away)
+
+Current round: Round 5
+1st Leg: Bayern Munchen (Home) 2 - 2 Liverpool (Away)
+2nd Leg: Liverpool (Home) 3 - 2 Bayern Munchen (Away)
+
+Winner of Champions League: Liverpool

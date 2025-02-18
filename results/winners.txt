@@ -84,3 +84,127 @@ Winner of Spain Cup: Barcelona
 Winner of Champions League: Bayern Munchen
 Winner of Champions League: PSG
 Winner of Europa League: Tottenham Hotspur
+Winner of Champions League: Liverpool
+Winner of England League: Manchester City
+Winner of England Cup: Manchester City
+Winner of Spain League: Barcelona
+Winner of Spain Cup: Barcelona
+Winner of Germany League: Bayern Munchen
+Winner of Germany Cup: Bayern Munchen
+Winner of Italy League: AC Milan
+Winner of Italy Cup: Juventus
+Winner of France League: PSG
+Winner of France Cup: PSG
+Winner of Netherlands League: Ajax
+Winner of Netherlands Cup: Ajax
+Winner of Portugal League: Porto
+Winner of Portugal Cup: Vitoria de Guimaraes
+Winner of Belgium League: Genk
+Winner of Belgium Cup: Genk
+Winner of Scotland League: Aberdeen
+Winner of Scotland Cup: Celtic
+Winner of Austria League: Red Bull Salzburg
+Winner of Austria Cup: LASK
+Winner of Europa Conference League: Borussia Monchengladbach
+Winner of Europa League: Newcastle United
+Winner of Champions League: Bayern Munchen
+Winner of England Cup: Liverpool
+Winner of England Cup: Manchester City
+Winner of England Cup: Manchester United
+Winner of England League: Manchester City
+Winner of England Cup: Arsenal
+Winner of Spain League: Real Madrid
+Winner of Spain Cup: Real Madrid
+Winner of Germany League: Bayern Munchen
+Winner of Germany Cup: Bayern Munchen
+Winner of Italy League: Inter Milan
+Winner of Italy Cup: Atalanta
+Winner of France League: PSG
+Winner of France Cup: PSG
+Winner of Netherlands League: Ajax
+Winner of Netherlands Cup: Ajax
+Winner of Portugal League: Benfica
+Winner of Portugal Cup: Porto
+Winner of Belgium League: Anderlecht
+Winner of Belgium Cup: Club Brugge
+Winner of Scotland League: Aberdeen
+Winner of Scotland Cup: Rangers
+Winner of Austria League: Red Bull Salzburg
+Winner of Austria Cup: Red Bull Salzburg
+Winner of England Cup: Liverpool
+Winner of Champions League: Bayern Munchen
+Winner of England League: Liverpool
+Winner of England Cup: Liverpool
+Winner of Spain League: Real Madrid
+Winner of Spain Cup: Barcelona
+Winner of Germany League: Bayern Munchen
+Winner of Germany Cup: Borussia Dortmund
+Winner of Italy League: AC Milan
+Winner of Italy Cup: Napoli
+Winner of France League: PSG
+Winner of France Cup: PSG
+Winner of Netherlands League: Ajax
+Winner of Netherlands Cup: Ajax
+Winner of Portugal League: Porto
+Winner of Portugal Cup: Porto
+Winner of Belgium League: Genk
+Winner of Belgium Cup: Westerlo
+Winner of Scotland League: Celtic
+Winner of Scotland Cup: St Johnstone
+Winner of Austria League: Red Bull Salzburg
+Winner of Austria Cup: Sturm Graz
+Winner of Europa Conference League: Club Brugge
+Winner of Europa League: Tottenham Hotspur
+Winner of Champions League: Inter Milan
+Winner of England League: Manchester City
+Winner of England Cup: Arsenal
+Winner of Spain League: Real Madrid
+Winner of Spain Cup: Barcelona
+Winner of Germany League: Bayern Munchen
+Winner of Germany Cup: Bayern Munchen
+Winner of Italy League: Inter Milan
+Winner of Italy Cup: Inter Milan
+Winner of France League: PSG
+Winner of France Cup: PSG
+Winner of Netherlands League: Ajax
+Winner of Netherlands Cup: Almere City
+Winner of Portugal League: Porto
+Winner of Portugal Cup: Porto
+Winner of Belgium League: Genk
+Winner of Belgium Cup: Genk
+Winner of Scotland League: Aberdeen
+Winner of Scotland Cup: Rangers
+Winner of Austria League: Rapid Wien
+Winner of Austria Cup: Red Bull Salzburg
+Winner of Romania League: FCSB
+Winner of Romania Cup: FCSB
+Winner of Europa Conference League: Rangers
+Winner of Europa League: Vitoria de Guimaraes
+Winner of Champions League: PSG
+Winner of England League: Manchester City
+Winner of England Cup: Manchester City
+Winner of England League: Manchester City
+Winner of England Cup: Manchester City
+Winner of Spain League: Real Madrid
+Winner of Spain Cup: Barcelona
+Winner of Germany League: Bayern Munchen
+Winner of Germany Cup: Bayern Munchen
+Winner of Italy League: Napoli
+Winner of Italy Cup: Juventus
+Winner of France League: PSG
+Winner of France Cup: PSG
+Winner of Netherlands League: Ajax
+Winner of Netherlands Cup: Ajax
+Winner of Portugal League: Benfica
+Winner of Portugal Cup: Benfica
+Winner of Belgium League: Genk
+Winner of Belgium Cup: Cercle Brugge
+Winner of Scotland League: Rangers
+Winner of Scotland Cup: Celtic
+Winner of Austria League: Red Bull Salzburg
+Winner of Austria Cup: Austria Wien
+Winner of Romania League: FCSB
+Winner of Romania Cup: FCSB
+Winner of Europa Conference League: West Ham United
+Winner of Europa League: Manchester United
+Winner of Champions League: Liverpool

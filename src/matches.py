@@ -1,6 +1,6 @@
 import math
 from pathlib import Path
-
+import random
 import settings
 
 
@@ -109,6 +109,9 @@ def generate_fixtures_cup(teams, competition, has_2_legs=False, logging=False):
 
     # Iterate through rounds
     for round_num in range(num_rounds):
+        # Shuffle the participants before each round
+        random.shuffle(current_participants)
+
         round_name = f"Round {round_num + 1}"
         print(round_name)
         if logging:

@@ -89,3 +89,373 @@ Current round: Round 4
 Atalanta won against Bologna 3 - 2
 
 Winner of Italy Cup: Atalanta
+Winner of League: AC Milan
+1. AC Milan - 101 points - 32 wins - 5 draws - 1 losses - 121 scored - 26 against - Champions League
+2. Inter Milan - 97 points - 31 wins - 4 draws - 3 losses - 96 scored - 25 against - Champions League
+3. Juventus - 96 points - 29 wins - 9 draws - 0 losses - 110 scored - 29 against - Champions League
+4. Napoli - 87 points - 27 wins - 6 draws - 5 losses - 104 scored - 43 against - Champions League
+5. AS Roma - 81 points - 25 wins - 6 draws - 7 losses - 94 scored - 51 against - Europa League
+6. Atalanta - 76 points - 25 wins - 1 draws - 12 losses - 84 scored - 50 against - Europa League
+7. Lazio - 73 points - 23 wins - 4 draws - 11 losses - 78 scored - 59 against - Europa League
+8. Bologna - 60 points - 19 wins - 3 draws - 16 losses - 72 scored - 67 against - Europa League
+9. Fiorentina - 59 points - 17 wins - 8 draws - 13 losses - 76 scored - 71 against - Europa Conference League
+10. Monza - 47 points - 14 wins - 5 draws - 19 losses - 57 scored - 69 against - Europa Conference League
+11. Sassuolo - 43 points - 11 wins - 10 draws - 17 losses - 60 scored - 75 against - Europa Conference League
+12. Empoli - 38 points - 10 wins - 8 draws - 20 losses - 51 scored - 80 against - Europa Conference League
+13. Lecce - 36 points - 10 wins - 6 draws - 22 losses - 59 scored - 86 against - No qualification
+14. Udinese - 34 points - 9 wins - 7 draws - 22 losses - 51 scored - 82 against - No qualification
+15. Torino - 31 points - 8 wins - 7 draws - 23 losses - 49 scored - 82 against - No qualification
+16. Genoa - 29 points - 8 wins - 5 draws - 25 losses - 47 scored - 95 against - No qualification
+17. Frosinone - 27 points - 7 wins - 6 draws - 25 losses - 44 scored - 93 against - No qualification
+18. Salernitana - 25 points - 6 wins - 7 draws - 25 losses - 49 scored - 92 against - No qualification
+19. Cagliari - 21 points - 5 wins - 6 draws - 27 losses - 29 scored - 95 against - No qualification
+20. Hellas Verona - 19 points - 4 wins - 7 draws - 27 losses - 50 scored - 111 against - No qualification
+Teams of Italy Cup: ['AC Milan', 'Inter Milan', 'Juventus', 'Napoli', 'AS Roma', 'Atalanta', 'Lazio', 'Fiorentina', 'Bologna', 'Monza', 'Torino', 'Sassuolo', 'Empoli', 'Lecce', 'Udinese', 'Salernitana']
+
+Current round: Round 1
+AC Milan 2 - 3 Inter Milan
+Inter Milan won against AC Milan
+Juventus 2 - 1 Napoli
+Juventus won against Napoli
+AS Roma 2 - 1 Atalanta
+AS Roma won against Atalanta
+Lazio 2 - 3 Fiorentina
+Fiorentina won against Lazio
+Bologna 2 - 1 Monza
+Bologna won against Monza
+Torino 2 - 0 Sassuolo
+Torino won against Sassuolo
+Empoli 1 - 2 Lecce
+Lecce won against Empoli
+Udinese 2 - 1 Salernitana
+Udinese won against Salernitana
+
+Current round: Round 2
+Inter Milan 1 - 1 Juventus
+Aggregate is tied! Proceeding to extra time...
+Juventus won against Inter Milan 1 - 0
+AS Roma 1 - 0 Fiorentina
+AS Roma won against Fiorentina
+Bologna 1 - 1 Torino
+Aggregate is tied! Proceeding to extra time...
+Bologna won against Torino 1 - 0
+Lecce 1 - 2 Udinese
+Udinese won against Lecce
+
+Current round: Round 3
+Juventus 2 - 2 AS Roma
+Aggregate is tied! Proceeding to extra time...
+Juventus won against AS Roma 1 - 0
+Bologna 3 - 2 Udinese
+Bologna won against Udinese
+
+Current round: Round 4
+Juventus 3 - 1 Bologna
+Juventus won against Bologna
+
+Winner of Italy Cup: Juventus
+Winner of League: Inter Milan
+1. Inter Milan - 97 points - 32 wins - 1 draws - 5 losses - 97 scored - 34 against - Champions League
+2. AC Milan - 97 points - 31 wins - 4 draws - 3 losses - 118 scored - 37 against - Champions League
+3. Juventus - 89 points - 28 wins - 5 draws - 5 losses - 106 scored - 37 against - Champions League
+4. AS Roma - 89 points - 28 wins - 5 draws - 5 losses - 91 scored - 44 against - Champions League
+5. Lazio - 80 points - 25 wins - 5 draws - 8 losses - 90 scored - 44 against - Europa League
+6. Napoli - 79 points - 24 wins - 7 draws - 7 losses - 94 scored - 48 against - Europa League
+7. Atalanta - 77 points - 24 wins - 5 draws - 9 losses - 92 scored - 55 against - Europa League
+8. Fiorentina - 64 points - 19 wins - 7 draws - 12 losses - 80 scored - 60 against - Europa League
+9. Bologna - 49 points - 14 wins - 7 draws - 17 losses - 65 scored - 74 against - Europa Conference League
+10. Torino - 46 points - 12 wins - 10 draws - 16 losses - 68 scored - 71 against - Europa Conference League
+11. Monza - 45 points - 12 wins - 9 draws - 17 losses - 62 scored - 80 against - Europa Conference League
+12. Lecce - 40 points - 11 wins - 7 draws - 20 losses - 55 scored - 72 against - Europa Conference League
+13. Empoli - 40 points - 9 wins - 13 draws - 16 losses - 55 scored - 81 against - No qualification
+14. Salernitana - 32 points - 8 wins - 8 draws - 22 losses - 54 scored - 88 against - No qualification
+15. Genoa - 30 points - 9 wins - 3 draws - 26 losses - 41 scored - 95 against - No qualification
+16. Frosinone - 30 points - 8 wins - 6 draws - 24 losses - 49 scored - 98 against - No qualification
+17. Sassuolo - 27 points - 7 wins - 6 draws - 25 losses - 50 scored - 90 against - No qualification
+18. Cagliari - 25 points - 5 wins - 10 draws - 23 losses - 41 scored - 95 against - No qualification
+19. Udinese - 24 points - 5 wins - 9 draws - 24 losses - 42 scored - 85 against - No qualification
+20. Hellas Verona - 12 points - 1 wins - 9 draws - 28 losses - 35 scored - 97 against - No qualification
+Teams of Italy Cup: ['Inter Milan', 'AC Milan', 'Juventus', 'Napoli', 'AS Roma', 'Lazio', 'Atalanta', 'Fiorentina', 'Bologna', 'Torino', 'Monza', 'Lecce', 'Empoli', 'Salernitana', 'Sassuolo', 'Udinese']
+
+Current round: Round 1
+Inter Milan 3 - 2 AC Milan
+Inter Milan won the match!
+Juventus 1 - 0 Napoli
+Juventus won the match!
+AS Roma 0 - 3 Lazio
+Lazio won the match!
+Atalanta 3 - 0 Fiorentina
+Atalanta won the match!
+Bologna 2 - 2 Torino
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bologna 1 - 0 Torino (Aggregate: 3 - 2)
+Monza 2 - 0 Lecce
+Monza won the match!
+Empoli 0 - 1 Salernitana
+Salernitana won the match!
+Sassuolo 2 - 1 Udinese
+Sassuolo won the match!
+
+Current round: Round 2
+Inter Milan 2 - 2 Juventus
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Inter Milan 1 - 1 Juventus (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Inter Milan 5 - 2 Juventus
+Inter Milan wins on penalties!
+Lazio 1 - 1 Atalanta
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lazio 0 - 1 Atalanta (Aggregate: 1 - 2)
+Bologna 2 - 0 Monza
+Bologna won the match!
+Salernitana 3 - 1 Sassuolo
+Salernitana won the match!
+
+Current round: Round 3
+Inter Milan 2 - 2 Atalanta
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Inter Milan 0 - 1 Atalanta (Aggregate: 2 - 3)
+Bologna 4 - 2 Salernitana
+Bologna won the match!
+
+Current round: Round 4
+Atalanta 2 - 1 Bologna
+Atalanta won the match!
+
+Winner of Italy Cup: Atalanta
+Winner of League: AC Milan
+1. AC Milan - 101 points - 33 wins - 2 draws - 3 losses - 115 scored - 29 against - Champions League
+2. Inter Milan - 92 points - 29 wins - 5 draws - 4 losses - 100 scored - 42 against - Champions League
+3. Napoli - 88 points - 28 wins - 4 draws - 6 losses - 104 scored - 45 against - Champions League
+4. Atalanta - 85 points - 27 wins - 4 draws - 7 losses - 91 scored - 46 against - Champions League
+5. Juventus - 83 points - 27 wins - 2 draws - 9 losses - 89 scored - 44 against - Europa League
+6. AS Roma - 81 points - 25 wins - 6 draws - 7 losses - 101 scored - 51 against - Europa League
+7. Lazio - 80 points - 25 wins - 5 draws - 8 losses - 77 scored - 43 against - Europa League
+8. Fiorentina - 68 points - 21 wins - 5 draws - 12 losses - 77 scored - 61 against - Europa League
+9. Bologna - 59 points - 18 wins - 5 draws - 15 losses - 69 scored - 64 against - Europa Conference League
+10. Lecce - 56 points - 16 wins - 8 draws - 14 losses - 70 scored - 71 against - Europa Conference League
+11. Torino - 48 points - 14 wins - 6 draws - 18 losses - 55 scored - 58 against - Europa Conference League
+12. Monza - 48 points - 13 wins - 9 draws - 16 losses - 73 scored - 80 against - Europa Conference League
+13. Salernitana - 40 points - 11 wins - 7 draws - 20 losses - 60 scored - 82 against - No qualification
+14. Sassuolo - 28 points - 8 wins - 4 draws - 26 losses - 43 scored - 92 against - No qualification
+15. Empoli - 27 points - 7 wins - 6 draws - 25 losses - 52 scored - 88 against - No qualification
+16. Frosinone - 26 points - 7 wins - 5 draws - 26 losses - 41 scored - 91 against - No qualification
+17. Cagliari - 25 points - 6 wins - 7 draws - 25 losses - 37 scored - 92 against - No qualification
+18. Udinese - 24 points - 6 wins - 6 draws - 26 losses - 43 scored - 77 against - No qualification
+19. Hellas Verona - 17 points - 4 wins - 5 draws - 29 losses - 36 scored - 108 against - No qualification
+20. Genoa - 12 points - 3 wins - 3 draws - 32 losses - 43 scored - 112 against - No qualification
+Teams of Italy Cup: ['AC Milan', 'Inter Milan', 'Napoli', 'Juventus', 'Atalanta', 'AS Roma', 'Lazio', 'Fiorentina', 'Bologna', 'Torino', 'Monza', 'Lecce', 'Salernitana', 'Sassuolo', 'Empoli', 'Udinese']
+
+Current round: Round 1
+AC Milan 2 - 2 Inter Milan
+Aggregate is tied! Proceeding to extra time...
+Extra Time: AC Milan 1 - 1 Inter Milan (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: AC Milan 3 - 3 Inter Milan
+Penalties are tied! Sudden death begins!
+Sudden Death: AC Milan 5 - 6 Inter Milan
+Inter Milan wins on sudden death penalties!
+Napoli 2 - 0 Juventus
+Napoli won the match!
+Atalanta 2 - 1 AS Roma
+Atalanta won the match!
+Lazio 1 - 1 Fiorentina
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lazio 0 - 0 Fiorentina (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Lazio 2 - 4 Fiorentina
+Fiorentina wins on penalties!
+Bologna 2 - 3 Torino
+Torino won the match!
+Monza 0 - 2 Lecce
+Lecce won the match!
+Salernitana 0 - 2 Sassuolo
+Sassuolo won the match!
+Empoli 2 - 0 Udinese
+Empoli won the match!
+
+Current round: Round 2
+Inter Milan 4 - 4 Napoli
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Inter Milan 0 - 0 Napoli (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Inter Milan 3 - 4 Napoli
+Napoli wins on penalties!
+Atalanta 1 - 1 Fiorentina
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Atalanta 1 - 1 Fiorentina (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Atalanta 4 - 4 Fiorentina
+Penalties are tied! Sudden death begins!
+Sudden Death: Atalanta 12 - 13 Fiorentina
+Fiorentina wins on sudden death penalties!
+Torino 1 - 1 Lecce
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Torino 1 - 1 Lecce (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Torino 5 - 3 Lecce
+Torino wins on penalties!
+Sassuolo 1 - 1 Empoli
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sassuolo 1 - 0 Empoli (Aggregate: 2 - 1)
+
+Current round: Round 3
+Napoli 3 - 3 Fiorentina
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Napoli 1 - 0 Fiorentina (Aggregate: 4 - 3)
+Torino 2 - 2 Sassuolo
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Torino 0 - 0 Sassuolo (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Torino 2 - 5 Sassuolo
+Sassuolo wins on penalties!
+
+Current round: Round 4
+Napoli 4 - 1 Sassuolo
+Napoli won the match!
+
+Winner of Italy Cup: Napoli
+Winner of League: Inter Milan
+1. Inter Milan - 96 points - 31 wins - 3 draws - 4 losses - 107 scored - 42 against - Champions League
+2. Napoli - 96 points - 31 wins - 3 draws - 4 losses - 95 scored - 34 against - Champions League
+3. AC Milan - 94 points - 30 wins - 4 draws - 4 losses - 112 scored - 38 against - Champions League
+4. Juventus - 90 points - 29 wins - 3 draws - 6 losses - 98 scored - 41 against - Champions League
+5. Atalanta - 79 points - 25 wins - 4 draws - 9 losses - 92 scored - 48 against - Europa League
+6. Lazio - 76 points - 23 wins - 7 draws - 8 losses - 88 scored - 44 against - Europa League
+7. AS Roma - 73 points - 23 wins - 4 draws - 11 losses - 87 scored - 54 against - Europa League
+8. Fiorentina - 66 points - 20 wins - 6 draws - 12 losses - 70 scored - 53 against - Europa League
+9. Torino - 55 points - 16 wins - 7 draws - 15 losses - 71 scored - 64 against - Europa Conference League
+10. Bologna - 52 points - 15 wins - 7 draws - 16 losses - 67 scored - 79 against - Europa Conference League
+11. Monza - 49 points - 13 wins - 10 draws - 15 losses - 61 scored - 66 against - Europa Conference League
+12. Sassuolo - 47 points - 13 wins - 8 draws - 17 losses - 52 scored - 72 against - Europa Conference League
+13. Empoli - 40 points - 11 wins - 7 draws - 20 losses - 57 scored - 78 against - No qualification
+14. Salernitana - 35 points - 9 wins - 8 draws - 21 losses - 56 scored - 84 against - No qualification
+15. Lecce - 29 points - 7 wins - 8 draws - 23 losses - 44 scored - 85 against - No qualification
+16. Frosinone - 28 points - 8 wins - 4 draws - 26 losses - 39 scored - 92 against - No qualification
+17. Udinese - 24 points - 6 wins - 6 draws - 26 losses - 50 scored - 99 against - No qualification
+18. Hellas Verona - 24 points - 6 wins - 6 draws - 26 losses - 28 scored - 90 against - No qualification
+19. Genoa - 18 points - 5 wins - 3 draws - 30 losses - 37 scored - 95 against - No qualification
+20. Cagliari - 12 points - 2 wins - 6 draws - 30 losses - 44 scored - 97 against - No qualification
+Teams of Italy Cup: ['Inter Milan', 'Napoli', 'AC Milan', 'Juventus', 'Atalanta', 'Lazio', 'AS Roma', 'Fiorentina', 'Torino', 'Bologna', 'Monza', 'Sassuolo', 'Empoli', 'Salernitana', 'Lecce', 'Udinese']
+
+Current round: Round 1
+Inter Milan 2 - 1 Napoli
+Inter Milan won the match!
+AC Milan 1 - 2 Juventus
+Juventus won the match!
+Atalanta 3 - 2 Lazio
+Atalanta won the match!
+AS Roma 2 - 2 Fiorentina
+Aggregate is tied! Proceeding to extra time...
+Extra Time: AS Roma 0 - 1 Fiorentina (Aggregate: 2 - 3)
+Torino 0 - 1 Bologna
+Bologna won the match!
+Monza 3 - 1 Sassuolo
+Monza won the match!
+Empoli 3 - 1 Salernitana
+Empoli won the match!
+Lecce 2 - 1 Udinese
+Lecce won the match!
+
+Current round: Round 2
+Inter Milan 1 - 0 Juventus
+Inter Milan won the match!
+Atalanta 2 - 0 Fiorentina
+Atalanta won the match!
+Bologna 2 - 1 Monza
+Bologna won the match!
+Empoli 2 - 2 Lecce
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Empoli 1 - 1 Lecce (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Empoli 4 - 4 Lecce
+Penalties are tied! Sudden death begins!
+Sudden Death: Empoli 5 - 4 Lecce
+Empoli wins on sudden death penalties!
+
+Current round: Round 3
+Inter Milan 2 - 1 Atalanta
+Inter Milan won the match!
+Bologna 3 - 2 Empoli
+Bologna won the match!
+
+Current round: Round 4
+Inter Milan 3 - 0 Bologna
+Inter Milan won the match!
+
+Winner of Italy Cup: Inter Milan
+Winner of League: Napoli
+1. Napoli - 99 points - 32 wins - 3 draws - 3 losses - 103 scored - 30 against - Champions League
+2. AC Milan - 95 points - 30 wins - 5 draws - 3 losses - 108 scored - 33 against - Champions League
+3. Juventus - 89 points - 28 wins - 5 draws - 5 losses - 103 scored - 37 against - Champions League
+4. AS Roma - 86 points - 27 wins - 5 draws - 6 losses - 94 scored - 45 against - Champions League
+5. Inter Milan - 85 points - 25 wins - 10 draws - 3 losses - 92 scored - 41 against - Europa League
+6. Atalanta - 77 points - 23 wins - 8 draws - 7 losses - 84 scored - 46 against - Europa League
+7. Lazio - 76 points - 23 wins - 7 draws - 8 losses - 92 scored - 50 against - Europa League
+8. Fiorentina - 63 points - 18 wins - 9 draws - 11 losses - 72 scored - 57 against - Europa League
+9. Monza - 55 points - 16 wins - 7 draws - 15 losses - 55 scored - 61 against - Europa Conference League
+10. Bologna - 49 points - 13 wins - 10 draws - 15 losses - 61 scored - 72 against - Europa Conference League
+11. Torino - 44 points - 12 wins - 8 draws - 18 losses - 72 scored - 78 against - Europa Conference League
+12. Sassuolo - 43 points - 11 wins - 10 draws - 17 losses - 58 scored - 70 against - Europa Conference League
+13. Lecce - 36 points - 9 wins - 9 draws - 20 losses - 47 scored - 81 against - No qualification
+14. Udinese - 34 points - 9 wins - 7 draws - 22 losses - 51 scored - 92 against - No qualification
+15. Salernitana - 32 points - 7 wins - 11 draws - 20 losses - 54 scored - 90 against - No qualification
+16. Cagliari - 25 points - 4 wins - 13 draws - 21 losses - 54 scored - 95 against - No qualification
+17. Empoli - 24 points - 5 wins - 9 draws - 24 losses - 47 scored - 91 against - No qualification
+18. Hellas Verona - 22 points - 4 wins - 10 draws - 24 losses - 44 scored - 96 against - No qualification
+19. Genoa - 18 points - 4 wins - 6 draws - 28 losses - 34 scored - 97 against - No qualification
+20. Frosinone - 9 points - 1 wins - 6 draws - 31 losses - 38 scored - 101 against - No qualification
+Teams of Italy Cup: ['Napoli', 'AC Milan', 'Juventus', 'Inter Milan', 'AS Roma', 'Atalanta', 'Lazio', 'Fiorentina', 'Monza', 'Bologna', 'Torino', 'Sassuolo', 'Lecce', 'Udinese', 'Salernitana', 'Empoli']
+
+Current round: Round 1
+Monza 3 - 0 Udinese
+Monza won the match!
+Torino 1 - 2 Lazio
+Lazio won the match!
+Bologna 2 - 2 Salernitana
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bologna 1 - 1 Salernitana (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Bologna 5 - 5 Salernitana
+Penalties are tied! Sudden death begins!
+Sudden Death: Bologna 6 - 7 Salernitana
+Salernitana wins on sudden death penalties!
+Sassuolo 2 - 3 Fiorentina
+Fiorentina won the match!
+Juventus 4 - 1 Atalanta
+Juventus won the match!
+AS Roma 3 - 1 Lecce
+AS Roma won the match!
+AC Milan 2 - 3 Inter Milan
+Inter Milan won the match!
+Napoli 2 - 0 Empoli
+Napoli won the match!
+
+Current round: Round 2
+Juventus 3 - 2 Napoli
+Juventus won the match!
+Inter Milan 3 - 1 Fiorentina
+Inter Milan won the match!
+AS Roma 3 - 2 Monza
+AS Roma won the match!
+Salernitana 1 - 3 Lazio
+Lazio won the match!
+
+Current round: Round 3
+Lazio 2 - 2 Inter Milan
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lazio 1 - 1 Inter Milan (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Lazio 4 - 4 Inter Milan
+Penalties are tied! Sudden death begins!
+Sudden Death: Lazio 6 - 7 Inter Milan
+Inter Milan wins on sudden death penalties!
+Juventus 3 - 1 AS Roma
+Juventus won the match!
+
+Current round: Round 4
+Inter Milan 3 - 3 Juventus
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Inter Milan 0 - 1 Juventus (Aggregate: 3 - 4)
+
+Winner of Italy Cup: Juventus

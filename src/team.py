@@ -1,5 +1,4 @@
 import random
-from math import ceil
 
 
 class Team:
@@ -21,94 +20,125 @@ class Team:
         self.wins = wins
         self.draws = draws
         self.losses = losses
-        self.current = {"points": 0,
-                        "wins": 0,
-                        "draws": 0,
-                        "losses": 0,
-                        "matches": 0,
-                        "scored": 0,
-                        "against": 0}
+        self.current = {
+            "points": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "matches": 0,
+            "scored": 0,
+            "against": 0
+        }
 
     def update_goals(self, opponent, scored, conceded):
+        """Updates the goals scored and conceded for both teams."""
         self.current["scored"] += scored
         self.current["against"] += conceded
         opponent.current["scored"] += conceded
         opponent.current["against"] += scored
 
-    def match_with_extra_time(self, scored, conceded, opponent, file=None):
+    def determine_match_outcome(self, scored, conceded, opponent, is_aggregate=False):
+        """Determines the outcome of the match or aggregate tie."""
         if scored > conceded:
             self.current["wins"] += 1
             opponent.current["losses"] += 1
-            print(f"{self.name} won against {opponent.name} {scored} - {conceded}")
-            if file:
-                with open(file, 'a') as file:
-                    file.write(f"{self.name} won against {opponent.name} {scored} - {conceded}\n")
             return self
         elif scored < conceded:
-            self.current["losses"] += 1
             opponent.current["wins"] += 1
-            print(f"{opponent.name} won against {self.name} {conceded} - {scored}")
-            if file:
-                with open(file, 'a') as file:
-                    file.write(f"{opponent.name} won against {self.name} {conceded} - {scored}\n")
+            self.current["losses"] += 1
             return opponent
         else:
             return "Draw"
 
     @staticmethod
-    def calculate_goals(skill_level, opponent_skill_level, is_home):
+    def calculate_goals(skill_level, opponent_skill_level, is_home, base_goals=1.5, home_weight=0.5, skill_weight=15):
         """
-        Calculates goals scored based on skills and home advantage.
+        Calculates goals scored based on skill levels, home advantage, and other parameters.
         """
-        base = 1.5  # Base value for average goals
-        skill_diff = (skill_level - opponent_skill_level) / 15
-        home_advantage = 0.5 if is_home else 0  # Slight boost for home teams
-        max_goals = max(0, random.gauss(base + skill_diff + home_advantage, 1))
+        skill_diff = (skill_level - opponent_skill_level) / skill_weight
+        home_advantage = home_weight if is_home else 0
+        max_goals = max(0, random.gauss(base_goals + skill_diff + home_advantage, 1))
         return round(max_goals)
 
     def play_match(self, opponent, knockouts=False, has_2_legs=False, file=None):
         """
-        Simulates a match or two-legged tie between self and the opponent.
-        :param opponent: The opposing team
-        :param knockouts: True if the match requires a winner (e.g., knockout round)
-        :param has_2_legs: True if the match is played over two legs (home and away)
-        :param file: Output file to log match results
-        :return: The winning team object or "Draw" if no winner
+        Simulates a match or a two-legged tie.
+        :param opponent: The opposing team.
+        :param knockouts: True if the match requires a winner (e.g., knockout round).
+        :param has_2_legs: True if the match is played over two legs (home and away).
+        :param file: Output file to log match results.
+        :return: Winning team object or "Draw" if there's no winner.
         """
+        log_messages = []
 
         def log_message(message):
-            """Logs or prints messages."""
+            """Logs or stores messages."""
             print(message)
-            if file:
-                with open(file, 'a') as f:
-                    f.write(message + '\n')
-
-        def calculate_aggregate_and_winner(scores_self, scores_opponent):
-            """Calculates aggregate scores and determines the winner."""
-            self_aggregate = sum(scores_self)
-            opponent_aggregate = sum(scores_opponent)
-            log_message(f"Aggregate Score: {self.name} {self_aggregate} - {opponent_aggregate} {opponent.name}")
-            if self_aggregate > opponent_aggregate:
-                log_message(f"{self.name} advances!")
-                return self, self_aggregate, opponent_aggregate
-            elif self_aggregate < opponent_aggregate:
-                log_message(f"{opponent.name} advances!")
-                return opponent, self_aggregate, opponent_aggregate
-            return None, self_aggregate, opponent_aggregate  # Tie
+            log_messages.append(message)
 
         def handle_tie_breaking(self_aggregate, opponent_aggregate):
-            """Handles tie-breaking logic for knockout matches."""
+            """Handles tie-breaking logic with a single extra time period followed by penalties."""
             log_message("Aggregate is tied! Proceeding to extra time...")
-            result = "Draw"
-            while result == "Draw":
-                extra_self_score = random.randint(0, 1)
-                extra_opponent_score = random.randint(0, 1)
-                self_aggregate += extra_self_score
-                opponent_aggregate += extra_opponent_score
-                result = self.match_with_extra_time(extra_self_score, extra_opponent_score, opponent, file)
-            return result, self_aggregate, opponent_aggregate
+
+            # Extra time
+            extra_self_score = random.randint(0, 1)  # Random score for extra time
+            extra_opponent_score = random.randint(0, 1)
+            self_aggregate += extra_self_score
+            opponent_aggregate += extra_opponent_score
+            log_message(
+                f"Extra Time: {self.name} {extra_self_score} - {extra_opponent_score} {opponent.name} (Aggregate: {self_aggregate} - {opponent_aggregate})"
+            )
+
+            # Determine winner in extra time
+            if extra_self_score > extra_opponent_score:
+                return self, self_aggregate, opponent_aggregate
+            elif extra_self_score < extra_opponent_score:
+                return opponent, self_aggregate, opponent_aggregate
+
+            # Penalty shootout if still tied
+            log_message("Extra time ends in a draw. Proceeding to penalties!")
+            penalties_self = 0
+            penalties_opponent = 0
+
+            # Simulate penalties (5 attempts each)
+            for i in range(5):  # Standard penalty shootout with 5 penalties each
+                if random.random() < 0.7:  # 70% chance of scoring
+                    penalties_self += 1
+                if random.random() < 0.7:
+                    penalties_opponent += 1
+
+            # Log penalty results
+            log_message(f"Penalties: {self.name} {penalties_self} - {penalties_opponent} {opponent.name}")
+
+            # Determine winner after penalties
+            if penalties_self > penalties_opponent:
+                log_message(f"{self.name} wins on penalties!")
+                return self, self_aggregate, opponent_aggregate
+            elif penalties_self < penalties_opponent:
+                log_message(f"{opponent.name} wins on penalties!")
+                return opponent, self_aggregate, opponent_aggregate
+            else:
+                # Sudden death penalties if still tied after 5
+                log_message("Penalties are tied! Sudden death begins!")
+                while True:
+                    if random.random() < 0.7:  # Sudden death penalty for self
+                        penalties_self += 1
+                    if random.random() < 0.7:  # Sudden death penalty for opponent
+                        penalties_opponent += 1
+
+                    # Check if there's a winner
+                    if penalties_self != penalties_opponent:
+                        log_message(
+                            f"Sudden Death: {self.name} {penalties_self} - {penalties_opponent} {opponent.name}")
+                        if penalties_self > penalties_opponent:
+                            log_message(f"{self.name} wins on sudden death penalties!")
+                            return self, self_aggregate, opponent_aggregate
+                        else:
+                            log_message(f"{opponent.name} wins on sudden death penalties!")
+                            return opponent, self_aggregate, opponent_aggregate
 
         if has_2_legs:
+            # Simulate both legs
             scores_self = [
                 self.calculate_goals(self.skill, opponent.skill, is_home=True),
                 self.calculate_goals(self.skill, opponent.skill, is_home=False)
@@ -118,45 +148,61 @@ class Team:
                 self.calculate_goals(opponent.skill, self.skill, is_home=True)
             ]
 
+            # Log results for both legs
             log_message(f"1st Leg: {self.name} (Home) {scores_self[0]} - {scores_opponent[0]} {opponent.name} (Away)")
             log_message(f"2nd Leg: {opponent.name} (Home) {scores_opponent[1]} - {scores_self[1]} {self.name} (Away)")
 
-            winner, self_aggregate, opponent_aggregate = calculate_aggregate_and_winner(scores_self, scores_opponent)
+            # Calculate aggregate scores and determine winner
+            self_aggregate, opponent_aggregate = sum(scores_self), sum(scores_opponent)
+            winner = self.determine_match_outcome(self_aggregate, opponent_aggregate, opponent, is_aggregate=True)
 
-            if not winner and knockouts:  # Handle tie in knockouts
+            if winner == "Draw" and knockouts:  # Handle tie in knockouts
                 winner, self_aggregate, opponent_aggregate = handle_tie_breaking(self_aggregate, opponent_aggregate)
 
             self.update_goals(opponent, self_aggregate, opponent_aggregate)
+
+            # Save log messages to file if specified
+            if file:
+                with open(file, 'a') as f:
+                    f.write('\n'.join(log_messages) + '\n')
+
             return winner or "Draw"
 
         # Single-leg match
-        goals_self = self.calculate_goals(self.skill, opponent.skill, is_home=True)
-        goals_opponent = self.calculate_goals(opponent.skill, self.skill, is_home=False)
-        log_message(f"{self.name} {goals_self} - {goals_opponent} {opponent.name}")
+        scored = self.calculate_goals(self.skill, opponent.skill, is_home=True)
+        conceded = self.calculate_goals(opponent.skill, self.skill, is_home=False)
+        log_message(f"{self.name} {scored} - {conceded} {opponent.name}")
 
-        if goals_self > goals_opponent:
+        if scored > conceded:
             self.current["wins"] += 1
             opponent.current["losses"] += 1
-            log_message(f"{self.name} won against {opponent.name}")
+            log_message(f"{self.name} won the match!")
             winner = self
-        elif goals_self < goals_opponent:
+        elif scored < conceded:
             opponent.current["wins"] += 1
             self.current["losses"] += 1
-            log_message(f"{opponent.name} won against {self.name}")
+            log_message(f"{opponent.name} won the match!")
             winner = opponent
         else:
             if knockouts:
-                winner, goals_self, goals_opponent = handle_tie_breaking(goals_self, goals_opponent)
+                winner, scored, conceded = handle_tie_breaking(scored, conceded)
             else:
                 self.current["draws"] += 1
                 opponent.current["draws"] += 1
-                log_message(f"{self.name} drew with {opponent.name}")
+                log_message(f"The match between {self.name} and {opponent.name} ended in a draw.")
                 winner = "Draw"
 
-        self.update_goals(opponent, goals_self, goals_opponent)
+        self.update_goals(opponent, scored, conceded)
+
+        # Save log messages to file if specified
+        if file:
+            with open(file, 'a') as f:
+                f.write('\n'.join(log_messages) + '\n')
+
         return winner
 
     def update_current(self):
+        """Updates current season's statistics into cumulative stats."""
         self.wins += self.current["wins"]
         self.draws += self.current["draws"]
         self.losses += self.current["losses"]
