@@ -104,13 +104,17 @@ class MainProgram:
             if competition is None:
                 return
             self.teams_obj = get_teams(european_cup=competition)
+
             for team in self.teams_obj:
                 # Track appearances for all teams in the competition
                 insert_or_update_european_team(team.name, competition, won=False)
+
             self.teams_obj = play_european_cup(self.teams_obj, competition)
             winner = self.teams_obj[0]
+
             # Update the winner's stats
-            insert_or_update_european_team(winner.name, competition, won=True)
+            insert_or_update_european_team(winner.name, competition, won=True, skip_app=True)
+
             self.update_general()
             self.update_all_leagues()
         else:
@@ -120,7 +124,7 @@ class MainProgram:
                     insert_or_update_european_team(team.name, competition, won=False)
                 self.teams_obj = play_european_cup(self.teams_obj, competition)
                 winner = self.teams_obj[0]
-                insert_or_update_european_team(winner.name, competition, won=True)
+                insert_or_update_european_team(winner.name, competition, won=True, skip_app=True)
                 self.update_general()
                 self.update_all_leagues()
 
