@@ -3,7 +3,8 @@ from collections import Counter
 import settings
 from pathlib import Path
 from database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats, \
-    get_teams, update_team, get_competition_winners_from_db
+    get_teams, update_team, get_competition_winners_from_db, create_european_competitions_table, \
+    insert_or_update_european_team, get_european_competition_stats
 from leagues import league_simulation, select_league, select_teams_from_league, cup_simulation
 from src.matches import play_european_cup
 
@@ -25,24 +26,41 @@ class MainProgram:
                 sys.exit(0)  # Gracefully exit
 
     def select_league_and_teams(self):
-        print("1. Simulate a season \n"
-              "2. Simulate a league \n"
-              "3. Simulate a cup \n"
-              "4. Simulate an European Cup \n"
-              "5. Check best teams \n"
-              "6. See stats for a team \n"
-              "7. See most winners of a competition\n"
-              "8. Exit\n")  # Exit option added
-        self.choice = input("Select action: ")
-        no_selection = ["1", "4", "7", "8"]  # Updated "no selection" list to include the Exit option
-        if self.choice not in no_selection:
-            country = select_league()
+        """
+        Allows the user to choose an action, along with the league and teams if required.
+        """
+        print(
+            "1. Simulate a season \n"
+            "2. Simulate a league \n"
+            "3. Simulate a cup \n"
+            "4. Simulate an European Cup \n"
+            "5. Check best teams \n"
+            "6. See stats for a team \n"
+            "7. See most winners of a competition \n"
+            "8. Exit \n"
+            "9. View European Competition Stats \n"  # New option added
+        )  # Menu options
+        self.choice = input("Select action: ").strip()
+
+        # Actions that do not require league or team selection
+        no_team_selection = ["1", "4", "7", "8", "9"]  # Added "9" to the no selection list
+
+        if self.choice not in no_team_selection:
+            # Prompt user to select a league
+            country = select_league()  # `select_league` prompts users to choose a league
+
+            # Retrieve league and teams data based on the selected country
             self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(country)
+
+            # Generate teams table for the selected league
             generate_teams_table(self.league, self.teams_obj)
+
+        # Call method to update or create the general table
         self.update_general(create=True)
 
     def update_general(self, create=False):
         if create:
+            self.initialize_european_tables()
             create_general_table()
         for team in self.teams_obj:
             update_general_table(team)
@@ -73,10 +91,6 @@ class MainProgram:
         self.update_general()
 
     def simulate_european(self, all_comps=False):
-        """
-            Simulate a european cup
-        :param all_comps: If True, simulate all cups
-        """
         if not all_comps:
             print("1. Champions League \n"
                   "2. Europa League \n"
@@ -90,15 +104,29 @@ class MainProgram:
             if competition is None:
                 return
             self.teams_obj = get_teams(european_cup=competition)
+            for team in self.teams_obj:
+                # Track appearances for all teams in the competition
+                insert_or_update_european_team(team.name, competition, won=False)
             self.teams_obj = play_european_cup(self.teams_obj, competition)
+            winner = self.teams_obj[0]
+            # Update the winner's stats
+            insert_or_update_european_team(winner.name, competition, won=True)
             self.update_general()
             self.update_all_leagues()
         else:
-            for competition in [settings.UECL, settings.UEL, settings.UCL]:
+            for competition in [settings.UCL, settings.UEL, settings.UECL]:
                 self.teams_obj = get_teams(european_cup=competition)
+                for team in self.teams_obj:
+                    insert_or_update_european_team(team.name, competition, won=False)
                 self.teams_obj = play_european_cup(self.teams_obj, competition)
+                winner = self.teams_obj[0]
+                insert_or_update_european_team(winner.name, competition, won=True)
                 self.update_general()
                 self.update_all_leagues()
+
+    def initialize_european_tables(self):
+        for competition in [settings.UCL, settings.UEL, settings.UECL]:
+            create_european_competitions_table(competition)
 
     def check_team_stats(self):
         """
@@ -109,6 +137,26 @@ class MainProgram:
             if input_team == team.name:
                 self.update_general()
                 check_team_stats(team, self.league)
+
+    def view_european_competition_stats(self):
+        print("1. Champions League \n"
+              "2. Europa League \n"
+              "3. Europa Conference League \n")
+        cup = input("Select competition:")
+        competition = {
+            "1": settings.UCL,
+            "2": settings.UEL,
+            "3": settings.UECL,
+        }.get(cup)
+        if competition is None:
+            print("Invalid selection.")
+            return
+
+        # Fetch and display stats
+        stats = get_european_competition_stats(competition)
+        print(f"--- {competition} Stats ---")
+        for team_name, appearances, wins in stats:
+            print(f"Team: {team_name}, Appearances: {appearances}, Wins: {wins}")
 
     def most_winners_by_competition(self):
         """
@@ -143,9 +191,11 @@ class MainProgram:
             self.check_team_stats()
         if self.choice == "7":
             self.most_winners_by_competition()
-        if self.choice == "8":  # Exit choice handled here
+        if self.choice == "8":
             print("Thank you for using the program. Goodbye!")
             sys.exit(0)
+        if self.choice == "9":  # Add a new choice for viewing stats
+            self.view_european_competition_stats()
 
 
 if __name__ == "__main__":

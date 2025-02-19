@@ -1242,3 +1242,80 @@ Current round: Round 5
 2nd Leg: Liverpool (Home) 3 - 2 Bayern Munchen (Away)
 
 Winner of Champions League: Liverpool
+Teams of current competition: ['Manchester City', 'Liverpool', 'Arsenal', 'Tottenham Hotspur', 'Atletico Madrid', 'Real Madrid', 'Sevilla', 'Barcelona', 'Borussia Dortmund', 'RB Leipzig', 'Bayern Munchen', 'Bayer Leverkusen', 'Napoli', 'AC Milan', 'AS Roma', 'Juventus', 'RC Lens', 'PSG', 'Lille', 'Marseille', 'Ajax', 'PSV Eindhoven', 'Feyenoord', 'Benfica', 'Braga', 'Sporting CP', 'Genk', 'Union SG', 'Rangers', 'Red Bull Salzburg', 'Sturm Graz', 'FCSB']
+
+Current round: Round 1
+1st Leg: Sporting CP (Home) 0 - 3 Manchester City (Away)
+2nd Leg: Manchester City (Home) 4 - 0 Sporting CP (Away)
+1st Leg: Borussia Dortmund (Home) 4 - 0 Union SG (Away)
+2nd Leg: Union SG (Home) 0 - 3 Borussia Dortmund (Away)
+1st Leg: Benfica (Home) 2 - 1 PSV Eindhoven (Away)
+2nd Leg: PSV Eindhoven (Home) 4 - 2 Benfica (Away)
+1st Leg: Braga (Home) 2 - 3 Arsenal (Away)
+2nd Leg: Arsenal (Home) 2 - 0 Braga (Away)
+1st Leg: Bayern Munchen (Home) 2 - 0 Lille (Away)
+2nd Leg: Lille (Home) 2 - 4 Bayern Munchen (Away)
+1st Leg: FCSB (Home) 2 - 1 AS Roma (Away)
+2nd Leg: AS Roma (Home) 4 - 0 FCSB (Away)
+1st Leg: Atletico Madrid (Home) 4 - 0 RC Lens (Away)
+2nd Leg: RC Lens (Home) 2 - 2 Atletico Madrid (Away)
+1st Leg: AC Milan (Home) 2 - 0 Napoli (Away)
+2nd Leg: Napoli (Home) 2 - 1 AC Milan (Away)
+1st Leg: Barcelona (Home) 4 - 0 Feyenoord (Away)
+2nd Leg: Feyenoord (Home) 1 - 3 Barcelona (Away)
+1st Leg: Tottenham Hotspur (Home) 2 - 0 Marseille (Away)
+2nd Leg: Marseille (Home) 3 - 2 Tottenham Hotspur (Away)
+1st Leg: Juventus (Home) 2 - 3 Liverpool (Away)
+2nd Leg: Liverpool (Home) 3 - 0 Juventus (Away)
+1st Leg: Sevilla (Home) 0 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 4 - 2 Sevilla (Away)
+1st Leg: PSG (Home) 3 - 0 Genk (Away)
+2nd Leg: Genk (Home) 0 - 2 PSG (Away)
+1st Leg: RB Leipzig (Home) 2 - 1 Sturm Graz (Away)
+2nd Leg: Sturm Graz (Home) 0 - 4 RB Leipzig (Away)
+1st Leg: Bayer Leverkusen (Home) 4 - 2 Rangers (Away)
+2nd Leg: Rangers (Home) 2 - 3 Bayer Leverkusen (Away)
+1st Leg: Red Bull Salzburg (Home) 2 - 1 Ajax (Away)
+2nd Leg: Ajax (Home) 2 - 2 Red Bull Salzburg (Away)
+
+Current round: Round 2
+1st Leg: Arsenal (Home) 2 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 2 - 2 Arsenal (Away)
+1st Leg: PSV Eindhoven (Home) 0 - 3 Manchester City (Away)
+2nd Leg: Manchester City (Home) 3 - 1 PSV Eindhoven (Away)
+1st Leg: Tottenham Hotspur (Home) 2 - 4 AC Milan (Away)
+2nd Leg: AC Milan (Home) 2 - 2 Tottenham Hotspur (Away)
+1st Leg: Borussia Dortmund (Home) 2 - 0 Bayer Leverkusen (Away)
+2nd Leg: Bayer Leverkusen (Home) 2 - 3 Borussia Dortmund (Away)
+1st Leg: AS Roma (Home) 1 - 3 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 3 - 2 AS Roma (Away)
+1st Leg: Atletico Madrid (Home) 1 - 4 PSG (Away)
+2nd Leg: PSG (Home) 1 - 0 Atletico Madrid (Away)
+1st Leg: Barcelona (Home) 4 - 1 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 3 - 2 Barcelona (Away)
+1st Leg: Bayern Munchen (Home) 2 - 4 Liverpool (Away)
+2nd Leg: Liverpool (Home) 2 - 0 Bayern Munchen (Away)
+
+Current round: Round 3
+1st Leg: Barcelona (Home) 3 - 1 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 2 - 1 Barcelona (Away)
+1st Leg: AC Milan (Home) 0 - 2 Manchester City (Away)
+2nd Leg: Manchester City (Home) 3 - 2 AC Milan (Away)
+1st Leg: Borussia Dortmund (Home) 3 - 2 Arsenal (Away)
+2nd Leg: Arsenal (Home) 2 - 2 Borussia Dortmund (Away)
+1st Leg: Liverpool (Home) 3 - 2 PSG (Away)
+2nd Leg: PSG (Home) 2 - 2 Liverpool (Away)
+
+Current round: Round 4
+1st Leg: Barcelona (Home) 1 - 1 Manchester City (Away)
+2nd Leg: Manchester City (Home) 2 - 1 Barcelona (Away)
+1st Leg: Borussia Dortmund (Home) 1 - 1 Liverpool (Away)
+2nd Leg: Liverpool (Home) 1 - 1 Borussia Dortmund (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Borussia Dortmund 0 - 1 Liverpool (Aggregate: 2 - 3)
+
+Current round: Round 5
+1st Leg: Manchester City (Home) 1 - 2 Liverpool (Away)
+2nd Leg: Liverpool (Home) 5 - 4 Manchester City (Away)
+
+Winner of Champions League: Liverpool

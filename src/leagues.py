@@ -18,7 +18,8 @@ def select_league():
           "7. Primeira Liga (Portugal) \n"
           "8. Belgian Pro League (Belgium) \n"
           "9. Scottish Premiership (Scotland) \n"
-          "10. Austrian Bundesliga (Austria)")
+          "10. Austrian Bundesliga (Austria) \n"
+          "11. Romanian League (Romania)")
 
     league_mapping = {
         '1': settings.ENG,
@@ -30,7 +31,8 @@ def select_league():
         '7': settings.POR,
         '8': settings.BEL,
         '9': settings.SCO,
-        '10': settings.AUS
+        '10': settings.AUS,
+        '11': settings.ROM
     }
 
     user_input = input("Enter the league number: ")
@@ -77,7 +79,9 @@ def league_simulation(league, teams, europe):
 
 def cup_simulation(league, teams):
     sorted_teams = sorted(teams, key=lambda x: x.skill, reverse=True)
-    if len(teams) >= 16:
+    if len(teams) >= 32:
+        new_teams = sorted_teams[:32]
+    elif len(teams) >= 16:
         new_teams = sorted_teams[:16]
     else:
         new_teams = sorted_teams[:8]

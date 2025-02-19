@@ -206,3 +206,61 @@ def check_team_stats(team, league):
     # Close the connection
     c.close()
     conn.close()
+
+def create_european_competitions_table(competition):
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+
+    # Replace spaces with underscores for table names
+    competition_table = competition.replace(" ", "_").lower()
+
+    query = f'''CREATE TABLE IF NOT EXISTS {competition_table} (
+           team_name TEXT,
+           appearances INTEGER DEFAULT 0,
+           wins INTEGER DEFAULT 0
+       )'''
+    c.execute(query)
+    conn.commit()
+    conn.close()
+
+
+def insert_or_update_european_team(team_name, competition, won=False):
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+
+    # Replace spaces with underscores for table names
+    competition_table = competition.replace(" ", "_").lower()
+
+    # Check if the team already exists in the table
+    c.execute(f"SELECT appearances, wins FROM {competition_table} WHERE team_name=?", (team_name,))
+    row = c.fetchone()
+
+    if row is None:  # Insert new row if the team doesn't exist
+        appearances = 1
+        wins = 1 if won else 0
+        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?)", (team_name, appearances, wins))
+    else:  # Update appearances and wins if the team already exists
+        appearances, existing_wins = row
+        appearances += 1
+        if won:
+            existing_wins += 1
+        c.execute(f"UPDATE {competition_table} SET appearances=?, wins=? WHERE team_name=?",
+                  (appearances, existing_wins, team_name))
+
+    conn.commit()
+    conn.close()
+
+
+
+def get_european_competition_stats(competition):
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+
+    # Replace spaces with underscores for table names
+    competition_table = competition.replace(" ", "_").lower()
+
+    query = f"SELECT * FROM {competition_table} ORDER BY wins DESC"
+    c.execute(query)
+    stats = c.fetchall()
+    conn.close()
+    return stats

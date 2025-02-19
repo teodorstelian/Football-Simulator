@@ -872,3 +872,96 @@ Current round: Round 5
 2nd Leg: Manchester United (Home) 5 - 3 Newcastle United (Away)
 
 Winner of Europa League: Manchester United
+Teams of current competition: ['Newcastle United', 'Manchester United', 'Chelsea', 'Brighton', 'Real Sociedad', 'Rayo Vallecano', 'Athletic Bilbao', 'Valencia', 'Borussia Monchengladbach', 'SC Freiburg', 'Eintracht Frankfurt', 'Mainz 05', 'Inter Milan', 'Atalanta', 'Lazio', 'Fiorentina', 'Rennes', 'AS Monaco', 'Olympique Lyon', 'Nice', 'AZ', 'Utrecht', 'Twente', 'Porto', 'Chaves', 'Vitoria de Guimaraes', 'Club Brugge', 'Anderlecht', 'Celtic', 'Austria Wien', 'Austria Klagenfurt', 'Universitatea Craiova']
+
+Current round: Round 1
+1st Leg: Mainz 05 (Home) 3 - 0 Universitatea Craiova (Away)
+2nd Leg: Universitatea Craiova (Home) 1 - 2 Mainz 05 (Away)
+1st Leg: Austria Wien (Home) 2 - 2 Atalanta (Away)
+2nd Leg: Atalanta (Home) 3 - 1 Austria Wien (Away)
+1st Leg: Anderlecht (Home) 2 - 0 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 3 - 1 Anderlecht (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Anderlecht 1 - 0 Austria Klagenfurt (Aggregate: 4 - 3)
+1st Leg: Eintracht Frankfurt (Home) 2 - 1 Vitoria de Guimaraes (Away)
+2nd Leg: Vitoria de Guimaraes (Home) 2 - 1 Eintracht Frankfurt (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Eintracht Frankfurt 0 - 1 Vitoria de Guimaraes (Aggregate: 3 - 4)
+1st Leg: Porto (Home) 1 - 4 Chelsea (Away)
+2nd Leg: Chelsea (Home) 2 - 1 Porto (Away)
+1st Leg: Club Brugge (Home) 4 - 1 Twente (Away)
+2nd Leg: Twente (Home) 2 - 1 Club Brugge (Away)
+1st Leg: SC Freiburg (Home) 4 - 1 Chaves (Away)
+2nd Leg: Chaves (Home) 2 - 3 SC Freiburg (Away)
+1st Leg: Lazio (Home) 3 - 0 Real Sociedad (Away)
+2nd Leg: Real Sociedad (Home) 1 - 2 Lazio (Away)
+1st Leg: Athletic Bilbao (Home) 3 - 3 Manchester United (Away)
+2nd Leg: Manchester United (Home) 2 - 0 Athletic Bilbao (Away)
+1st Leg: Celtic (Home) 4 - 1 Utrecht (Away)
+2nd Leg: Utrecht (Home) 1 - 2 Celtic (Away)
+1st Leg: Valencia (Home) 1 - 2 Brighton (Away)
+2nd Leg: Brighton (Home) 3 - 1 Valencia (Away)
+1st Leg: Olympique Lyon (Home) 2 - 1 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 2 - 2 Olympique Lyon (Away)
+1st Leg: Nice (Home) 3 - 1 Rennes (Away)
+2nd Leg: Rennes (Home) 2 - 2 Nice (Away)
+1st Leg: Rayo Vallecano (Home) 0 - 3 Inter Milan (Away)
+2nd Leg: Inter Milan (Home) 3 - 1 Rayo Vallecano (Away)
+1st Leg: Fiorentina (Home) 3 - 0 AZ (Away)
+2nd Leg: AZ (Home) 2 - 3 Fiorentina (Away)
+1st Leg: Newcastle United (Home) 4 - 1 Borussia Monchengladbach (Away)
+2nd Leg: Borussia Monchengladbach (Home) 0 - 2 Newcastle United (Away)
+
+Current round: Round 2
+1st Leg: Lazio (Home) 3 - 0 Vitoria de Guimaraes (Away)
+2nd Leg: Vitoria de Guimaraes (Home) 2 - 2 Lazio (Away)
+1st Leg: Mainz 05 (Home) 1 - 2 Nice (Away)
+2nd Leg: Nice (Home) 2 - 3 Mainz 05 (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Mainz 05 1 - 0 Nice (Aggregate: 5 - 4)
+1st Leg: Fiorentina (Home) 1 - 2 Newcastle United (Away)
+2nd Leg: Newcastle United (Home) 2 - 0 Fiorentina (Away)
+1st Leg: Club Brugge (Home) 3 - 0 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 3 - 3 Club Brugge (Away)
+1st Leg: Inter Milan (Home) 3 - 1 Celtic (Away)
+2nd Leg: Celtic (Home) 2 - 1 Inter Milan (Away)
+1st Leg: Anderlecht (Home) 1 - 2 Atalanta (Away)
+2nd Leg: Atalanta (Home) 2 - 2 Anderlecht (Away)
+1st Leg: SC Freiburg (Home) 1 - 1 Brighton (Away)
+2nd Leg: Brighton (Home) 4 - 1 SC Freiburg (Away)
+1st Leg: Manchester United (Home) 1 - 1 Chelsea (Away)
+2nd Leg: Chelsea (Home) 3 - 1 Manchester United (Away)
+
+Current round: Round 3
+1st Leg: Inter Milan (Home) 0 - 1 Newcastle United (Away)
+2nd Leg: Newcastle United (Home) 2 - 0 Inter Milan (Away)
+1st Leg: Chelsea (Home) 2 - 3 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 2 - 1 Chelsea (Away)
+1st Leg: Lazio (Home) 1 - 4 Brighton (Away)
+2nd Leg: Brighton (Home) 0 - 3 Lazio (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lazio 1 - 1 Brighton (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Lazio 3 - 4 Brighton
+Brighton wins on penalties!
+1st Leg: Mainz 05 (Home) 0 - 3 Atalanta (Away)
+2nd Leg: Atalanta (Home) 3 - 0 Mainz 05 (Away)
+
+Current round: Round 4
+1st Leg: Club Brugge (Home) 1 - 3 Newcastle United (Away)
+2nd Leg: Newcastle United (Home) 6 - 1 Club Brugge (Away)
+1st Leg: Brighton (Home) 2 - 1 Atalanta (Away)
+2nd Leg: Atalanta (Home) 3 - 2 Brighton (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Brighton 1 - 1 Atalanta (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Brighton 3 - 3 Atalanta
+Penalties are tied! Sudden death begins!
+Sudden Death: Brighton 6 - 5 Atalanta
+Brighton wins on sudden death penalties!
+
+Current round: Round 5
+1st Leg: Newcastle United (Home) 1 - 1 Brighton (Away)
+2nd Leg: Brighton (Home) 2 - 3 Newcastle United (Away)
+
+Winner of Europa League: Newcastle United
