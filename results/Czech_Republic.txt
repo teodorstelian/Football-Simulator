@@ -1,0 +1,36 @@
+Winner of League: Slavia Prague
+1. Slavia Prague - 51 points - 17 wins - 0 draws - 1 losses - 61 scored - 21 against - Champions League - Round 2
+2. Sparta Prague - 39 points - 12 wins - 3 draws - 3 losses - 51 scored - 21 against - Champions League - Round 1
+3. Viktoria Plzen - 35 points - 11 wins - 2 draws - 5 losses - 48 scored - 32 against - Champions League - Round 1
+4. Slovan Liberec - 27 points - 8 wins - 3 draws - 7 losses - 30 scored - 34 against - Europa League - Round 2
+5. Banik Ostrava - 26 points - 7 wins - 5 draws - 6 losses - 37 scored - 34 against - Europa Conference League - Round 2
+6. Mlada Boleslav - 25 points - 7 wins - 4 draws - 7 losses - 36 scored - 38 against - No qualification
+7. Jablonec - 21 points - 7 wins - 0 draws - 11 losses - 30 scored - 41 against - No qualification
+8. Sigma Olomouc - 17 points - 4 wins - 5 draws - 9 losses - 30 scored - 43 against - No qualification
+9. Teplice - 16 points - 5 wins - 1 draws - 12 losses - 25 scored - 46 against - No qualification
+10. Pardubice - 1 points - 0 wins - 1 draws - 17 losses - 14 scored - 52 against - No qualification
+Teams of Czech_Republic Cup: ['Slavia Prague', 'Sparta Prague', 'Viktoria Plzen', 'Banik Ostrava', 'Slovan Liberec', 'Mlada Boleslav', 'Jablonec', 'Sigma Olomouc']
+
+Current round: Round 1
+Mlada Boleslav 2 - 2 Jablonec
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Mlada Boleslav 1 - 0 Jablonec (Aggregate: 3 - 2)
+Banik Ostrava 0 - 4 Sparta Prague
+Sparta Prague won the match!
+Viktoria Plzen 3 - 2 Slavia Prague
+Viktoria Plzen won the match!
+Sigma Olomouc 3 - 2 Slovan Liberec
+Sigma Olomouc won the match!
+
+Current round: Round 2
+Viktoria Plzen 3 - 0 Mlada Boleslav
+Viktoria Plzen won the match!
+Sigma Olomouc 2 - 3 Sparta Prague
+Sparta Prague won the match!
+
+Current round: Final:
+Viktoria Plzen 2 - 2 Sparta Prague
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Viktoria Plzen 1 - 0 Sparta Prague (Aggregate: 3 - 2)
+
+Winner of Czech_Republic Cup: Viktoria Plzen

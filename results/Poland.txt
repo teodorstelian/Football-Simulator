@@ -1,0 +1,38 @@
+Winner of League: Legia Warsaw
+1. Legia Warsaw - 42 points - 13 wins - 3 draws - 2 losses - 41 scored - 15 against - Champions League - Round 2
+2. Rakow Czestochowa - 33 points - 9 wins - 6 draws - 3 losses - 44 scored - 26 against - Champions League - Round 1
+3. Lech Poznan - 31 points - 9 wins - 4 draws - 5 losses - 39 scored - 23 against - Champions League - Round 1
+4. Gornik Zabrze - 30 points - 9 wins - 3 draws - 6 losses - 38 scored - 33 against - Europa League - Round 2
+5. Slask Wroclaw - 30 points - 9 wins - 3 draws - 6 losses - 37 scored - 34 against - Europa Conference League - Round 2
+6. Pogon Szczecin - 23 points - 6 wins - 5 draws - 7 losses - 29 scored - 31 against - No qualification
+7. Wisla Krakow - 22 points - 6 wins - 4 draws - 8 losses - 24 scored - 32 against - No qualification
+8. Jagiellonia Bialystok - 16 points - 4 wins - 4 draws - 10 losses - 24 scored - 37 against - No qualification
+9. Cracovia - 14 points - 3 wins - 5 draws - 10 losses - 28 scored - 48 against - No qualification
+10. Zaglebie Lubin - 10 points - 3 wins - 1 draws - 14 losses - 23 scored - 48 against - No qualification
+Teams of Poland Cup: ['Legia Warsaw', 'Rakow Czestochowa', 'Lech Poznan', 'Gornik Zabrze', 'Pogon Szczecin', 'Slask Wroclaw', 'Wisla Krakow', 'Jagiellonia Bialystok']
+
+Current round: Round 1
+Jagiellonia Bialystok 1 - 4 Legia Warsaw
+Legia Warsaw won the match!
+Pogon Szczecin 2 - 3 Lech Poznan
+Lech Poznan won the match!
+Slask Wroclaw 2 - 2 Gornik Zabrze
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Slask Wroclaw 0 - 0 Gornik Zabrze (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Slask Wroclaw 4 - 2 Gornik Zabrze
+Slask Wroclaw wins on penalties!
+Rakow Czestochowa 3 - 1 Wisla Krakow
+Rakow Czestochowa won the match!
+
+Current round: Round 2
+Rakow Czestochowa 3 - 0 Lech Poznan
+Rakow Czestochowa won the match!
+Legia Warsaw 2 - 0 Slask Wroclaw
+Legia Warsaw won the match!
+
+Current round: Final:
+Rakow Czestochowa 1 - 3 Legia Warsaw
+Legia Warsaw won the match!
+
+Winner of Poland Cup: Legia Warsaw

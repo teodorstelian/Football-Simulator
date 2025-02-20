@@ -1,0 +1,42 @@
+Winner of League: Shakhtar Donetsk
+1. Shakhtar Donetsk - 51 points - 17 wins - 0 draws - 1 losses - 65 scored - 8 against - Champions League - Round 2
+2. Dynamo Kyiv - 44 points - 14 wins - 2 draws - 2 losses - 49 scored - 18 against - Champions League - Round 1
+3. Dnipro-1 - 38 points - 11 wins - 5 draws - 2 losses - 42 scored - 27 against - Champions League - Round 1
+4. Zorya Luhansk - 30 points - 10 wins - 0 draws - 8 losses - 39 scored - 28 against - Europa League - Round 2
+5. Kolos Kovalivka - 26 points - 8 wins - 2 draws - 8 losses - 27 scored - 35 against - Europa Conference League - Round 2
+6. Metalist Kharkiv - 25 points - 7 wins - 4 draws - 7 losses - 24 scored - 37 against - No qualification
+7. Oleksandriya - 17 points - 4 wins - 5 draws - 9 losses - 23 scored - 35 against - No qualification
+8. Vorskla Poltava - 13 points - 3 wins - 4 draws - 11 losses - 19 scored - 41 against - No qualification
+9. Karpaty Lviv - 8 points - 2 wins - 2 draws - 14 losses - 20 scored - 47 against - No qualification
+10. Chornomorets Odesa - 5 points - 1 wins - 2 draws - 15 losses - 11 scored - 43 against - No qualification
+Teams of Ukraine Cup: ['Shakhtar Donetsk', 'Dynamo Kyiv', 'Dnipro-1', 'Zorya Luhansk', 'Kolos Kovalivka', 'Oleksandriya', 'Vorskla Poltava', 'Metalist Kharkiv']
+
+Current round: Round 1
+Zorya Luhansk 3 - 3 Dnipro-1
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Zorya Luhansk 0 - 0 Dnipro-1 (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Zorya Luhansk 4 - 3 Dnipro-1
+Zorya Luhansk wins on penalties!
+Metalist Kharkiv 2 - 2 Oleksandriya
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Metalist Kharkiv 0 - 0 Oleksandriya (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Metalist Kharkiv 5 - 4 Oleksandriya
+Metalist Kharkiv wins on penalties!
+Vorskla Poltava 1 - 2 Shakhtar Donetsk
+Shakhtar Donetsk won the match!
+Dynamo Kyiv 3 - 2 Kolos Kovalivka
+Dynamo Kyiv won the match!
+
+Current round: Round 2
+Dynamo Kyiv 2 - 0 Zorya Luhansk
+Dynamo Kyiv won the match!
+Metalist Kharkiv 0 - 3 Shakhtar Donetsk
+Shakhtar Donetsk won the match!
+
+Current round: Final:
+Dynamo Kyiv 1 - 2 Shakhtar Donetsk
+Shakhtar Donetsk won the match!
+
+Winner of Ukraine Cup: Shakhtar Donetsk

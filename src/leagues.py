@@ -19,7 +19,15 @@ def select_league():
           "8. Belgian Pro League (Belgium) \n"
           "9. Scottish Premiership (Scotland) \n"
           "10. Austrian Bundesliga (Austria) \n"
-          "11. Romanian League (Romania)")
+          "11. Romanian League (Romania) \n"
+          "12. Swiss Super League (Switzerland) \n"
+          "13. Turkish Super League (Turkey) \n"
+          "14. Greek Super League (Greece) \n"
+          "15. Czech First League (Czech Republic) \n"
+          "16. Ekstraklasa (Poland) \n"
+          "17. Russian Premier League (Russia) \n"
+          "18. Ukrainian Premier League (Ukraine) \n"
+          "19. Serbian SuperLiga (Serbia)")
 
     league_mapping = {
         '1': settings.ENG,
@@ -32,7 +40,15 @@ def select_league():
         '8': settings.BEL,
         '9': settings.SCO,
         '10': settings.AUS,
-        '11': settings.ROM
+        '11': settings.ROM,
+        '12': settings.SUI,
+        '13': settings.TUR,
+        '14': settings.GRE,
+        '15': settings.CZE,
+        '16': settings.POL,
+        '17': settings.RUS,
+        '18': settings.UKR,
+        '19': settings.SRB
     }
 
     user_input = input("Enter the league number: ")

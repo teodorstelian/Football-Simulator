@@ -204,9 +204,10 @@ def generate_fixtures_cup(teams, competition, has_2_legs=False, prev_rounds=0, l
             if len(current_participants) == 2:
                 winner = home.play_match(away, knockouts=True, has_2_legs=False,
                                          file=competition_text if logging else None)
-                update_european_competition_round_team(home.name, competition, "finals")
-                update_european_competition_round_team(away.name, competition, "finals")
-                update_european_competition_round_team(winner.name, competition, "winner")
+                if competition in [settings.UCL, settings.UEL, settings.UECL]:
+                    update_european_competition_round_team(home.name, competition, "finals")
+                    update_european_competition_round_team(away.name, competition, "finals")
+                    update_european_competition_round_team(winner.name, competition, "winner")
             else:
                 # Play match (either one-leg or two-leg based on `has_2_legs`)
                 winner = home.play_match(away, knockouts=True, has_2_legs=has_2_legs,

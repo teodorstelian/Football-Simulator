@@ -1,0 +1,39 @@
+Winner of League: Red Star Belgrade
+1. Red Star Belgrade - 52 points - 17 wins - 1 draws - 0 losses - 62 scored - 12 against - Champions League - Round 2
+2. Partizan Belgrade - 44 points - 14 wins - 2 draws - 2 losses - 49 scored - 22 against - Champions League - Round 1
+3. Radnicki Nis - 29 points - 9 wins - 2 draws - 7 losses - 25 scored - 26 against - Champions League - Round 1
+4. Cukaricki - 27 points - 8 wins - 3 draws - 7 losses - 34 scored - 32 against - Europa League - Round 2
+5. Vojvodina - 26 points - 7 wins - 5 draws - 6 losses - 36 scored - 33 against - Europa Conference League - Round 2
+6. Spartak Subotica - 22 points - 7 wins - 1 draws - 10 losses - 32 scored - 41 against - No qualification
+7. FK Napredak - 18 points - 5 wins - 3 draws - 10 losses - 29 scored - 37 against - No qualification
+8. FK Novi Pazar - 16 points - 5 wins - 1 draws - 12 losses - 16 scored - 45 against - No qualification
+9. TSC Backa Topola - 13 points - 2 wins - 7 draws - 9 losses - 27 scored - 40 against - No qualification
+10. FK Vozdovac - 8 points - 1 wins - 5 draws - 12 losses - 20 scored - 42 against - No qualification
+Teams of Serbia Cup: ['Red Star Belgrade', 'Partizan Belgrade', 'Cukaricki', 'Vojvodina', 'Radnicki Nis', 'TSC Backa Topola', 'Spartak Subotica', 'FK Napredak']
+
+Current round: Round 1
+Red Star Belgrade 3 - 1 FK Napredak
+Red Star Belgrade won the match!
+Partizan Belgrade 3 - 0 Radnicki Nis
+Partizan Belgrade won the match!
+Spartak Subotica 0 - 3 Cukaricki
+Cukaricki won the match!
+TSC Backa Topola 2 - 2 Vojvodina
+Aggregate is tied! Proceeding to extra time...
+Extra Time: TSC Backa Topola 0 - 0 Vojvodina (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: TSC Backa Topola 2 - 4 Vojvodina
+Vojvodina wins on penalties!
+
+Current round: Round 2
+Red Star Belgrade 2 - 4 Partizan Belgrade
+Partizan Belgrade won the match!
+Cukaricki 2 - 1 Vojvodina
+Cukaricki won the match!
+
+Current round: Final:
+Cukaricki 1 - 1 Partizan Belgrade
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cukaricki 0 - 1 Partizan Belgrade (Aggregate: 1 - 2)
+
+Winner of Serbia Cup: Partizan Belgrade

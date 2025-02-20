@@ -1467,3 +1467,133 @@ Valencia 2 - 3 Tottenham Hotspur
 Tottenham Hotspur won the match!
 
 Winner of Europa League: Tottenham Hotspur
+Teams starting in Europa League Round 1: ['West Ham United', 'Tottenham Hotspur', 'Brighton', 'Aston Villa', 'Rayo Vallecano', 'Athletic Bilbao', 'Villareal', 'Real Betis', 'SC Freiburg', 'FC Augsburg', 'Mainz 05', 'VfL Wolfsburg', 'Monza', 'Bologna', 'Lazio', 'Fiorentina', 'Clermont', 'Brest', 'Olympique Lyon', 'Marseille', 'SC Heerenveen', 'Utrecht', 'Famalicao', 'Gil Vicente', 'Sint-Truiden', 'Westerlo', 'Livingston', 'St Mirren', 'Blau-WeiB Linz', 'Wolfsberger AC', 'Sepsi', 'Otelul Galati']
+1st Leg: Sint-Truiden (Home) 3 - 1 Brest (Away)
+2nd Leg: Brest (Home) 4 - 0 Sint-Truiden (Away)
+Sint-Truiden vs Brest, Winner: Brest
+1st Leg: Wolfsberger AC (Home) 0 - 2 Utrecht (Away)
+2nd Leg: Utrecht (Home) 1 - 1 Wolfsberger AC (Away)
+Wolfsberger AC vs Utrecht, Winner: Utrecht
+1st Leg: Tottenham Hotspur (Home) 4 - 2 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 2 Tottenham Hotspur (Away)
+Tottenham Hotspur vs Aston Villa, Winner: Tottenham Hotspur
+1st Leg: West Ham United (Home) 1 - 0 Bologna (Away)
+2nd Leg: Bologna (Home) 1 - 2 West Ham United (Away)
+West Ham United vs Bologna, Winner: West Ham United
+1st Leg: Otelul Galati (Home) 2 - 2 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 2 - 2 Otelul Galati (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Otelul Galati 0 - 1 Gil Vicente (Aggregate: 4 - 5)
+Otelul Galati vs Gil Vicente, Winner: Gil Vicente
+1st Leg: St Mirren (Home) 1 - 2 SC Freiburg (Away)
+2nd Leg: SC Freiburg (Home) 3 - 1 St Mirren (Away)
+St Mirren vs SC Freiburg, Winner: SC Freiburg
+1st Leg: Westerlo (Home) 3 - 2 Rayo Vallecano (Away)
+2nd Leg: Rayo Vallecano (Home) 2 - 0 Westerlo (Away)
+Westerlo vs Rayo Vallecano, Winner: Rayo Vallecano
+1st Leg: Sepsi (Home) 2 - 0 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 3 - 0 Sepsi (Away)
+Sepsi vs Olympique Lyon, Winner: Olympique Lyon
+1st Leg: Clermont (Home) 1 - 2 Lazio (Away)
+2nd Leg: Lazio (Home) 3 - 0 Clermont (Away)
+Clermont vs Lazio, Winner: Lazio
+1st Leg: Fiorentina (Home) 2 - 0 Real Betis (Away)
+2nd Leg: Real Betis (Home) 0 - 1 Fiorentina (Away)
+Fiorentina vs Real Betis, Winner: Fiorentina
+1st Leg: Blau-WeiB Linz (Home) 2 - 1 Famalicao (Away)
+2nd Leg: Famalicao (Home) 5 - 0 Blau-WeiB Linz (Away)
+Blau-WeiB Linz vs Famalicao, Winner: Famalicao
+1st Leg: Villareal (Home) 1 - 3 Brighton (Away)
+2nd Leg: Brighton (Home) 2 - 2 Villareal (Away)
+Villareal vs Brighton, Winner: Brighton
+1st Leg: Athletic Bilbao (Home) 4 - 1 SC Heerenveen (Away)
+2nd Leg: SC Heerenveen (Home) 1 - 3 Athletic Bilbao (Away)
+Athletic Bilbao vs SC Heerenveen, Winner: Athletic Bilbao
+1st Leg: Livingston (Home) 1 - 1 VfL Wolfsburg (Away)
+2nd Leg: VfL Wolfsburg (Home) 2 - 1 Livingston (Away)
+Livingston vs VfL Wolfsburg, Winner: VfL Wolfsburg
+1st Leg: Monza (Home) 1 - 0 FC Augsburg (Away)
+2nd Leg: FC Augsburg (Home) 2 - 1 Monza (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Monza 1 - 0 FC Augsburg (Aggregate: 3 - 2)
+Monza vs FC Augsburg, Winner: Monza
+1st Leg: Marseille (Home) 2 - 2 Mainz 05 (Away)
+2nd Leg: Mainz 05 (Home) 2 - 0 Marseille (Away)
+Marseille vs Mainz 05, Winner: Mainz 05
+Round 1 Winners: ['Brest', 'Utrecht', 'Tottenham Hotspur', 'West Ham United', 'Gil Vicente', 'SC Freiburg', 'Rayo Vallecano', 'Olympique Lyon', 'Lazio', 'Fiorentina', 'Famalicao', 'Brighton', 'Athletic Bilbao', 'VfL Wolfsburg', 'Monza', 'Mainz 05']
+Round 2 Qualified: ['NEC', 'Fortuna Sittard', 'Boavista', 'Chaves', 'Gent', 'St Johnstone', 'WSG Tirol', 'U Cluj', 'Lucerne', 'Konyaspor', 'AEK Athens', 'Slovan Liberec', 'Gornik Zabrze', 'Spartak Moscow', 'Zorya Luhansk', 'Cukaricki']
+Teams advancing to Round 2: ['Brest', 'Utrecht', 'Tottenham Hotspur', 'West Ham United', 'Gil Vicente', 'SC Freiburg', 'Rayo Vallecano', 'Olympique Lyon', 'Lazio', 'Fiorentina', 'Famalicao', 'Brighton', 'Athletic Bilbao', 'VfL Wolfsburg', 'Monza', 'Mainz 05', 'NEC', 'Fortuna Sittard', 'Boavista', 'Chaves', 'Gent', 'St Johnstone', 'WSG Tirol', 'U Cluj', 'Lucerne', 'Konyaspor', 'AEK Athens', 'Slovan Liberec', 'Gornik Zabrze', 'Spartak Moscow', 'Zorya Luhansk', 'Cukaricki']
+
+Current round: Round 2
+1st Leg: Konyaspor (Home) 1 - 4 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 0 Konyaspor (Away)
+1st Leg: Cukaricki (Home) 0 - 2 Lazio (Away)
+2nd Leg: Lazio (Home) 4 - 2 Cukaricki (Away)
+1st Leg: Rayo Vallecano (Home) 2 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 3 - 1 Rayo Vallecano (Away)
+1st Leg: WSG Tirol (Home) 2 - 4 Lucerne (Away)
+2nd Leg: Lucerne (Home) 3 - 1 WSG Tirol (Away)
+1st Leg: Monza (Home) 2 - 2 Zorya Luhansk (Away)
+2nd Leg: Zorya Luhansk (Home) 1 - 3 Monza (Away)
+1st Leg: Gent (Home) 3 - 3 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 3 - 2 Gent (Away)
+1st Leg: Gornik Zabrze (Home) 1 - 2 Brest (Away)
+2nd Leg: Brest (Home) 3 - 1 Gornik Zabrze (Away)
+1st Leg: AEK Athens (Home) 2 - 0 SC Freiburg (Away)
+2nd Leg: SC Freiburg (Home) 3 - 0 AEK Athens (Away)
+1st Leg: Tottenham Hotspur (Home) 2 - 2 VfL Wolfsburg (Away)
+2nd Leg: VfL Wolfsburg (Home) 1 - 2 Tottenham Hotspur (Away)
+1st Leg: Fiorentina (Home) 2 - 0 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 3 - 2 Fiorentina (Away)
+1st Leg: Gil Vicente (Home) 0 - 2 Brighton (Away)
+2nd Leg: Brighton (Home) 3 - 0 Gil Vicente (Away)
+1st Leg: Slovan Liberec (Home) 3 - 1 U Cluj (Away)
+2nd Leg: U Cluj (Home) 2 - 3 Slovan Liberec (Away)
+1st Leg: Famalicao (Home) 1 - 3 Mainz 05 (Away)
+2nd Leg: Mainz 05 (Home) 2 - 1 Famalicao (Away)
+1st Leg: Chaves (Home) 2 - 0 St Johnstone (Away)
+2nd Leg: St Johnstone (Home) 1 - 2 Chaves (Away)
+1st Leg: NEC (Home) 0 - 2 Spartak Moscow (Away)
+2nd Leg: Spartak Moscow (Home) 2 - 0 NEC (Away)
+1st Leg: Utrecht (Home) 1 - 0 Boavista (Away)
+2nd Leg: Boavista (Home) 0 - 1 Utrecht (Away)
+
+Current round: Round 3
+1st Leg: Mainz 05 (Home) 4 - 0 Brest (Away)
+2nd Leg: Brest (Home) 2 - 1 Mainz 05 (Away)
+1st Leg: Monza (Home) 3 - 0 Brighton (Away)
+2nd Leg: Brighton (Home) 2 - 1 Monza (Away)
+1st Leg: Chaves (Home) 0 - 5 Tottenham Hotspur (Away)
+2nd Leg: Tottenham Hotspur (Home) 5 - 0 Chaves (Away)
+1st Leg: SC Freiburg (Home) 1 - 1 Lucerne (Away)
+2nd Leg: Lucerne (Home) 0 - 2 SC Freiburg (Away)
+1st Leg: Fiorentina (Home) 0 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 3 Fiorentina (Away)
+1st Leg: Utrecht (Home) 1 - 3 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 5 - 2 Utrecht (Away)
+1st Leg: Athletic Bilbao (Home) 3 - 1 Lazio (Away)
+2nd Leg: Lazio (Home) 3 - 0 Athletic Bilbao (Away)
+1st Leg: Slovan Liberec (Home) 1 - 3 Spartak Moscow (Away)
+2nd Leg: Spartak Moscow (Home) 4 - 1 Slovan Liberec (Away)
+
+Current round: Round 4
+1st Leg: Monza (Home) 1 - 3 Lazio (Away)
+2nd Leg: Lazio (Home) 4 - 1 Monza (Away)
+1st Leg: Mainz 05 (Home) 0 - 2 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 5 - 2 Mainz 05 (Away)
+1st Leg: SC Freiburg (Home) 1 - 3 Spartak Moscow (Away)
+2nd Leg: Spartak Moscow (Home) 2 - 2 SC Freiburg (Away)
+1st Leg: West Ham United (Home) 1 - 3 Tottenham Hotspur (Away)
+2nd Leg: Tottenham Hotspur (Home) 6 - 1 West Ham United (Away)
+
+Current round: Round 5
+1st Leg: Tottenham Hotspur (Home) 2 - 1 Spartak Moscow (Away)
+2nd Leg: Spartak Moscow (Home) 2 - 4 Tottenham Hotspur (Away)
+1st Leg: Olympique Lyon (Home) 1 - 1 Lazio (Away)
+2nd Leg: Lazio (Home) 2 - 3 Olympique Lyon (Away)
+
+Current round: Final:
+Tottenham Hotspur 3 - 0 Olympique Lyon
+Tottenham Hotspur won the match!
+
+Winner of Europa League: Tottenham Hotspur

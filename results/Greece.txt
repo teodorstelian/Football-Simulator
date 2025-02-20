@@ -1,0 +1,77 @@
+Winner of League: Olympiacos
+1. Olympiacos - 49 points - 16 wins - 1 draws - 1 losses - 48 scored - 15 against - Champions League - Round 2
+2. Panathinaikos - 37 points - 11 wins - 4 draws - 3 losses - 35 scored - 18 against - Champions League - Round 1
+3. AEK Athens - 34 points - 10 wins - 4 draws - 4 losses - 41 scored - 27 against - Champions League - Round 1
+4. PAOK Thessaloniki - 32 points - 10 wins - 2 draws - 6 losses - 30 scored - 20 against - Europa League - Round 2
+5. Aris Thessaloniki - 31 points - 10 wins - 1 draws - 7 losses - 31 scored - 25 against - Europa Conference League - Round 2
+6. Atromitos - 23 points - 7 wins - 2 draws - 9 losses - 26 scored - 30 against - No qualification
+7. OFI Crete - 22 points - 6 wins - 4 draws - 8 losses - 29 scored - 34 against - No qualification
+8. Volos - 14 points - 4 wins - 2 draws - 12 losses - 21 scored - 37 against - No qualification
+9. Lamia - 11 points - 3 wins - 2 draws - 13 losses - 19 scored - 44 against - No qualification
+10. Ionikos - 5 points - 1 wins - 2 draws - 15 losses - 17 scored - 47 against - No qualification
+Teams of Greece Cup: ['Olympiacos', 'Panathinaikos', 'AEK Athens', 'PAOK Thessaloniki', 'Aris Thessaloniki', 'Atromitos', 'OFI Crete', 'Volos']
+
+Current round: Round 1
+Atromitos 1 - 3 AEK Athens
+AEK Athens won the match!
+OFI Crete 3 - 0 Panathinaikos
+OFI Crete won the match!
+PAOK Thessaloniki 5 - 2 Aris Thessaloniki
+PAOK Thessaloniki won the match!
+Olympiacos 4 - 0 Volos
+Olympiacos won the match!
+
+Current round: Round 2
+OFI Crete 2 - 3 AEK Athens
+AEK Athens won the match!
+PAOK Thessaloniki 1 - 1 Olympiacos
+Aggregate is tied! Proceeding to extra time...
+Extra Time: PAOK Thessaloniki 0 - 1 Olympiacos (Aggregate: 1 - 2)
+
+Current round: Final:
+Olympiacos 1 - 1 AEK Athens
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Olympiacos 1 - 0 AEK Athens (Aggregate: 2 - 1)
+
+Winner of Greece Cup: Olympiacos
+Winner of League: Panathinaikos
+1. Panathinaikos - 41 points - 13 wins - 2 draws - 3 losses - 44 scored - 22 against - Champions League - Round 2
+2. Olympiacos - 41 points - 13 wins - 2 draws - 3 losses - 40 scored - 12 against - Champions League - Round 1
+3. PAOK Thessaloniki - 39 points - 12 wins - 3 draws - 3 losses - 36 scored - 17 against - Champions League - Round 1
+4. AEK Athens - 33 points - 10 wins - 3 draws - 5 losses - 46 scored - 29 against - Europa League - Round 2
+5. Aris Thessaloniki - 25 points - 6 wins - 7 draws - 5 losses - 29 scored - 26 against - Europa Conference League - Round 2
+6. Atromitos - 21 points - 5 wins - 6 draws - 7 losses - 32 scored - 36 against - No qualification
+7. OFI Crete - 18 points - 4 wins - 6 draws - 8 losses - 22 scored - 32 against - No qualification
+8. Lamia - 14 points - 3 wins - 5 draws - 10 losses - 23 scored - 42 against - No qualification
+9. Volos - 9 points - 1 wins - 6 draws - 11 losses - 23 scored - 44 against - No qualification
+10. Ionikos - 8 points - 2 wins - 2 draws - 14 losses - 11 scored - 46 against - No qualification
+Teams of Greece Cup: ['Olympiacos', 'Panathinaikos', 'PAOK Thessaloniki', 'AEK Athens', 'Aris Thessaloniki', 'Atromitos', 'OFI Crete', 'Lamia']
+
+Current round: Round 1
+Olympiacos 3 - 0 Aris Thessaloniki
+Olympiacos won the match!
+AEK Athens 3 - 1 OFI Crete
+AEK Athens won the match!
+Lamia 1 - 2 PAOK Thessaloniki
+PAOK Thessaloniki won the match!
+Atromitos 2 - 4 Panathinaikos
+Panathinaikos won the match!
+
+Current round: Round 2
+Olympiacos 2 - 2 AEK Athens
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Olympiacos 0 - 1 AEK Athens (Aggregate: 2 - 3)
+Panathinaikos 2 - 2 PAOK Thessaloniki
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Panathinaikos 0 - 0 PAOK Thessaloniki (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Panathinaikos 4 - 4 PAOK Thessaloniki
+Penalties are tied! Sudden death begins!
+Sudden Death: Panathinaikos 5 - 4 PAOK Thessaloniki
+Panathinaikos wins on sudden death penalties!
+
+Current round: Final:
+AEK Athens 1 - 3 Panathinaikos
+Panathinaikos won the match!
+
+Winner of Greece Cup: Panathinaikos

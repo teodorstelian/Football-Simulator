@@ -1,0 +1,38 @@
+Winner of League: Zenit Saint Petersburg
+1. Zenit Saint Petersburg - 47 points - 15 wins - 2 draws - 1 losses - 55 scored - 12 against - Champions League - Round 2
+2. CSKA Moscow - 37 points - 11 wins - 4 draws - 3 losses - 43 scored - 27 against - Champions League - Round 1
+3. Lokomotiv Moscow - 37 points - 11 wins - 4 draws - 3 losses - 38 scored - 28 against - Champions League - Round 1
+4. Spartak Moscow - 32 points - 10 wins - 2 draws - 6 losses - 40 scored - 30 against - Europa League - Round 2
+5. Krasnodar - 27 points - 8 wins - 3 draws - 7 losses - 37 scored - 31 against - Europa Conference League - Round 2
+6. Dynamo Moscow - 26 points - 8 wins - 2 draws - 8 losses - 28 scored - 28 against - No qualification
+7. Rostov - 24 points - 7 wins - 3 draws - 8 losses - 35 scored - 42 against - No qualification
+8. Krylia Sovetov - 10 points - 3 wins - 1 draws - 14 losses - 23 scored - 45 against - No qualification
+9. Rubin Kazan - 10 points - 2 wins - 4 draws - 12 losses - 17 scored - 41 against - No qualification
+10. Ural Yekaterinburg - 6 points - 1 wins - 3 draws - 14 losses - 17 scored - 49 against - No qualification
+Teams of Russia Cup: ['Zenit Saint Petersburg', 'CSKA Moscow', 'Spartak Moscow', 'Lokomotiv Moscow', 'Krasnodar', 'Dynamo Moscow', 'Rostov', 'Krylia Sovetov']
+
+Current round: Round 1
+Krylia Sovetov 0 - 3 Lokomotiv Moscow
+Lokomotiv Moscow won the match!
+Zenit Saint Petersburg 3 - 0 Krasnodar
+Zenit Saint Petersburg won the match!
+CSKA Moscow 2 - 2 Spartak Moscow
+Aggregate is tied! Proceeding to extra time...
+Extra Time: CSKA Moscow 0 - 0 Spartak Moscow (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: CSKA Moscow 4 - 3 Spartak Moscow
+CSKA Moscow wins on penalties!
+Rostov 0 - 3 Dynamo Moscow
+Dynamo Moscow won the match!
+
+Current round: Round 2
+Lokomotiv Moscow 2 - 0 Dynamo Moscow
+Lokomotiv Moscow won the match!
+Zenit Saint Petersburg 1 - 3 CSKA Moscow
+CSKA Moscow won the match!
+
+Current round: Final:
+Lokomotiv Moscow 2 - 3 CSKA Moscow
+CSKA Moscow won the match!
+
+Winner of Russia Cup: CSKA Moscow

@@ -333,3 +333,73 @@ Winner of Europa Conference League: Athletic Bilbao
 Winner of Europa Conference League: Celta Vigo
 Winner of Europa Conference League: Aston Villa
 Winner of Europa Conference League: Athletic Bilbao
+Winner of England League: Liverpool
+Winner of England League: Arsenal
+Winner of England Cup: Manchester City
+Winner of Spain League: Real Madrid
+Winner of Spain Cup: Real Madrid
+Winner of Germany League: Bayern Munchen
+Winner of Germany Cup: Bayern Munchen
+Winner of Italy League: AC Milan
+Winner of Italy Cup: Inter Milan
+Winner of France League: PSG
+Winner of France Cup: PSG
+Winner of Netherlands League: Ajax
+Winner of Netherlands Cup: AZ
+Winner of Portugal League: Porto
+Winner of Portugal Cup: Benfica
+Winner of Belgium League: Union SG
+Winner of Belgium Cup: Union SG
+Winner of Scotland League: Celtic
+Winner of Scotland Cup: Rangers
+Winner of Austria League: Red Bull Salzburg
+Winner of Austria Cup: Sturm Graz
+Winner of Romania League: FCSB
+Winner of Romania Cup: Rapid Bucuresti
+Winner of Switzerland League: Young Boys
+Winner of Switzerland Cup: Young Boys
+Winner of Turkey League: Galatasaray
+Winner of Turkey Cup: Galatasaray
+Winner of Greece League: Olympiacos
+Winner of Greece Cup: Olympiacos
+Winner of England League: Manchester City
+Winner of England Cup: Manchester United
+Winner of Spain League: Real Madrid
+Winner of Spain Cup: Barcelona
+Winner of Germany League: Bayern Munchen
+Winner of Germany Cup: Borussia Dortmund
+Winner of Italy League: AC Milan
+Winner of Italy Cup: Atalanta
+Winner of France League: PSG
+Winner of France Cup: PSG
+Winner of Netherlands League: Ajax
+Winner of Netherlands Cup: Utrecht
+Winner of Portugal League: Porto
+Winner of Portugal Cup: Porto
+Winner of Belgium League: Anderlecht
+Winner of Belgium Cup: Union SG
+Winner of Scotland League: Celtic
+Winner of Scotland Cup: Rangers
+Winner of Austria League: Red Bull Salzburg
+Winner of Austria Cup: Red Bull Salzburg
+Winner of Romania League: FCSB
+Winner of Romania Cup: FCSB
+Winner of Switzerland League: Young Boys
+Winner of Switzerland Cup: Young Boys
+Winner of Turkey League: Galatasaray
+Winner of Turkey Cup: Galatasaray
+Winner of Greece League: Panathinaikos
+Winner of Greece Cup: Panathinaikos
+Winner of Czech_Republic League: Slavia Prague
+Winner of Czech_Republic Cup: Viktoria Plzen
+Winner of Poland League: Legia Warsaw
+Winner of Poland Cup: Legia Warsaw
+Winner of Russia League: Zenit Saint Petersburg
+Winner of Russia Cup: CSKA Moscow
+Winner of Ukraine League: Shakhtar Donetsk
+Winner of Ukraine Cup: Shakhtar Donetsk
+Winner of Serbia League: Red Star Belgrade
+Winner of Serbia Cup: Partizan Belgrade
+Winner of Champions League: Real Madrid
+Winner of Europa League: Tottenham Hotspur
+Winner of Europa Conference League: Strasbourg
