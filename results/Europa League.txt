@@ -2054,3 +2054,154 @@ AS Monaco 1 - 2 Lokomotiv Moscow
 Lokomotiv Moscow won the match!
 
 Winner of Europa League: Lokomotiv Moscow
+Teams starting in Europa League Round 1: ['West Ham United', 'Tottenham Hotspur', 'Brighton', 'Aston Villa', 'Athletic Bilbao', 'Villareal', 'Celta Vigo', 'Real Betis', 'SC Freiburg', 'Mainz 05', 'VfL Wolfsburg', 'Werder Bremen', 'AS Roma', 'Bologna', 'Fiorentina', 'Torino', 'AS Monaco', 'Strasbourg', 'Brest', 'Marseille', 'SC Heerenveen', 'Vitesse', 'Famalicao', 'Gil Vicente', 'Cercle Brugge', 'Westerlo', 'Dundee', 'Ross County', 'WSG Tirol', 'Austria Klagenfurt', 'Sepsi', 'Farul Constanta']
+1st Leg: Farul Constanta (Home) 3 - 1 Sepsi (Away)
+2nd Leg: Sepsi (Home) 3 - 4 Farul Constanta (Away)
+Farul Constanta vs Sepsi, Winner: Farul Constanta
+1st Leg: Villareal (Home) 0 - 0 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 1 Villareal (Away)
+Villareal vs Aston Villa, Winner: Aston Villa
+1st Leg: Bologna (Home) 2 - 1 Famalicao (Away)
+2nd Leg: Famalicao (Home) 3 - 0 Bologna (Away)
+Bologna vs Famalicao, Winner: Famalicao
+1st Leg: Mainz 05 (Home) 1 - 1 VfL Wolfsburg (Away)
+2nd Leg: VfL Wolfsburg (Home) 0 - 0 Mainz 05 (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Mainz 05 1 - 1 VfL Wolfsburg (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Mainz 05 4 - 4 VfL Wolfsburg
+Penalties are tied! Sudden death begins!
+Sudden Death: Mainz 05 8 - 7 VfL Wolfsburg
+Mainz 05 wins on sudden death penalties!
+Mainz 05 vs VfL Wolfsburg, Winner: Mainz 05
+1st Leg: Brest (Home) 3 - 3 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 2 - 2 Brest (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Brest 0 - 1 AS Monaco (Aggregate: 5 - 6)
+Brest vs AS Monaco, Winner: AS Monaco
+1st Leg: Real Betis (Home) 3 - 0 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 0 - 2 Real Betis (Away)
+Real Betis vs Austria Klagenfurt, Winner: Real Betis
+1st Leg: Brighton (Home) 2 - 1 WSG Tirol (Away)
+2nd Leg: WSG Tirol (Home) 2 - 3 Brighton (Away)
+Brighton vs WSG Tirol, Winner: Brighton
+1st Leg: Fiorentina (Home) 5 - 1 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 0 - 2 Fiorentina (Away)
+Fiorentina vs Gil Vicente, Winner: Fiorentina
+1st Leg: Tottenham Hotspur (Home) 2 - 0 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 2 - 2 Tottenham Hotspur (Away)
+Tottenham Hotspur vs Cercle Brugge, Winner: Tottenham Hotspur
+1st Leg: SC Heerenveen (Home) 3 - 0 Ross County (Away)
+2nd Leg: Ross County (Home) 0 - 2 SC Heerenveen (Away)
+SC Heerenveen vs Ross County, Winner: SC Heerenveen
+1st Leg: Westerlo (Home) 2 - 3 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 1 Westerlo (Away)
+Westerlo vs West Ham United, Winner: West Ham United
+1st Leg: Marseille (Home) 2 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 3 - 4 Marseille (Away)
+Marseille vs Athletic Bilbao, Winner: Marseille
+1st Leg: Torino (Home) 1 - 3 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 1 Torino (Away)
+Torino vs Celta Vigo, Winner: Celta Vigo
+1st Leg: Vitesse (Home) 1 - 2 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 1 - 0 Vitesse (Away)
+Vitesse vs Werder Bremen, Winner: Werder Bremen
+1st Leg: Strasbourg (Home) 0 - 2 SC Freiburg (Away)
+2nd Leg: SC Freiburg (Home) 2 - 2 Strasbourg (Away)
+Strasbourg vs SC Freiburg, Winner: SC Freiburg
+1st Leg: Dundee (Home) 0 - 3 AS Roma (Away)
+2nd Leg: AS Roma (Home) 4 - 1 Dundee (Away)
+Dundee vs AS Roma, Winner: AS Roma
+Round 1 Winners: ['Farul Constanta', 'Aston Villa', 'Famalicao', 'Mainz 05', 'AS Monaco', 'Real Betis', 'Brighton', 'Fiorentina', 'Tottenham Hotspur', 'SC Heerenveen', 'West Ham United', 'Marseille', 'Celta Vigo', 'Werder Bremen', 'SC Freiburg', 'AS Roma']
+Round 2 Qualified: ['Sparta Rotterdam', 'Go Ahead Eagles', 'Boavista', 'Arouca', 'Club Brugge', 'St Mirren', 'Wolfsberger AC', 'UTA Arad', 'Lugano', 'Konyaspor', 'Aris Thessaloniki', 'Slovan Liberec', 'Zaglebie Lubin', 'Lokomotiv Moscow', 'Oleksandriya', 'Vojvodina']
+Teams advancing to Round 2: ['Farul Constanta', 'Aston Villa', 'Famalicao', 'Mainz 05', 'AS Monaco', 'Real Betis', 'Brighton', 'Fiorentina', 'Tottenham Hotspur', 'SC Heerenveen', 'West Ham United', 'Marseille', 'Celta Vigo', 'Werder Bremen', 'SC Freiburg', 'AS Roma', 'Sparta Rotterdam', 'Go Ahead Eagles', 'Boavista', 'Arouca', 'Club Brugge', 'St Mirren', 'Wolfsberger AC', 'UTA Arad', 'Lugano', 'Konyaspor', 'Aris Thessaloniki', 'Slovan Liberec', 'Zaglebie Lubin', 'Lokomotiv Moscow', 'Oleksandriya', 'Vojvodina']
+
+Current round: Round 2
+1st Leg: Famalicao (Home) 2 - 2 Zaglebie Lubin (Away)
+2nd Leg: Zaglebie Lubin (Home) 3 - 1 Famalicao (Away)
+1st Leg: SC Freiburg (Home) 3 - 2 Go Ahead Eagles (Away)
+2nd Leg: Go Ahead Eagles (Home) 1 - 2 SC Freiburg (Away)
+1st Leg: Marseille (Home) 4 - 2 Fiorentina (Away)
+2nd Leg: Fiorentina (Home) 2 - 1 Marseille (Away)
+1st Leg: Oleksandriya (Home) 2 - 2 Sparta Rotterdam (Away)
+2nd Leg: Sparta Rotterdam (Home) 1 - 1 Oleksandriya (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Oleksandriya 0 - 1 Sparta Rotterdam (Aggregate: 3 - 4)
+1st Leg: Konyaspor (Home) 0 - 2 Real Betis (Away)
+2nd Leg: Real Betis (Home) 4 - 1 Konyaspor (Away)
+1st Leg: Wolfsberger AC (Home) 1 - 1 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 3 - 0 Wolfsberger AC (Away)
+1st Leg: West Ham United (Home) 4 - 2 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 3 - 3 West Ham United (Away)
+1st Leg: Lugano (Home) 3 - 1 St Mirren (Away)
+2nd Leg: St Mirren (Home) 2 - 2 Lugano (Away)
+1st Leg: Arouca (Home) 2 - 1 Farul Constanta (Away)
+2nd Leg: Farul Constanta (Home) 2 - 2 Arouca (Away)
+1st Leg: Brighton (Home) 4 - 2 Mainz 05 (Away)
+2nd Leg: Mainz 05 (Home) 2 - 2 Brighton (Away)
+1st Leg: Tottenham Hotspur (Home) 2 - 2 Lokomotiv Moscow (Away)
+2nd Leg: Lokomotiv Moscow (Home) 1 - 1 Tottenham Hotspur (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Tottenham Hotspur 0 - 1 Lokomotiv Moscow (Aggregate: 3 - 4)
+1st Leg: SC Heerenveen (Home) 3 - 1 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 3 - 1 SC Heerenveen (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: SC Heerenveen 0 - 1 AS Monaco (Aggregate: 4 - 5)
+1st Leg: Boavista (Home) 3 - 2 Vojvodina (Away)
+2nd Leg: Vojvodina (Home) 3 - 2 Boavista (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Boavista 0 - 0 Vojvodina (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Boavista 4 - 3 Vojvodina
+Boavista wins on penalties!
+1st Leg: Club Brugge (Home) 3 - 3 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 1 - 1 Club Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Club Brugge 0 - 0 Aston Villa (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Club Brugge 4 - 2 Aston Villa
+Club Brugge wins on penalties!
+1st Leg: AS Roma (Home) 4 - 2 Slovan Liberec (Away)
+2nd Leg: Slovan Liberec (Home) 1 - 3 AS Roma (Away)
+1st Leg: Aris Thessaloniki (Home) 2 - 1 UTA Arad (Away)
+2nd Leg: UTA Arad (Home) 2 - 2 Aris Thessaloniki (Away)
+
+Current round: Round 3
+1st Leg: Marseille (Home) 2 - 0 Lokomotiv Moscow (Away)
+2nd Leg: Lokomotiv Moscow (Home) 1 - 2 Marseille (Away)
+1st Leg: SC Freiburg (Home) 2 - 1 Aris Thessaloniki (Away)
+2nd Leg: Aris Thessaloniki (Home) 2 - 2 SC Freiburg (Away)
+1st Leg: Real Betis (Home) 3 - 1 Lugano (Away)
+2nd Leg: Lugano (Home) 2 - 3 Real Betis (Away)
+1st Leg: AS Monaco (Home) 2 - 1 Zaglebie Lubin (Away)
+2nd Leg: Zaglebie Lubin (Home) 2 - 5 AS Monaco (Away)
+1st Leg: AS Roma (Home) 3 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 0 - 0 AS Roma (Away)
+1st Leg: Arouca (Home) 0 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 5 - 1 Arouca (Away)
+1st Leg: Sparta Rotterdam (Home) 1 - 2 Boavista (Away)
+2nd Leg: Boavista (Home) 3 - 2 Sparta Rotterdam (Away)
+1st Leg: Club Brugge (Home) 0 - 3 Brighton (Away)
+2nd Leg: Brighton (Home) 2 - 2 Club Brugge (Away)
+
+Current round: Round 4
+1st Leg: AS Monaco (Home) 3 - 0 SC Freiburg (Away)
+2nd Leg: SC Freiburg (Home) 0 - 2 AS Monaco (Away)
+1st Leg: Brighton (Home) 2 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 3 - 2 Brighton (Away)
+1st Leg: Boavista (Home) 0 - 2 AS Roma (Away)
+2nd Leg: AS Roma (Home) 4 - 1 Boavista (Away)
+1st Leg: Real Betis (Home) 3 - 1 Marseille (Away)
+2nd Leg: Marseille (Home) 1 - 1 Real Betis (Away)
+
+Current round: Round 5
+1st Leg: AS Roma (Home) 4 - 3 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 1 - 3 AS Roma (Away)
+1st Leg: Real Betis (Home) 3 - 0 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 1 - 3 Real Betis (Away)
+
+Current round: Final:
+Real Betis 3 - 1 AS Roma
+Real Betis won the match!
+
+Winner of Europa League: Real Betis

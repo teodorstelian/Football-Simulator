@@ -231,3 +231,72 @@ Trabzonspor 2 - 3 Antalyaspor
 Antalyaspor won the match!
 
 Winner of Turkey Cup: Antalyaspor
+Winner of League: Fenerbahce
+1. Fenerbahce - 49 points - 16 wins - 1 draws - 1 losses - 48 scored - 15 against - Champions League - Round 2
+2. Galatasaray - 42 points - 13 wins - 3 draws - 2 losses - 44 scored - 15 against - Champions League - Round 2
+3. Trabzonspor - 29 points - 8 wins - 5 draws - 5 losses - 33 scored - 27 against - Champions League - Round 1
+4. Besiktas - 29 points - 8 wins - 5 draws - 5 losses - 30 scored - 28 against - Champions League - Round 1
+5. Adana Demirspor - 23 points - 6 wins - 5 draws - 7 losses - 23 scored - 26 against - Champions League - Round 1
+6. Istanbul Basaksehir - 22 points - 6 wins - 4 draws - 8 losses - 31 scored - 33 against - Champions League - Round 1
+7. Alanyaspor - 20 points - 5 wins - 5 draws - 8 losses - 26 scored - 38 against - Europa League - Round 2
+8. Konyaspor - 17 points - 4 wins - 5 draws - 9 losses - 30 scored - 37 against - Europa Conference League - Round 2
+9. Sivasspor - 13 points - 3 wins - 4 draws - 11 losses - 26 scored - 41 against - No qualification
+10. Antalyaspor - 5 points - 0 wins - 5 draws - 13 losses - 15 scored - 46 against - No qualification
+Teams of Turkey Cup: ['Fenerbahce', 'Galatasaray', 'Trabzonspor', 'Besiktas', 'Adana Demirspor', 'Istanbul Basaksehir', 'Alanyaspor', 'Konyaspor']
+
+Current round: Round 1
+Trabzonspor 3 - 0 Konyaspor
+Trabzonspor won the match!
+Alanyaspor 2 - 3 Istanbul Basaksehir
+Istanbul Basaksehir won the match!
+Adana Demirspor 1 - 3 Galatasaray
+Galatasaray won the match!
+Fenerbahce 4 - 2 Besiktas
+Fenerbahce won the match!
+
+Current round: Round 2
+Fenerbahce 4 - 2 Trabzonspor
+Fenerbahce won the match!
+Istanbul Basaksehir 0 - 2 Galatasaray
+Galatasaray won the match!
+
+Current round: Final:
+Fenerbahce 2 - 1 Galatasaray
+Fenerbahce won the match!
+
+Winner of Turkey Cup: Fenerbahce
+Winner of League: Galatasaray
+1. Galatasaray - 52 points - 17 wins - 1 draws - 0 losses - 50 scored - 13 against - Champions League - Round 2
+2. Fenerbahce - 37 points - 11 wins - 4 draws - 3 losses - 36 scored - 21 against - Champions League - Round 2
+3. Trabzonspor - 34 points - 10 wins - 4 draws - 4 losses - 35 scored - 26 against - Champions League - Round 1
+4. Besiktas - 31 points - 10 wins - 1 draws - 7 losses - 39 scored - 28 against - Champions League - Round 1
+5. Istanbul Basaksehir - 27 points - 8 wins - 3 draws - 7 losses - 35 scored - 33 against - Champions League - Round 1
+6. Adana Demirspor - 24 points - 7 wins - 3 draws - 8 losses - 27 scored - 31 against - Champions League - Round 1
+7. Alanyaspor - 17 points - 4 wins - 5 draws - 9 losses - 30 scored - 39 against - Europa League - Round 2
+8. Konyaspor - 14 points - 3 wins - 5 draws - 10 losses - 27 scored - 42 against - Europa Conference League - Round 2
+9. Antalyaspor - 11 points - 3 wins - 2 draws - 13 losses - 27 scored - 49 against - No qualification
+10. Sivasspor - 8 points - 2 wins - 2 draws - 14 losses - 18 scored - 42 against - No qualification
+Teams of Turkey Cup: ['Galatasaray', 'Fenerbahce', 'Trabzonspor', 'Besiktas', 'Istanbul Basaksehir', 'Adana Demirspor', 'Alanyaspor', 'Konyaspor']
+
+Current round: Round 1
+Fenerbahce 1 - 3 Adana Demirspor
+Adana Demirspor won the match!
+Konyaspor 1 - 0 Alanyaspor
+Konyaspor won the match!
+Besiktas 3 - 2 Trabzonspor
+Besiktas won the match!
+Istanbul Basaksehir 3 - 2 Galatasaray
+Istanbul Basaksehir won the match!
+
+Current round: Round 2
+Besiktas 1 - 0 Konyaspor
+Besiktas won the match!
+Adana Demirspor 2 - 2 Istanbul Basaksehir
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Adana Demirspor 1 - 0 Istanbul Basaksehir (Aggregate: 3 - 2)
+
+Current round: Final:
+Besiktas 4 - 0 Adana Demirspor
+Besiktas won the match!
+
+Winner of Turkey Cup: Besiktas

@@ -189,12 +189,24 @@ def generate_fixtures_cup(teams, competition, has_2_legs=False, prev_rounds=0, l
             home = current_participants[i]
             away = current_participants[i + 1]
 
+            if competition in [settings.UCL, settings.UEL, settings.UECL]:
+                if len(current_participants) == 16:
+                    update_european_competition_round_team(home.name, competition, "round_of_16")
+                    update_european_competition_round_team(away.name, competition, "round_of_16")
+                if len(current_participants) == 8:
+                    update_european_competition_round_team(home.name, competition, "quarter_finals")
+                    update_european_competition_round_team(away.name, competition, "quarter_finals")
+                if len(current_participants) == 4:
+                    update_european_competition_round_team(home.name, competition, "semi_finals")
+                    update_european_competition_round_team(away.name, competition, "semi_finals")
+                if len(current_participants) == 2:
+                    update_european_competition_round_team(home.name, competition, "finals")
+                    update_european_competition_round_team(away.name, competition, "finals")
+
             if len(current_participants) == 2:
                 winner = home.play_match(away, knockouts=True, has_2_legs=False,
                                          file=competition_text if logging else None)
                 if competition in [settings.UCL, settings.UEL, settings.UECL]:
-                    update_european_competition_round_team(home.name, competition, "finals")
-                    update_european_competition_round_team(away.name, competition, "finals")
                     update_european_competition_round_team(winner.name, competition, "winner")
                 else:
                     home.cup_finals += 1

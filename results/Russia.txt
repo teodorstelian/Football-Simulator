@@ -184,3 +184,81 @@ CSKA Moscow 2 - 0 Lokomotiv Moscow
 CSKA Moscow won the match!
 
 Winner of Russia Cup: CSKA Moscow
+Winner of League: Zenit Saint Petersburg
+1. Zenit Saint Petersburg - 41 points - 12 wins - 5 draws - 1 losses - 42 scored - 15 against - Champions League - Round 2
+2. CSKA Moscow - 35 points - 11 wins - 2 draws - 5 losses - 41 scored - 26 against - Champions League - Round 1
+3. Spartak Moscow - 34 points - 11 wins - 1 draws - 6 losses - 42 scored - 27 against - Champions League - Round 1
+4. Dynamo Moscow - 30 points - 9 wins - 3 draws - 6 losses - 40 scored - 29 against - Europa League - Round 2
+5. Krasnodar - 28 points - 8 wins - 4 draws - 6 losses - 38 scored - 33 against - Europa Conference League - Round 2
+6. Lokomotiv Moscow - 28 points - 7 wins - 7 draws - 4 losses - 35 scored - 27 against - No qualification
+7. Rostov - 25 points - 8 wins - 1 draws - 9 losses - 26 scored - 26 against - No qualification
+8. Krylia Sovetov - 11 points - 3 wins - 2 draws - 13 losses - 21 scored - 47 against - No qualification
+9. Ural Yekaterinburg - 11 points - 3 wins - 2 draws - 13 losses - 17 scored - 51 against - No qualification
+10. Rubin Kazan - 11 points - 2 wins - 5 draws - 11 losses - 25 scored - 46 against - No qualification
+Teams of Russia Cup: ['Zenit Saint Petersburg', 'CSKA Moscow', 'Spartak Moscow', 'Dynamo Moscow', 'Krasnodar', 'Lokomotiv Moscow', 'Rostov', 'Krylia Sovetov']
+
+Current round: Round 1
+Lokomotiv Moscow 3 - 1 Krylia Sovetov
+Lokomotiv Moscow won the match!
+Spartak Moscow 1 - 1 Krasnodar
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Spartak Moscow 0 - 0 Krasnodar (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Spartak Moscow 2 - 4 Krasnodar
+Krasnodar wins on penalties!
+Zenit Saint Petersburg 2 - 0 CSKA Moscow
+Zenit Saint Petersburg won the match!
+Dynamo Moscow 2 - 1 Rostov
+Dynamo Moscow won the match!
+
+Current round: Round 2
+Krasnodar 2 - 1 Lokomotiv Moscow
+Krasnodar won the match!
+Zenit Saint Petersburg 4 - 4 Dynamo Moscow
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Zenit Saint Petersburg 1 - 0 Dynamo Moscow (Aggregate: 5 - 4)
+
+Current round: Final:
+Zenit Saint Petersburg 1 - 1 Krasnodar
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Zenit Saint Petersburg 1 - 0 Krasnodar (Aggregate: 2 - 1)
+
+Winner of Russia Cup: Zenit Saint Petersburg
+Winner of League: Zenit Saint Petersburg
+1. Zenit Saint Petersburg - 52 points - 17 wins - 1 draws - 0 losses - 52 scored - 13 against - Champions League - Round 2
+2. CSKA Moscow - 36 points - 11 wins - 3 draws - 4 losses - 36 scored - 21 against - Champions League - Round 1
+3. Krasnodar - 35 points - 10 wins - 5 draws - 3 losses - 37 scored - 25 against - Champions League - Round 1
+4. Spartak Moscow - 34 points - 11 wins - 1 draws - 6 losses - 35 scored - 26 against - Europa League - Round 2
+5. Dynamo Moscow - 23 points - 7 wins - 2 draws - 9 losses - 38 scored - 37 against - Europa Conference League - Round 2
+6. Rostov - 22 points - 7 wins - 1 draws - 10 losses - 28 scored - 31 against - No qualification
+7. Lokomotiv Moscow - 22 points - 6 wins - 4 draws - 8 losses - 36 scored - 33 against - No qualification
+8. Krylia Sovetov - 17 points - 4 wins - 5 draws - 9 losses - 19 scored - 34 against - No qualification
+9. Rubin Kazan - 11 points - 3 wins - 2 draws - 13 losses - 22 scored - 46 against - No qualification
+10. Ural Yekaterinburg - 6 points - 2 wins - 0 draws - 16 losses - 17 scored - 54 against - No qualification
+Teams of Russia Cup: ['Zenit Saint Petersburg', 'CSKA Moscow', 'Spartak Moscow', 'Krasnodar', 'Dynamo Moscow', 'Lokomotiv Moscow', 'Rostov', 'Krylia Sovetov']
+
+Current round: Round 1
+CSKA Moscow 2 - 0 Rostov
+CSKA Moscow won the match!
+Dynamo Moscow 2 - 1 Krylia Sovetov
+Dynamo Moscow won the match!
+Zenit Saint Petersburg 3 - 1 Krasnodar
+Zenit Saint Petersburg won the match!
+Spartak Moscow 1 - 2 Lokomotiv Moscow
+Lokomotiv Moscow won the match!
+
+Current round: Round 2
+CSKA Moscow 3 - 0 Dynamo Moscow
+CSKA Moscow won the match!
+Zenit Saint Petersburg 1 - 1 Lokomotiv Moscow
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Zenit Saint Petersburg 0 - 0 Lokomotiv Moscow (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Zenit Saint Petersburg 2 - 4 Lokomotiv Moscow
+Lokomotiv Moscow wins on penalties!
+
+Current round: Final:
+Lokomotiv Moscow 2 - 3 CSKA Moscow
+CSKA Moscow won the match!
+
+Winner of Russia Cup: CSKA Moscow

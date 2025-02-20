@@ -4639,3 +4639,165 @@ Dnipro-1 3 - 2 Krasnodar
 Dnipro-1 won the match!
 
 Winner of Europa Conference League: Dnipro-1
+Teams starting in Europa Conference League Round 1: ['Crystal Palace', 'Nottingham Forest', 'Fulham', 'Wolverhampton Wanderers', 'Girona', 'Mallorca', 'Cadiz', 'Osasuna', 'Borussia Monchengladbach', 'FC Augsburg', '1899 Hoffenheim', 'VfL Bochum', 'Monza', 'Lecce', 'Cagliari', 'Udinese', 'Nantes', 'Clermont', 'Toulouse', 'Reims', 'RKC Waalwijk', 'Volendam', 'Rio Ave', 'Portimonense', 'Mechelen', 'OH Leuven', 'Livingston', 'Kilmarnock', 'Blau-WeiB Linz', 'Rheindorf Altach', 'Politehnica Iasi', 'Petrolul Ploiesti']
+1st Leg: Crystal Palace (Home) 1 - 0 OH Leuven (Away)
+2nd Leg: OH Leuven (Home) 2 - 2 Crystal Palace (Away)
+Crystal Palace vs OH Leuven, Winner: Crystal Palace
+1st Leg: Portimonense (Home) 2 - 2 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 4 - 1 Portimonense (Away)
+Portimonense vs Rheindorf Altach, Winner: Rheindorf Altach
+1st Leg: FC Augsburg (Home) 2 - 1 Toulouse (Away)
+2nd Leg: Toulouse (Home) 1 - 1 FC Augsburg (Away)
+FC Augsburg vs Toulouse, Winner: FC Augsburg
+1st Leg: Osasuna (Home) 2 - 1 Fulham (Away)
+2nd Leg: Fulham (Home) 3 - 3 Osasuna (Away)
+Osasuna vs Fulham, Winner: Osasuna
+1st Leg: Cadiz (Home) 2 - 1 Clermont (Away)
+2nd Leg: Clermont (Home) 3 - 2 Cadiz (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cadiz 0 - 1 Clermont (Aggregate: 4 - 5)
+Cadiz vs Clermont, Winner: Clermont
+1st Leg: Mallorca (Home) 2 - 1 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 1 - 2 Mallorca (Away)
+Mallorca vs Blau-WeiB Linz, Winner: Mallorca
+1st Leg: Nottingham Forest (Home) 4 - 1 Politehnica Iasi (Away)
+2nd Leg: Politehnica Iasi (Home) 0 - 3 Nottingham Forest (Away)
+Nottingham Forest vs Politehnica Iasi, Winner: Nottingham Forest
+1st Leg: Cagliari (Home) 1 - 1 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 3 - 0 Cagliari (Away)
+Cagliari vs VfL Bochum, Winner: VfL Bochum
+1st Leg: Lecce (Home) 1 - 3 Borussia Monchengladbach (Away)
+2nd Leg: Borussia Monchengladbach (Home) 1 - 2 Lecce (Away)
+Lecce vs Borussia Monchengladbach, Winner: Borussia Monchengladbach
+1st Leg: RKC Waalwijk (Home) 2 - 2 Reims (Away)
+2nd Leg: Reims (Home) 4 - 1 RKC Waalwijk (Away)
+RKC Waalwijk vs Reims, Winner: Reims
+1st Leg: Mechelen (Home) 2 - 2 Livingston (Away)
+2nd Leg: Livingston (Home) 2 - 1 Mechelen (Away)
+Mechelen vs Livingston, Winner: Livingston
+1st Leg: 1899 Hoffenheim (Home) 4 - 2 Monza (Away)
+2nd Leg: Monza (Home) 2 - 1 1899 Hoffenheim (Away)
+1899 Hoffenheim vs Monza, Winner: 1899 Hoffenheim
+1st Leg: Wolverhampton Wanderers (Home) 3 - 0 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 3 Wolverhampton Wanderers (Away)
+Wolverhampton Wanderers vs Petrolul Ploiesti, Winner: Wolverhampton Wanderers
+1st Leg: Nantes (Home) 0 - 2 Volendam (Away)
+2nd Leg: Volendam (Home) 0 - 1 Nantes (Away)
+Nantes vs Volendam, Winner: Volendam
+1st Leg: Kilmarnock (Home) 2 - 2 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 3 - 4 Kilmarnock (Away)
+Kilmarnock vs Rio Ave, Winner: Kilmarnock
+1st Leg: Udinese (Home) 2 - 3 Girona (Away)
+2nd Leg: Girona (Home) 3 - 2 Udinese (Away)
+Udinese vs Girona, Winner: Girona
+Round 1 Winners: ['Crystal Palace', 'Rheindorf Altach', 'FC Augsburg', 'Osasuna', 'Clermont', 'Mallorca', 'Nottingham Forest', 'VfL Bochum', 'Borussia Monchengladbach', 'Reims', 'Livingston', '1899 Hoffenheim', 'Wolverhampton Wanderers', 'Volendam', 'Kilmarnock', 'Girona']
+Round 2 Qualified: ['NEC', 'Fortuna Sittard', 'Vizela', 'Casa Pia', 'Charleroi', 'St Johnstone', 'TSV Hartberg', 'Otelul Galati', 'Lucerne', 'Alanyaspor', 'Atromitos', 'Sigma Olomouc', 'Wisla Krakow', 'Krasnodar', 'Dnipro-1', 'Radnicki Nis']
+Teams advancing to Round 2: ['Crystal Palace', 'Rheindorf Altach', 'FC Augsburg', 'Osasuna', 'Clermont', 'Mallorca', 'Nottingham Forest', 'VfL Bochum', 'Borussia Monchengladbach', 'Reims', 'Livingston', '1899 Hoffenheim', 'Wolverhampton Wanderers', 'Volendam', 'Kilmarnock', 'Girona', 'NEC', 'Fortuna Sittard', 'Vizela', 'Casa Pia', 'Charleroi', 'St Johnstone', 'TSV Hartberg', 'Otelul Galati', 'Lucerne', 'Alanyaspor', 'Atromitos', 'Sigma Olomouc', 'Wisla Krakow', 'Krasnodar', 'Dnipro-1', 'Radnicki Nis']
+
+Current round: Round 2
+1st Leg: Kilmarnock (Home) 2 - 1 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 1 - 2 Kilmarnock (Away)
+1st Leg: Radnicki Nis (Home) 2 - 0 Clermont (Away)
+2nd Leg: Clermont (Home) 2 - 2 Radnicki Nis (Away)
+1st Leg: FC Augsburg (Home) 2 - 1 St Johnstone (Away)
+2nd Leg: St Johnstone (Home) 0 - 2 FC Augsburg (Away)
+1st Leg: Borussia Monchengladbach (Home) 3 - 3 Dnipro-1 (Away)
+2nd Leg: Dnipro-1 (Home) 4 - 3 Borussia Monchengladbach (Away)
+1st Leg: VfL Bochum (Home) 2 - 0 Charleroi (Away)
+2nd Leg: Charleroi (Home) 3 - 3 VfL Bochum (Away)
+1st Leg: Wolverhampton Wanderers (Home) 2 - 2 TSV Hartberg (Away)
+2nd Leg: TSV Hartberg (Home) 1 - 2 Wolverhampton Wanderers (Away)
+1st Leg: Mallorca (Home) 2 - 0 NEC (Away)
+2nd Leg: NEC (Home) 3 - 2 Mallorca (Away)
+1st Leg: Vizela (Home) 1 - 2 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 0 - 1 Vizela (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Vizela 0 - 0 Nottingham Forest (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Vizela 3 - 3 Nottingham Forest
+Penalties are tied! Sudden death begins!
+Sudden Death: Vizela 4 - 5 Nottingham Forest
+Nottingham Forest wins on sudden death penalties!
+1st Leg: Casa Pia (Home) 2 - 1 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 3 - 2 Casa Pia (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Casa Pia 1 - 1 Crystal Palace (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Casa Pia 4 - 3 Crystal Palace
+Casa Pia wins on penalties!
+1st Leg: Volendam (Home) 3 - 1 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 4 - 1 Volendam (Away)
+1st Leg: Krasnodar (Home) 2 - 2 Sigma Olomouc (Away)
+2nd Leg: Sigma Olomouc (Home) 1 - 3 Krasnodar (Away)
+1st Leg: Livingston (Home) 3 - 0 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 0 - 4 Livingston (Away)
+1st Leg: Osasuna (Home) 2 - 1 Wisla Krakow (Away)
+2nd Leg: Wisla Krakow (Home) 0 - 2 Osasuna (Away)
+1st Leg: Lucerne (Home) 2 - 1 Alanyaspor (Away)
+2nd Leg: Alanyaspor (Home) 4 - 1 Lucerne (Away)
+1st Leg: Reims (Home) 2 - 2 Girona (Away)
+2nd Leg: Girona (Home) 2 - 0 Reims (Away)
+1st Leg: Atromitos (Home) 4 - 1 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 2 - 1 Atromitos (Away)
+
+Current round: Round 3
+1st Leg: Girona (Home) 2 - 1 Krasnodar (Away)
+2nd Leg: Krasnodar (Home) 2 - 2 Girona (Away)
+1st Leg: Dnipro-1 (Home) 2 - 2 Wolverhampton Wanderers (Away)
+2nd Leg: Wolverhampton Wanderers (Home) 2 - 3 Dnipro-1 (Away)
+1st Leg: 1899 Hoffenheim (Home) 0 - 1 Atromitos (Away)
+2nd Leg: Atromitos (Home) 1 - 2 1899 Hoffenheim (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: 1899 Hoffenheim 1 - 1 Atromitos (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: 1899 Hoffenheim 4 - 5 Atromitos
+Atromitos wins on penalties!
+1st Leg: FC Augsburg (Home) 2 - 1 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 1 - 2 FC Augsburg (Away)
+1st Leg: Alanyaspor (Home) 0 - 1 Mallorca (Away)
+2nd Leg: Mallorca (Home) 2 - 0 Alanyaspor (Away)
+1st Leg: VfL Bochum (Home) 1 - 3 Radnicki Nis (Away)
+2nd Leg: Radnicki Nis (Home) 3 - 1 VfL Bochum (Away)
+1st Leg: Osasuna (Home) 2 - 0 Casa Pia (Away)
+2nd Leg: Casa Pia (Home) 1 - 0 Osasuna (Away)
+1st Leg: Livingston (Home) 0 - 2 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 2 - 1 Livingston (Away)
+
+Current round: Round 4
+1st Leg: Osasuna (Home) 3 - 1 Dnipro-1 (Away)
+2nd Leg: Dnipro-1 (Home) 2 - 2 Osasuna (Away)
+1st Leg: Radnicki Nis (Home) 3 - 3 FC Augsburg (Away)
+2nd Leg: FC Augsburg (Home) 1 - 2 Radnicki Nis (Away)
+1st Leg: Girona (Home) 1 - 2 Mallorca (Away)
+2nd Leg: Mallorca (Home) 1 - 2 Girona (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Girona 0 - 0 Mallorca (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Girona 5 - 3 Mallorca
+Girona wins on penalties!
+1st Leg: Nottingham Forest (Home) 2 - 3 Atromitos (Away)
+2nd Leg: Atromitos (Home) 1 - 2 Nottingham Forest (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Nottingham Forest 0 - 0 Atromitos (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Nottingham Forest 4 - 4 Atromitos
+Penalties are tied! Sudden death begins!
+Sudden Death: Nottingham Forest 4 - 5 Atromitos
+Atromitos wins on sudden death penalties!
+
+Current round: Round 5
+1st Leg: Osasuna (Home) 2 - 0 Atromitos (Away)
+2nd Leg: Atromitos (Home) 2 - 0 Osasuna (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Osasuna 0 - 0 Atromitos (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Osasuna 2 - 3 Atromitos
+Atromitos wins on penalties!
+1st Leg: Radnicki Nis (Home) 4 - 1 Girona (Away)
+2nd Leg: Girona (Home) 3 - 1 Radnicki Nis (Away)
+
+Current round: Final:
+Atromitos 2 - 1 Radnicki Nis
+Atromitos won the match!
+
+Winner of Europa Conference League: Atromitos

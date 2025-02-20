@@ -575,3 +575,82 @@ Winner of Serbia Cup: Red Star Belgrade
 Winner of Champions League: Real Madrid
 Winner of Europa League: Lokomotiv Moscow
 Winner of Europa Conference League: Dnipro-1
+Winner of England League: Manchester City
+Winner of England Cup: Liverpool
+Winner of Spain League: Real Madrid
+Winner of Spain Cup: Real Madrid
+Winner of Germany League: Bayern Munchen
+Winner of Germany Cup: Borussia Dortmund
+Winner of Italy League: AC Milan
+Winner of Italy Cup: Napoli
+Winner of France League: PSG
+Winner of France Cup: PSG
+Winner of Netherlands League: Ajax
+Winner of Netherlands Cup: Feyenoord
+Winner of Portugal League: Porto
+Winner of Portugal Cup: Sporting CP
+Winner of Belgium League: Union SG
+Winner of Belgium Cup: Gent
+Winner of Scotland League: Aberdeen
+Winner of Scotland Cup: Rangers
+Winner of Austria League: Red Bull Salzburg
+Winner of Austria Cup: Red Bull Salzburg
+Winner of Romania League: FCSB
+Winner of Romania Cup: CFR Cluj
+Winner of Switzerland League: Young Boys
+Winner of Switzerland Cup: FC Basel
+Winner of Turkey League: Fenerbahce
+Winner of Turkey Cup: Fenerbahce
+Winner of Greece League: Olympiacos
+Winner of Greece Cup: AEK Athens
+Winner of Czech_Republic League: Slavia Prague
+Winner of Czech_Republic Cup: Sparta Prague
+Winner of Poland League: Legia Warsaw
+Winner of Poland Cup: Legia Warsaw
+Winner of Russia League: Zenit Saint Petersburg
+Winner of Russia Cup: Zenit Saint Petersburg
+Winner of Ukraine League: Shakhtar Donetsk
+Winner of Ukraine Cup: Dnipro-1
+Winner of Serbia League: Red Star Belgrade
+Winner of Serbia Cup: Red Star Belgrade
+Winner of England League: Liverpool
+Winner of England Cup: Liverpool
+Winner of Spain League: Real Madrid
+Winner of Spain Cup: Real Madrid
+Winner of Germany League: Borussia Dortmund
+Winner of Germany Cup: Bayern Munchen
+Winner of Italy League: AC Milan
+Winner of Italy Cup: Inter Milan
+Winner of France League: PSG
+Winner of France Cup: PSG
+Winner of Netherlands League: Ajax
+Winner of Netherlands Cup: AZ
+Winner of Portugal League: Sporting CP
+Winner of Portugal Cup: Porto
+Winner of Belgium League: Union SG
+Winner of Belgium Cup: Gent
+Winner of Scotland League: Aberdeen
+Winner of Scotland Cup: Rangers
+Winner of Austria League: Red Bull Salzburg
+Winner of Austria Cup: Rapid Wien
+Winner of Romania League: FCSB
+Winner of Romania Cup: FCSB
+Winner of Switzerland League: Young Boys
+Winner of Switzerland Cup: Young Boys
+Winner of Turkey League: Galatasaray
+Winner of Turkey Cup: Besiktas
+Winner of Greece League: Olympiacos
+Winner of Greece Cup: Olympiacos
+Winner of Czech_Republic League: Slavia Prague
+Winner of Czech_Republic Cup: Sparta Prague
+Winner of Poland League: Legia Warsaw
+Winner of Poland Cup: Pogon Szczecin
+Winner of Russia League: Zenit Saint Petersburg
+Winner of Russia Cup: CSKA Moscow
+Winner of Ukraine League: Shakhtar Donetsk
+Winner of Ukraine Cup: Dynamo Kyiv
+Winner of Serbia League: Red Star Belgrade
+Winner of Serbia Cup: Partizan Belgrade
+Winner of Champions League: Manchester City
+Winner of Europa League: Real Betis
+Winner of Europa Conference League: Atromitos

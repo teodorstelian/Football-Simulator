@@ -621,3 +621,82 @@ Hibernian 1 - 2 Rangers
 Rangers won the match!
 
 Winner of Scotland Cup: Rangers
+Winner of League: Aberdeen
+1. Aberdeen - 56 points - 18 wins - 2 draws - 2 losses - 56 scored - 18 against - Champions League - Round 2
+2. Rangers - 50 points - 16 wins - 2 draws - 4 losses - 49 scored - 19 against - Champions League - Round 2
+3. Celtic - 49 points - 15 wins - 4 draws - 3 losses - 53 scored - 29 against - Champions League - Round 1
+4. Hibernian - 42 points - 13 wins - 3 draws - 6 losses - 49 scored - 37 against - Champions League - Round 1
+5. St Mirren - 34 points - 10 wins - 4 draws - 8 losses - 38 scored - 37 against - Champions League - Round 1
+6. Hearts - 32 points - 9 wins - 5 draws - 8 losses - 38 scored - 36 against - Champions League - Round 1
+7. Livingston - 23 points - 6 wins - 5 draws - 11 losses - 35 scored - 38 against - Europa League - Round 2
+8. Motherwell - 23 points - 6 wins - 5 draws - 11 losses - 35 scored - 45 against - Europa League - Round 1
+9. Ross County - 22 points - 6 wins - 4 draws - 12 losses - 33 scored - 53 against - Europa League - Round 1
+10. St Johnstone - 19 points - 5 wins - 4 draws - 13 losses - 28 scored - 45 against - Europa Conference League - Round 2
+11. Kilmarnock - 12 points - 2 wins - 6 draws - 14 losses - 29 scored - 53 against - Europa Conference League - Round 1
+12. Dundee - 8 points - 0 wins - 8 draws - 14 losses - 18 scored - 51 against - Europa Conference League - Round 1
+Teams of Scotland Cup: ['Rangers', 'Celtic', 'Aberdeen', 'Hibernian', 'Hearts', 'Motherwell', 'St Mirren', 'Livingston']
+
+Current round: Round 1
+Motherwell 2 - 4 Celtic
+Celtic won the match!
+Rangers 2 - 1 Aberdeen
+Rangers won the match!
+St Mirren 1 - 1 Hearts
+Aggregate is tied! Proceeding to extra time...
+Extra Time: St Mirren 0 - 1 Hearts (Aggregate: 1 - 2)
+Livingston 3 - 1 Hibernian
+Livingston won the match!
+
+Current round: Round 2
+Livingston 3 - 1 Hearts
+Livingston won the match!
+Rangers 2 - 1 Celtic
+Rangers won the match!
+
+Current round: Final:
+Rangers 2 - 2 Livingston
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rangers 1 - 0 Livingston (Aggregate: 3 - 2)
+
+Winner of Scotland Cup: Rangers
+Winner of League: Aberdeen
+1. Aberdeen - 53 points - 17 wins - 2 draws - 3 losses - 62 scored - 25 against - Champions League - Round 2
+2. Rangers - 52 points - 16 wins - 4 draws - 2 losses - 56 scored - 26 against - Champions League - Round 2
+3. Celtic - 47 points - 14 wins - 5 draws - 3 losses - 59 scored - 32 against - Champions League - Round 1
+4. Hibernian - 40 points - 12 wins - 4 draws - 6 losses - 43 scored - 27 against - Champions League - Round 1
+5. Motherwell - 33 points - 10 wins - 3 draws - 9 losses - 34 scored - 36 against - Champions League - Round 1
+6. Livingston - 32 points - 9 wins - 5 draws - 8 losses - 40 scored - 41 against - Champions League - Round 1
+7. Hearts - 31 points - 9 wins - 4 draws - 9 losses - 38 scored - 40 against - Europa League - Round 2
+8. St Mirren - 24 points - 7 wins - 3 draws - 12 losses - 36 scored - 50 against - Europa League - Round 1
+9. St Johnstone - 21 points - 6 wins - 3 draws - 13 losses - 34 scored - 41 against - Europa League - Round 1
+10. Ross County - 16 points - 5 wins - 1 draws - 16 losses - 24 scored - 51 against - Europa Conference League - Round 2
+11. Kilmarnock - 13 points - 2 wins - 7 draws - 13 losses - 28 scored - 52 against - Europa Conference League - Round 1
+12. Dundee - 12 points - 3 wins - 3 draws - 16 losses - 25 scored - 58 against - Europa Conference League - Round 1
+Teams of Scotland Cup: ['Rangers', 'Celtic', 'Aberdeen', 'Hibernian', 'Motherwell', 'Hearts', 'Livingston', 'St Mirren']
+
+Current round: Round 1
+Aberdeen 3 - 0 Hearts
+Aberdeen won the match!
+Livingston 0 - 3 Celtic
+Celtic won the match!
+St Mirren 1 - 2 Rangers
+Rangers won the match!
+Hibernian 3 - 0 Motherwell
+Hibernian won the match!
+
+Current round: Round 2
+Hibernian 2 - 3 Rangers
+Rangers won the match!
+Aberdeen 2 - 2 Celtic
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Aberdeen 1 - 1 Celtic (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Aberdeen 3 - 4 Celtic
+Celtic wins on penalties!
+
+Current round: Final:
+Celtic 1 - 1 Rangers
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Celtic 0 - 1 Rangers (Aggregate: 1 - 2)
+
+Winner of Scotland Cup: Rangers

@@ -155,10 +155,7 @@ class MainProgram:
 
         # Fetch and display stats including finals appearances
         stats = get_european_competition_stats(
-            competition)  # Assume this function returns (team_name, appearances, wins, finals)
-        print(f"--- {competition} Stats ---")
-        for team_name, appearances, wins, finals in stats:
-            print(f"Team: {team_name}, Appearances: {appearances}, Wins: {wins}, Finals: {finals}")
+            competition)
 
     def most_winners_by_competition(self):
         """

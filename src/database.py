@@ -426,6 +426,9 @@ def create_european_competitions_table(competition):
     query = f'''CREATE TABLE IF NOT EXISTS {competition_table} (
            team_name TEXT,
            appearances INTEGER DEFAULT 0,
+           round_of_16 INTEGER DEFAULT 0,
+           quarter_finals INTEGER DEFAULT 0,
+           semi_finals INTEGER DEFAULT 0,
            finals INTEGER DEFAULT 0,
            wins INTEGER DEFAULT 0
        )'''
@@ -446,7 +449,7 @@ def update_european_competition_appereances(team_name, competition):
 
     if row is None:  # Insert new row if the team doesn't exist
         appearances = 1
-        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?, ?)", (team_name, appearances, 0, 0))
+        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?, ?, ?, ?, ?)", (team_name, appearances, 0, 0, 0, 0, 0))
     else:  # Update appearances and wins if the team already exists
         appearances = row[0]
         appearances += 1
@@ -465,16 +468,32 @@ def update_european_competition_round_team(team_name, competition, round):
     competition_table = competition.replace(" ", "")
 
     # Check if the team already exists in the table
-    c.execute(f"SELECT wins, finals FROM {competition_table} WHERE team_name=?", (team_name,))
+    c.execute(
+        f"SELECT wins, finals, semi_finals, quarter_finals, round_of_16 FROM {competition_table} WHERE team_name=?",
+        (team_name,))
     row = c.fetchone()
 
-    wins, finals = row
+    wins, finals, semi_finals, quarter_finals, round_of_16 = row
     if round == "winner":
         wins += 1
+        c.execute(f"UPDATE {competition_table} SET wins=? WHERE team_name=?",
+                  (wins, team_name))
     elif round == "finals":
         finals += 1
-    c.execute(f"UPDATE {competition_table} SET finals=?, wins=? WHERE team_name=?",
-              (finals, wins, team_name))
+        c.execute(f"UPDATE {competition_table} SET finals=? WHERE team_name=?",
+                  (finals, team_name))
+    elif round == "semi_finals":
+        semi_finals += 1
+        c.execute(f"UPDATE {competition_table} SET semi_finals=? WHERE team_name=?",
+                  (semi_finals, team_name))
+    elif round == "quarter_finals":
+        quarter_finals += 1
+        c.execute(f"UPDATE {competition_table} SET quarter_finals=? WHERE team_name=?",
+                  (quarter_finals, team_name))
+    elif round == "round_of_16":
+        round_of_16 += 1
+        c.execute(f"UPDATE {competition_table} SET round_of_16=? WHERE team_name=?",
+                  (round_of_16, team_name))
 
     conn.commit()
     conn.close()
@@ -484,10 +503,27 @@ def get_european_competition_stats(competition):
     c = conn.cursor()
 
     # Replace spaces with underscores for table names
-    competition_table = competition.replace(" ","")
+    competition_table = competition.replace(" ", "")
 
-    query = f"SELECT * FROM {competition_table} ORDER BY wins DESC"
+    query = f"""
+        SELECT team_name, appearances, round_of_16, quarter_finals, semi_finals, finals, wins
+        FROM {competition_table}
+        ORDER BY wins DESC, finals DESC, semi_finals DESC, quarter_finals DESC, round_of_16 DESC, appearances DESC, team_name ASC
+    """
     c.execute(query)
     stats = c.fetchall()
     conn.close()
+
+    # Display the results with ranking
+    print(f"--- {competition} Stats (Ordered by Wins) ---")
+    for rank, team in enumerate(stats, start=1):
+        team_name, appearances, round_of_16, quarter_finals, semi_finals, finals, wins = team
+        print(f"{rank}. {team_name}:\n"
+              f"   Total Appearances: {appearances}, "
+              f"Round of 16: {round_of_16}, "
+              f"Quarter-Finals: {quarter_finals}, "
+              f"Semi-Finals: {semi_finals}, "
+              f"Finals: {finals}, "
+              f"Wins: {wins}\n")
+
     return stats
