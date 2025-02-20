@@ -1,11 +1,11 @@
-import sys  # Import sys for clean program exit
-from collections import Counter
+import sys
+
 import settings
-from pathlib import Path
 from database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats, \
     get_teams, update_team, get_competition_winners_from_db, create_european_competitions_table, \
-    insert_or_update_european_team, get_european_competition_stats
+    get_european_competition_stats
 from leagues import league_simulation, select_league, select_teams_from_league, cup_simulation
+from src.database import update_european_competition_appereances
 from src.matches import play_european_cup
 
 
@@ -21,7 +21,7 @@ class MainProgram:
         while True:
             self.select_league_and_teams()
             self.select_choice()
-            if self.choice == "8":  # Exit choice
+            if self.choice.lower() == "q":  # Exit choice
                 print("Thank you for using the program. Goodbye!")
                 sys.exit(0)  # Gracefully exit
 
@@ -37,13 +37,12 @@ class MainProgram:
             "5. Check best teams \n"
             "6. See stats for a team \n"
             "7. See most winners of a competition \n"
-            "8. Exit \n"
             "9. View European Competition Stats \n"  # New option added
         )  # Menu options
         self.choice = input("Select action: ").strip()
 
         # Actions that do not require league or team selection
-        no_team_selection = ["1", "4", "7", "8", "9"]  # Added "9" to the no selection list
+        no_team_selection = ["1", "4", "7", "9", "q"]
 
         if self.choice not in no_team_selection:
             # Prompt user to select a league
@@ -103,28 +102,27 @@ class MainProgram:
             }.get(cup)
             if competition is None:
                 return
-            self.teams_obj = get_teams(european_cup=competition)
+            # Include both Round 1 and Round 2 teams
+            self.teams_obj = get_teams(european_cup=competition, rounds=["Round 1", "Round 2"])
 
             for team in self.teams_obj:
-                # Track appearances for all teams in the competition
-                insert_or_update_european_team(team.name, competition, won=False)
+              # Track appearances for all teams
+              update_european_competition_appereances(team.name, competition)
 
             self.teams_obj = play_european_cup(self.teams_obj, competition)
-            winner = self.teams_obj[0]
-
-            # Update the winner's stats
-            insert_or_update_european_team(winner.name, competition, won=True, skip_app=True)
 
             self.update_general()
             self.update_all_leagues()
         else:
             for competition in [settings.UCL, settings.UEL, settings.UECL]:
-                self.teams_obj = get_teams(european_cup=competition)
+                # Include both Round 1 and Round 2 teams
+                self.teams_obj = get_teams(european_cup=competition, rounds=["Round 1", "Round 2"])
+
                 for team in self.teams_obj:
-                    insert_or_update_european_team(team.name, competition, won=False)
+                    update_european_competition_appereances(team.name, competition)
+
                 self.teams_obj = play_european_cup(self.teams_obj, competition)
-                winner = self.teams_obj[0]
-                insert_or_update_european_team(winner.name, competition, won=True, skip_app=True)
+
                 self.update_general()
                 self.update_all_leagues()
 
@@ -156,11 +154,12 @@ class MainProgram:
             print("Invalid selection.")
             return
 
-        # Fetch and display stats
-        stats = get_european_competition_stats(competition)
+        # Fetch and display stats including finals appearances
+        stats = get_european_competition_stats(
+            competition)  # Assume this function returns (team_name, appearances, wins, finals)
         print(f"--- {competition} Stats ---")
-        for team_name, appearances, wins in stats:
-            print(f"Team: {team_name}, Appearances: {appearances}, Wins: {wins}")
+        for team_name, appearances, wins, finals in stats:
+            print(f"Team: {team_name}, Appearances: {appearances}, Wins: {wins}, Finals: {finals}")
 
     def most_winners_by_competition(self):
         """
@@ -195,10 +194,7 @@ class MainProgram:
             self.check_team_stats()
         if self.choice == "7":
             self.most_winners_by_competition()
-        if self.choice == "8":
-            print("Thank you for using the program. Goodbye!")
-            sys.exit(0)
-        if self.choice == "9":  # Add a new choice for viewing stats
+        if self.choice == "9":
             self.view_european_competition_stats()
 
 

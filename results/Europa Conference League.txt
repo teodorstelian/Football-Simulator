@@ -1261,3 +1261,2516 @@ Current round: Round 5
 2nd Leg: Girona (Home) 2 - 3 Villareal (Away)
 
 Winner of Europa Conference League: Villareal
+Teams of current competition: ['West Ham United', 'Crystal Palace', 'Aston Villa', 'Everton', 'Girona', 'Villareal', 'Celta Vigo', 'Valencia', 'Borussia Monchengladbach', 'FC Augsburg', 'VfB Stuttgart', 'Mainz 05', 'Monza', 'Lecce', 'Bologna', 'Torino', 'Strasbourg', 'Clermont', 'Brest', 'Reims', 'Sparta Rotterdam', 'NEC', 'Utrecht', 'Boavista', 'Chaves', 'Gil Vicente', 'Antwerp', 'Gent', 'Aberdeen', 'LASK', 'Austria Wien', 'Farul Constanta']
+
+Current round: Round 1
+1st Leg: Farul Constanta (Home) 2 - 3 Borussia Monchengladbach (Away)
+2nd Leg: Borussia Monchengladbach (Home) 5 - 0 Farul Constanta (Away)
+1st Leg: Celta Vigo (Home) 0 - 3 Bologna (Away)
+2nd Leg: Bologna (Home) 3 - 2 Celta Vigo (Away)
+1st Leg: Austria Wien (Home) 2 - 2 Girona (Away)
+2nd Leg: Girona (Home) 3 - 1 Austria Wien (Away)
+1st Leg: Reims (Home) 2 - 2 VfB Stuttgart (Away)
+2nd Leg: VfB Stuttgart (Home) 1 - 1 Reims (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Reims 0 - 0 VfB Stuttgart (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Reims 4 - 4 VfB Stuttgart
+Penalties are tied! Sudden death begins!
+Sudden Death: Reims 5 - 4 VfB Stuttgart
+Reims wins on sudden death penalties!
+1st Leg: Aston Villa (Home) 1 - 0 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 2 - 2 Aston Villa (Away)
+1st Leg: Gil Vicente (Home) 0 - 1 LASK (Away)
+2nd Leg: LASK (Home) 2 - 1 Gil Vicente (Away)
+1st Leg: Boavista (Home) 3 - 1 NEC (Away)
+2nd Leg: NEC (Home) 1 - 2 Boavista (Away)
+1st Leg: Everton (Home) 1 - 4 West Ham United (Away)
+2nd Leg: West Ham United (Home) 1 - 0 Everton (Away)
+1st Leg: Valencia (Home) 1 - 0 Villareal (Away)
+2nd Leg: Villareal (Home) 3 - 2 Valencia (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Valencia 1 - 1 Villareal (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Valencia 2 - 2 Villareal
+Penalties are tied! Sudden death begins!
+Sudden Death: Valencia 2 - 3 Villareal
+Villareal wins on sudden death penalties!
+1st Leg: Brest (Home) 2 - 2 Torino (Away)
+2nd Leg: Torino (Home) 3 - 1 Brest (Away)
+1st Leg: Utrecht (Home) 0 - 2 Mainz 05 (Away)
+2nd Leg: Mainz 05 (Home) 1 - 0 Utrecht (Away)
+1st Leg: Gent (Home) 4 - 0 Strasbourg (Away)
+2nd Leg: Strasbourg (Home) 1 - 4 Gent (Away)
+1st Leg: Chaves (Home) 2 - 2 Clermont (Away)
+2nd Leg: Clermont (Home) 1 - 1 Chaves (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Chaves 0 - 1 Clermont (Aggregate: 3 - 4)
+1st Leg: Lecce (Home) 3 - 0 Monza (Away)
+2nd Leg: Monza (Home) 3 - 1 Lecce (Away)
+1st Leg: Antwerp (Home) 3 - 0 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 2 - 1 Antwerp (Away)
+1st Leg: Sparta Rotterdam (Home) 3 - 3 FC Augsburg (Away)
+2nd Leg: FC Augsburg (Home) 2 - 2 Sparta Rotterdam (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sparta Rotterdam 1 - 1 FC Augsburg (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Sparta Rotterdam 3 - 4 FC Augsburg
+FC Augsburg wins on penalties!
+
+Current round: Round 2
+1st Leg: Lecce (Home) 2 - 2 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 1 Lecce (Away)
+1st Leg: Antwerp (Home) 0 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 1 - 1 Antwerp (Away)
+1st Leg: Borussia Monchengladbach (Home) 3 - 1 Reims (Away)
+2nd Leg: Reims (Home) 3 - 1 Borussia Monchengladbach (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Borussia Monchengladbach 0 - 1 Reims (Aggregate: 4 - 5)
+1st Leg: Boavista (Home) 1 - 2 Mainz 05 (Away)
+2nd Leg: Mainz 05 (Home) 3 - 4 Boavista (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Boavista 1 - 0 Mainz 05 (Aggregate: 6 - 5)
+1st Leg: Villareal (Home) 3 - 2 Clermont (Away)
+2nd Leg: Clermont (Home) 1 - 4 Villareal (Away)
+1st Leg: FC Augsburg (Home) 0 - 4 Girona (Away)
+2nd Leg: Girona (Home) 3 - 0 FC Augsburg (Away)
+1st Leg: LASK (Home) 3 - 2 Gent (Away)
+2nd Leg: Gent (Home) 2 - 1 LASK (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: LASK 0 - 0 Gent (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: LASK 3 - 4 Gent
+Gent wins on penalties!
+1st Leg: Torino (Home) 2 - 2 Bologna (Away)
+2nd Leg: Bologna (Home) 2 - 1 Torino (Away)
+
+Current round: Round 3
+1st Leg: Bologna (Home) 4 - 0 Boavista (Away)
+2nd Leg: Boavista (Home) 0 - 3 Bologna (Away)
+1st Leg: Girona (Home) 0 - 3 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 1 - 1 Girona (Away)
+1st Leg: Villareal (Home) 2 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 1 - 2 Villareal (Away)
+1st Leg: Gent (Home) 3 - 0 Reims (Away)
+2nd Leg: Reims (Home) 1 - 1 Gent (Away)
+
+Current round: Round 4
+1st Leg: Bologna (Home) 1 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 4 - 3 Bologna (Away)
+1st Leg: Villareal (Home) 3 - 1 Gent (Away)
+2nd Leg: Gent (Home) 2 - 2 Villareal (Away)
+
+Current round: Round 5
+1st Leg: Aston Villa (Home) 2 - 1 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 0 Aston Villa (Away)
+
+Winner of Europa Conference League: Villareal
+Teams of current competition: ['West Ham United', 'Crystal Palace', 'Aston Villa', 'Everton', 'Girona', 'Villareal', 'Celta Vigo', 'Valencia', 'Borussia Monchengladbach', 'FC Augsburg', 'VfB Stuttgart', 'Mainz 05', 'Monza', 'Lecce', 'Bologna', 'Torino', 'Strasbourg', 'Clermont', 'Brest', 'Reims', 'Sparta Rotterdam', 'NEC', 'Utrecht', 'Boavista', 'Chaves', 'Gil Vicente', 'Antwerp', 'Gent', 'Aberdeen', 'LASK', 'Austria Wien', 'Farul Constanta']
+
+Current round: Round 1
+1st Leg: Mainz 05 (Home) 2 - 2 Farul Constanta (Away)
+2nd Leg: Farul Constanta (Home) 1 - 2 Mainz 05 (Away)
+1st Leg: NEC (Home) 0 - 1 Chaves (Away)
+2nd Leg: Chaves (Home) 2 - 0 NEC (Away)
+1st Leg: Aston Villa (Home) 1 - 0 Austria Wien (Away)
+2nd Leg: Austria Wien (Home) 2 - 2 Aston Villa (Away)
+1st Leg: Reims (Home) 2 - 1 Girona (Away)
+2nd Leg: Girona (Home) 1 - 2 Reims (Away)
+1st Leg: Celta Vigo (Home) 1 - 0 Sparta Rotterdam (Away)
+2nd Leg: Sparta Rotterdam (Home) 1 - 1 Celta Vigo (Away)
+1st Leg: Gent (Home) 3 - 0 Boavista (Away)
+2nd Leg: Boavista (Home) 2 - 3 Gent (Away)
+1st Leg: Bologna (Home) 2 - 3 Torino (Away)
+2nd Leg: Torino (Home) 1 - 2 Bologna (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bologna 1 - 1 Torino (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Bologna 1 - 4 Torino
+Torino wins on penalties!
+1st Leg: Clermont (Home) 5 - 0 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 0 - 2 Clermont (Away)
+1st Leg: Valencia (Home) 3 - 0 Brest (Away)
+2nd Leg: Brest (Home) 0 - 2 Valencia (Away)
+1st Leg: Monza (Home) 1 - 2 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 2 - 1 Monza (Away)
+1st Leg: Everton (Home) 3 - 2 Antwerp (Away)
+2nd Leg: Antwerp (Home) 0 - 0 Everton (Away)
+1st Leg: West Ham United (Home) 1 - 2 Borussia Monchengladbach (Away)
+2nd Leg: Borussia Monchengladbach (Home) 1 - 2 West Ham United (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: West Ham United 0 - 1 Borussia Monchengladbach (Aggregate: 3 - 4)
+1st Leg: Villareal (Home) 3 - 0 VfB Stuttgart (Away)
+2nd Leg: VfB Stuttgart (Home) 0 - 3 Villareal (Away)
+1st Leg: Crystal Palace (Home) 2 - 2 Utrecht (Away)
+2nd Leg: Utrecht (Home) 2 - 2 Crystal Palace (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Crystal Palace 0 - 0 Utrecht (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Crystal Palace 4 - 4 Utrecht
+Penalties are tied! Sudden death begins!
+Sudden Death: Crystal Palace 5 - 4 Utrecht
+Crystal Palace wins on sudden death penalties!
+1st Leg: LASK (Home) 2 - 2 FC Augsburg (Away)
+2nd Leg: FC Augsburg (Home) 4 - 1 LASK (Away)
+1st Leg: Lecce (Home) 2 - 3 Strasbourg (Away)
+2nd Leg: Strasbourg (Home) 2 - 2 Lecce (Away)
+
+Current round: Round 2
+1st Leg: Valencia (Home) 2 - 3 Strasbourg (Away)
+2nd Leg: Strasbourg (Home) 1 - 4 Valencia (Away)
+1st Leg: Gent (Home) 3 - 1 Torino (Away)
+2nd Leg: Torino (Home) 2 - 3 Gent (Away)
+1st Leg: Reims (Home) 2 - 2 Chaves (Away)
+2nd Leg: Chaves (Home) 1 - 2 Reims (Away)
+1st Leg: FC Augsburg (Home) 1 - 0 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 1 FC Augsburg (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: FC Augsburg 1 - 0 Villareal (Aggregate: 3 - 2)
+1st Leg: Clermont (Home) 2 - 1 Mainz 05 (Away)
+2nd Leg: Mainz 05 (Home) 2 - 3 Clermont (Away)
+1st Leg: Aberdeen (Home) 4 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 0 - 2 Aberdeen (Away)
+1st Leg: Borussia Monchengladbach (Home) 1 - 1 Everton (Away)
+2nd Leg: Everton (Home) 1 - 0 Borussia Monchengladbach (Away)
+1st Leg: Celta Vigo (Home) 2 - 1 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 1 - 1 Celta Vigo (Away)
+
+Current round: Round 3
+1st Leg: Celta Vigo (Home) 4 - 2 FC Augsburg (Away)
+2nd Leg: FC Augsburg (Home) 1 - 2 Celta Vigo (Away)
+1st Leg: Valencia (Home) 1 - 0 Clermont (Away)
+2nd Leg: Clermont (Home) 2 - 1 Valencia (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Valencia 1 - 0 Clermont (Aggregate: 3 - 2)
+1st Leg: Gent (Home) 1 - 1 Everton (Away)
+2nd Leg: Everton (Home) 2 - 1 Gent (Away)
+1st Leg: Reims (Home) 2 - 1 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 2 - 0 Reims (Away)
+
+Current round: Round 4
+1st Leg: Everton (Home) 1 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 3 - 0 Everton (Away)
+1st Leg: Aberdeen (Home) 2 - 3 Valencia (Away)
+2nd Leg: Valencia (Home) 4 - 2 Aberdeen (Away)
+
+Current round: Round 5
+1st Leg: Valencia (Home) 4 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 1 Valencia (Away)
+
+Winner of Europa Conference League: Valencia
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Aston Villa', 'Bournemouth', 'Wolverhampton Wanderers', 'Rayo Vallecano', 'Girona', 'Mallorca', 'Villareal', '1899 Hoffenheim', 'Werder Bremen', 'Lecce', 'Salernitana', 'Lorient', 'Strasbourg', 'Le Havre', 'Reims']
+1st Leg: Strasbourg (Home) 2 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 4 - 2 Strasbourg (Away)
+Strasbourg vs Salernitana, Winner: Salernitana
+1st Leg: Girona (Home) 3 - 0 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 1 - 2 Girona (Away)
+Girona vs Aston Villa, Winner: Girona
+1st Leg: West Ham United (Home) 3 - 1 Rayo Vallecano (Away)
+2nd Leg: Rayo Vallecano (Home) 2 - 0 West Ham United (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: West Ham United 1 - 1 Rayo Vallecano (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: West Ham United 3 - 3 Rayo Vallecano
+Penalties are tied! Sudden death begins!
+Sudden Death: West Ham United 5 - 4 Rayo Vallecano
+West Ham United wins on sudden death penalties!
+West Ham United vs Rayo Vallecano, Winner: West Ham United
+1st Leg: Strasbourg (Home) 3 - 3 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 2 Strasbourg (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Strasbourg 1 - 1 Salernitana (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Strasbourg 3 - 2 Salernitana
+Strasbourg wins on penalties!
+Strasbourg vs Salernitana, Winner: Strasbourg
+1st Leg: Bournemouth (Home) 2 - 1 Girona (Away)
+2nd Leg: Girona (Home) 1 - 2 Bournemouth (Away)
+Bournemouth vs Girona, Winner: Bournemouth
+1st Leg: Le Havre (Home) 0 - 2 Lecce (Away)
+2nd Leg: Lecce (Home) 1 - 0 Le Havre (Away)
+Le Havre vs Lecce, Winner: Lecce
+1st Leg: Girona (Home) 1 - 1 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 2 Girona (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Girona 1 - 1 Salernitana (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Girona 5 - 4 Salernitana
+Girona wins on penalties!
+Girona vs Salernitana, Winner: Girona
+1st Leg: Salernitana (Home) 2 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 3 - 1 Salernitana (Away)
+Salernitana vs Aston Villa, Winner: Aston Villa
+Teams advancing to Round 2: ['Salernitana', 'Girona', 'West Ham United', 'Strasbourg', 'Bournemouth', 'Lecce', 'Girona', 'Aston Villa', 'Brentford', 'Nottingham Forest', 'Athletic Bilbao', 'Valencia', '1. FC Koln', 'Empoli', 'Nantes', 'Brest']
+
+Current round: Round 1
+1st Leg: Strasbourg (Home) 2 - 1 1. FC Koln (Away)
+2nd Leg: 1. FC Koln (Home) 2 - 4 Strasbourg (Away)
+1st Leg: Lecce (Home) 1 - 0 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 4 - 0 Lecce (Away)
+1st Leg: Valencia (Home) 2 - 1 Salernitana (Away)
+2nd Leg: Salernitana (Home) 1 - 2 Valencia (Away)
+1st Leg: Girona (Home) 3 - 3 Nantes (Away)
+2nd Leg: Nantes (Home) 3 - 2 Girona (Away)
+1st Leg: Bournemouth (Home) 0 - 2 Girona (Away)
+2nd Leg: Girona (Home) 4 - 2 Bournemouth (Away)
+1st Leg: Nottingham Forest (Home) 1 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 4 - 2 Nottingham Forest (Away)
+1st Leg: Brest (Home) 1 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 4 - 2 Brest (Away)
+1st Leg: Brentford (Home) 0 - 1 Empoli (Away)
+2nd Leg: Empoli (Home) 1 - 4 Brentford (Away)
+
+Current round: Round 2
+1st Leg: Valencia (Home) 4 - 3 Brentford (Away)
+2nd Leg: Brentford (Home) 2 - 4 Valencia (Away)
+1st Leg: West Ham United (Home) 3 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 2 West Ham United (Away)
+1st Leg: Athletic Bilbao (Home) 2 - 1 Girona (Away)
+2nd Leg: Girona (Home) 2 - 1 Athletic Bilbao (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Athletic Bilbao 1 - 1 Girona (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Athletic Bilbao 4 - 2 Girona
+Athletic Bilbao wins on penalties!
+1st Leg: Strasbourg (Home) 0 - 3 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 3 - 1 Strasbourg (Away)
+
+Current round: Round 3
+1st Leg: Athletic Bilbao (Home) 3 - 3 Valencia (Away)
+2nd Leg: Valencia (Home) 1 - 3 Athletic Bilbao (Away)
+1st Leg: Aston Villa (Home) 1 - 0 West Ham United (Away)
+2nd Leg: West Ham United (Home) 3 - 1 Aston Villa (Away)
+
+Current round: Round 4
+1st Leg: West Ham United (Home) 1 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 2 West Ham United (Away)
+
+Winner of Europa Conference League: Athletic Bilbao
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Aston Villa', 'Bournemouth', 'Wolverhampton Wanderers', 'Rayo Vallecano', 'Girona', 'Mallorca', 'Villareal', '1899 Hoffenheim', 'Werder Bremen', 'Lecce', 'Salernitana', 'Lorient', 'Strasbourg', 'Le Havre', 'Reims']
+1st Leg: Mallorca (Home) 3 - 2 Le Havre (Away)
+2nd Leg: Le Havre (Home) 2 - 4 Mallorca (Away)
+Mallorca vs Le Havre, Winner: Mallorca
+1st Leg: Wolverhampton Wanderers (Home) 2 - 2 Rayo Vallecano (Away)
+2nd Leg: Rayo Vallecano (Home) 4 - 2 Wolverhampton Wanderers (Away)
+Wolverhampton Wanderers vs Rayo Vallecano, Winner: Rayo Vallecano
+1st Leg: West Ham United (Home) 3 - 1 Strasbourg (Away)
+2nd Leg: Strasbourg (Home) 1 - 2 West Ham United (Away)
+West Ham United vs Strasbourg, Winner: West Ham United
+1st Leg: Wolverhampton Wanderers (Home) 1 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 1 Wolverhampton Wanderers (Away)
+Wolverhampton Wanderers vs Villareal, Winner: Villareal
+1st Leg: Strasbourg (Home) 3 - 1 Bournemouth (Away)
+2nd Leg: Bournemouth (Home) 3 - 2 Strasbourg (Away)
+Strasbourg vs Bournemouth, Winner: Strasbourg
+1st Leg: Aston Villa (Home) 4 - 0 Strasbourg (Away)
+2nd Leg: Strasbourg (Home) 2 - 2 Aston Villa (Away)
+Aston Villa vs Strasbourg, Winner: Aston Villa
+1st Leg: Lecce (Home) 2 - 2 Mallorca (Away)
+2nd Leg: Mallorca (Home) 1 - 1 Lecce (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lecce 1 - 0 Mallorca (Aggregate: 4 - 3)
+Lecce vs Mallorca, Winner: Lecce
+1st Leg: Lorient (Home) 0 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 3 - 1 Lorient (Away)
+Lorient vs Villareal, Winner: Villareal
+Teams advancing to Round 2: ['Mallorca', 'Rayo Vallecano', 'West Ham United', 'Villareal', 'Strasbourg', 'Aston Villa', 'Lecce', 'Villareal', 'Brentford', 'Nottingham Forest', 'Athletic Bilbao', 'Valencia', '1. FC Koln', 'Empoli', 'Nantes', 'Brest']
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Aston Villa', 'Bournemouth', 'Wolverhampton Wanderers', 'Rayo Vallecano', 'Girona', 'Mallorca', 'Villareal', '1899 Hoffenheim', 'Werder Bremen', 'Lecce', 'Salernitana', 'Lorient', 'Strasbourg', 'Le Havre', 'Reims']
+1st Leg: West Ham United (Home) 3 - 3 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 0 West Ham United (Away)
+West Ham United vs Villareal, Winner: Villareal
+1st Leg: Reims (Home) 3 - 1 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 4 - 1 Reims (Away)
+Reims vs 1899 Hoffenheim, Winner: 1899 Hoffenheim
+1st Leg: West Ham United (Home) 2 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 4 - 0 West Ham United (Away)
+West Ham United vs Villareal, Winner: Villareal
+1st Leg: Mallorca (Home) 2 - 2 Wolverhampton Wanderers (Away)
+2nd Leg: Wolverhampton Wanderers (Home) 2 - 1 Mallorca (Away)
+Mallorca vs Wolverhampton Wanderers, Winner: Wolverhampton Wanderers
+1st Leg: 1899 Hoffenheim (Home) 2 - 1 Salernitana (Away)
+2nd Leg: Salernitana (Home) 3 - 2 1899 Hoffenheim (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: 1899 Hoffenheim 1 - 1 Salernitana (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: 1899 Hoffenheim 4 - 4 Salernitana
+Penalties are tied! Sudden death begins!
+Sudden Death: 1899 Hoffenheim 6 - 5 Salernitana
+1899 Hoffenheim wins on sudden death penalties!
+1899 Hoffenheim vs Salernitana, Winner: 1899 Hoffenheim
+1st Leg: Villareal (Home) 3 - 1 Strasbourg (Away)
+2nd Leg: Strasbourg (Home) 2 - 3 Villareal (Away)
+Villareal vs Strasbourg, Winner: Villareal
+1st Leg: Bournemouth (Home) 0 - 2 Le Havre (Away)
+2nd Leg: Le Havre (Home) 2 - 1 Bournemouth (Away)
+Bournemouth vs Le Havre, Winner: Le Havre
+1st Leg: Wolverhampton Wanderers (Home) 1 - 3 Lorient (Away)
+2nd Leg: Lorient (Home) 4 - 1 Wolverhampton Wanderers (Away)
+Wolverhampton Wanderers vs Lorient, Winner: Lorient
+Teams advancing to Round 2: ['Villareal', '1899 Hoffenheim', 'Villareal', 'Wolverhampton Wanderers', '1899 Hoffenheim', 'Villareal', 'Le Havre', 'Lorient', 'Brentford', 'Nottingham Forest', 'Athletic Bilbao', 'Valencia', '1. FC Koln', 'Empoli', 'Nantes', 'Brest']
+
+Current round: Round 2
+1st Leg: Lorient (Home) 3 - 1 Brentford (Away)
+2nd Leg: Brentford (Home) 3 - 3 Lorient (Away)
+1st Leg: Nottingham Forest (Home) 1 - 1 Brest (Away)
+2nd Leg: Brest (Home) 0 - 1 Nottingham Forest (Away)
+1st Leg: Villareal (Home) 3 - 0 Le Havre (Away)
+2nd Leg: Le Havre (Home) 0 - 2 Villareal (Away)
+1st Leg: 1899 Hoffenheim (Home) 2 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 2 1899 Hoffenheim (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: 1899 Hoffenheim 0 - 1 Nantes (Aggregate: 4 - 5)
+1st Leg: 1899 Hoffenheim (Home) 3 - 2 1. FC Koln (Away)
+2nd Leg: 1. FC Koln (Home) 3 - 2 1899 Hoffenheim (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: 1899 Hoffenheim 1 - 1 1. FC Koln (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: 1899 Hoffenheim 1 - 3 1. FC Koln
+1. FC Koln wins on penalties!
+1st Leg: Athletic Bilbao (Home) 2 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 3 - 0 Athletic Bilbao (Away)
+1st Leg: Valencia (Home) 3 - 1 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 3 Valencia (Away)
+1st Leg: Empoli (Home) 1 - 3 Wolverhampton Wanderers (Away)
+2nd Leg: Wolverhampton Wanderers (Home) 2 - 0 Empoli (Away)
+
+Current round: Round 3
+1st Leg: Valencia (Home) 2 - 1 Wolverhampton Wanderers (Away)
+2nd Leg: Wolverhampton Wanderers (Home) 2 - 2 Valencia (Away)
+1st Leg: Villareal (Home) 2 - 0 Lorient (Away)
+2nd Leg: Lorient (Home) 3 - 3 Villareal (Away)
+1st Leg: 1. FC Koln (Home) 1 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 3 - 2 1. FC Koln (Away)
+1st Leg: Nottingham Forest (Home) 2 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 0 - 2 Nottingham Forest (Away)
+
+Current round: Round 4
+1st Leg: Valencia (Home) 2 - 1 Villareal (Away)
+2nd Leg: Villareal (Home) 4 - 2 Valencia (Away)
+1st Leg: Villareal (Home) 2 - 2 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 3 - 3 Villareal (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Villareal 0 - 1 Nottingham Forest (Aggregate: 5 - 6)
+
+Current round: Final:
+1st Leg: Nottingham Forest (Home) 1 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 3 - 1 Nottingham Forest (Away)
+
+Winner of Europa Conference League: Villareal
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Aston Villa', 'Bournemouth', 'Wolverhampton Wanderers', 'Rayo Vallecano', 'Girona', 'Mallorca', 'Villareal', '1899 Hoffenheim', 'Werder Bremen', 'Lecce', 'Salernitana', 'Lorient', 'Strasbourg', 'Le Havre', 'Reims']
+1st Leg: Salernitana (Home) 2 - 2 Lorient (Away)
+2nd Leg: Lorient (Home) 2 - 2 Salernitana (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Salernitana 0 - 1 Lorient (Aggregate: 4 - 5)
+Salernitana vs Lorient, Winner: Lorient
+1st Leg: Mallorca (Home) 2 - 1 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 1 Mallorca (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Mallorca 0 - 1 West Ham United (Aggregate: 3 - 4)
+Mallorca vs West Ham United, Winner: West Ham United
+1st Leg: Villareal (Home) 4 - 0 Bournemouth (Away)
+2nd Leg: Bournemouth (Home) 0 - 2 Villareal (Away)
+Villareal vs Bournemouth, Winner: Villareal
+1st Leg: Werder Bremen (Home) 4 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 3 - 1 Werder Bremen (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Werder Bremen 0 - 0 West Ham United (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Werder Bremen 4 - 5 West Ham United
+West Ham United wins on penalties!
+Werder Bremen vs West Ham United, Winner: West Ham United
+1st Leg: Wolverhampton Wanderers (Home) 3 - 3 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 1 Wolverhampton Wanderers (Away)
+Wolverhampton Wanderers vs Villareal, Winner: Villareal
+1st Leg: Lecce (Home) 4 - 0 Lorient (Away)
+2nd Leg: Lorient (Home) 0 - 2 Lecce (Away)
+Lecce vs Lorient, Winner: Lecce
+1st Leg: Villareal (Home) 2 - 1 Girona (Away)
+2nd Leg: Girona (Home) 1 - 2 Villareal (Away)
+Villareal vs Girona, Winner: Villareal
+1st Leg: Rayo Vallecano (Home) 1 - 3 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 2 Rayo Vallecano (Away)
+Rayo Vallecano vs Salernitana, Winner: Salernitana
+Teams advancing to Round 2: ['Lorient', 'West Ham United', 'Villareal', 'West Ham United', 'Villareal', 'Lecce', 'Villareal', 'Salernitana', 'Brentford', 'Nottingham Forest', 'Athletic Bilbao', 'Valencia', '1. FC Koln', 'Empoli', 'Nantes', 'Brest']
+
+Current round: Round 2
+1st Leg: Empoli (Home) 1 - 1 Lorient (Away)
+2nd Leg: Lorient (Home) 2 - 2 Empoli (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Empoli 0 - 0 Lorient (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Empoli 3 - 3 Lorient
+Penalties are tied! Sudden death begins!
+Sudden Death: Empoli 4 - 3 Lorient
+Empoli wins on sudden death penalties!
+1st Leg: Lecce (Home) 3 - 1 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 0 Lecce (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lecce 1 - 0 West Ham United (Aggregate: 4 - 3)
+1st Leg: Athletic Bilbao (Home) 2 - 0 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 2 Athletic Bilbao (Away)
+1st Leg: Villareal (Home) 1 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 2 Villareal (Away)
+1st Leg: Brentford (Home) 1 - 0 Salernitana (Away)
+2nd Leg: Salernitana (Home) 3 - 4 Brentford (Away)
+1st Leg: Valencia (Home) 2 - 2 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 3 - 2 Valencia (Away)
+1st Leg: 1. FC Koln (Home) 3 - 1 Brest (Away)
+2nd Leg: Brest (Home) 1 - 0 1. FC Koln (Away)
+1st Leg: Nantes (Home) 0 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 2 Nantes (Away)
+
+Current round: Round 3
+1st Leg: Brentford (Home) 3 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 3 - 2 Brentford (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Brentford 1 - 1 Athletic Bilbao (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Brentford 2 - 3 Athletic Bilbao
+Athletic Bilbao wins on penalties!
+1st Leg: Nottingham Forest (Home) 3 - 0 1. FC Koln (Away)
+2nd Leg: 1. FC Koln (Home) 1 - 3 Nottingham Forest (Away)
+1st Leg: Lecce (Home) 3 - 2 Empoli (Away)
+2nd Leg: Empoli (Home) 1 - 0 Lecce (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lecce 0 - 0 Empoli (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Lecce 3 - 4 Empoli
+Empoli wins on penalties!
+1st Leg: Villareal (Home) 2 - 1 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 2 Villareal (Away)
+
+Current round: Round 4
+1st Leg: Athletic Bilbao (Home) 3 - 1 Empoli (Away)
+2nd Leg: Empoli (Home) 1 - 3 Athletic Bilbao (Away)
+1st Leg: Villareal (Home) 5 - 1 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 0 - 2 Villareal (Away)
+
+Current round: Final:
+Villareal 1 - 2 Athletic Bilbao
+Athletic Bilbao won the match!
+
+Winner of Europa Conference League: Athletic Bilbao
+Teams starting in Europa Conference League Round 1: ['Crystal Palace', 'Brentford', 'Fulham', 'Everton', 'Girona', 'Osasuna', 'VfB Stuttgart', '1. FC Koln', 'Monza', 'Salernitana', 'Clermont', 'Le Havre', 'Go Ahead Eagles', 'Heracles Almelo', 'Gil Vicente', 'Rio Ave', 'Sint-Truiden', 'Westerlo', 'Charleroi', 'OH Leuven', 'Livingston', 'Dundee', 'Ross County', 'Kilmarnock', 'WSG Tirol', 'Blau-WeiB Linz', 'Austria Lustenau', 'Rheindorf Altach', 'Sepsi', 'Farul Constanta', 'Politehnica Iasi', 'Petrolul Ploiesti']
+1st Leg: Monza (Home) 3 - 1 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 0 - 2 Monza (Away)
+Monza vs Crystal Palace, Winner: Monza
+1st Leg: Crystal Palace (Home) 2 - 0 Le Havre (Away)
+2nd Leg: Le Havre (Home) 3 - 1 Crystal Palace (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Crystal Palace 1 - 0 Le Havre (Aggregate: 4 - 3)
+Crystal Palace vs Le Havre, Winner: Crystal Palace
+1st Leg: Politehnica Iasi (Home) 2 - 3 Salernitana (Away)
+2nd Leg: Salernitana (Home) 1 - 1 Politehnica Iasi (Away)
+Politehnica Iasi vs Salernitana, Winner: Salernitana
+1st Leg: Blau-WeiB Linz (Home) 0 - 3 Le Havre (Away)
+2nd Leg: Le Havre (Home) 3 - 0 Blau-WeiB Linz (Away)
+Blau-WeiB Linz vs Le Havre, Winner: Le Havre
+1st Leg: Everton (Home) 1 - 1 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 2 - 3 Everton (Away)
+Everton vs Kilmarnock, Winner: Everton
+1st Leg: Everton (Home) 4 - 0 Austria Lustenau (Away)
+2nd Leg: Austria Lustenau (Home) 2 - 3 Everton (Away)
+Everton vs Austria Lustenau, Winner: Everton
+1st Leg: Politehnica Iasi (Home) 2 - 0 Ross County (Away)
+2nd Leg: Ross County (Home) 3 - 2 Politehnica Iasi (Away)
+Politehnica Iasi vs Ross County, Winner: Politehnica Iasi
+1st Leg: Kilmarnock (Home) 3 - 2 Fulham (Away)
+2nd Leg: Fulham (Home) 4 - 0 Kilmarnock (Away)
+Kilmarnock vs Fulham, Winner: Fulham
+1st Leg: Rio Ave (Home) 3 - 0 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 0 - 2 Rio Ave (Away)
+Rio Ave vs Petrolul Ploiesti, Winner: Rio Ave
+1st Leg: Go Ahead Eagles (Home) 2 - 1 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 2 - 2 Go Ahead Eagles (Away)
+Go Ahead Eagles vs Petrolul Ploiesti, Winner: Go Ahead Eagles
+1st Leg: Clermont (Home) 4 - 0 Dundee (Away)
+2nd Leg: Dundee (Home) 2 - 2 Clermont (Away)
+Clermont vs Dundee, Winner: Clermont
+1st Leg: Crystal Palace (Home) 2 - 1 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 1 - 1 Crystal Palace (Away)
+Crystal Palace vs Sint-Truiden, Winner: Crystal Palace
+1st Leg: Dundee (Home) 1 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 1 - 3 Dundee (Away)
+Dundee vs Salernitana, Winner: Dundee
+1st Leg: Rio Ave (Home) 3 - 1 Everton (Away)
+2nd Leg: Everton (Home) 2 - 2 Rio Ave (Away)
+Rio Ave vs Everton, Winner: Rio Ave
+1st Leg: Le Havre (Home) 0 - 2 Osasuna (Away)
+2nd Leg: Osasuna (Home) 3 - 2 Le Havre (Away)
+Le Havre vs Osasuna, Winner: Osasuna
+1st Leg: Everton (Home) 2 - 0 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 3 - 2 Everton (Away)
+Everton vs Gil Vicente, Winner: Everton
+Teams advancing to Round 2: ['Monza', 'Crystal Palace', 'Salernitana', 'Le Havre', 'Everton', 'Everton', 'Politehnica Iasi', 'Fulham', 'Rio Ave', 'Go Ahead Eagles', 'Clermont', 'Crystal Palace', 'Dundee', 'Rio Ave', 'Osasuna', 'Everton', 'Aston Villa', 'Wolverhampton Wanderers', 'Athletic Bilbao', '1. FC Heidenheim', 'Udinese', 'Lorient', 'SC Heerenveen', 'Chaves', 'Club Brugge', 'Antwerp', 'St Johnstone', 'St Mirren', 'Austria Wien', 'Wolfsberger AC', 'U Cluj', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Dundee (Home) 2 - 3 Osasuna (Away)
+2nd Leg: Osasuna (Home) 3 - 0 Dundee (Away)
+1st Leg: Clermont (Home) 4 - 2 U Cluj (Away)
+2nd Leg: U Cluj (Home) 1 - 3 Clermont (Away)
+1st Leg: Le Havre (Home) 1 - 2 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 0 Le Havre (Away)
+1st Leg: Crystal Palace (Home) 1 - 0 Everton (Away)
+2nd Leg: Everton (Home) 2 - 2 Crystal Palace (Away)
+1st Leg: Everton (Home) 3 - 1 1. FC Heidenheim (Away)
+2nd Leg: 1. FC Heidenheim (Home) 2 - 3 Everton (Away)
+1st Leg: Fulham (Home) 3 - 2 Wolverhampton Wanderers (Away)
+2nd Leg: Wolverhampton Wanderers (Home) 2 - 3 Fulham (Away)
+1st Leg: Wolfsberger AC (Home) 2 - 1 St Johnstone (Away)
+2nd Leg: St Johnstone (Home) 1 - 2 Wolfsberger AC (Away)
+1st Leg: SC Heerenveen (Home) 3 - 1 Politehnica Iasi (Away)
+2nd Leg: Politehnica Iasi (Home) 1 - 2 SC Heerenveen (Away)
+1st Leg: Lorient (Home) 3 - 0 St Mirren (Away)
+2nd Leg: St Mirren (Home) 2 - 2 Lorient (Away)
+1st Leg: Crystal Palace (Home) 0 - 3 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 1 Crystal Palace (Away)
+1st Leg: Club Brugge (Home) 1 - 2 Monza (Away)
+2nd Leg: Monza (Home) 1 - 3 Club Brugge (Away)
+1st Leg: Salernitana (Home) 1 - 0 Udinese (Away)
+2nd Leg: Udinese (Home) 1 - 1 Salernitana (Away)
+1st Leg: Go Ahead Eagles (Home) 1 - 1 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 3 - 0 Go Ahead Eagles (Away)
+1st Leg: Austria Wien (Home) 4 - 1 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 1 - 1 Austria Wien (Away)
+1st Leg: Otelul Galati (Home) 1 - 0 Chaves (Away)
+2nd Leg: Chaves (Home) 3 - 1 Otelul Galati (Away)
+1st Leg: Rio Ave (Home) 2 - 0 Everton (Away)
+2nd Leg: Everton (Home) 2 - 2 Rio Ave (Away)
+
+Current round: Round 3
+1st Leg: Clermont (Home) 2 - 1 Everton (Away)
+2nd Leg: Everton (Home) 2 - 1 Clermont (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Clermont 1 - 1 Everton (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Clermont 3 - 3 Everton
+Penalties are tied! Sudden death begins!
+Sudden Death: Clermont 3 - 4 Everton
+Everton wins on sudden death penalties!
+1st Leg: Fulham (Home) 2 - 3 Antwerp (Away)
+2nd Leg: Antwerp (Home) 1 - 1 Fulham (Away)
+1st Leg: Rio Ave (Home) 1 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 0 - 1 Rio Ave (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rio Ave 1 - 1 Salernitana (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rio Ave 5 - 4 Salernitana
+Rio Ave wins on penalties!
+1st Leg: Aston Villa (Home) 4 - 3 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 2 - 1 Aston Villa (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Aston Villa 1 - 1 Crystal Palace (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Aston Villa 2 - 5 Crystal Palace
+Crystal Palace wins on penalties!
+1st Leg: Austria Wien (Home) 2 - 2 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 2 - 2 Austria Wien (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Austria Wien 0 - 1 Club Brugge (Aggregate: 4 - 5)
+1st Leg: Wolfsberger AC (Home) 0 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 3 - 0 Wolfsberger AC (Away)
+1st Leg: Chaves (Home) 1 - 2 Osasuna (Away)
+2nd Leg: Osasuna (Home) 2 - 2 Chaves (Away)
+1st Leg: Lorient (Home) 3 - 2 SC Heerenveen (Away)
+2nd Leg: SC Heerenveen (Home) 2 - 1 Lorient (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lorient 1 - 0 SC Heerenveen (Aggregate: 5 - 4)
+
+Current round: Round 4
+1st Leg: Osasuna (Home) 1 - 0 Lorient (Away)
+2nd Leg: Lorient (Home) 2 - 3 Osasuna (Away)
+1st Leg: Crystal Palace (Home) 0 - 1 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 2 - 1 Crystal Palace (Away)
+1st Leg: Everton (Home) 1 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 3 - 0 Everton (Away)
+1st Leg: Club Brugge (Home) 2 - 0 Antwerp (Away)
+2nd Leg: Antwerp (Home) 1 - 1 Club Brugge (Away)
+
+Current round: Round 5
+1st Leg: Rio Ave (Home) 0 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 3 - 0 Rio Ave (Away)
+1st Leg: Club Brugge (Home) 4 - 4 Osasuna (Away)
+2nd Leg: Osasuna (Home) 3 - 4 Club Brugge (Away)
+
+Current round: Final:
+Athletic Bilbao 3 - 1 Club Brugge
+Athletic Bilbao won the match!
+
+Winner of Europa Conference League: Athletic Bilbao
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Almere City (Home) 0 - 0 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 4 - 1 Almere City (Away)
+Almere City vs VfL Bochum, Winner: VfL Bochum
+1st Leg: U Cluj (Home) 1 - 2 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 4 - 3 U Cluj (Away)
+U Cluj vs Petrolul Ploiesti, Winner: Petrolul Ploiesti
+1st Leg: Sint-Truiden (Home) 1 - 3 NEC (Away)
+2nd Leg: NEC (Home) 1 - 2 Sint-Truiden (Away)
+Sint-Truiden vs NEC, Winner: NEC
+1st Leg: Nantes (Home) 2 - 2 Vizela (Away)
+2nd Leg: Vizela (Home) 1 - 3 Nantes (Away)
+Nantes vs Vizela, Winner: Nantes
+1st Leg: Almere City (Home) 2 - 2 Everton (Away)
+2nd Leg: Everton (Home) 1 - 1 Almere City (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Almere City 1 - 0 Everton (Aggregate: 4 - 3)
+Almere City vs Everton, Winner: Almere City
+1st Leg: West Ham United (Home) 3 - 0 Mallorca (Away)
+2nd Leg: Mallorca (Home) 2 - 3 West Ham United (Away)
+West Ham United vs Mallorca, Winner: West Ham United
+1st Leg: Wolfsberger AC (Home) 2 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 0 Wolfsberger AC (Away)
+Wolfsberger AC vs Nantes, Winner: Nantes
+1st Leg: Vizela (Home) 2 - 1 Salernitana (Away)
+2nd Leg: Salernitana (Home) 3 - 1 Vizela (Away)
+Vizela vs Salernitana, Winner: Salernitana
+1st Leg: Rheindorf Altach (Home) 3 - 2 Almere City (Away)
+2nd Leg: Almere City (Home) 2 - 3 Rheindorf Altach (Away)
+Rheindorf Altach vs Almere City, Winner: Rheindorf Altach
+1st Leg: Kortrijk (Home) 1 - 1 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 1 - 0 Kortrijk (Away)
+Kortrijk vs Sint-Truiden, Winner: Sint-Truiden
+1st Leg: NEC (Home) 2 - 2 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 0 NEC (Away)
+NEC vs Petrolul Ploiesti, Winner: Petrolul Ploiesti
+1st Leg: Mallorca (Home) 3 - 1 Fulham (Away)
+2nd Leg: Fulham (Home) 2 - 2 Mallorca (Away)
+Mallorca vs Fulham, Winner: Mallorca
+1st Leg: Westerlo (Home) 0 - 4 West Ham United (Away)
+2nd Leg: West Ham United (Home) 5 - 2 Westerlo (Away)
+Westerlo vs West Ham United, Winner: West Ham United
+1st Leg: Celta Vigo (Home) 3 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 1 - 3 Celta Vigo (Away)
+Celta Vigo vs Salernitana, Winner: Celta Vigo
+1st Leg: Westerlo (Home) 2 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 4 - 5 Westerlo (Away)
+Westerlo vs Salernitana, Winner: Westerlo
+1st Leg: UTA Arad (Home) 1 - 3 Nantes (Away)
+2nd Leg: Nantes (Home) 3 - 2 UTA Arad (Away)
+UTA Arad vs Nantes, Winner: Nantes
+Teams advancing to Round 2: ['VfL Bochum', 'Petrolul Ploiesti', 'NEC', 'Nantes', 'Almere City', 'West Ham United', 'Nantes', 'Salernitana', 'Rheindorf Altach', 'Sint-Truiden', 'Petrolul Ploiesti', 'Mallorca', 'West Ham United', 'Celta Vigo', 'Westerlo', 'Nantes', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: VfL Bochum (Home) 3 - 2 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 0 - 3 VfL Bochum (Away)
+1st Leg: Cercle Brugge (Home) 2 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 2 Cercle Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cercle Brugge 0 - 0 Nantes (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Cercle Brugge 3 - 3 Nantes
+Penalties are tied! Sudden death begins!
+Sudden Death: Cercle Brugge 5 - 6 Nantes
+Nantes wins on sudden death penalties!
+1st Leg: Crystal Palace (Home) 1 - 1 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 3 - 3 Crystal Palace (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Crystal Palace 1 - 1 Rheindorf Altach (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Crystal Palace 4 - 5 Rheindorf Altach
+Rheindorf Altach wins on penalties!
+1st Leg: Sint-Truiden (Home) 2 - 2 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 4 - 1 Sint-Truiden (Away)
+1st Leg: Nantes (Home) 4 - 1 NEC (Away)
+2nd Leg: NEC (Home) 0 - 1 Nantes (Away)
+1st Leg: West Ham United (Home) 3 - 0 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 3 - 3 West Ham United (Away)
+1st Leg: Westerlo (Home) 2 - 3 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 2 Westerlo (Away)
+1st Leg: Celta Vigo (Home) 3 - 2 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 1 - 2 Celta Vigo (Away)
+1st Leg: Almere City (Home) 3 - 1 Dundee (Away)
+2nd Leg: Dundee (Home) 3 - 2 Almere City (Away)
+1st Leg: Dinamo Bucuresti (Home) 3 - 1 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 1 - 2 Dinamo Bucuresti (Away)
+1st Leg: Brest (Home) 2 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 3 - 2 Brest (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Brest 1 - 0 Nantes (Aggregate: 5 - 4)
+1st Leg: Austria Lustenau (Home) 3 - 3 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 0 Austria Lustenau (Away)
+1st Leg: Mallorca (Home) 3 - 2 St Mirren (Away)
+2nd Leg: St Mirren (Home) 1 - 5 Mallorca (Away)
+1st Leg: Gil Vicente (Home) 0 - 3 Antwerp (Away)
+2nd Leg: Antwerp (Home) 3 - 1 Gil Vicente (Away)
+1st Leg: West Ham United (Home) 2 - 1 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 2 - 1 West Ham United (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: West Ham United 0 - 1 Petrolul Ploiesti (Aggregate: 3 - 4)
+1st Leg: Fortuna Sittard (Home) 1 - 1 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 5 - 1 Fortuna Sittard (Away)
+
+Current round: Round 3
+1st Leg: Sassuolo (Home) 2 - 1 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 1 Sassuolo (Away)
+1st Leg: Rheindorf Altach (Home) 2 - 0 Almere City (Away)
+2nd Leg: Almere City (Home) 1 - 2 Rheindorf Altach (Away)
+1st Leg: Salernitana (Home) 2 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 1 - 0 Salernitana (Away)
+1st Leg: VfL Bochum (Home) 2 - 2 Brest (Away)
+2nd Leg: Brest (Home) 2 - 0 VfL Bochum (Away)
+1st Leg: Celta Vigo (Home) 1 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 1 - 3 Celta Vigo (Away)
+1st Leg: Mallorca (Home) 2 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 2 Mallorca (Away)
+1st Leg: West Ham United (Home) 4 - 1 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 2 - 4 West Ham United (Away)
+1st Leg: Antwerp (Home) 3 - 0 Dinamo Bucuresti (Away)
+2nd Leg: Dinamo Bucuresti (Home) 1 - 1 Antwerp (Away)
+
+Current round: Round 4
+1st Leg: Sassuolo (Home) 1 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 3 Sassuolo (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sassuolo 0 - 0 West Ham United (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Sassuolo 4 - 4 West Ham United
+Penalties are tied! Sudden death begins!
+Sudden Death: Sassuolo 6 - 5 West Ham United
+Sassuolo wins on sudden death penalties!
+1st Leg: Rheindorf Altach (Home) 3 - 3 Mallorca (Away)
+2nd Leg: Mallorca (Home) 4 - 0 Rheindorf Altach (Away)
+1st Leg: Celta Vigo (Home) 1 - 2 Antwerp (Away)
+2nd Leg: Antwerp (Home) 3 - 1 Celta Vigo (Away)
+1st Leg: Brest (Home) 3 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 1 Brest (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Brest 1 - 0 Athletic Bilbao (Aggregate: 5 - 4)
+
+Current round: Round 5
+1st Leg: Sassuolo (Home) 1 - 2 Mallorca (Away)
+2nd Leg: Mallorca (Home) 2 - 1 Sassuolo (Away)
+1st Leg: Brest (Home) 3 - 1 Antwerp (Away)
+2nd Leg: Antwerp (Home) 5 - 1 Brest (Away)
+
+Current round: Final:
+Mallorca 2 - 1 Antwerp
+Mallorca won the match!
+
+Winner of Europa Conference League: Mallorca
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Club Brugge (Home) 2 - 1 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 3 Club Brugge (Away)
+Club Brugge vs West Ham United, Winner: Club Brugge
+1st Leg: West Ham United (Home) 2 - 0 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 1 - 2 West Ham United (Away)
+West Ham United vs Wolfsberger AC, Winner: West Ham United
+1st Leg: Vizela (Home) 4 - 0 Ross County (Away)
+2nd Leg: Ross County (Home) 0 - 3 Vizela (Away)
+Vizela vs Ross County, Winner: Vizela
+1st Leg: Blau-WeiB Linz (Home) 1 - 2 U Cluj (Away)
+2nd Leg: U Cluj (Home) 3 - 1 Blau-WeiB Linz (Away)
+Blau-WeiB Linz vs U Cluj, Winner: U Cluj
+1st Leg: Petrolul Ploiesti (Home) 2 - 1 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 2 - 3 Petrolul Ploiesti (Away)
+Petrolul Ploiesti vs Rio Ave, Winner: Petrolul Ploiesti
+1st Leg: Blau-WeiB Linz (Home) 1 - 1 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 1 Blau-WeiB Linz (Away)
+Blau-WeiB Linz vs Celta Vigo, Winner: Celta Vigo
+1st Leg: Livingston (Home) 2 - 1 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 1 Livingston (Away)
+Livingston vs Petrolul Ploiesti, Winner: Livingston
+1st Leg: Sepsi (Home) 3 - 1 Vizela (Away)
+2nd Leg: Vizela (Home) 2 - 0 Sepsi (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sepsi 0 - 1 Vizela (Aggregate: 3 - 4)
+Sepsi vs Vizela, Winner: Vizela
+1st Leg: U Cluj (Home) 0 - 0 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 1 U Cluj (Away)
+U Cluj vs Celta Vigo, Winner: Celta Vigo
+1st Leg: Sint-Truiden (Home) 3 - 0 Kortrijk (Away)
+2nd Leg: Kortrijk (Home) 1 - 4 Sint-Truiden (Away)
+Sint-Truiden vs Kortrijk, Winner: Sint-Truiden
+1st Leg: NEC (Home) 2 - 1 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 2 - 1 NEC (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: NEC 0 - 0 Sint-Truiden (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: NEC 2 - 2 Sint-Truiden
+Penalties are tied! Sudden death begins!
+Sudden Death: NEC 7 - 6 Sint-Truiden
+NEC wins on sudden death penalties!
+NEC vs Sint-Truiden, Winner: NEC
+1st Leg: Vizela (Home) 4 - 3 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 1 Vizela (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Vizela 0 - 1 Salernitana (Aggregate: 5 - 6)
+Vizela vs Salernitana, Winner: Salernitana
+1st Leg: U Cluj (Home) 2 - 0 Sepsi (Away)
+2nd Leg: Sepsi (Home) 0 - 0 U Cluj (Away)
+U Cluj vs Sepsi, Winner: U Cluj
+1st Leg: Motherwell (Home) 2 - 0 Almere City (Away)
+2nd Leg: Almere City (Home) 1 - 4 Motherwell (Away)
+Motherwell vs Almere City, Winner: Motherwell
+1st Leg: Salernitana (Home) 1 - 2 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 1 - 1 Salernitana (Away)
+Salernitana vs VfL Bochum, Winner: VfL Bochum
+1st Leg: Wolfsberger AC (Home) 0 - 3 NEC (Away)
+2nd Leg: NEC (Home) 3 - 0 Wolfsberger AC (Away)
+Wolfsberger AC vs NEC, Winner: NEC
+Teams advancing to Round 2: ['Club Brugge', 'West Ham United', 'Vizela', 'U Cluj', 'Petrolul Ploiesti', 'Celta Vigo', 'Livingston', 'Vizela', 'Celta Vigo', 'Sint-Truiden', 'NEC', 'Salernitana', 'U Cluj', 'Motherwell', 'VfL Bochum', 'NEC', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Austria Lustenau (Home) 2 - 1 St Mirren (Away)
+2nd Leg: St Mirren (Home) 3 - 1 Austria Lustenau (Away)
+1st Leg: Aston Villa (Home) 3 - 1 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 1 - 2 Aston Villa (Away)
+1st Leg: Celta Vigo (Home) 0 - 2 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 1 - 1 Celta Vigo (Away)
+1st Leg: Fortuna Sittard (Home) 1 - 1 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 3 - 3 Fortuna Sittard (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Fortuna Sittard 1 - 1 Cercle Brugge (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Fortuna Sittard 3 - 4 Cercle Brugge
+Cercle Brugge wins on penalties!
+1st Leg: 1899 Hoffenheim (Home) 3 - 2 NEC (Away)
+2nd Leg: NEC (Home) 1 - 2 1899 Hoffenheim (Away)
+1st Leg: Austria Klagenfurt (Home) 0 - 1 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 2 - 0 Austria Klagenfurt (Away)
+1st Leg: Dinamo Bucuresti (Home) 0 - 2 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 2 - 0 Dinamo Bucuresti (Away)
+1st Leg: Brest (Home) 4 - 1 NEC (Away)
+2nd Leg: NEC (Home) 3 - 0 Brest (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Brest 0 - 0 NEC (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Brest 4 - 3 NEC
+Brest wins on penalties!
+1st Leg: Club Brugge (Home) 2 - 0 Dundee (Away)
+2nd Leg: Dundee (Home) 2 - 4 Club Brugge (Away)
+1st Leg: West Ham United (Home) 2 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 0 West Ham United (Away)
+1st Leg: Vizela (Home) 2 - 2 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 1 - 0 Vizela (Away)
+1st Leg: U Cluj (Home) 3 - 3 Motherwell (Away)
+2nd Leg: Motherwell (Home) 1 - 1 U Cluj (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: U Cluj 0 - 0 Motherwell (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: U Cluj 4 - 3 Motherwell
+U Cluj wins on penalties!
+1st Leg: Petrolul Ploiesti (Home) 2 - 0 Vizela (Away)
+2nd Leg: Vizela (Home) 4 - 1 Petrolul Ploiesti (Away)
+1st Leg: Salernitana (Home) 3 - 2 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 0 - 0 Salernitana (Away)
+1st Leg: Livingston (Home) 3 - 2 U Cluj (Away)
+2nd Leg: U Cluj (Home) 3 - 2 Livingston (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Livingston 1 - 1 U Cluj (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Livingston 2 - 3 U Cluj
+U Cluj wins on penalties!
+1st Leg: Celta Vigo (Home) 3 - 1 Antwerp (Away)
+2nd Leg: Antwerp (Home) 3 - 2 Celta Vigo (Away)
+
+Current round: Round 3
+1st Leg: VfL Bochum (Home) 4 - 3 St Mirren (Away)
+2nd Leg: St Mirren (Home) 1 - 1 VfL Bochum (Away)
+1st Leg: Sassuolo (Home) 2 - 0 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 1 - 1 Sassuolo (Away)
+1st Leg: Club Brugge (Home) 5 - 1 Brest (Away)
+2nd Leg: Brest (Home) 1 - 3 Club Brugge (Away)
+1st Leg: U Cluj (Home) 2 - 3 Vizela (Away)
+2nd Leg: Vizela (Home) 4 - 1 U Cluj (Away)
+1st Leg: 1899 Hoffenheim (Home) 2 - 2 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 3 - 2 1899 Hoffenheim (Away)
+1st Leg: Aston Villa (Home) 3 - 0 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 1 - 3 Aston Villa (Away)
+1st Leg: Salernitana (Home) 2 - 0 U Cluj (Away)
+2nd Leg: U Cluj (Home) 3 - 1 Salernitana (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Salernitana 0 - 0 U Cluj (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Salernitana 4 - 2 U Cluj
+Salernitana wins on penalties!
+1st Leg: Athletic Bilbao (Home) 3 - 1 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 2 - 3 Athletic Bilbao (Away)
+
+Current round: Round 4
+1st Leg: Vizela (Home) 2 - 2 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 3 - 1 Vizela (Away)
+1st Leg: Aston Villa (Home) 2 - 1 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 2 - 2 Aston Villa (Away)
+1st Leg: VfL Bochum (Home) 2 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 1 - 2 VfL Bochum (Away)
+1st Leg: Cercle Brugge (Home) 0 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 1 Cercle Brugge (Away)
+
+Current round: Round 5
+1st Leg: VfL Bochum (Home) 1 - 3 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 0 VfL Bochum (Away)
+1st Leg: Aston Villa (Home) 2 - 0 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 1 - 2 Aston Villa (Away)
+
+Current round: Final:
+Athletic Bilbao 1 - 2 Aston Villa
+Aston Villa won the match!
+
+Winner of Europa Conference League: Aston Villa
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Mallorca (Home) 3 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 1 Mallorca (Away)
+Mallorca vs Nantes, Winner: Mallorca
+1st Leg: Rheindorf Altach (Home) 2 - 3 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 1 - 1 Rheindorf Altach (Away)
+Rheindorf Altach vs Blau-WeiB Linz, Winner: Blau-WeiB Linz
+1st Leg: Celta Vigo (Home) 3 - 1 NEC (Away)
+2nd Leg: NEC (Home) 1 - 0 Celta Vigo (Away)
+Celta Vigo vs NEC, Winner: Celta Vigo
+1st Leg: U Cluj (Home) 1 - 2 Livingston (Away)
+2nd Leg: Livingston (Home) 2 - 2 U Cluj (Away)
+U Cluj vs Livingston, Winner: Livingston
+1st Leg: Werder Bremen (Home) 2 - 1 Kortrijk (Away)
+2nd Leg: Kortrijk (Home) 2 - 3 Werder Bremen (Away)
+Werder Bremen vs Kortrijk, Winner: Werder Bremen
+1st Leg: Nantes (Home) 5 - 1 Kortrijk (Away)
+2nd Leg: Kortrijk (Home) 0 - 4 Nantes (Away)
+Nantes vs Kortrijk, Winner: Nantes
+1st Leg: Lorient (Home) 2 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 1 Lorient (Away)
+Lorient vs Salernitana, Winner: Salernitana
+1st Leg: Wolfsberger AC (Home) 0 - 2 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 1 - 0 Wolfsberger AC (Away)
+Wolfsberger AC vs Nottingham Forest, Winner: Nottingham Forest
+1st Leg: Nantes (Home) 3 - 1 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 3 - 1 Nantes (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Nantes 1 - 0 Kilmarnock (Aggregate: 5 - 4)
+Nantes vs Kilmarnock, Winner: Nantes
+1st Leg: Club Brugge (Home) 2 - 1 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 1 - 1 Club Brugge (Away)
+Club Brugge vs Rio Ave, Winner: Club Brugge
+1st Leg: Werder Bremen (Home) 4 - 2 Lorient (Away)
+2nd Leg: Lorient (Home) 1 - 1 Werder Bremen (Away)
+Werder Bremen vs Lorient, Winner: Werder Bremen
+1st Leg: UTA Arad (Home) 0 - 2 Mallorca (Away)
+2nd Leg: Mallorca (Home) 4 - 1 UTA Arad (Away)
+UTA Arad vs Mallorca, Winner: Mallorca
+1st Leg: West Ham United (Home) 4 - 0 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 1 - 3 West Ham United (Away)
+West Ham United vs Rheindorf Altach, Winner: West Ham United
+1st Leg: TSV Hartberg (Home) 2 - 2 Westerlo (Away)
+2nd Leg: Westerlo (Home) 4 - 2 TSV Hartberg (Away)
+TSV Hartberg vs Westerlo, Winner: Westerlo
+1st Leg: Wolfsberger AC (Home) 1 - 3 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 3 - 1 Wolfsberger AC (Away)
+Wolfsberger AC vs Blau-WeiB Linz, Winner: Blau-WeiB Linz
+1st Leg: Livingston (Home) 3 - 3 Motherwell (Away)
+2nd Leg: Motherwell (Home) 3 - 1 Livingston (Away)
+Livingston vs Motherwell, Winner: Motherwell
+Teams advancing to Round 2: ['Mallorca', 'Blau-WeiB Linz', 'Celta Vigo', 'Livingston', 'Werder Bremen', 'Nantes', 'Salernitana', 'Nottingham Forest', 'Nantes', 'Club Brugge', 'Werder Bremen', 'Mallorca', 'West Ham United', 'Westerlo', 'Blau-WeiB Linz', 'Motherwell', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Motherwell (Home) 4 - 1 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 2 - 2 Motherwell (Away)
+1st Leg: Salernitana (Home) 1 - 2 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 1 - 1 Salernitana (Away)
+1st Leg: Dinamo Bucuresti (Home) 3 - 3 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 1 - 1 Dinamo Bucuresti (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Dinamo Bucuresti 1 - 1 1899 Hoffenheim (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Dinamo Bucuresti 1 - 5 1899 Hoffenheim
+1899 Hoffenheim wins on penalties!
+1st Leg: Gil Vicente (Home) 3 - 4 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 4 - 0 Gil Vicente (Away)
+1st Leg: Dundee (Home) 2 - 1 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 3 - 1 Dundee (Away)
+1st Leg: Club Brugge (Home) 3 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 1 - 2 Club Brugge (Away)
+1st Leg: Mallorca (Home) 2 - 1 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 1 - 3 Mallorca (Away)
+1st Leg: Mallorca (Home) 3 - 0 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 2 - 2 Mallorca (Away)
+1st Leg: West Ham United (Home) 3 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 0 - 2 West Ham United (Away)
+1st Leg: Brest (Home) 1 - 3 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 1 Brest (Away)
+1st Leg: Austria Lustenau (Home) 3 - 2 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 1 - 1 Austria Lustenau (Away)
+1st Leg: St Mirren (Home) 2 - 2 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 3 - 3 St Mirren (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: St Mirren 0 - 1 Fortuna Sittard (Aggregate: 5 - 6)
+1st Leg: Aston Villa (Home) 0 - 3 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 0 - 0 Aston Villa (Away)
+1st Leg: Werder Bremen (Home) 4 - 1 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 2 - 2 Werder Bremen (Away)
+1st Leg: Blau-WeiB Linz (Home) 2 - 3 Livingston (Away)
+2nd Leg: Livingston (Home) 4 - 0 Blau-WeiB Linz (Away)
+1st Leg: Westerlo (Home) 2 - 3 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 3 - 4 Westerlo (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Westerlo 1 - 1 Sassuolo (Aggregate: 7 - 7)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Westerlo 3 - 3 Sassuolo
+Penalties are tied! Sudden death begins!
+Sudden Death: Westerlo 3 - 4 Sassuolo
+Sassuolo wins on sudden death penalties!
+
+Current round: Round 3
+1st Leg: Livingston (Home) 1 - 2 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 3 - 1 Livingston (Away)
+1st Leg: Mallorca (Home) 2 - 1 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 2 - 1 Mallorca (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Mallorca 1 - 1 Nottingham Forest (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Mallorca 5 - 2 Nottingham Forest
+Mallorca wins on penalties!
+1st Leg: Mallorca (Home) 2 - 1 West Ham United (Away)
+2nd Leg: West Ham United (Home) 3 - 1 Mallorca (Away)
+1st Leg: Sassuolo (Home) 1 - 2 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 1 - 2 Sassuolo (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sassuolo 1 - 1 Werder Bremen (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Sassuolo 4 - 5 Werder Bremen
+Werder Bremen wins on penalties!
+1st Leg: Motherwell (Home) 3 - 1 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 2 - 2 Motherwell (Away)
+1st Leg: Athletic Bilbao (Home) 4 - 1 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 2 - 2 Athletic Bilbao (Away)
+1st Leg: Antwerp (Home) 4 - 0 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 1 - 3 Antwerp (Away)
+1st Leg: Austria Lustenau (Home) 3 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 3 - 1 Austria Lustenau (Away)
+
+Current round: Round 4
+1st Leg: Athletic Bilbao (Home) 1 - 0 Mallorca (Away)
+2nd Leg: Mallorca (Home) 2 - 2 Athletic Bilbao (Away)
+1st Leg: West Ham United (Home) 4 - 1 Motherwell (Away)
+2nd Leg: Motherwell (Home) 3 - 1 West Ham United (Away)
+1st Leg: Club Brugge (Home) 3 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 3 - 1 Club Brugge (Away)
+1st Leg: Antwerp (Home) 4 - 2 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 2 - 3 Antwerp (Away)
+
+Current round: Round 5
+1st Leg: Athletic Bilbao (Home) 3 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 2 Athletic Bilbao (Away)
+1st Leg: Antwerp (Home) 4 - 1 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 1 - 1 Antwerp (Away)
+
+Current round: Final:
+Antwerp 2 - 3 Athletic Bilbao
+Athletic Bilbao won the match!
+
+Winner of Europa Conference League: Athletic Bilbao
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Rio Ave (Home) 3 - 1 TSV Hartberg (Away)
+2nd Leg: TSV Hartberg (Home) 4 - 3 Rio Ave (Away)
+Rio Ave vs TSV Hartberg, Winner: Rio Ave
+1st Leg: Almere City (Home) 3 - 1 Livingston (Away)
+2nd Leg: Livingston (Home) 4 - 2 Almere City (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Almere City 1 - 1 Livingston (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Almere City 3 - 3 Livingston
+Penalties are tied! Sudden death begins!
+Sudden Death: Almere City 6 - 5 Livingston
+Almere City wins on sudden death penalties!
+Almere City vs Livingston, Winner: Almere City
+1st Leg: Mallorca (Home) 2 - 1 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 1 Mallorca (Away)
+Mallorca vs Petrolul Ploiesti, Winner: Mallorca
+1st Leg: Nantes (Home) 2 - 2 Westerlo (Away)
+2nd Leg: Westerlo (Home) 2 - 2 Nantes (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Nantes 0 - 0 Westerlo (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Nantes 4 - 4 Westerlo
+Penalties are tied! Sudden death begins!
+Sudden Death: Nantes 5 - 6 Westerlo
+Westerlo wins on sudden death penalties!
+Nantes vs Westerlo, Winner: Westerlo
+1st Leg: Blau-WeiB Linz (Home) 2 - 4 Mallorca (Away)
+2nd Leg: Mallorca (Home) 3 - 0 Blau-WeiB Linz (Away)
+Blau-WeiB Linz vs Mallorca, Winner: Mallorca
+1st Leg: Blau-WeiB Linz (Home) 3 - 1 TSV Hartberg (Away)
+2nd Leg: TSV Hartberg (Home) 1 - 2 Blau-WeiB Linz (Away)
+Blau-WeiB Linz vs TSV Hartberg, Winner: Blau-WeiB Linz
+1st Leg: Celta Vigo (Home) 4 - 2 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 2 - 2 Celta Vigo (Away)
+Celta Vigo vs Werder Bremen, Winner: Celta Vigo
+1st Leg: Salernitana (Home) 4 - 3 Everton (Away)
+2nd Leg: Everton (Home) 2 - 0 Salernitana (Away)
+Salernitana vs Everton, Winner: Everton
+1st Leg: Almere City (Home) 1 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 0 Almere City (Away)
+Almere City vs Nantes, Winner: Nantes
+1st Leg: Kilmarnock (Home) 2 - 2 Empoli (Away)
+2nd Leg: Empoli (Home) 2 - 1 Kilmarnock (Away)
+Kilmarnock vs Empoli, Winner: Empoli
+1st Leg: Lorient (Home) 2 - 2 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 4 - 2 Lorient (Away)
+Lorient vs VfL Bochum, Winner: VfL Bochum
+1st Leg: Lorient (Home) 1 - 1 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 1 - 2 Lorient (Away)
+Lorient vs VfL Bochum, Winner: Lorient
+1st Leg: Petrolul Ploiesti (Home) 2 - 1 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 3 - 3 Petrolul Ploiesti (Away)
+Petrolul Ploiesti vs Nottingham Forest, Winner: Petrolul Ploiesti
+1st Leg: Westerlo (Home) 0 - 3 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 2 - 2 Westerlo (Away)
+Westerlo vs Werder Bremen, Winner: Werder Bremen
+1st Leg: Ross County (Home) 3 - 1 TSV Hartberg (Away)
+2nd Leg: TSV Hartberg (Home) 3 - 2 Ross County (Away)
+Ross County vs TSV Hartberg, Winner: Ross County
+1st Leg: Lorient (Home) 1 - 0 Kortrijk (Away)
+2nd Leg: Kortrijk (Home) 1 - 3 Lorient (Away)
+Lorient vs Kortrijk, Winner: Lorient
+Teams advancing to Round 2: ['Rio Ave', 'Almere City', 'Mallorca', 'Westerlo', 'Mallorca', 'Blau-WeiB Linz', 'Celta Vigo', 'Everton', 'Nantes', 'Empoli', 'VfL Bochum', 'Lorient', 'Petrolul Ploiesti', 'Werder Bremen', 'Ross County', 'Lorient', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Westerlo (Home) 5 - 0 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 1 - 4 Westerlo (Away)
+1st Leg: Gil Vicente (Home) 2 - 1 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 1 - 3 Gil Vicente (Away)
+1st Leg: Brest (Home) 1 - 3 Mallorca (Away)
+2nd Leg: Mallorca (Home) 1 - 0 Brest (Away)
+1st Leg: Nantes (Home) 1 - 1 Empoli (Away)
+2nd Leg: Empoli (Home) 2 - 1 Nantes (Away)
+1st Leg: Athletic Bilbao (Home) 3 - 1 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 5 Athletic Bilbao (Away)
+1st Leg: Otelul Galati (Home) 2 - 0 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 2 - 1 Otelul Galati (Away)
+1st Leg: Mallorca (Home) 1 - 0 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 1 - 1 Mallorca (Away)
+1st Leg: Fortuna Sittard (Home) 2 - 0 Dundee (Away)
+2nd Leg: Dundee (Home) 4 - 1 Fortuna Sittard (Away)
+1st Leg: Crystal Palace (Home) 3 - 1 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 3 - 2 Crystal Palace (Away)
+1st Leg: Dinamo Bucuresti (Home) 2 - 2 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 3 - 2 Dinamo Bucuresti (Away)
+1st Leg: Everton (Home) 3 - 2 St Mirren (Away)
+2nd Leg: St Mirren (Home) 3 - 1 Everton (Away)
+1st Leg: Lorient (Home) 5 - 1 Ross County (Away)
+2nd Leg: Ross County (Home) 1 - 2 Lorient (Away)
+1st Leg: VfL Bochum (Home) 0 - 3 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 0 VfL Bochum (Away)
+1st Leg: Rio Ave (Home) 4 - 0 Almere City (Away)
+2nd Leg: Almere City (Home) 1 - 2 Rio Ave (Away)
+1st Leg: Antwerp (Home) 5 - 2 Austria Lustenau (Away)
+2nd Leg: Austria Lustenau (Home) 0 - 1 Antwerp (Away)
+1st Leg: Lorient (Home) 3 - 2 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 2 - 3 Lorient (Away)
+
+Current round: Round 3
+1st Leg: Lorient (Home) 2 - 0 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 2 - 2 Lorient (Away)
+1st Leg: Dundee (Home) 0 - 2 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 5 - 0 Dundee (Away)
+1st Leg: St Mirren (Home) 0 - 3 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 0 St Mirren (Away)
+1st Leg: Empoli (Home) 2 - 0 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 3 - 3 Empoli (Away)
+1st Leg: Rio Ave (Home) 0 - 4 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 0 Rio Ave (Away)
+1st Leg: Aston Villa (Home) 1 - 0 Mallorca (Away)
+2nd Leg: Mallorca (Home) 2 - 2 Aston Villa (Away)
+1st Leg: Mallorca (Home) 3 - 2 Lorient (Away)
+2nd Leg: Lorient (Home) 1 - 1 Mallorca (Away)
+1st Leg: Westerlo (Home) 3 - 2 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 1 - 1 Westerlo (Away)
+
+Current round: Round 4
+1st Leg: Aston Villa (Home) 3 - 1 Lorient (Away)
+2nd Leg: Lorient (Home) 1 - 2 Aston Villa (Away)
+1st Leg: Athletic Bilbao (Home) 3 - 1 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 0 - 2 Athletic Bilbao (Away)
+1st Leg: Mallorca (Home) 3 - 1 Empoli (Away)
+2nd Leg: Empoli (Home) 3 - 2 Mallorca (Away)
+1st Leg: Antwerp (Home) 3 - 1 Westerlo (Away)
+2nd Leg: Westerlo (Home) 2 - 1 Antwerp (Away)
+
+Current round: Round 5
+1st Leg: Antwerp (Home) 0 - 1 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 1 - 1 Antwerp (Away)
+1st Leg: Mallorca (Home) 1 - 3 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 1 - 1 Mallorca (Away)
+
+Current round: Final:
+Athletic Bilbao 1 - 1 Aston Villa
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Athletic Bilbao 1 - 1 Aston Villa (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Athletic Bilbao 4 - 4 Aston Villa
+Penalties are tied! Sudden death begins!
+Sudden Death: Athletic Bilbao 5 - 4 Aston Villa
+Athletic Bilbao wins on sudden death penalties!
+
+Winner of Europa Conference League: Athletic Bilbao
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Wolfsberger AC (Home) 3 - 2 UTA Arad (Away)
+2nd Leg: UTA Arad (Home) 2 - 2 Wolfsberger AC (Away)
+Wolfsberger AC vs UTA Arad, Winner: Wolfsberger AC
+1st Leg: Sepsi (Home) 0 - 4 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 3 - 2 Sepsi (Away)
+Sepsi vs VfL Bochum, Winner: VfL Bochum
+1st Leg: Nantes (Home) 3 - 0 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 1 Nantes (Away)
+Nantes vs Salernitana, Winner: Nantes
+1st Leg: Wolfsberger AC (Home) 2 - 1 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 1 - 1 Wolfsberger AC (Away)
+Wolfsberger AC vs Werder Bremen, Winner: Wolfsberger AC
+1st Leg: West Ham United (Home) 2 - 0 NEC (Away)
+2nd Leg: NEC (Home) 3 - 0 West Ham United (Away)
+West Ham United vs NEC, Winner: NEC
+1st Leg: Petrolul Ploiesti (Home) 3 - 2 Everton (Away)
+2nd Leg: Everton (Home) 1 - 0 Petrolul Ploiesti (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Petrolul Ploiesti 1 - 1 Everton (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Petrolul Ploiesti 5 - 3 Everton
+Petrolul Ploiesti wins on penalties!
+Petrolul Ploiesti vs Everton, Winner: Petrolul Ploiesti
+1st Leg: Mallorca (Home) 3 - 1 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 1 - 3 Mallorca (Away)
+Mallorca vs Club Brugge, Winner: Mallorca
+1st Leg: Almere City (Home) 1 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 3 - 1 Almere City (Away)
+Almere City vs West Ham United, Winner: West Ham United
+1st Leg: Petrolul Ploiesti (Home) 1 - 3 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 3 - 2 Petrolul Ploiesti (Away)
+Petrolul Ploiesti vs Wolfsberger AC, Winner: Wolfsberger AC
+1st Leg: UTA Arad (Home) 1 - 2 Everton (Away)
+2nd Leg: Everton (Home) 2 - 1 UTA Arad (Away)
+UTA Arad vs Everton, Winner: Everton
+1st Leg: NEC (Home) 2 - 3 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 1 NEC (Away)
+NEC vs Salernitana, Winner: Salernitana
+1st Leg: TSV Hartberg (Home) 1 - 3 West Ham United (Away)
+2nd Leg: West Ham United (Home) 3 - 1 TSV Hartberg (Away)
+TSV Hartberg vs West Ham United, Winner: West Ham United
+1st Leg: U Cluj (Home) 3 - 2 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 0 - 3 U Cluj (Away)
+U Cluj vs Petrolul Ploiesti, Winner: U Cluj
+1st Leg: Petrolul Ploiesti (Home) 1 - 3 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 3 - 0 Petrolul Ploiesti (Away)
+Petrolul Ploiesti vs Club Brugge, Winner: Club Brugge
+1st Leg: Kilmarnock (Home) 3 - 0 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 2 - 0 Kilmarnock (Away)
+Kilmarnock vs Rheindorf Altach, Winner: Kilmarnock
+1st Leg: Nottingham Forest (Home) 2 - 0 Sepsi (Away)
+2nd Leg: Sepsi (Home) 0 - 2 Nottingham Forest (Away)
+Nottingham Forest vs Sepsi, Winner: Nottingham Forest
+Teams advancing to Round 2: ['Wolfsberger AC', 'VfL Bochum', 'Nantes', 'Wolfsberger AC', 'NEC', 'Petrolul Ploiesti', 'Mallorca', 'West Ham United', 'Wolfsberger AC', 'Everton', 'Salernitana', 'West Ham United', 'U Cluj', 'Club Brugge', 'Kilmarnock', 'Nottingham Forest', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Aston Villa (Home) 1 - 1 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 2 - 3 Aston Villa (Away)
+1st Leg: Kilmarnock (Home) 2 - 2 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 2 Kilmarnock (Away)
+1st Leg: Austria Klagenfurt (Home) 0 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 3 - 0 Austria Klagenfurt (Away)
+1st Leg: Wolfsberger AC (Home) 2 - 1 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 2 - 5 Wolfsberger AC (Away)
+1st Leg: Mallorca (Home) 3 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 1 - 2 Mallorca (Away)
+1st Leg: U Cluj (Home) 2 - 1 NEC (Away)
+2nd Leg: NEC (Home) 1 - 3 U Cluj (Away)
+1st Leg: Athletic Bilbao (Home) 4 - 2 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 1 - 1 Athletic Bilbao (Away)
+1st Leg: Crystal Palace (Home) 4 - 0 Dundee (Away)
+2nd Leg: Dundee (Home) 1 - 3 Crystal Palace (Away)
+1st Leg: Otelul Galati (Home) 0 - 3 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 0 Otelul Galati (Away)
+1st Leg: St Mirren (Home) 2 - 1 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 2 - 1 St Mirren (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: St Mirren 1 - 1 Wolfsberger AC (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: St Mirren 3 - 3 Wolfsberger AC
+Penalties are tied! Sudden death begins!
+Sudden Death: St Mirren 7 - 8 Wolfsberger AC
+Wolfsberger AC wins on sudden death penalties!
+1st Leg: Sassuolo (Home) 2 - 4 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 4 - 3 Sassuolo (Away)
+1st Leg: Everton (Home) 2 - 2 Brest (Away)
+2nd Leg: Brest (Home) 0 - 1 Everton (Away)
+1st Leg: Wolfsberger AC (Home) 0 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 2 Wolfsberger AC (Away)
+1st Leg: Austria Lustenau (Home) 1 - 2 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 2 - 1 Austria Lustenau (Away)
+1st Leg: VfL Bochum (Home) 0 - 2 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 2 - 2 VfL Bochum (Away)
+1st Leg: Dinamo Bucuresti (Home) 1 - 4 West Ham United (Away)
+2nd Leg: West Ham United (Home) 4 - 1 Dinamo Bucuresti (Away)
+
+Current round: Round 3
+1st Leg: U Cluj (Home) 2 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 5 - 2 U Cluj (Away)
+1st Leg: Antwerp (Home) 1 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 1 Antwerp (Away)
+1st Leg: West Ham United (Home) 3 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 2 West Ham United (Away)
+1st Leg: Cercle Brugge (Home) 3 - 2 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 1 - 1 Cercle Brugge (Away)
+1st Leg: Club Brugge (Home) 3 - 1 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 1 - 2 Club Brugge (Away)
+1st Leg: Everton (Home) 3 - 2 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 2 - 1 Everton (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Everton 0 - 1 Crystal Palace (Aggregate: 4 - 5)
+1st Leg: Salernitana (Home) 2 - 0 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 2 - 4 Salernitana (Away)
+1st Leg: Mallorca (Home) 3 - 0 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 0 - 2 Mallorca (Away)
+
+Current round: Round 4
+1st Leg: Salernitana (Home) 1 - 4 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 3 - 1 Salernitana (Away)
+1st Leg: Mallorca (Home) 2 - 0 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 2 - 0 Mallorca (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Mallorca 1 - 0 Club Brugge (Aggregate: 3 - 2)
+1st Leg: West Ham United (Home) 0 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 2 West Ham United (Away)
+1st Leg: West Ham United (Home) 3 - 1 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 0 - 3 West Ham United (Away)
+
+Current round: Round 5
+1st Leg: Aston Villa (Home) 0 - 4 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 2 Aston Villa (Away)
+1st Leg: Crystal Palace (Home) 2 - 2 Mallorca (Away)
+2nd Leg: Mallorca (Home) 3 - 2 Crystal Palace (Away)
+
+Current round: Final:
+West Ham United 2 - 1 Mallorca
+West Ham United won the match!
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Everton (Home) 0 - 1 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 3 - 4 Everton (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Everton 1 - 0 Sint-Truiden (Aggregate: 5 - 4)
+Everton vs Sint-Truiden, Winner: Everton
+1st Leg: Vizela (Home) 2 - 2 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 2 - 1 Vizela (Away)
+Vizela vs Wolfsberger AC, Winner: Wolfsberger AC
+1st Leg: Kortrijk (Home) 1 - 1 Lorient (Away)
+2nd Leg: Lorient (Home) 2 - 1 Kortrijk (Away)
+Kortrijk vs Lorient, Winner: Lorient
+1st Leg: Blau-WeiB Linz (Home) 1 - 2 Lorient (Away)
+2nd Leg: Lorient (Home) 2 - 1 Blau-WeiB Linz (Away)
+Blau-WeiB Linz vs Lorient, Winner: Lorient
+1st Leg: Nottingham Forest (Home) 3 - 3 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 3 - 1 Nottingham Forest (Away)
+Nottingham Forest vs Club Brugge, Winner: Club Brugge
+1st Leg: Blau-WeiB Linz (Home) 2 - 2 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 3 - 0 Blau-WeiB Linz (Away)
+Blau-WeiB Linz vs Club Brugge, Winner: Club Brugge
+1st Leg: Petrolul Ploiesti (Home) 1 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 1 Petrolul Ploiesti (Away)
+Petrolul Ploiesti vs Nantes, Winner: Nantes
+1st Leg: Sepsi (Home) 4 - 2 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 1 Sepsi (Away)
+Sepsi vs Petrolul Ploiesti, Winner: Sepsi
+1st Leg: Celta Vigo (Home) 3 - 1 Sepsi (Away)
+2nd Leg: Sepsi (Home) 2 - 3 Celta Vigo (Away)
+Celta Vigo vs Sepsi, Winner: Celta Vigo
+1st Leg: Sepsi (Home) 1 - 1 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 1 - 1 Sepsi (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sepsi 0 - 0 Kilmarnock (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Sepsi 4 - 4 Kilmarnock
+Penalties are tied! Sudden death begins!
+Sudden Death: Sepsi 7 - 6 Kilmarnock
+Sepsi wins on sudden death penalties!
+Sepsi vs Kilmarnock, Winner: Sepsi
+1st Leg: Almere City (Home) 0 - 2 Fulham (Away)
+2nd Leg: Fulham (Home) 3 - 2 Almere City (Away)
+Almere City vs Fulham, Winner: Fulham
+1st Leg: Everton (Home) 2 - 2 Empoli (Away)
+2nd Leg: Empoli (Home) 2 - 2 Everton (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Everton 0 - 1 Empoli (Aggregate: 4 - 5)
+Everton vs Empoli, Winner: Empoli
+1st Leg: Kilmarnock (Home) 2 - 0 Kortrijk (Away)
+2nd Leg: Kortrijk (Home) 3 - 1 Kilmarnock (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Kilmarnock 1 - 0 Kortrijk (Aggregate: 4 - 3)
+Kilmarnock vs Kortrijk, Winner: Kilmarnock
+1st Leg: Livingston (Home) 3 - 2 Lorient (Away)
+2nd Leg: Lorient (Home) 4 - 1 Livingston (Away)
+Livingston vs Lorient, Winner: Lorient
+1st Leg: Rheindorf Altach (Home) 3 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 1 Rheindorf Altach (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rheindorf Altach 1 - 0 Nantes (Aggregate: 5 - 4)
+Rheindorf Altach vs Nantes, Winner: Rheindorf Altach
+1st Leg: Livingston (Home) 1 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 1 Livingston (Away)
+Livingston vs Celta Vigo, Winner: Celta Vigo
+Teams advancing to Round 2: ['Everton', 'Wolfsberger AC', 'Lorient', 'Lorient', 'Club Brugge', 'Club Brugge', 'Nantes', 'Sepsi', 'Celta Vigo', 'Sepsi', 'Fulham', 'Empoli', 'Kilmarnock', 'Lorient', 'Rheindorf Altach', 'Celta Vigo', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Club Brugge (Home) 3 - 1 Lorient (Away)
+2nd Leg: Lorient (Home) 1 - 1 Club Brugge (Away)
+1st Leg: Sassuolo (Home) 3 - 2 Fulham (Away)
+2nd Leg: Fulham (Home) 3 - 1 Sassuolo (Away)
+1st Leg: Dinamo Bucuresti (Home) 2 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 3 - 2 Dinamo Bucuresti (Away)
+1st Leg: Dundee (Home) 3 - 1 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 2 - 2 Dundee (Away)
+1st Leg: Sepsi (Home) 1 - 1 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 1 Sepsi (Away)
+1st Leg: Fortuna Sittard (Home) 1 - 4 Lorient (Away)
+2nd Leg: Lorient (Home) 3 - 0 Fortuna Sittard (Away)
+1st Leg: Austria Lustenau (Home) 3 - 2 Lorient (Away)
+2nd Leg: Lorient (Home) 3 - 1 Austria Lustenau (Away)
+1st Leg: Brest (Home) 1 - 4 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 3 - 2 Brest (Away)
+1st Leg: St Mirren (Home) 1 - 3 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 3 - 1 St Mirren (Away)
+1st Leg: Athletic Bilbao (Home) 0 - 0 Everton (Away)
+2nd Leg: Everton (Home) 3 - 2 Athletic Bilbao (Away)
+1st Leg: Aston Villa (Home) 1 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 1 - 2 Aston Villa (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Aston Villa 0 - 0 Celta Vigo (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Aston Villa 4 - 5 Celta Vigo
+Celta Vigo wins on penalties!
+1st Leg: Empoli (Home) 3 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 1 - 3 Empoli (Away)
+1st Leg: Kilmarnock (Home) 0 - 1 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 2 - 0 Kilmarnock (Away)
+1st Leg: Otelul Galati (Home) 2 - 0 Sepsi (Away)
+2nd Leg: Sepsi (Home) 1 - 2 Otelul Galati (Away)
+1st Leg: Cercle Brugge (Home) 3 - 2 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 2 - 2 Cercle Brugge (Away)
+1st Leg: 1899 Hoffenheim (Home) 3 - 2 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 0 - 0 1899 Hoffenheim (Away)
+
+Current round: Round 3
+1st Leg: Empoli (Home) 2 - 3 Antwerp (Away)
+2nd Leg: Antwerp (Home) 3 - 3 Empoli (Away)
+1st Leg: Lorient (Home) 3 - 0 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 3 - 1 Lorient (Away)
+1st Leg: Celta Vigo (Home) 3 - 1 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 2 - 3 Celta Vigo (Away)
+1st Leg: Dundee (Home) 1 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 3 - 3 Dundee (Away)
+1st Leg: Crystal Palace (Home) 4 - 2 Fulham (Away)
+2nd Leg: Fulham (Home) 2 - 2 Crystal Palace (Away)
+1st Leg: Lorient (Home) 3 - 2 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 1 - 1 Lorient (Away)
+1st Leg: Austria Klagenfurt (Home) 1 - 2 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 4 - 0 Austria Klagenfurt (Away)
+1st Leg: Club Brugge (Home) 3 - 0 Everton (Away)
+2nd Leg: Everton (Home) 1 - 1 Club Brugge (Away)
+
+Current round: Round 4
+1st Leg: Club Brugge (Home) 3 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 1 - 0 Club Brugge (Away)
+1st Leg: Lorient (Home) 4 - 2 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 3 - 2 Lorient (Away)
+1st Leg: Club Brugge (Home) 2 - 2 Lorient (Away)
+2nd Leg: Lorient (Home) 3 - 1 Club Brugge (Away)
+1st Leg: Antwerp (Home) 2 - 1 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 1 - 3 Antwerp (Away)
+
+Current round: Round 5
+1st Leg: Club Brugge (Home) 2 - 1 Lorient (Away)
+2nd Leg: Lorient (Home) 1 - 0 Club Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Club Brugge 0 - 0 Lorient (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Club Brugge 1 - 4 Lorient
+Lorient wins on penalties!
+1st Leg: Antwerp (Home) 2 - 2 Lorient (Away)
+2nd Leg: Lorient (Home) 2 - 2 Antwerp (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Antwerp 1 - 1 Lorient (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Antwerp 4 - 4 Lorient
+Penalties are tied! Sudden death begins!
+Sudden Death: Antwerp 4 - 5 Lorient
+Lorient wins on sudden death penalties!
+
+Current round: Final:
+Lorient 3 - 2 Lorient
+Lorient won the match!
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Ross County (Home) 3 - 2 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 2 - 1 Ross County (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Ross County 1 - 1 Kilmarnock (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Ross County 4 - 2 Kilmarnock
+Ross County wins on penalties!
+Ross County vs Kilmarnock, Winner: Ross County
+1st Leg: Ross County (Home) 2 - 1 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 4 - 2 Ross County (Away)
+Ross County vs Sint-Truiden, Winner: Sint-Truiden
+1st Leg: Westerlo (Home) 3 - 1 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 1 - 2 Westerlo (Away)
+Westerlo vs Blau-WeiB Linz, Winner: Westerlo
+1st Leg: West Ham United (Home) 5 - 1 TSV Hartberg (Away)
+2nd Leg: TSV Hartberg (Home) 0 - 5 West Ham United (Away)
+West Ham United vs TSV Hartberg, Winner: West Ham United
+1st Leg: Rheindorf Altach (Home) 2 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 3 - 1 Rheindorf Altach (Away)
+Rheindorf Altach vs Nantes, Winner: Nantes
+1st Leg: Nottingham Forest (Home) 1 - 1 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 0 Nottingham Forest (Away)
+Nottingham Forest vs Salernitana, Winner: Salernitana
+1st Leg: U Cluj (Home) 1 - 2 Motherwell (Away)
+2nd Leg: Motherwell (Home) 3 - 1 U Cluj (Away)
+U Cluj vs Motherwell, Winner: Motherwell
+1st Leg: UTA Arad (Home) 2 - 2 Sepsi (Away)
+2nd Leg: Sepsi (Home) 3 - 0 UTA Arad (Away)
+UTA Arad vs Sepsi, Winner: Sepsi
+1st Leg: UTA Arad (Home) 2 - 3 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 3 - 1 UTA Arad (Away)
+UTA Arad vs Nottingham Forest, Winner: Nottingham Forest
+1st Leg: West Ham United (Home) 2 - 1 Ross County (Away)
+2nd Leg: Ross County (Home) 2 - 3 West Ham United (Away)
+West Ham United vs Ross County, Winner: West Ham United
+1st Leg: Fulham (Home) 2 - 1 Almere City (Away)
+2nd Leg: Almere City (Home) 1 - 2 Fulham (Away)
+Fulham vs Almere City, Winner: Fulham
+1st Leg: Everton (Home) 2 - 2 U Cluj (Away)
+2nd Leg: U Cluj (Home) 1 - 2 Everton (Away)
+Everton vs U Cluj, Winner: Everton
+1st Leg: West Ham United (Home) 3 - 1 Ross County (Away)
+2nd Leg: Ross County (Home) 0 - 4 West Ham United (Away)
+West Ham United vs Ross County, Winner: West Ham United
+1st Leg: Nantes (Home) 2 - 2 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 1 - 3 Nantes (Away)
+Nantes vs VfL Bochum, Winner: Nantes
+1st Leg: Motherwell (Home) 1 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 3 - 1 Motherwell (Away)
+Motherwell vs Salernitana, Winner: Salernitana
+1st Leg: Nottingham Forest (Home) 1 - 3 Fulham (Away)
+2nd Leg: Fulham (Home) 2 - 1 Nottingham Forest (Away)
+Nottingham Forest vs Fulham, Winner: Fulham
+Teams advancing to Round 2: ['Ross County', 'Sint-Truiden', 'Westerlo', 'West Ham United', 'Nantes', 'Salernitana', 'Motherwell', 'Sepsi', 'Nottingham Forest', 'West Ham United', 'Fulham', 'Everton', 'West Ham United', 'Nantes', 'Salernitana', 'Fulham', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Athletic Bilbao (Home) 4 - 1 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 2 - 2 Athletic Bilbao (Away)
+1st Leg: West Ham United (Home) 3 - 2 Westerlo (Away)
+2nd Leg: Westerlo (Home) 2 - 2 West Ham United (Away)
+1st Leg: Dinamo Bucuresti (Home) 2 - 1 Fulham (Away)
+2nd Leg: Fulham (Home) 1 - 0 Dinamo Bucuresti (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Dinamo Bucuresti 0 - 0 Fulham (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Dinamo Bucuresti 1 - 3 Fulham
+Fulham wins on penalties!
+1st Leg: Dundee (Home) 2 - 0 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 3 - 1 Dundee (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Dundee 1 - 1 Sint-Truiden (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Dundee 5 - 3 Sint-Truiden
+Dundee wins on penalties!
+1st Leg: West Ham United (Home) 2 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 1 - 3 West Ham United (Away)
+1st Leg: 1899 Hoffenheim (Home) 3 - 0 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 4 - 2 1899 Hoffenheim (Away)
+1st Leg: Austria Lustenau (Home) 1 - 3 Antwerp (Away)
+2nd Leg: Antwerp (Home) 3 - 0 Austria Lustenau (Away)
+1st Leg: Salernitana (Home) 4 - 1 Ross County (Away)
+2nd Leg: Ross County (Home) 2 - 1 Salernitana (Away)
+1st Leg: Everton (Home) 2 - 1 Brest (Away)
+2nd Leg: Brest (Home) 1 - 3 Everton (Away)
+1st Leg: Nottingham Forest (Home) 3 - 0 Sepsi (Away)
+2nd Leg: Sepsi (Home) 0 - 3 Nottingham Forest (Away)
+1st Leg: Motherwell (Home) 1 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 3 - 1 Motherwell (Away)
+1st Leg: Fulham (Home) 3 - 2 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 2 - 4 Fulham (Away)
+1st Leg: Otelul Galati (Home) 3 - 2 St Mirren (Away)
+2nd Leg: St Mirren (Home) 2 - 2 Otelul Galati (Away)
+1st Leg: Cercle Brugge (Home) 2 - 1 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 0 - 1 Cercle Brugge (Away)
+1st Leg: Nantes (Home) 2 - 2 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 1 - 0 Nantes (Away)
+1st Leg: Salernitana (Home) 1 - 1 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 0 Salernitana (Away)
+
+Current round: Round 3
+1st Leg: Aston Villa (Home) 2 - 2 Everton (Away)
+2nd Leg: Everton (Home) 2 - 2 Aston Villa (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Aston Villa 1 - 1 Everton (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Aston Villa 2 - 3 Everton
+Everton wins on penalties!
+1st Leg: West Ham United (Home) 2 - 1 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 4 West Ham United (Away)
+1st Leg: Fulham (Home) 1 - 4 West Ham United (Away)
+2nd Leg: West Ham United (Home) 3 - 3 Fulham (Away)
+1st Leg: Cercle Brugge (Home) 0 - 2 Fulham (Away)
+2nd Leg: Fulham (Home) 4 - 0 Cercle Brugge (Away)
+1st Leg: 1899 Hoffenheim (Home) 1 - 1 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 1 - 0 1899 Hoffenheim (Away)
+1st Leg: Crystal Palace (Home) 1 - 0 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 1 - 0 Crystal Palace (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Crystal Palace 1 - 0 Nottingham Forest (Aggregate: 2 - 1)
+1st Leg: Salernitana (Home) 3 - 2 Antwerp (Away)
+2nd Leg: Antwerp (Home) 1 - 0 Salernitana (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Salernitana 0 - 1 Antwerp (Aggregate: 3 - 4)
+1st Leg: Dundee (Home) 1 - 1 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 2 - 4 Dundee (Away)
+
+Current round: Round 4
+1st Leg: Dundee (Home) 0 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 1 Dundee (Away)
+1st Leg: West Ham United (Home) 2 - 2 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 2 - 3 West Ham United (Away)
+1st Leg: Antwerp (Home) 2 - 1 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 0 Antwerp (Away)
+1st Leg: Fulham (Home) 1 - 0 Everton (Away)
+2nd Leg: Everton (Home) 1 - 1 Fulham (Away)
+
+Current round: Round 5
+1st Leg: West Ham United (Home) 1 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 4 - 1 West Ham United (Away)
+1st Leg: Athletic Bilbao (Home) 2 - 2 Fulham (Away)
+2nd Leg: Fulham (Home) 1 - 4 Athletic Bilbao (Away)
+
+Current round: Final:
+Athletic Bilbao 3 - 0 West Ham United
+Athletic Bilbao won the match!
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Livingston (Home) 6 - 2 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 1 - 2 Livingston (Away)
+Livingston vs Kilmarnock, Winner: Livingston
+1st Leg: Werder Bremen (Home) 2 - 3 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 2 Werder Bremen (Away)
+Werder Bremen vs West Ham United, Winner: West Ham United
+1st Leg: Celta Vigo (Home) 4 - 2 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 1 - 3 Celta Vigo (Away)
+Celta Vigo vs Blau-WeiB Linz, Winner: Celta Vigo
+1st Leg: Sepsi (Home) 3 - 3 UTA Arad (Away)
+2nd Leg: UTA Arad (Home) 1 - 2 Sepsi (Away)
+Sepsi vs UTA Arad, Winner: Sepsi
+1st Leg: Westerlo (Home) 0 - 1 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 2 - 2 Westerlo (Away)
+Westerlo vs VfL Bochum, Winner: VfL Bochum
+1st Leg: Club Brugge (Home) 3 - 1 UTA Arad (Away)
+2nd Leg: UTA Arad (Home) 0 - 3 Club Brugge (Away)
+Club Brugge vs UTA Arad, Winner: Club Brugge
+1st Leg: Livingston (Home) 1 - 2 Mallorca (Away)
+2nd Leg: Mallorca (Home) 2 - 1 Livingston (Away)
+Livingston vs Mallorca, Winner: Mallorca
+1st Leg: Werder Bremen (Home) 2 - 1 Livingston (Away)
+2nd Leg: Livingston (Home) 1 - 0 Werder Bremen (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Werder Bremen 0 - 0 Livingston (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Werder Bremen 4 - 4 Livingston
+Penalties are tied! Sudden death begins!
+Sudden Death: Werder Bremen 4 - 5 Livingston
+Livingston wins on sudden death penalties!
+Werder Bremen vs Livingston, Winner: Livingston
+1st Leg: Fulham (Home) 3 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 1 - 2 Fulham (Away)
+Fulham vs West Ham United, Winner: Fulham
+1st Leg: Nantes (Home) 3 - 1 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 1 - 1 Nantes (Away)
+Nantes vs VfL Bochum, Winner: Nantes
+1st Leg: Celta Vigo (Home) 1 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 2 Celta Vigo (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Celta Vigo 1 - 1 Nantes (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Celta Vigo 3 - 4 Nantes
+Nantes wins on penalties!
+Celta Vigo vs Nantes, Winner: Nantes
+1st Leg: Almere City (Home) 1 - 4 U Cluj (Away)
+2nd Leg: U Cluj (Home) 3 - 1 Almere City (Away)
+Almere City vs U Cluj, Winner: U Cluj
+1st Leg: Werder Bremen (Home) 1 - 3 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 1 - 1 Werder Bremen (Away)
+Werder Bremen vs VfL Bochum, Winner: VfL Bochum
+1st Leg: Ross County (Home) 3 - 2 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 2 - 1 Ross County (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Ross County 1 - 1 Wolfsberger AC (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Ross County 3 - 2 Wolfsberger AC
+Ross County wins on penalties!
+Ross County vs Wolfsberger AC, Winner: Ross County
+1st Leg: TSV Hartberg (Home) 1 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 4 - 1 TSV Hartberg (Away)
+TSV Hartberg vs Celta Vigo, Winner: Celta Vigo
+1st Leg: Kortrijk (Home) 2 - 2 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 4 - 0 Kortrijk (Away)
+Kortrijk vs Rio Ave, Winner: Rio Ave
+Teams advancing to Round 2: ['Livingston', 'West Ham United', 'Celta Vigo', 'Sepsi', 'VfL Bochum', 'Club Brugge', 'Mallorca', 'Livingston', 'Fulham', 'Nantes', 'Nantes', 'U Cluj', 'VfL Bochum', 'Ross County', 'Celta Vigo', 'Rio Ave', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Dundee (Home) 1 - 2 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 3 - 2 Dundee (Away)
+1st Leg: Crystal Palace (Home) 2 - 2 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 2 - 1 Crystal Palace (Away)
+1st Leg: Austria Lustenau (Home) 1 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 0 Austria Lustenau (Away)
+1st Leg: Athletic Bilbao (Home) 3 - 1 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 2 - 2 Athletic Bilbao (Away)
+1st Leg: St Mirren (Home) 0 - 2 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 3 - 0 St Mirren (Away)
+1st Leg: Fulham (Home) 4 - 3 Livingston (Away)
+2nd Leg: Livingston (Home) 1 - 1 Fulham (Away)
+1st Leg: Celta Vigo (Home) 1 - 0 Brest (Away)
+2nd Leg: Brest (Home) 2 - 0 Celta Vigo (Away)
+1st Leg: VfL Bochum (Home) 2 - 3 U Cluj (Away)
+2nd Leg: U Cluj (Home) 2 - 1 VfL Bochum (Away)
+1st Leg: Antwerp (Home) 3 - 0 Mallorca (Away)
+2nd Leg: Mallorca (Home) 3 - 2 Antwerp (Away)
+1st Leg: Ross County (Home) 1 - 1 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 4 - 0 Ross County (Away)
+1st Leg: Sepsi (Home) 2 - 1 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 3 - 1 Sepsi (Away)
+1st Leg: West Ham United (Home) 3 - 1 Dinamo Bucuresti (Away)
+2nd Leg: Dinamo Bucuresti (Home) 1 - 1 West Ham United (Away)
+1st Leg: Cercle Brugge (Home) 2 - 2 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 2 - 2 Cercle Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cercle Brugge 1 - 1 Fortuna Sittard (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Cercle Brugge 5 - 4 Fortuna Sittard
+Cercle Brugge wins on penalties!
+1st Leg: Rio Ave (Home) 2 - 3 Nantes (Away)
+2nd Leg: Nantes (Home) 3 - 1 Rio Ave (Away)
+1st Leg: Austria Klagenfurt (Home) 2 - 1 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 2 - 2 Austria Klagenfurt (Away)
+1st Leg: Celta Vigo (Home) 2 - 0 Livingston (Away)
+2nd Leg: Livingston (Home) 1 - 3 Celta Vigo (Away)
+
+Current round: Round 3
+1st Leg: Cercle Brugge (Home) 1 - 1 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 2 Cercle Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cercle Brugge 1 - 0 West Ham United (Aggregate: 4 - 3)
+1st Leg: Aston Villa (Home) 3 - 1 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 1 - 1 Aston Villa (Away)
+1st Leg: Fulham (Home) 1 - 1 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 2 Fulham (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Fulham 0 - 1 Athletic Bilbao (Aggregate: 3 - 4)
+1st Leg: Nantes (Home) 4 - 2 Brest (Away)
+2nd Leg: Brest (Home) 0 - 2 Nantes (Away)
+1st Leg: U Cluj (Home) 1 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 1 U Cluj (Away)
+1st Leg: Austria Klagenfurt (Home) 1 - 4 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 4 - 1 Austria Klagenfurt (Away)
+1st Leg: Antwerp (Home) 3 - 1 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 1 - 2 Antwerp (Away)
+1st Leg: Nantes (Home) 2 - 1 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 1 - 4 Nantes (Away)
+
+Current round: Round 4
+1st Leg: Aston Villa (Home) 2 - 1 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 2 Aston Villa (Away)
+1st Leg: Athletic Bilbao (Home) 3 - 0 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 2 Athletic Bilbao (Away)
+1st Leg: Nantes (Home) 2 - 2 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 0 Nantes (Away)
+1st Leg: Cercle Brugge (Home) 2 - 2 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 2 - 2 Cercle Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cercle Brugge 1 - 1 Gil Vicente (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Cercle Brugge 4 - 4 Gil Vicente
+Penalties are tied! Sudden death begins!
+Sudden Death: Cercle Brugge 5 - 6 Gil Vicente
+Gil Vicente wins on sudden death penalties!
+
+Current round: Round 5
+1st Leg: Athletic Bilbao (Home) 3 - 1 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 2 - 4 Athletic Bilbao (Away)
+1st Leg: Antwerp (Home) 2 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 3 Antwerp (Away)
+
+Current round: Final:
+Athletic Bilbao 2 - 1 Antwerp
+Athletic Bilbao won the match!
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Rio Ave (Home) 2 - 1 TSV Hartberg (Away)
+2nd Leg: TSV Hartberg (Home) 2 - 1 Rio Ave (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rio Ave 1 - 0 TSV Hartberg (Aggregate: 4 - 3)
+Rio Ave vs TSV Hartberg, Winner: Rio Ave
+1st Leg: Livingston (Home) 2 - 2 Vizela (Away)
+2nd Leg: Vizela (Home) 2 - 2 Livingston (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Livingston 0 - 0 Vizela (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Livingston 4 - 4 Vizela
+Penalties are tied! Sudden death begins!
+Sudden Death: Livingston 4 - 5 Vizela
+Vizela wins on sudden death penalties!
+Livingston vs Vizela, Winner: Vizela
+1st Leg: Kilmarnock (Home) 1 - 3 Motherwell (Away)
+2nd Leg: Motherwell (Home) 3 - 1 Kilmarnock (Away)
+Kilmarnock vs Motherwell, Winner: Motherwell
+1st Leg: Wolfsberger AC (Home) 2 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 3 - 2 Wolfsberger AC (Away)
+Wolfsberger AC vs Nantes, Winner: Nantes
+1st Leg: Westerlo (Home) 2 - 0 U Cluj (Away)
+2nd Leg: U Cluj (Home) 0 - 4 Westerlo (Away)
+Westerlo vs U Cluj, Winner: Westerlo
+1st Leg: U Cluj (Home) 2 - 4 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 1 - 3 U Cluj (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: U Cluj 1 - 0 Wolfsberger AC (Aggregate: 6 - 5)
+U Cluj vs Wolfsberger AC, Winner: U Cluj
+1st Leg: Club Brugge (Home) 4 - 0 Sepsi (Away)
+2nd Leg: Sepsi (Home) 2 - 2 Club Brugge (Away)
+Club Brugge vs Sepsi, Winner: Club Brugge
+1st Leg: Rio Ave (Home) 1 - 2 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 4 - 1 Rio Ave (Away)
+Rio Ave vs Nottingham Forest, Winner: Nottingham Forest
+1st Leg: Wolfsberger AC (Home) 1 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 2 Wolfsberger AC (Away)
+Wolfsberger AC vs West Ham United, Winner: West Ham United
+1st Leg: Vizela (Home) 1 - 0 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 0 - 2 Vizela (Away)
+Vizela vs Nottingham Forest, Winner: Vizela
+1st Leg: Salernitana (Home) 3 - 0 NEC (Away)
+2nd Leg: NEC (Home) 0 - 3 Salernitana (Away)
+Salernitana vs NEC, Winner: Salernitana
+1st Leg: Petrolul Ploiesti (Home) 4 - 1 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 3 - 1 Petrolul Ploiesti (Away)
+Petrolul Ploiesti vs Rio Ave, Winner: Petrolul Ploiesti
+1st Leg: Everton (Home) 2 - 0 Livingston (Away)
+2nd Leg: Livingston (Home) 3 - 3 Everton (Away)
+Everton vs Livingston, Winner: Everton
+1st Leg: Mallorca (Home) 2 - 0 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 2 - 2 Mallorca (Away)
+Mallorca vs Sint-Truiden, Winner: Mallorca
+1st Leg: Kortrijk (Home) 1 - 1 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 2 - 1 Kortrijk (Away)
+Kortrijk vs Sint-Truiden, Winner: Sint-Truiden
+1st Leg: Sepsi (Home) 1 - 1 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 3 - 3 Sepsi (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sepsi 0 - 0 Kilmarnock (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Sepsi 3 - 3 Kilmarnock
+Penalties are tied! Sudden death begins!
+Sudden Death: Sepsi 4 - 3 Kilmarnock
+Sepsi wins on sudden death penalties!
+Sepsi vs Kilmarnock, Winner: Sepsi
+Teams advancing to Round 2: ['Rio Ave', 'Vizela', 'Motherwell', 'Nantes', 'Westerlo', 'U Cluj', 'Club Brugge', 'Nottingham Forest', 'West Ham United', 'Vizela', 'Salernitana', 'Petrolul Ploiesti', 'Everton', 'Mallorca', 'Sint-Truiden', 'Sepsi', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Westerlo (Home) 1 - 0 Austria Lustenau (Away)
+2nd Leg: Austria Lustenau (Home) 1 - 1 Westerlo (Away)
+1st Leg: Motherwell (Home) 3 - 0 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 0 - 2 Motherwell (Away)
+1st Leg: Sint-Truiden (Home) 1 - 3 Brest (Away)
+2nd Leg: Brest (Home) 1 - 1 Sint-Truiden (Away)
+1st Leg: U Cluj (Home) 2 - 0 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 1 - 1 U Cluj (Away)
+1st Leg: Antwerp (Home) 3 - 3 Vizela (Away)
+2nd Leg: Vizela (Home) 2 - 4 Antwerp (Away)
+1st Leg: Nantes (Home) 3 - 2 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 3 - 0 Nantes (Away)
+1st Leg: Otelul Galati (Home) 2 - 1 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 3 - 0 Otelul Galati (Away)
+1st Leg: Sepsi (Home) 3 - 3 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 2 Sepsi (Away)
+1st Leg: Gil Vicente (Home) 1 - 1 Dinamo Bucuresti (Away)
+2nd Leg: Dinamo Bucuresti (Home) 2 - 1 Gil Vicente (Away)
+1st Leg: Club Brugge (Home) 2 - 0 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 2 - 1 Club Brugge (Away)
+1st Leg: Everton (Home) 4 - 2 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 2 - 2 Everton (Away)
+1st Leg: St Mirren (Home) 3 - 0 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 4 - 2 St Mirren (Away)
+1st Leg: Salernitana (Home) 2 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 3 Salernitana (Away)
+1st Leg: Athletic Bilbao (Home) 3 - 1 West Ham United (Away)
+2nd Leg: West Ham United (Home) 1 - 1 Athletic Bilbao (Away)
+1st Leg: Mallorca (Home) 4 - 0 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 0 - 1 Mallorca (Away)
+1st Leg: Dundee (Home) 0 - 2 Vizela (Away)
+2nd Leg: Vizela (Home) 3 - 1 Dundee (Away)
+
+Current round: Round 3
+1st Leg: St Mirren (Home) 2 - 2 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 2 - 3 St Mirren (Away)
+1st Leg: Dinamo Bucuresti (Home) 1 - 3 U Cluj (Away)
+2nd Leg: U Cluj (Home) 4 - 3 Dinamo Bucuresti (Away)
+1st Leg: Club Brugge (Home) 2 - 1 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 0 Club Brugge (Away)
+1st Leg: Salernitana (Home) 0 - 3 Motherwell (Away)
+2nd Leg: Motherwell (Home) 2 - 1 Salernitana (Away)
+1st Leg: Westerlo (Home) 2 - 1 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 1 - 1 Westerlo (Away)
+1st Leg: Sepsi (Home) 2 - 1 Brest (Away)
+2nd Leg: Brest (Home) 2 - 2 Sepsi (Away)
+1st Leg: Athletic Bilbao (Home) 2 - 2 Everton (Away)
+2nd Leg: Everton (Home) 0 - 3 Athletic Bilbao (Away)
+1st Leg: Mallorca (Home) 3 - 2 Vizela (Away)
+2nd Leg: Vizela (Home) 2 - 3 Mallorca (Away)
+
+Current round: Round 4
+1st Leg: Athletic Bilbao (Home) 3 - 0 St Mirren (Away)
+2nd Leg: St Mirren (Home) 2 - 5 Athletic Bilbao (Away)
+1st Leg: U Cluj (Home) 1 - 4 Antwerp (Away)
+2nd Leg: Antwerp (Home) 3 - 1 U Cluj (Away)
+1st Leg: Sepsi (Home) 0 - 3 Mallorca (Away)
+2nd Leg: Mallorca (Home) 4 - 1 Sepsi (Away)
+1st Leg: Motherwell (Home) 2 - 0 Westerlo (Away)
+2nd Leg: Westerlo (Home) 2 - 3 Motherwell (Away)
+
+Current round: Round 5
+1st Leg: Athletic Bilbao (Home) 1 - 2 Antwerp (Away)
+2nd Leg: Antwerp (Home) 3 - 1 Athletic Bilbao (Away)
+1st Leg: Motherwell (Home) 2 - 0 Mallorca (Away)
+2nd Leg: Mallorca (Home) 1 - 0 Motherwell (Away)
+
+Current round: Final:
+Antwerp 1 - 0 Motherwell
+Antwerp won the match!
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Kortrijk (Home) 3 - 0 UTA Arad (Away)
+2nd Leg: UTA Arad (Home) 1 - 2 Kortrijk (Away)
+Kortrijk vs UTA Arad, Winner: Kortrijk
+1st Leg: Livingston (Home) 2 - 1 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 2 - 2 Livingston (Away)
+Livingston vs Blau-WeiB Linz, Winner: Livingston
+1st Leg: Sint-Truiden (Home) 2 - 3 Westerlo (Away)
+2nd Leg: Westerlo (Home) 2 - 1 Sint-Truiden (Away)
+Sint-Truiden vs Westerlo, Winner: Westerlo
+1st Leg: UTA Arad (Home) 3 - 1 U Cluj (Away)
+2nd Leg: U Cluj (Home) 2 - 0 UTA Arad (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: UTA Arad 1 - 0 U Cluj (Aggregate: 4 - 3)
+UTA Arad vs U Cluj, Winner: UTA Arad
+1st Leg: Mallorca (Home) 1 - 1 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 1 - 2 Mallorca (Away)
+Mallorca vs Kilmarnock, Winner: Mallorca
+1st Leg: Rheindorf Altach (Home) 2 - 1 U Cluj (Away)
+2nd Leg: U Cluj (Home) 2 - 0 Rheindorf Altach (Away)
+Rheindorf Altach vs U Cluj, Winner: U Cluj
+1st Leg: Nantes (Home) 3 - 2 UTA Arad (Away)
+2nd Leg: UTA Arad (Home) 2 - 2 Nantes (Away)
+Nantes vs UTA Arad, Winner: Nantes
+1st Leg: Celta Vigo (Home) 3 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 1 Celta Vigo (Away)
+Celta Vigo vs Nantes, Winner: Celta Vigo
+1st Leg: Kortrijk (Home) 1 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 4 - 0 Kortrijk (Away)
+Kortrijk vs West Ham United, Winner: West Ham United
+1st Leg: UTA Arad (Home) 4 - 2 Livingston (Away)
+2nd Leg: Livingston (Home) 2 - 0 UTA Arad (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: UTA Arad 0 - 1 Livingston (Aggregate: 4 - 5)
+UTA Arad vs Livingston, Winner: Livingston
+1st Leg: Fulham (Home) 1 - 3 Vizela (Away)
+2nd Leg: Vizela (Home) 1 - 3 Fulham (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Fulham 1 - 1 Vizela (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Fulham 2 - 2 Vizela
+Penalties are tied! Sudden death begins!
+Sudden Death: Fulham 3 - 4 Vizela
+Vizela wins on sudden death penalties!
+Fulham vs Vizela, Winner: Vizela
+1st Leg: Celta Vigo (Home) 1 - 1 Livingston (Away)
+2nd Leg: Livingston (Home) 1 - 1 Celta Vigo (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Celta Vigo 0 - 0 Livingston (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Celta Vigo 4 - 4 Livingston
+Penalties are tied! Sudden death begins!
+Sudden Death: Celta Vigo 7 - 6 Livingston
+Celta Vigo wins on sudden death penalties!
+Celta Vigo vs Livingston, Winner: Celta Vigo
+1st Leg: Salernitana (Home) 2 - 0 Fulham (Away)
+2nd Leg: Fulham (Home) 2 - 3 Salernitana (Away)
+Salernitana vs Fulham, Winner: Salernitana
+1st Leg: Club Brugge (Home) 2 - 1 Lorient (Away)
+2nd Leg: Lorient (Home) 3 - 2 Club Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Club Brugge 0 - 1 Lorient (Aggregate: 4 - 5)
+Club Brugge vs Lorient, Winner: Lorient
+1st Leg: Rio Ave (Home) 2 - 0 Almere City (Away)
+2nd Leg: Almere City (Home) 3 - 3 Rio Ave (Away)
+Rio Ave vs Almere City, Winner: Rio Ave
+1st Leg: Nantes (Home) 2 - 1 Motherwell (Away)
+2nd Leg: Motherwell (Home) 2 - 2 Nantes (Away)
+Nantes vs Motherwell, Winner: Nantes
+Teams advancing to Round 2: ['Kortrijk', 'Livingston', 'Westerlo', 'UTA Arad', 'Mallorca', 'U Cluj', 'Nantes', 'Celta Vigo', 'West Ham United', 'Livingston', 'Vizela', 'Celta Vigo', 'Salernitana', 'Lorient', 'Rio Ave', 'Nantes', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Mallorca (Home) 3 - 0 Austria Lustenau (Away)
+2nd Leg: Austria Lustenau (Home) 2 - 3 Mallorca (Away)
+1st Leg: Sassuolo (Home) 0 - 0 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 3 - 0 Sassuolo (Away)
+1st Leg: Rio Ave (Home) 3 - 2 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 4 - 3 Rio Ave (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rio Ave 0 - 1 Crystal Palace (Aggregate: 6 - 7)
+1st Leg: Livingston (Home) 4 - 2 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 1 - 1 Livingston (Away)
+1st Leg: Lorient (Home) 1 - 2 St Mirren (Away)
+2nd Leg: St Mirren (Home) 1 - 1 Lorient (Away)
+1st Leg: Kortrijk (Home) 0 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 3 - 0 Kortrijk (Away)
+1st Leg: Celta Vigo (Home) 2 - 0 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 1 - 1 Celta Vigo (Away)
+1st Leg: Aston Villa (Home) 5 - 0 Dundee (Away)
+2nd Leg: Dundee (Home) 1 - 5 Aston Villa (Away)
+1st Leg: Vizela (Home) 1 - 2 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 2 - 1 Vizela (Away)
+1st Leg: Nantes (Home) 2 - 0 UTA Arad (Away)
+2nd Leg: UTA Arad (Home) 1 - 1 Nantes (Away)
+1st Leg: 1899 Hoffenheim (Home) 4 - 2 Westerlo (Away)
+2nd Leg: Westerlo (Home) 2 - 2 1899 Hoffenheim (Away)
+1st Leg: Celta Vigo (Home) 2 - 1 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 1 - 1 Celta Vigo (Away)
+1st Leg: Brest (Home) 2 - 3 Nantes (Away)
+2nd Leg: Nantes (Home) 2 - 0 Brest (Away)
+1st Leg: West Ham United (Home) 1 - 0 U Cluj (Away)
+2nd Leg: U Cluj (Home) 0 - 1 West Ham United (Away)
+1st Leg: Fortuna Sittard (Home) 3 - 0 Antwerp (Away)
+2nd Leg: Antwerp (Home) 3 - 1 Fortuna Sittard (Away)
+1st Leg: Livingston (Home) 2 - 3 Dinamo Bucuresti (Away)
+2nd Leg: Dinamo Bucuresti (Home) 2 - 2 Livingston (Away)
+
+Current round: Round 3
+1st Leg: Nantes (Home) 1 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 1 Nantes (Away)
+1st Leg: Crystal Palace (Home) 2 - 1 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 3 Crystal Palace (Away)
+1st Leg: Salernitana (Home) 3 - 1 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 2 - 2 Salernitana (Away)
+1st Leg: Cercle Brugge (Home) 2 - 3 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 0 - 1 Cercle Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cercle Brugge 0 - 0 1899 Hoffenheim (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Cercle Brugge 3 - 5 1899 Hoffenheim
+1899 Hoffenheim wins on penalties!
+1st Leg: Celta Vigo (Home) 3 - 2 Mallorca (Away)
+2nd Leg: Mallorca (Home) 4 - 3 Celta Vigo (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Celta Vigo 1 - 0 Mallorca (Aggregate: 7 - 6)
+1st Leg: Nantes (Home) 0 - 4 West Ham United (Away)
+2nd Leg: West Ham United (Home) 3 - 2 Nantes (Away)
+1st Leg: Dinamo Bucuresti (Home) 1 - 3 Livingston (Away)
+2nd Leg: Livingston (Home) 0 - 3 Dinamo Bucuresti (Away)
+1st Leg: St Mirren (Home) 1 - 2 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 3 - 0 St Mirren (Away)
+
+Current round: Round 4
+1st Leg: Celta Vigo (Home) 4 - 2 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 2 - 4 Celta Vigo (Away)
+1st Leg: 1899 Hoffenheim (Home) 1 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 1 - 3 1899 Hoffenheim (Away)
+1st Leg: Salernitana (Home) 3 - 2 Dinamo Bucuresti (Away)
+2nd Leg: Dinamo Bucuresti (Home) 2 - 1 Salernitana (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Salernitana 1 - 1 Dinamo Bucuresti (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Salernitana 5 - 3 Dinamo Bucuresti
+Salernitana wins on penalties!
+1st Leg: West Ham United (Home) 1 - 2 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 3 - 1 West Ham United (Away)
+
+Current round: Round 5
+1st Leg: Celta Vigo (Home) 2 - 2 Salernitana (Away)
+2nd Leg: Salernitana (Home) 1 - 3 Celta Vigo (Away)
+1st Leg: Celta Vigo (Home) 3 - 2 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 0 - 3 Celta Vigo (Away)
+
+Current round: Final:
+Celta Vigo 3 - 2 Celta Vigo
+Celta Vigo won the match!
+
+Winner of Europa Conference League: Celta Vigo
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Kilmarnock (Home) 2 - 1 TSV Hartberg (Away)
+2nd Leg: TSV Hartberg (Home) 0 - 1 Kilmarnock (Away)
+Kilmarnock vs TSV Hartberg, Winner: Kilmarnock
+1st Leg: Sint-Truiden (Home) 1 - 1 Fulham (Away)
+2nd Leg: Fulham (Home) 3 - 0 Sint-Truiden (Away)
+Sint-Truiden vs Fulham, Winner: Fulham
+1st Leg: Vizela (Home) 3 - 3 Lorient (Away)
+2nd Leg: Lorient (Home) 1 - 1 Vizela (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Vizela 1 - 1 Lorient (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Vizela 4 - 5 Lorient
+Lorient wins on penalties!
+Vizela vs Lorient, Winner: Lorient
+1st Leg: Nottingham Forest (Home) 2 - 1 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 0 Nottingham Forest (Away)
+Nottingham Forest vs Celta Vigo, Winner: Celta Vigo
+1st Leg: Westerlo (Home) 4 - 0 Almere City (Away)
+2nd Leg: Almere City (Home) 3 - 2 Westerlo (Away)
+Westerlo vs Almere City, Winner: Westerlo
+1st Leg: Wolfsberger AC (Home) 2 - 1 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 3 - 2 Wolfsberger AC (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Wolfsberger AC 1 - 1 Nottingham Forest (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Wolfsberger AC 2 - 5 Nottingham Forest
+Nottingham Forest wins on penalties!
+Wolfsberger AC vs Nottingham Forest, Winner: Nottingham Forest
+1st Leg: UTA Arad (Home) 4 - 1 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 2 - 1 UTA Arad (Away)
+UTA Arad vs Blau-WeiB Linz, Winner: UTA Arad
+1st Leg: Nottingham Forest (Home) 1 - 2 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 1 - 3 Nottingham Forest (Away)
+Nottingham Forest vs Wolfsberger AC, Winner: Nottingham Forest
+1st Leg: Nottingham Forest (Home) 2 - 1 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 2 - 2 Nottingham Forest (Away)
+Nottingham Forest vs Kilmarnock, Winner: Nottingham Forest
+1st Leg: Ross County (Home) 1 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 3 - 0 Ross County (Away)
+Ross County vs West Ham United, Winner: West Ham United
+1st Leg: Sepsi (Home) 2 - 2 Motherwell (Away)
+2nd Leg: Motherwell (Home) 2 - 2 Sepsi (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sepsi 1 - 0 Motherwell (Aggregate: 5 - 4)
+Sepsi vs Motherwell, Winner: Sepsi
+1st Leg: Lorient (Home) 3 - 0 Ross County (Away)
+2nd Leg: Ross County (Home) 2 - 2 Lorient (Away)
+Lorient vs Ross County, Winner: Lorient
+1st Leg: Sint-Truiden (Home) 3 - 3 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 3 - 1 Sint-Truiden (Away)
+Sint-Truiden vs VfL Bochum, Winner: VfL Bochum
+1st Leg: U Cluj (Home) 0 - 0 Fulham (Away)
+2nd Leg: Fulham (Home) 2 - 1 U Cluj (Away)
+U Cluj vs Fulham, Winner: Fulham
+1st Leg: Wolfsberger AC (Home) 4 - 3 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 4 - 3 Wolfsberger AC (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Wolfsberger AC 1 - 1 Sint-Truiden (Aggregate: 8 - 8)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Wolfsberger AC 3 - 4 Sint-Truiden
+Sint-Truiden wins on penalties!
+Wolfsberger AC vs Sint-Truiden, Winner: Sint-Truiden
+1st Leg: Livingston (Home) 2 - 1 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 2 - 3 Livingston (Away)
+Livingston vs VfL Bochum, Winner: Livingston
+Round 1 Winners: ['Kilmarnock', 'Fulham', 'Lorient', 'Celta Vigo', 'Westerlo', 'Nottingham Forest', 'UTA Arad', 'Nottingham Forest', 'Nottingham Forest', 'West Ham United', 'Sepsi', 'Lorient', 'VfL Bochum', 'Fulham', 'Sint-Truiden', 'Livingston']
+Round 2 Qualified: ['Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+Teams advancing to Round 2: ['Kilmarnock', 'Fulham', 'Lorient', 'Celta Vigo', 'Westerlo', 'Nottingham Forest', 'UTA Arad', 'Nottingham Forest', 'Nottingham Forest', 'West Ham United', 'Sepsi', 'Lorient', 'VfL Bochum', 'Fulham', 'Sint-Truiden', 'Livingston', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Celta Vigo (Home) 2 - 1 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 1 - 1 Celta Vigo (Away)
+1st Leg: Lorient (Home) 3 - 1 Sepsi (Away)
+2nd Leg: Sepsi (Home) 2 - 2 Lorient (Away)
+1st Leg: Nottingham Forest (Home) 3 - 2 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 4 - 3 Nottingham Forest (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Nottingham Forest 1 - 0 VfL Bochum (Aggregate: 7 - 6)
+1st Leg: Sassuolo (Home) 2 - 0 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 1 - 3 Sassuolo (Away)
+1st Leg: St Mirren (Home) 2 - 2 Lorient (Away)
+2nd Leg: Lorient (Home) 3 - 1 St Mirren (Away)
+1st Leg: Crystal Palace (Home) 1 - 1 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 4 - 1 Crystal Palace (Away)
+1st Leg: West Ham United (Home) 2 - 2 Fulham (Away)
+2nd Leg: Fulham (Home) 2 - 3 West Ham United (Away)
+1st Leg: Kilmarnock (Home) 0 - 2 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 3 - 0 Kilmarnock (Away)
+1st Leg: Westerlo (Home) 2 - 1 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 0 - 2 Westerlo (Away)
+1st Leg: Austria Klagenfurt (Home) 0 - 1 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 0 Austria Klagenfurt (Away)
+1st Leg: Athletic Bilbao (Home) 3 - 0 Austria Lustenau (Away)
+2nd Leg: Austria Lustenau (Home) 1 - 2 Athletic Bilbao (Away)
+1st Leg: Dundee (Home) 0 - 2 Brest (Away)
+2nd Leg: Brest (Home) 3 - 2 Dundee (Away)
+1st Leg: UTA Arad (Home) 2 - 2 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 2 - 1 UTA Arad (Away)
+1st Leg: Dinamo Bucuresti (Home) 2 - 2 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 4 - 3 Dinamo Bucuresti (Away)
+1st Leg: Antwerp (Home) 3 - 0 Livingston (Away)
+2nd Leg: Livingston (Home) 1 - 3 Antwerp (Away)
+1st Leg: Otelul Galati (Home) 1 - 4 Fulham (Away)
+2nd Leg: Fulham (Home) 5 - 1 Otelul Galati (Away)
+
+Current round: Round 3
+1st Leg: Cercle Brugge (Home) 4 - 3 Brest (Away)
+2nd Leg: Brest (Home) 3 - 2 Cercle Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cercle Brugge 0 - 1 Brest (Aggregate: 6 - 7)
+1st Leg: Athletic Bilbao (Home) 2 - 0 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 5 Athletic Bilbao (Away)
+1st Leg: Lorient (Home) 0 - 1 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 3 - 3 Lorient (Away)
+1st Leg: Nottingham Forest (Home) 2 - 0 Westerlo (Away)
+2nd Leg: Westerlo (Home) 1 - 1 Nottingham Forest (Away)
+1st Leg: 1899 Hoffenheim (Home) 2 - 3 Lorient (Away)
+2nd Leg: Lorient (Home) 3 - 1 1899 Hoffenheim (Away)
+1st Leg: Celta Vigo (Home) 2 - 2 Fulham (Away)
+2nd Leg: Fulham (Home) 2 - 0 Celta Vigo (Away)
+1st Leg: Aston Villa (Home) 3 - 0 Sint-Truiden (Away)
+2nd Leg: Sint-Truiden (Home) 2 - 1 Aston Villa (Away)
+1st Leg: Sassuolo (Home) 2 - 0 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 1 Sassuolo (Away)
+
+Current round: Round 4
+1st Leg: Lorient (Home) 0 - 2 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 2 - 2 Lorient (Away)
+1st Leg: Athletic Bilbao (Home) 3 - 0 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 3 - 3 Athletic Bilbao (Away)
+1st Leg: Fulham (Home) 1 - 2 Brest (Away)
+2nd Leg: Brest (Home) 1 - 2 Fulham (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Fulham 0 - 0 Brest (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Fulham 4 - 5 Brest
+Brest wins on penalties!
+1st Leg: Sassuolo (Home) 1 - 2 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 0 - 3 Sassuolo (Away)
+
+Current round: Round 5
+1st Leg: Brest (Home) 2 - 3 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 3 - 2 Brest (Away)
+1st Leg: Sassuolo (Home) 0 - 3 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 3 - 1 Sassuolo (Away)
+
+Current round: Final:
+Athletic Bilbao 1 - 2 Aston Villa
+Aston Villa won the match!
+
+Winner of Europa Conference League: Aston Villa
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: Westerlo (Home) 2 - 1 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 2 - 2 Westerlo (Away)
+Westerlo vs Werder Bremen, Winner: Westerlo
+1st Leg: NEC (Home) 2 - 1 Almere City (Away)
+2nd Leg: Almere City (Home) 1 - 2 NEC (Away)
+NEC vs Almere City, Winner: NEC
+1st Leg: UTA Arad (Home) 2 - 3 Westerlo (Away)
+2nd Leg: Westerlo (Home) 3 - 0 UTA Arad (Away)
+UTA Arad vs Westerlo, Winner: Westerlo
+1st Leg: Almere City (Home) 3 - 1 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 1 Almere City (Away)
+Almere City vs West Ham United, Winner: Almere City
+1st Leg: Nantes (Home) 3 - 1 Motherwell (Away)
+2nd Leg: Motherwell (Home) 2 - 1 Nantes (Away)
+Nantes vs Motherwell, Winner: Nantes
+1st Leg: Everton (Home) 1 - 1 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 1 - 2 Everton (Away)
+Everton vs Wolfsberger AC, Winner: Everton
+1st Leg: Fulham (Home) 4 - 1 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 1 Fulham (Away)
+Fulham vs Celta Vigo, Winner: Fulham
+1st Leg: Club Brugge (Home) 3 - 1 Livingston (Away)
+2nd Leg: Livingston (Home) 2 - 2 Club Brugge (Away)
+Club Brugge vs Livingston, Winner: Club Brugge
+1st Leg: Rio Ave (Home) 3 - 2 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 2 - 1 Rio Ave (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rio Ave 1 - 1 VfL Bochum (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rio Ave 3 - 2 VfL Bochum
+Rio Ave wins on penalties!
+Rio Ave vs VfL Bochum, Winner: Rio Ave
+1st Leg: TSV Hartberg (Home) 1 - 2 Nantes (Away)
+2nd Leg: Nantes (Home) 3 - 1 TSV Hartberg (Away)
+TSV Hartberg vs Nantes, Winner: Nantes
+1st Leg: UTA Arad (Home) 2 - 3 U Cluj (Away)
+2nd Leg: U Cluj (Home) 4 - 2 UTA Arad (Away)
+UTA Arad vs U Cluj, Winner: U Cluj
+1st Leg: Rio Ave (Home) 2 - 4 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 2 - 0 Rio Ave (Away)
+Rio Ave vs Club Brugge, Winner: Club Brugge
+1st Leg: Ross County (Home) 2 - 3 Salernitana (Away)
+2nd Leg: Salernitana (Home) 4 - 1 Ross County (Away)
+Ross County vs Salernitana, Winner: Salernitana
+1st Leg: Almere City (Home) 1 - 3 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 3 - 1 Almere City (Away)
+Almere City vs Wolfsberger AC, Winner: Wolfsberger AC
+1st Leg: Petrolul Ploiesti (Home) 0 - 3 Nottingham Forest (Away)
+2nd Leg: Nottingham Forest (Home) 2 - 2 Petrolul Ploiesti (Away)
+Petrolul Ploiesti vs Nottingham Forest, Winner: Nottingham Forest
+1st Leg: VfL Bochum (Home) 2 - 0 UTA Arad (Away)
+2nd Leg: UTA Arad (Home) 2 - 3 VfL Bochum (Away)
+VfL Bochum vs UTA Arad, Winner: VfL Bochum
+Round 1 Winners: ['Westerlo', 'NEC', 'Almere City', 'Nantes', 'Everton', 'Fulham', 'Club Brugge', 'Rio Ave', 'U Cluj', 'Salernitana', 'Wolfsberger AC', 'Nottingham Forest', 'VfL Bochum']
+Round 2 Qualified: ['Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+Teams advancing to Round 2: ['Westerlo', 'NEC', 'Almere City', 'Nantes', 'Everton', 'Fulham', 'Club Brugge', 'Rio Ave', 'U Cluj', 'Salernitana', 'Wolfsberger AC', 'Nottingham Forest', 'VfL Bochum', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Fortuna Sittard (Home) 3 - 1 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 1 - 0 Fortuna Sittard (Away)
+1st Leg: Austria Klagenfurt (Home) 2 - 1 Dundee (Away)
+2nd Leg: Dundee (Home) 0 - 3 Austria Klagenfurt (Away)
+1st Leg: Westerlo (Home) 2 - 1 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 0 - 3 Westerlo (Away)
+1st Leg: Aston Villa (Home) 2 - 0 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 1 - 4 Aston Villa (Away)
+1st Leg: Nantes (Home) 1 - 2 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 0 Nantes (Away)
+1st Leg: St Mirren (Home) 2 - 5 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 2 St Mirren (Away)
+1st Leg: Nottingham Forest (Home) 2 - 3 NEC (Away)
+2nd Leg: NEC (Home) 0 - 2 Nottingham Forest (Away)
+1st Leg: Fulham (Home) 0 - 0 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 2 - 2 Fulham (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Fulham 1 - 0 VfL Bochum (Aggregate: 3 - 2)
+1st Leg: Sassuolo (Home) 1 - 2 Brest (Away)
+2nd Leg: Brest (Home) 2 - 1 Sassuolo (Away)
+1st Leg: Austria Lustenau (Home) 2 - 1 Dinamo Bucuresti (Away)
+2nd Leg: Dinamo Bucuresti (Home) 4 - 0 Austria Lustenau (Away)
+1st Leg: Cercle Brugge (Home) 2 - 1 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 3 - 2 Cercle Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cercle Brugge 0 - 1 1899 Hoffenheim (Aggregate: 4 - 5)
+1st Leg: Rio Ave (Home) 0 - 1 Salernitana (Away)
+2nd Leg: Salernitana (Home) 2 - 1 Rio Ave (Away)
+1st Leg: Almere City (Home) 2 - 4 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 5 - 0 Almere City (Away)
+1st Leg: U Cluj (Home) 1 - 2 Everton (Away)
+2nd Leg: Everton (Home) 3 - 2 U Cluj (Away)
+Teams starting in Europa Conference League Round 1: ['West Ham United', 'Nottingham Forest', 'Fulham', 'Everton', 'Mallorca', 'Celta Vigo', 'VfL Bochum', 'Werder Bremen', 'Salernitana', 'Empoli', 'Lorient', 'Nantes', 'NEC', 'Almere City', 'Vizela', 'Rio Ave', 'Sint-Truiden', 'Club Brugge', 'Westerlo', 'Kortrijk', 'Livingston', 'Motherwell', 'Ross County', 'Kilmarnock', 'Blau-WeiB Linz', 'Wolfsberger AC', 'TSV Hartberg', 'Rheindorf Altach', 'U Cluj', 'Sepsi', 'UTA Arad', 'Petrolul Ploiesti']
+1st Leg: U Cluj (Home) 0 - 1 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 2 - 1 U Cluj (Away)
+U Cluj vs Rheindorf Altach, Winner: Rheindorf Altach
+1st Leg: Nottingham Forest (Home) 2 - 2 Sepsi (Away)
+2nd Leg: Sepsi (Home) 3 - 1 Nottingham Forest (Away)
+Nottingham Forest vs Sepsi, Winner: Sepsi
+1st Leg: Celta Vigo (Home) 4 - 1 Blau-WeiB Linz (Away)
+2nd Leg: Blau-WeiB Linz (Home) 2 - 5 Celta Vigo (Away)
+Celta Vigo vs Blau-WeiB Linz, Winner: Celta Vigo
+1st Leg: TSV Hartberg (Home) 3 - 2 Vizela (Away)
+2nd Leg: Vizela (Home) 1 - 2 TSV Hartberg (Away)
+TSV Hartberg vs Vizela, Winner: TSV Hartberg
+1st Leg: Wolfsberger AC (Home) 1 - 3 NEC (Away)
+2nd Leg: NEC (Home) 3 - 1 Wolfsberger AC (Away)
+Wolfsberger AC vs NEC, Winner: NEC
+1st Leg: VfL Bochum (Home) 2 - 1 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 4 - 0 VfL Bochum (Away)
+VfL Bochum vs Club Brugge, Winner: Club Brugge
+1st Leg: Empoli (Home) 2 - 3 Everton (Away)
+2nd Leg: Everton (Home) 1 - 3 Empoli (Away)
+Empoli vs Everton, Winner: Empoli
+1st Leg: Livingston (Home) 2 - 4 Westerlo (Away)
+2nd Leg: Westerlo (Home) 2 - 1 Livingston (Away)
+Livingston vs Westerlo, Winner: Westerlo
+1st Leg: Nantes (Home) 1 - 2 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 3 - 2 Nantes (Away)
+Nantes vs Rio Ave, Winner: Rio Ave
+1st Leg: Fulham (Home) 0 - 1 Kortrijk (Away)
+2nd Leg: Kortrijk (Home) 1 - 2 Fulham (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Fulham 0 - 1 Kortrijk (Aggregate: 2 - 3)
+Fulham vs Kortrijk, Winner: Kortrijk
+1st Leg: Ross County (Home) 2 - 2 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 1 Ross County (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Ross County 0 - 0 Petrolul Ploiesti (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Ross County 3 - 5 Petrolul Ploiesti
+Petrolul Ploiesti wins on penalties!
+Ross County vs Petrolul Ploiesti, Winner: Petrolul Ploiesti
+1st Leg: Sint-Truiden (Home) 2 - 2 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 2 - 3 Sint-Truiden (Away)
+Sint-Truiden vs Kilmarnock, Winner: Sint-Truiden
+1st Leg: Salernitana (Home) 5 - 2 UTA Arad (Away)
+2nd Leg: UTA Arad (Home) 1 - 1 Salernitana (Away)
+Salernitana vs UTA Arad, Winner: Salernitana
+1st Leg: Mallorca (Home) 2 - 2 West Ham United (Away)
+2nd Leg: West Ham United (Home) 3 - 3 Mallorca (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Mallorca 1 - 0 West Ham United (Aggregate: 6 - 5)
+Mallorca vs West Ham United, Winner: Mallorca
+1st Leg: Motherwell (Home) 0 - 2 Werder Bremen (Away)
+2nd Leg: Werder Bremen (Home) 1 - 1 Motherwell (Away)
+Motherwell vs Werder Bremen, Winner: Werder Bremen
+1st Leg: Lorient (Home) 2 - 1 Almere City (Away)
+2nd Leg: Almere City (Home) 1 - 1 Lorient (Away)
+Lorient vs Almere City, Winner: Lorient
+Round 1 Winners: ['Rheindorf Altach', 'Sepsi', 'Celta Vigo', 'TSV Hartberg', 'NEC', 'Club Brugge', 'Empoli', 'Westerlo', 'Rio Ave', 'Kortrijk', 'Petrolul Ploiesti', 'Sint-Truiden', 'Salernitana', 'Mallorca', 'Werder Bremen', 'Lorient']
+Round 2 Qualified: ['Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+Teams advancing to Round 2: ['Rheindorf Altach', 'Sepsi', 'Celta Vigo', 'TSV Hartberg', 'NEC', 'Club Brugge', 'Empoli', 'Westerlo', 'Rio Ave', 'Kortrijk', 'Petrolul Ploiesti', 'Sint-Truiden', 'Salernitana', 'Mallorca', 'Werder Bremen', 'Lorient', 'Crystal Palace', 'Aston Villa', 'Athletic Bilbao', '1899 Hoffenheim', 'Sassuolo', 'Brest', 'Fortuna Sittard', 'Gil Vicente', 'Cercle Brugge', 'Antwerp', 'Dundee', 'St Mirren', 'Austria Lustenau', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Otelul Galati']
+
+Current round: Round 2
+1st Leg: Crystal Palace (Home) 3 - 3 Brest (Away)
+2nd Leg: Brest (Home) 3 - 2 Crystal Palace (Away)
+1st Leg: Celta Vigo (Home) 1 - 2 Westerlo (Away)
+2nd Leg: Westerlo (Home) 3 - 2 Celta Vigo (Away)
+1st Leg: Aston Villa (Home) 3 - 3 Mallorca (Away)
+2nd Leg: Mallorca (Home) 3 - 1 Aston Villa (Away)
+1st Leg: Cercle Brugge (Home) 4 - 1 Lorient (Away)
+2nd Leg: Lorient (Home) 1 - 2 Cercle Brugge (Away)
+1st Leg: Club Brugge (Home) 4 - 2 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 4 - 4 Club Brugge (Away)
+1st Leg: Werder Bremen (Home) 3 - 2 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 4 - 1 Werder Bremen (Away)
+1st Leg: Salernitana (Home) 2 - 1 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 1 - 3 Salernitana (Away)
+1st Leg: Gil Vicente (Home) 3 - 2 TSV Hartberg (Away)
+2nd Leg: TSV Hartberg (Home) 1 - 3 Gil Vicente (Away)
+1st Leg: Sint-Truiden (Home) 2 - 3 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 0 Sint-Truiden (Away)
+1st Leg: NEC (Home) 1 - 2 Dinamo Bucuresti (Away)
+2nd Leg: Dinamo Bucuresti (Home) 2 - 1 NEC (Away)
+1st Leg: Empoli (Home) 4 - 0 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 2 Empoli (Away)
+1st Leg: 1899 Hoffenheim (Home) 3 - 1 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 5 - 0 1899 Hoffenheim (Away)
+1st Leg: St Mirren (Home) 3 - 2 Kortrijk (Away)
+2nd Leg: Kortrijk (Home) 2 - 3 St Mirren (Away)
+1st Leg: Sepsi (Home) 1 - 2 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 3 - 2 Sepsi (Away)
+1st Leg: Austria Klagenfurt (Home) 2 - 0 Austria Lustenau (Away)
+2nd Leg: Austria Lustenau (Home) 2 - 2 Austria Klagenfurt (Away)
+1st Leg: Dundee (Home) 2 - 1 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 3 - 3 Dundee (Away)
+
+Current round: Round 3
+1st Leg: Austria Klagenfurt (Home) 2 - 3 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 5 - 2 Austria Klagenfurt (Away)
+1st Leg: Salernitana (Home) 1 - 1 Gil Vicente (Away)
+2nd Leg: Gil Vicente (Home) 0 - 2 Salernitana (Away)
+1st Leg: St Mirren (Home) 2 - 3 Empoli (Away)
+2nd Leg: Empoli (Home) 2 - 1 St Mirren (Away)
+1st Leg: Dundee (Home) 3 - 3 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 2 - 0 Dundee (Away)
+1st Leg: Brest (Home) 2 - 1 Dinamo Bucuresti (Away)
+2nd Leg: Dinamo Bucuresti (Home) 1 - 1 Brest (Away)
+1st Leg: Westerlo (Home) 3 - 1 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 1 Westerlo (Away)
+1st Leg: Cercle Brugge (Home) 3 - 2 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 3 - 3 Cercle Brugge (Away)
+1st Leg: Sassuolo (Home) 3 - 2 Mallorca (Away)
+2nd Leg: Mallorca (Home) 3 - 1 Sassuolo (Away)
+
+Current round: Round 4
+1st Leg: Salernitana (Home) 1 - 4 Empoli (Away)
+2nd Leg: Empoli (Home) 1 - 1 Salernitana (Away)
+1st Leg: Mallorca (Home) 3 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 0 Mallorca (Away)
+1st Leg: Brest (Home) 4 - 0 Rheindorf Altach (Away)
+2nd Leg: Rheindorf Altach (Home) 1 - 2 Brest (Away)
+1st Leg: Cercle Brugge (Home) 3 - 1 Westerlo (Away)
+2nd Leg: Westerlo (Home) 3 - 1 Cercle Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cercle Brugge 1 - 0 Westerlo (Aggregate: 5 - 4)
+
+Current round: Round 5
+1st Leg: Cercle Brugge (Home) 0 - 1 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 1 Cercle Brugge (Away)
+1st Leg: Brest (Home) 0 - 2 Empoli (Away)
+2nd Leg: Empoli (Home) 1 - 0 Brest (Away)
+
+Current round: Final:
+Athletic Bilbao 4 - 1 Empoli
+Athletic Bilbao won the match!
+
+Winner of Europa Conference League: Athletic Bilbao

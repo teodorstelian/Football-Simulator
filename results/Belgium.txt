@@ -427,3 +427,193 @@ Cercle Brugge 3 - 2 Club Brugge
 Cercle Brugge won the match!
 
 Winner of Belgium Cup: Cercle Brugge
+Winner of League: Anderlecht
+1. Anderlecht - 77 points - 24 wins - 5 draws - 1 losses - 82 scored - 27 against - Champions League
+2. Genk - 70 points - 22 wins - 4 draws - 4 losses - 83 scored - 41 against - Champions League
+3. Union SG - 66 points - 20 wins - 6 draws - 4 losses - 66 scored - 29 against - Europa League
+4. Club Brugge - 61 points - 19 wins - 4 draws - 7 losses - 58 scored - 32 against - Europa League
+5. Gent - 59 points - 18 wins - 5 draws - 7 losses - 72 scored - 46 against - Europa Conference League
+6. Antwerp - 59 points - 18 wins - 5 draws - 7 losses - 64 scored - 43 against - Europa Conference League
+7. Standard Liege - 51 points - 15 wins - 6 draws - 9 losses - 54 scored - 36 against - No qualification
+8. Westerlo - 46 points - 15 wins - 1 draws - 14 losses - 53 scored - 49 against - No qualification
+9. Cercle Brugge - 38 points - 12 wins - 2 draws - 16 losses - 48 scored - 54 against - No qualification
+10. Charleroi - 38 points - 10 wins - 8 draws - 12 losses - 47 scored - 53 against - No qualification
+11. OH Leuven - 25 points - 7 wins - 4 draws - 19 losses - 39 scored - 62 against - No qualification
+12. Sint-Truiden - 23 points - 6 wins - 5 draws - 19 losses - 40 scored - 66 against - No qualification
+13. Kortrijk - 21 points - 6 wins - 3 draws - 21 losses - 33 scored - 68 against - No qualification
+14. Mechelen - 20 points - 5 wins - 5 draws - 20 losses - 36 scored - 73 against - No qualification
+15. Eupen - 18 points - 5 wins - 3 draws - 22 losses - 31 scored - 75 against - No qualification
+16. RWD Molenbeek - 13 points - 3 wins - 4 draws - 23 losses - 23 scored - 75 against - No qualification
+Teams of Belgium Cup: ['Genk', 'Union SG', 'Anderlecht', 'Club Brugge', 'Gent', 'Antwerp', 'Standard Liege', 'Westerlo', 'Cercle Brugge', 'Charleroi', 'OH Leuven', 'Sint-Truiden', 'Kortrijk', 'Mechelen', 'Eupen', 'RWD Molenbeek']
+
+Current round: Round 1
+Gent 3 - 2 Genk
+Gent won the match!
+Mechelen 3 - 1 Kortrijk
+Mechelen won the match!
+Westerlo 2 - 2 OH Leuven
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Westerlo 0 - 1 OH Leuven (Aggregate: 2 - 3)
+Cercle Brugge 2 - 2 Charleroi
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cercle Brugge 1 - 0 Charleroi (Aggregate: 3 - 2)
+Anderlecht 2 - 1 Antwerp
+Anderlecht won the match!
+Eupen 2 - 4 Club Brugge
+Club Brugge won the match!
+Union SG 3 - 0 RWD Molenbeek
+Union SG won the match!
+Sint-Truiden 2 - 0 Standard Liege
+Sint-Truiden won the match!
+
+Current round: Round 2
+OH Leuven 3 - 2 Mechelen
+OH Leuven won the match!
+Anderlecht 3 - 0 Cercle Brugge
+Anderlecht won the match!
+Sint-Truiden 2 - 2 Club Brugge
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sint-Truiden 0 - 0 Club Brugge (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Sint-Truiden 3 - 2 Club Brugge
+Sint-Truiden wins on penalties!
+Union SG 4 - 1 Gent
+Union SG won the match!
+
+Current round: Round 3
+Sint-Truiden 3 - 2 OH Leuven
+Sint-Truiden won the match!
+Union SG 2 - 2 Anderlecht
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Union SG 0 - 0 Anderlecht (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Union SG 1 - 4 Anderlecht
+Anderlecht wins on penalties!
+
+Current round: Round 4
+Anderlecht 3 - 0 Sint-Truiden
+Anderlecht won the match!
+
+Winner of Belgium Cup: Anderlecht
+Winner of League: Genk
+1. Genk - 74 points - 23 wins - 5 draws - 2 losses - 84 scored - 25 against - Champions League - Round 2
+2. Union SG - 66 points - 19 wins - 9 draws - 2 losses - 75 scored - 36 against - Champions League - Round 1
+3. Anderlecht - 65 points - 20 wins - 5 draws - 5 losses - 77 scored - 39 against - Champions League - Round 1
+4. Gent - 60 points - 19 wins - 3 draws - 8 losses - 69 scored - 47 against - Europa League - Round 2
+5. Cercle Brugge - 56 points - 18 wins - 2 draws - 10 losses - 65 scored - 48 against - Europa League - Round 1
+6. Standard Liege - 56 points - 17 wins - 5 draws - 8 losses - 64 scored - 44 against - Europa League - Round 1
+7. Antwerp - 54 points - 16 wins - 6 draws - 8 losses - 71 scored - 52 against - Europa Conference League - Round 2
+8. Club Brugge - 50 points - 16 wins - 2 draws - 12 losses - 61 scored - 50 against - Europa Conference League - Round 2
+9. Charleroi - 41 points - 11 wins - 8 draws - 11 losses - 55 scored - 60 against - Europa Conference League - Round 1
+10. Sint-Truiden - 39 points - 11 wins - 6 draws - 13 losses - 50 scored - 62 against - Europa Conference League - Round 1
+11. Westerlo - 36 points - 11 wins - 3 draws - 16 losses - 57 scored - 62 against - Europa Conference League - Round 1
+12. OH Leuven - 36 points - 10 wins - 6 draws - 14 losses - 50 scored - 65 against - Europa Conference League - Round 1
+13. RWD Molenbeek - 23 points - 5 wins - 8 draws - 17 losses - 39 scored - 76 against - No qualification
+14. Mechelen - 12 points - 3 wins - 3 draws - 24 losses - 26 scored - 74 against - No qualification
+15. Kortrijk - 8 points - 2 wins - 2 draws - 26 losses - 27 scored - 82 against - No qualification
+16. Eupen - 5 points - 0 wins - 5 draws - 25 losses - 32 scored - 80 against - No qualification
+Teams of Belgium Cup: ['Genk', 'Union SG', 'Anderlecht', 'Gent', 'Standard Liege', 'Antwerp', 'Club Brugge', 'Cercle Brugge', 'Charleroi', 'Westerlo', 'Sint-Truiden', 'OH Leuven', 'RWD Molenbeek', 'Mechelen', 'Kortrijk', 'Eupen']
+
+Current round: Round 1
+OH Leuven 3 - 2 Kortrijk
+OH Leuven won the match!
+Standard Liege 2 - 0 Eupen
+Standard Liege won the match!
+RWD Molenbeek 1 - 2 Mechelen
+Mechelen won the match!
+Union SG 1 - 3 Genk
+Genk won the match!
+Sint-Truiden 3 - 2 Antwerp
+Sint-Truiden won the match!
+Westerlo 2 - 1 Cercle Brugge
+Westerlo won the match!
+Charleroi 1 - 2 Club Brugge
+Club Brugge won the match!
+Anderlecht 1 - 2 Gent
+Gent won the match!
+
+Current round: Round 2
+Sint-Truiden 0 - 2 Gent
+Gent won the match!
+OH Leuven 2 - 2 Mechelen
+Aggregate is tied! Proceeding to extra time...
+Extra Time: OH Leuven 0 - 1 Mechelen (Aggregate: 2 - 3)
+Westerlo 2 - 1 Club Brugge
+Westerlo won the match!
+Standard Liege 2 - 0 Genk
+Standard Liege won the match!
+
+Current round: Round 3
+Gent 2 - 0 Westerlo
+Gent won the match!
+Standard Liege 3 - 1 Mechelen
+Standard Liege won the match!
+
+Current round: Final:
+Gent 2 - 1 Standard Liege
+Gent won the match!
+
+Winner of Belgium Cup: Gent
+Winner of League: Genk
+1. Genk - 78 points - 25 wins - 3 draws - 2 losses - 87 scored - 27 against - Champions League - Round 2
+2. Anderlecht - 69 points - 22 wins - 3 draws - 5 losses - 72 scored - 37 against - Champions League - Round 1
+3. Standard Liege - 65 points - 20 wins - 5 draws - 5 losses - 66 scored - 32 against - Champions League - Round 1
+4. Union SG - 63 points - 19 wins - 6 draws - 5 losses - 66 scored - 37 against - Europa League - Round 2
+5. Gent - 54 points - 16 wins - 6 draws - 8 losses - 67 scored - 48 against - Europa League - Round 1
+6. Charleroi - 47 points - 14 wins - 5 draws - 11 losses - 58 scored - 58 against - Europa League - Round 1
+7. Antwerp - 47 points - 14 wins - 5 draws - 11 losses - 52 scored - 47 against - Europa Conference League - Round 2
+8. Cercle Brugge - 46 points - 14 wins - 4 draws - 12 losses - 59 scored - 48 against - Europa Conference League - Round 2
+9. Westerlo - 43 points - 14 wins - 1 draws - 15 losses - 53 scored - 56 against - Europa Conference League - Round 1
+10. Club Brugge - 39 points - 11 wins - 6 draws - 13 losses - 52 scored - 50 against - Europa Conference League - Round 1
+11. Kortrijk - 27 points - 7 wins - 6 draws - 17 losses - 38 scored - 69 against - Europa Conference League - Round 1
+12. Sint-Truiden - 27 points - 7 wins - 6 draws - 17 losses - 31 scored - 56 against - Europa Conference League - Round 1
+13. OH Leuven - 23 points - 6 wins - 5 draws - 19 losses - 43 scored - 70 against - No qualification
+14. RWD Molenbeek - 22 points - 5 wins - 7 draws - 18 losses - 39 scored - 70 against - No qualification
+15. Eupen - 16 points - 4 wins - 4 draws - 22 losses - 36 scored - 73 against - No qualification
+16. Mechelen - 14 points - 2 wins - 8 draws - 20 losses - 31 scored - 72 against - No qualification
+Teams of Belgium Cup: ['Genk', 'Union SG', 'Anderlecht', 'Standard Liege', 'Gent', 'Antwerp', 'Club Brugge', 'Charleroi', 'Cercle Brugge', 'Westerlo', 'Sint-Truiden', 'OH Leuven', 'Kortrijk', 'RWD Molenbeek', 'Eupen', 'Mechelen']
+
+Current round: Round 1
+Club Brugge 3 - 2 Westerlo
+Club Brugge won the match!
+Eupen 2 - 2 Antwerp
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Eupen 0 - 1 Antwerp (Aggregate: 2 - 3)
+Genk 3 - 0 Kortrijk
+Genk won the match!
+Mechelen 3 - 1 RWD Molenbeek
+Mechelen won the match!
+Charleroi 1 - 0 Union SG
+Charleroi won the match!
+Gent 0 - 1 Standard Liege
+Standard Liege won the match!
+Cercle Brugge 2 - 1 OH Leuven
+Cercle Brugge won the match!
+Anderlecht 3 - 1 Sint-Truiden
+Anderlecht won the match!
+
+Current round: Round 2
+Club Brugge 2 - 3 Genk
+Genk won the match!
+Cercle Brugge 3 - 0 Mechelen
+Cercle Brugge won the match!
+Antwerp 2 - 2 Charleroi
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Antwerp 1 - 1 Charleroi (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Antwerp 4 - 3 Charleroi
+Antwerp wins on penalties!
+Anderlecht 4 - 2 Standard Liege
+Anderlecht won the match!
+
+Current round: Round 3
+Anderlecht 3 - 2 Genk
+Anderlecht won the match!
+Cercle Brugge 0 - 2 Antwerp
+Antwerp won the match!
+
+Current round: Final:
+Antwerp 3 - 0 Anderlecht
+Antwerp won the match!
+
+Winner of Belgium Cup: Antwerp

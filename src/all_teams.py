@@ -198,3 +198,91 @@ ROM_TEAMS = [("FCSB", 75),
              ("Petrolul Ploiesti", 60),
              ("Politehnica Iasi", 60)
             ]
+
+SUI_TEAMS = [("Young Boys", 85),
+             ("FC Basel", 80),
+             ("FC Zurich", 75),
+             ("Grasshoppers", 70),
+             ("Servette", 75),
+             ("Lugano", 70),
+             ("St. Gallen", 75),
+             ("Sion", 65),
+             ("Lucerne", 70),
+             ("Winterthur", 65)]
+
+TUR_TEAMS = [("Galatasaray", 85),
+             ("Fenerbahce", 85),
+             ("Besiktas", 80),
+             ("Trabzonspor", 80),
+             ("Istanbul Basaksehir", 75),
+             ("Adana Demirspor", 75),
+             ("Konyaspor", 70),
+             ("Sivasspor", 70),
+             ("Antalyaspor", 70),
+             ("Alanyaspor", 70)]
+
+GRE_TEAMS = [("Olympiacos", 85),
+             ("Panathinaikos", 80),
+             ("AEK Athens", 80),
+             ("PAOK Thessaloniki", 80),
+             ("Aris Thessaloniki", 75),
+             ("OFI Crete", 70),
+             ("Atromitos", 70),
+             ("Volos", 65),
+             ("Lamia", 65),
+             ("Ionikos", 60)]
+
+CZE_TEAMS = [("Slavia Prague", 85),
+             ("Sparta Prague", 85),
+             ("Viktoria Plzen", 80),
+             ("Banik Ostrava", 75),
+             ("Jablonec", 70),
+             ("Sigma Olomouc", 70),
+             ("Slovan Liberec", 70),
+             ("Mlada Boleslav", 70),
+             ("Teplice", 65),
+             ("Pardubice", 60)]
+
+POL_TEAMS = [("Legia Warsaw", 85),
+             ("Lech Poznan", 80),
+             ("Rakow Czestochowa", 80),
+             ("Gornik Zabrze", 75),
+             ("Slask Wroclaw", 70),
+             ("Pogon Szczecin", 75),
+             ("Wisla Krakow", 70),
+             ("Jagiellonia Bialystok", 70),
+             ("Zaglebie Lubin", 70),
+             ("Cracovia", 70)]
+
+RUS_TEAMS = [("Zenit Saint Petersburg", 90),
+             ("CSKA Moscow", 85),
+             ("Spartak Moscow", 85),
+             ("Lokomotiv Moscow", 80),
+             ("Dynamo Moscow", 80),
+             ("Krasnodar", 80),
+             ("Rostov", 75),
+             ("Rubin Kazan", 70),
+             ("Ural Yekaterinburg", 65),
+             ("Krylia Sovetov", 70)]
+
+UKR_TEAMS = [("Shakhtar Donetsk", 90),
+             ("Dynamo Kyiv", 85),
+             ("Zorya Luhansk", 75),
+             ("Dnipro-1", 75),
+             ("Kolos Kovalivka", 70),
+             ("Vorskla Poltava", 70),
+             ("Metalist Kharkiv", 65),
+             ("Chornomorets Odesa", 65),
+             ("Karpaty Lviv", 60),
+             ("Oleksandriya", 70)]
+
+SRB_TEAMS = [("Red Star Belgrade", 90),
+             ("Partizan Belgrade", 85),
+             ("Vojvodina", 75),
+             ("Cukaricki", 75),
+             ("Radnicki Nis", 70),
+             ("TSC Backa Topola", 70),
+             ("Spartak Subotica", 65),
+             ("FK Napredak", 65),
+             ("FK Vozdovac", 65),
+             ("FK Novi Pazar", 60)]

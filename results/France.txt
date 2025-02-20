@@ -403,3 +403,397 @@ Nice 1 - 5 PSG
 PSG won the match!
 
 Winner of France Cup: PSG
+Winner of League: PSG
+1. PSG - 102 points - 34 wins - 0 draws - 0 losses - 109 scored - 13 against - Champions League
+2. RC Lens - 77 points - 24 wins - 5 draws - 5 losses - 75 scored - 30 against - Champions League
+3. Rennes - 67 points - 20 wins - 7 draws - 7 losses - 76 scored - 46 against - Champions League
+4. Marseille - 65 points - 19 wins - 8 draws - 7 losses - 67 scored - 35 against - Champions League
+5. Olympique Lyon - 64 points - 19 wins - 7 draws - 8 losses - 66 scored - 42 against - Europa League
+6. Lille - 59 points - 17 wins - 8 draws - 9 losses - 69 scored - 46 against - Europa League
+7. AS Monaco - 54 points - 16 wins - 6 draws - 12 losses - 60 scored - 53 against - Europa League
+8. Nice - 50 points - 14 wins - 8 draws - 12 losses - 65 scored - 60 against - Europa League
+9. Brest - 44 points - 13 wins - 5 draws - 16 losses - 52 scored - 57 against - Europa Conference League
+10. Strasbourg - 41 points - 12 wins - 5 draws - 17 losses - 44 scored - 74 against - Europa Conference League
+11. Reims - 41 points - 11 wins - 8 draws - 15 losses - 55 scored - 68 against - Europa Conference League
+12. Clermont - 36 points - 11 wins - 3 draws - 20 losses - 48 scored - 69 against - Europa Conference League
+13. Nantes - 36 points - 10 wins - 6 draws - 18 losses - 51 scored - 72 against - No qualification
+14. Lorient - 34 points - 9 wins - 7 draws - 18 losses - 47 scored - 69 against - No qualification
+15. Toulouse - 31 points - 7 wins - 10 draws - 17 losses - 45 scored - 76 against - No qualification
+16. Montpellier - 24 points - 6 wins - 6 draws - 22 losses - 44 scored - 75 against - No qualification
+17. Metz - 20 points - 5 wins - 5 draws - 24 losses - 41 scored - 86 against - No qualification
+18. Le Havre - 18 points - 4 wins - 6 draws - 24 losses - 41 scored - 84 against - No qualification
+Teams of France Cup: ['PSG', 'RC Lens', 'Rennes', 'Marseille', 'Olympique Lyon', 'Lille', 'AS Monaco', 'Nice', 'Brest', 'Strasbourg', 'Reims', 'Clermont', 'Nantes', 'Lorient', 'Toulouse', 'Montpellier']
+
+Current round: Round 1
+Lorient 3 - 2 Toulouse
+Lorient won the match!
+Brest 2 - 3 AS Monaco
+AS Monaco won the match!
+PSG 4 - 0 RC Lens
+PSG won the match!
+Olympique Lyon 1 - 2 Marseille
+Marseille won the match!
+Reims 0 - 2 Lille
+Lille won the match!
+Nice 1 - 3 Rennes
+Rennes won the match!
+Clermont 2 - 3 Nantes
+Nantes won the match!
+Montpellier 1 - 2 Strasbourg
+Strasbourg won the match!
+
+Current round: Round 2
+PSG 3 - 0 Strasbourg
+PSG won the match!
+Rennes 1 - 0 AS Monaco
+Rennes won the match!
+Nantes 1 - 1 Marseille
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Nantes 1 - 1 Marseille (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Nantes 4 - 3 Marseille
+Nantes wins on penalties!
+Lille 2 - 1 Lorient
+Lille won the match!
+
+Current round: Round 3
+PSG 3 - 0 Lille
+PSG won the match!
+Nantes 1 - 3 Rennes
+Rennes won the match!
+
+Current round: Round 4
+PSG 4 - 0 Rennes
+PSG won the match!
+
+Winner of France Cup: PSG
+Winner of League: PSG
+1. PSG - 100 points - 33 wins - 1 draws - 0 losses - 125 scored - 13 against - Champions League - Round 2
+2. RC Lens - 76 points - 25 wins - 1 draws - 8 losses - 88 scored - 44 against - Champions League - Round 1
+3. AS Monaco - 70 points - 22 wins - 4 draws - 8 losses - 74 scored - 42 against - Europa League - Round 2
+4. Lille - 65 points - 21 wins - 2 draws - 11 losses - 66 scored - 50 against - Europa League - Round 2
+5. Rennes - 64 points - 19 wins - 7 draws - 8 losses - 76 scored - 50 against - Europa League - Round 2
+6. Marseille - 60 points - 18 wins - 6 draws - 10 losses - 69 scored - 58 against - Europa League - Round 2
+7. Olympique Lyon - 56 points - 17 wins - 5 draws - 12 losses - 66 scored - 52 against - Europa Conference League - Round 2
+8. Brest - 51 points - 15 wins - 6 draws - 13 losses - 59 scored - 60 against - Europa Conference League - Round 1
+9. Nice - 50 points - 15 wins - 5 draws - 14 losses - 61 scored - 63 against - No qualification
+10. Nantes - 39 points - 11 wins - 6 draws - 17 losses - 53 scored - 69 against - No qualification
+11. Lorient - 36 points - 11 wins - 3 draws - 20 losses - 50 scored - 73 against - No qualification
+12. Clermont - 35 points - 10 wins - 5 draws - 19 losses - 55 scored - 77 against - No qualification
+13. Montpellier - 33 points - 9 wins - 6 draws - 19 losses - 47 scored - 68 against - No qualification
+14. Reims - 32 points - 8 wins - 8 draws - 18 losses - 46 scored - 76 against - No qualification
+15. Le Havre - 32 points - 8 wins - 8 draws - 18 losses - 37 scored - 72 against - No qualification
+16. Toulouse - 29 points - 8 wins - 5 draws - 21 losses - 51 scored - 83 against - No qualification
+17. Strasbourg - 26 points - 7 wins - 5 draws - 22 losses - 51 scored - 82 against - No qualification
+18. Metz - 20 points - 5 wins - 5 draws - 24 losses - 41 scored - 83 against - No qualification
+Teams of France Cup: ['PSG', 'RC Lens', 'AS Monaco', 'Lille', 'Rennes', 'Marseille', 'Olympique Lyon', 'Nice', 'Brest', 'Nantes', 'Lorient', 'Clermont', 'Montpellier', 'Reims', 'Toulouse', 'Strasbourg']
+
+Current round: Round 1
+Strasbourg 2 - 1 Olympique Lyon
+Strasbourg won the match!
+Toulouse 3 - 2 Lorient
+Toulouse won the match!
+RC Lens 3 - 2 Lille
+RC Lens won the match!
+Brest 1 - 4 PSG
+PSG won the match!
+Montpellier 1 - 3 Nice
+Nice won the match!
+Nantes 0 - 1 Clermont
+Clermont won the match!
+AS Monaco 2 - 2 Marseille
+Aggregate is tied! Proceeding to extra time...
+Extra Time: AS Monaco 0 - 1 Marseille (Aggregate: 2 - 3)
+Rennes 3 - 0 Reims
+Rennes won the match!
+
+Current round: Round 2
+Rennes 4 - 0 Clermont
+Rennes won the match!
+PSG 4 - 0 Nice
+PSG won the match!
+Marseille 3 - 2 Strasbourg
+Marseille won the match!
+RC Lens 4 - 1 Toulouse
+RC Lens won the match!
+
+Current round: Round 3
+Marseille 2 - 1 RC Lens
+Marseille won the match!
+PSG 0 - 0 Rennes
+Aggregate is tied! Proceeding to extra time...
+Extra Time: PSG 0 - 1 Rennes (Aggregate: 0 - 1)
+
+Current round: Round 4
+Rennes 2 - 2 Marseille
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rennes 1 - 1 Marseille (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rennes 2 - 4 Marseille
+Marseille wins on penalties!
+
+Winner of France Cup: Marseille
+Winner of League: PSG
+1. PSG - 100 points - 33 wins - 1 draws - 0 losses - 117 scored - 7 against - Champions League - Round 2
+2. RC Lens - 83 points - 26 wins - 5 draws - 3 losses - 85 scored - 37 against - Champions League - Round 1
+3. Olympique Lyon - 71 points - 22 wins - 5 draws - 7 losses - 72 scored - 45 against - Europa League - Round 1
+4. Marseille - 64 points - 18 wins - 10 draws - 6 losses - 67 scored - 43 against - Europa League - Round 1
+5. Lille - 61 points - 18 wins - 7 draws - 9 losses - 71 scored - 51 against - Europa League - Round 1
+6. Rennes - 57 points - 15 wins - 12 draws - 7 losses - 74 scored - 51 against - Europa League - Round 1
+7. AS Monaco - 50 points - 13 wins - 11 draws - 10 losses - 63 scored - 53 against - Europa Conference League - Round 2
+8. Nice - 49 points - 13 wins - 10 draws - 11 losses - 60 scored - 63 against - Europa Conference League - Round 1
+9. Lorient - 42 points - 11 wins - 9 draws - 14 losses - 54 scored - 70 against - No qualification
+10. Strasbourg - 42 points - 11 wins - 9 draws - 14 losses - 51 scored - 68 against - No qualification
+11. Nantes - 40 points - 12 wins - 4 draws - 18 losses - 52 scored - 67 against - No qualification
+12. Brest - 40 points - 11 wins - 7 draws - 16 losses - 50 scored - 60 against - No qualification
+13. Montpellier - 37 points - 9 wins - 10 draws - 15 losses - 51 scored - 67 against - No qualification
+14. Toulouse - 36 points - 9 wins - 9 draws - 16 losses - 45 scored - 69 against - No qualification
+15. Reims - 32 points - 9 wins - 5 draws - 20 losses - 49 scored - 66 against - No qualification
+16. Metz - 23 points - 6 wins - 5 draws - 23 losses - 36 scored - 84 against - No qualification
+17. Le Havre - 15 points - 3 wins - 6 draws - 25 losses - 45 scored - 90 against - No qualification
+18. Clermont - 10 points - 1 wins - 7 draws - 26 losses - 38 scored - 89 against - No qualification
+Teams of France Cup: ['PSG', 'RC Lens', 'Olympique Lyon', 'Marseille', 'Lille', 'Rennes', 'AS Monaco', 'Nice', 'Lorient', 'Strasbourg', 'Nantes', 'Brest', 'Montpellier', 'Toulouse', 'Reims', 'Clermont']
+
+Current round: Round 1
+Nice 3 - 2 Brest
+Nice won the match!
+Nantes 2 - 1 AS Monaco
+Nantes won the match!
+Lorient 1 - 4 RC Lens
+RC Lens won the match!
+Toulouse 0 - 3 PSG
+PSG won the match!
+Rennes 1 - 0 Lille
+Rennes won the match!
+Marseille 2 - 0 Olympique Lyon
+Marseille won the match!
+Montpellier 3 - 3 Strasbourg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Montpellier 0 - 1 Strasbourg (Aggregate: 3 - 4)
+Clermont 1 - 2 Reims
+Reims won the match!
+
+Current round: Round 2
+RC Lens 1 - 4 PSG
+PSG won the match!
+Strasbourg 0 - 2 Nantes
+Nantes won the match!
+Marseille 2 - 2 Nice
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Marseille 0 - 0 Nice (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Marseille 2 - 4 Nice
+Nice wins on penalties!
+Rennes 2 - 1 Reims
+Rennes won the match!
+
+Current round: Round 3
+PSG 3 - 0 Rennes
+PSG won the match!
+Nantes 2 - 1 Nice
+Nantes won the match!
+
+Current round: Round 4
+Nantes 0 - 3 PSG
+PSG won the match!
+
+Winner of France Cup: PSG
+Winner of League: PSG
+1. PSG - 100 points - 33 wins - 1 draws - 0 losses - 116 scored - 14 against - Champions League - Round 2
+2. RC Lens - 76 points - 24 wins - 4 draws - 6 losses - 91 scored - 45 against - Champions League - Round 1
+3. Rennes - 75 points - 23 wins - 6 draws - 5 losses - 81 scored - 52 against - Champions League - Round 1
+4. Marseille - 67 points - 21 wins - 4 draws - 9 losses - 73 scored - 54 against - Europa League - Round 2
+5. AS Monaco - 62 points - 19 wins - 5 draws - 10 losses - 76 scored - 59 against - Europa League - Round 2
+6. Olympique Lyon - 62 points - 18 wins - 8 draws - 8 losses - 71 scored - 47 against - Europa League - Round 1
+7. Lille - 56 points - 17 wins - 5 draws - 12 losses - 71 scored - 58 against - Europa League - Round 1
+8. Nice - 55 points - 16 wins - 7 draws - 11 losses - 63 scored - 54 against - Europa League - Round 1
+9. Toulouse - 42 points - 11 wins - 9 draws - 14 losses - 67 scored - 69 against - Europa League - Round 1
+10. Nantes - 40 points - 11 wins - 7 draws - 16 losses - 57 scored - 75 against - Europa Conference League - Round 2
+11. Brest - 38 points - 11 wins - 5 draws - 18 losses - 55 scored - 68 against - Europa Conference League - Round 2
+12. Lorient - 32 points - 9 wins - 5 draws - 20 losses - 54 scored - 81 against - Europa Conference League - Round 1
+13. Reims - 31 points - 8 wins - 7 draws - 19 losses - 50 scored - 70 against - Europa Conference League - Round 1
+14. Strasbourg - 30 points - 8 wins - 6 draws - 20 losses - 49 scored - 71 against - Europa Conference League - Round 1
+15. Le Havre - 29 points - 6 wins - 11 draws - 17 losses - 43 scored - 76 against - Europa Conference League - Round 1
+16. Montpellier - 29 points - 5 wins - 14 draws - 15 losses - 51 scored - 78 against - No qualification
+17. Clermont - 24 points - 6 wins - 6 draws - 22 losses - 37 scored - 77 against - No qualification
+18. Metz - 13 points - 3 wins - 4 draws - 27 losses - 31 scored - 88 against - No qualification
+Teams of France Cup: ['PSG', 'RC Lens', 'Rennes', 'Marseille', 'AS Monaco', 'Olympique Lyon', 'Lille', 'Nice', 'Toulouse', 'Nantes', 'Brest', 'Lorient', 'Reims', 'Strasbourg', 'Montpellier', 'Clermont']
+
+Current round: Round 1
+Brest 1 - 1 Strasbourg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Brest 1 - 0 Strasbourg (Aggregate: 2 - 1)
+Montpellier 0 - 3 PSG
+PSG won the match!
+Olympique Lyon 1 - 0 Clermont
+Olympique Lyon won the match!
+Marseille 4 - 1 Lille
+Marseille won the match!
+AS Monaco 3 - 1 Reims
+AS Monaco won the match!
+Toulouse 2 - 1 Rennes
+Toulouse won the match!
+Lorient 1 - 0 Nice
+Lorient won the match!
+Nantes 2 - 2 RC Lens
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Nantes 0 - 0 RC Lens (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Nantes 3 - 3 RC Lens
+Penalties are tied! Sudden death begins!
+Sudden Death: Nantes 3 - 4 RC Lens
+RC Lens wins on sudden death penalties!
+
+Current round: Round 2
+RC Lens 4 - 0 Olympique Lyon
+RC Lens won the match!
+Marseille 2 - 0 Lorient
+Marseille won the match!
+Toulouse 0 - 4 PSG
+PSG won the match!
+AS Monaco 4 - 1 Brest
+AS Monaco won the match!
+
+Current round: Round 3
+Marseille 3 - 1 RC Lens
+Marseille won the match!
+AS Monaco 0 - 2 PSG
+PSG won the match!
+
+Current round: Round 4
+Marseille 1 - 3 PSG
+PSG won the match!
+
+Winner of France Cup: PSG
+Winner of League: PSG
+1. PSG - 92 points - 30 wins - 2 draws - 2 losses - 108 scored - 11 against - Champions League - Round 2
+2. RC Lens - 79 points - 25 wins - 4 draws - 5 losses - 87 scored - 42 against - Champions League - Round 2
+3. Rennes - 78 points - 25 wins - 3 draws - 6 losses - 71 scored - 42 against - Champions League - Round 1
+4. Marseille - 70 points - 21 wins - 7 draws - 6 losses - 78 scored - 48 against - Champions League - Round 1
+5. Olympique Lyon - 68 points - 21 wins - 5 draws - 8 losses - 69 scored - 47 against - Champions League - Round 1
+6. AS Monaco - 64 points - 20 wins - 4 draws - 10 losses - 76 scored - 52 against - Champions League - Round 1
+7. Lille - 59 points - 18 wins - 5 draws - 11 losses - 63 scored - 50 against - Europa League - Round 2
+8. Brest - 54 points - 16 wins - 6 draws - 12 losses - 53 scored - 52 against - Europa League - Round 2
+9. Strasbourg - 45 points - 12 wins - 9 draws - 13 losses - 52 scored - 59 against - Europa League - Round 1
+10. Nantes - 38 points - 11 wins - 5 draws - 18 losses - 50 scored - 75 against - Europa League - Round 1
+11. Nice - 37 points - 9 wins - 10 draws - 15 losses - 54 scored - 62 against - Europa League - Round 1
+12. Toulouse - 31 points - 8 wins - 7 draws - 19 losses - 46 scored - 70 against - Europa League - Round 1
+13. Lorient - 27 points - 6 wins - 9 draws - 19 losses - 42 scored - 73 against - Europa Conference League - Round 2
+14. Clermont - 26 points - 6 wins - 8 draws - 20 losses - 43 scored - 72 against - Europa Conference League - Round 1
+15. Le Havre - 25 points - 6 wins - 7 draws - 21 losses - 39 scored - 77 against - Europa Conference League - Round 1
+16. Metz - 24 points - 6 wins - 6 draws - 22 losses - 41 scored - 77 against - No qualification
+17. Reims - 23 points - 6 wins - 5 draws - 23 losses - 48 scored - 78 against - No qualification
+18. Montpellier - 23 points - 5 wins - 8 draws - 21 losses - 37 scored - 70 against - No qualification
+Teams of France Cup: ['PSG', 'RC Lens', 'Rennes', 'Marseille', 'Olympique Lyon', 'AS Monaco', 'Lille', 'Nice', 'Brest', 'Strasbourg', 'Nantes', 'Toulouse', 'Lorient', 'Clermont', 'Reims', 'Montpellier']
+
+Current round: Round 1
+Nice 3 - 2 Clermont
+Nice won the match!
+Lille 3 - 1 Olympique Lyon
+Lille won the match!
+Brest 0 - 2 RC Lens
+RC Lens won the match!
+Montpellier 2 - 1 Reims
+Montpellier won the match!
+AS Monaco 3 - 2 Nantes
+AS Monaco won the match!
+Toulouse 3 - 1 Strasbourg
+Toulouse won the match!
+Marseille 0 - 4 PSG
+PSG won the match!
+Lorient 2 - 3 Rennes
+Rennes won the match!
+
+Current round: Round 2
+Rennes 2 - 3 AS Monaco
+AS Monaco won the match!
+Lille 1 - 4 PSG
+PSG won the match!
+RC Lens 3 - 0 Nice
+RC Lens won the match!
+Toulouse 3 - 2 Montpellier
+Toulouse won the match!
+
+Current round: Round 3
+PSG 2 - 2 RC Lens
+Aggregate is tied! Proceeding to extra time...
+Extra Time: PSG 1 - 0 RC Lens (Aggregate: 3 - 2)
+Toulouse 2 - 3 AS Monaco
+AS Monaco won the match!
+
+Current round: Final:
+PSG 4 - 0 AS Monaco
+PSG won the match!
+
+Winner of France Cup: PSG
+Winner of League: PSG
+1. PSG - 99 points - 33 wins - 0 draws - 1 losses - 127 scored - 13 against - Champions League - Round 2
+2. RC Lens - 81 points - 26 wins - 3 draws - 5 losses - 88 scored - 38 against - Champions League - Round 2
+3. Marseille - 72 points - 22 wins - 6 draws - 6 losses - 77 scored - 45 against - Champions League - Round 1
+4. Rennes - 69 points - 21 wins - 6 draws - 7 losses - 72 scored - 44 against - Champions League - Round 1
+5. AS Monaco - 64 points - 19 wins - 7 draws - 8 losses - 68 scored - 45 against - Champions League - Round 1
+6. Olympique Lyon - 63 points - 19 wins - 6 draws - 9 losses - 75 scored - 53 against - Champions League - Round 1
+7. Lille - 53 points - 15 wins - 8 draws - 11 losses - 65 scored - 55 against - Europa League - Round 2
+8. Nice - 50 points - 14 wins - 8 draws - 12 losses - 65 scored - 57 against - Europa League - Round 2
+9. Toulouse - 42 points - 13 wins - 3 draws - 18 losses - 47 scored - 76 against - Europa League - Round 1
+10. Montpellier - 41 points - 11 wins - 8 draws - 15 losses - 50 scored - 66 against - Europa League - Round 1
+11. Reims - 38 points - 11 wins - 5 draws - 18 losses - 51 scored - 79 against - Europa League - Round 1
+12. Strasbourg - 36 points - 11 wins - 3 draws - 20 losses - 52 scored - 82 against - Europa League - Round 1
+13. Brest - 35 points - 8 wins - 11 draws - 15 losses - 47 scored - 62 against - Europa Conference League - Round 2
+14. Lorient - 30 points - 8 wins - 6 draws - 20 losses - 48 scored - 72 against - Europa Conference League - Round 1
+15. Nantes - 29 points - 7 wins - 8 draws - 19 losses - 45 scored - 74 against - Europa Conference League - Round 1
+16. Clermont - 26 points - 6 wins - 8 draws - 20 losses - 45 scored - 70 against - No qualification
+17. Le Havre - 19 points - 5 wins - 4 draws - 25 losses - 45 scored - 93 against - No qualification
+18. Metz - 18 points - 4 wins - 6 draws - 24 losses - 39 scored - 82 against - No qualification
+Teams of France Cup: ['PSG', 'RC Lens', 'Marseille', 'Rennes', 'AS Monaco', 'Olympique Lyon', 'Lille', 'Nice', 'Toulouse', 'Montpellier', 'Reims', 'Strasbourg', 'Brest', 'Lorient', 'Nantes', 'Clermont']
+
+Current round: Round 1
+Lille 3 - 2 RC Lens
+Lille won the match!
+PSG 3 - 0 Montpellier
+PSG won the match!
+Nice 2 - 0 Nantes
+Nice won the match!
+Rennes 0 - 2 Marseille
+Marseille won the match!
+Toulouse 2 - 2 Strasbourg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Toulouse 0 - 1 Strasbourg (Aggregate: 2 - 3)
+AS Monaco 3 - 0 Olympique Lyon
+AS Monaco won the match!
+Brest 2 - 2 Lorient
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Brest 1 - 1 Lorient (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Brest 4 - 2 Lorient
+Brest wins on penalties!
+Clermont 3 - 1 Reims
+Clermont won the match!
+
+Current round: Round 2
+Nice 1 - 1 Marseille
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Nice 1 - 0 Marseille (Aggregate: 2 - 1)
+Brest 0 - 4 PSG
+PSG won the match!
+Clermont 2 - 1 Lille
+Clermont won the match!
+AS Monaco 1 - 1 Strasbourg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: AS Monaco 0 - 1 Strasbourg (Aggregate: 1 - 2)
+
+Current round: Round 3
+Nice 3 - 3 Strasbourg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Nice 1 - 1 Strasbourg (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Nice 3 - 2 Strasbourg
+Nice wins on penalties!
+Clermont 0 - 4 PSG
+PSG won the match!
+
+Current round: Final:
+Nice 0 - 3 PSG
+PSG won the match!
+
+Winner of France Cup: PSG

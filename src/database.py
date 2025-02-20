@@ -70,35 +70,57 @@ def update_general_table(team):
     conn.close()
 
 
-def get_teams(league=None, european_cup=None):
+def get_teams(league=None, european_cup=None, rounds=None):
+    """
+    Get teams from the league or European competition.
+    Allows filtering by specific competition (e.g., UCL) and optional rounds (e.g., 'Round 1', 'Round 2').
+
+    :param league: League name to fetch teams from its table.
+    :param european_cup: European competition (e.g., 'UCL', 'UEL', 'UECL').
+    :param rounds: List of stages to include (e.g., ['Round 1', 'Round 2']).
+    :return: List of Team objects.
+    """
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
+
     if league:
         query = f"SELECT * FROM {league}"
     elif european_cup:
-        query = f"SELECT * FROM {settings.GENERAL_TABLE} where europe='{european_cup}'"
+        if rounds:
+            # Filter by multiple rounds (e.g., Round 1 and Round 2)
+            rounds_condition = " OR ".join([f"europe LIKE '%- {cur_round}'" for cur_round in rounds])
+            query = f"SELECT * FROM {settings.GENERAL_TABLE} WHERE europe LIKE '{european_cup}%' AND ({rounds_condition})"
+        else:
+            # Include all teams for the competition
+            query = f"SELECT * FROM {settings.GENERAL_TABLE} WHERE europe LIKE '{european_cup}%'"
     else:
         return
     c.execute(query)
     teams_data = c.fetchall()
     teams = []
+
     for data in teams_data:
         team_name = data[0]
         team_query = f"SELECT * FROM {settings.GENERAL_TABLE} WHERE name = '{team_name}'"
         c.execute(team_query)
         team_attrib = c.fetchone()
         name, country, skill, titles, cups, ucl, uel, uecl, europe = team_attrib
-        if european_cup:
+
+        if european_cup:  # Fetch league stats if filtering for Europe
             league_query = f"SELECT * FROM {country} WHERE name = '{team_name}'"
             c.execute(league_query)
             team_stats = c.fetchone()
             name, matches, wins, draws, losses, points, scored, against = team_stats
         elif league:
             name, matches, wins, draws, losses, points, scored, against = data
-        team = Team(name=name, country=country, skill=skill, matches=matches, wins=wins, draws=draws,
-                    losses=losses, points=points, scored=scored, against=against, league_titles=titles,
-                    cup_titles=cups, europe=europe, ucl=ucl, uel=uel, uecl=uecl)
+
+        team = Team(
+            name=name, country=country, skill=skill, matches=matches, wins=wins, draws=draws,
+            losses=losses, points=points, scored=scored, against=against, league_titles=titles,
+            cup_titles=cups, europe=europe, ucl=ucl, uel=uel, uecl=uecl
+        )
         teams.append(team)
+
     conn.close()
     return teams
 
@@ -217,41 +239,58 @@ def create_european_competitions_table(competition):
     query = f'''CREATE TABLE IF NOT EXISTS {competition_table} (
            team_name TEXT,
            appearances INTEGER DEFAULT 0,
+           finals INTEGER DEFAULT 0,
            wins INTEGER DEFAULT 0
        )'''
     c.execute(query)
     conn.commit()
     conn.close()
 
-
-def insert_or_update_european_team(team_name, competition, won=False, skip_app=False):
+def update_european_competition_appereances(team_name, competition):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
 
     # Replace spaces with underscores for table names
-    competition_table = competition.replace(" ","")
+    competition_table = competition.replace(" ", "")
 
     # Check if the team already exists in the table
-    c.execute(f"SELECT appearances, wins FROM {competition_table} WHERE team_name=?", (team_name,))
+    c.execute(f"SELECT appearances FROM {competition_table} WHERE team_name=?", (team_name,))
     row = c.fetchone()
 
     if row is None:  # Insert new row if the team doesn't exist
         appearances = 1
-        wins = 1 if won else 0
-        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?)", (team_name, appearances, wins))
+        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?, ?)", (team_name, appearances, 0, 0))
     else:  # Update appearances and wins if the team already exists
-        appearances, existing_wins = row
-        if not skip_app:
-            appearances += 1
-        if won:
-            existing_wins += 1
-        c.execute(f"UPDATE {competition_table} SET appearances=?, wins=? WHERE team_name=?",
-                  (appearances, existing_wins, team_name))
+        appearances = row[0]
+        appearances += 1
+        c.execute(f"UPDATE {competition_table} SET appearances=? WHERE team_name=?",
+                  (appearances, team_name))
 
     conn.commit()
     conn.close()
 
 
+def update_european_competition_round_team(team_name, competition, round):
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+
+    # Replace spaces with underscores for table names
+    competition_table = competition.replace(" ", "")
+
+    # Check if the team already exists in the table
+    c.execute(f"SELECT wins, finals FROM {competition_table} WHERE team_name=?", (team_name,))
+    row = c.fetchone()
+
+    wins, finals = row
+    if round == "winner":
+        wins += 1
+    elif round == "finals":
+        finals += 1
+    c.execute(f"UPDATE {competition_table} SET finals=?, wins=? WHERE team_name=?",
+              (finals, wins, team_name))
+
+    conn.commit()
+    conn.close()
 
 def get_european_competition_stats(competition):
     conn = sqlite3.connect(COMPETITIONS_DB)

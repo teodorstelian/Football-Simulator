@@ -2,6 +2,7 @@ import math
 from pathlib import Path
 import random
 import settings
+from src.database import update_european_competition_round_team, update_european_competition_appereances
 
 
 def play_country_cup(teams, country):
@@ -45,26 +46,50 @@ def play_country_cup(teams, country):
 
 def play_european_cup(teams, competition):
     """
-    Simulates the European Cup competition (UCL, UEL, UECL) and declares a winner.
+    Simulates the European Cup competition (including staggered entry points: Round 1 and Round 2).
 
-    :param teams: List of participating teams
-    :param competition: Name of the competition
-    :return: Updated list of teams
+    :param teams: List of participating teams (both Round 1 and Round 2 participants)
+    :param competition: Name of the competition (e.g., "UCL", "UEL", "UECL")
+    :return: Updated list of all teams
     """
-    # Prepare competition file
+    # Prepare competition log file
     competition_text = Path(f"{settings.RESULTS_FOLDER}/{competition}.txt")
     competition_text.touch(exist_ok=True)
-    teams_name = [team.name for team in teams]
-    print(teams_name)
+
+    # Split teams into Round 1 and Round 2 based on their 'europe' field
+    round_1_teams = [team for team in teams if "Round 1" in team.europe]
+    round_2_teams = [team for team in teams if "Round 2" in team.europe]
+
+    # Log Round 1 teams
     with open(competition_text, 'a') as file:
-        file.write(f"Teams of current competition: {teams_name}\n")
+        file.write(f"Teams starting in {competition} Round 1: {[team.name for team in round_1_teams]}\n")
 
-    # Generate fixtures and determine the winner
-    winner_obj = generate_fixtures_cup(teams, competition, has_2_legs=True, logging=True)
-    winner_name = winner_obj.name
+    # If there are Round 1 teams, play a single round of knockout from Round 1
+    if round_1_teams:
+        print("Starting Round 1...")
+        round_1_winners = generate_single_round(round_1_teams, competition, has_2_legs=True, logging=True)
+    else:
+        round_1_winners = []
+
+        # Log Round 2 teams
+    with open(competition_text, 'a') as file:
+        file.write(f"Round 1 Winners: {[team.name for team in round_1_winners]}\n")
+        file.write(f"Round 2 Qualified: {[team.name for team in round_2_teams]}\n")
+
+    # Combine Round 1 winners with Round 2 teams
+    all_remaining_teams = round_1_winners + round_2_teams
+
+    # Log Round 2 teams
+    with open(competition_text, 'a') as file:
+        file.write(f"Teams advancing to Round 2: {[team.name for team in all_remaining_teams]}\n")
+
+    # Simulate the rest of the tournament
+    print("Starting Main Knockout Rounds...")
+    final_winner = generate_fixtures_cup(all_remaining_teams, competition, has_2_legs=True, logging=True, prev_rounds=1)
+
+    # Log the overall winner
+    winner_name = final_winner.name
     print("Overall Winner:", winner_name)
-
-    # Log the winner
     with open(competition_text, 'a') as file:
         file.write(f"\nWinner of {competition}: {winner_name}\n")
     winners_file = Path(f"{settings.RESULTS_FOLDER}/{settings.WINNERS_TEXT}")
@@ -72,7 +97,7 @@ def play_european_cup(teams, competition):
     with open(winners_file, 'a') as winners:
         winners.write(f"Winner of {competition}: {winner_name}\n")
 
-    # Update each team's current stats
+    # Update stats for all teams
     for team in teams:
         team.update_current()
 
@@ -83,11 +108,62 @@ def play_european_cup(teams, competition):
         settings.UECL: "uecl"
     }
     if competition in competition_mapping:
-        setattr(winner_obj, competition_mapping[competition], getattr(winner_obj, competition_mapping[competition]) + 1)
+        setattr(final_winner, competition_mapping[competition],
+                getattr(final_winner, competition_mapping[competition]) + 1)
 
     return teams
 
-def generate_fixtures_cup(teams, competition, has_2_legs=False, logging=False):
+def generate_single_round(teams, competition, has_2_legs=False, logging=False):
+    """
+    Plays a single knockout round and returns the winners, ensuring no duplicate matches.
+
+    :param teams: List of teams participating in this round.
+    :param competition: Name of the competition.
+    :param has_2_legs: Boolean indicating whether matches are two-legged.
+    :param logging: Boolean to log match information.
+    :return: List of winners.
+    """
+    if len(teams) % 2 != 0:
+        raise ValueError("Teams participating in a knockout round must be even!")
+
+    # Prepare competition log file if logging is enabled
+    competition_text = Path(f"{settings.RESULTS_FOLDER}/{competition}.txt")
+    if logging:
+        competition_text.touch(exist_ok=True)
+
+    next_round = []
+    random.shuffle(teams)  # Shuffle the teams ONCE before creating matches
+    played_teams = set()  # Track teams that have already played in this round
+
+    while teams:  # Continue until all teams are paired
+        home = teams.pop(0)  # Pick the first team
+        for away_index, away in enumerate(teams):
+            # Ensure the pair (home vs away) hasn't already played or mismatched
+            if home not in played_teams and away not in played_teams:
+                played_teams.add(home)
+                played_teams.add(away)
+                # Remove the away team from the pool
+                teams.pop(away_index)
+                break  # Stop looking for opponents after making a pair
+        else:
+            # If no valid opponent is found, something went wrong
+            raise Exception(f"Could not find an opponent for {home.name}.")
+
+        # Simulate the match
+        winner = home.play_match(away, knockouts=True, has_2_legs=has_2_legs,
+                                 file=competition_text if logging else None)
+
+        next_round.append(winner)
+
+        # Log the final match result
+        if logging:
+            with open(competition_text, 'a') as log_file:
+                log_file.write(f"{home.name} vs {away.name}, Winner: {winner.name}\n")
+
+    return next_round
+
+
+def generate_fixtures_cup(teams, competition, has_2_legs=False, prev_rounds=0, logging=False):
     """
     Simulates a knockout-style competition and returns the winner.
 
@@ -112,7 +188,7 @@ def generate_fixtures_cup(teams, competition, has_2_legs=False, logging=False):
         # Shuffle the participants before each round
         random.shuffle(current_participants)
 
-        round_name = f"Round {round_num + 1}"
+        round_name = f"Round {round_num + prev_rounds + 1}" if len(current_participants) > 2 else "Final:"
         print(round_name)
         if logging:
             with open(competition_text, 'a') as log_file:
@@ -125,9 +201,16 @@ def generate_fixtures_cup(teams, competition, has_2_legs=False, logging=False):
             home = current_participants[i]
             away = current_participants[i + 1]
 
-            # Play match (either one-leg or two-leg based on `has_2_legs`)
-            winner = home.play_match(away, knockouts=True, has_2_legs=has_2_legs,
-                                     file=competition_text if logging else None)
+            if len(current_participants) == 2:
+                winner = home.play_match(away, knockouts=True, has_2_legs=False,
+                                         file=competition_text if logging else None)
+                update_european_competition_round_team(home.name, competition, "finals")
+                update_european_competition_round_team(away.name, competition, "finals")
+                update_european_competition_round_team(winner.name, competition, "winner")
+            else:
+                # Play match (either one-leg or two-leg based on `has_2_legs`)
+                winner = home.play_match(away, knockouts=True, has_2_legs=has_2_legs,
+                                         file=competition_text if logging else None)
             next_round.append(winner)  # Winners advance to the next round
 
         # Progress to the next round
@@ -169,9 +252,12 @@ def play_fixture_league(teams):
 def generate_standings(teams, league, europe):
     print("--- Final Standings ---")
     teams.sort(key=lambda x: (x.current['points'], x.current['wins'], x.current['scored']), reverse=True)
-    cl_places = europe[0]
-    el_places = europe[1]
-    ecl_places = europe[2]
+    cl_places_r1 = europe["UCL"][0]
+    cl_places_r2 = europe["UCL"][1]
+    el_places_r1 = europe["UEL"][0]
+    el_places_r2 = europe["UEL"][1]
+    ecl_places_r1 = europe["UECL"][0]
+    ecl_places_r2 = europe["UECL"][1]
     league_text = Path(f"{settings.RESULTS_FOLDER}/{league}.txt")
     league_text.touch(exist_ok=True)
 
@@ -185,13 +271,19 @@ def generate_standings(teams, league, europe):
             with open(winners_file, 'a') as winners:
                 winners.write(f"Winner of {league} League: {team.name}\n")
             team.league_titles += 1
-            team.europe = settings.UCL
-        elif i < cl_places:
-            team.europe = settings.UCL
-        elif i < cl_places + el_places:
-            team.europe = settings.UEL
-        elif i < cl_places + el_places + ecl_places:
-            team.europe = settings.UECL
+            team.europe = f"{settings.UCL} - Round 2"
+        elif i < cl_places_r1:
+            team.europe = f"{settings.UCL} - Round 2"
+        elif i < cl_places_r1 + cl_places_r2:
+            team.europe = f"{settings.UCL} - Round 1"
+        elif i < cl_places_r1 + cl_places_r2 + el_places_r1:
+            team.europe = f"{settings.UEL} - Round 2"
+        elif i < cl_places_r1 + cl_places_r2 + el_places_r1 + el_places_r2:
+            team.europe = f"{settings.UEL} - Round 1"
+        elif i < cl_places_r1 + cl_places_r2 + el_places_r1 + el_places_r2 + ecl_places_r1:
+            team.europe = f"{settings.UECL} - Round 2"
+        elif i <  cl_places_r1 + cl_places_r2 + el_places_r1 + el_places_r2 + ecl_places_r1 + ecl_places_r2:
+            team.europe = f"{settings.UECL} - Round 1"
         else:
             team.europe = "No qualification"
         current_team = team.current
