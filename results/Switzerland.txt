@@ -101,3 +101,119 @@ FC Basel 2 - 1 Servette
 FC Basel won the match!
 
 Winner of Switzerland Cup: FC Basel
+Winner of League: Young Boys
+1. Young Boys - 49 points - 16 wins - 1 draws - 1 losses - 48 scored - 15 against - Champions League - Round 2
+2. FC Basel - 41 points - 13 wins - 2 draws - 3 losses - 47 scored - 20 against - Champions League - Round 2
+3. Lugano - 30 points - 9 wins - 3 draws - 6 losses - 39 scored - 34 against - Champions League - Round 1
+4. Servette - 29 points - 8 wins - 5 draws - 5 losses - 25 scored - 27 against - Champions League - Round 1
+5. St. Gallen - 24 points - 7 wins - 3 draws - 8 losses - 29 scored - 32 against - Champions League - Round 1
+6. FC Zurich - 22 points - 6 wins - 4 draws - 8 losses - 32 scored - 33 against - Champions League - Round 1
+7. Lucerne - 19 points - 6 wins - 1 draws - 11 losses - 29 scored - 38 against - Europa League - Round 2
+8. Grasshoppers - 17 points - 4 wins - 5 draws - 9 losses - 30 scored - 36 against - Europa Conference League - Round 2
+9. Sion - 11 points - 2 wins - 5 draws - 11 losses - 22 scored - 40 against - No qualification
+10. Winterthur - 11 points - 2 wins - 5 draws - 11 losses - 16 scored - 42 against - No qualification
+Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'Servette', 'St. Gallen', 'FC Zurich', 'Lugano', 'Lucerne', 'Grasshoppers']
+
+Current round: Round 1
+Lugano 3 - 3 Servette
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lugano 0 - 0 Servette (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Lugano 4 - 5 Servette
+Servette wins on penalties!
+FC Basel 2 - 0 St. Gallen
+FC Basel won the match!
+FC Zurich 1 - 0 Grasshoppers
+FC Zurich won the match!
+Young Boys 3 - 1 Lucerne
+Young Boys won the match!
+
+Current round: Round 2
+Servette 1 - 4 Young Boys
+Young Boys won the match!
+FC Zurich 1 - 2 FC Basel
+FC Basel won the match!
+
+Current round: Final:
+FC Basel 1 - 1 Young Boys
+Aggregate is tied! Proceeding to extra time...
+Extra Time: FC Basel 1 - 0 Young Boys (Aggregate: 2 - 1)
+
+Winner of Switzerland Cup: FC Basel
+Winner of League: Young Boys
+1. Young Boys - 43 points - 13 wins - 4 draws - 1 losses - 45 scored - 17 against - Champions League - Round 2
+2. FC Zurich - 38 points - 12 wins - 2 draws - 4 losses - 40 scored - 25 against - Champions League - Round 2
+3. FC Basel - 33 points - 10 wins - 3 draws - 5 losses - 31 scored - 30 against - Champions League - Round 1
+4. Servette - 32 points - 9 wins - 5 draws - 4 losses - 37 scored - 25 against - Champions League - Round 1
+5. Lucerne - 22 points - 6 wins - 4 draws - 8 losses - 26 scored - 31 against - Champions League - Round 1
+6. Grasshoppers - 22 points - 5 wins - 7 draws - 6 losses - 27 scored - 28 against - Champions League - Round 1
+7. St. Gallen - 21 points - 5 wins - 6 draws - 7 losses - 27 scored - 29 against - Europa League - Round 2
+8. Lugano - 18 points - 5 wins - 3 draws - 10 losses - 30 scored - 39 against - Europa Conference League - Round 2
+9. Winterthur - 14 points - 4 wins - 2 draws - 12 losses - 21 scored - 37 against - No qualification
+10. Sion - 7 points - 1 wins - 4 draws - 13 losses - 17 scored - 40 against - No qualification
+Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'FC Zurich', 'Servette', 'St. Gallen', 'Lucerne', 'Grasshoppers', 'Lugano']
+
+Current round: Round 1
+Servette 3 - 2 Grasshoppers
+Servette won the match!
+Lucerne 1 - 1 Lugano
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lucerne 1 - 0 Lugano (Aggregate: 2 - 1)
+St. Gallen 2 - 2 FC Zurich
+Aggregate is tied! Proceeding to extra time...
+Extra Time: St. Gallen 1 - 1 FC Zurich (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: St. Gallen 3 - 4 FC Zurich
+FC Zurich wins on penalties!
+FC Basel 2 - 0 Young Boys
+FC Basel won the match!
+
+Current round: Round 2
+Lucerne 2 - 2 FC Zurich
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lucerne 1 - 0 FC Zurich (Aggregate: 3 - 2)
+Servette 1 - 2 FC Basel
+FC Basel won the match!
+
+Current round: Final:
+FC Basel 2 - 0 Lucerne
+FC Basel won the match!
+
+Winner of Switzerland Cup: FC Basel
+Winner of League: Young Boys
+1. Young Boys - 49 points - 16 wins - 1 draws - 1 losses - 52 scored - 18 against - Champions League - Round 2
+2. FC Basel - 40 points - 12 wins - 4 draws - 2 losses - 44 scored - 25 against - Champions League - Round 2
+3. St. Gallen - 32 points - 9 wins - 5 draws - 4 losses - 37 scored - 30 against - Champions League - Round 1
+4. Servette - 29 points - 8 wins - 5 draws - 5 losses - 36 scored - 30 against - Champions League - Round 1
+5. FC Zurich - 25 points - 7 wins - 4 draws - 7 losses - 39 scored - 32 against - Champions League - Round 1
+6. Grasshoppers - 24 points - 6 wins - 6 draws - 6 losses - 32 scored - 34 against - Champions League - Round 1
+7. Winterthur - 14 points - 4 wins - 2 draws - 12 losses - 24 scored - 45 against - Europa League - Round 2
+8. Lucerne - 14 points - 3 wins - 5 draws - 10 losses - 30 scored - 40 against - Europa Conference League - Round 2
+9. Sion - 13 points - 3 wins - 4 draws - 11 losses - 22 scored - 45 against - No qualification
+10. Lugano - 10 points - 2 wins - 4 draws - 12 losses - 27 scored - 44 against - No qualification
+Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'St. Gallen', 'Servette', 'FC Zurich', 'Grasshoppers', 'Lucerne', 'Lugano']
+
+Current round: Round 1
+Lucerne 1 - 1 Servette
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lucerne 0 - 1 Servette (Aggregate: 1 - 2)
+Young Boys 2 - 2 FC Basel
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Young Boys 1 - 0 FC Basel (Aggregate: 3 - 2)
+Grasshoppers 0 - 4 FC Zurich
+FC Zurich won the match!
+Lugano 2 - 1 St. Gallen
+Lugano won the match!
+
+Current round: Round 2
+FC Zurich 3 - 2 Lugano
+FC Zurich won the match!
+Young Boys 2 - 1 Servette
+Young Boys won the match!
+
+Current round: Final:
+FC Zurich 1 - 1 Young Boys
+Aggregate is tied! Proceeding to extra time...
+Extra Time: FC Zurich 0 - 1 Young Boys (Aggregate: 1 - 2)
+
+Winner of Switzerland Cup: Young Boys

@@ -2283,3 +2283,848 @@ Manchester City 1 - 3 Bayern Munchen
 Bayern Munchen won the match!
 
 Winner of Champions League: Bayern Munchen
+Teams starting in Champions League Round 1: ['Newcastle United', 'Manchester United', 'Liverpool', 'Chelsea', 'Atletico Madrid', 'Sevilla', 'Real Sociedad', 'Valencia', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt', 'Union Berlin', 'Napoli', 'Atalanta', 'Juventus', 'Lazio', 'RC Lens', 'Rennes', 'Lille', 'Nice', 'PSV Eindhoven', 'AZ', 'Feyenoord', 'Utrecht', 'Braga', 'Sporting CP', 'Chaves', 'Vitoria de Guimaraes', 'Union SG', 'Standard Liege', 'Antwerp', 'Gent', 'Hearts', 'Motherwell', 'Aberdeen', 'Hibernian', 'LASK', 'Austria Wien', 'Austria Lustenau', 'Rapid Wien', 'Dinamo Bucuresti', 'U Cluj', 'Rapid Bucuresti', 'Universitatea Craiova', 'FC Zurich', 'St. Gallen', 'Grasshoppers', 'Servette', 'Trabzonspor', 'Istanbul Basaksehir', 'Besiktas', 'Adana Demirspor', 'Panathinaikos', 'AEK Athens', 'Sparta Prague', 'Viktoria Plzen', 'Rakow Czestochowa', 'Lech Poznan', 'CSKA Moscow', 'Spartak Moscow', 'Dynamo Kyiv', 'Zorya Luhansk', 'Partizan Belgrade', 'Cukaricki']
+1st Leg: St. Gallen (Home) 3 - 0 Zorya Luhansk (Away)
+2nd Leg: Zorya Luhansk (Home) 2 - 2 St. Gallen (Away)
+St. Gallen vs Zorya Luhansk, Winner: St. Gallen
+1st Leg: Sporting CP (Home) 1 - 1 Trabzonspor (Away)
+2nd Leg: Trabzonspor (Home) 4 - 1 Sporting CP (Away)
+Sporting CP vs Trabzonspor, Winner: Trabzonspor
+1st Leg: Dynamo Kyiv (Home) 5 - 0 LASK (Away)
+2nd Leg: LASK (Home) 1 - 1 Dynamo Kyiv (Away)
+Dynamo Kyiv vs LASK, Winner: Dynamo Kyiv
+1st Leg: Aberdeen (Home) 1 - 2 Valencia (Away)
+2nd Leg: Valencia (Home) 1 - 0 Aberdeen (Away)
+Aberdeen vs Valencia, Winner: Valencia
+1st Leg: Chelsea (Home) 2 - 0 Napoli (Away)
+2nd Leg: Napoli (Home) 1 - 2 Chelsea (Away)
+Chelsea vs Napoli, Winner: Chelsea
+1st Leg: Union Berlin (Home) 1 - 1 Standard Liege (Away)
+2nd Leg: Standard Liege (Home) 1 - 1 Union Berlin (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Union Berlin 1 - 0 Standard Liege (Aggregate: 3 - 2)
+Union Berlin vs Standard Liege, Winner: Union Berlin
+1st Leg: Spartak Moscow (Home) 2 - 1 Atalanta (Away)
+2nd Leg: Atalanta (Home) 2 - 2 Spartak Moscow (Away)
+Spartak Moscow vs Atalanta, Winner: Spartak Moscow
+1st Leg: Partizan Belgrade (Home) 3 - 1 Austria Wien (Away)
+2nd Leg: Austria Wien (Home) 0 - 0 Partizan Belgrade (Away)
+Partizan Belgrade vs Austria Wien, Winner: Partizan Belgrade
+1st Leg: AEK Athens (Home) 1 - 1 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 2 AEK Athens (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: AEK Athens 0 - 0 Antwerp (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: AEK Athens 4 - 2 Antwerp
+AEK Athens wins on penalties!
+AEK Athens vs Antwerp, Winner: AEK Athens
+1st Leg: FC Zurich (Home) 3 - 1 Grasshoppers (Away)
+2nd Leg: Grasshoppers (Home) 1 - 3 FC Zurich (Away)
+FC Zurich vs Grasshoppers, Winner: FC Zurich
+1st Leg: Dinamo Bucuresti (Home) 0 - 5 Newcastle United (Away)
+2nd Leg: Newcastle United (Home) 4 - 0 Dinamo Bucuresti (Away)
+Dinamo Bucuresti vs Newcastle United, Winner: Newcastle United
+1st Leg: Hearts (Home) 2 - 3 Utrecht (Away)
+2nd Leg: Utrecht (Home) 3 - 0 Hearts (Away)
+Hearts vs Utrecht, Winner: Utrecht
+1st Leg: CSKA Moscow (Home) 5 - 1 Rapid Wien (Away)
+2nd Leg: Rapid Wien (Home) 1 - 3 CSKA Moscow (Away)
+CSKA Moscow vs Rapid Wien, Winner: CSKA Moscow
+1st Leg: Hibernian (Home) 2 - 2 Vitoria de Guimaraes (Away)
+2nd Leg: Vitoria de Guimaraes (Home) 2 - 1 Hibernian (Away)
+Hibernian vs Vitoria de Guimaraes, Winner: Vitoria de Guimaraes
+1st Leg: Nice (Home) 0 - 2 Juventus (Away)
+2nd Leg: Juventus (Home) 2 - 0 Nice (Away)
+Nice vs Juventus, Winner: Juventus
+1st Leg: U Cluj (Home) 2 - 1 RC Lens (Away)
+2nd Leg: RC Lens (Home) 3 - 0 U Cluj (Away)
+U Cluj vs RC Lens, Winner: RC Lens
+1st Leg: Lech Poznan (Home) 2 - 1 Lille (Away)
+2nd Leg: Lille (Home) 2 - 1 Lech Poznan (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lech Poznan 0 - 0 Lille (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Lech Poznan 4 - 3 Lille
+Lech Poznan wins on penalties!
+Lech Poznan vs Lille, Winner: Lech Poznan
+1st Leg: Adana Demirspor (Home) 2 - 2 Rapid Bucuresti (Away)
+2nd Leg: Rapid Bucuresti (Home) 2 - 2 Adana Demirspor (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Adana Demirspor 0 - 1 Rapid Bucuresti (Aggregate: 4 - 5)
+Adana Demirspor vs Rapid Bucuresti, Winner: Rapid Bucuresti
+1st Leg: Braga (Home) 2 - 2 Cukaricki (Away)
+2nd Leg: Cukaricki (Home) 0 - 2 Braga (Away)
+Braga vs Cukaricki, Winner: Braga
+1st Leg: Universitatea Craiova (Home) 1 - 2 Gent (Away)
+2nd Leg: Gent (Home) 3 - 2 Universitatea Craiova (Away)
+Universitatea Craiova vs Gent, Winner: Gent
+1st Leg: Feyenoord (Home) 2 - 3 Eintracht Frankfurt (Away)
+2nd Leg: Eintracht Frankfurt (Home) 1 - 1 Feyenoord (Away)
+Feyenoord vs Eintracht Frankfurt, Winner: Eintracht Frankfurt
+1st Leg: Sparta Prague (Home) 3 - 1 AZ (Away)
+2nd Leg: AZ (Home) 2 - 1 Sparta Prague (Away)
+Sparta Prague vs AZ, Winner: Sparta Prague
+1st Leg: Besiktas (Home) 1 - 4 Rakow Czestochowa (Away)
+2nd Leg: Rakow Czestochowa (Home) 2 - 2 Besiktas (Away)
+Besiktas vs Rakow Czestochowa, Winner: Rakow Czestochowa
+1st Leg: Sevilla (Home) 1 - 0 Panathinaikos (Away)
+2nd Leg: Panathinaikos (Home) 2 - 1 Sevilla (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sevilla 0 - 0 Panathinaikos (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Sevilla 5 - 3 Panathinaikos
+Sevilla wins on penalties!
+Sevilla vs Panathinaikos, Winner: Sevilla
+1st Leg: RB Leipzig (Home) 3 - 0 Viktoria Plzen (Away)
+2nd Leg: Viktoria Plzen (Home) 4 - 2 RB Leipzig (Away)
+RB Leipzig vs Viktoria Plzen, Winner: RB Leipzig
+1st Leg: Servette (Home) 1 - 2 Atletico Madrid (Away)
+2nd Leg: Atletico Madrid (Home) 0 - 3 Servette (Away)
+Servette vs Atletico Madrid, Winner: Servette
+1st Leg: Union SG (Home) 2 - 3 Lazio (Away)
+2nd Leg: Lazio (Home) 2 - 2 Union SG (Away)
+Union SG vs Lazio, Winner: Lazio
+1st Leg: Real Sociedad (Home) 4 - 1 Motherwell (Away)
+2nd Leg: Motherwell (Home) 1 - 3 Real Sociedad (Away)
+Real Sociedad vs Motherwell, Winner: Real Sociedad
+1st Leg: Chaves (Home) 1 - 3 Rennes (Away)
+2nd Leg: Rennes (Home) 2 - 1 Chaves (Away)
+Chaves vs Rennes, Winner: Rennes
+1st Leg: Bayer Leverkusen (Home) 2 - 1 Austria Lustenau (Away)
+2nd Leg: Austria Lustenau (Home) 2 - 2 Bayer Leverkusen (Away)
+Bayer Leverkusen vs Austria Lustenau, Winner: Bayer Leverkusen
+1st Leg: Manchester United (Home) 3 - 1 PSV Eindhoven (Away)
+2nd Leg: PSV Eindhoven (Home) 1 - 4 Manchester United (Away)
+Manchester United vs PSV Eindhoven, Winner: Manchester United
+1st Leg: Liverpool (Home) 3 - 0 Istanbul Basaksehir (Away)
+2nd Leg: Istanbul Basaksehir (Home) 0 - 2 Liverpool (Away)
+Liverpool vs Istanbul Basaksehir, Winner: Liverpool
+Round 1 Winners: ['St. Gallen', 'Trabzonspor', 'Dynamo Kyiv', 'Valencia', 'Chelsea', 'Union Berlin', 'Spartak Moscow', 'Partizan Belgrade', 'AEK Athens', 'FC Zurich', 'Newcastle United', 'Utrecht', 'CSKA Moscow', 'Vitoria de Guimaraes', 'Juventus', 'RC Lens', 'Lech Poznan', 'Rapid Bucuresti', 'Braga', 'Gent', 'Eintracht Frankfurt', 'Sparta Prague', 'Rakow Czestochowa', 'Sevilla', 'RB Leipzig', 'Servette', 'Lazio', 'Real Sociedad', 'Rennes', 'Bayer Leverkusen', 'Manchester United', 'Liverpool']
+Round 2 Qualified: ['Manchester City', 'Arsenal', 'Real Madrid', 'Barcelona', 'Borussia Dortmund', 'Bayern Munchen', 'Inter Milan', 'AC Milan', 'PSG', 'Olympique Lyon', 'Ajax', 'Twente', 'Benfica', 'Porto', 'Genk', 'Anderlecht', 'Rangers', 'Celtic', 'Red Bull Salzburg', 'Sturm Graz', 'FCSB', 'CFR Cluj', 'Young Boys', 'FC Basel', 'Galatasaray', 'Fenerbahce', 'Olympiacos', 'Slavia Prague', 'Legia Warsaw', 'Zenit Saint Petersburg', 'Shakhtar Donetsk', 'Red Star Belgrade']
+Teams advancing to Round 2: ['St. Gallen', 'Trabzonspor', 'Dynamo Kyiv', 'Valencia', 'Chelsea', 'Union Berlin', 'Spartak Moscow', 'Partizan Belgrade', 'AEK Athens', 'FC Zurich', 'Newcastle United', 'Utrecht', 'CSKA Moscow', 'Vitoria de Guimaraes', 'Juventus', 'RC Lens', 'Lech Poznan', 'Rapid Bucuresti', 'Braga', 'Gent', 'Eintracht Frankfurt', 'Sparta Prague', 'Rakow Czestochowa', 'Sevilla', 'RB Leipzig', 'Servette', 'Lazio', 'Real Sociedad', 'Rennes', 'Bayer Leverkusen', 'Manchester United', 'Liverpool', 'Manchester City', 'Arsenal', 'Real Madrid', 'Barcelona', 'Borussia Dortmund', 'Bayern Munchen', 'Inter Milan', 'AC Milan', 'PSG', 'Olympique Lyon', 'Ajax', 'Twente', 'Benfica', 'Porto', 'Genk', 'Anderlecht', 'Rangers', 'Celtic', 'Red Bull Salzburg', 'Sturm Graz', 'FCSB', 'CFR Cluj', 'Young Boys', 'FC Basel', 'Galatasaray', 'Fenerbahce', 'Olympiacos', 'Slavia Prague', 'Legia Warsaw', 'Zenit Saint Petersburg', 'Shakhtar Donetsk', 'Red Star Belgrade']
+
+Current round: Round 2
+1st Leg: FCSB (Home) 1 - 3 Slavia Prague (Away)
+2nd Leg: Slavia Prague (Home) 3 - 1 FCSB (Away)
+1st Leg: Bayern Munchen (Home) 4 - 0 Galatasaray (Away)
+2nd Leg: Galatasaray (Home) 1 - 3 Bayern Munchen (Away)
+1st Leg: Genk (Home) 0 - 5 PSG (Away)
+2nd Leg: PSG (Home) 4 - 0 Genk (Away)
+1st Leg: Rennes (Home) 5 - 1 Rapid Bucuresti (Away)
+2nd Leg: Rapid Bucuresti (Home) 1 - 4 Rennes (Away)
+1st Leg: FC Zurich (Home) 2 - 3 Valencia (Away)
+2nd Leg: Valencia (Home) 4 - 0 FC Zurich (Away)
+1st Leg: Sevilla (Home) 2 - 2 Inter Milan (Away)
+2nd Leg: Inter Milan (Home) 2 - 1 Sevilla (Away)
+1st Leg: Benfica (Home) 2 - 2 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 4 - 1 Benfica (Away)
+1st Leg: Chelsea (Home) 2 - 1 Rangers (Away)
+2nd Leg: Rangers (Home) 1 - 1 Chelsea (Away)
+1st Leg: Lech Poznan (Home) 0 - 2 Barcelona (Away)
+2nd Leg: Barcelona (Home) 3 - 2 Lech Poznan (Away)
+1st Leg: Fenerbahce (Home) 1 - 3 Legia Warsaw (Away)
+2nd Leg: Legia Warsaw (Home) 2 - 2 Fenerbahce (Away)
+1st Leg: Eintracht Frankfurt (Home) 0 - 0 Borussia Dortmund (Away)
+2nd Leg: Borussia Dortmund (Home) 3 - 1 Eintracht Frankfurt (Away)
+1st Leg: Dynamo Kyiv (Home) 1 - 2 Manchester United (Away)
+2nd Leg: Manchester United (Home) 3 - 1 Dynamo Kyiv (Away)
+1st Leg: Trabzonspor (Home) 3 - 2 Ajax (Away)
+2nd Leg: Ajax (Home) 3 - 1 Trabzonspor (Away)
+1st Leg: Sparta Prague (Home) 2 - 1 Sturm Graz (Away)
+2nd Leg: Sturm Graz (Home) 1 - 1 Sparta Prague (Away)
+1st Leg: Vitoria de Guimaraes (Home) 1 - 2 Arsenal (Away)
+2nd Leg: Arsenal (Home) 2 - 1 Vitoria de Guimaraes (Away)
+1st Leg: Juventus (Home) 1 - 0 Lazio (Away)
+2nd Leg: Lazio (Home) 0 - 2 Juventus (Away)
+1st Leg: Olympiacos (Home) 0 - 1 Young Boys (Away)
+2nd Leg: Young Boys (Home) 2 - 0 Olympiacos (Away)
+1st Leg: Twente (Home) 2 - 2 Bayer Leverkusen (Away)
+2nd Leg: Bayer Leverkusen (Home) 3 - 2 Twente (Away)
+1st Leg: CSKA Moscow (Home) 5 - 0 Utrecht (Away)
+2nd Leg: Utrecht (Home) 1 - 3 CSKA Moscow (Away)
+1st Leg: Spartak Moscow (Home) 3 - 1 Celtic (Away)
+2nd Leg: Celtic (Home) 1 - 1 Spartak Moscow (Away)
+1st Leg: Red Star Belgrade (Home) 3 - 0 Union Berlin (Away)
+2nd Leg: Union Berlin (Home) 3 - 2 Red Star Belgrade (Away)
+1st Leg: Real Sociedad (Home) 0 - 3 Zenit Saint Petersburg (Away)
+2nd Leg: Zenit Saint Petersburg (Home) 2 - 0 Real Sociedad (Away)
+1st Leg: FC Basel (Home) 0 - 2 Liverpool (Away)
+2nd Leg: Liverpool (Home) 4 - 1 FC Basel (Away)
+1st Leg: Rakow Czestochowa (Home) 3 - 2 AC Milan (Away)
+2nd Leg: AC Milan (Home) 1 - 2 Rakow Czestochowa (Away)
+1st Leg: Porto (Home) 3 - 0 Gent (Away)
+2nd Leg: Gent (Home) 1 - 2 Porto (Away)
+1st Leg: Newcastle United (Home) 1 - 3 Manchester City (Away)
+2nd Leg: Manchester City (Home) 3 - 1 Newcastle United (Away)
+1st Leg: St. Gallen (Home) 1 - 3 AEK Athens (Away)
+2nd Leg: AEK Athens (Home) 2 - 0 St. Gallen (Away)
+1st Leg: Partizan Belgrade (Home) 0 - 0 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 0 - 1 Partizan Belgrade (Away)
+1st Leg: Olympique Lyon (Home) 2 - 2 Braga (Away)
+2nd Leg: Braga (Home) 2 - 1 Olympique Lyon (Away)
+1st Leg: Shakhtar Donetsk (Home) 2 - 0 CFR Cluj (Away)
+2nd Leg: CFR Cluj (Home) 2 - 1 Shakhtar Donetsk (Away)
+1st Leg: Red Bull Salzburg (Home) 3 - 1 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 1 - 4 Red Bull Salzburg (Away)
+1st Leg: RC Lens (Home) 3 - 1 Servette (Away)
+2nd Leg: Servette (Home) 0 - 2 RC Lens (Away)
+
+Current round: Round 3
+1st Leg: Braga (Home) 3 - 3 Ajax (Away)
+2nd Leg: Ajax (Home) 3 - 2 Braga (Away)
+1st Leg: Bayern Munchen (Home) 3 - 0 Zenit Saint Petersburg (Away)
+2nd Leg: Zenit Saint Petersburg (Home) 1 - 3 Bayern Munchen (Away)
+1st Leg: Borussia Dortmund (Home) 2 - 2 Manchester City (Away)
+2nd Leg: Manchester City (Home) 1 - 2 Borussia Dortmund (Away)
+1st Leg: Spartak Moscow (Home) 2 - 2 Sparta Prague (Away)
+2nd Leg: Sparta Prague (Home) 2 - 2 Spartak Moscow (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Spartak Moscow 0 - 1 Sparta Prague (Aggregate: 4 - 5)
+1st Leg: Young Boys (Home) 0 - 3 Arsenal (Away)
+2nd Leg: Arsenal (Home) 2 - 1 Young Boys (Away)
+1st Leg: Rennes (Home) 2 - 3 Juventus (Away)
+2nd Leg: Juventus (Home) 3 - 2 Rennes (Away)
+1st Leg: Valencia (Home) 2 - 3 Porto (Away)
+2nd Leg: Porto (Home) 3 - 1 Valencia (Away)
+1st Leg: Red Star Belgrade (Home) 3 - 2 Inter Milan (Away)
+2nd Leg: Inter Milan (Home) 4 - 1 Red Star Belgrade (Away)
+1st Leg: Bayer Leverkusen (Home) 1 - 3 Barcelona (Away)
+2nd Leg: Barcelona (Home) 3 - 0 Bayer Leverkusen (Away)
+1st Leg: CSKA Moscow (Home) 1 - 3 PSG (Away)
+2nd Leg: PSG (Home) 2 - 0 CSKA Moscow (Away)
+1st Leg: Slavia Prague (Home) 2 - 0 Shakhtar Donetsk (Away)
+2nd Leg: Shakhtar Donetsk (Home) 1 - 2 Slavia Prague (Away)
+1st Leg: Partizan Belgrade (Home) 1 - 1 RC Lens (Away)
+2nd Leg: RC Lens (Home) 3 - 2 Partizan Belgrade (Away)
+1st Leg: Legia Warsaw (Home) 2 - 0 Red Bull Salzburg (Away)
+2nd Leg: Red Bull Salzburg (Home) 3 - 2 Legia Warsaw (Away)
+1st Leg: Rakow Czestochowa (Home) 0 - 2 Liverpool (Away)
+2nd Leg: Liverpool (Home) 4 - 0 Rakow Czestochowa (Away)
+1st Leg: RB Leipzig (Home) 0 - 2 Chelsea (Away)
+2nd Leg: Chelsea (Home) 2 - 1 RB Leipzig (Away)
+1st Leg: AEK Athens (Home) 1 - 2 Manchester United (Away)
+2nd Leg: Manchester United (Home) 3 - 1 AEK Athens (Away)
+
+Current round: Round 4
+1st Leg: Borussia Dortmund (Home) 1 - 2 Arsenal (Away)
+2nd Leg: Arsenal (Home) 3 - 0 Borussia Dortmund (Away)
+1st Leg: Manchester United (Home) 2 - 1 Barcelona (Away)
+2nd Leg: Barcelona (Home) 2 - 1 Manchester United (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Manchester United 0 - 1 Barcelona (Aggregate: 3 - 4)
+1st Leg: Legia Warsaw (Home) 0 - 0 Juventus (Away)
+2nd Leg: Juventus (Home) 3 - 1 Legia Warsaw (Away)
+1st Leg: Chelsea (Home) 0 - 0 Inter Milan (Away)
+2nd Leg: Inter Milan (Home) 2 - 0 Chelsea (Away)
+1st Leg: Bayern Munchen (Home) 2 - 2 PSG (Away)
+2nd Leg: PSG (Home) 2 - 2 Bayern Munchen (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bayern Munchen 1 - 1 PSG (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Bayern Munchen 3 - 3 PSG
+Penalties are tied! Sudden death begins!
+Sudden Death: Bayern Munchen 6 - 7 PSG
+PSG wins on sudden death penalties!
+1st Leg: Slavia Prague (Home) 1 - 1 RC Lens (Away)
+2nd Leg: RC Lens (Home) 3 - 2 Slavia Prague (Away)
+1st Leg: Ajax (Home) 1 - 0 Porto (Away)
+2nd Leg: Porto (Home) 3 - 0 Ajax (Away)
+1st Leg: Liverpool (Home) 4 - 0 Sparta Prague (Away)
+2nd Leg: Sparta Prague (Home) 1 - 4 Liverpool (Away)
+
+Current round: Round 5
+1st Leg: Barcelona (Home) 3 - 1 Liverpool (Away)
+2nd Leg: Liverpool (Home) 2 - 3 Barcelona (Away)
+1st Leg: PSG (Home) 2 - 0 Arsenal (Away)
+2nd Leg: Arsenal (Home) 0 - 1 PSG (Away)
+1st Leg: Juventus (Home) 1 - 2 RC Lens (Away)
+2nd Leg: RC Lens (Home) 2 - 4 Juventus (Away)
+1st Leg: Inter Milan (Home) 4 - 2 Porto (Away)
+2nd Leg: Porto (Home) 3 - 3 Inter Milan (Away)
+
+Current round: Round 6
+1st Leg: Barcelona (Home) 0 - 1 Juventus (Away)
+2nd Leg: Juventus (Home) 2 - 0 Barcelona (Away)
+1st Leg: Inter Milan (Home) 2 - 2 PSG (Away)
+2nd Leg: PSG (Home) 3 - 0 Inter Milan (Away)
+
+Current round: Final:
+Juventus 0 - 2 PSG
+PSG won the match!
+
+Winner of Champions League: PSG
+Teams starting in Champions League Round 1: ['Newcastle United', 'Manchester United', 'Liverpool', 'Chelsea', 'Atletico Madrid', 'Sevilla', 'Real Sociedad', 'Valencia', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt', 'Union Berlin', 'Napoli', 'Atalanta', 'Juventus', 'Lazio', 'RC Lens', 'Rennes', 'Lille', 'Nice', 'PSV Eindhoven', 'AZ', 'Feyenoord', 'Utrecht', 'Braga', 'Sporting CP', 'Chaves', 'Vitoria de Guimaraes', 'Union SG', 'Standard Liege', 'Antwerp', 'Gent', 'Hearts', 'Motherwell', 'Aberdeen', 'Hibernian', 'LASK', 'Austria Wien', 'Austria Lustenau', 'Rapid Wien', 'Dinamo Bucuresti', 'U Cluj', 'Rapid Bucuresti', 'Universitatea Craiova', 'FC Zurich', 'St. Gallen', 'Grasshoppers', 'Servette', 'Trabzonspor', 'Istanbul Basaksehir', 'Besiktas', 'Adana Demirspor', 'Panathinaikos', 'AEK Athens', 'Sparta Prague', 'Viktoria Plzen', 'Rakow Czestochowa', 'Lech Poznan', 'CSKA Moscow', 'Spartak Moscow', 'Dynamo Kyiv', 'Zorya Luhansk', 'Partizan Belgrade', 'Cukaricki']
+1st Leg: Grasshoppers (Home) 2 - 2 Dynamo Kyiv (Away)
+2nd Leg: Dynamo Kyiv (Home) 3 - 0 Grasshoppers (Away)
+Grasshoppers vs Dynamo Kyiv, Winner: Dynamo Kyiv
+1st Leg: Austria Lustenau (Home) 1 - 2 Panathinaikos (Away)
+2nd Leg: Panathinaikos (Home) 3 - 0 Austria Lustenau (Away)
+Austria Lustenau vs Panathinaikos, Winner: Panathinaikos
+1st Leg: Sparta Prague (Home) 2 - 1 LASK (Away)
+2nd Leg: LASK (Home) 1 - 1 Sparta Prague (Away)
+Sparta Prague vs LASK, Winner: Sparta Prague
+1st Leg: Union SG (Home) 2 - 1 AZ (Away)
+2nd Leg: AZ (Home) 0 - 1 Union SG (Away)
+Union SG vs AZ, Winner: Union SG
+1st Leg: Adana Demirspor (Home) 2 - 1 PSV Eindhoven (Away)
+2nd Leg: PSV Eindhoven (Home) 1 - 3 Adana Demirspor (Away)
+Adana Demirspor vs PSV Eindhoven, Winner: Adana Demirspor
+1st Leg: Feyenoord (Home) 2 - 2 Atalanta (Away)
+2nd Leg: Atalanta (Home) 1 - 1 Feyenoord (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Feyenoord 1 - 1 Atalanta (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Feyenoord 5 - 4 Atalanta
+Feyenoord wins on penalties!
+Feyenoord vs Atalanta, Winner: Feyenoord
+1st Leg: Hibernian (Home) 2 - 1 Braga (Away)
+2nd Leg: Braga (Home) 3 - 0 Hibernian (Away)
+Hibernian vs Braga, Winner: Braga
+1st Leg: Viktoria Plzen (Home) 1 - 1 Antwerp (Away)
+2nd Leg: Antwerp (Home) 2 - 2 Viktoria Plzen (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Viktoria Plzen 1 - 1 Antwerp (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Viktoria Plzen 3 - 4 Antwerp
+Antwerp wins on penalties!
+Viktoria Plzen vs Antwerp, Winner: Antwerp
+1st Leg: RB Leipzig (Home) 3 - 0 U Cluj (Away)
+2nd Leg: U Cluj (Home) 1 - 4 RB Leipzig (Away)
+RB Leipzig vs U Cluj, Winner: RB Leipzig
+1st Leg: Standard Liege (Home) 2 - 2 Cukaricki (Away)
+2nd Leg: Cukaricki (Home) 3 - 1 Standard Liege (Away)
+Standard Liege vs Cukaricki, Winner: Cukaricki
+1st Leg: Rakow Czestochowa (Home) 3 - 0 Chaves (Away)
+2nd Leg: Chaves (Home) 1 - 0 Rakow Czestochowa (Away)
+Rakow Czestochowa vs Chaves, Winner: Rakow Czestochowa
+1st Leg: Lazio (Home) 4 - 1 Motherwell (Away)
+2nd Leg: Motherwell (Home) 1 - 2 Lazio (Away)
+Lazio vs Motherwell, Winner: Lazio
+1st Leg: Chelsea (Home) 3 - 0 Istanbul Basaksehir (Away)
+2nd Leg: Istanbul Basaksehir (Home) 1 - 1 Chelsea (Away)
+Chelsea vs Istanbul Basaksehir, Winner: Chelsea
+1st Leg: Sevilla (Home) 3 - 0 Rapid Bucuresti (Away)
+2nd Leg: Rapid Bucuresti (Home) 1 - 3 Sevilla (Away)
+Sevilla vs Rapid Bucuresti, Winner: Sevilla
+1st Leg: Sporting CP (Home) 3 - 1 RC Lens (Away)
+2nd Leg: RC Lens (Home) 3 - 2 Sporting CP (Away)
+Sporting CP vs RC Lens, Winner: Sporting CP
+1st Leg: Austria Wien (Home) 0 - 3 Newcastle United (Away)
+2nd Leg: Newcastle United (Home) 2 - 2 Austria Wien (Away)
+Austria Wien vs Newcastle United, Winner: Newcastle United
+1st Leg: Servette (Home) 1 - 2 Nice (Away)
+2nd Leg: Nice (Home) 1 - 3 Servette (Away)
+Servette vs Nice, Winner: Servette
+1st Leg: Hearts (Home) 2 - 2 Spartak Moscow (Away)
+2nd Leg: Spartak Moscow (Home) 3 - 0 Hearts (Away)
+Hearts vs Spartak Moscow, Winner: Spartak Moscow
+1st Leg: Rennes (Home) 1 - 1 Partizan Belgrade (Away)
+2nd Leg: Partizan Belgrade (Home) 3 - 1 Rennes (Away)
+Rennes vs Partizan Belgrade, Winner: Partizan Belgrade
+1st Leg: Lech Poznan (Home) 3 - 1 Union Berlin (Away)
+2nd Leg: Union Berlin (Home) 2 - 1 Lech Poznan (Away)
+Lech Poznan vs Union Berlin, Winner: Lech Poznan
+1st Leg: Valencia (Home) 1 - 1 Trabzonspor (Away)
+2nd Leg: Trabzonspor (Home) 1 - 2 Valencia (Away)
+Valencia vs Trabzonspor, Winner: Valencia
+1st Leg: CSKA Moscow (Home) 3 - 0 Rapid Wien (Away)
+2nd Leg: Rapid Wien (Home) 1 - 2 CSKA Moscow (Away)
+CSKA Moscow vs Rapid Wien, Winner: CSKA Moscow
+1st Leg: Dinamo Bucuresti (Home) 1 - 3 Bayer Leverkusen (Away)
+2nd Leg: Bayer Leverkusen (Home) 4 - 0 Dinamo Bucuresti (Away)
+Dinamo Bucuresti vs Bayer Leverkusen, Winner: Bayer Leverkusen
+1st Leg: Napoli (Home) 1 - 0 Juventus (Away)
+2nd Leg: Juventus (Home) 2 - 2 Napoli (Away)
+Napoli vs Juventus, Winner: Napoli
+1st Leg: Eintracht Frankfurt (Home) 2 - 1 St. Gallen (Away)
+2nd Leg: St. Gallen (Home) 1 - 3 Eintracht Frankfurt (Away)
+Eintracht Frankfurt vs St. Gallen, Winner: Eintracht Frankfurt
+1st Leg: Aberdeen (Home) 4 - 2 Utrecht (Away)
+2nd Leg: Utrecht (Home) 2 - 0 Aberdeen (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Aberdeen 1 - 1 Utrecht (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Aberdeen 3 - 3 Utrecht
+Penalties are tied! Sudden death begins!
+Sudden Death: Aberdeen 3 - 4 Utrecht
+Utrecht wins on sudden death penalties!
+Aberdeen vs Utrecht, Winner: Utrecht
+1st Leg: Atletico Madrid (Home) 2 - 2 Manchester United (Away)
+2nd Leg: Manchester United (Home) 3 - 1 Atletico Madrid (Away)
+Atletico Madrid vs Manchester United, Winner: Manchester United
+1st Leg: Vitoria de Guimaraes (Home) 2 - 1 Lille (Away)
+2nd Leg: Lille (Home) 0 - 1 Vitoria de Guimaraes (Away)
+Vitoria de Guimaraes vs Lille, Winner: Vitoria de Guimaraes
+1st Leg: Zorya Luhansk (Home) 3 - 3 Besiktas (Away)
+2nd Leg: Besiktas (Home) 3 - 1 Zorya Luhansk (Away)
+Zorya Luhansk vs Besiktas, Winner: Besiktas
+1st Leg: Real Sociedad (Home) 4 - 1 Universitatea Craiova (Away)
+2nd Leg: Universitatea Craiova (Home) 2 - 1 Real Sociedad (Away)
+Real Sociedad vs Universitatea Craiova, Winner: Real Sociedad
+1st Leg: Gent (Home) 3 - 3 AEK Athens (Away)
+2nd Leg: AEK Athens (Home) 2 - 0 Gent (Away)
+Gent vs AEK Athens, Winner: AEK Athens
+1st Leg: Liverpool (Home) 5 - 1 FC Zurich (Away)
+2nd Leg: FC Zurich (Home) 0 - 3 Liverpool (Away)
+Liverpool vs FC Zurich, Winner: Liverpool
+Round 1 Winners: ['Dynamo Kyiv', 'Panathinaikos', 'Sparta Prague', 'Union SG', 'Adana Demirspor', 'Feyenoord', 'Braga', 'Antwerp', 'RB Leipzig', 'Cukaricki', 'Rakow Czestochowa', 'Lazio', 'Chelsea', 'Sevilla', 'Sporting CP', 'Newcastle United', 'Servette', 'Spartak Moscow', 'Partizan Belgrade', 'Lech Poznan', 'Valencia', 'CSKA Moscow', 'Bayer Leverkusen', 'Napoli', 'Eintracht Frankfurt', 'Utrecht', 'Manchester United', 'Vitoria de Guimaraes', 'Besiktas', 'Real Sociedad', 'AEK Athens', 'Liverpool']
+Round 2 Qualified: ['Manchester City', 'Arsenal', 'Real Madrid', 'Barcelona', 'Borussia Dortmund', 'Bayern Munchen', 'Inter Milan', 'AC Milan', 'PSG', 'Olympique Lyon', 'Ajax', 'Twente', 'Benfica', 'Porto', 'Genk', 'Anderlecht', 'Rangers', 'Celtic', 'Red Bull Salzburg', 'Sturm Graz', 'FCSB', 'CFR Cluj', 'Young Boys', 'FC Basel', 'Galatasaray', 'Fenerbahce', 'Olympiacos', 'Slavia Prague', 'Legia Warsaw', 'Zenit Saint Petersburg', 'Shakhtar Donetsk', 'Red Star Belgrade']
+Teams advancing to Round 2: ['Dynamo Kyiv', 'Panathinaikos', 'Sparta Prague', 'Union SG', 'Adana Demirspor', 'Feyenoord', 'Braga', 'Antwerp', 'RB Leipzig', 'Cukaricki', 'Rakow Czestochowa', 'Lazio', 'Chelsea', 'Sevilla', 'Sporting CP', 'Newcastle United', 'Servette', 'Spartak Moscow', 'Partizan Belgrade', 'Lech Poznan', 'Valencia', 'CSKA Moscow', 'Bayer Leverkusen', 'Napoli', 'Eintracht Frankfurt', 'Utrecht', 'Manchester United', 'Vitoria de Guimaraes', 'Besiktas', 'Real Sociedad', 'AEK Athens', 'Liverpool', 'Manchester City', 'Arsenal', 'Real Madrid', 'Barcelona', 'Borussia Dortmund', 'Bayern Munchen', 'Inter Milan', 'AC Milan', 'PSG', 'Olympique Lyon', 'Ajax', 'Twente', 'Benfica', 'Porto', 'Genk', 'Anderlecht', 'Rangers', 'Celtic', 'Red Bull Salzburg', 'Sturm Graz', 'FCSB', 'CFR Cluj', 'Young Boys', 'FC Basel', 'Galatasaray', 'Fenerbahce', 'Olympiacos', 'Slavia Prague', 'Legia Warsaw', 'Zenit Saint Petersburg', 'Shakhtar Donetsk', 'Red Star Belgrade']
+
+Current round: Round 2
+1st Leg: Spartak Moscow (Home) 1 - 3 Zenit Saint Petersburg (Away)
+2nd Leg: Zenit Saint Petersburg (Home) 2 - 3 Spartak Moscow (Away)
+1st Leg: Barcelona (Home) 2 - 2 Panathinaikos (Away)
+2nd Leg: Panathinaikos (Home) 1 - 1 Barcelona (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Barcelona 0 - 1 Panathinaikos (Aggregate: 3 - 4)
+1st Leg: Benfica (Home) 2 - 1 Bayer Leverkusen (Away)
+2nd Leg: Bayer Leverkusen (Home) 3 - 0 Benfica (Away)
+1st Leg: Chelsea (Home) 4 - 1 Utrecht (Away)
+2nd Leg: Utrecht (Home) 2 - 2 Chelsea (Away)
+1st Leg: Red Bull Salzburg (Home) 3 - 3 Olympiacos (Away)
+2nd Leg: Olympiacos (Home) 3 - 2 Red Bull Salzburg (Away)
+1st Leg: Valencia (Home) 2 - 1 Borussia Dortmund (Away)
+2nd Leg: Borussia Dortmund (Home) 3 - 0 Valencia (Away)
+1st Leg: Besiktas (Home) 1 - 0 Sparta Prague (Away)
+2nd Leg: Sparta Prague (Home) 0 - 1 Besiktas (Away)
+1st Leg: Feyenoord (Home) 1 - 4 Napoli (Away)
+2nd Leg: Napoli (Home) 5 - 1 Feyenoord (Away)
+1st Leg: Lazio (Home) 4 - 0 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 2 - 2 Lazio (Away)
+1st Leg: Partizan Belgrade (Home) 1 - 0 Young Boys (Away)
+2nd Leg: Young Boys (Home) 1 - 4 Partizan Belgrade (Away)
+1st Leg: Legia Warsaw (Home) 2 - 2 Newcastle United (Away)
+2nd Leg: Newcastle United (Home) 1 - 2 Legia Warsaw (Away)
+1st Leg: Liverpool (Home) 5 - 0 Sturm Graz (Away)
+2nd Leg: Sturm Graz (Home) 0 - 3 Liverpool (Away)
+1st Leg: Inter Milan (Home) 3 - 1 Vitoria de Guimaraes (Away)
+2nd Leg: Vitoria de Guimaraes (Home) 0 - 2 Inter Milan (Away)
+1st Leg: Celtic (Home) 2 - 1 Sporting CP (Away)
+2nd Leg: Sporting CP (Home) 2 - 2 Celtic (Away)
+1st Leg: Twente (Home) 1 - 2 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 2 - 0 Twente (Away)
+1st Leg: Shakhtar Donetsk (Home) 2 - 0 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 2 - 3 Shakhtar Donetsk (Away)
+1st Leg: Dynamo Kyiv (Home) 2 - 1 Union SG (Away)
+2nd Leg: Union SG (Home) 1 - 3 Dynamo Kyiv (Away)
+1st Leg: CFR Cluj (Home) 3 - 5 Cukaricki (Away)
+2nd Leg: Cukaricki (Home) 4 - 2 CFR Cluj (Away)
+1st Leg: AC Milan (Home) 4 - 0 Antwerp (Away)
+2nd Leg: Antwerp (Home) 0 - 3 AC Milan (Away)
+1st Leg: RB Leipzig (Home) 4 - 3 Rakow Czestochowa (Away)
+2nd Leg: Rakow Czestochowa (Home) 1 - 3 RB Leipzig (Away)
+1st Leg: Arsenal (Home) 3 - 1 Sevilla (Away)
+2nd Leg: Sevilla (Home) 1 - 2 Arsenal (Away)
+1st Leg: Braga (Home) 2 - 3 Fenerbahce (Away)
+2nd Leg: Fenerbahce (Home) 2 - 1 Braga (Away)
+1st Leg: FCSB (Home) 0 - 2 Genk (Away)
+2nd Leg: Genk (Home) 2 - 1 FCSB (Away)
+1st Leg: Eintracht Frankfurt (Home) 2 - 1 Servette (Away)
+2nd Leg: Servette (Home) 0 - 3 Eintracht Frankfurt (Away)
+1st Leg: Porto (Home) 2 - 0 CSKA Moscow (Away)
+2nd Leg: CSKA Moscow (Home) 2 - 2 Porto (Away)
+1st Leg: Adana Demirspor (Home) 1 - 3 Real Sociedad (Away)
+2nd Leg: Real Sociedad (Home) 3 - 0 Adana Demirspor (Away)
+1st Leg: Ajax (Home) 4 - 0 FC Basel (Away)
+2nd Leg: FC Basel (Home) 3 - 2 Ajax (Away)
+1st Leg: Real Madrid (Home) 3 - 1 AEK Athens (Away)
+2nd Leg: AEK Athens (Home) 2 - 4 Real Madrid (Away)
+1st Leg: PSG (Home) 4 - 1 Red Star Belgrade (Away)
+2nd Leg: Red Star Belgrade (Home) 1 - 2 PSG (Away)
+1st Leg: Manchester United (Home) 1 - 1 Lech Poznan (Away)
+2nd Leg: Lech Poznan (Home) 2 - 3 Manchester United (Away)
+1st Leg: Slavia Prague (Home) 0 - 3 Manchester City (Away)
+2nd Leg: Manchester City (Home) 2 - 0 Slavia Prague (Away)
+1st Leg: Galatasaray (Home) 2 - 0 Rangers (Away)
+2nd Leg: Rangers (Home) 1 - 3 Galatasaray (Away)
+
+Current round: Round 3
+1st Leg: Porto (Home) 1 - 1 Dynamo Kyiv (Away)
+2nd Leg: Dynamo Kyiv (Home) 1 - 2 Porto (Away)
+1st Leg: Partizan Belgrade (Home) 0 - 2 Arsenal (Away)
+2nd Leg: Arsenal (Home) 2 - 0 Partizan Belgrade (Away)
+1st Leg: Chelsea (Home) 0 - 2 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 4 - 1 Chelsea (Away)
+1st Leg: Fenerbahce (Home) 0 - 2 Napoli (Away)
+2nd Leg: Napoli (Home) 3 - 0 Fenerbahce (Away)
+1st Leg: Real Madrid (Home) 3 - 1 Inter Milan (Away)
+2nd Leg: Inter Milan (Home) 1 - 3 Real Madrid (Away)
+1st Leg: RB Leipzig (Home) 3 - 1 Panathinaikos (Away)
+2nd Leg: Panathinaikos (Home) 0 - 3 RB Leipzig (Away)
+1st Leg: Besiktas (Home) 1 - 3 Bayer Leverkusen (Away)
+2nd Leg: Bayer Leverkusen (Home) 4 - 1 Besiktas (Away)
+1st Leg: Zenit Saint Petersburg (Home) 4 - 4 Ajax (Away)
+2nd Leg: Ajax (Home) 1 - 3 Zenit Saint Petersburg (Away)
+1st Leg: Liverpool (Home) 3 - 0 Cukaricki (Away)
+2nd Leg: Cukaricki (Home) 0 - 3 Liverpool (Away)
+1st Leg: Borussia Dortmund (Home) 3 - 1 Lazio (Away)
+2nd Leg: Lazio (Home) 1 - 2 Borussia Dortmund (Away)
+1st Leg: PSG (Home) 4 - 0 Galatasaray (Away)
+2nd Leg: Galatasaray (Home) 1 - 3 PSG (Away)
+1st Leg: Olympiacos (Home) 2 - 3 Manchester City (Away)
+2nd Leg: Manchester City (Home) 3 - 0 Olympiacos (Away)
+1st Leg: AC Milan (Home) 2 - 2 Manchester United (Away)
+2nd Leg: Manchester United (Home) 3 - 3 AC Milan (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: AC Milan 1 - 1 Manchester United (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: AC Milan 4 - 3 Manchester United
+AC Milan wins on penalties!
+1st Leg: Eintracht Frankfurt (Home) 4 - 2 Celtic (Away)
+2nd Leg: Celtic (Home) 2 - 1 Eintracht Frankfurt (Away)
+1st Leg: Legia Warsaw (Home) 2 - 1 Genk (Away)
+2nd Leg: Genk (Home) 1 - 2 Legia Warsaw (Away)
+1st Leg: Real Sociedad (Home) 1 - 2 Shakhtar Donetsk (Away)
+2nd Leg: Shakhtar Donetsk (Home) 1 - 0 Real Sociedad (Away)
+
+Current round: Round 4
+1st Leg: Shakhtar Donetsk (Home) 2 - 1 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 3 - 0 Shakhtar Donetsk (Away)
+1st Leg: Zenit Saint Petersburg (Home) 4 - 0 Porto (Away)
+2nd Leg: Porto (Home) 1 - 2 Zenit Saint Petersburg (Away)
+1st Leg: PSG (Home) 0 - 0 Manchester City (Away)
+2nd Leg: Manchester City (Home) 1 - 2 PSG (Away)
+1st Leg: Eintracht Frankfurt (Home) 1 - 5 Arsenal (Away)
+2nd Leg: Arsenal (Home) 1 - 0 Eintracht Frankfurt (Away)
+1st Leg: Legia Warsaw (Home) 0 - 2 Napoli (Away)
+2nd Leg: Napoli (Home) 2 - 2 Legia Warsaw (Away)
+1st Leg: Borussia Dortmund (Home) 2 - 2 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 3 - 2 Borussia Dortmund (Away)
+1st Leg: Bayer Leverkusen (Home) 2 - 1 AC Milan (Away)
+2nd Leg: AC Milan (Home) 3 - 2 Bayer Leverkusen (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bayer Leverkusen 1 - 0 AC Milan (Aggregate: 5 - 4)
+1st Leg: Bayern Munchen (Home) 1 - 2 Liverpool (Away)
+2nd Leg: Liverpool (Home) 2 - 3 Bayern Munchen (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bayern Munchen 0 - 0 Liverpool (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Bayern Munchen 4 - 3 Liverpool
+Bayern Munchen wins on penalties!
+
+Current round: Round 5
+1st Leg: Zenit Saint Petersburg (Home) 2 - 3 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 1 - 0 Zenit Saint Petersburg (Away)
+1st Leg: Arsenal (Home) 3 - 1 Bayer Leverkusen (Away)
+2nd Leg: Bayer Leverkusen (Home) 1 - 0 Arsenal (Away)
+1st Leg: PSG (Home) 3 - 0 Napoli (Away)
+2nd Leg: Napoli (Home) 1 - 2 PSG (Away)
+1st Leg: Bayern Munchen (Home) 4 - 0 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 2 - 3 Bayern Munchen (Away)
+
+Current round: Round 6
+1st Leg: Real Madrid (Home) 2 - 2 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 2 - 1 Real Madrid (Away)
+1st Leg: PSG (Home) 2 - 0 Arsenal (Away)
+2nd Leg: Arsenal (Home) 1 - 1 PSG (Away)
+
+Current round: Final:
+Bayern Munchen 2 - 1 PSG
+Bayern Munchen won the match!
+
+Winner of Champions League: Bayern Munchen
+Teams starting in Champions League Round 1: ['Newcastle United', 'Manchester United', 'Liverpool', 'Chelsea', 'Atletico Madrid', 'Sevilla', 'Real Sociedad', 'Valencia', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt', 'Union Berlin', 'Napoli', 'Atalanta', 'Juventus', 'Lazio', 'RC Lens', 'Rennes', 'Lille', 'Nice', 'PSV Eindhoven', 'AZ', 'Feyenoord', 'Utrecht', 'Braga', 'Sporting CP', 'Chaves', 'Vitoria de Guimaraes', 'Union SG', 'Standard Liege', 'Antwerp', 'Gent', 'Hearts', 'Motherwell', 'Aberdeen', 'Hibernian', 'LASK', 'Austria Wien', 'Austria Lustenau', 'Rapid Wien', 'Dinamo Bucuresti', 'U Cluj', 'Rapid Bucuresti', 'Universitatea Craiova', 'FC Zurich', 'St. Gallen', 'Grasshoppers', 'Servette', 'Trabzonspor', 'Istanbul Basaksehir', 'Besiktas', 'Adana Demirspor', 'Panathinaikos', 'AEK Athens', 'Sparta Prague', 'Viktoria Plzen', 'Rakow Czestochowa', 'Lech Poznan', 'CSKA Moscow', 'Spartak Moscow', 'Dynamo Kyiv', 'Zorya Luhansk', 'Partizan Belgrade', 'Cukaricki']
+1st Leg: Trabzonspor (Home) 2 - 1 Lazio (Away)
+2nd Leg: Lazio (Home) 4 - 0 Trabzonspor (Away)
+Trabzonspor vs Lazio, Winner: Lazio
+1st Leg: Union Berlin (Home) 2 - 0 Universitatea Craiova (Away)
+2nd Leg: Universitatea Craiova (Home) 0 - 1 Union Berlin (Away)
+Union Berlin vs Universitatea Craiova, Winner: Union Berlin
+1st Leg: Grasshoppers (Home) 3 - 1 Nice (Away)
+2nd Leg: Nice (Home) 2 - 0 Grasshoppers (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Grasshoppers 1 - 0 Nice (Aggregate: 4 - 3)
+Grasshoppers vs Nice, Winner: Grasshoppers
+1st Leg: Valencia (Home) 2 - 1 Napoli (Away)
+2nd Leg: Napoli (Home) 3 - 0 Valencia (Away)
+Valencia vs Napoli, Winner: Napoli
+1st Leg: Austria Lustenau (Home) 3 - 3 Besiktas (Away)
+2nd Leg: Besiktas (Home) 2 - 2 Austria Lustenau (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Austria Lustenau 1 - 1 Besiktas (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Austria Lustenau 3 - 4 Besiktas
+Besiktas wins on penalties!
+Austria Lustenau vs Besiktas, Winner: Besiktas
+1st Leg: Sparta Prague (Home) 1 - 1 PSV Eindhoven (Away)
+2nd Leg: PSV Eindhoven (Home) 2 - 1 Sparta Prague (Away)
+Sparta Prague vs PSV Eindhoven, Winner: PSV Eindhoven
+1st Leg: Gent (Home) 3 - 2 Rapid Bucuresti (Away)
+2nd Leg: Rapid Bucuresti (Home) 1 - 2 Gent (Away)
+Gent vs Rapid Bucuresti, Winner: Gent
+1st Leg: CSKA Moscow (Home) 5 - 0 Chaves (Away)
+2nd Leg: Chaves (Home) 1 - 2 CSKA Moscow (Away)
+CSKA Moscow vs Chaves, Winner: CSKA Moscow
+1st Leg: RC Lens (Home) 2 - 2 Sevilla (Away)
+2nd Leg: Sevilla (Home) 0 - 2 RC Lens (Away)
+RC Lens vs Sevilla, Winner: RC Lens
+1st Leg: U Cluj (Home) 0 - 2 Feyenoord (Away)
+2nd Leg: Feyenoord (Home) 4 - 2 U Cluj (Away)
+U Cluj vs Feyenoord, Winner: Feyenoord
+1st Leg: Motherwell (Home) 1 - 4 Vitoria de Guimaraes (Away)
+2nd Leg: Vitoria de Guimaraes (Home) 3 - 2 Motherwell (Away)
+Motherwell vs Vitoria de Guimaraes, Winner: Vitoria de Guimaraes
+1st Leg: Utrecht (Home) 0 - 3 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 2 - 0 Utrecht (Away)
+Utrecht vs RB Leipzig, Winner: RB Leipzig
+1st Leg: Antwerp (Home) 2 - 2 FC Zurich (Away)
+2nd Leg: FC Zurich (Home) 3 - 1 Antwerp (Away)
+Antwerp vs FC Zurich, Winner: FC Zurich
+1st Leg: Atletico Madrid (Home) 3 - 1 Liverpool (Away)
+2nd Leg: Liverpool (Home) 3 - 1 Atletico Madrid (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Atletico Madrid 0 - 0 Liverpool (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Atletico Madrid 5 - 3 Liverpool
+Atletico Madrid wins on penalties!
+Atletico Madrid vs Liverpool, Winner: Atletico Madrid
+1st Leg: Atalanta (Home) 2 - 1 Spartak Moscow (Away)
+2nd Leg: Spartak Moscow (Home) 4 - 2 Atalanta (Away)
+Atalanta vs Spartak Moscow, Winner: Spartak Moscow
+1st Leg: Braga (Home) 4 - 1 Adana Demirspor (Away)
+2nd Leg: Adana Demirspor (Home) 1 - 2 Braga (Away)
+Braga vs Adana Demirspor, Winner: Braga
+1st Leg: Manchester United (Home) 3 - 0 Lech Poznan (Away)
+2nd Leg: Lech Poznan (Home) 2 - 2 Manchester United (Away)
+Manchester United vs Lech Poznan, Winner: Manchester United
+1st Leg: Eintracht Frankfurt (Home) 3 - 0 Viktoria Plzen (Away)
+2nd Leg: Viktoria Plzen (Home) 1 - 1 Eintracht Frankfurt (Away)
+Eintracht Frankfurt vs Viktoria Plzen, Winner: Eintracht Frankfurt
+1st Leg: Partizan Belgrade (Home) 2 - 1 Panathinaikos (Away)
+2nd Leg: Panathinaikos (Home) 2 - 2 Partizan Belgrade (Away)
+Partizan Belgrade vs Panathinaikos, Winner: Partizan Belgrade
+1st Leg: Dynamo Kyiv (Home) 2 - 1 St. Gallen (Away)
+2nd Leg: St. Gallen (Home) 1 - 2 Dynamo Kyiv (Away)
+Dynamo Kyiv vs St. Gallen, Winner: Dynamo Kyiv
+1st Leg: Zorya Luhansk (Home) 2 - 0 LASK (Away)
+2nd Leg: LASK (Home) 2 - 2 Zorya Luhansk (Away)
+Zorya Luhansk vs LASK, Winner: Zorya Luhansk
+1st Leg: Istanbul Basaksehir (Home) 1 - 2 Standard Liege (Away)
+2nd Leg: Standard Liege (Home) 2 - 3 Istanbul Basaksehir (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Istanbul Basaksehir 1 - 1 Standard Liege (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Istanbul Basaksehir 4 - 3 Standard Liege
+Istanbul Basaksehir wins on penalties!
+Istanbul Basaksehir vs Standard Liege, Winner: Istanbul Basaksehir
+1st Leg: Lille (Home) 2 - 0 AZ (Away)
+2nd Leg: AZ (Home) 2 - 3 Lille (Away)
+Lille vs AZ, Winner: Lille
+1st Leg: Aberdeen (Home) 4 - 3 Servette (Away)
+2nd Leg: Servette (Home) 1 - 4 Aberdeen (Away)
+Aberdeen vs Servette, Winner: Aberdeen
+1st Leg: Newcastle United (Home) 2 - 1 Chelsea (Away)
+2nd Leg: Chelsea (Home) 2 - 2 Newcastle United (Away)
+Newcastle United vs Chelsea, Winner: Newcastle United
+1st Leg: Sporting CP (Home) 3 - 2 Rennes (Away)
+2nd Leg: Rennes (Home) 1 - 0 Sporting CP (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sporting CP 0 - 0 Rennes (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Sporting CP 1 - 3 Rennes
+Rennes wins on penalties!
+Sporting CP vs Rennes, Winner: Rennes
+1st Leg: Austria Wien (Home) 0 - 3 Juventus (Away)
+2nd Leg: Juventus (Home) 5 - 1 Austria Wien (Away)
+Austria Wien vs Juventus, Winner: Juventus
+1st Leg: Dinamo Bucuresti (Home) 2 - 2 Real Sociedad (Away)
+2nd Leg: Real Sociedad (Home) 3 - 1 Dinamo Bucuresti (Away)
+Dinamo Bucuresti vs Real Sociedad, Winner: Real Sociedad
+1st Leg: Cukaricki (Home) 1 - 3 Union SG (Away)
+2nd Leg: Union SG (Home) 4 - 1 Cukaricki (Away)
+Cukaricki vs Union SG, Winner: Union SG
+1st Leg: Hibernian (Home) 0 - 1 Rapid Wien (Away)
+2nd Leg: Rapid Wien (Home) 1 - 3 Hibernian (Away)
+Hibernian vs Rapid Wien, Winner: Hibernian
+1st Leg: Rakow Czestochowa (Home) 3 - 3 Bayer Leverkusen (Away)
+2nd Leg: Bayer Leverkusen (Home) 2 - 2 Rakow Czestochowa (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rakow Czestochowa 1 - 1 Bayer Leverkusen (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rakow Czestochowa 4 - 3 Bayer Leverkusen
+Rakow Czestochowa wins on penalties!
+Rakow Czestochowa vs Bayer Leverkusen, Winner: Rakow Czestochowa
+1st Leg: AEK Athens (Home) 2 - 0 Hearts (Away)
+2nd Leg: Hearts (Home) 0 - 3 AEK Athens (Away)
+AEK Athens vs Hearts, Winner: AEK Athens
+Round 1 Winners: ['Lazio', 'Union Berlin', 'Grasshoppers', 'Napoli', 'Besiktas', 'PSV Eindhoven', 'Gent', 'CSKA Moscow', 'RC Lens', 'Feyenoord', 'Vitoria de Guimaraes', 'RB Leipzig', 'FC Zurich', 'Atletico Madrid', 'Spartak Moscow', 'Braga', 'Manchester United', 'Eintracht Frankfurt', 'Partizan Belgrade', 'Dynamo Kyiv', 'Zorya Luhansk', 'Istanbul Basaksehir', 'Lille', 'Aberdeen', 'Newcastle United', 'Rennes', 'Juventus', 'Real Sociedad', 'Union SG', 'Hibernian', 'Rakow Czestochowa', 'AEK Athens']
+Round 2 Qualified: ['Manchester City', 'Arsenal', 'Real Madrid', 'Barcelona', 'Borussia Dortmund', 'Bayern Munchen', 'Inter Milan', 'AC Milan', 'PSG', 'Olympique Lyon', 'Ajax', 'Twente', 'Benfica', 'Porto', 'Genk', 'Anderlecht', 'Rangers', 'Celtic', 'Red Bull Salzburg', 'Sturm Graz', 'FCSB', 'CFR Cluj', 'Young Boys', 'FC Basel', 'Galatasaray', 'Fenerbahce', 'Olympiacos', 'Slavia Prague', 'Legia Warsaw', 'Zenit Saint Petersburg', 'Shakhtar Donetsk', 'Red Star Belgrade']
+Teams advancing to Round 2: ['Lazio', 'Union Berlin', 'Grasshoppers', 'Napoli', 'Besiktas', 'PSV Eindhoven', 'Gent', 'CSKA Moscow', 'RC Lens', 'Feyenoord', 'Vitoria de Guimaraes', 'RB Leipzig', 'FC Zurich', 'Atletico Madrid', 'Spartak Moscow', 'Braga', 'Manchester United', 'Eintracht Frankfurt', 'Partizan Belgrade', 'Dynamo Kyiv', 'Zorya Luhansk', 'Istanbul Basaksehir', 'Lille', 'Aberdeen', 'Newcastle United', 'Rennes', 'Juventus', 'Real Sociedad', 'Union SG', 'Hibernian', 'Rakow Czestochowa', 'AEK Athens', 'Manchester City', 'Arsenal', 'Real Madrid', 'Barcelona', 'Borussia Dortmund', 'Bayern Munchen', 'Inter Milan', 'AC Milan', 'PSG', 'Olympique Lyon', 'Ajax', 'Twente', 'Benfica', 'Porto', 'Genk', 'Anderlecht', 'Rangers', 'Celtic', 'Red Bull Salzburg', 'Sturm Graz', 'FCSB', 'CFR Cluj', 'Young Boys', 'FC Basel', 'Galatasaray', 'Fenerbahce', 'Olympiacos', 'Slavia Prague', 'Legia Warsaw', 'Zenit Saint Petersburg', 'Shakhtar Donetsk', 'Red Star Belgrade']
+
+Current round: Round 2
+1st Leg: Eintracht Frankfurt (Home) 4 - 0 Besiktas (Away)
+2nd Leg: Besiktas (Home) 3 - 2 Eintracht Frankfurt (Away)
+1st Leg: RC Lens (Home) 1 - 1 AEK Athens (Away)
+2nd Leg: AEK Athens (Home) 1 - 3 RC Lens (Away)
+1st Leg: Legia Warsaw (Home) 5 - 1 CFR Cluj (Away)
+2nd Leg: CFR Cluj (Home) 0 - 3 Legia Warsaw (Away)
+1st Leg: Partizan Belgrade (Home) 1 - 2 Arsenal (Away)
+2nd Leg: Arsenal (Home) 5 - 2 Partizan Belgrade (Away)
+1st Leg: Gent (Home) 1 - 2 Sturm Graz (Away)
+2nd Leg: Sturm Graz (Home) 3 - 2 Gent (Away)
+1st Leg: Young Boys (Home) 2 - 2 Union SG (Away)
+2nd Leg: Union SG (Home) 1 - 3 Young Boys (Away)
+1st Leg: Galatasaray (Home) 2 - 1 Hibernian (Away)
+2nd Leg: Hibernian (Home) 0 - 2 Galatasaray (Away)
+1st Leg: Rangers (Home) 5 - 1 Anderlecht (Away)
+2nd Leg: Anderlecht (Home) 2 - 2 Rangers (Away)
+1st Leg: PSG (Home) 2 - 0 Genk (Away)
+2nd Leg: Genk (Home) 0 - 3 PSG (Away)
+1st Leg: Braga (Home) 2 - 2 Lille (Away)
+2nd Leg: Lille (Home) 2 - 2 Braga (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Braga 1 - 1 Lille (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Braga 4 - 4 Lille
+Penalties are tied! Sudden death begins!
+Sudden Death: Braga 5 - 4 Lille
+Braga wins on sudden death penalties!
+1st Leg: Juventus (Home) 1 - 1 Feyenoord (Away)
+2nd Leg: Feyenoord (Home) 1 - 4 Juventus (Away)
+1st Leg: Lazio (Home) 2 - 0 Twente (Away)
+2nd Leg: Twente (Home) 2 - 2 Lazio (Away)
+1st Leg: Dynamo Kyiv (Home) 3 - 0 Rakow Czestochowa (Away)
+2nd Leg: Rakow Czestochowa (Home) 1 - 0 Dynamo Kyiv (Away)
+1st Leg: Manchester United (Home) 3 - 1 Olympique Lyon (Away)
+2nd Leg: Olympique Lyon (Home) 2 - 5 Manchester United (Away)
+1st Leg: FC Basel (Home) 3 - 0 FCSB (Away)
+2nd Leg: FCSB (Home) 2 - 0 FC Basel (Away)
+1st Leg: Red Bull Salzburg (Home) 1 - 2 Celtic (Away)
+2nd Leg: Celtic (Home) 2 - 0 Red Bull Salzburg (Away)
+1st Leg: Barcelona (Home) 0 - 3 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 2 - 1 Barcelona (Away)
+1st Leg: Grasshoppers (Home) 1 - 3 Inter Milan (Away)
+2nd Leg: Inter Milan (Home) 5 - 1 Grasshoppers (Away)
+1st Leg: Zenit Saint Petersburg (Home) 4 - 0 Union Berlin (Away)
+2nd Leg: Union Berlin (Home) 2 - 2 Zenit Saint Petersburg (Away)
+1st Leg: Real Sociedad (Home) 3 - 2 Istanbul Basaksehir (Away)
+2nd Leg: Istanbul Basaksehir (Home) 1 - 1 Real Sociedad (Away)
+1st Leg: FC Zurich (Home) 0 - 2 Shakhtar Donetsk (Away)
+2nd Leg: Shakhtar Donetsk (Home) 2 - 1 FC Zurich (Away)
+1st Leg: Spartak Moscow (Home) 1 - 1 RB Leipzig (Away)
+2nd Leg: RB Leipzig (Home) 1 - 2 Spartak Moscow (Away)
+1st Leg: Benfica (Home) 2 - 3 Fenerbahce (Away)
+2nd Leg: Fenerbahce (Home) 1 - 2 Benfica (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Benfica 0 - 1 Fenerbahce (Aggregate: 4 - 5)
+1st Leg: AC Milan (Home) 2 - 1 Manchester City (Away)
+2nd Leg: Manchester City (Home) 4 - 3 AC Milan (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: AC Milan 0 - 0 Manchester City (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: AC Milan 3 - 3 Manchester City
+Penalties are tied! Sudden death begins!
+Sudden Death: AC Milan 8 - 7 Manchester City
+AC Milan wins on sudden death penalties!
+1st Leg: Borussia Dortmund (Home) 3 - 1 Zorya Luhansk (Away)
+2nd Leg: Zorya Luhansk (Home) 1 - 2 Borussia Dortmund (Away)
+1st Leg: Bayern Munchen (Home) 4 - 0 Rennes (Away)
+2nd Leg: Rennes (Home) 0 - 2 Bayern Munchen (Away)
+1st Leg: Atletico Madrid (Home) 4 - 1 Aberdeen (Away)
+2nd Leg: Aberdeen (Home) 3 - 1 Atletico Madrid (Away)
+1st Leg: Olympiacos (Home) 3 - 0 Vitoria de Guimaraes (Away)
+2nd Leg: Vitoria de Guimaraes (Home) 0 - 4 Olympiacos (Away)
+1st Leg: Ajax (Home) 1 - 1 CSKA Moscow (Away)
+2nd Leg: CSKA Moscow (Home) 1 - 0 Ajax (Away)
+1st Leg: Napoli (Home) 3 - 3 Slavia Prague (Away)
+2nd Leg: Slavia Prague (Home) 1 - 4 Napoli (Away)
+1st Leg: Newcastle United (Home) 3 - 2 Porto (Away)
+2nd Leg: Porto (Home) 2 - 0 Newcastle United (Away)
+1st Leg: PSV Eindhoven (Home) 2 - 1 Red Star Belgrade (Away)
+2nd Leg: Red Star Belgrade (Home) 4 - 1 PSV Eindhoven (Away)
+
+Current round: Round 3
+1st Leg: Sturm Graz (Home) 1 - 3 Borussia Dortmund (Away)
+2nd Leg: Borussia Dortmund (Home) 3 - 1 Sturm Graz (Away)
+1st Leg: Shakhtar Donetsk (Home) 2 - 2 Galatasaray (Away)
+2nd Leg: Galatasaray (Home) 1 - 1 Shakhtar Donetsk (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Shakhtar Donetsk 1 - 1 Galatasaray (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Shakhtar Donetsk 2 - 3 Galatasaray
+Galatasaray wins on penalties!
+1st Leg: Zenit Saint Petersburg (Home) 0 - 2 Manchester United (Away)
+2nd Leg: Manchester United (Home) 1 - 1 Zenit Saint Petersburg (Away)
+1st Leg: Legia Warsaw (Home) 0 - 5 PSG (Away)
+2nd Leg: PSG (Home) 3 - 1 Legia Warsaw (Away)
+1st Leg: Dynamo Kyiv (Home) 1 - 3 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 3 - 0 Dynamo Kyiv (Away)
+1st Leg: Inter Milan (Home) 2 - 1 Real Sociedad (Away)
+2nd Leg: Real Sociedad (Home) 2 - 2 Inter Milan (Away)
+1st Leg: CSKA Moscow (Home) 1 - 0 Rangers (Away)
+2nd Leg: Rangers (Home) 2 - 1 CSKA Moscow (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: CSKA Moscow 1 - 1 Rangers (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: CSKA Moscow 4 - 3 Rangers
+CSKA Moscow wins on penalties!
+1st Leg: AC Milan (Home) 2 - 0 Celtic (Away)
+2nd Leg: Celtic (Home) 1 - 2 AC Milan (Away)
+1st Leg: Lazio (Home) 2 - 2 Eintracht Frankfurt (Away)
+2nd Leg: Eintracht Frankfurt (Home) 2 - 1 Lazio (Away)
+1st Leg: Braga (Home) 0 - 4 Red Star Belgrade (Away)
+2nd Leg: Red Star Belgrade (Home) 4 - 0 Braga (Away)
+1st Leg: Olympiacos (Home) 2 - 0 Atletico Madrid (Away)
+2nd Leg: Atletico Madrid (Home) 4 - 2 Olympiacos (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Olympiacos 0 - 1 Atletico Madrid (Aggregate: 4 - 5)
+1st Leg: FC Basel (Home) 0 - 2 Spartak Moscow (Away)
+2nd Leg: Spartak Moscow (Home) 2 - 0 FC Basel (Away)
+1st Leg: Napoli (Home) 2 - 1 RC Lens (Away)
+2nd Leg: RC Lens (Home) 1 - 1 Napoli (Away)
+1st Leg: Juventus (Home) 2 - 1 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 3 - 0 Juventus (Away)
+1st Leg: Porto (Home) 2 - 2 Arsenal (Away)
+2nd Leg: Arsenal (Home) 3 - 1 Porto (Away)
+1st Leg: Fenerbahce (Home) 2 - 0 Young Boys (Away)
+2nd Leg: Young Boys (Home) 1 - 3 Fenerbahce (Away)
+
+Current round: Round 4
+1st Leg: Eintracht Frankfurt (Home) 2 - 1 Manchester United (Away)
+2nd Leg: Manchester United (Home) 2 - 0 Eintracht Frankfurt (Away)
+1st Leg: Real Madrid (Home) 2 - 1 Bayern Munchen (Away)
+2nd Leg: Bayern Munchen (Home) 2 - 2 Real Madrid (Away)
+1st Leg: CSKA Moscow (Home) 1 - 2 Inter Milan (Away)
+2nd Leg: Inter Milan (Home) 4 - 1 CSKA Moscow (Away)
+1st Leg: AC Milan (Home) 2 - 1 Arsenal (Away)
+2nd Leg: Arsenal (Home) 1 - 1 AC Milan (Away)
+1st Leg: Red Star Belgrade (Home) 5 - 1 Napoli (Away)
+2nd Leg: Napoli (Home) 3 - 1 Red Star Belgrade (Away)
+1st Leg: Galatasaray (Home) 3 - 1 Fenerbahce (Away)
+2nd Leg: Fenerbahce (Home) 3 - 1 Galatasaray (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Galatasaray 0 - 1 Fenerbahce (Aggregate: 4 - 5)
+1st Leg: Atletico Madrid (Home) 2 - 0 Borussia Dortmund (Away)
+2nd Leg: Borussia Dortmund (Home) 1 - 1 Atletico Madrid (Away)
+1st Leg: Spartak Moscow (Home) 1 - 4 PSG (Away)
+2nd Leg: PSG (Home) 4 - 0 Spartak Moscow (Away)
+
+Current round: Round 5
+1st Leg: Manchester United (Home) 3 - 0 Red Star Belgrade (Away)
+2nd Leg: Red Star Belgrade (Home) 1 - 2 Manchester United (Away)
+1st Leg: AC Milan (Home) 0 - 2 Real Madrid (Away)
+2nd Leg: Real Madrid (Home) 3 - 1 AC Milan (Away)
+1st Leg: Atletico Madrid (Home) 1 - 3 PSG (Away)
+2nd Leg: PSG (Home) 1 - 1 Atletico Madrid (Away)
+1st Leg: Fenerbahce (Home) 3 - 2 Inter Milan (Away)
+2nd Leg: Inter Milan (Home) 1 - 3 Fenerbahce (Away)
+
+Current round: Round 6
+1st Leg: Real Madrid (Home) 4 - 3 PSG (Away)
+2nd Leg: PSG (Home) 3 - 2 Real Madrid (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Real Madrid 1 - 0 PSG (Aggregate: 7 - 6)
+1st Leg: Manchester United (Home) 2 - 1 Fenerbahce (Away)
+2nd Leg: Fenerbahce (Home) 2 - 1 Manchester United (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Manchester United 1 - 1 Fenerbahce (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Manchester United 5 - 2 Fenerbahce
+Manchester United wins on penalties!
+
+Current round: Final:
+Real Madrid 3 - 0 Manchester United
+Real Madrid won the match!
+
+Winner of Champions League: Real Madrid

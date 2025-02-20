@@ -71,3 +71,115 @@ Rakow Czestochowa 0 - 3 Legia Warsaw
 Legia Warsaw won the match!
 
 Winner of Poland Cup: Legia Warsaw
+Winner of League: Legia Warsaw
+1. Legia Warsaw - 48 points - 15 wins - 3 draws - 0 losses - 52 scored - 19 against - Champions League - Round 2
+2. Rakow Czestochowa - 40 points - 12 wins - 4 draws - 2 losses - 36 scored - 22 against - Champions League - Round 1
+3. Lech Poznan - 31 points - 8 wins - 7 draws - 3 losses - 41 scored - 30 against - Champions League - Round 1
+4. Jagiellonia Bialystok - 22 points - 6 wins - 4 draws - 8 losses - 36 scored - 36 against - Europa League - Round 2
+5. Pogon Szczecin - 22 points - 6 wins - 4 draws - 8 losses - 35 scored - 37 against - Europa Conference League - Round 2
+6. Gornik Zabrze - 22 points - 6 wins - 4 draws - 8 losses - 31 scored - 33 against - No qualification
+7. Cracovia - 21 points - 6 wins - 3 draws - 9 losses - 32 scored - 33 against - No qualification
+8. Wisla Krakow - 21 points - 6 wins - 3 draws - 9 losses - 27 scored - 44 against - No qualification
+9. Slask Wroclaw - 15 points - 4 wins - 3 draws - 11 losses - 25 scored - 41 against - No qualification
+10. Zaglebie Lubin - 9 points - 2 wins - 3 draws - 13 losses - 24 scored - 44 against - No qualification
+Teams of Poland Cup: ['Legia Warsaw', 'Rakow Czestochowa', 'Lech Poznan', 'Pogon Szczecin', 'Gornik Zabrze', 'Jagiellonia Bialystok', 'Cracovia', 'Wisla Krakow']
+
+Current round: Round 1
+Legia Warsaw 3 - 1 Lech Poznan
+Legia Warsaw won the match!
+Jagiellonia Bialystok 1 - 1 Rakow Czestochowa
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Jagiellonia Bialystok 1 - 1 Rakow Czestochowa (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Jagiellonia Bialystok 4 - 5 Rakow Czestochowa
+Rakow Czestochowa wins on penalties!
+Cracovia 0 - 2 Gornik Zabrze
+Gornik Zabrze won the match!
+Wisla Krakow 4 - 3 Pogon Szczecin
+Wisla Krakow won the match!
+
+Current round: Round 2
+Legia Warsaw 1 - 0 Wisla Krakow
+Legia Warsaw won the match!
+Rakow Czestochowa 2 - 2 Gornik Zabrze
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rakow Czestochowa 0 - 1 Gornik Zabrze (Aggregate: 2 - 3)
+
+Current round: Final:
+Gornik Zabrze 1 - 3 Legia Warsaw
+Legia Warsaw won the match!
+
+Winner of Poland Cup: Legia Warsaw
+Winner of League: Legia Warsaw
+1. Legia Warsaw - 50 points - 16 wins - 2 draws - 0 losses - 51 scored - 12 against - Champions League - Round 2
+2. Lech Poznan - 34 points - 10 wins - 4 draws - 4 losses - 34 scored - 22 against - Champions League - Round 1
+3. Gornik Zabrze - 32 points - 10 wins - 2 draws - 6 losses - 32 scored - 23 against - Champions League - Round 1
+4. Rakow Czestochowa - 30 points - 7 wins - 9 draws - 2 losses - 41 scored - 29 against - Europa League - Round 2
+5. Cracovia - 26 points - 7 wins - 5 draws - 6 losses - 33 scored - 34 against - Europa Conference League - Round 2
+6. Zaglebie Lubin - 20 points - 6 wins - 2 draws - 10 losses - 29 scored - 40 against - No qualification
+7. Pogon Szczecin - 18 points - 4 wins - 6 draws - 8 losses - 34 scored - 37 against - No qualification
+8. Wisla Krakow - 16 points - 4 wins - 4 draws - 10 losses - 29 scored - 43 against - No qualification
+9. Jagiellonia Bialystok - 11 points - 2 wins - 5 draws - 11 losses - 24 scored - 47 against - No qualification
+10. Slask Wroclaw - 11 points - 2 wins - 5 draws - 11 losses - 23 scored - 43 against - No qualification
+Teams of Poland Cup: ['Legia Warsaw', 'Lech Poznan', 'Rakow Czestochowa', 'Gornik Zabrze', 'Pogon Szczecin', 'Cracovia', 'Zaglebie Lubin', 'Wisla Krakow']
+
+Current round: Round 1
+Wisla Krakow 2 - 1 Zaglebie Lubin
+Wisla Krakow won the match!
+Gornik Zabrze 0 - 2 Lech Poznan
+Lech Poznan won the match!
+Pogon Szczecin 2 - 3 Legia Warsaw
+Legia Warsaw won the match!
+Cracovia 0 - 3 Rakow Czestochowa
+Rakow Czestochowa won the match!
+
+Current round: Round 2
+Legia Warsaw 3 - 1 Wisla Krakow
+Legia Warsaw won the match!
+Lech Poznan 0 - 2 Rakow Czestochowa
+Rakow Czestochowa won the match!
+
+Current round: Final:
+Legia Warsaw 5 - 0 Rakow Czestochowa
+Legia Warsaw won the match!
+
+Winner of Poland Cup: Legia Warsaw
+Winner of League: Rakow Czestochowa
+1. Rakow Czestochowa - 46 points - 15 wins - 1 draws - 2 losses - 49 scored - 18 against - Champions League - Round 2
+2. Legia Warsaw - 44 points - 14 wins - 2 draws - 2 losses - 53 scored - 16 against - Champions League - Round 1
+3. Lech Poznan - 35 points - 10 wins - 5 draws - 3 losses - 37 scored - 25 against - Champions League - Round 1
+4. Gornik Zabrze - 28 points - 8 wins - 4 draws - 6 losses - 36 scored - 37 against - Europa League - Round 2
+5. Pogon Szczecin - 27 points - 7 wins - 6 draws - 5 losses - 35 scored - 31 against - Europa Conference League - Round 2
+6. Wisla Krakow - 18 points - 5 wins - 3 draws - 10 losses - 25 scored - 38 against - No qualification
+7. Zaglebie Lubin - 15 points - 3 wins - 6 draws - 9 losses - 31 scored - 44 against - No qualification
+8. Cracovia - 12 points - 3 wins - 3 draws - 12 losses - 22 scored - 41 against - No qualification
+9. Jagiellonia Bialystok - 12 points - 2 wins - 6 draws - 10 losses - 19 scored - 41 against - No qualification
+10. Slask Wroclaw - 12 points - 2 wins - 6 draws - 10 losses - 18 scored - 34 against - No qualification
+Teams of Poland Cup: ['Legia Warsaw', 'Rakow Czestochowa', 'Lech Poznan', 'Gornik Zabrze', 'Pogon Szczecin', 'Wisla Krakow', 'Zaglebie Lubin', 'Cracovia']
+
+Current round: Round 1
+Pogon Szczecin 2 - 2 Wisla Krakow
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Pogon Szczecin 0 - 1 Wisla Krakow (Aggregate: 2 - 3)
+Legia Warsaw 2 - 1 Zaglebie Lubin
+Legia Warsaw won the match!
+Lech Poznan 3 - 1 Cracovia
+Lech Poznan won the match!
+Gornik Zabrze 1 - 1 Rakow Czestochowa
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Gornik Zabrze 0 - 0 Rakow Czestochowa (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Gornik Zabrze 4 - 2 Rakow Czestochowa
+Gornik Zabrze wins on penalties!
+
+Current round: Round 2
+Legia Warsaw 3 - 0 Gornik Zabrze
+Legia Warsaw won the match!
+Lech Poznan 3 - 0 Wisla Krakow
+Lech Poznan won the match!
+
+Current round: Final:
+Legia Warsaw 3 - 0 Lech Poznan
+Legia Warsaw won the match!
+
+Winner of Poland Cup: Legia Warsaw

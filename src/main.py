@@ -1,9 +1,9 @@
 import sys
 
 import settings
-from database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats, \
+from database import get_best_teams, create_general_table, generate_teams_table, check_team_stats, \
     get_teams, update_team, get_competition_winners_from_db, create_european_competitions_table, \
-    get_european_competition_stats
+    get_european_competition_stats, update_general_table_with_stats
 from leagues import league_simulation, select_league, select_teams_from_league, cup_simulation
 from src.database import update_european_competition_appereances
 from src.matches import play_european_cup
@@ -37,12 +37,12 @@ class MainProgram:
             "5. Check best teams \n"
             "6. See stats for a team \n"
             "7. See most winners of a competition \n"
-            "9. View European Competition Stats \n"  # New option added
+            "8. View European Competition Stats \n"  # New option added
         )  # Menu options
         self.choice = input("Select action: ").strip()
 
         # Actions that do not require league or team selection
-        no_team_selection = ["1", "4", "7", "9", "q"]
+        no_team_selection = ["1", "4", "7", "8", "q"]
 
         if self.choice not in no_team_selection:
             # Prompt user to select a league
@@ -61,8 +61,7 @@ class MainProgram:
         if create:
             self.initialize_european_tables()
             create_general_table()
-        for team in self.teams_obj:
-            update_general_table(team)
+        update_general_table_with_stats()
 
     def update_all_leagues(self):
         for country in settings.ALL_COUNTRIES:
@@ -194,7 +193,7 @@ class MainProgram:
             self.check_team_stats()
         if self.choice == "7":
             self.most_winners_by_competition()
-        if self.choice == "9":
+        if self.choice == "8":
             self.view_european_competition_stats()
 
 

@@ -68,3 +68,113 @@ Viktoria Plzen 0 - 1 Slavia Prague
 Slavia Prague won the match!
 
 Winner of Czech_Republic Cup: Slavia Prague
+Winner of League: Sparta Prague
+1. Sparta Prague - 46 points - 15 wins - 1 draws - 2 losses - 49 scored - 13 against - Champions League - Round 2
+2. Viktoria Plzen - 46 points - 15 wins - 1 draws - 2 losses - 48 scored - 22 against - Champions League - Round 1
+3. Slavia Prague - 46 points - 14 wins - 4 draws - 0 losses - 50 scored - 13 against - Champions League - Round 1
+4. Banik Ostrava - 28 points - 8 wins - 4 draws - 6 losses - 31 scored - 28 against - Europa League - Round 2
+5. Teplice - 19 points - 6 wins - 1 draws - 11 losses - 19 scored - 41 against - Europa Conference League - Round 2
+6. Mlada Boleslav - 19 points - 5 wins - 4 draws - 9 losses - 24 scored - 31 against - No qualification
+7. Sigma Olomouc - 18 points - 5 wins - 3 draws - 10 losses - 26 scored - 37 against - No qualification
+8. Slovan Liberec - 15 points - 5 wins - 0 draws - 13 losses - 26 scored - 41 against - No qualification
+9. Jablonec - 14 points - 4 wins - 2 draws - 12 losses - 24 scored - 38 against - No qualification
+10. Pardubice - 8 points - 2 wins - 2 draws - 14 losses - 18 scored - 51 against - No qualification
+Teams of Czech_Republic Cup: ['Sparta Prague', 'Slavia Prague', 'Viktoria Plzen', 'Banik Ostrava', 'Mlada Boleslav', 'Sigma Olomouc', 'Slovan Liberec', 'Jablonec']
+
+Current round: Round 1
+Slavia Prague 2 - 3 Sparta Prague
+Sparta Prague won the match!
+Mlada Boleslav 0 - 2 Viktoria Plzen
+Viktoria Plzen won the match!
+Jablonec 0 - 3 Sigma Olomouc
+Sigma Olomouc won the match!
+Slovan Liberec 2 - 1 Banik Ostrava
+Slovan Liberec won the match!
+
+Current round: Round 2
+Slovan Liberec 1 - 2 Sparta Prague
+Sparta Prague won the match!
+Sigma Olomouc 1 - 2 Viktoria Plzen
+Viktoria Plzen won the match!
+
+Current round: Final:
+Viktoria Plzen 1 - 4 Sparta Prague
+Sparta Prague won the match!
+
+Winner of Czech_Republic Cup: Sparta Prague
+Winner of League: Slavia Prague
+1. Slavia Prague - 45 points - 14 wins - 3 draws - 1 losses - 50 scored - 14 against - Champions League - Round 2
+2. Sparta Prague - 41 points - 13 wins - 2 draws - 3 losses - 48 scored - 19 against - Champions League - Round 1
+3. Viktoria Plzen - 32 points - 9 wins - 5 draws - 4 losses - 44 scored - 24 against - Champions League - Round 1
+4. Banik Ostrava - 30 points - 9 wins - 3 draws - 6 losses - 31 scored - 26 against - Europa League - Round 2
+5. Jablonec - 24 points - 7 wins - 3 draws - 8 losses - 25 scored - 35 against - Europa Conference League - Round 2
+6. Slovan Liberec - 24 points - 6 wins - 6 draws - 6 losses - 28 scored - 23 against - No qualification
+7. Mlada Boleslav - 21 points - 5 wins - 6 draws - 7 losses - 30 scored - 38 against - No qualification
+8. Teplice - 18 points - 5 wins - 3 draws - 10 losses - 21 scored - 41 against - No qualification
+9. Sigma Olomouc - 12 points - 4 wins - 0 draws - 14 losses - 29 scored - 45 against - No qualification
+10. Pardubice - 6 points - 1 wins - 3 draws - 14 losses - 14 scored - 55 against - No qualification
+Teams of Czech_Republic Cup: ['Slavia Prague', 'Sparta Prague', 'Viktoria Plzen', 'Banik Ostrava', 'Jablonec', 'Slovan Liberec', 'Mlada Boleslav', 'Sigma Olomouc']
+
+Current round: Round 1
+Banik Ostrava 2 - 2 Slavia Prague
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Banik Ostrava 1 - 1 Slavia Prague (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Banik Ostrava 5 - 4 Slavia Prague
+Banik Ostrava wins on penalties!
+Sparta Prague 6 - 0 Slovan Liberec
+Sparta Prague won the match!
+Mlada Boleslav 3 - 2 Sigma Olomouc
+Mlada Boleslav won the match!
+Viktoria Plzen 0 - 2 Jablonec
+Jablonec won the match!
+
+Current round: Round 2
+Sparta Prague 2 - 0 Mlada Boleslav
+Sparta Prague won the match!
+Jablonec 0 - 1 Banik Ostrava
+Banik Ostrava won the match!
+
+Current round: Final:
+Sparta Prague 2 - 0 Banik Ostrava
+Sparta Prague won the match!
+
+Winner of Czech_Republic Cup: Sparta Prague
+Winner of League: Slavia Prague
+1. Slavia Prague - 48 points - 15 wins - 3 draws - 0 losses - 48 scored - 14 against - Champions League - Round 2
+2. Sparta Prague - 45 points - 14 wins - 3 draws - 1 losses - 55 scored - 21 against - Champions League - Round 1
+3. Viktoria Plzen - 42 points - 13 wins - 3 draws - 2 losses - 48 scored - 25 against - Champions League - Round 1
+4. Banik Ostrava - 25 points - 8 wins - 1 draws - 9 losses - 31 scored - 33 against - Europa League - Round 2
+5. Mlada Boleslav - 22 points - 7 wins - 1 draws - 10 losses - 27 scored - 36 against - Europa Conference League - Round 2
+6. Sigma Olomouc - 21 points - 5 wins - 6 draws - 7 losses - 32 scored - 38 against - No qualification
+7. Jablonec - 18 points - 6 wins - 0 draws - 12 losses - 33 scored - 40 against - No qualification
+8. Slovan Liberec - 17 points - 5 wins - 2 draws - 11 losses - 22 scored - 38 against - No qualification
+9. Teplice - 13 points - 3 wins - 4 draws - 11 losses - 25 scored - 47 against - No qualification
+10. Pardubice - 7 points - 2 wins - 1 draws - 15 losses - 16 scored - 45 against - No qualification
+Teams of Czech_Republic Cup: ['Slavia Prague', 'Sparta Prague', 'Viktoria Plzen', 'Banik Ostrava', 'Mlada Boleslav', 'Sigma Olomouc', 'Jablonec', 'Slovan Liberec']
+
+Current round: Round 1
+Banik Ostrava 1 - 1 Slovan Liberec
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Banik Ostrava 0 - 1 Slovan Liberec (Aggregate: 1 - 2)
+Sigma Olomouc 2 - 2 Sparta Prague
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sigma Olomouc 0 - 1 Sparta Prague (Aggregate: 2 - 3)
+Viktoria Plzen 3 - 2 Slavia Prague
+Viktoria Plzen won the match!
+Jablonec 2 - 2 Mlada Boleslav
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Jablonec 1 - 0 Mlada Boleslav (Aggregate: 3 - 2)
+
+Current round: Round 2
+Sparta Prague 4 - 0 Slovan Liberec
+Sparta Prague won the match!
+Viktoria Plzen 2 - 1 Jablonec
+Viktoria Plzen won the match!
+
+Current round: Final:
+Viktoria Plzen 2 - 2 Sparta Prague
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Viktoria Plzen 1 - 0 Sparta Prague (Aggregate: 3 - 2)
+
+Winner of Czech_Republic Cup: Viktoria Plzen

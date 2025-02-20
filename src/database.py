@@ -20,24 +20,12 @@ def create_teams_table(league):
         goals_against INTEGER,
         first_place INTEGER DEFAULT 0,
         second_place INTEGER DEFAULT 0,
-        third_place INTEGER DEFAULT 0
+        third_place INTEGER DEFAULT 0,
+        cup_finals INTEGER DEFAULT 0,
+        cup_wins INTEGER DEFAULT 0
     )
     """
     c.execute(query)
-    try:
-        c.execute(f"ALTER TABLE {league} ADD COLUMN first_place INTEGER DEFAULT 0")
-    except sqlite3.OperationalError:
-        print(f"Column 'first_place' already exists in the {league} table.")
-
-    try:
-        c.execute(f"ALTER TABLE {league} ADD COLUMN second_place INTEGER DEFAULT 0")
-    except sqlite3.OperationalError:
-        print(f"Column 'second_place' already exists in the {league} table.")
-
-    try:
-        c.execute(f"ALTER TABLE {league} ADD COLUMN third_place INTEGER DEFAULT 0")
-    except sqlite3.OperationalError:
-        print(f"Column 'third_place' already exists in the {league} table.")
 
     conn.commit()
     conn.close()
@@ -47,7 +35,7 @@ def insert_team(team, league):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
     query = f"""
-    INSERT INTO {league} VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    INSERT INTO {league} VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """
     c.execute(query, (
         team.name,
@@ -60,7 +48,9 @@ def insert_team(team, league):
         team.goals_against,
         team.first_place,
         team.second_place,
-        team.third_place
+        team.third_place,
+        team.cup_finals,
+        team.cup_wins
     ))
     conn.commit()
     conn.close()
@@ -80,7 +70,9 @@ def update_team(team, league):
         goals_against = ?,
         first_place = ?,
         second_place = ?,
-        third_place = ?
+        third_place = ?,
+        cup_finals = ?,
+        cup_wins = ?
     WHERE name = ?
     """
     c.execute(query, (
@@ -94,43 +86,131 @@ def update_team(team, league):
         team.first_place,
         team.second_place,
         team.third_place,
+        team.cup_finals,
+        team.cup_wins,
         team.name
     ))
     conn.commit()
     conn.close()
 
+def update_team_parameter(team, league, parameter_name, team_parameter):
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+    query = f"""
+    UPDATE {league}
+    SET {parameter_name} = ?
+    WHERE name = ?
+    """
+    c.execute(query, (
+        team_parameter,
+        team.name
+    ))
+    conn.commit()
+    conn.close()
 
 def create_general_table():
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
-    query = f'''CREATE TABLE IF NOT EXISTS {settings.GENERAL_TABLE} 
-    (name TEXT, country TEXT, skill INTEGER, league_titles INTEGER, cup_titles INTEGER, 
-    ucl INTEGER, uel INTEGER, uecl INTEGER, europe TEXT) '''
+    query = f"""
+    CREATE TABLE IF NOT EXISTS {settings.GENERAL_TABLE} (
+        name TEXT,
+        country TEXT,
+        skill INTEGER,
+        league_titles INTEGER DEFAULT 0,
+        cup_titles INTEGER DEFAULT 0,
+        ucl INTEGER DEFAULT 0,
+        uel INTEGER DEFAULT 0,
+        uecl INTEGER DEFAULT 0,
+        europe TEXT
+    )
+    """
     c.execute(query)
     conn.commit()
     conn.close()
 
-
-def update_general_table(team):
+def update_general_table_with_stats():
+    """
+    Updates the GENERAL_TABLE with values based on the connected league and European competition tables.
+    - League titles (league_titles) come from 'first_place' in their respective league.
+    - UCL (or other competition titles) is the 'wins' count from the European competition table.
+    """
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
 
-    # Check if the team name already exists in the table
-    c.execute(f"SELECT COUNT(*) FROM {settings.GENERAL_TABLE} WHERE name=?", (team.name,))
-    count = c.fetchone()[0]
+    # Fetch all teams listed in the GENERAL_TABLE
+    c.execute(f"SELECT name, country FROM {settings.GENERAL_TABLE}")
+    general_teams = c.fetchall()
 
-    if count == 0:  # Team name does not exist, insert a new row
-        query = f"INSERT INTO {settings.GENERAL_TABLE} " \
-                f"(name, country, skill, league_titles, cup_titles, ucl, uel, uecl, europe) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
-        c.execute(query, (team.name, team.country, team.skill, team.league_titles, team.cup_titles, team.ucl, team.uel, team.uecl, team.europe))
-    else:  # Team name exists, update the matching row
-        query = f"UPDATE {settings.GENERAL_TABLE} " \
-                f"SET country=?, skill=?, league_titles=?, cup_titles=?, ucl=?, uel=?, uecl=?, europe=? WHERE name=?"
-        c.execute(query, (team.country, team.skill, team.league_titles, team.cup_titles, team.ucl, team.uel, team.uecl, team.europe, team.name))
+    for team_name, country in general_teams:
+        # Update the league_titles using 'first_place' from the league table
+        league_query = f"SELECT first_place FROM {country} WHERE name = ?"
+        c.execute(league_query, (team_name,))
+        league_result = c.fetchone()
+
+        if league_result:
+            league_titles = league_result[0]
+        else:
+            league_titles = 0
+
+        update_query = f"""
+              UPDATE {settings.GENERAL_TABLE}
+              SET league_titles = ?
+              WHERE name = ?
+              """
+        c.execute(update_query, (league_titles, team_name))
+
+        cup_query = f"SELECT cup_wins FROM {country} WHERE name = ?"
+        c.execute(cup_query, (team_name,))
+        cup_result = c.fetchone()
+
+        if cup_result:
+            cup_titles = cup_result[0]
+        else:
+            cup_titles = 0
+
+        update_query = f"""
+                      UPDATE {settings.GENERAL_TABLE}
+                      SET cup_titles = ?
+                      WHERE name = ?
+                      """
+        c.execute(update_query, (cup_titles, team_name))
+
+        for competition in [settings.UCL, settings.UEL, settings.UECL]:
+            competition_table = competition.replace(" ", "")
+            query = f"SELECT wins FROM {competition_table} WHERE team_name = ?"
+            c.execute(query, (team_name,))
+            result = c.fetchone()
+
+            if result:
+                wins = result[0]
+            else:
+                wins = 0
+
+            if competition == settings.UCL:
+                # Update the GENERAL_TABLE with the new stats
+                update_query = f"""
+                        UPDATE {settings.GENERAL_TABLE}
+                        SET ucl = ?
+                        WHERE name = ?
+                        """
+                c.execute(update_query, (wins, team_name))
+            elif competition == settings.UEL:
+                update_query = f"""
+                                 UPDATE {settings.GENERAL_TABLE}
+                                 SET uel = ?
+                                 WHERE name = ?
+                                 """
+                c.execute(update_query, (wins, team_name))
+            elif competition == settings.UECL:
+                update_query = f"""
+                                          UPDATE {settings.GENERAL_TABLE}
+                                          SET uecl = ?
+                                          WHERE name = ?
+                                          """
+                c.execute(update_query, (wins, team_name))
 
     conn.commit()
     conn.close()
-
 
 def get_teams(league=None, european_cup=None, rounds=None):
     """
@@ -172,16 +252,16 @@ def get_teams(league=None, european_cup=None, rounds=None):
             league_query = f"SELECT * FROM {country} WHERE name = '{team_name}'"
             c.execute(league_query)
             team_stats = c.fetchone()
-            name, matches, wins, draws, losses, points, scored, against, first_place, second_place, third_place = team_stats
+            name, matches, wins, draws, losses, points, scored, against, first_place, second_place, third_place, cup_finals, cup_wins = team_stats
         elif league:
-            name, matches, wins, draws, losses, points, scored, against, first_place, second_place, third_place = data
+            name, matches, wins, draws, losses, points, scored, against, first_place, second_place, third_place, cup_finals, cup_wins = data
 
-        # Creating a new Team object with additional attributes (first_place, second_place, third_place)
+        # Creating a new Team object with additional attributes (cup_finals, cup_wins)
         team = Team(
             name=name, country=country, skill=skill, matches=matches, wins=wins, draws=draws,
-            losses=losses, points=points, scored=scored, against=against, league_titles=titles,
-            cup_titles=cups, europe=europe, ucl=ucl, uel=uel, uecl=uecl,
-            first_place=first_place, second_place=second_place, third_place=third_place
+            losses=losses, points=points, scored=scored, against=against, first_place=first_place,
+            second_place=second_place, third_place=third_place, cup_finals=cup_finals, cup_wins=cup_wins,
+            europe=europe
         )
         teams.append(team)
 
@@ -189,21 +269,48 @@ def get_teams(league=None, european_cup=None, rounds=None):
     return teams
 
 
-def get_best_teams(league):
-    number = input("Select number of best teams:")
+def get_best_teams(league, limit=10):
+    """
+    Retrieve the best teams from a league table based on specific criteria (e.g., first place, cup wins),
+    while displaying all relevant fields for each team.
+
+    :param league: The league table name to query.
+    :param sort_by: The field to sort by: "first_place", "second_place", "third_place", "cup_finals", "cup_wins".
+    :param limit: The number of top teams to show.
+    :return: A list of ranked teams with all fields displayed.
+    """
+    if not league:
+        print("League table must be specified!")
+        return []
+
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
 
-    # Query for best teams by points
-    query = f"SELECT name, points FROM {league} ORDER BY points DESC LIMIT {number}"
-    c.execute(query)
-    best_teams = c.fetchall()
+    # Query for league-based stats (retrieving all relevant fields)
+    query = f"""
+    SELECT name, first_place, second_place, third_place, cup_finals, cup_wins
+    FROM {league}
+    ORDER BY first_place DESC, second_place DESC, third_place DESC, cup_wins DESC, cup_finals DESC, name ASC
+    LIMIT ?
+    """
+    c.execute(query, (limit,))
+    results = c.fetchall()
 
     conn.close()
 
-    print(f"{league}'s Best Teams:")
-    for team in best_teams:
-        print(f"Team: {team[0]}, Points: {team[1]}")
+    # Print the ranked teams along with all fields
+    print(f"--- Best Teams in {league.replace('_', ' ').title()} Ranked by First Place Finishes ---")
+    for rank, row in enumerate(results, start=1):
+        team_name, first_place, second_place, third_place, cup_finals, cup_wins = row
+        print(f"{rank}. {team_name}:")
+        print(f"   First Place Finishes: {first_place}")
+        print(f"   Second Place Finishes: {second_place}")
+        print(f"   Third Place Finishes: {third_place}")
+        print(f"   Cup Wins: {cup_wins}")
+        print(f"   Cup Final Appearances: {cup_finals} \n")
+
+    return results
+
 
 def get_competition_winners_from_db(competition_name):
     """
@@ -255,6 +362,12 @@ def generate_teams_table(league, teams_obj):
     return cur_teams
 
 def check_team_stats(team, league):
+    """
+     Display detailed statistics of a given team including league and European competition stats.
+
+     :param team: Team object representing the selected team.
+     :param league: Name of the league table in the database.
+     """
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
 
@@ -267,27 +380,37 @@ def check_team_stats(team, league):
 
     if general and league:
         # Access the column values from General table
-        name, country, skill, league_titles, cup_titles, ucl, uel, uecl, europe = general
+        (gen_name, country, skill, league_titles, cup_titles, ucl, uel, uecl, europe) = general
         # Access the column values from League table
-        name, matches, wins, draws, losses, points, goals_scored, goals_against = league
+        (
+            league_name, matches_played, wins, draws, losses, points, goals_scored, goals_against,
+            first_place, second_place, third_place, cup_finals, cup_wins
+        ) = league
 
         # Print the values
-        print("Name:", name)
-        print("Country:", country)
-        print("Skill:", skill)
-        print("Matches played:", matches)
-        print("Wins:", wins)
-        print("Draws:", draws)
-        print("Losses:", losses)
-        print("Points:", points)
-        print("Goals scored:", goals_scored)
-        print("Goals against:", goals_against)
-        print("League Titles:", league_titles)
-        print("Cup Titles:", cup_titles)
-        print("UCL:", ucl)
-        print("UEL:", uel)
-        print("UECL:", uecl)
-        print("European Qualification:", europe)
+        print("\n--- Team Statistics ---")
+        print(f"Name: {gen_name}")
+        print(f"Country: {country}")
+        print(f"Skill: {skill}")
+        print(f"Matches Played: {matches_played}")
+        print(f"Wins: {wins}")
+        print(f"Draws: {draws}")
+        print(f"Losses: {losses}")
+        print(f"Points: {points}")
+        print(f"Goals Scored: {goals_scored}")
+        print(f"Goals Against: {goals_against}")
+
+        print(f"League Titles: {league_titles}")
+        print(f"Second Place Finishes: {second_place}")
+        print(f"Third Place Finishes: {third_place}")
+
+        print(f"Cup Wins: {cup_titles}")
+        print(f"Cup Final Appearances: {cup_finals}")
+
+        print(f"UCL Wins: {ucl}")
+        print(f"UEL Wins: {uel}")
+        print(f"UECL Wins: {uecl}")
+        print(f"Latest European Qualification: {europe}")
 
     # Close the connection
     c.close()

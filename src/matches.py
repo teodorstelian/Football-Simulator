@@ -2,7 +2,8 @@ import math
 from pathlib import Path
 import random
 import settings
-from src.database import update_european_competition_round_team, update_european_competition_appereances, update_team
+from src.database import update_european_competition_round_team, update_european_competition_appereances, update_team, \
+    update_team_parameter
 
 
 def play_country_cup(teams, country):
@@ -37,9 +38,6 @@ def play_country_cup(teams, country):
     # Update stats for all teams
     for team in teams:
         team.update_current()
-
-    # Update the winner's cup titles
-    setattr(winner_obj, "cup_titles", getattr(winner_obj, "cup_titles") + 1)
 
     return teams
 
@@ -100,16 +98,6 @@ def play_european_cup(teams, competition):
     # Update stats for all teams
     for team in teams:
         team.update_current()
-
-    # Update competition-specific titles for the winner
-    competition_mapping = {
-        settings.UCL: "ucl",
-        settings.UEL: "uel",
-        settings.UECL: "uecl"
-    }
-    if competition in competition_mapping:
-        setattr(final_winner, competition_mapping[competition],
-                getattr(final_winner, competition_mapping[competition]) + 1)
 
     return teams
 
@@ -208,6 +196,14 @@ def generate_fixtures_cup(teams, competition, has_2_legs=False, prev_rounds=0, l
                     update_european_competition_round_team(home.name, competition, "finals")
                     update_european_competition_round_team(away.name, competition, "finals")
                     update_european_competition_round_team(winner.name, competition, "winner")
+                else:
+                    home.cup_finals += 1
+                    update_team_parameter(home, competition, "cup_finals", home.cup_finals)
+                    away.cup_finals += 1
+                    update_team_parameter(away, competition, "cup_finals", away.cup_finals)
+                    winner.cup_wins += 1
+                    update_team_parameter(winner, competition, "cup_wins", home.cup_wins)
+
             else:
                 # Play match (either one-leg or two-leg based on `has_2_legs`)
                 winner = home.play_match(away, knockouts=True, has_2_legs=has_2_legs,
@@ -277,7 +273,6 @@ def generate_standings(teams, league, europe):
             winners_file.touch(exist_ok=True)
             with open(winners_file, 'a') as winners:
                 winners.write(f"Winner of {league} League: {team.name}\n")
-            team.league_titles += 1
             team.europe = f"{settings.UCL} - Round 2"
             team.first_place += 1
             update_team(team, league)

@@ -71,3 +71,108 @@ Partizan Belgrade 2 - 1 Red Star Belgrade
 Partizan Belgrade won the match!
 
 Winner of Serbia Cup: Partizan Belgrade
+Winner of League: Red Star Belgrade
+1. Red Star Belgrade - 50 points - 16 wins - 2 draws - 0 losses - 61 scored - 10 against - Champions League - Round 2
+2. Partizan Belgrade - 44 points - 14 wins - 2 draws - 2 losses - 47 scored - 18 against - Champions League - Round 1
+3. Vojvodina - 31 points - 9 wins - 4 draws - 5 losses - 39 scored - 30 against - Champions League - Round 1
+4. Radnicki Nis - 30 points - 9 wins - 3 draws - 6 losses - 37 scored - 29 against - Europa League - Round 2
+5. Cukaricki - 26 points - 8 wins - 2 draws - 8 losses - 37 scored - 38 against - Europa Conference League - Round 2
+6. TSC Backa Topola - 25 points - 7 wins - 4 draws - 7 losses - 32 scored - 45 against - No qualification
+7. Spartak Subotica - 17 points - 5 wins - 2 draws - 11 losses - 30 scored - 40 against - No qualification
+8. FK Napredak - 17 points - 5 wins - 2 draws - 11 losses - 27 scored - 46 against - No qualification
+9. FK Vozdovac - 12 points - 3 wins - 3 draws - 12 losses - 25 scored - 43 against - No qualification
+10. FK Novi Pazar - 5 points - 1 wins - 2 draws - 15 losses - 18 scored - 54 against - No qualification
+Teams of Serbia Cup: ['Red Star Belgrade', 'Partizan Belgrade', 'Vojvodina', 'Cukaricki', 'Radnicki Nis', 'TSC Backa Topola', 'Spartak Subotica', 'FK Napredak']
+
+Current round: Round 1
+Cukaricki 3 - 0 FK Napredak
+Cukaricki won the match!
+Spartak Subotica 2 - 2 TSC Backa Topola
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Spartak Subotica 1 - 0 TSC Backa Topola (Aggregate: 3 - 2)
+Vojvodina 0 - 2 Red Star Belgrade
+Red Star Belgrade won the match!
+Radnicki Nis 1 - 2 Partizan Belgrade
+Partizan Belgrade won the match!
+
+Current round: Round 2
+Partizan Belgrade 3 - 1 Spartak Subotica
+Partizan Belgrade won the match!
+Cukaricki 1 - 3 Red Star Belgrade
+Red Star Belgrade won the match!
+
+Current round: Final:
+Red Star Belgrade 3 - 1 Partizan Belgrade
+Red Star Belgrade won the match!
+
+Winner of Serbia Cup: Red Star Belgrade
+Winner of League: Red Star Belgrade
+1. Red Star Belgrade - 52 points - 17 wins - 1 draws - 0 losses - 53 scored - 9 against - Champions League - Round 2
+2. Partizan Belgrade - 44 points - 14 wins - 2 draws - 2 losses - 50 scored - 20 against - Champions League - Round 1
+3. Vojvodina - 33 points - 10 wins - 3 draws - 5 losses - 30 scored - 18 against - Champions League - Round 1
+4. Cukaricki - 30 points - 9 wins - 3 draws - 6 losses - 33 scored - 25 against - Europa League - Round 2
+5. TSC Backa Topola - 23 points - 6 wins - 5 draws - 7 losses - 31 scored - 37 against - Europa Conference League - Round 2
+6. FK Vozdovac - 19 points - 6 wins - 1 draws - 11 losses - 28 scored - 38 against - No qualification
+7. FK Napredak - 18 points - 5 wins - 3 draws - 10 losses - 24 scored - 36 against - No qualification
+8. Spartak Subotica - 17 points - 5 wins - 2 draws - 11 losses - 26 scored - 36 against - No qualification
+9. Radnicki Nis - 17 points - 5 wins - 2 draws - 11 losses - 22 scored - 40 against - No qualification
+10. FK Novi Pazar - 5 points - 1 wins - 2 draws - 15 losses - 14 scored - 52 against - No qualification
+Teams of Serbia Cup: ['Red Star Belgrade', 'Partizan Belgrade', 'Vojvodina', 'Cukaricki', 'TSC Backa Topola', 'Radnicki Nis', 'FK Vozdovac', 'FK Napredak']
+
+Current round: Round 1
+Radnicki Nis 0 - 1 FK Vozdovac
+FK Vozdovac won the match!
+Partizan Belgrade 4 - 0 FK Napredak
+Partizan Belgrade won the match!
+TSC Backa Topola 1 - 1 Cukaricki
+Aggregate is tied! Proceeding to extra time...
+Extra Time: TSC Backa Topola 0 - 1 Cukaricki (Aggregate: 1 - 2)
+Vojvodina 0 - 2 Red Star Belgrade
+Red Star Belgrade won the match!
+
+Current round: Round 2
+FK Vozdovac 0 - 3 Partizan Belgrade
+Partizan Belgrade won the match!
+Red Star Belgrade 3 - 0 Cukaricki
+Red Star Belgrade won the match!
+
+Current round: Final:
+Red Star Belgrade 3 - 1 Partizan Belgrade
+Red Star Belgrade won the match!
+
+Winner of Serbia Cup: Red Star Belgrade
+Winner of League: Red Star Belgrade
+1. Red Star Belgrade - 52 points - 17 wins - 1 draws - 0 losses - 60 scored - 11 against - Champions League - Round 2
+2. Partizan Belgrade - 41 points - 13 wins - 2 draws - 3 losses - 49 scored - 22 against - Champions League - Round 1
+3. Cukaricki - 34 points - 10 wins - 4 draws - 4 losses - 38 scored - 28 against - Champions League - Round 1
+4. Radnicki Nis - 26 points - 8 wins - 2 draws - 8 losses - 28 scored - 32 against - Europa League - Round 2
+5. Vojvodina - 26 points - 7 wins - 5 draws - 6 losses - 31 scored - 27 against - Europa Conference League - Round 2
+6. TSC Backa Topola - 25 points - 7 wins - 4 draws - 7 losses - 30 scored - 28 against - No qualification
+7. Spartak Subotica - 23 points - 7 wins - 2 draws - 9 losses - 22 scored - 38 against - No qualification
+8. FK Vozdovac - 16 points - 4 wins - 4 draws - 10 losses - 26 scored - 43 against - No qualification
+9. FK Napredak - 9 points - 2 wins - 3 draws - 13 losses - 22 scored - 44 against - No qualification
+10. FK Novi Pazar - 3 points - 0 wins - 3 draws - 15 losses - 14 scored - 47 against - No qualification
+Teams of Serbia Cup: ['Red Star Belgrade', 'Partizan Belgrade', 'Cukaricki', 'Vojvodina', 'Radnicki Nis', 'TSC Backa Topola', 'Spartak Subotica', 'FK Vozdovac']
+
+Current round: Round 1
+Cukaricki 3 - 2 TSC Backa Topola
+Cukaricki won the match!
+Vojvodina 4 - 1 Partizan Belgrade
+Vojvodina won the match!
+Red Star Belgrade 5 - 0 Radnicki Nis
+Red Star Belgrade won the match!
+FK Vozdovac 3 - 1 Spartak Subotica
+FK Vozdovac won the match!
+
+Current round: Round 2
+Vojvodina 1 - 1 Cukaricki
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Vojvodina 1 - 0 Cukaricki (Aggregate: 2 - 1)
+Red Star Belgrade 4 - 0 FK Vozdovac
+Red Star Belgrade won the match!
+
+Current round: Final:
+Vojvodina 2 - 3 Red Star Belgrade
+Red Star Belgrade won the match!
+
+Winner of Serbia Cup: Red Star Belgrade
