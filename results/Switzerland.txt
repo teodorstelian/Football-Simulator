@@ -1,288 +1,135 @@
 Winner of League: Young Boys
-1. Young Boys - 50 points - 16 wins - 2 draws - 0 losses - 51 scored - 9 against - Champions League - Round 2
-2. FC Zurich - 36 points - 11 wins - 3 draws - 4 losses - 37 scored - 23 against - Champions League - Round 2
-3. FC Basel - 34 points - 10 wins - 4 draws - 4 losses - 39 scored - 31 against - Champions League - Round 1
-4. St. Gallen - 27 points - 7 wins - 6 draws - 5 losses - 33 scored - 29 against - Champions League - Round 1
-5. Grasshoppers - 23 points - 6 wins - 5 draws - 7 losses - 28 scored - 32 against - Champions League - Round 1
-6. Servette - 22 points - 6 wins - 4 draws - 8 losses - 28 scored - 29 against - Champions League - Round 1
-7. Lucerne - 16 points - 3 wins - 7 draws - 8 losses - 27 scored - 34 against - Europa League - Round 2
-8. Winterthur - 14 points - 3 wins - 5 draws - 10 losses - 27 scored - 42 against - Europa Conference League - Round 2
-9. Lugano - 14 points - 3 wins - 5 draws - 10 losses - 24 scored - 42 against - No qualification
-10. Sion - 11 points - 2 wins - 5 draws - 11 losses - 19 scored - 42 against - No qualification
-Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'FC Zurich', 'St. Gallen', 'Servette', 'Grasshoppers', 'Lucerne', 'Lugano']
+1. Young Boys - 78 points - 25 wins - 3 draws - 2 losses - 82 scored - 30 against - Champions League - Round 2
+2. FC Basel - 70 points - 22 wins - 4 draws - 4 losses - 74 scored - 34 against - Champions League - Round 2
+3. FC Zurich - 66 points - 21 wins - 3 draws - 6 losses - 70 scored - 35 against - Champions League - Round 1
+4. St. Gallen - 62 points - 19 wins - 5 draws - 6 losses - 66 scored - 34 against - Champions League - Round 1
+5. Lucerne - 57 points - 17 wins - 6 draws - 7 losses - 68 scored - 52 against - Champions League - Round 1
+6. Servette - 54 points - 17 wins - 3 draws - 10 losses - 65 scored - 43 against - Champions League - Round 1
+7. Lugano - 50 points - 16 wins - 2 draws - 12 losses - 48 scored - 52 against - Europa League - Round 2
+8. Grasshoppers - 43 points - 12 wins - 7 draws - 11 losses - 64 scored - 50 against - Europa Conference League - Round 2
+9. Sion - 36 points - 10 wins - 6 draws - 14 losses - 49 scored - 52 against - No qualification
+10. Winterthur - 31 points - 8 wins - 7 draws - 15 losses - 50 scored - 65 against - No qualification
+11. Aarau - 28 points - 7 wins - 7 draws - 16 losses - 42 scored - 64 against - No qualification
+12. Thun - 25 points - 6 wins - 7 draws - 17 losses - 43 scored - 69 against - No qualification
+13. FC Vaduz - 23 points - 5 wins - 8 draws - 17 losses - 37 scored - 65 against - No qualification
+14. FC Lausanne-Sport - 22 points - 5 wins - 7 draws - 18 losses - 41 scored - 66 against - No qualification
+15. Wil 1900 - 17 points - 4 wins - 5 draws - 21 losses - 30 scored - 75 against - No qualification
+16. Schaffhausen - 16 points - 4 wins - 4 draws - 22 losses - 29 scored - 72 against - No qualification
+Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'FC Zurich', 'Servette', 'St. Gallen', 'Lugano', 'Grasshoppers', 'Lucerne', 'Sion', 'Winterthur', 'Thun', 'FC Lausanne-Sport', 'Aarau', 'FC Vaduz', 'Wil 1900', 'Schaffhausen']
 
 Current round: Round 1
-Grasshoppers 0 - 2 Lucerne
-Lucerne won the match!
-Lugano 2 - 5 Young Boys
-Young Boys won the match!
-FC Zurich 3 - 1 Servette
-FC Zurich won the match!
-St. Gallen 1 - 2 FC Basel
+Grasshoppers 1 - 2 Servette
+Servette won the match!
+Lucerne 1 - 2 Lugano
+Lugano won the match!
+FC Basel 3 - 1 Sion
 FC Basel won the match!
+FC Zurich 4 - 0 Wil 1900
+FC Zurich won the match!
+FC Vaduz 2 - 0 Schaffhausen
+FC Vaduz won the match!
+St. Gallen 2 - 1 Young Boys
+St. Gallen won the match!
+Aarau 2 - 1 Thun
+Aarau won the match!
+FC Lausanne-Sport 2 - 2 Winterthur
+Aggregate is tied! Proceeding to extra time...
+Extra Time: FC Lausanne-Sport 0 - 1 Winterthur (Aggregate: 2 - 3)
 
 Current round: Round 2
-FC Basel 1 - 2 Young Boys
-Young Boys won the match!
-Lucerne 3 - 2 FC Zurich
-Lucerne won the match!
-
-Current round: Final:
-Lucerne 1 - 4 Young Boys
-Young Boys won the match!
-
-Winner of Switzerland Cup: Young Boys
-Winner of League: Young Boys
-1. Young Boys - 52 points - 17 wins - 1 draws - 0 losses - 51 scored - 12 against - Champions League - Round 2
-2. FC Basel - 36 points - 11 wins - 3 draws - 4 losses - 48 scored - 23 against - Champions League - Round 2
-3. St. Gallen - 33 points - 10 wins - 3 draws - 5 losses - 40 scored - 33 against - Champions League - Round 1
-4. Servette - 27 points - 8 wins - 3 draws - 7 losses - 33 scored - 32 against - Champions League - Round 1
-5. Lugano - 23 points - 6 wins - 5 draws - 7 losses - 27 scored - 24 against - Champions League - Round 1
-6. FC Zurich - 21 points - 5 wins - 6 draws - 7 losses - 28 scored - 31 against - Champions League - Round 1
-7. Lucerne - 19 points - 5 wins - 4 draws - 9 losses - 27 scored - 39 against - Europa League - Round 2
-8. Grasshoppers - 17 points - 3 wins - 8 draws - 7 losses - 28 scored - 39 against - Europa Conference League - Round 2
-9. Sion - 16 points - 4 wins - 4 draws - 10 losses - 26 scored - 43 against - No qualification
-10. Winterthur - 6 points - 1 wins - 3 draws - 14 losses - 17 scored - 49 against - No qualification
-Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'St. Gallen', 'Servette', 'FC Zurich', 'Lugano', 'Lucerne', 'Grasshoppers']
-
-Current round: Round 1
-FC Zurich 3 - 1 Lucerne
-FC Zurich won the match!
-FC Basel 1 - 0 Grasshoppers
-FC Basel won the match!
-Servette 2 - 0 Lugano
+Lugano 2 - 1 Winterthur
+Lugano won the match!
+Aarau 3 - 4 FC Vaduz
+FC Vaduz won the match!
+Servette 2 - 1 FC Basel
 Servette won the match!
-St. Gallen 0 - 1 Young Boys
-Young Boys won the match!
-
-Current round: Round 2
-Servette 0 - 3 Young Boys
-Young Boys won the match!
-FC Zurich 3 - 2 FC Basel
-FC Zurich won the match!
-
-Current round: Final:
-FC Zurich 1 - 3 Young Boys
-Young Boys won the match!
-
-Winner of Switzerland Cup: Young Boys
-Winner of League: Young Boys
-1. Young Boys - 46 points - 14 wins - 4 draws - 0 losses - 45 scored - 17 against - Champions League - Round 2
-2. FC Basel - 38 points - 11 wins - 5 draws - 2 losses - 40 scored - 18 against - Champions League - Round 2
-3. St. Gallen - 28 points - 8 wins - 4 draws - 6 losses - 31 scored - 28 against - Champions League - Round 1
-4. Grasshoppers - 26 points - 8 wins - 2 draws - 8 losses - 29 scored - 30 against - Champions League - Round 1
-5. Servette - 26 points - 7 wins - 5 draws - 6 losses - 27 scored - 28 against - Champions League - Round 1
-6. FC Zurich - 25 points - 6 wins - 7 draws - 5 losses - 34 scored - 29 against - Champions League - Round 1
-7. Lugano - 21 points - 6 wins - 3 draws - 9 losses - 31 scored - 37 against - Europa League - Round 2
-8. Lucerne - 19 points - 5 wins - 4 draws - 9 losses - 30 scored - 35 against - Europa Conference League - Round 2
-9. Sion - 13 points - 3 wins - 4 draws - 11 losses - 13 scored - 35 against - No qualification
-10. Winterthur - 7 points - 1 wins - 4 draws - 13 losses - 17 scored - 40 against - No qualification
-Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'St. Gallen', 'Servette', 'FC Zurich', 'Grasshoppers', 'Lugano', 'Lucerne']
-
-Current round: Round 1
-St. Gallen 1 - 3 Servette
-Servette won the match!
-Grasshoppers 0 - 3 Young Boys
-Young Boys won the match!
-FC Basel 3 - 1 Lucerne
-FC Basel won the match!
-Lugano 1 - 1 FC Zurich
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Lugano 0 - 1 FC Zurich (Aggregate: 1 - 2)
-
-Current round: Round 2
-FC Zurich 0 - 3 Servette
-Servette won the match!
-FC Basel 4 - 2 Young Boys
-FC Basel won the match!
-
-Current round: Final:
-FC Basel 2 - 1 Servette
-FC Basel won the match!
-
-Winner of Switzerland Cup: FC Basel
-Winner of League: Young Boys
-1. Young Boys - 49 points - 16 wins - 1 draws - 1 losses - 48 scored - 15 against - Champions League - Round 2
-2. FC Basel - 41 points - 13 wins - 2 draws - 3 losses - 47 scored - 20 against - Champions League - Round 2
-3. Lugano - 30 points - 9 wins - 3 draws - 6 losses - 39 scored - 34 against - Champions League - Round 1
-4. Servette - 29 points - 8 wins - 5 draws - 5 losses - 25 scored - 27 against - Champions League - Round 1
-5. St. Gallen - 24 points - 7 wins - 3 draws - 8 losses - 29 scored - 32 against - Champions League - Round 1
-6. FC Zurich - 22 points - 6 wins - 4 draws - 8 losses - 32 scored - 33 against - Champions League - Round 1
-7. Lucerne - 19 points - 6 wins - 1 draws - 11 losses - 29 scored - 38 against - Europa League - Round 2
-8. Grasshoppers - 17 points - 4 wins - 5 draws - 9 losses - 30 scored - 36 against - Europa Conference League - Round 2
-9. Sion - 11 points - 2 wins - 5 draws - 11 losses - 22 scored - 40 against - No qualification
-10. Winterthur - 11 points - 2 wins - 5 draws - 11 losses - 16 scored - 42 against - No qualification
-Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'Servette', 'St. Gallen', 'FC Zurich', 'Lugano', 'Lucerne', 'Grasshoppers']
-
-Current round: Round 1
-Lugano 3 - 3 Servette
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Lugano 0 - 0 Servette (Aggregate: 3 - 3)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Lugano 4 - 5 Servette
-Servette wins on penalties!
-FC Basel 2 - 0 St. Gallen
-FC Basel won the match!
-FC Zurich 1 - 0 Grasshoppers
-FC Zurich won the match!
-Young Boys 3 - 1 Lucerne
-Young Boys won the match!
-
-Current round: Round 2
-Servette 1 - 4 Young Boys
-Young Boys won the match!
-FC Zurich 1 - 2 FC Basel
-FC Basel won the match!
-
-Current round: Final:
-FC Basel 1 - 1 Young Boys
-Aggregate is tied! Proceeding to extra time...
-Extra Time: FC Basel 1 - 0 Young Boys (Aggregate: 2 - 1)
-
-Winner of Switzerland Cup: FC Basel
-Winner of League: Young Boys
-1. Young Boys - 43 points - 13 wins - 4 draws - 1 losses - 45 scored - 17 against - Champions League - Round 2
-2. FC Zurich - 38 points - 12 wins - 2 draws - 4 losses - 40 scored - 25 against - Champions League - Round 2
-3. FC Basel - 33 points - 10 wins - 3 draws - 5 losses - 31 scored - 30 against - Champions League - Round 1
-4. Servette - 32 points - 9 wins - 5 draws - 4 losses - 37 scored - 25 against - Champions League - Round 1
-5. Lucerne - 22 points - 6 wins - 4 draws - 8 losses - 26 scored - 31 against - Champions League - Round 1
-6. Grasshoppers - 22 points - 5 wins - 7 draws - 6 losses - 27 scored - 28 against - Champions League - Round 1
-7. St. Gallen - 21 points - 5 wins - 6 draws - 7 losses - 27 scored - 29 against - Europa League - Round 2
-8. Lugano - 18 points - 5 wins - 3 draws - 10 losses - 30 scored - 39 against - Europa Conference League - Round 2
-9. Winterthur - 14 points - 4 wins - 2 draws - 12 losses - 21 scored - 37 against - No qualification
-10. Sion - 7 points - 1 wins - 4 draws - 13 losses - 17 scored - 40 against - No qualification
-Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'FC Zurich', 'Servette', 'St. Gallen', 'Lucerne', 'Grasshoppers', 'Lugano']
-
-Current round: Round 1
-Servette 3 - 2 Grasshoppers
-Servette won the match!
-Lucerne 1 - 1 Lugano
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Lucerne 1 - 0 Lugano (Aggregate: 2 - 1)
 St. Gallen 2 - 2 FC Zurich
 Aggregate is tied! Proceeding to extra time...
-Extra Time: St. Gallen 1 - 1 FC Zurich (Aggregate: 3 - 3)
+Extra Time: St. Gallen 0 - 0 FC Zurich (Aggregate: 2 - 2)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: St. Gallen 3 - 4 FC Zurich
-FC Zurich wins on penalties!
-FC Basel 2 - 0 Young Boys
-FC Basel won the match!
+Penalties: St. Gallen 5 - 4 FC Zurich
+St. Gallen wins on penalties!
 
-Current round: Round 2
-Lucerne 2 - 2 FC Zurich
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Lucerne 1 - 0 FC Zurich (Aggregate: 3 - 2)
-Servette 1 - 2 FC Basel
-FC Basel won the match!
+Current round: Round 3
+FC Vaduz 1 - 2 Lugano
+Lugano won the match!
+St. Gallen 1 - 0 Servette
+St. Gallen won the match!
 
 Current round: Final:
-FC Basel 2 - 0 Lucerne
-FC Basel won the match!
-
-Winner of Switzerland Cup: FC Basel
-Winner of League: Young Boys
-1. Young Boys - 49 points - 16 wins - 1 draws - 1 losses - 52 scored - 18 against - Champions League - Round 2
-2. FC Basel - 40 points - 12 wins - 4 draws - 2 losses - 44 scored - 25 against - Champions League - Round 2
-3. St. Gallen - 32 points - 9 wins - 5 draws - 4 losses - 37 scored - 30 against - Champions League - Round 1
-4. Servette - 29 points - 8 wins - 5 draws - 5 losses - 36 scored - 30 against - Champions League - Round 1
-5. FC Zurich - 25 points - 7 wins - 4 draws - 7 losses - 39 scored - 32 against - Champions League - Round 1
-6. Grasshoppers - 24 points - 6 wins - 6 draws - 6 losses - 32 scored - 34 against - Champions League - Round 1
-7. Winterthur - 14 points - 4 wins - 2 draws - 12 losses - 24 scored - 45 against - Europa League - Round 2
-8. Lucerne - 14 points - 3 wins - 5 draws - 10 losses - 30 scored - 40 against - Europa Conference League - Round 2
-9. Sion - 13 points - 3 wins - 4 draws - 11 losses - 22 scored - 45 against - No qualification
-10. Lugano - 10 points - 2 wins - 4 draws - 12 losses - 27 scored - 44 against - No qualification
-Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'St. Gallen', 'Servette', 'FC Zurich', 'Grasshoppers', 'Lucerne', 'Lugano']
-
-Current round: Round 1
-Lucerne 1 - 1 Servette
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Lucerne 0 - 1 Servette (Aggregate: 1 - 2)
-Young Boys 2 - 2 FC Basel
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Young Boys 1 - 0 FC Basel (Aggregate: 3 - 2)
-Grasshoppers 0 - 4 FC Zurich
-FC Zurich won the match!
-Lugano 2 - 1 St. Gallen
+St. Gallen 1 - 2 Lugano
 Lugano won the match!
 
-Current round: Round 2
-FC Zurich 3 - 2 Lugano
-FC Zurich won the match!
-Young Boys 2 - 1 Servette
-Young Boys won the match!
-
-Current round: Final:
-FC Zurich 1 - 1 Young Boys
-Aggregate is tied! Proceeding to extra time...
-Extra Time: FC Zurich 0 - 1 Young Boys (Aggregate: 1 - 2)
-
-Winner of Switzerland Cup: Young Boys
+Winner of Switzerland Cup: Lugano
 Winner of League: Young Boys
-1. Young Boys - 54 points - 18 wins - 0 draws - 0 losses - 59 scored - 11 against - Champions League - Round 2
-2. FC Basel - 39 points - 13 wins - 0 draws - 5 losses - 47 scored - 25 against - Champions League - Round 2
-3. Servette - 28 points - 8 wins - 4 draws - 6 losses - 33 scored - 31 against - Champions League - Round 1
-4. St. Gallen - 25 points - 7 wins - 4 draws - 7 losses - 33 scored - 34 against - Champions League - Round 1
-5. Grasshoppers - 22 points - 6 wins - 4 draws - 8 losses - 21 scored - 31 against - Champions League - Round 1
-6. FC Zurich - 20 points - 5 wins - 5 draws - 8 losses - 29 scored - 33 against - Champions League - Round 1
-7. Lucerne - 19 points - 5 wins - 4 draws - 9 losses - 28 scored - 40 against - Europa League - Round 2
-8. Winterthur - 15 points - 3 wins - 6 draws - 9 losses - 25 scored - 43 against - Europa Conference League - Round 2
-9. Sion - 14 points - 3 wins - 5 draws - 10 losses - 21 scored - 34 against - No qualification
-10. Lugano - 14 points - 2 wins - 8 draws - 8 losses - 23 scored - 37 against - No qualification
-Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'Servette', 'St. Gallen', 'FC Zurich', 'Grasshoppers', 'Lucerne', 'Lugano']
+1. Young Boys - 78 points - 25 wins - 3 draws - 2 losses - 91 scored - 25 against - Champions League - Round 2
+2. FC Basel - 69 points - 22 wins - 3 draws - 5 losses - 77 scored - 38 against - Champions League - Round 2
+3. FC Zurich - 63 points - 19 wins - 6 draws - 5 losses - 69 scored - 36 against - Champions League - Round 1
+4. Lugano - 58 points - 18 wins - 4 draws - 8 losses - 59 scored - 43 against - Champions League - Round 1
+5. Grasshoppers - 56 points - 17 wins - 5 draws - 8 losses - 63 scored - 45 against - Champions League - Round 1
+6. Servette - 53 points - 15 wins - 8 draws - 7 losses - 56 scored - 40 against - Champions League - Round 1
+7. Lucerne - 46 points - 14 wins - 4 draws - 12 losses - 49 scored - 42 against - Europa League - Round 2
+8. St. Gallen - 46 points - 13 wins - 7 draws - 10 losses - 50 scored - 47 against - Europa Conference League - Round 2
+9. Winterthur - 41 points - 11 wins - 8 draws - 11 losses - 54 scored - 59 against - Europa Conference League - Round 1
+10. Sion - 40 points - 12 wins - 4 draws - 14 losses - 48 scored - 53 against - No qualification
+11. FC Lausanne-Sport - 30 points - 8 wins - 6 draws - 16 losses - 44 scored - 66 against - No qualification
+12. FC Vaduz - 24 points - 7 wins - 3 draws - 20 losses - 38 scored - 70 against - No qualification
+13. Thun - 24 points - 6 wins - 6 draws - 18 losses - 40 scored - 62 against - No qualification
+14. Aarau - 23 points - 6 wins - 5 draws - 19 losses - 36 scored - 69 against - No qualification
+15. Wil 1900 - 15 points - 4 wins - 3 draws - 23 losses - 29 scored - 66 against - No qualification
+16. Schaffhausen - 14 points - 3 wins - 5 draws - 22 losses - 37 scored - 79 against - No qualification
+Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'FC Zurich', 'Servette', 'St. Gallen', 'Lugano', 'Grasshoppers', 'Lucerne', 'Sion', 'Winterthur', 'FC Lausanne-Sport', 'Thun', 'Aarau', 'FC Vaduz', 'Wil 1900', 'Schaffhausen']
 
 Current round: Round 1
-Lucerne 3 - 2 Lugano
-Lucerne won the match!
-FC Zurich 3 - 2 St. Gallen
-FC Zurich won the match!
-FC Basel 2 - 1 Grasshoppers
-FC Basel won the match!
-Young Boys 2 - 0 Servette
-Young Boys won the match!
-
-Current round: Round 2
-FC Zurich 1 - 2 FC Basel
-FC Basel won the match!
-Lucerne 2 - 2 Young Boys
+Thun 2 - 2 Grasshoppers
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Lucerne 0 - 1 Young Boys (Aggregate: 2 - 3)
-
-Current round: Final:
-FC Basel 3 - 2 Young Boys
-FC Basel won the match!
-
-Winner of Switzerland Cup: FC Basel
-Winner of League: Young Boys
-1. Young Boys - 50 points - 16 wins - 2 draws - 0 losses - 48 scored - 9 against - Champions League - Round 2
-2. FC Basel - 36 points - 11 wins - 3 draws - 4 losses - 37 scored - 21 against - Champions League - Round 2
-3. FC Zurich - 35 points - 10 wins - 5 draws - 3 losses - 39 scored - 24 against - Champions League - Round 1
-4. Servette - 31 points - 9 wins - 4 draws - 5 losses - 34 scored - 34 against - Champions League - Round 1
-5. Grasshoppers - 29 points - 8 wins - 5 draws - 5 losses - 26 scored - 25 against - Champions League - Round 1
-6. St. Gallen - 21 points - 5 wins - 6 draws - 7 losses - 28 scored - 31 against - Champions League - Round 1
-7. Sion - 14 points - 2 wins - 8 draws - 8 losses - 25 scored - 39 against - Europa League - Round 2
-8. Lucerne - 13 points - 3 wins - 4 draws - 11 losses - 17 scored - 32 against - Europa Conference League - Round 2
-9. Lugano - 11 points - 3 wins - 2 draws - 13 losses - 19 scored - 34 against - No qualification
-10. Winterthur - 10 points - 3 wins - 1 draws - 14 losses - 17 scored - 41 against - No qualification
-Teams of Switzerland Cup: ['Young Boys', 'FC Basel', 'FC Zurich', 'Servette', 'St. Gallen', 'Grasshoppers', 'Lucerne', 'Lugano']
-
-Current round: Round 1
-Lugano 0 - 1 FC Zurich
-FC Zurich won the match!
-Grasshoppers 2 - 0 Lucerne
-Grasshoppers won the match!
-Young Boys 3 - 2 St. Gallen
+Extra Time: Thun 1 - 1 Grasshoppers (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Thun 5 - 4 Grasshoppers
+Thun wins on penalties!
+Lugano 3 - 2 FC Basel
+Lugano won the match!
+Schaffhausen 2 - 2 FC Zurich
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Schaffhausen 0 - 0 FC Zurich (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Schaffhausen 2 - 4 FC Zurich
+FC Zurich wins on penalties!
+Aarau 1 - 4 FC Vaduz
+FC Vaduz won the match!
+Winterthur 2 - 0 FC Lausanne-Sport
+Winterthur won the match!
+Young Boys 4 - 1 Lucerne
 Young Boys won the match!
-Servette 1 - 0 FC Basel
-Servette won the match!
+Sion 3 - 1 Wil 1900
+Sion won the match!
+Servette 1 - 1 St. Gallen
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Servette 1 - 1 St. Gallen (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Servette 4 - 4 St. Gallen
+Penalties are tied! Sudden death begins!
+Sudden Death: Servette 5 - 4 St. Gallen
+Servette wins on sudden death penalties!
 
 Current round: Round 2
-FC Zurich 2 - 1 Servette
-FC Zurich won the match!
-Grasshoppers 0 - 3 Young Boys
+Young Boys 4 - 0 Thun
 Young Boys won the match!
+Lugano 4 - 2 FC Vaduz
+Lugano won the match!
+Sion 0 - 2 FC Zurich
+FC Zurich won the match!
+Winterthur 5 - 1 Servette
+Winterthur won the match!
+
+Current round: Round 3
+Young Boys 3 - 0 FC Zurich
+Young Boys won the match!
+Lugano 3 - 2 Winterthur
+Lugano won the match!
 
 Current round: Final:
-FC Zurich 0 - 1 Young Boys
+Young Boys 3 - 1 Lugano
 Young Boys won the match!
 
 Winner of Switzerland Cup: Young Boys

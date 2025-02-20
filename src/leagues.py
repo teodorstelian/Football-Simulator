@@ -71,9 +71,6 @@ def select_teams_from_league(country):
     if country_name is None or teams_obj is None or teams_name is None:
         raise ValueError("Invalid value")
 
-    print(f"Country: {country_name}")
-    print(f"Teams: {teams_name}")
-
     return country_name, teams_obj, teams_name, europe_places
 
 

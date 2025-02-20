@@ -11,63 +11,63 @@ GENERAL_TABLE = "General"
 # Countries - Name, Teams, European Places
 ENG = {"name": "England",
        "teams": ENG_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [0, 4], "UECL": [0, 4]}}
+       "europe": {"UCL": [2, 3], "UEL": [0, 3], "UECL": [0, 3]}}
 
 ESP = {"name": "Spain",
        "teams": ESP_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [0, 4], "UECL": [0, 4]}}
+       "europe": {"UCL": [2, 3], "UEL": [0, 3], "UECL": [0, 2]}}
 
 GER = {"name": "Germany",
        "teams": GER_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [0, 4], "UECL": [0, 4]}}
+       "europe": {"UCL": [2, 3], "UEL": [0, 3], "UECL": [0, 2]}}
 
 ITA = {"name": "Italy",
        "teams": ITA_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [0, 4], "UECL": [0, 4]}}
+       "europe": {"UCL": [2, 3], "UEL": [0, 3], "UECL": [0, 2]}}
 
 FRA = {"name": "France",
        "teams": FRA_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [0, 4], "UECL": [0, 4]}}
+       "europe": {"UCL": [2, 3], "UEL": [0, 3], "UECL": [0, 2]}}
 
 NED = {"name": "Netherlands",
        "teams": NED_TEAMS,
-        "europe": {"UCL": [2, 4], "UEL": [2, 2], "UECL": [2, 2]}}
+        "europe": {"UCL": [2, 2], "UEL": [2, 1], "UECL": [2, 1]}}
 
 POR = {"name": "Portugal",
        "teams": POR_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [2, 2], "UECL": [2, 2]}}
+       "europe": {"UCL": [2, 2], "UEL": [2, 1], "UECL": [2, 1]}}
 
 BEL = {"name": "Belgium",
        "teams": BEL_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [1, 2], "UECL": [1, 2]}}
+       "europe": {"UCL": [2, 2], "UEL": [1, 1], "UECL": [1, 1]}}
 
 SCO = {"name": "Scotland",
        "teams": SCO_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [1, 2], "UECL": [1, 2]}}
+       "europe": {"UCL": [2, 2], "UEL": [1, 1], "UECL": [1, 1]}}
 
 AUS = {"name": "Austria",
        "teams": AUS_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [1, 2], "UECL": [1, 2]}}
+       "europe": {"UCL": [2, 2], "UEL": [1, 1], "UECL": [1, 1]}}
 
 ROM = {"name": "Romania",
        "teams": ROM_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [1, 2], "UECL": [1, 2]}}
+       "europe": {"UCL": [2, 4], "UEL": [1, 1], "UECL": [1, 1]}}
 
 SUI = {"name": "Switzerland",
        "teams": SUI_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [1, 0], "UECL": [1, 0]}}
+       "europe": {"UCL": [2, 4], "UEL": [1, 0], "UECL": [1, 1]}}
 
 TUR = {"name": "Turkey",
        "teams": TUR_TEAMS,
-       "europe": {"UCL": [2, 4], "UEL": [1, 0], "UECL": [1, 0]}}
+       "europe": {"UCL": [2, 4], "UEL": [1, 1], "UECL": [1, 1]}}
 
 GRE = {"name": "Greece",
        "teams": GRE_TEAMS,
-       "europe": {"UCL": [1, 2], "UEL": [1, 0], "UECL": [1, 0]}}
+       "europe": {"UCL": [1, 2], "UEL": [1, 0], "UECL": [1, 1]}}
 
 CZE = {"name": "Czech_Republic",
        "teams": CZE_TEAMS,
-       "europe": {"UCL": [1, 2], "UEL": [1, 0], "UECL": [1, 0]}}
+       "europe": {"UCL": [1, 2], "UEL": [1, 0], "UECL": [1, 1]}}
 
 POL = {"name": "Poland",
        "teams": POL_TEAMS,
@@ -84,8 +84,49 @@ UKR = {"name": "Ukraine",
 SRB = {"name": "Serbia",
        "teams": SRB_TEAMS,
        "europe": {"UCL": [1, 2], "UEL": [1, 0], "UECL": [1, 0]}}
-ALL_COUNTRIES = [ENG, ESP, GER, ITA, FRA, NED, POR, BEL, SCO, AUS, ROM, SUI, TUR, GRE, CZE, POL, RUS, UKR, SRB]
 
+NOR = {"name": "Norway",
+       "teams": NOR_TEAMS,
+       "europe": {"UCL": [0, 1], "UEL": [0, 1], "UECL": [0, 1]}}
+
+SWE = {"name": "Sweden",
+       "teams": SWE_TEAMS,
+       "europe": {"UCL": [0, 1], "UEL": [0, 1], "UECL": [0, 1]}}
+
+DEN = {"name": "Denmark",
+       "teams": DEN_TEAMS,
+       "europe": {"UCL": [0, 2], "UEL": [0, 1], "UECL": [0, 1]}}
+
+HUN = {"name": "Hungary",
+       "teams": HUN_TEAMS,
+       "europe": {"UCL": [0, 2], "UEL": [0, 1], "UECL": [0, 2]}}
+
+CRO = {"name": "Croatia",
+       "teams": CRO_TEAMS,
+       "europe": {"UCL": [0, 2], "UEL": [0, 1], "UECL": [0, 1]}}
+
+BUL = {"name": "Bulgaria",
+       "teams": BUL_TEAMS,
+       "europe": {"UCL": [0, 2], "UEL": [0, 1], "UECL": [0, 1]}}
+
+SVK = {"name": "Slovakia",
+       "teams": SVK_TEAMS,
+       "europe": {"UCL": [0, 1], "UEL": [0, 1], "UECL": [0, 1]}}
+
+SLO = {"name": "Slovenia",
+       "teams": SLO_TEAMS,
+       "europe": {"UCL": [0, 1], "UEL": [0, 1], "UECL": [0, 1]}}
+
+FIN = {"name": "Finland",
+       "teams": FIN_TEAMS,
+       "europe": {"UCL": [0, 2], "UEL": [0, 1], "UECL": [0, 1]}}
+
+BIH = {"name": "Bosnia_and_Herzegovina",
+       "teams": BIH_TEAMS,
+       "europe": {"UCL": [0, 1], "UEL": [0, 1], "UECL": [0, 1]}}
+
+ALL_COUNTRIES = [ENG, ESP, GER, ITA, FRA, NED, POR, BEL, SCO, AUS, ROM, SUI, TUR, GRE, CZE, POL,
+                 RUS, UKR, SRB, NOR, SWE, DEN, HUN, CRO, BUL, SVK, SLO, FIN, BIH]
 # Europe Places - UCL, UEL, UECL
 UCL = "Champions League"
 UEL = "Europa League"

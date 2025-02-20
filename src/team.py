@@ -166,7 +166,7 @@ class Team:
 
             # Save log messages to file if specified
             if file:
-                with open(file, 'a') as f:
+                with open(file, 'a',  encoding="utf-8") as f:
                     f.write('\n'.join(log_messages) + '\n')
 
             return winner or "Draw"
@@ -199,7 +199,7 @@ class Team:
 
         # Save log messages to file if specified
         if file:
-            with open(file, 'a') as f:
+            with open(file, 'a',  encoding="utf-8") as f:
                 f.write('\n'.join(log_messages) + '\n')
 
         return winner

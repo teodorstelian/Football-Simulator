@@ -3,7 +3,7 @@ import sys
 import settings
 from database import get_best_teams, create_general_table, generate_teams_table, check_team_stats, \
     get_teams, update_team, get_competition_winners_from_db, create_european_competitions_table, \
-    get_european_competition_stats, update_general_table_with_stats
+    get_european_competition_stats, update_general_table_with_stats, populate_general_table, get_teams_by_skills
 from leagues import league_simulation, select_league, select_teams_from_league, cup_simulation
 from src.database import update_european_competition_appereances
 from src.matches import play_european_cup
@@ -37,12 +37,13 @@ class MainProgram:
             "5. Check best teams \n"
             "6. See stats for a team \n"
             "7. See most winners of a competition \n"
-            "8. View European Competition Stats \n"  # New option added
+            "8. View European Competition Stats \n" 
+            "9. See most skilled teams \n"
         )  # Menu options
         self.choice = input("Select action: ").strip()
 
         # Actions that do not require league or team selection
-        no_team_selection = ["1", "4", "7", "8", "q"]
+        no_team_selection = ["1", "4", "7", "8", "9", "q"]
 
         if self.choice not in no_team_selection:
             # Prompt user to select a league
@@ -59,8 +60,14 @@ class MainProgram:
 
     def update_general(self, create=False):
         if create:
+            print("Initializing general table and European tables...")
             self.initialize_european_tables()
             create_general_table()
+            for country in settings.ALL_COUNTRIES:
+                self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(country)
+                generate_teams_table(self.league, self.teams_obj)
+            populate_general_table()
+        print("Updating general table with fresh stats...")
         update_general_table_with_stats()
 
     def update_all_leagues(self):
@@ -175,6 +182,17 @@ class MainProgram:
         for rank, (team, titles) in enumerate(winners, start=1):
             print(f"{rank}. {team}: {titles} titles")
 
+    def get_best_skills_teams(self):
+        """
+        Retrieves and prints the best teams sorted by skill from the general table.
+        """
+        # Fetch the teams sorted by skill
+        sorted_teams = get_teams_by_skills()
+
+        if not sorted_teams:
+            print("No teams are available based on skills.")
+            return
+
     def select_choice(self):
         if self.choice == "1":
             self.simulate_season()
@@ -192,7 +210,8 @@ class MainProgram:
             self.most_winners_by_competition()
         if self.choice == "8":
             self.view_european_competition_stats()
-
+        if self.choice == "9":
+            self.get_best_skills_teams()
 
 if __name__ == "__main__":
     program = MainProgram()

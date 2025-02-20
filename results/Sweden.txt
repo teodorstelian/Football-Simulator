@@ -1,0 +1,133 @@
+Winner of League: Malmö FF
+1. Malmö FF - 79 points - 25 wins - 4 draws - 1 losses - 76 scored - 22 against - Champions League - Round 1
+2. Djurgården - 72 points - 23 wins - 3 draws - 4 losses - 69 scored - 35 against - No qualification
+3. AIK - 69 points - 21 wins - 6 draws - 3 losses - 69 scored - 35 against - No qualification
+4. IFK Göteborg - 67 points - 21 wins - 4 draws - 5 losses - 75 scored - 34 against - No qualification
+5. Hammarby - 49 points - 14 wins - 7 draws - 9 losses - 57 scored - 44 against - No qualification
+6. Kalmar FF - 48 points - 15 wins - 3 draws - 12 losses - 59 scored - 47 against - No qualification
+7. Norrköping - 46 points - 13 wins - 7 draws - 10 losses - 55 scored - 54 against - No qualification
+8. Elfsborg - 43 points - 13 wins - 4 draws - 13 losses - 48 scored - 44 against - No qualification
+9. Sirius - 37 points - 11 wins - 4 draws - 15 losses - 56 scored - 65 against - No qualification
+10. Brommapojkarna - 31 points - 9 wins - 4 draws - 17 losses - 39 scored - 62 against - No qualification
+11. Örebro SK - 31 points - 7 wins - 10 draws - 13 losses - 42 scored - 58 against - No qualification
+12. Helsingborg - 28 points - 6 wins - 10 draws - 14 losses - 45 scored - 61 against - No qualification
+13. Östersunds FK - 27 points - 6 wins - 9 draws - 15 losses - 40 scored - 65 against - No qualification
+14. Varbergs BoIS FC - 20 points - 5 wins - 5 draws - 20 losses - 37 scored - 64 against - No qualification
+15. Degerfors - 14 points - 2 wins - 8 draws - 20 losses - 39 scored - 74 against - No qualification
+16. Trelleborgs FF - 12 points - 2 wins - 6 draws - 22 losses - 29 scored - 71 against - No qualification
+Teams of Sweden Cup: ['Malmö FF', 'AIK', 'Djurgården', 'IFK Göteborg', 'Hammarby', 'Elfsborg', 'Norrköping', 'Kalmar FF', 'Sirius', 'Helsingborg', 'Örebro SK', 'Östersunds FK', 'Degerfors', 'Brommapojkarna', 'Varbergs BoIS FC', 'Trelleborgs FF']
+
+Current round: Round 1
+Djurgården 2 - 0 Helsingborg
+Djurgården won the match!
+Varbergs BoIS FC 1 - 4 AIK
+AIK won the match!
+Malmö FF 3 - 1 Sirius
+Malmö FF won the match!
+Brommapojkarna 0 - 2 Degerfors
+Degerfors won the match!
+Kalmar FF 2 - 1 Hammarby
+Kalmar FF won the match!
+Elfsborg 1 - 2 Norrköping
+Norrköping won the match!
+IFK Göteborg 3 - 1 Östersunds FK
+IFK Göteborg won the match!
+Trelleborgs FF 1 - 2 Örebro SK
+Örebro SK won the match!
+
+Current round: Round 2
+Örebro SK 0 - 2 Malmö FF
+Malmö FF won the match!
+Degerfors 0 - 3 Djurgården
+Djurgården won the match!
+Norrköping 1 - 1 AIK
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Norrköping 0 - 0 AIK (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Norrköping 2 - 1 AIK
+Norrköping wins on penalties!
+Kalmar FF 3 - 1 IFK Göteborg
+Kalmar FF won the match!
+
+Current round: Round 3
+Malmö FF 3 - 0 Norrköping
+Malmö FF won the match!
+Djurgården 2 - 0 Kalmar FF
+Djurgården won the match!
+
+Current round: Final:
+Malmö FF 2 - 3 Djurgården
+Djurgården won the match!
+
+Winner of Sweden Cup: Djurgården
+Winner of League: Malmö FF
+1. Malmö FF - 73 points - 23 wins - 4 draws - 3 losses - 87 scored - 34 against - Champions League - Round 1
+2. Djurgården - 68 points - 21 wins - 5 draws - 4 losses - 70 scored - 32 against - Europa League - Round 1
+3. IFK Göteborg - 67 points - 21 wins - 4 draws - 5 losses - 78 scored - 39 against - Europa Conference League - Round 1
+4. AIK - 62 points - 19 wins - 5 draws - 6 losses - 71 scored - 35 against - No qualification
+5. Elfsborg - 56 points - 17 wins - 5 draws - 8 losses - 70 scored - 44 against - No qualification
+6. Norrköping - 55 points - 17 wins - 4 draws - 9 losses - 63 scored - 46 against - No qualification
+7. Hammarby - 47 points - 14 wins - 5 draws - 11 losses - 59 scored - 52 against - No qualification
+8. Kalmar FF - 41 points - 12 wins - 5 draws - 13 losses - 58 scored - 55 against - No qualification
+9. Örebro SK - 38 points - 11 wins - 5 draws - 14 losses - 51 scored - 64 against - No qualification
+10. Helsingborg - 34 points - 9 wins - 7 draws - 14 losses - 52 scored - 68 against - No qualification
+11. Östersunds FK - 27 points - 7 wins - 6 draws - 17 losses - 47 scored - 68 against - No qualification
+12. Sirius - 26 points - 6 wins - 8 draws - 16 losses - 45 scored - 59 against - No qualification
+13. Trelleborgs FF - 24 points - 7 wins - 3 draws - 20 losses - 43 scored - 78 against - No qualification
+14. Varbergs BoIS FC - 22 points - 7 wins - 1 draws - 22 losses - 36 scored - 77 against - No qualification
+15. Brommapojkarna - 22 points - 6 wins - 4 draws - 20 losses - 39 scored - 78 against - No qualification
+16. Degerfors - 19 points - 4 wins - 7 draws - 19 losses - 45 scored - 85 against - No qualification
+Teams of Sweden Cup: ['Malmö FF', 'AIK', 'Djurgården', 'IFK Göteborg', 'Hammarby', 'Elfsborg', 'Norrköping', 'Kalmar FF', 'Sirius', 'Helsingborg', 'Örebro SK', 'Östersunds FK', 'Degerfors', 'Varbergs BoIS FC', 'Brommapojkarna', 'Trelleborgs FF']
+
+Current round: Round 1
+Elfsborg 1 - 1 Norrköping
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Elfsborg 0 - 0 Norrköping (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Elfsborg 2 - 2 Norrköping
+Penalties are tied! Sudden death begins!
+Sudden Death: Elfsborg 7 - 6 Norrköping
+Elfsborg wins on sudden death penalties!
+Brommapojkarna 1 - 2 IFK Göteborg
+IFK Göteborg won the match!
+AIK 3 - 1 Kalmar FF
+AIK won the match!
+Degerfors 1 - 2 Östersunds FK
+Östersunds FK won the match!
+Trelleborgs FF 1 - 3 Helsingborg
+Helsingborg won the match!
+Örebro SK 1 - 3 Malmö FF
+Malmö FF won the match!
+Djurgården 2 - 0 Hammarby
+Djurgården won the match!
+Varbergs BoIS FC 2 - 2 Sirius
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Varbergs BoIS FC 0 - 0 Sirius (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Varbergs BoIS FC 4 - 4 Sirius
+Penalties are tied! Sudden death begins!
+Sudden Death: Varbergs BoIS FC 6 - 5 Sirius
+Varbergs BoIS FC wins on sudden death penalties!
+
+Current round: Round 2
+Östersunds FK 2 - 4 Djurgården
+Djurgården won the match!
+IFK Göteborg 3 - 0 Varbergs BoIS FC
+IFK Göteborg won the match!
+Helsingborg 1 - 4 Malmö FF
+Malmö FF won the match!
+Elfsborg 3 - 2 AIK
+Elfsborg won the match!
+
+Current round: Round 3
+Elfsborg 3 - 3 Malmö FF
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Elfsborg 0 - 1 Malmö FF (Aggregate: 3 - 4)
+IFK Göteborg 0 - 1 Djurgården
+Djurgården won the match!
+
+Current round: Final:
+Malmö FF 4 - 1 Djurgården
+Malmö FF won the match!
+
+Winner of Sweden Cup: Malmö FF

@@ -3,7 +3,7 @@ from pathlib import Path
 import random
 import settings
 from src.database import update_european_competition_round_team, update_european_competition_appereances, update_team, \
-    update_team_parameter
+    update_team_parameter, update_general_table_european_spots
 
 
 def play_country_cup(teams, country):
@@ -19,7 +19,7 @@ def play_country_cup(teams, country):
     competition_text.touch(exist_ok=True)
     teams_name = [team.name for team in teams]
     print(teams_name)
-    with open(competition_text, 'a') as file:
+    with open(competition_text, 'a', encoding="utf-8") as file:
         file.write(f"Teams of {country} Cup: {teams_name}\n")
 
     # Generate fixtures and determine the winner (single-legged matches for country cups)
@@ -28,11 +28,11 @@ def play_country_cup(teams, country):
     print("Overall Winner:", winner_name)
 
     # Log the winner
-    with open(competition_text, 'a') as file:
+    with open(competition_text, 'a', encoding="utf-8") as file:
         file.write(f"\nWinner of {country} Cup: {winner_name}\n")
     winners_file = Path(f"{settings.RESULTS_FOLDER}/{settings.WINNERS_TEXT}")
     winners_file.touch(exist_ok=True)
-    with open(winners_file, 'a') as winners:
+    with open(winners_file, 'a',  encoding="utf-8") as winners:
         winners.write(f"Winner of {country} Cup: {winner_name}\n")
 
     # Update stats for all teams
@@ -59,7 +59,7 @@ def play_european_cup(teams, competition):
     round_2_teams = [team for team in teams if "Round 2" in team.europe]
 
     # Log Round 1 teams
-    with open(competition_text, 'a') as file:
+    with open(competition_text, 'a',  encoding="utf-8") as file:
         file.write(f"Teams starting in {competition} Round 1: {[team.name for team in round_1_teams]}\n")
 
     # If there are Round 1 teams, play a single round of knockout from Round 1
@@ -70,7 +70,7 @@ def play_european_cup(teams, competition):
         round_1_winners = []
 
         # Log Round 2 teams
-    with open(competition_text, 'a') as file:
+    with open(competition_text, 'a',  encoding="utf-8") as file:
         file.write(f"Round 1 Winners: {[team.name for team in round_1_winners]}\n")
         file.write(f"Round 2 Qualified: {[team.name for team in round_2_teams]}\n")
 
@@ -78,7 +78,7 @@ def play_european_cup(teams, competition):
     all_remaining_teams = round_1_winners + round_2_teams
 
     # Log Round 2 teams
-    with open(competition_text, 'a') as file:
+    with open(competition_text, 'a',  encoding="utf-8") as file:
         file.write(f"Teams advancing to Round 2: {[team.name for team in all_remaining_teams]}\n")
 
     # Simulate the rest of the tournament
@@ -88,11 +88,11 @@ def play_european_cup(teams, competition):
     # Log the overall winner
     winner_name = final_winner.name
     print("Overall Winner:", winner_name)
-    with open(competition_text, 'a') as file:
+    with open(competition_text, 'a',  encoding="utf-8") as file:
         file.write(f"\nWinner of {competition}: {winner_name}\n")
     winners_file = Path(f"{settings.RESULTS_FOLDER}/{settings.WINNERS_TEXT}")
     winners_file.touch(exist_ok=True)
-    with open(winners_file, 'a') as winners:
+    with open(winners_file, 'a',  encoding="utf-8") as winners:
         winners.write(f"Winner of {competition}: {winner_name}\n")
 
     # Update stats for all teams
@@ -145,7 +145,7 @@ def generate_single_round(teams, competition, has_2_legs=False, logging=False):
 
         # Log the final match result
         if logging:
-            with open(competition_text, 'a') as log_file:
+            with open(competition_text, 'a',  encoding="utf-8") as log_file:
                 log_file.write(f"{home.name} vs {away.name}, Winner: {winner.name}\n")
 
     return next_round
@@ -179,7 +179,7 @@ def generate_fixtures_cup(teams, competition, has_2_legs=False, prev_rounds=0, l
         round_name = f"Round {round_num + prev_rounds + 1}" if len(current_participants) > 2 else "Final:"
         print(round_name)
         if logging:
-            with open(competition_text, 'a') as log_file:
+            with open(competition_text, 'a',  encoding="utf-8") as log_file:
                 log_file.write(f"\nCurrent round: {round_name}\n")
 
         next_round = []
@@ -278,14 +278,13 @@ def generate_standings(teams, league, europe):
 
     for i, team in enumerate(teams):
         if i == 0:
-            with open(league_text, 'a') as file:
+            with open(league_text, 'a',  encoding="utf-8") as file:
                 file.write(f"Winner of League: {team.name}\n")
             print(f"Winner of {league}: {team.name}")
             winners_file = Path(f"{settings.RESULTS_FOLDER}/{settings.WINNERS_TEXT}")
             winners_file.touch(exist_ok=True)
-            with open(winners_file, 'a') as winners:
+            with open(winners_file, 'a',  encoding="utf-8") as winners:
                 winners.write(f"Winner of {league} League: {team.name}\n")
-            team.europe = f"{settings.UCL} - Round 2"
             team.first_place += 1
             update_team(team, league)
         elif i == 1:
@@ -310,8 +309,9 @@ def generate_standings(teams, league, europe):
             team.europe = f"{settings.UECL} - Round 1"
         else:
             team.europe = "No qualification"
+        update_general_table_european_spots(team)
         current_team = team.current
-        with open(league_text, 'a') as file:
+        with open(league_text, 'a', encoding="utf-8") as file:
             file.write(
                 f"{i + 1}. {team.name} - {current_team['points']} points - {current_team['wins']} wins - "
                 f"{current_team['draws']} draws - {current_team['losses']} losses"
