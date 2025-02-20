@@ -1597,3 +1597,182 @@ Tottenham Hotspur 3 - 0 Olympique Lyon
 Tottenham Hotspur won the match!
 
 Winner of Europa League: Tottenham Hotspur
+Teams starting in Europa League Round 1: ['West Ham United', 'Tottenham Hotspur', 'Brighton', 'Aston Villa', 'Athletic Bilbao', 'Villareal', 'Celta Vigo', 'Real Betis', 'SC Freiburg', 'Mainz 05', 'VfL Wolfsburg', 'Werder Bremen', 'AS Roma', 'Bologna', 'Fiorentina', 'Torino', 'AS Monaco', 'Strasbourg', 'Brest', 'Marseille', 'SC Heerenveen', 'Vitesse', 'Famalicao', 'Gil Vicente', 'Cercle Brugge', 'Westerlo', 'Dundee', 'Ross County', 'WSG Tirol', 'Austria Klagenfurt', 'Sepsi', 'Farul Constanta']
+1st Leg: AS Roma (Home) 2 - 1 Real Betis (Away)
+2nd Leg: Real Betis (Home) 2 - 3 AS Roma (Away)
+AS Roma vs Real Betis, Winner: AS Roma
+1st Leg: Sepsi (Home) 1 - 3 Villareal (Away)
+2nd Leg: Villareal (Home) 3 - 0 Sepsi (Away)
+Sepsi vs Villareal, Winner: Villareal
+1st Leg: West Ham United (Home) 1 - 0 Vitesse (Away)
+2nd Leg: Vitesse (Home) 3 - 2 West Ham United (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: West Ham United 1 - 0 Vitesse (Aggregate: 4 - 3)
+West Ham United vs Vitesse, Winner: West Ham United
+1st Leg: Werder Bremen (Home) 1 - 1 Tottenham Hotspur (Away)
+2nd Leg: Tottenham Hotspur (Home) 3 - 1 Werder Bremen (Away)
+Werder Bremen vs Tottenham Hotspur, Winner: Tottenham Hotspur
+1st Leg: Cercle Brugge (Home) 1 - 1 WSG Tirol (Away)
+2nd Leg: WSG Tirol (Home) 2 - 2 Cercle Brugge (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Cercle Brugge 1 - 0 WSG Tirol (Aggregate: 4 - 3)
+Cercle Brugge vs WSG Tirol, Winner: Cercle Brugge
+1st Leg: Athletic Bilbao (Home) 3 - 2 Marseille (Away)
+2nd Leg: Marseille (Home) 4 - 3 Athletic Bilbao (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Athletic Bilbao 1 - 1 Marseille (Aggregate: 7 - 7)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Athletic Bilbao 4 - 4 Marseille
+Penalties are tied! Sudden death begins!
+Sudden Death: Athletic Bilbao 6 - 5 Marseille
+Athletic Bilbao wins on sudden death penalties!
+Athletic Bilbao vs Marseille, Winner: Athletic Bilbao
+1st Leg: VfL Wolfsburg (Home) 3 - 3 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 2 - 0 VfL Wolfsburg (Away)
+VfL Wolfsburg vs AS Monaco, Winner: AS Monaco
+1st Leg: Fiorentina (Home) 1 - 0 SC Freiburg (Away)
+2nd Leg: SC Freiburg (Home) 2 - 1 Fiorentina (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Fiorentina 0 - 0 SC Freiburg (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Fiorentina 5 - 5 SC Freiburg
+Penalties are tied! Sudden death begins!
+Sudden Death: Fiorentina 6 - 7 SC Freiburg
+SC Freiburg wins on sudden death penalties!
+Fiorentina vs SC Freiburg, Winner: SC Freiburg
+1st Leg: Bologna (Home) 1 - 2 Dundee (Away)
+2nd Leg: Dundee (Home) 3 - 4 Bologna (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bologna 1 - 0 Dundee (Aggregate: 6 - 5)
+Bologna vs Dundee, Winner: Bologna
+1st Leg: Strasbourg (Home) 4 - 4 Torino (Away)
+2nd Leg: Torino (Home) 2 - 0 Strasbourg (Away)
+Strasbourg vs Torino, Winner: Torino
+1st Leg: Celta Vigo (Home) 1 - 0 Westerlo (Away)
+2nd Leg: Westerlo (Home) 4 - 2 Celta Vigo (Away)
+Celta Vigo vs Westerlo, Winner: Westerlo
+1st Leg: Gil Vicente (Home) 2 - 3 Brest (Away)
+2nd Leg: Brest (Home) 3 - 1 Gil Vicente (Away)
+Gil Vicente vs Brest, Winner: Brest
+1st Leg: Ross County (Home) 1 - 3 Famalicao (Away)
+2nd Leg: Famalicao (Home) 2 - 2 Ross County (Away)
+Ross County vs Famalicao, Winner: Famalicao
+1st Leg: Austria Klagenfurt (Home) 3 - 2 SC Heerenveen (Away)
+2nd Leg: SC Heerenveen (Home) 1 - 0 Austria Klagenfurt (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Austria Klagenfurt 1 - 1 SC Heerenveen (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Austria Klagenfurt 3 - 3 SC Heerenveen
+Penalties are tied! Sudden death begins!
+Sudden Death: Austria Klagenfurt 3 - 4 SC Heerenveen
+SC Heerenveen wins on sudden death penalties!
+Austria Klagenfurt vs SC Heerenveen, Winner: SC Heerenveen
+1st Leg: Farul Constanta (Home) 1 - 0 Mainz 05 (Away)
+2nd Leg: Mainz 05 (Home) 3 - 1 Farul Constanta (Away)
+Farul Constanta vs Mainz 05, Winner: Mainz 05
+1st Leg: Brighton (Home) 3 - 3 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 1 - 2 Brighton (Away)
+Brighton vs Aston Villa, Winner: Brighton
+Round 1 Winners: ['AS Roma', 'Villareal', 'West Ham United', 'Tottenham Hotspur', 'Cercle Brugge', 'Athletic Bilbao', 'AS Monaco', 'SC Freiburg', 'Bologna', 'Torino', 'Westerlo', 'Brest', 'Famalicao', 'SC Heerenveen', 'Mainz 05', 'Brighton']
+Round 2 Qualified: ['Sparta Rotterdam', 'Go Ahead Eagles', 'Boavista', 'Arouca', 'Club Brugge', 'St Mirren', 'Wolfsberger AC', 'UTA Arad', 'Lugano', 'Konyaspor', 'Aris Thessaloniki', 'Slovan Liberec', 'Zaglebie Lubin', 'Lokomotiv Moscow', 'Oleksandriya', 'Vojvodina']
+Teams advancing to Round 2: ['AS Roma', 'Villareal', 'West Ham United', 'Tottenham Hotspur', 'Cercle Brugge', 'Athletic Bilbao', 'AS Monaco', 'SC Freiburg', 'Bologna', 'Torino', 'Westerlo', 'Brest', 'Famalicao', 'SC Heerenveen', 'Mainz 05', 'Brighton', 'Sparta Rotterdam', 'Go Ahead Eagles', 'Boavista', 'Arouca', 'Club Brugge', 'St Mirren', 'Wolfsberger AC', 'UTA Arad', 'Lugano', 'Konyaspor', 'Aris Thessaloniki', 'Slovan Liberec', 'Zaglebie Lubin', 'Lokomotiv Moscow', 'Oleksandriya', 'Vojvodina']
+
+Current round: Round 2
+1st Leg: Famalicao (Home) 1 - 2 Brighton (Away)
+2nd Leg: Brighton (Home) 2 - 0 Famalicao (Away)
+1st Leg: Oleksandriya (Home) 3 - 2 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 3 - 3 Oleksandriya (Away)
+1st Leg: Brest (Home) 2 - 1 St Mirren (Away)
+2nd Leg: St Mirren (Home) 3 - 2 Brest (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Brest 1 - 0 St Mirren (Aggregate: 5 - 4)
+1st Leg: Zaglebie Lubin (Home) 1 - 2 Slovan Liberec (Away)
+2nd Leg: Slovan Liberec (Home) 2 - 1 Zaglebie Lubin (Away)
+1st Leg: Go Ahead Eagles (Home) 3 - 0 West Ham United (Away)
+2nd Leg: West Ham United (Home) 2 - 0 Go Ahead Eagles (Away)
+1st Leg: Torino (Home) 1 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 3 - 0 Torino (Away)
+1st Leg: Konyaspor (Home) 2 - 2 Arouca (Away)
+2nd Leg: Arouca (Home) 2 - 1 Konyaspor (Away)
+1st Leg: Westerlo (Home) 1 - 2 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 2 - 0 Westerlo (Away)
+1st Leg: Mainz 05 (Home) 1 - 0 Sparta Rotterdam (Away)
+2nd Leg: Sparta Rotterdam (Home) 2 - 0 Mainz 05 (Away)
+1st Leg: Bologna (Home) 2 - 2 AS Roma (Away)
+2nd Leg: AS Roma (Home) 3 - 2 Bologna (Away)
+1st Leg: Tottenham Hotspur (Home) 3 - 0 Vojvodina (Away)
+2nd Leg: Vojvodina (Home) 0 - 3 Tottenham Hotspur (Away)
+1st Leg: SC Freiburg (Home) 3 - 2 Cercle Brugge (Away)
+2nd Leg: Cercle Brugge (Home) 1 - 2 SC Freiburg (Away)
+1st Leg: Club Brugge (Home) 2 - 2 Aris Thessaloniki (Away)
+2nd Leg: Aris Thessaloniki (Home) 0 - 2 Club Brugge (Away)
+1st Leg: Boavista (Home) 4 - 3 UTA Arad (Away)
+2nd Leg: UTA Arad (Home) 1 - 2 Boavista (Away)
+1st Leg: SC Heerenveen (Home) 2 - 1 Lugano (Away)
+2nd Leg: Lugano (Home) 4 - 2 SC Heerenveen (Away)
+1st Leg: Lokomotiv Moscow (Home) 2 - 2 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 1 - 1 Lokomotiv Moscow (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lokomotiv Moscow 0 - 0 AS Monaco (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Lokomotiv Moscow 3 - 3 AS Monaco
+Penalties are tied! Sudden death begins!
+Sudden Death: Lokomotiv Moscow 5 - 6 AS Monaco
+AS Monaco wins on sudden death penalties!
+
+Current round: Round 3
+1st Leg: Brest (Home) 1 - 0 Arouca (Away)
+2nd Leg: Arouca (Home) 2 - 1 Brest (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Brest 0 - 0 Arouca (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Brest 4 - 3 Arouca
+Brest wins on penalties!
+1st Leg: Athletic Bilbao (Home) 2 - 1 Go Ahead Eagles (Away)
+2nd Leg: Go Ahead Eagles (Home) 2 - 3 Athletic Bilbao (Away)
+1st Leg: Villareal (Home) 2 - 2 SC Freiburg (Away)
+2nd Leg: SC Freiburg (Home) 2 - 1 Villareal (Away)
+1st Leg: Lugano (Home) 3 - 1 Boavista (Away)
+2nd Leg: Boavista (Home) 2 - 0 Lugano (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lugano 0 - 0 Boavista (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Lugano 4 - 1 Boavista
+Lugano wins on penalties!
+1st Leg: AS Monaco (Home) 1 - 3 AS Roma (Away)
+2nd Leg: AS Roma (Home) 1 - 1 AS Monaco (Away)
+1st Leg: Brighton (Home) 0 - 1 Tottenham Hotspur (Away)
+2nd Leg: Tottenham Hotspur (Home) 2 - 0 Brighton (Away)
+1st Leg: Slovan Liberec (Home) 1 - 2 Club Brugge (Away)
+2nd Leg: Club Brugge (Home) 1 - 2 Slovan Liberec (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Slovan Liberec 0 - 0 Club Brugge (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Slovan Liberec 4 - 3 Club Brugge
+Slovan Liberec wins on penalties!
+1st Leg: Oleksandriya (Home) 3 - 2 Sparta Rotterdam (Away)
+2nd Leg: Sparta Rotterdam (Home) 2 - 2 Oleksandriya (Away)
+
+Current round: Round 4
+1st Leg: Slovan Liberec (Home) 0 - 3 Tottenham Hotspur (Away)
+2nd Leg: Tottenham Hotspur (Home) 2 - 2 Slovan Liberec (Away)
+1st Leg: Athletic Bilbao (Home) 2 - 1 Oleksandriya (Away)
+2nd Leg: Oleksandriya (Home) 2 - 3 Athletic Bilbao (Away)
+1st Leg: AS Roma (Home) 3 - 1 Lugano (Away)
+2nd Leg: Lugano (Home) 3 - 3 AS Roma (Away)
+1st Leg: SC Freiburg (Home) 2 - 0 Brest (Away)
+2nd Leg: Brest (Home) 1 - 1 SC Freiburg (Away)
+
+Current round: Round 5
+1st Leg: SC Freiburg (Home) 1 - 1 Athletic Bilbao (Away)
+2nd Leg: Athletic Bilbao (Home) 1 - 2 SC Freiburg (Away)
+1st Leg: AS Roma (Home) 3 - 2 Tottenham Hotspur (Away)
+2nd Leg: Tottenham Hotspur (Home) 3 - 2 AS Roma (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: AS Roma 0 - 1 Tottenham Hotspur (Aggregate: 5 - 6)
+
+Current round: Final:
+Tottenham Hotspur 2 - 1 SC Freiburg
+Tottenham Hotspur won the match!
+
+Winner of Europa League: Tottenham Hotspur

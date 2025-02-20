@@ -750,3 +750,77 @@ Penalties: Utrecht 3 - 1 Ajax
 Utrecht wins on penalties!
 
 Winner of Netherlands Cup: Utrecht
+Winner of League: Ajax
+1. Ajax - 91 points - 30 wins - 1 draws - 3 losses - 114 scored - 29 against - Champions League - Round 2
+2. Twente - 80 points - 26 wins - 2 draws - 6 losses - 86 scored - 41 against - Champions League - Round 2
+3. Feyenoord - 76 points - 23 wins - 7 draws - 4 losses - 90 scored - 36 against - Champions League - Round 1
+4. PSV Eindhoven - 74 points - 23 wins - 5 draws - 6 losses - 82 scored - 35 against - Champions League - Round 1
+5. AZ - 70 points - 22 wins - 4 draws - 8 losses - 79 scored - 47 against - Champions League - Round 1
+6. Utrecht - 61 points - 18 wins - 7 draws - 9 losses - 76 scored - 59 against - Champions League - Round 1
+7. Sparta Rotterdam - 53 points - 16 wins - 5 draws - 13 losses - 69 scored - 60 against - Europa League - Round 2
+8. Go Ahead Eagles - 48 points - 14 wins - 6 draws - 14 losses - 55 scored - 68 against - Europa League - Round 2
+9. SC Heerenveen - 48 points - 12 wins - 12 draws - 10 losses - 60 scored - 56 against - Europa League - Round 1
+10. Vitesse - 43 points - 12 wins - 7 draws - 15 losses - 61 scored - 61 against - Europa League - Round 1
+11. NEC - 42 points - 12 wins - 6 draws - 16 losses - 50 scored - 66 against - Europa Conference League - Round 2
+12. Fortuna Sittard - 33 points - 9 wins - 6 draws - 19 losses - 48 scored - 79 against - Europa Conference League - Round 2
+13. Volendam - 31 points - 9 wins - 4 draws - 21 losses - 42 scored - 70 against - Europa Conference League - Round 1
+14. RKC Waalwijk - 31 points - 8 wins - 7 draws - 19 losses - 48 scored - 81 against - Europa Conference League - Round 1
+15. Heracles Almelo - 23 points - 5 wins - 8 draws - 21 losses - 41 scored - 80 against - No qualification
+16. PEC Zwolle - 21 points - 6 wins - 3 draws - 25 losses - 35 scored - 86 against - No qualification
+17. Almere City - 21 points - 5 wins - 6 draws - 23 losses - 30 scored - 76 against - No qualification
+18. Excelsior - 20 points - 4 wins - 8 draws - 22 losses - 50 scored - 86 against - No qualification
+Teams of Netherlands Cup: ['Ajax', 'Feyenoord', 'PSV Eindhoven', 'Twente', 'AZ', 'Utrecht', 'Sparta Rotterdam', 'SC Heerenveen', 'Go Ahead Eagles', 'Vitesse', 'NEC', 'Fortuna Sittard', 'RKC Waalwijk', 'Volendam', 'Heracles Almelo', 'PEC Zwolle']
+
+Current round: Round 1
+PEC Zwolle 1 - 4 Feyenoord
+Feyenoord won the match!
+SC Heerenveen 4 - 2 Vitesse
+SC Heerenveen won the match!
+Ajax 4 - 1 Sparta Rotterdam
+Ajax won the match!
+Go Ahead Eagles 1 - 1 Utrecht
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Go Ahead Eagles 0 - 0 Utrecht (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Go Ahead Eagles 5 - 1 Utrecht
+Go Ahead Eagles wins on penalties!
+Volendam 0 - 3 Twente
+Twente won the match!
+AZ 2 - 0 NEC
+AZ won the match!
+PSV Eindhoven 3 - 2 Fortuna Sittard
+PSV Eindhoven won the match!
+RKC Waalwijk 4 - 2 Heracles Almelo
+RKC Waalwijk won the match!
+
+Current round: Round 2
+PSV Eindhoven 2 - 0 AZ
+PSV Eindhoven won the match!
+SC Heerenveen 2 - 2 Feyenoord
+Aggregate is tied! Proceeding to extra time...
+Extra Time: SC Heerenveen 0 - 0 Feyenoord (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: SC Heerenveen 3 - 5 Feyenoord
+Feyenoord wins on penalties!
+Ajax 1 - 0 Go Ahead Eagles
+Ajax won the match!
+RKC Waalwijk 0 - 2 Twente
+Twente won the match!
+
+Current round: Round 3
+Twente 1 - 1 Ajax
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Twente 0 - 1 Ajax (Aggregate: 1 - 2)
+Feyenoord 1 - 1 PSV Eindhoven
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Feyenoord 0 - 1 PSV Eindhoven (Aggregate: 1 - 2)
+
+Current round: Final:
+PSV Eindhoven 3 - 3 Ajax
+Aggregate is tied! Proceeding to extra time...
+Extra Time: PSV Eindhoven 1 - 1 Ajax (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: PSV Eindhoven 2 - 3 Ajax
+Ajax wins on penalties!
+
+Winner of Netherlands Cup: Ajax

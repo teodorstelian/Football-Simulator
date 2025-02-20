@@ -4051,3 +4051,144 @@ Krasnodar 2 - 3 Strasbourg
 Strasbourg won the match!
 
 Winner of Europa Conference League: Strasbourg
+Teams starting in Europa Conference League Round 1: ['Crystal Palace', 'Nottingham Forest', 'Fulham', 'Wolverhampton Wanderers', 'Girona', 'Mallorca', 'Cadiz', 'Osasuna', 'Borussia Monchengladbach', 'FC Augsburg', '1899 Hoffenheim', 'VfL Bochum', 'Monza', 'Lecce', 'Cagliari', 'Udinese', 'Nantes', 'Clermont', 'Toulouse', 'Reims', 'RKC Waalwijk', 'Volendam', 'Rio Ave', 'Portimonense', 'Mechelen', 'OH Leuven', 'Livingston', 'Kilmarnock', 'Blau-WeiB Linz', 'Rheindorf Altach', 'Politehnica Iasi', 'Petrolul Ploiesti']
+1st Leg: Udinese (Home) 0 - 1 Monza (Away)
+2nd Leg: Monza (Home) 2 - 2 Udinese (Away)
+Udinese vs Monza, Winner: Monza
+1st Leg: Petrolul Ploiesti (Home) 1 - 2 Volendam (Away)
+2nd Leg: Volendam (Home) 3 - 3 Petrolul Ploiesti (Away)
+Petrolul Ploiesti vs Volendam, Winner: Volendam
+1st Leg: Girona (Home) 3 - 2 Rio Ave (Away)
+2nd Leg: Rio Ave (Home) 1 - 2 Girona (Away)
+Girona vs Rio Ave, Winner: Girona
+1st Leg: RKC Waalwijk (Home) 1 - 2 Borussia Monchengladbach (Away)
+2nd Leg: Borussia Monchengladbach (Home) 2 - 0 RKC Waalwijk (Away)
+RKC Waalwijk vs Borussia Monchengladbach, Winner: Borussia Monchengladbach
+1st Leg: Reims (Home) 1 - 1 Cadiz (Away)
+2nd Leg: Cadiz (Home) 2 - 3 Reims (Away)
+Reims vs Cadiz, Winner: Reims
+1st Leg: Nottingham Forest (Home) 2 - 4 Lecce (Away)
+2nd Leg: Lecce (Home) 0 - 1 Nottingham Forest (Away)
+Nottingham Forest vs Lecce, Winner: Lecce
+1st Leg: Mechelen (Home) 0 - 0 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 4 - 0 Mechelen (Away)
+Mechelen vs 1899 Hoffenheim, Winner: 1899 Hoffenheim
+1st Leg: OH Leuven (Home) 4 - 1 Mallorca (Away)
+2nd Leg: Mallorca (Home) 3 - 1 OH Leuven (Away)
+OH Leuven vs Mallorca, Winner: OH Leuven
+1st Leg: Portimonense (Home) 2 - 3 Cagliari (Away)
+2nd Leg: Cagliari (Home) 1 - 3 Portimonense (Away)
+Portimonense vs Cagliari, Winner: Portimonense
+1st Leg: Blau-WeiB Linz (Home) 1 - 0 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 4 - 2 Blau-WeiB Linz (Away)
+Blau-WeiB Linz vs Kilmarnock, Winner: Kilmarnock
+1st Leg: Crystal Palace (Home) 1 - 1 Toulouse (Away)
+2nd Leg: Toulouse (Home) 1 - 3 Crystal Palace (Away)
+Crystal Palace vs Toulouse, Winner: Crystal Palace
+1st Leg: Clermont (Home) 2 - 1 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 2 - 0 Clermont (Away)
+Clermont vs VfL Bochum, Winner: VfL Bochum
+1st Leg: Wolverhampton Wanderers (Home) 2 - 1 Nantes (Away)
+2nd Leg: Nantes (Home) 0 - 0 Wolverhampton Wanderers (Away)
+Wolverhampton Wanderers vs Nantes, Winner: Wolverhampton Wanderers
+1st Leg: Fulham (Home) 2 - 2 Osasuna (Away)
+2nd Leg: Osasuna (Home) 3 - 1 Fulham (Away)
+Fulham vs Osasuna, Winner: Osasuna
+1st Leg: Politehnica Iasi (Home) 2 - 1 Livingston (Away)
+2nd Leg: Livingston (Home) 1 - 1 Politehnica Iasi (Away)
+Politehnica Iasi vs Livingston, Winner: Politehnica Iasi
+1st Leg: Rheindorf Altach (Home) 2 - 2 FC Augsburg (Away)
+2nd Leg: FC Augsburg (Home) 3 - 1 Rheindorf Altach (Away)
+Rheindorf Altach vs FC Augsburg, Winner: FC Augsburg
+Round 1 Winners: ['Monza', 'Volendam', 'Girona', 'Borussia Monchengladbach', 'Reims', 'Lecce', '1899 Hoffenheim', 'OH Leuven', 'Portimonense', 'Kilmarnock', 'Crystal Palace', 'VfL Bochum', 'Wolverhampton Wanderers', 'Osasuna', 'Politehnica Iasi', 'FC Augsburg']
+Round 2 Qualified: ['NEC', 'Fortuna Sittard', 'Vizela', 'Casa Pia', 'Charleroi', 'St Johnstone', 'TSV Hartberg', 'Otelul Galati', 'Lucerne', 'Alanyaspor', 'Atromitos', 'Sigma Olomouc', 'Wisla Krakow', 'Krasnodar', 'Dnipro-1', 'Radnicki Nis']
+Teams advancing to Round 2: ['Monza', 'Volendam', 'Girona', 'Borussia Monchengladbach', 'Reims', 'Lecce', '1899 Hoffenheim', 'OH Leuven', 'Portimonense', 'Kilmarnock', 'Crystal Palace', 'VfL Bochum', 'Wolverhampton Wanderers', 'Osasuna', 'Politehnica Iasi', 'FC Augsburg', 'NEC', 'Fortuna Sittard', 'Vizela', 'Casa Pia', 'Charleroi', 'St Johnstone', 'TSV Hartberg', 'Otelul Galati', 'Lucerne', 'Alanyaspor', 'Atromitos', 'Sigma Olomouc', 'Wisla Krakow', 'Krasnodar', 'Dnipro-1', 'Radnicki Nis']
+
+Current round: Round 2
+1st Leg: Kilmarnock (Home) 0 - 2 Wisla Krakow (Away)
+2nd Leg: Wisla Krakow (Home) 1 - 3 Kilmarnock (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Kilmarnock 1 - 1 Wisla Krakow (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Kilmarnock 4 - 3 Wisla Krakow
+Kilmarnock wins on penalties!
+1st Leg: Crystal Palace (Home) 4 - 1 Otelul Galati (Away)
+2nd Leg: Otelul Galati (Home) 0 - 3 Crystal Palace (Away)
+1st Leg: Osasuna (Home) 2 - 2 Krasnodar (Away)
+2nd Leg: Krasnodar (Home) 2 - 2 Osasuna (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Osasuna 0 - 1 Krasnodar (Aggregate: 4 - 5)
+1st Leg: OH Leuven (Home) 2 - 2 St Johnstone (Away)
+2nd Leg: St Johnstone (Home) 2 - 0 OH Leuven (Away)
+1st Leg: Portimonense (Home) 3 - 0 Politehnica Iasi (Away)
+2nd Leg: Politehnica Iasi (Home) 2 - 1 Portimonense (Away)
+1st Leg: Dnipro-1 (Home) 2 - 2 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 2 - 0 Dnipro-1 (Away)
+1st Leg: Lucerne (Home) 2 - 1 Reims (Away)
+2nd Leg: Reims (Home) 1 - 2 Lucerne (Away)
+1st Leg: FC Augsburg (Home) 2 - 2 Vizela (Away)
+2nd Leg: Vizela (Home) 2 - 3 FC Augsburg (Away)
+1st Leg: VfL Bochum (Home) 1 - 1 Radnicki Nis (Away)
+2nd Leg: Radnicki Nis (Home) 1 - 2 VfL Bochum (Away)
+1st Leg: Charleroi (Home) 2 - 3 Alanyaspor (Away)
+2nd Leg: Alanyaspor (Home) 2 - 1 Charleroi (Away)
+1st Leg: Lecce (Home) 3 - 2 Casa Pia (Away)
+2nd Leg: Casa Pia (Home) 2 - 3 Lecce (Away)
+1st Leg: Wolverhampton Wanderers (Home) 3 - 0 Volendam (Away)
+2nd Leg: Volendam (Home) 0 - 0 Wolverhampton Wanderers (Away)
+1st Leg: Fortuna Sittard (Home) 2 - 4 Sigma Olomouc (Away)
+2nd Leg: Sigma Olomouc (Home) 2 - 1 Fortuna Sittard (Away)
+1st Leg: TSV Hartberg (Home) 1 - 3 Girona (Away)
+2nd Leg: Girona (Home) 3 - 0 TSV Hartberg (Away)
+1st Leg: Borussia Monchengladbach (Home) 1 - 1 NEC (Away)
+2nd Leg: NEC (Home) 3 - 3 Borussia Monchengladbach (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Borussia Monchengladbach 0 - 1 NEC (Aggregate: 4 - 5)
+1st Leg: Monza (Home) 1 - 3 Atromitos (Away)
+2nd Leg: Atromitos (Home) 1 - 1 Monza (Away)
+
+Current round: Round 3
+1st Leg: Girona (Home) 5 - 1 1899 Hoffenheim (Away)
+2nd Leg: 1899 Hoffenheim (Home) 2 - 3 Girona (Away)
+1st Leg: Lucerne (Home) 3 - 1 VfL Bochum (Away)
+2nd Leg: VfL Bochum (Home) 1 - 2 Lucerne (Away)
+1st Leg: Lecce (Home) 2 - 1 Portimonense (Away)
+2nd Leg: Portimonense (Home) 2 - 3 Lecce (Away)
+1st Leg: NEC (Home) 2 - 1 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 2 - 0 NEC (Away)
+1st Leg: FC Augsburg (Home) 2 - 1 Kilmarnock (Away)
+2nd Leg: Kilmarnock (Home) 3 - 3 FC Augsburg (Away)
+1st Leg: Atromitos (Home) 3 - 0 St Johnstone (Away)
+2nd Leg: St Johnstone (Home) 1 - 2 Atromitos (Away)
+1st Leg: Alanyaspor (Home) 4 - 0 Wolverhampton Wanderers (Away)
+2nd Leg: Wolverhampton Wanderers (Home) 1 - 3 Alanyaspor (Away)
+1st Leg: Krasnodar (Home) 2 - 0 Sigma Olomouc (Away)
+2nd Leg: Sigma Olomouc (Home) 1 - 3 Krasnodar (Away)
+
+Current round: Round 4
+1st Leg: Crystal Palace (Home) 2 - 1 FC Augsburg (Away)
+2nd Leg: FC Augsburg (Home) 1 - 1 Crystal Palace (Away)
+1st Leg: Alanyaspor (Home) 1 - 0 Krasnodar (Away)
+2nd Leg: Krasnodar (Home) 2 - 1 Alanyaspor (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Alanyaspor 1 - 0 Krasnodar (Aggregate: 3 - 2)
+1st Leg: Atromitos (Home) 2 - 3 Girona (Away)
+2nd Leg: Girona (Home) 3 - 1 Atromitos (Away)
+1st Leg: Lecce (Home) 3 - 0 Lucerne (Away)
+2nd Leg: Lucerne (Home) 4 - 2 Lecce (Away)
+
+Current round: Round 5
+1st Leg: Girona (Home) 3 - 1 Lecce (Away)
+2nd Leg: Lecce (Home) 2 - 1 Girona (Away)
+1st Leg: Alanyaspor (Home) 5 - 0 Crystal Palace (Away)
+2nd Leg: Crystal Palace (Home) 2 - 0 Alanyaspor (Away)
+
+Current round: Final:
+Alanyaspor 1 - 1 Girona
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Alanyaspor 1 - 1 Girona (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Alanyaspor 4 - 3 Girona
+Alanyaspor wins on penalties!
+
+Winner of Europa Conference League: Alanyaspor

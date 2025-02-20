@@ -3,7 +3,8 @@ import random
 
 class Team:
     def __init__(self, name, country, skill, league_titles=0, cup_titles=0, ucl=0, uel=0, uecl=0, europe="No Europe",
-                 matches=0, wins=0, draws=0, losses=0, points=0, scored=0, against=0):
+                 matches=0, wins=0, draws=0, losses=0, points=0, scored=0, against=0,
+                 first_place=0, second_place=0, third_place=0):
         self.name = name
         self.country = country
         self.skill = skill
@@ -20,6 +21,11 @@ class Team:
         self.wins = wins
         self.draws = draws
         self.losses = losses
+
+        self.first_place = first_place
+        self.second_place = second_place
+        self.third_place = third_place
+
         self.current = {
             "points": 0,
             "wins": 0,

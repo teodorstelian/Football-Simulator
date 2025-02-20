@@ -453,3 +453,51 @@ Red Bull Salzburg 2 - 1 Sturm Graz
 Red Bull Salzburg won the match!
 
 Winner of Austria Cup: Red Bull Salzburg
+Winner of League: Sturm Graz
+1. Sturm Graz - 52 points - 17 wins - 1 draws - 4 losses - 55 scored - 34 against - Champions League - Round 2
+2. Red Bull Salzburg - 45 points - 14 wins - 3 draws - 5 losses - 45 scored - 24 against - Champions League - Round 2
+3. Rapid Wien - 43 points - 13 wins - 4 draws - 5 losses - 52 scored - 36 against - Champions League - Round 1
+4. Austria Wien - 34 points - 10 wins - 4 draws - 8 losses - 47 scored - 43 against - Champions League - Round 1
+5. Austria Lustenau - 34 points - 9 wins - 7 draws - 6 losses - 43 scored - 41 against - Champions League - Round 1
+6. LASK - 33 points - 10 wins - 3 draws - 9 losses - 39 scored - 34 against - Champions League - Round 1
+7. Wolfsberger AC - 27 points - 8 wins - 3 draws - 11 losses - 37 scored - 41 against - Europa League - Round 2
+8. Austria Klagenfurt - 26 points - 7 wins - 5 draws - 10 losses - 39 scored - 42 against - Europa League - Round 1
+9. WSG Tirol - 25 points - 7 wins - 4 draws - 11 losses - 29 scored - 43 against - Europa League - Round 1
+10. TSV Hartberg - 20 points - 5 wins - 5 draws - 12 losses - 32 scored - 42 against - Europa Conference League - Round 2
+11. Rheindorf Altach - 19 points - 5 wins - 4 draws - 13 losses - 35 scored - 51 against - Europa Conference League - Round 1
+12. Blau-WeiB Linz - 13 points - 2 wins - 7 draws - 13 losses - 27 scored - 49 against - Europa Conference League - Round 1
+Teams of Austria Cup: ['Red Bull Salzburg', 'Sturm Graz', 'Rapid Wien', 'Austria Wien', 'LASK', 'Austria Lustenau', 'Wolfsberger AC', 'Austria Klagenfurt']
+
+Current round: Round 1
+Austria Lustenau 1 - 2 Austria Wien
+Austria Wien won the match!
+Rapid Wien 1 - 1 Austria Klagenfurt
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rapid Wien 0 - 0 Austria Klagenfurt (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rapid Wien 4 - 4 Austria Klagenfurt
+Penalties are tied! Sudden death begins!
+Sudden Death: Rapid Wien 5 - 6 Austria Klagenfurt
+Austria Klagenfurt wins on sudden death penalties!
+Sturm Graz 2 - 1 Red Bull Salzburg
+Sturm Graz won the match!
+Wolfsberger AC 0 - 2 LASK
+LASK won the match!
+
+Current round: Round 2
+Austria Klagenfurt 0 - 2 Sturm Graz
+Sturm Graz won the match!
+Austria Wien 1 - 1 LASK
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Austria Wien 0 - 0 LASK (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Austria Wien 3 - 3 LASK
+Penalties are tied! Sudden death begins!
+Sudden Death: Austria Wien 3 - 4 LASK
+LASK wins on sudden death penalties!
+
+Current round: Final:
+Sturm Graz 5 - 2 LASK
+Sturm Graz won the match!
+
+Winner of Austria Cup: Sturm Graz

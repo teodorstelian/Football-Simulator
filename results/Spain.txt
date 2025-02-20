@@ -1034,3 +1034,73 @@ Barcelona 4 - 1 Atletico Madrid
 Barcelona won the match!
 
 Winner of Spain Cup: Barcelona
+Winner of League: Real Madrid
+1. Real Madrid - 109 points - 36 wins - 1 draws - 1 losses - 122 scored - 20 against - Champions League - Round 2
+2. Barcelona - 102 points - 33 wins - 3 draws - 2 losses - 117 scored - 35 against - Champions League - Round 2
+3. Atletico Madrid - 83 points - 26 wins - 5 draws - 7 losses - 92 scored - 40 against - Champions League - Round 1
+4. Real Sociedad - 80 points - 25 wins - 5 draws - 8 losses - 92 scored - 54 against - Champions League - Round 1
+5. Sevilla - 75 points - 24 wins - 3 draws - 11 losses - 88 scored - 51 against - Champions League - Round 1
+6. Valencia - 71 points - 21 wins - 8 draws - 9 losses - 77 scored - 63 against - Champions League - Round 1
+7. Villareal - 64 points - 19 wins - 7 draws - 12 losses - 68 scored - 56 against - Europa League - Round 1
+8. Athletic Bilbao - 64 points - 18 wins - 10 draws - 10 losses - 81 scored - 63 against - Europa League - Round 1
+9. Real Betis - 54 points - 13 wins - 15 draws - 10 losses - 67 scored - 65 against - Europa League - Round 1
+10. Celta Vigo - 49 points - 15 wins - 4 draws - 19 losses - 62 scored - 70 against - Europa League - Round 1
+11. Girona - 47 points - 13 wins - 8 draws - 17 losses - 59 scored - 76 against - Europa Conference League - Round 1
+12. Mallorca - 45 points - 13 wins - 6 draws - 19 losses - 66 scored - 77 against - Europa Conference League - Round 1
+13. Osasuna - 44 points - 12 wins - 8 draws - 18 losses - 63 scored - 73 against - Europa Conference League - Round 1
+14. Cadiz - 39 points - 11 wins - 6 draws - 21 losses - 51 scored - 79 against - Europa Conference League - Round 1
+15. Getafe - 33 points - 9 wins - 6 draws - 23 losses - 57 scored - 90 against - No qualification
+16. Rayo Vallecano - 33 points - 8 wins - 9 draws - 21 losses - 46 scored - 80 against - No qualification
+17. Almeria - 28 points - 7 wins - 7 draws - 24 losses - 45 scored - 90 against - No qualification
+18. Alaves - 23 points - 6 wins - 5 draws - 27 losses - 40 scored - 96 against - No qualification
+19. Las Palmas - 21 points - 4 wins - 9 draws - 25 losses - 41 scored - 93 against - No qualification
+20. Granada - 10 points - 1 wins - 7 draws - 30 losses - 38 scored - 101 against - No qualification
+Teams of Spain Cup: ['Real Madrid', 'Barcelona', 'Atletico Madrid', 'Real Sociedad', 'Sevilla', 'Valencia', 'Villareal', 'Athletic Bilbao', 'Real Betis', 'Celta Vigo', 'Girona', 'Mallorca', 'Osasuna', 'Rayo Vallecano', 'Cadiz', 'Getafe']
+
+Current round: Round 1
+Sevilla 1 - 0 Athletic Bilbao
+Sevilla won the match!
+Atletico Madrid 3 - 3 Real Madrid
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Atletico Madrid 1 - 1 Real Madrid (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Atletico Madrid 3 - 4 Real Madrid
+Real Madrid wins on penalties!
+Valencia 2 - 2 Real Betis
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Valencia 1 - 1 Real Betis (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Valencia 4 - 2 Real Betis
+Valencia wins on penalties!
+Cadiz 2 - 1 Girona
+Cadiz won the match!
+Villareal 4 - 1 Celta Vigo
+Villareal won the match!
+Rayo Vallecano 2 - 1 Getafe
+Rayo Vallecano won the match!
+Barcelona 2 - 0 Osasuna
+Barcelona won the match!
+Real Sociedad 3 - 2 Mallorca
+Real Sociedad won the match!
+
+Current round: Round 2
+Rayo Vallecano 1 - 2 Cadiz
+Cadiz won the match!
+Villareal 1 - 2 Real Madrid
+Real Madrid won the match!
+Valencia 0 - 2 Barcelona
+Barcelona won the match!
+Sevilla 3 - 2 Real Sociedad
+Sevilla won the match!
+
+Current round: Round 3
+Barcelona 2 - 0 Sevilla
+Barcelona won the match!
+Real Madrid 3 - 1 Cadiz
+Real Madrid won the match!
+
+Current round: Final:
+Real Madrid 4 - 0 Barcelona
+Real Madrid won the match!
+
+Winner of Spain Cup: Real Madrid

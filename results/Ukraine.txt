@@ -40,3 +40,41 @@ Dynamo Kyiv 1 - 2 Shakhtar Donetsk
 Shakhtar Donetsk won the match!
 
 Winner of Ukraine Cup: Shakhtar Donetsk
+Winner of League: Shakhtar Donetsk
+1. Shakhtar Donetsk - 50 points - 16 wins - 2 draws - 0 losses - 50 scored - 10 against - Champions League - Round 2
+2. Dynamo Kyiv - 40 points - 13 wins - 1 draws - 4 losses - 47 scored - 16 against - Champions League - Round 1
+3. Zorya Luhansk - 35 points - 11 wins - 2 draws - 5 losses - 35 scored - 22 against - Champions League - Round 1
+4. Oleksandriya - 28 points - 9 wins - 1 draws - 8 losses - 32 scored - 35 against - Europa League - Round 2
+5. Dnipro-1 - 28 points - 8 wins - 4 draws - 6 losses - 33 scored - 29 against - Europa Conference League - Round 2
+6. Kolos Kovalivka - 21 points - 6 wins - 3 draws - 9 losses - 30 scored - 36 against - No qualification
+7. Vorskla Poltava - 20 points - 6 wins - 2 draws - 10 losses - 28 scored - 40 against - No qualification
+8. Chornomorets Odesa - 16 points - 5 wins - 1 draws - 12 losses - 23 scored - 39 against - No qualification
+9. Metalist Kharkiv - 13 points - 3 wins - 4 draws - 11 losses - 24 scored - 42 against - No qualification
+10. Karpaty Lviv - 8 points - 2 wins - 2 draws - 14 losses - 16 scored - 49 against - No qualification
+Teams of Ukraine Cup: ['Shakhtar Donetsk', 'Dynamo Kyiv', 'Zorya Luhansk', 'Dnipro-1', 'Oleksandriya', 'Kolos Kovalivka', 'Vorskla Poltava', 'Chornomorets Odesa']
+
+Current round: Round 1
+Shakhtar Donetsk 4 - 0 Oleksandriya
+Shakhtar Donetsk won the match!
+Dynamo Kyiv 4 - 1 Vorskla Poltava
+Dynamo Kyiv won the match!
+Chornomorets Odesa 1 - 1 Dnipro-1
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Chornomorets Odesa 0 - 0 Dnipro-1 (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Chornomorets Odesa 5 - 4 Dnipro-1
+Chornomorets Odesa wins on penalties!
+Zorya Luhansk 1 - 3 Kolos Kovalivka
+Kolos Kovalivka won the match!
+
+Current round: Round 2
+Chornomorets Odesa 0 - 3 Shakhtar Donetsk
+Shakhtar Donetsk won the match!
+Kolos Kovalivka 0 - 4 Dynamo Kyiv
+Dynamo Kyiv won the match!
+
+Current round: Final:
+Dynamo Kyiv 0 - 1 Shakhtar Donetsk
+Shakhtar Donetsk won the match!
+
+Winner of Ukraine Cup: Shakhtar Donetsk

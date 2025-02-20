@@ -36,3 +36,38 @@ Lokomotiv Moscow 2 - 3 CSKA Moscow
 CSKA Moscow won the match!
 
 Winner of Russia Cup: CSKA Moscow
+Winner of League: Zenit Saint Petersburg
+1. Zenit Saint Petersburg - 51 points - 17 wins - 0 draws - 1 losses - 54 scored - 16 against - Champions League - Round 2
+2. Spartak Moscow - 33 points - 10 wins - 3 draws - 5 losses - 43 scored - 28 against - Champions League - Round 1
+3. CSKA Moscow - 33 points - 10 wins - 3 draws - 5 losses - 38 scored - 33 against - Champions League - Round 1
+4. Lokomotiv Moscow - 31 points - 10 wins - 1 draws - 7 losses - 40 scored - 32 against - Europa League - Round 2
+5. Krasnodar - 30 points - 9 wins - 3 draws - 6 losses - 40 scored - 30 against - Europa Conference League - Round 2
+6. Dynamo Moscow - 27 points - 7 wins - 6 draws - 5 losses - 34 scored - 30 against - No qualification
+7. Rostov - 20 points - 6 wins - 2 draws - 10 losses - 28 scored - 38 against - No qualification
+8. Rubin Kazan - 18 points - 5 wins - 3 draws - 10 losses - 28 scored - 35 against - No qualification
+9. Ural Yekaterinburg - 9 points - 2 wins - 3 draws - 13 losses - 13 scored - 43 against - No qualification
+10. Krylia Sovetov - 5 points - 1 wins - 2 draws - 15 losses - 13 scored - 46 against - No qualification
+Teams of Russia Cup: ['Zenit Saint Petersburg', 'Spartak Moscow', 'CSKA Moscow', 'Lokomotiv Moscow', 'Krasnodar', 'Dynamo Moscow', 'Rostov', 'Rubin Kazan']
+
+Current round: Round 1
+Rubin Kazan 3 - 1 CSKA Moscow
+Rubin Kazan won the match!
+Rostov 0 - 2 Zenit Saint Petersburg
+Zenit Saint Petersburg won the match!
+Spartak Moscow 3 - 0 Lokomotiv Moscow
+Spartak Moscow won the match!
+Krasnodar 2 - 4 Dynamo Moscow
+Dynamo Moscow won the match!
+
+Current round: Round 2
+Spartak Moscow 2 - 1 Dynamo Moscow
+Spartak Moscow won the match!
+Zenit Saint Petersburg 2 - 1 Rubin Kazan
+Zenit Saint Petersburg won the match!
+
+Current round: Final:
+Spartak Moscow 2 - 2 Zenit Saint Petersburg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Spartak Moscow 0 - 1 Zenit Saint Petersburg (Aggregate: 2 - 3)
+
+Winner of Russia Cup: Zenit Saint Petersburg

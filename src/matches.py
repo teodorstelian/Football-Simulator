@@ -2,7 +2,7 @@ import math
 from pathlib import Path
 import random
 import settings
-from src.database import update_european_competition_round_team, update_european_competition_appereances
+from src.database import update_european_competition_round_team, update_european_competition_appereances, update_team
 
 
 def play_country_cup(teams, country):
@@ -252,13 +252,19 @@ def play_fixture_league(teams):
 
 def generate_standings(teams, league, europe):
     print("--- Final Standings ---")
+
+    # Sort teams based on points, wins, and goals scored (descending order)
     teams.sort(key=lambda x: (x.current['points'], x.current['wins'], x.current['scored']), reverse=True)
+
+    # Extract the number of European qualification spots from the `europe` parameter
     cl_places_r1 = europe["UCL"][0]
     cl_places_r2 = europe["UCL"][1]
     el_places_r1 = europe["UEL"][0]
     el_places_r2 = europe["UEL"][1]
     ecl_places_r1 = europe["UECL"][0]
     ecl_places_r2 = europe["UECL"][1]
+
+    # Prepare the league results file
     league_text = Path(f"{settings.RESULTS_FOLDER}/{league}.txt")
     league_text.touch(exist_ok=True)
 
@@ -273,7 +279,17 @@ def generate_standings(teams, league, europe):
                 winners.write(f"Winner of {league} League: {team.name}\n")
             team.league_titles += 1
             team.europe = f"{settings.UCL} - Round 2"
-        elif i < cl_places_r1:
+            team.first_place += 1
+            update_team(team, league)
+        elif i == 1:
+            team.second_place += 1
+            update_team(team, league)
+        elif i == 2:
+            team.third_place += 1
+            update_team(team, league)
+
+        # Assign European Competition Qualifications
+        if i < cl_places_r1:
             team.europe = f"{settings.UCL} - Round 2"
         elif i < cl_places_r1 + cl_places_r2:
             team.europe = f"{settings.UCL} - Round 1"

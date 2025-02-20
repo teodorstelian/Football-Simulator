@@ -71,3 +71,39 @@ Penalties: Trabzonspor 3 - 4 Galatasaray
 Galatasaray wins on penalties!
 
 Winner of Turkey Cup: Galatasaray
+Winner of League: Fenerbahce
+1. Fenerbahce - 42 points - 12 wins - 6 draws - 0 losses - 47 scored - 16 against - Champions League - Round 2
+2. Galatasaray - 38 points - 11 wins - 5 draws - 2 losses - 48 scored - 31 against - Champions League - Round 2
+3. Besiktas - 35 points - 11 wins - 2 draws - 5 losses - 34 scored - 23 against - Champions League - Round 1
+4. Trabzonspor - 34 points - 9 wins - 7 draws - 2 losses - 33 scored - 20 against - Champions League - Round 1
+5. Istanbul Basaksehir - 29 points - 9 wins - 2 draws - 7 losses - 26 scored - 28 against - Champions League - Round 1
+6. Adana Demirspor - 23 points - 6 wins - 5 draws - 7 losses - 30 scored - 34 against - Champions League - Round 1
+7. Konyaspor - 17 points - 5 wins - 2 draws - 11 losses - 28 scored - 38 against - Europa League - Round 2
+8. Alanyaspor - 14 points - 3 wins - 5 draws - 10 losses - 24 scored - 37 against - Europa Conference League - Round 2
+9. Sivasspor - 12 points - 2 wins - 6 draws - 10 losses - 24 scored - 42 against - No qualification
+10. Antalyaspor - 5 points - 1 wins - 2 draws - 15 losses - 23 scored - 48 against - No qualification
+Teams of Turkey Cup: ['Fenerbahce', 'Galatasaray', 'Besiktas', 'Trabzonspor', 'Istanbul Basaksehir', 'Adana Demirspor', 'Konyaspor', 'Alanyaspor']
+
+Current round: Round 1
+Fenerbahce 4 - 5 Galatasaray
+Galatasaray won the match!
+Adana Demirspor 1 - 3 Istanbul Basaksehir
+Istanbul Basaksehir won the match!
+Besiktas 2 - 2 Trabzonspor
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Besiktas 1 - 0 Trabzonspor (Aggregate: 3 - 2)
+Konyaspor 3 - 3 Alanyaspor
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Konyaspor 1 - 0 Alanyaspor (Aggregate: 4 - 3)
+
+Current round: Round 2
+Galatasaray 2 - 1 Besiktas
+Galatasaray won the match!
+Istanbul Basaksehir 3 - 4 Konyaspor
+Konyaspor won the match!
+
+Current round: Final:
+Konyaspor 1 - 2 Galatasaray
+Galatasaray won the match!
+
+Winner of Turkey Cup: Galatasaray

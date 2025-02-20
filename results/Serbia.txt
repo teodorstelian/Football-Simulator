@@ -37,3 +37,37 @@ Aggregate is tied! Proceeding to extra time...
 Extra Time: Cukaricki 0 - 1 Partizan Belgrade (Aggregate: 1 - 2)
 
 Winner of Serbia Cup: Partizan Belgrade
+Winner of League: Red Star Belgrade
+1. Red Star Belgrade - 52 points - 17 wins - 1 draws - 0 losses - 69 scored - 5 against - Champions League - Round 2
+2. Partizan Belgrade - 47 points - 15 wins - 2 draws - 1 losses - 51 scored - 15 against - Champions League - Round 1
+3. Cukaricki - 35 points - 11 wins - 2 draws - 5 losses - 41 scored - 27 against - Champions League - Round 1
+4. Vojvodina - 30 points - 9 wins - 3 draws - 6 losses - 31 scored - 28 against - Europa League - Round 2
+5. Radnicki Nis - 24 points - 7 wins - 3 draws - 8 losses - 32 scored - 43 against - Europa Conference League - Round 2
+6. TSC Backa Topola - 22 points - 7 wins - 1 draws - 10 losses - 29 scored - 38 against - No qualification
+7. FK Vozdovac - 17 points - 4 wins - 5 draws - 9 losses - 24 scored - 43 against - No qualification
+8. Spartak Subotica - 14 points - 4 wins - 2 draws - 12 losses - 23 scored - 42 against - No qualification
+9. FK Napredak - 14 points - 4 wins - 2 draws - 12 losses - 19 scored - 41 against - No qualification
+10. FK Novi Pazar - 4 points - 1 wins - 1 draws - 16 losses - 14 scored - 51 against - No qualification
+Teams of Serbia Cup: ['Red Star Belgrade', 'Partizan Belgrade', 'Cukaricki', 'Vojvodina', 'Radnicki Nis', 'TSC Backa Topola', 'FK Vozdovac', 'Spartak Subotica']
+
+Current round: Round 1
+FK Vozdovac 3 - 1 Spartak Subotica
+FK Vozdovac won the match!
+Radnicki Nis 1 - 3 Red Star Belgrade
+Red Star Belgrade won the match!
+Vojvodina 1 - 3 Partizan Belgrade
+Partizan Belgrade won the match!
+Cukaricki 3 - 2 TSC Backa Topola
+Cukaricki won the match!
+
+Current round: Round 2
+FK Vozdovac 0 - 3 Red Star Belgrade
+Red Star Belgrade won the match!
+Partizan Belgrade 4 - 2 Cukaricki
+Partizan Belgrade won the match!
+
+Current round: Final:
+Partizan Belgrade 2 - 1 Red Star Belgrade
+Partizan Belgrade won the match!
+
+Winner of Serbia Cup: Partizan Belgrade

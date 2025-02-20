@@ -8,9 +8,37 @@ from team import Team
 def create_teams_table(league):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
-    query = '''CREATE TABLE IF NOT EXISTS {} (name TEXT, matches_played INTEGER, wins INTEGER, draws INTEGER, 
-    losses INTEGER, points INTEGER, goals_scored INTEGER, goals_against INTEGER)'''.format(league)
+    query = f"""
+    CREATE TABLE IF NOT EXISTS {league} (
+        name TEXT,
+        matches_played INTEGER,
+        wins INTEGER,
+        draws INTEGER,
+        losses INTEGER,
+        points INTEGER,
+        goals_scored INTEGER,
+        goals_against INTEGER,
+        first_place INTEGER DEFAULT 0,
+        second_place INTEGER DEFAULT 0,
+        third_place INTEGER DEFAULT 0
+    )
+    """
     c.execute(query)
+    try:
+        c.execute(f"ALTER TABLE {league} ADD COLUMN first_place INTEGER DEFAULT 0")
+    except sqlite3.OperationalError:
+        print(f"Column 'first_place' already exists in the {league} table.")
+
+    try:
+        c.execute(f"ALTER TABLE {league} ADD COLUMN second_place INTEGER DEFAULT 0")
+    except sqlite3.OperationalError:
+        print(f"Column 'second_place' already exists in the {league} table.")
+
+    try:
+        c.execute(f"ALTER TABLE {league} ADD COLUMN third_place INTEGER DEFAULT 0")
+    except sqlite3.OperationalError:
+        print(f"Column 'third_place' already exists in the {league} table.")
+
     conn.commit()
     conn.close()
 
@@ -18,10 +46,21 @@ def create_teams_table(league):
 def insert_team(team, league):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
-    query = f"INSERT INTO {league} VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+    query = f"""
+    INSERT INTO {league} VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """
     c.execute(query, (
-        team.name, team.matches_played, team.wins, team.draws, team.losses, team.points, team.goals_scored,
-        team.goals_against
+        team.name,
+        team.matches_played,
+        team.wins,
+        team.draws,
+        team.losses,
+        team.points,
+        team.goals_scored,
+        team.goals_against,
+        team.first_place,
+        team.second_place,
+        team.third_place
     ))
     conn.commit()
     conn.close()
@@ -30,10 +69,33 @@ def insert_team(team, league):
 def update_team(team, league):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
-    query = f"UPDATE {league} SET matches_played=?, wins=?, draws=?, losses=?, points=?, " \
-            f"goals_scored=?, goals_against=? WHERE name=?"
-    c.execute(query, (team.matches_played, team.wins, team.draws, team.losses, team.points, team.goals_scored,
-                      team.goals_against, team.name))
+    query = f"""
+    UPDATE {league}
+    SET matches_played = ?,
+        wins = ?,
+        draws = ?,
+        losses = ?,
+        points = ?,
+        goals_scored = ?,
+        goals_against = ?,
+        first_place = ?,
+        second_place = ?,
+        third_place = ?
+    WHERE name = ?
+    """
+    c.execute(query, (
+        team.matches_played,
+        team.wins,
+        team.draws,
+        team.losses,
+        team.points,
+        team.goals_scored,
+        team.goals_against,
+        team.first_place,
+        team.second_place,
+        team.third_place,
+        team.name
+    ))
     conn.commit()
     conn.close()
 
@@ -110,14 +172,16 @@ def get_teams(league=None, european_cup=None, rounds=None):
             league_query = f"SELECT * FROM {country} WHERE name = '{team_name}'"
             c.execute(league_query)
             team_stats = c.fetchone()
-            name, matches, wins, draws, losses, points, scored, against = team_stats
+            name, matches, wins, draws, losses, points, scored, against, first_place, second_place, third_place = team_stats
         elif league:
-            name, matches, wins, draws, losses, points, scored, against = data
+            name, matches, wins, draws, losses, points, scored, against, first_place, second_place, third_place = data
 
+        # Creating a new Team object with additional attributes (first_place, second_place, third_place)
         team = Team(
             name=name, country=country, skill=skill, matches=matches, wins=wins, draws=draws,
             losses=losses, points=points, scored=scored, against=against, league_titles=titles,
-            cup_titles=cups, europe=europe, ucl=ucl, uel=uel, uecl=uecl
+            cup_titles=cups, europe=europe, ucl=ucl, uel=uel, uecl=uecl,
+            first_place=first_place, second_place=second_place, third_place=third_place
         )
         teams.append(team)
 

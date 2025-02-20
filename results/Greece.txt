@@ -75,3 +75,41 @@ AEK Athens 1 - 3 Panathinaikos
 Panathinaikos won the match!
 
 Winner of Greece Cup: Panathinaikos
+Winner of League: Olympiacos
+1. Olympiacos - 47 points - 15 wins - 2 draws - 1 losses - 54 scored - 16 against - Champions League - Round 2
+2. AEK Athens - 40 points - 12 wins - 4 draws - 2 losses - 46 scored - 14 against - Champions League - Round 1
+3. Panathinaikos - 36 points - 11 wins - 3 draws - 4 losses - 40 scored - 27 against - Champions League - Round 1
+4. Aris Thessaloniki - 34 points - 10 wins - 4 draws - 4 losses - 35 scored - 28 against - Europa League - Round 2
+5. Atromitos - 26 points - 7 wins - 5 draws - 6 losses - 35 scored - 37 against - Europa Conference League - Round 2
+6. PAOK Thessaloniki - 23 points - 6 wins - 5 draws - 7 losses - 40 scored - 35 against - No qualification
+7. OFI Crete - 17 points - 5 wins - 2 draws - 11 losses - 30 scored - 46 against - No qualification
+8. Volos - 16 points - 4 wins - 4 draws - 10 losses - 31 scored - 42 against - No qualification
+9. Ionikos - 10 points - 3 wins - 1 draws - 14 losses - 21 scored - 52 against - No qualification
+10. Lamia - 5 points - 1 wins - 2 draws - 15 losses - 16 scored - 51 against - No qualification
+Teams of Greece Cup: ['Olympiacos', 'AEK Athens', 'Panathinaikos', 'PAOK Thessaloniki', 'Aris Thessaloniki', 'Atromitos', 'OFI Crete', 'Volos']
+
+Current round: Round 1
+OFI Crete 2 - 0 Volos
+OFI Crete won the match!
+PAOK Thessaloniki 4 - 1 Aris Thessaloniki
+PAOK Thessaloniki won the match!
+Panathinaikos 1 - 2 Olympiacos
+Olympiacos won the match!
+Atromitos 0 - 3 AEK Athens
+AEK Athens won the match!
+
+Current round: Round 2
+Olympiacos 3 - 0 PAOK Thessaloniki
+Olympiacos won the match!
+OFI Crete 1 - 1 AEK Athens
+Aggregate is tied! Proceeding to extra time...
+Extra Time: OFI Crete 0 - 0 AEK Athens (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: OFI Crete 5 - 4 AEK Athens
+OFI Crete wins on penalties!
+
+Current round: Final:
+OFI Crete 1 - 4 Olympiacos
+Olympiacos won the match!
+
+Winner of Greece Cup: Olympiacos

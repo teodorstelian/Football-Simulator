@@ -36,3 +36,38 @@ Rakow Czestochowa 1 - 3 Legia Warsaw
 Legia Warsaw won the match!
 
 Winner of Poland Cup: Legia Warsaw
+Winner of League: Legia Warsaw
+1. Legia Warsaw - 49 points - 16 wins - 1 draws - 1 losses - 45 scored - 16 against - Champions League - Round 2
+2. Lech Poznan - 35 points - 10 wins - 5 draws - 3 losses - 35 scored - 23 against - Champions League - Round 1
+3. Rakow Czestochowa - 32 points - 9 wins - 5 draws - 4 losses - 40 scored - 27 against - Champions League - Round 1
+4. Zaglebie Lubin - 24 points - 7 wins - 3 draws - 8 losses - 32 scored - 31 against - Europa League - Round 2
+5. Wisla Krakow - 23 points - 7 wins - 2 draws - 9 losses - 25 scored - 29 against - Europa Conference League - Round 2
+6. Slask Wroclaw - 21 points - 6 wins - 3 draws - 9 losses - 31 scored - 39 against - No qualification
+7. Pogon Szczecin - 19 points - 5 wins - 4 draws - 9 losses - 29 scored - 40 against - No qualification
+8. Gornik Zabrze - 18 points - 4 wins - 6 draws - 8 losses - 23 scored - 30 against - No qualification
+9. Cracovia - 17 points - 5 wins - 2 draws - 11 losses - 27 scored - 34 against - No qualification
+10. Jagiellonia Bialystok - 15 points - 4 wins - 3 draws - 11 losses - 23 scored - 41 against - No qualification
+Teams of Poland Cup: ['Legia Warsaw', 'Lech Poznan', 'Rakow Czestochowa', 'Pogon Szczecin', 'Gornik Zabrze', 'Zaglebie Lubin', 'Wisla Krakow', 'Slask Wroclaw']
+
+Current round: Round 1
+Gornik Zabrze 1 - 3 Rakow Czestochowa
+Rakow Czestochowa won the match!
+Wisla Krakow 2 - 1 Zaglebie Lubin
+Wisla Krakow won the match!
+Lech Poznan 3 - 2 Pogon Szczecin
+Lech Poznan won the match!
+Legia Warsaw 2 - 0 Slask Wroclaw
+Legia Warsaw won the match!
+
+Current round: Round 2
+Legia Warsaw 3 - 2 Wisla Krakow
+Legia Warsaw won the match!
+Rakow Czestochowa 3 - 3 Lech Poznan
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rakow Czestochowa 1 - 0 Lech Poznan (Aggregate: 4 - 3)
+
+Current round: Final:
+Rakow Czestochowa 0 - 3 Legia Warsaw
+Legia Warsaw won the match!
+
+Winner of Poland Cup: Legia Warsaw
