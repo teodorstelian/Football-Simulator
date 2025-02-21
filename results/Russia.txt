@@ -1,69 +1,60 @@
 Winner of League: Zenit Saint Petersburg
-1. Zenit Saint Petersburg - 84 points - 27 wins - 3 draws - 0 losses - 93 scored - 30 against - Champions League - Round 2
-2. Spartak Moscow - 71 points - 23 wins - 2 draws - 5 losses - 72 scored - 32 against - Champions League - Round 1
-3. CSKA Moscow - 61 points - 19 wins - 4 draws - 7 losses - 83 scored - 43 against - Champions League - Round 1
-4. Dynamo Moscow - 60 points - 19 wins - 3 draws - 8 losses - 63 scored - 40 against - Europa League - Round 2
-5. Krasnodar - 59 points - 18 wins - 5 draws - 7 losses - 84 scored - 39 against - Europa Conference League - Round 2
-6. Lokomotiv Moscow - 57 points - 16 wins - 9 draws - 5 losses - 64 scored - 39 against - No qualification
-7. Rostov - 56 points - 18 wins - 2 draws - 10 losses - 64 scored - 41 against - No qualification
-8. Rubin Kazan - 48 points - 14 wins - 6 draws - 10 losses - 63 scored - 52 against - No qualification
-9. Ural Yekaterinburg - 43 points - 13 wins - 4 draws - 13 losses - 60 scored - 61 against - No qualification
-10. Krylia Sovetov - 36 points - 12 wins - 0 draws - 18 losses - 39 scored - 55 against - No qualification
-11. Akhmat Grozny - 34 points - 10 wins - 4 draws - 16 losses - 52 scored - 71 against - No qualification
-12. Orenburg - 23 points - 6 wins - 5 draws - 19 losses - 35 scored - 74 against - No qualification
-13. Arsenal Tula - 23 points - 5 wins - 8 draws - 17 losses - 35 scored - 71 against - No qualification
-14. Tambov - 12 points - 3 wins - 3 draws - 24 losses - 25 scored - 75 against - No qualification
-15. FC Nizhny Novgorod - 11 points - 3 wins - 2 draws - 25 losses - 29 scored - 80 against - No qualification
-16. Tom Tomsk - 10 points - 2 wins - 4 draws - 24 losses - 33 scored - 91 against - No qualification
+1. Zenit Saint Petersburg - 83 points - 27 wins - 2 draws - 1 losses - 95 scored - 23 against - Champions League - Round 2
+2. CSKA Moscow - 75 points - 24 wins - 3 draws - 3 losses - 77 scored - 28 against - Champions League - Round 1
+3. Lokomotiv Moscow - 67 points - 22 wins - 1 draws - 7 losses - 77 scored - 29 against - Champions League - Round 1
+4. Spartak Moscow - 65 points - 20 wins - 5 draws - 5 losses - 72 scored - 33 against - Europa League - Round 2
+5. Dynamo Moscow - 52 points - 15 wins - 7 draws - 8 losses - 61 scored - 47 against - Europa League - Round 1
+6. Rostov - 50 points - 16 wins - 2 draws - 12 losses - 57 scored - 51 against - Europa League - Round 1
+7. Krasnodar - 46 points - 14 wins - 4 draws - 12 losses - 57 scored - 47 against - Europa Conference League - Round 2
+8. Rubin Kazan - 43 points - 13 wins - 4 draws - 13 losses - 51 scored - 52 against - Europa Conference League - Round 1
+9. Akhmat Grozny - 36 points - 11 wins - 3 draws - 16 losses - 44 scored - 60 against - Europa Conference League - Round 1
+10. Ural Yekaterinburg - 36 points - 10 wins - 6 draws - 14 losses - 58 scored - 63 against - No qualification
+11. Arsenal Tula - 35 points - 10 wins - 5 draws - 15 losses - 46 scored - 66 against - No qualification
+12. Krylia Sovetov - 34 points - 9 wins - 7 draws - 14 losses - 50 scored - 63 against - No qualification
+13. Tambov - 22 points - 5 wins - 7 draws - 18 losses - 37 scored - 73 against - No qualification
+14. Orenburg - 19 points - 5 wins - 4 draws - 21 losses - 37 scored - 79 against - No qualification
+15. Tom Tomsk - 19 points - 5 wins - 4 draws - 21 losses - 35 scored - 76 against - No qualification
+16. FC Nizhny Novgorod - 4 points - 0 wins - 4 draws - 26 losses - 25 scored - 89 against - No qualification
 Teams of Russia Cup: ['Zenit Saint Petersburg', 'CSKA Moscow', 'Spartak Moscow', 'Lokomotiv Moscow', 'Dynamo Moscow', 'Krasnodar', 'Rostov', 'Rubin Kazan', 'Ural Yekaterinburg', 'Krylia Sovetov', 'Akhmat Grozny', 'Arsenal Tula', 'Orenburg', 'Tambov', 'Tom Tomsk', 'FC Nizhny Novgorod']
 
 Current round: Round 1
-Rubin Kazan 2 - 1 Krylia Sovetov
-Rubin Kazan won the match!
-CSKA Moscow 2 - 0 Krasnodar
-CSKA Moscow won the match!
-Ural Yekaterinburg 3 - 0 Rostov
-Ural Yekaterinburg won the match!
-Tom Tomsk 1 - 3 Zenit Saint Petersburg
-Zenit Saint Petersburg won the match!
-FC Nizhny Novgorod 1 - 3 Dynamo Moscow
-Dynamo Moscow won the match!
-Akhmat Grozny 5 - 1 Lokomotiv Moscow
+Akhmat Grozny 2 - 1 Lokomotiv Moscow
 Akhmat Grozny won the match!
-Spartak Moscow 2 - 0 Arsenal Tula
+Krasnodar 2 - 0 Dynamo Moscow
+Krasnodar won the match!
+FC Nizhny Novgorod 2 - 1 Tom Tomsk
+FC Nizhny Novgorod won the match!
+Zenit Saint Petersburg 3 - 0 Rubin Kazan
+Zenit Saint Petersburg won the match!
+Spartak Moscow 2 - 0 Krylia Sovetov
 Spartak Moscow won the match!
-Tambov 2 - 2 Orenburg
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Tambov 0 - 0 Orenburg (Aggregate: 2 - 2)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Tambov 5 - 5 Orenburg
-Penalties are tied! Sudden death begins!
-Sudden Death: Tambov 7 - 6 Orenburg
-Tambov wins on sudden death penalties!
+Rostov 1 - 2 Ural Yekaterinburg
+Ural Yekaterinburg won the match!
+Tambov 1 - 2 CSKA Moscow
+CSKA Moscow won the match!
+Arsenal Tula 2 - 1 Orenburg
+Arsenal Tula won the match!
 
 Current round: Quarter-Final
-Tambov 2 - 5 Akhmat Grozny
-Akhmat Grozny won the match!
-Ural Yekaterinburg 1 - 1 CSKA Moscow
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Ural Yekaterinburg 1 - 1 CSKA Moscow (Aggregate: 2 - 2)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Ural Yekaterinburg 3 - 5 CSKA Moscow
-CSKA Moscow wins on penalties!
-Rubin Kazan 2 - 2 Spartak Moscow
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Rubin Kazan 0 - 1 Spartak Moscow (Aggregate: 2 - 3)
-Zenit Saint Petersburg 3 - 0 Dynamo Moscow
-Zenit Saint Petersburg won the match!
+Krasnodar 2 - 1 Zenit Saint Petersburg
+Krasnodar won the match!
+Ural Yekaterinburg 3 - 1 FC Nizhny Novgorod
+Ural Yekaterinburg won the match!
+Arsenal Tula 1 - 3 Spartak Moscow
+Spartak Moscow won the match!
+Akhmat Grozny 0 - 2 CSKA Moscow
+CSKA Moscow won the match!
 
 Current round: Semi-Final
-CSKA Moscow 3 - 0 Akhmat Grozny
+Krasnodar 1 - 1 Ural Yekaterinburg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Krasnodar 0 - 1 Ural Yekaterinburg (Aggregate: 1 - 2)
+CSKA Moscow 3 - 1 Spartak Moscow
 CSKA Moscow won the match!
-Zenit Saint Petersburg 3 - 1 Spartak Moscow
-Zenit Saint Petersburg won the match!
 
 Current round: Final
-Zenit Saint Petersburg 3 - 0 CSKA Moscow
-Zenit Saint Petersburg won the match!
+Ural Yekaterinburg 3 - 3 CSKA Moscow
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Ural Yekaterinburg 0 - 1 CSKA Moscow (Aggregate: 3 - 4)
 
-Winner of Russia Cup: Zenit Saint Petersburg
+Winner of Russia Cup: CSKA Moscow

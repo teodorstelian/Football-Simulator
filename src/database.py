@@ -322,7 +322,7 @@ def get_teams(league=None, european_cup=None, rounds=None):
     return teams
 
 
-def get_best_teams(league, limit=10):
+def get_best_teams_from_league(league, limit=settings.BEST_TEAMS_LEAGUE):
     """
     Retrieve the best teams from a league table based on specific criteria (e.g., first place, cup wins),
     while displaying all relevant fields for each team.
@@ -364,7 +364,7 @@ def get_best_teams(league, limit=10):
 
     return results
 
-def get_teams_by_skills(limit=50):
+def get_teams_by_skills(limit=settings.BEST_TEAMS_SKILLS):
     """
     Retrieve the best teams ranked by their skill level from the general table.
 
@@ -504,16 +504,18 @@ def create_european_competitions_table(competition):
     c = conn.cursor()
 
     # Replace spaces with underscores for table names
-    competition_table = competition.replace(" ","")
+    competition_table = competition.replace(" ", "")
 
     query = f'''CREATE TABLE IF NOT EXISTS {competition_table} (
            team_name TEXT,
            appearances INTEGER DEFAULT 0,
+           round_of_32 INTEGER DEFAULT 0,
            round_of_16 INTEGER DEFAULT 0,
            quarter_finals INTEGER DEFAULT 0,
            semi_finals INTEGER DEFAULT 0,
            finals INTEGER DEFAULT 0,
-           wins INTEGER DEFAULT 0
+           wins INTEGER DEFAULT 0,
+           coefficient REAL DEFAULT 0
        )'''
     c.execute(query)
     conn.commit()
@@ -532,7 +534,7 @@ def update_european_competition_appereances(team_name, competition):
 
     if row is None:  # Insert new row if the team doesn't exist
         appearances = 1
-        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?, ?, ?, ?, ?)", (team_name, appearances, 0, 0, 0, 0, 0))
+        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?,?,?, ?, ?, ?, ?)", (team_name, appearances, 0, 0, 0, 0, 0,0, 0))
     else:  # Update appearances and wins if the team already exists
         appearances = row[0]
         appearances += 1
@@ -552,31 +554,41 @@ def update_european_competition_round_team(team_name, competition, round):
 
     # Check if the team already exists in the table
     c.execute(
-        f"SELECT wins, finals, semi_finals, quarter_finals, round_of_16 FROM {competition_table} WHERE team_name=?",
+        f"SELECT wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, coefficient FROM {competition_table} WHERE team_name=?",
         (team_name,))
     row = c.fetchone()
 
-    wins, finals, semi_finals, quarter_finals, round_of_16 = row
+    wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, coefficient = row
     if round == "winner":
         wins += 1
-        c.execute(f"UPDATE {competition_table} SET wins=? WHERE team_name=?",
-                  (wins, team_name))
+        coefficient += 15
+        c.execute(f"UPDATE {competition_table} SET wins=?, coefficient=? WHERE team_name=?",
+                  (wins, coefficient, team_name))
     elif round == "finals":
         finals += 1
-        c.execute(f"UPDATE {competition_table} SET finals=? WHERE team_name=?",
-                  (finals, team_name))
+        coefficient += 10
+        c.execute(f"UPDATE {competition_table} SET finals=?, coefficient=? WHERE team_name=?",
+                  (finals, coefficient, team_name))
     elif round == "semi_finals":
         semi_finals += 1
-        c.execute(f"UPDATE {competition_table} SET semi_finals=? WHERE team_name=?",
-                  (semi_finals, team_name))
+        coefficient += 6
+        c.execute(f"UPDATE {competition_table} SET semi_finals=?, coefficient=? WHERE team_name=?",
+                  (semi_finals, coefficient, team_name))
     elif round == "quarter_finals":
         quarter_finals += 1
-        c.execute(f"UPDATE {competition_table} SET quarter_finals=? WHERE team_name=?",
-                  (quarter_finals, team_name))
+        coefficient += 3.5
+        c.execute(f"UPDATE {competition_table} SET quarter_finals=?, coefficient=? WHERE team_name=?",
+                  (quarter_finals, coefficient, team_name))
     elif round == "round_of_16":
         round_of_16 += 1
-        c.execute(f"UPDATE {competition_table} SET round_of_16=? WHERE team_name=?",
-                  (round_of_16, team_name))
+        coefficient += 1.75
+        c.execute(f"UPDATE {competition_table} SET round_of_16=?, coefficient=? WHERE team_name=?",
+                  (round_of_16, coefficient, team_name))
+    elif round == "round_of_32":
+        round_of_32 += 1
+        coefficient += 0.6
+        c.execute(f"UPDATE {competition_table} SET round_of_32=?, coefficient=? WHERE team_name=?",
+                  (round_of_32, coefficient, team_name))
 
     conn.commit()
     conn.close()
@@ -589,25 +601,30 @@ def get_european_competition_stats(competition):
     competition_table = competition.replace(" ", "")
 
     query = f"""
-        SELECT team_name, appearances, round_of_16, quarter_finals, semi_finals, finals, wins
+        SELECT team_name, appearances, round_of_32, round_of_16, quarter_finals,
+               semi_finals, finals, wins, coefficient
         FROM {competition_table}
-        ORDER BY wins DESC, finals DESC, semi_finals DESC, quarter_finals DESC, round_of_16 DESC, appearances DESC, team_name ASC
+        ORDER BY coefficient DESC, wins DESC, finals DESC, semi_finals DESC, quarter_finals DESC,
+                 round_of_16 DESC, round_of_32 DESC, appearances DESC, team_name ASC
         LIMIT 25
     """
     c.execute(query)
     stats = c.fetchall()
     conn.close()
 
-    # Display the results with ranking
-    print(f"--- {competition} Stats (Ordered by Wins) ---")
+    # Display the results with rankings
+    print(f"--- {competition} Stats (Ordered by Wins, Coefficients, and Other Metrics) ---")
     for rank, team in enumerate(stats, start=1):
-        team_name, appearances, round_of_16, quarter_finals, semi_finals, finals, wins = team
+        team_name, appearances, round_of_32, round_of_16, quarter_finals, semi_finals, finals, wins, coefficient = team
         print(f"{rank}. {team_name}:\n"
               f"   Total Appearances: {appearances}, "
+              f"Round of 32: {round_of_32}, "
               f"Round of 16: {round_of_16}, "
               f"Quarter-Finals: {quarter_finals}, "
               f"Semi-Finals: {semi_finals}, "
               f"Finals: {finals}, "
-              f"Wins: {wins}\n")
+              f"Wins: {wins}, "
+              f"Coefficient: {coefficient}\n")
 
     return stats
+

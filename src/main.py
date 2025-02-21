@@ -4,11 +4,10 @@ from database import (
     create_general_table,
     update_general_table_with_stats,
     populate_general_table,
-    update_team,
     generate_teams_table,
     get_teams,
     check_team_stats,
-    get_best_teams,
+    get_best_teams_from_league,
     get_competition_winners_from_db,
     create_european_competitions_table,
     get_european_competition_stats,
@@ -63,13 +62,6 @@ class DatabaseUpdater:
         print("Updating general table with fresh stats...")
         update_general_table_with_stats()
 
-    @staticmethod
-    def update_all_teams(teams, country):
-        for team in teams:
-            if team.country == country["name"]:
-                update_team(team, country["name"])
-
-
 class LeagueSimulator:
     @classmethod
     def simulate_league(cls, league, teams_obj, europe_places):
@@ -93,14 +85,6 @@ class EuropeanCupSimulator:
 
 class StatsViewer:
     @staticmethod
-    def view_team_stats(team, league):
-        check_team_stats(team, league)
-
-    @staticmethod
-    def get_best_teams(league):
-        get_best_teams(league)
-
-    @staticmethod
     def get_competition_winners(competition):
         winners = get_competition_winners_from_db(competition)
         if not winners:
@@ -108,10 +92,6 @@ class StatsViewer:
             return
         for rank, (team, titles) in enumerate(winners, start=1):
             print(f"{rank}. {team}: {titles} titles")
-
-    @staticmethod
-    def view_european_stats(competition):
-        get_european_competition_stats(competition)
 
 class MainProgram:
     def __init__(self, settings):
@@ -147,7 +127,7 @@ class MainProgram:
             "6": self.view_team_stats,
             "7": self.view_winners,
             "8": self.view_european_stats,
-            "9": self.view_skilled_teams,
+            "9": get_teams_by_skills,
         }
         if action := actions.get(self.choice):
             action()
@@ -224,7 +204,7 @@ class MainProgram:
             print(f"No league found for the specified country: {country_name}")
             return
 
-        self.stats_viewer.get_best_teams(selected_country["name"])
+        get_best_teams_from_league(selected_country["name"])
 
     def view_team_stats(self):
         country_name = self.input_handler.get_user_input("Enter the country name: ")
@@ -241,7 +221,7 @@ class MainProgram:
         team_name = self.input_handler.get_user_input("Enter team name: ")
         for team in self.teams_obj:
             if team.name == team_name:
-                self.stats_viewer.view_team_stats(team, self.league)
+                check_team_stats(team, self.league)
 
     def view_winners(self):
         competition = self.input_handler.get_user_input("Enter competition name: ")
@@ -252,10 +232,7 @@ class MainProgram:
             "Select competition (1. UCL, 2. UEL, 3. UECL): "
         )
         competitions = {"1": self.settings.UCL, "2": self.settings.UEL, "3": self.settings.UECL}
-        self.stats_viewer.view_european_stats(competitions.get(competition))
-
-    def view_skilled_teams(self):
-        get_teams_by_skills()
+        get_european_competition_stats(competitions.get(competition))
 
 
 if __name__ == "__main__":

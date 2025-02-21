@@ -1,62 +1,77 @@
-Winner of League: Bodø/Glimt
-1. Bodø/Glimt - 75 points - 24 wins - 3 draws - 3 losses - 73 scored - 27 against - Champions League - Round 1
-2. Rosenborg - 75 points - 23 wins - 6 draws - 1 losses - 85 scored - 32 against - Europa League - Round 1
-3. Molde - 68 points - 21 wins - 5 draws - 4 losses - 77 scored - 36 against - Europa Conference League - Round 1
-4. Viking - 59 points - 18 wins - 5 draws - 7 losses - 61 scored - 41 against - No qualification
-5. Vålerenga - 50 points - 15 wins - 5 draws - 10 losses - 66 scored - 52 against - No qualification
-6. Stabæk - 44 points - 14 wins - 2 draws - 14 losses - 51 scored - 53 against - No qualification
-7. Sarpsborg 08 - 43 points - 12 wins - 7 draws - 11 losses - 52 scored - 53 against - No qualification
-8. Odd - 41 points - 11 wins - 8 draws - 11 losses - 51 scored - 56 against - No qualification
-9. Tromsø - 38 points - 11 wins - 5 draws - 14 losses - 48 scored - 51 against - No qualification
-10. Lillestrøm - 35 points - 7 wins - 14 draws - 9 losses - 54 scored - 53 against - No qualification
-11. Kristiansund - 33 points - 10 wins - 3 draws - 17 losses - 48 scored - 58 against - No qualification
-12. Start - 29 points - 9 wins - 2 draws - 19 losses - 43 scored - 64 against - No qualification
-13. Strømsgodset - 26 points - 7 wins - 5 draws - 18 losses - 37 scored - 58 against - No qualification
-14. Mjøndalen - 24 points - 7 wins - 3 draws - 20 losses - 33 scored - 70 against - No qualification
-15. Sandefjord - 23 points - 7 wins - 2 draws - 21 losses - 35 scored - 74 against - No qualification
-16. HamKam - 17 points - 4 wins - 5 draws - 21 losses - 37 scored - 73 against - No qualification
-Teams of Norway Cup: ['Rosenborg', 'Molde', 'Bodø/Glimt', 'Viking', 'Vålerenga', 'Lillestrøm', 'Sarpsborg 08', 'Tromsø', 'Stabæk', 'Odd', 'Strømsgodset', 'Kristiansund', 'Start', 'Sandefjord', 'Mjøndalen', 'HamKam']
+Winner of League: Rosenborg
+1. Rosenborg - 85 points - 28 wins - 1 draws - 1 losses - 82 scored - 19 against - Champions League - Round 1
+2. Molde - 72 points - 22 wins - 6 draws - 2 losses - 82 scored - 38 against - Europa League - Round 2
+3. Viking - 59 points - 18 wins - 5 draws - 7 losses - 72 scored - 47 against - Europa League - Round 1
+4. Bodø/Glimt - 59 points - 17 wins - 8 draws - 5 losses - 61 scored - 39 against - Europa Conference League - Round 2
+5. Vålerenga - 48 points - 14 wins - 6 draws - 10 losses - 59 scored - 46 against - Europa Conference League - Round 1
+6. Odd - 45 points - 12 wins - 9 draws - 9 losses - 51 scored - 49 against - No qualification
+7. Sarpsborg 08 - 44 points - 12 wins - 8 draws - 10 losses - 56 scored - 55 against - No qualification
+8. Tromsø - 39 points - 11 wins - 6 draws - 13 losses - 52 scored - 51 against - No qualification
+9. Strømsgodset - 38 points - 10 wins - 8 draws - 12 losses - 48 scored - 58 against - No qualification
+10. Stabæk - 37 points - 10 wins - 7 draws - 13 losses - 56 scored - 63 against - No qualification
+11. Lillestrøm - 34 points - 9 wins - 7 draws - 14 losses - 53 scored - 50 against - No qualification
+12. Sandefjord - 31 points - 10 wins - 1 draws - 19 losses - 37 scored - 66 against - No qualification
+13. Start - 23 points - 4 wins - 11 draws - 15 losses - 34 scored - 61 against - No qualification
+14. Mjøndalen - 21 points - 6 wins - 3 draws - 21 losses - 29 scored - 64 against - No qualification
+15. Kristiansund - 19 points - 5 wins - 4 draws - 21 losses - 35 scored - 65 against - No qualification
+16. HamKam - 18 points - 4 wins - 6 draws - 20 losses - 29 scored - 65 against - No qualification
+Teams of Norway Cup: ['Rosenborg', 'Molde', 'Bodø/Glimt', 'Viking', 'Vålerenga', 'Lillestrøm', 'Sarpsborg 08', 'Tromsø', 'Odd', 'Stabæk', 'Strømsgodset', 'Kristiansund', 'Start', 'Sandefjord', 'Mjøndalen', 'HamKam']
 
 Current round: Round 1
-Kristiansund 3 - 2 Bodø/Glimt
-Kristiansund won the match!
-Sarpsborg 08 2 - 1 Sandefjord
-Sarpsborg 08 won the match!
-Start 3 - 0 Mjøndalen
-Start won the match!
-Stabæk 1 - 3 Rosenborg
-Rosenborg won the match!
-Molde 3 - 0 HamKam
-Molde won the match!
-Lillestrøm 0 - 2 Odd
-Odd won the match!
-Strømsgodset 0 - 2 Vålerenga
-Vålerenga won the match!
-Tromsø 2 - 1 Viking
-Tromsø won the match!
+Strømsgodset 3 - 2 Sarpsborg 08
+Strømsgodset won the match!
+Molde 1 - 1 Rosenborg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Molde 0 - 0 Rosenborg (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Molde 4 - 3 Rosenborg
+Molde wins on penalties!
+Sandefjord 3 - 2 Lillestrøm
+Sandefjord won the match!
+Bodø/Glimt 1 - 1 Stabæk
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bodø/Glimt 0 - 0 Stabæk (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Bodø/Glimt 5 - 3 Stabæk
+Bodø/Glimt wins on penalties!
+HamKam 1 - 1 Odd
+Aggregate is tied! Proceeding to extra time...
+Extra Time: HamKam 1 - 0 Odd (Aggregate: 2 - 1)
+Kristiansund 3 - 3 Vålerenga
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Kristiansund 1 - 0 Vålerenga (Aggregate: 4 - 3)
+Tromsø 2 - 2 Mjøndalen
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Tromsø 1 - 1 Mjøndalen (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Tromsø 4 - 3 Mjøndalen
+Tromsø wins on penalties!
+Start 0 - 5 Viking
+Viking won the match!
 
 Current round: Quarter-Final
-Rosenborg 3 - 1 Kristiansund
-Rosenborg won the match!
-Start 1 - 2 Tromsø
-Tromsø won the match!
-Sarpsborg 08 3 - 4 Vålerenga
-Vålerenga won the match!
-Molde 1 - 0 Odd
+HamKam 0 - 2 Molde
 Molde won the match!
+Kristiansund 2 - 2 Strømsgodset
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Kristiansund 0 - 1 Strømsgodset (Aggregate: 2 - 3)
+Bodø/Glimt 2 - 2 Viking
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bodø/Glimt 0 - 0 Viking (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Bodø/Glimt 4 - 3 Viking
+Bodø/Glimt wins on penalties!
+Sandefjord 1 - 0 Tromsø
+Sandefjord won the match!
 
 Current round: Semi-Final
-Rosenborg 4 - 1 Tromsø
-Rosenborg won the match!
-Vålerenga 1 - 1 Molde
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Vålerenga 1 - 1 Molde (Aggregate: 2 - 2)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Vålerenga 2 - 4 Molde
-Molde wins on penalties!
-
-Current round: Final
-Molde 2 - 1 Rosenborg
+Bodø/Glimt 4 - 0 Sandefjord
+Bodø/Glimt won the match!
+Strømsgodset 0 - 2 Molde
 Molde won the match!
 
-Winner of Norway Cup: Molde
+Current round: Final
+Molde 1 - 2 Bodø/Glimt
+Bodø/Glimt won the match!
+
+Winner of Norway Cup: Bodø/Glimt

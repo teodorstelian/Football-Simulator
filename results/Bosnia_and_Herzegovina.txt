@@ -1,65 +1,66 @@
-Winner of League: FK Sarajevo
-1. FK Sarajevo - 87 points - 29 wins - 0 draws - 1 losses - 94 scored - 22 against - Champions League - Round 1
-2. Zrinjski Mostar - 72 points - 23 wins - 3 draws - 4 losses - 83 scored - 25 against - Europa League - Round 1
-3. Željezničar - 64 points - 20 wins - 4 draws - 6 losses - 73 scored - 35 against - Europa Conference League - Round 1
-4. Široki Brijeg - 57 points - 17 wins - 6 draws - 7 losses - 66 scored - 46 against - No qualification
-5. Sloboda Tuzla - 54 points - 17 wins - 3 draws - 10 losses - 51 scored - 41 against - No qualification
-6. Velež Mostar - 48 points - 14 wins - 6 draws - 10 losses - 57 scored - 45 against - No qualification
-7. Tuzla City - 47 points - 13 wins - 8 draws - 9 losses - 54 scored - 48 against - No qualification
-8. Čelik Zenica - 47 points - 13 wins - 8 draws - 9 losses - 54 scored - 54 against - No qualification
-9. Borac Banja Luka - 46 points - 14 wins - 4 draws - 12 losses - 52 scored - 54 against - No qualification
-10. Radnik Bijeljina - 34 points - 10 wins - 4 draws - 16 losses - 55 scored - 59 against - No qualification
-11. Mladost Doboj Kakanj - 30 points - 8 wins - 6 draws - 16 losses - 44 scored - 61 against - No qualification
-12. FK Krupa - 25 points - 7 wins - 4 draws - 19 losses - 37 scored - 68 against - No qualification
-13. Igman Konjic - 22 points - 7 wins - 1 draws - 22 losses - 39 scored - 78 against - No qualification
-14. NK Travnik - 19 points - 4 wins - 7 draws - 19 losses - 30 scored - 70 against - No qualification
-15. FK Rudar Prijedor - 17 points - 4 wins - 5 draws - 21 losses - 35 scored - 71 against - No qualification
-16. Gosk Gabela - 15 points - 4 wins - 3 draws - 23 losses - 31 scored - 78 against - No qualification
+Winner of League: Željezničar
+1. Željezničar - 72 points - 23 wins - 3 draws - 4 losses - 71 scored - 28 against - Champions League - Round 1
+2. FK Sarajevo - 71 points - 22 wins - 5 draws - 3 losses - 83 scored - 28 against - Europa League - Round 1
+3. Zrinjski Mostar - 70 points - 22 wins - 4 draws - 4 losses - 74 scored - 34 against - Europa Conference League - Round 1
+4. Široki Brijeg - 60 points - 18 wins - 6 draws - 6 losses - 68 scored - 40 against - No qualification
+5. Borac Banja Luka - 57 points - 17 wins - 6 draws - 7 losses - 58 scored - 40 against - No qualification
+6. Sloboda Tuzla - 55 points - 18 wins - 1 draws - 11 losses - 61 scored - 42 against - No qualification
+7. Velež Mostar - 51 points - 15 wins - 6 draws - 9 losses - 53 scored - 38 against - No qualification
+8. Tuzla City - 49 points - 14 wins - 7 draws - 9 losses - 58 scored - 44 against - No qualification
+9. Čelik Zenica - 37 points - 10 wins - 7 draws - 13 losses - 52 scored - 63 against - No qualification
+10. FK Krupa - 36 points - 9 wins - 9 draws - 12 losses - 44 scored - 55 against - No qualification
+11. Radnik Bijeljina - 29 points - 7 wins - 8 draws - 15 losses - 41 scored - 62 against - No qualification
+12. NK Travnik - 26 points - 7 wins - 5 draws - 18 losses - 37 scored - 70 against - No qualification
+13. Mladost Doboj Kakanj - 23 points - 5 wins - 8 draws - 17 losses - 38 scored - 64 against - No qualification
+14. Igman Konjic - 16 points - 4 wins - 4 draws - 22 losses - 33 scored - 68 against - No qualification
+15. Gosk Gabela - 15 points - 4 wins - 3 draws - 23 losses - 33 scored - 84 against - No qualification
+16. FK Rudar Prijedor - 10 points - 2 wins - 4 draws - 24 losses - 31 scored - 75 against - No qualification
 Teams of Bosnia_and_Herzegovina Cup: ['FK Sarajevo', 'Željezničar', 'Zrinjski Mostar', 'Široki Brijeg', 'Borac Banja Luka', 'Velež Mostar', 'Sloboda Tuzla', 'Tuzla City', 'Čelik Zenica', 'Radnik Bijeljina', 'Mladost Doboj Kakanj', 'FK Krupa', 'NK Travnik', 'Igman Konjic', 'Gosk Gabela', 'FK Rudar Prijedor']
 
 Current round: Round 1
-FK Krupa 2 - 4 Tuzla City
-Tuzla City won the match!
-Velež Mostar 1 - 0 Željezničar
-Velež Mostar won the match!
-FK Sarajevo 3 - 2 Gosk Gabela
+FK Sarajevo 3 - 1 NK Travnik
 FK Sarajevo won the match!
-Sloboda Tuzla 2 - 0 Borac Banja Luka
-Sloboda Tuzla won the match!
-Igman Konjic 0 - 3 Zrinjski Mostar
-Zrinjski Mostar won the match!
-Radnik Bijeljina 1 - 1 NK Travnik
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Radnik Bijeljina 0 - 1 NK Travnik (Aggregate: 1 - 2)
-Čelik Zenica 2 - 1 FK Rudar Prijedor
+Borac Banja Luka 2 - 1 Tuzla City
+Borac Banja Luka won the match!
+Mladost Doboj Kakanj 1 - 2 Čelik Zenica
 Čelik Zenica won the match!
-Mladost Doboj Kakanj 2 - 3 Široki Brijeg
-Široki Brijeg won the match!
+Radnik Bijeljina 0 - 1 Igman Konjic
+Igman Konjic won the match!
+Sloboda Tuzla 1 - 4 Zrinjski Mostar
+Zrinjski Mostar won the match!
+FK Rudar Prijedor 1 - 4 Željezničar
+Željezničar won the match!
+Gosk Gabela 2 - 2 Široki Brijeg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Gosk Gabela 0 - 1 Široki Brijeg (Aggregate: 2 - 3)
+FK Krupa 2 - 3 Velež Mostar
+Velež Mostar won the match!
 
 Current round: Quarter-Final
-Tuzla City 3 - 2 FK Sarajevo
-Tuzla City won the match!
-NK Travnik 2 - 3 Široki Brijeg
+Borac Banja Luka 1 - 1 FK Sarajevo
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Borac Banja Luka 1 - 0 FK Sarajevo (Aggregate: 2 - 1)
+Željezničar 2 - 2 Zrinjski Mostar
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Željezničar 1 - 0 Zrinjski Mostar (Aggregate: 3 - 2)
+Široki Brijeg 4 - 1 Čelik Zenica
 Široki Brijeg won the match!
-Sloboda Tuzla 2 - 0 Čelik Zenica
-Sloboda Tuzla won the match!
-Zrinjski Mostar 3 - 1 Velež Mostar
-Zrinjski Mostar won the match!
+Igman Konjic 0 - 4 Velež Mostar
+Velež Mostar won the match!
 
 Current round: Semi-Final
-Široki Brijeg 1 - 1 Sloboda Tuzla
+Široki Brijeg 1 - 1 Željezničar
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Široki Brijeg 1 - 1 Sloboda Tuzla (Aggregate: 2 - 2)
+Extra Time: Široki Brijeg 0 - 0 Željezničar (Aggregate: 1 - 1)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: Široki Brijeg 3 - 3 Sloboda Tuzla
-Penalties are tied! Sudden death begins!
-Sudden Death: Široki Brijeg 6 - 5 Sloboda Tuzla
-Široki Brijeg wins on sudden death penalties!
-Tuzla City 1 - 2 Zrinjski Mostar
-Zrinjski Mostar won the match!
+Penalties: Široki Brijeg 2 - 4 Željezničar
+Željezničar wins on penalties!
+Borac Banja Luka 2 - 2 Velež Mostar
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Borac Banja Luka 0 - 1 Velež Mostar (Aggregate: 2 - 3)
 
 Current round: Final
-Široki Brijeg 1 - 2 Zrinjski Mostar
-Zrinjski Mostar won the match!
+Velež Mostar 1 - 2 Željezničar
+Željezničar won the match!
 
-Winner of Bosnia_and_Herzegovina Cup: Zrinjski Mostar
+Winner of Bosnia_and_Herzegovina Cup: Željezničar

@@ -1,69 +1,142 @@
-Winner of League: Bayer Leverkusen
-1. Bayer Leverkusen - 102 points - 33 wins - 3 draws - 2 losses - 108 scored - 33 against - Champions League - Round 2
-2. Bayern Munchen - 98 points - 32 wins - 2 draws - 4 losses - 113 scored - 26 against - Champions League - Round 2
-3. Borussia Dortmund - 89 points - 27 wins - 8 draws - 3 losses - 101 scored - 39 against - Champions League - Round 1
-4. Eintracht Frankfurt - 85 points - 26 wins - 7 draws - 5 losses - 97 scored - 36 against - Champions League - Round 1
-5. RB Leipzig - 81 points - 25 wins - 6 draws - 7 losses - 94 scored - 46 against - Champions League - Round 1
-6. Borussia Monchengladbach - 73 points - 21 wins - 10 draws - 7 losses - 76 scored - 50 against - Europa League - Round 1
-7. SC Freiburg - 59 points - 18 wins - 5 draws - 15 losses - 74 scored - 68 against - Europa League - Round 1
-8. 1. FC Koln - 55 points - 16 wins - 7 draws - 15 losses - 69 scored - 70 against - Europa League - Round 1
-9. FC Augsburg - 51 points - 13 wins - 12 draws - 15 losses - 67 scored - 87 against - Europa Conference League - Round 1
-10. Nurnberg - 47 points - 13 wins - 8 draws - 17 losses - 56 scored - 71 against - Europa Conference League - Round 1
-11. Union Berlin - 46 points - 13 wins - 7 draws - 18 losses - 63 scored - 79 against - No qualification
-12. VfL Wolfsburg - 45 points - 12 wins - 9 draws - 17 losses - 66 scored - 82 against - No qualification
-13. VfB Stuttgart - 43 points - 10 wins - 13 draws - 15 losses - 58 scored - 69 against - No qualification
-14. Fortuna Dusseldorf - 42 points - 12 wins - 6 draws - 20 losses - 57 scored - 71 against - No qualification
-15. 1899 Hoffenheim - 37 points - 9 wins - 10 draws - 19 losses - 63 scored - 90 against - No qualification
-16. Mainz 05 - 37 points - 9 wins - 10 draws - 19 losses - 57 scored - 75 against - No qualification
-17. VfL Bochum - 32 points - 8 wins - 8 draws - 22 losses - 48 scored - 78 against - No qualification
-18. Hertha Berlin - 30 points - 7 wins - 9 draws - 22 losses - 52 scored - 99 against - No qualification
-19. Darmstadt 98 - 26 points - 6 wins - 8 draws - 24 losses - 49 scored - 95 against - No qualification
-20. 1. FC Heidenheim - 25 points - 6 wins - 7 draws - 25 losses - 38 scored - 82 against - No qualification
-21. Werder Bremen - 17 points - 4 wins - 5 draws - 29 losses - 42 scored - 102 against - No qualification
-Teams of Germany Cup: ['Bayern Munchen', 'Borussia Dortmund', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt', 'SC Freiburg', 'Union Berlin', 'VfL Wolfsburg', 'Borussia Monchengladbach', 'Mainz 05', '1899 Hoffenheim', 'VfB Stuttgart', '1. FC Koln', 'Fortuna Dusseldorf', 'Werder Bremen', 'FC Augsburg']
+Winner of League: Bayern Munchen
+1. Bayern Munchen - 97 points - 31 wins - 4 draws - 3 losses - 115 scored - 32 against - Champions League - Round 2
+2. Borussia Dortmund - 89 points - 28 wins - 5 draws - 5 losses - 100 scored - 43 against - Champions League - Round 2
+3. Bayer Leverkusen - 89 points - 28 wins - 5 draws - 5 losses - 99 scored - 38 against - Champions League - Round 1
+4. Eintracht Frankfurt - 87 points - 26 wins - 9 draws - 3 losses - 93 scored - 33 against - Champions League - Round 1
+5. RB Leipzig - 81 points - 25 wins - 6 draws - 7 losses - 85 scored - 44 against - Champions League - Round 1
+6. VfB Stuttgart - 67 points - 21 wins - 4 draws - 13 losses - 69 scored - 62 against - Europa League - Round 2
+7. Borussia Monchengladbach - 67 points - 19 wins - 10 draws - 9 losses - 79 scored - 67 against - Europa League - Round 1
+8. FC Augsburg - 63 points - 18 wins - 9 draws - 13 losses - 75 scored - 68 against - Europa League - Round 1
+9. VfL Wolfsburg - 59 points - 18 wins - 5 draws - 15 losses - 70 scored - 70 against - Europa League - Round 1
+10. 1. FC Koln - 52 points - 15 wins - 7 draws - 16 losses - 65 scored - 68 against - Europa League - Round 1
+11. SC Freiburg - 48 points - 14 wins - 6 draws - 18 losses - 68 scored - 76 against - Europa Conference League - Round 2
+12. Fortuna Dusseldorf - 43 points - 11 wins - 10 draws - 17 losses - 57 scored - 66 against - Europa Conference League - Round 1
+13. 1899 Hoffenheim - 41 points - 13 wins - 2 draws - 23 losses - 67 scored - 86 against - Europa Conference League - Round 1
+14. Union Berlin - 40 points - 11 wins - 7 draws - 20 losses - 54 scored - 75 against - Europa Conference League - Round 1
+15. Mainz 05 - 37 points - 10 wins - 7 draws - 21 losses - 58 scored - 79 against - Europa Conference League - Round 1
+16. VfL Bochum - 37 points - 10 wins - 7 draws - 21 losses - 50 scored - 78 against - No qualification
+17. Nurnberg - 36 points - 9 wins - 9 draws - 20 losses - 56 scored - 77 against - No qualification
+18. Werder Bremen - 32 points - 9 wins - 5 draws - 24 losses - 51 scored - 100 against - No qualification
+19. Hertha Berlin - 26 points - 7 wins - 5 draws - 26 losses - 45 scored - 100 against - No qualification
+20. 1. FC Heidenheim - 25 points - 7 wins - 4 draws - 27 losses - 40 scored - 94 against - No qualification
+21. Darmstadt 98 - 18 points - 4 wins - 6 draws - 28 losses - 44 scored - 84 against - No qualification
+Teams of Germany Cup: ['Bayern Munchen', 'Borussia Dortmund', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt', 'SC Freiburg', 'VfL Wolfsburg', 'Union Berlin', 'Borussia Monchengladbach', 'Mainz 05', '1899 Hoffenheim', 'VfB Stuttgart', '1. FC Koln', 'Fortuna Dusseldorf', 'Werder Bremen', 'FC Augsburg']
 
 Current round: Round 1
-Borussia Monchengladbach 3 - 2 1. FC Koln
-Borussia Monchengladbach won the match!
-RB Leipzig 4 - 1 1899 Hoffenheim
-RB Leipzig won the match!
-SC Freiburg 2 - 1 Werder Bremen
-SC Freiburg won the match!
-Fortuna Dusseldorf 2 - 1 Union Berlin
+Werder Bremen 0 - 3 Fortuna Dusseldorf
 Fortuna Dusseldorf won the match!
-VfL Wolfsburg 2 - 4 Bayern Munchen
+RB Leipzig 3 - 0 Borussia Monchengladbach
+RB Leipzig won the match!
+FC Augsburg 0 - 3 Bayern Munchen
 Bayern Munchen won the match!
-Borussia Dortmund 5 - 0 VfB Stuttgart
+1899 Hoffenheim 1 - 4 Borussia Dortmund
 Borussia Dortmund won the match!
-Mainz 05 1 - 2 Bayer Leverkusen
-Bayer Leverkusen won the match!
-FC Augsburg 1 - 2 Eintracht Frankfurt
+Eintracht Frankfurt 2 - 2 1. FC Koln
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Eintracht Frankfurt 0 - 1 1. FC Koln (Aggregate: 2 - 3)
+SC Freiburg 2 - 2 Bayer Leverkusen
+Aggregate is tied! Proceeding to extra time...
+Extra Time: SC Freiburg 0 - 0 Bayer Leverkusen (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: SC Freiburg 4 - 2 Bayer Leverkusen
+SC Freiburg wins on penalties!
+VfL Wolfsburg 3 - 2 Union Berlin
+VfL Wolfsburg won the match!
+Mainz 05 3 - 2 VfB Stuttgart
+Mainz 05 won the match!
+
+Current round: Quarter-Final
+RB Leipzig 3 - 1 SC Freiburg
+RB Leipzig won the match!
+1. FC Koln 1 - 4 Bayern Munchen
+Bayern Munchen won the match!
+VfL Wolfsburg 3 - 1 Mainz 05
+VfL Wolfsburg won the match!
+Fortuna Dusseldorf 1 - 2 Borussia Dortmund
+Borussia Dortmund won the match!
+
+Current round: Semi-Final
+RB Leipzig 2 - 2 VfL Wolfsburg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: RB Leipzig 0 - 1 VfL Wolfsburg (Aggregate: 2 - 3)
+Bayern Munchen 2 - 3 Borussia Dortmund
+Borussia Dortmund won the match!
+
+Current round: Final
+Borussia Dortmund 1 - 1 VfL Wolfsburg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Borussia Dortmund 0 - 0 VfL Wolfsburg (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Borussia Dortmund 4 - 1 VfL Wolfsburg
+Borussia Dortmund wins on penalties!
+
+Winner of Germany Cup: Borussia Dortmund
+Winner of League: Borussia Dortmund
+1. Borussia Dortmund - 102 points - 34 wins - 0 draws - 4 losses - 97 scored - 38 against - Champions League - Round 2
+2. Bayern Munchen - 98 points - 32 wins - 2 draws - 4 losses - 115 scored - 34 against - Champions League - Round 2
+3. Bayer Leverkusen - 94 points - 29 wins - 7 draws - 2 losses - 102 scored - 33 against - Champions League - Round 1
+4. RB Leipzig - 92 points - 29 wins - 5 draws - 4 losses - 111 scored - 42 against - Champions League - Round 1
+5. Eintracht Frankfurt - 82 points - 26 wins - 4 draws - 8 losses - 98 scored - 37 against - Champions League - Round 1
+6. Borussia Monchengladbach - 76 points - 24 wins - 4 draws - 10 losses - 74 scored - 46 against - Europa League - Round 2
+7. FC Augsburg - 59 points - 18 wins - 5 draws - 17 losses - 73 scored - 72 against - Europa League - Round 1
+8. 1. FC Koln - 55 points - 15 wins - 10 draws - 13 losses - 62 scored - 65 against - Europa League - Round 1
+9. VfL Wolfsburg - 54 points - 15 wins - 9 draws - 14 losses - 72 scored - 71 against - Europa League - Round 1
+10. VfB Stuttgart - 54 points - 15 wins - 9 draws - 14 losses - 63 scored - 64 against - Europa League - Round 1
+11. Fortuna Dusseldorf - 53 points - 16 wins - 5 draws - 17 losses - 64 scored - 70 against - Europa Conference League - Round 2
+12. SC Freiburg - 49 points - 14 wins - 7 draws - 17 losses - 67 scored - 72 against - Europa Conference League - Round 1
+13. Union Berlin - 46 points - 12 wins - 10 draws - 16 losses - 60 scored - 67 against - Europa Conference League - Round 1
+14. VfL Bochum - 39 points - 11 wins - 6 draws - 21 losses - 49 scored - 74 against - Europa Conference League - Round 1
+15. Mainz 05 - 37 points - 11 wins - 4 draws - 23 losses - 56 scored - 86 against - Europa Conference League - Round 1
+16. Nurnberg - 32 points - 8 wins - 8 draws - 22 losses - 50 scored - 83 against - No qualification
+17. Darmstadt 98 - 28 points - 8 wins - 4 draws - 26 losses - 48 scored - 89 against - No qualification
+18. 1899 Hoffenheim - 28 points - 7 wins - 7 draws - 24 losses - 51 scored - 95 against - No qualification
+19. Hertha Berlin - 26 points - 6 wins - 8 draws - 24 losses - 53 scored - 103 against - No qualification
+20. Werder Bremen - 20 points - 4 wins - 8 draws - 26 losses - 39 scored - 94 against - No qualification
+21. 1. FC Heidenheim - 14 points - 4 wins - 2 draws - 32 losses - 27 scored - 96 against - No qualification
+Teams of Germany Cup: ['Bayern Munchen', 'Borussia Dortmund', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt', 'SC Freiburg', 'VfL Wolfsburg', 'Union Berlin', 'Borussia Monchengladbach', 'Mainz 05', '1899 Hoffenheim', 'VfB Stuttgart', '1. FC Koln', 'Fortuna Dusseldorf', 'Werder Bremen', 'FC Augsburg']
+
+Current round: Round 1
+Borussia Dortmund 3 - 2 Union Berlin
+Borussia Dortmund won the match!
+Fortuna Dusseldorf 4 - 1 VfB Stuttgart
+Fortuna Dusseldorf won the match!
+VfL Wolfsburg 3 - 1 1899 Hoffenheim
+VfL Wolfsburg won the match!
+Bayer Leverkusen 1 - 1 RB Leipzig
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Bayer Leverkusen 1 - 1 RB Leipzig (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Bayer Leverkusen 5 - 5 RB Leipzig
+Penalties are tied! Sudden death begins!
+Sudden Death: Bayer Leverkusen 9 - 10 RB Leipzig
+RB Leipzig wins on sudden death penalties!
+Borussia Monchengladbach 3 - 0 1. FC Koln
+Borussia Monchengladbach won the match!
+Bayern Munchen 3 - 0 Mainz 05
+Bayern Munchen won the match!
+SC Freiburg 3 - 1 FC Augsburg
+SC Freiburg won the match!
+Eintracht Frankfurt 5 - 0 Werder Bremen
 Eintracht Frankfurt won the match!
 
 Current round: Quarter-Final
-Bayer Leverkusen 3 - 2 Borussia Dortmund
-Bayer Leverkusen won the match!
-SC Freiburg 2 - 3 RB Leipzig
+Eintracht Frankfurt 0 - 1 VfL Wolfsburg
+VfL Wolfsburg won the match!
+RB Leipzig 4 - 1 SC Freiburg
 RB Leipzig won the match!
-Bayern Munchen 2 - 0 Eintracht Frankfurt
+Borussia Monchengladbach 2 - 4 Borussia Dortmund
+Borussia Dortmund won the match!
+Fortuna Dusseldorf 1 - 3 Bayern Munchen
 Bayern Munchen won the match!
-Borussia Monchengladbach 2 - 2 Fortuna Dusseldorf
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Borussia Monchengladbach 0 - 1 Fortuna Dusseldorf (Aggregate: 2 - 3)
 
 Current round: Semi-Final
-Bayern Munchen 3 - 2 RB Leipzig
+VfL Wolfsburg 1 - 3 Borussia Dortmund
+Borussia Dortmund won the match!
+Bayern Munchen 2 - 0 RB Leipzig
 Bayern Munchen won the match!
-Bayer Leverkusen 2 - 2 Fortuna Dusseldorf
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Bayer Leverkusen 1 - 0 Fortuna Dusseldorf (Aggregate: 3 - 2)
 
 Current round: Final
-Bayer Leverkusen 1 - 1 Bayern Munchen
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Bayer Leverkusen 1 - 1 Bayern Munchen (Aggregate: 2 - 2)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Bayer Leverkusen 5 - 4 Bayern Munchen
-Bayer Leverkusen wins on penalties!
+Borussia Dortmund 2 - 3 Bayern Munchen
+Bayern Munchen won the match!
 
-Winner of Germany Cup: Bayer Leverkusen
+Winner of Germany Cup: Bayern Munchen
