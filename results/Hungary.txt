@@ -1,0 +1,62 @@
+Winner of League: Ferencváros
+1. Ferencváros - 82 points - 26 wins - 4 draws - 0 losses - 99 scored - 15 against - Champions League - Round 1
+2. MOL Fehérvár FC - 65 points - 20 wins - 5 draws - 5 losses - 67 scored - 39 against - Champions League - Round 1
+3. Újpest FC - 56 points - 16 wins - 8 draws - 6 losses - 63 scored - 40 against - Europa League - Round 1
+4. Debrecen - 53 points - 15 wins - 8 draws - 7 losses - 58 scored - 52 against - Europa Conference League - Round 1
+5. Honvéd Budapest - 52 points - 15 wins - 7 draws - 8 losses - 63 scored - 45 against - Europa Conference League - Round 1
+6. Puskás Akadémia FC - 50 points - 14 wins - 8 draws - 8 losses - 59 scored - 46 against - No qualification
+7. Kisvárda - 48 points - 14 wins - 6 draws - 10 losses - 61 scored - 49 against - No qualification
+8. MTK Budapest - 47 points - 14 wins - 5 draws - 11 losses - 52 scored - 57 against - No qualification
+9. Diósgyőri VTK - 47 points - 13 wins - 8 draws - 9 losses - 65 scored - 59 against - No qualification
+10. Mezőkövesd - 41 points - 11 wins - 8 draws - 11 losses - 52 scored - 54 against - No qualification
+11. Gyirmót SE - 29 points - 9 wins - 2 draws - 19 losses - 42 scored - 71 against - No qualification
+12. Pécsi MFC - 24 points - 7 wins - 3 draws - 20 losses - 46 scored - 70 against - No qualification
+13. Békéscsaba 1912 - 23 points - 6 wins - 5 draws - 19 losses - 39 scored - 69 against - No qualification
+14. Haladás VSE - 22 points - 6 wins - 4 draws - 20 losses - 40 scored - 66 against - No qualification
+15. Zalaegerszegi TE - 21 points - 5 wins - 6 draws - 19 losses - 40 scored - 73 against - No qualification
+16. Szeged 2011 - 12 points - 1 wins - 9 draws - 20 losses - 32 scored - 73 against - No qualification
+Teams of Hungary Cup: ['Ferencváros', 'MOL Fehérvár FC', 'Puskás Akadémia FC', 'Újpest FC', 'Honvéd Budapest', 'Debrecen', 'Diósgyőri VTK', 'Kisvárda', 'MTK Budapest', 'Mezőkövesd', 'Haladás VSE', 'Zalaegerszegi TE', 'Pécsi MFC', 'Gyirmót SE', 'Szeged 2011', 'Békéscsaba 1912']
+
+Current round: Round 1
+Szeged 2011 4 - 3 MTK Budapest
+Szeged 2011 won the match!
+Pécsi MFC 2 - 1 Haladás VSE
+Pécsi MFC won the match!
+Ferencváros 2 - 1 Újpest FC
+Ferencváros won the match!
+Kisvárda 3 - 0 Gyirmót SE
+Kisvárda won the match!
+Békéscsaba 1912 1 - 3 Puskás Akadémia FC
+Puskás Akadémia FC won the match!
+MOL Fehérvár FC 3 - 1 Zalaegerszegi TE
+MOL Fehérvár FC won the match!
+Diósgyőri VTK 2 - 1 Mezőkövesd
+Diósgyőri VTK won the match!
+Honvéd Budapest 1 - 0 Debrecen
+Honvéd Budapest won the match!
+
+Current round: Quarter-Final
+Szeged 2011 0 - 2 Honvéd Budapest
+Honvéd Budapest won the match!
+Diósgyőri VTK 1 - 1 Pécsi MFC
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Diósgyőri VTK 1 - 1 Pécsi MFC (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Diósgyőri VTK 4 - 2 Pécsi MFC
+Diósgyőri VTK wins on penalties!
+Puskás Akadémia FC 2 - 1 MOL Fehérvár FC
+Puskás Akadémia FC won the match!
+Ferencváros 3 - 0 Kisvárda
+Ferencváros won the match!
+
+Current round: Semi-Final
+Puskás Akadémia FC 4 - 2 Honvéd Budapest
+Puskás Akadémia FC won the match!
+Diósgyőri VTK 1 - 2 Ferencváros
+Ferencváros won the match!
+
+Current round: Final
+Ferencváros 2 - 1 Puskás Akadémia FC
+Ferencváros won the match!
+
+Winner of Hungary Cup: Ferencváros

@@ -1,0 +1,61 @@
+Winner of League: Shakhtar Donetsk
+1. Shakhtar Donetsk - 84 points - 27 wins - 3 draws - 0 losses - 88 scored - 14 against - Champions League - Round 2
+2. Dynamo Kyiv - 76 points - 24 wins - 4 draws - 2 losses - 73 scored - 30 against - Champions League - Round 1
+3. Zorya Luhansk - 70 points - 22 wins - 4 draws - 4 losses - 80 scored - 33 against - Champions League - Round 1
+4. Dnipro-1 - 59 points - 17 wins - 8 draws - 5 losses - 71 scored - 38 against - Europa League - Round 2
+5. Kolos Kovalivka - 52 points - 16 wins - 4 draws - 10 losses - 55 scored - 40 against - Europa Conference League - Round 2
+6. Metalist Kharkiv - 50 points - 15 wins - 5 draws - 10 losses - 64 scored - 47 against - No qualification
+7. Vorskla Poltava - 48 points - 13 wins - 9 draws - 8 losses - 56 scored - 49 against - No qualification
+8. Chornomorets Odesa - 46 points - 15 wins - 1 draws - 14 losses - 46 scored - 59 against - No qualification
+9. Oleksandriya - 38 points - 11 wins - 5 draws - 14 losses - 52 scored - 65 against - No qualification
+10. Karpaty Lviv - 33 points - 10 wins - 3 draws - 17 losses - 49 scored - 60 against - No qualification
+11. Lviv - 32 points - 9 wins - 5 draws - 16 losses - 48 scored - 69 against - No qualification
+12. Veres Rivne - 27 points - 8 wins - 3 draws - 19 losses - 37 scored - 58 against - No qualification
+13. Ingulec Petrove - 24 points - 6 wins - 6 draws - 18 losses - 43 scored - 74 against - No qualification
+14. Obolon Kyiv - 21 points - 5 wins - 6 draws - 19 losses - 33 scored - 67 against - No qualification
+15. Prytula Kolomyya - 17 points - 4 wins - 5 draws - 21 losses - 35 scored - 80 against - No qualification
+16. Kryvbas Kryvyi Rih - 7 points - 2 wins - 1 draws - 27 losses - 29 scored - 76 against - No qualification
+Teams of Ukraine Cup: ['Shakhtar Donetsk', 'Dynamo Kyiv', 'Zorya Luhansk', 'Dnipro-1', 'Kolos Kovalivka', 'Vorskla Poltava', 'Oleksandriya', 'Metalist Kharkiv', 'Chornomorets Odesa', 'Karpaty Lviv', 'Lviv', 'Veres Rivne', 'Ingulec Petrove', 'Kryvbas Kryvyi Rih', 'Obolon Kyiv', 'Prytula Kolomyya']
+
+Current round: Round 1
+Kryvbas Kryvyi Rih 2 - 1 Dynamo Kyiv
+Kryvbas Kryvyi Rih won the match!
+Kolos Kovalivka 0 - 0 Veres Rivne
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Kolos Kovalivka 1 - 0 Veres Rivne (Aggregate: 1 - 0)
+Lviv 1 - 1 Oleksandriya
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Lviv 1 - 0 Oleksandriya (Aggregate: 2 - 1)
+Prytula Kolomyya 3 - 3 Dnipro-1
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Prytula Kolomyya 1 - 0 Dnipro-1 (Aggregate: 4 - 3)
+Chornomorets Odesa 1 - 2 Metalist Kharkiv
+Metalist Kharkiv won the match!
+Vorskla Poltava 1 - 2 Zorya Luhansk
+Zorya Luhansk won the match!
+Shakhtar Donetsk 4 - 0 Obolon Kyiv
+Shakhtar Donetsk won the match!
+Ingulec Petrove 3 - 2 Karpaty Lviv
+Ingulec Petrove won the match!
+
+Current round: Quarter-Final
+Zorya Luhansk 2 - 1 Shakhtar Donetsk
+Zorya Luhansk won the match!
+Kryvbas Kryvyi Rih 1 - 3 Metalist Kharkiv
+Metalist Kharkiv won the match!
+Kolos Kovalivka 4 - 0 Ingulec Petrove
+Kolos Kovalivka won the match!
+Prytula Kolomyya 2 - 0 Lviv
+Prytula Kolomyya won the match!
+
+Current round: Semi-Final
+Zorya Luhansk 3 - 0 Metalist Kharkiv
+Zorya Luhansk won the match!
+Prytula Kolomyya 0 - 1 Kolos Kovalivka
+Kolos Kovalivka won the match!
+
+Current round: Final
+Kolos Kovalivka 1 - 2 Zorya Luhansk
+Zorya Luhansk won the match!
+
+Winner of Ukraine Cup: Zorya Luhansk

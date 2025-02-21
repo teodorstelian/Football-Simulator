@@ -1,22 +1,138 @@
 Winner of League: Manchester City
-1. Manchester City - 80 points - 24 wins - 8 draws - 6 losses - 90 scored - 34 against - Champions League
-2. Newcastle United - 78 points - 23 wins - 9 draws - 6 losses - 81 scored - 38 against - Champions League
-3. Arsenal - 73 points - 21 wins - 10 draws - 7 losses - 94 scored - 46 against - Champions League
-4. Manchester United - 68 points - 20 wins - 8 draws - 10 losses - 66 scored - 51 against - Champions League
-5. Chelsea - 67 points - 21 wins - 4 draws - 13 losses - 83 scored - 57 against - Europa League
-6. Tottenham Hotspur - 67 points - 20 wins - 7 draws - 11 losses - 76 scored - 54 against - Europa League
-7. Liverpool - 62 points - 17 wins - 11 draws - 10 losses - 80 scored - 47 against - Europa League
-8. Fulham - 55 points - 16 wins - 7 draws - 15 losses - 63 scored - 64 against - Europa League
-9. West Ham United - 55 points - 15 wins - 10 draws - 13 losses - 66 scored - 69 against - Europa Conference League
-10. Brighton - 52 points - 15 wins - 7 draws - 16 losses - 63 scored - 63 against - Europa Conference League
-11. Wolverhampton Wanderers - 48 points - 14 wins - 6 draws - 18 losses - 64 scored - 78 against - Europa Conference League
-12. Crystal Palace - 48 points - 13 wins - 9 draws - 16 losses - 51 scored - 64 against - Europa Conference League
-13. Burnley - 46 points - 12 wins - 10 draws - 16 losses - 54 scored - 69 against - No qualification
-14. Aston Villa - 45 points - 12 wins - 9 draws - 17 losses - 60 scored - 69 against - No qualification
-15. Sheffield United - 41 points - 11 wins - 8 draws - 19 losses - 58 scored - 79 against - No qualification
-16. Nottingham Forest - 41 points - 10 wins - 11 draws - 17 losses - 53 scored - 77 against - No qualification
-17. Brentford - 39 points - 10 wins - 9 draws - 19 losses - 42 scored - 70 against - No qualification
-18. Everton - 37 points - 11 wins - 4 draws - 23 losses - 50 scored - 82 against - No qualification
-19. Bournemouth - 35 points - 8 wins - 11 draws - 19 losses - 55 scored - 85 against - No qualification
-20. Luton - 21 points - 5 wins - 6 draws - 27 losses - 33 scored - 86 against - No qualification
-Winner of England Cup: Manchester City
+1. Manchester City - 123 points - 39 wins - 6 draws - 1 losses - 141 scored - 37 against - Champions League - Round 2
+2. Arsenal - 119 points - 38 wins - 5 draws - 3 losses - 151 scored - 40 against - Champions League - Round 2
+3. Liverpool - 111 points - 35 wins - 6 draws - 5 losses - 139 scored - 37 against - Champions League - Round 1
+4. Chelsea - 110 points - 34 wins - 8 draws - 4 losses - 119 scored - 51 against - Champions League - Round 1
+5. Manchester United - 99 points - 31 wins - 6 draws - 9 losses - 115 scored - 57 against - Champions League - Round 1
+6. Tottenham Hotspur - 91 points - 28 wins - 7 draws - 11 losses - 117 scored - 58 against - Europa League - Round 1
+7. Newcastle United - 91 points - 27 wins - 10 draws - 9 losses - 103 scored - 59 against - Europa League - Round 1
+8. Brighton - 87 points - 26 wins - 9 draws - 11 losses - 98 scored - 68 against - Europa League - Round 1
+9. Aston Villa - 84 points - 25 wins - 9 draws - 12 losses - 99 scored - 68 against - Europa Conference League - Round 1
+10. Leicester City - 79 points - 24 wins - 7 draws - 15 losses - 84 scored - 88 against - Europa Conference League - Round 1
+11. Southampton - 64 points - 18 wins - 10 draws - 18 losses - 77 scored - 85 against - Europa Conference League - Round 1
+12. Wolverhampton Wanderers - 56 points - 16 wins - 8 draws - 22 losses - 74 scored - 92 against - No qualification
+13. Brentford - 53 points - 15 wins - 8 draws - 23 losses - 66 scored - 97 against - No qualification
+14. Fulham - 48 points - 14 wins - 6 draws - 26 losses - 69 scored - 104 against - No qualification
+15. Crystal Palace - 46 points - 11 wins - 13 draws - 22 losses - 63 scored - 91 against - No qualification
+16. Nottingham Forest - 45 points - 14 wins - 3 draws - 29 losses - 61 scored - 97 against - No qualification
+17. West Ham United - 45 points - 13 wins - 6 draws - 27 losses - 68 scored - 95 against - No qualification
+18. Everton - 42 points - 12 wins - 6 draws - 28 losses - 71 scored - 115 against - No qualification
+19. Bournemouth - 42 points - 11 wins - 9 draws - 26 losses - 59 scored - 118 against - No qualification
+20. Watford - 33 points - 9 wins - 6 draws - 31 losses - 53 scored - 114 against - No qualification
+21. Leeds United - 32 points - 8 wins - 8 draws - 30 losses - 62 scored - 113 against - No qualification
+22. Burnley - 26 points - 6 wins - 8 draws - 32 losses - 56 scored - 115 against - No qualification
+23. Luton - 23 points - 5 wins - 8 draws - 33 losses - 49 scored - 116 against - No qualification
+24. Sheffield United - 17 points - 3 wins - 8 draws - 35 losses - 49 scored - 128 against - No qualification
+Teams of England Cup: ['Manchester City', 'Liverpool', 'Arsenal', 'Chelsea', 'Manchester United', 'Tottenham Hotspur', 'Newcastle United', 'Brighton', 'Aston Villa', 'Leicester City', 'Southampton', 'Brentford', 'West Ham United', 'Fulham', 'Wolverhampton Wanderers', 'Crystal Palace']
+
+Current round: Round 1
+Wolverhampton Wanderers 1 - 3 Crystal Palace
+Crystal Palace won the match!
+West Ham United 2 - 1 Newcastle United
+West Ham United won the match!
+Arsenal 4 - 1 Leicester City
+Arsenal won the match!
+Chelsea 1 - 1 Tottenham Hotspur
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Chelsea 0 - 0 Tottenham Hotspur (Aggregate: 1 - 1)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Chelsea 1 - 5 Tottenham Hotspur
+Tottenham Hotspur wins on penalties!
+Liverpool 4 - 0 Aston Villa
+Liverpool won the match!
+Manchester City 4 - 0 Brentford
+Manchester City won the match!
+Brighton 2 - 0 Fulham
+Brighton won the match!
+Southampton 2 - 4 Manchester United
+Manchester United won the match!
+
+Current round: Quarter-Final
+Liverpool 3 - 2 Manchester City
+Liverpool won the match!
+Manchester United 1 - 0 Brighton
+Manchester United won the match!
+West Ham United 1 - 1 Crystal Palace
+Aggregate is tied! Proceeding to extra time...
+Extra Time: West Ham United 1 - 0 Crystal Palace (Aggregate: 2 - 1)
+Tottenham Hotspur 1 - 2 Arsenal
+Arsenal won the match!
+
+Current round: Semi-Final
+Liverpool 2 - 1 Manchester United
+Liverpool won the match!
+Arsenal 3 - 0 West Ham United
+Arsenal won the match!
+
+Current round: Final
+Arsenal 3 - 1 Liverpool
+Arsenal won the match!
+
+Winner of England Cup: Arsenal
+Winner of League: Manchester City
+1. Manchester City - 125 points - 41 wins - 2 draws - 3 losses - 137 scored - 38 against - Champions League - Round 2
+2. Arsenal - 116 points - 37 wins - 5 draws - 4 losses - 129 scored - 35 against - Champions League - Round 2
+3. Liverpool - 114 points - 37 wins - 3 draws - 6 losses - 135 scored - 38 against - Champions League - Round 1
+4. Chelsea - 106 points - 33 wins - 7 draws - 6 losses - 122 scored - 47 against - Champions League - Round 1
+5. Tottenham Hotspur - 104 points - 32 wins - 8 draws - 6 losses - 108 scored - 52 against - Champions League - Round 1
+6. Newcastle United - 96 points - 30 wins - 6 draws - 10 losses - 101 scored - 65 against - Europa League - Round 1
+7. Manchester United - 90 points - 28 wins - 6 draws - 12 losses - 106 scored - 57 against - Europa League - Round 1
+8. Brighton - 87 points - 28 wins - 3 draws - 15 losses - 95 scored - 62 against - Europa League - Round 1
+9. Leicester City - 76 points - 22 wins - 10 draws - 14 losses - 85 scored - 78 against - Europa Conference League - Round 1
+10. Aston Villa - 73 points - 22 wins - 7 draws - 17 losses - 84 scored - 77 against - Europa Conference League - Round 1
+11. Southampton - 66 points - 19 wins - 9 draws - 18 losses - 81 scored - 74 against - Europa Conference League - Round 1
+12. Brentford - 49 points - 13 wins - 10 draws - 23 losses - 78 scored - 95 against - No qualification
+13. West Ham United - 48 points - 13 wins - 9 draws - 24 losses - 69 scored - 93 against - No qualification
+14. Fulham - 48 points - 12 wins - 12 draws - 22 losses - 64 scored - 85 against - No qualification
+15. Crystal Palace - 47 points - 12 wins - 11 draws - 23 losses - 64 scored - 93 against - No qualification
+16. Wolverhampton Wanderers - 45 points - 13 wins - 6 draws - 27 losses - 58 scored - 96 against - No qualification
+17. Bournemouth - 45 points - 12 wins - 9 draws - 25 losses - 66 scored - 102 against - No qualification
+18. Nottingham Forest - 43 points - 10 wins - 13 draws - 23 losses - 64 scored - 110 against - No qualification
+19. Burnley - 40 points - 11 wins - 7 draws - 28 losses - 57 scored - 102 against - No qualification
+20. Leeds United - 38 points - 10 wins - 8 draws - 28 losses - 56 scored - 102 against - No qualification
+21. Watford - 37 points - 10 wins - 7 draws - 29 losses - 50 scored - 99 against - No qualification
+22. Luton - 29 points - 6 wins - 11 draws - 29 losses - 46 scored - 112 against - No qualification
+23. Everton - 22 points - 4 wins - 10 draws - 32 losses - 52 scored - 115 against - No qualification
+24. Sheffield United - 20 points - 5 wins - 5 draws - 36 losses - 50 scored - 130 against - No qualification
+Teams of England Cup: ['Liverpool', 'Manchester City', 'Arsenal', 'Chelsea', 'Manchester United', 'Tottenham Hotspur', 'Newcastle United', 'Aston Villa', 'Brighton', 'Leicester City', 'Southampton', 'Brentford', 'West Ham United', 'Fulham', 'Crystal Palace', 'Wolverhampton Wanderers']
+
+Current round: Round 1
+Southampton 0 - 3 Arsenal
+Arsenal won the match!
+Liverpool 3 - 0 Crystal Palace
+Liverpool won the match!
+West Ham United 0 - 1 Aston Villa
+Aston Villa won the match!
+Chelsea 2 - 1 Brentford
+Chelsea won the match!
+Tottenham Hotspur 2 - 1 Manchester City
+Tottenham Hotspur won the match!
+Fulham 0 - 2 Leicester City
+Leicester City won the match!
+Manchester United 3 - 0 Newcastle United
+Manchester United won the match!
+Wolverhampton Wanderers 2 - 4 Brighton
+Brighton won the match!
+
+Current round: Quarter-Final
+Aston Villa 1 - 3 Liverpool
+Liverpool won the match!
+Leicester City 1 - 2 Chelsea
+Chelsea won the match!
+Brighton 3 - 2 Manchester United
+Brighton won the match!
+Tottenham Hotspur 2 - 2 Arsenal
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Tottenham Hotspur 1 - 0 Arsenal (Aggregate: 3 - 2)
+
+Current round: Semi-Final
+Liverpool 2 - 0 Chelsea
+Liverpool won the match!
+Tottenham Hotspur 2 - 1 Brighton
+Tottenham Hotspur won the match!
+
+Current round: Final
+Tottenham Hotspur 0 - 3 Liverpool
+Liverpool won the match!
+
+Winner of England Cup: Liverpool

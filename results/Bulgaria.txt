@@ -1,0 +1,60 @@
+Winner of League: Ludogorets
+1. Ludogorets - 80 points - 26 wins - 2 draws - 2 losses - 98 scored - 25 against - Champions League - Round 1
+2. CSKA Sofia - 72 points - 22 wins - 6 draws - 2 losses - 73 scored - 27 against - Champions League - Round 1
+3. Levski Sofia - 70 points - 22 wins - 4 draws - 4 losses - 71 scored - 31 against - Europa League - Round 1
+4. Slavia Sofia - 69 points - 21 wins - 6 draws - 3 losses - 78 scored - 43 against - Europa Conference League - Round 1
+5. Lokomotiv Plovdiv - 51 points - 15 wins - 6 draws - 9 losses - 67 scored - 53 against - No qualification
+6. Botev Plovdiv - 50 points - 15 wins - 5 draws - 10 losses - 59 scored - 54 against - No qualification
+7. Beroe - 49 points - 15 wins - 4 draws - 11 losses - 58 scored - 50 against - No qualification
+8. Cherno More - 47 points - 14 wins - 5 draws - 11 losses - 52 scored - 44 against - No qualification
+9. Arda Kardzhali - 34 points - 10 wins - 4 draws - 16 losses - 52 scored - 59 against - No qualification
+10. Etar Veliko Tarnovo - 27 points - 7 wins - 6 draws - 17 losses - 44 scored - 69 against - No qualification
+11. Septemvri Sofia - 26 points - 7 wins - 5 draws - 18 losses - 41 scored - 64 against - No qualification
+12. Minyor Pernik - 25 points - 6 wins - 7 draws - 17 losses - 48 scored - 85 against - No qualification
+13. Ludogorets II - 23 points - 5 wins - 8 draws - 17 losses - 34 scored - 75 against - No qualification
+14. Pirin Blagoevgrad - 21 points - 5 wins - 6 draws - 19 losses - 49 scored - 75 against - No qualification
+15. Montana - 21 points - 5 wins - 6 draws - 19 losses - 40 scored - 69 against - No qualification
+16. Dobrudzha Dobrich - 14 points - 4 wins - 2 draws - 24 losses - 33 scored - 74 against - No qualification
+Teams of Bulgaria Cup: ['Ludogorets', 'CSKA Sofia', 'Levski Sofia', 'Slavia Sofia', 'Lokomotiv Plovdiv', 'Botev Plovdiv', 'Cherno More', 'Arda Kardzhali', 'Beroe', 'Pirin Blagoevgrad', 'Etar Veliko Tarnovo', 'Septemvri Sofia', 'Montana', 'Ludogorets II', 'Minyor Pernik', 'Dobrudzha Dobrich']
+
+Current round: Round 1
+CSKA Sofia 3 - 1 Levski Sofia
+CSKA Sofia won the match!
+Arda Kardzhali 2 - 1 Dobrudzha Dobrich
+Arda Kardzhali won the match!
+Minyor Pernik 4 - 2 Pirin Blagoevgrad
+Minyor Pernik won the match!
+Botev Plovdiv 3 - 0 Septemvri Sofia
+Botev Plovdiv won the match!
+Beroe 4 - 1 Ludogorets II
+Beroe won the match!
+Slavia Sofia 1 - 1 Etar Veliko Tarnovo
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Slavia Sofia 0 - 1 Etar Veliko Tarnovo (Aggregate: 1 - 2)
+Montana 1 - 2 Lokomotiv Plovdiv
+Lokomotiv Plovdiv won the match!
+Ludogorets 3 - 1 Cherno More
+Ludogorets won the match!
+
+Current round: Quarter-Final
+Arda Kardzhali 0 - 1 Ludogorets
+Ludogorets won the match!
+Minyor Pernik 3 - 2 Etar Veliko Tarnovo
+Minyor Pernik won the match!
+Beroe 2 - 1 Lokomotiv Plovdiv
+Beroe won the match!
+Botev Plovdiv 3 - 5 CSKA Sofia
+CSKA Sofia won the match!
+
+Current round: Semi-Final
+Ludogorets 0 - 2 CSKA Sofia
+CSKA Sofia won the match!
+Minyor Pernik 0 - 0 Beroe
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Minyor Pernik 1 - 0 Beroe (Aggregate: 1 - 0)
+
+Current round: Final
+CSKA Sofia 3 - 0 Minyor Pernik
+CSKA Sofia won the match!
+
+Winner of Bulgaria Cup: CSKA Sofia

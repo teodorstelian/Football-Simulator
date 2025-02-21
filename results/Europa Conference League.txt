@@ -1,38 +1,159 @@
-Teams of current competition: ['West Ham United', 'Crystal Palace', 'Brighton', 'Wolverhampton Wanderers', 'Real Sociedad', 'Celta Vigo', 'Real Betis', 'Getafe', 'Borussia Monchengladbach', 'FC Augsburg', '1899 Hoffenheim', 'Mainz 05', 'Salernitana', 'Empoli', 'Fiorentina', 'Torino', 'Rennes', 'Montpellier', 'Toulouse', 'Reims', 'Sparta Rotterdam', 'Feyenoord', 'Heracles Almelo', 'Rio Ave', 'Casa Pia', 'Portimonense', 'Westerlo', 'RWD Molenbeek', 'Rangers', 'Celtic', 'Austria Wien', 'Austria Lustenau']
-Current round: Round 1
-West Ham United won against Crystal Palace 2 - 0
-Brighton won against Wolverhampton Wanderers 2 - 1
-Real Sociedad won against Celta Vigo 3 - 2
-Getafe won against Real Betis 2 - 1
-Borussia Monchengladbach won against FC Augsburg 4 - 0
-1899 Hoffenheim won against Mainz 05 3 - 0
-Empoli won against Salernitana 5 - 2
-Torino won against Fiorentina 2 - 0
-Rennes won against Montpellier 4 - 1
-Reims won against Toulouse 2 - 0
-Sparta Rotterdam won against Feyenoord 2 - 0
-Rio Ave won against Heracles Almelo 2 - 1
-Casa Pia won against Portimonense 2 - 1
-RWD Molenbeek won against Westerlo 3 - 1
-Celtic won against Rangers 2 - 0
-Austria Wien won against Austria Lustenau 6 - 5
+Teams starting in Europa Conference League Round 1: ['Aston Villa', 'Leicester City', 'Southampton', 'Celta Vigo', 'Osasuna', 'FC Augsburg', 'Nurnberg', 'Sassuolo', 'Torino', 'Marseille', 'Reims', 'Fortuna Sittard', 'Boavista', 'Charleroi', 'Motherwell', 'Austria Klagenfurt', 'Petrolul Ploiesti', 'Sion', 'Konyaspor', 'OFI Crete', 'Sigma Olomouc', 'Molde', 'Djurgården', 'Nordsjælland', 'Debrecen', 'Honvéd Budapest', 'Rijeka', 'Slavia Sofia', 'Zilina', 'Domžale', 'Ilves', 'Željezničar']
+1st Leg: Nordsjælland (Home) 0 - 2 Djurgården (Away)
+2nd Leg: Djurgården (Home) 4 - 1 Nordsjælland (Away)
+Nordsjælland vs Djurgården, Winner: Djurgården
+1st Leg: Domžale (Home) 3 - 2 Charleroi (Away)
+2nd Leg: Charleroi (Home) 1 - 1 Domžale (Away)
+Domžale vs Charleroi, Winner: Domžale
+1st Leg: Leicester City (Home) 3 - 1 Ilves (Away)
+2nd Leg: Ilves (Home) 0 - 3 Leicester City (Away)
+Leicester City vs Ilves, Winner: Leicester City
+1st Leg: Torino (Home) 2 - 0 OFI Crete (Away)
+2nd Leg: OFI Crete (Home) 1 - 2 Torino (Away)
+Torino vs OFI Crete, Winner: Torino
+1st Leg: Nurnberg (Home) 1 - 1 Motherwell (Away)
+2nd Leg: Motherwell (Home) 2 - 1 Nurnberg (Away)
+Nurnberg vs Motherwell, Winner: Motherwell
+1st Leg: Fortuna Sittard (Home) 2 - 0 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 2 - 1 Fortuna Sittard (Away)
+Fortuna Sittard vs Austria Klagenfurt, Winner: Fortuna Sittard
+1st Leg: Željezničar (Home) 1 - 1 Zilina (Away)
+2nd Leg: Zilina (Home) 0 - 2 Željezničar (Away)
+Željezničar vs Zilina, Winner: Željezničar
+1st Leg: Marseille (Home) 2 - 0 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 3 Marseille (Away)
+Marseille vs Petrolul Ploiesti, Winner: Marseille
+1st Leg: Southampton (Home) 4 - 0 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 0 - 3 Southampton (Away)
+Southampton vs Sassuolo, Winner: Southampton
+1st Leg: Rijeka (Home) 3 - 3 Sion (Away)
+2nd Leg: Sion (Home) 3 - 3 Rijeka (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rijeka 0 - 0 Sion (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rijeka 4 - 4 Sion
+Penalties are tied! Sudden death begins!
+Sudden Death: Rijeka 6 - 5 Sion
+Rijeka wins on sudden death penalties!
+Rijeka vs Sion, Winner: Rijeka
+1st Leg: Aston Villa (Home) 4 - 0 Sigma Olomouc (Away)
+2nd Leg: Sigma Olomouc (Home) 1 - 4 Aston Villa (Away)
+Aston Villa vs Sigma Olomouc, Winner: Aston Villa
+1st Leg: Osasuna (Home) 0 - 1 Reims (Away)
+2nd Leg: Reims (Home) 3 - 2 Osasuna (Away)
+Osasuna vs Reims, Winner: Reims
+1st Leg: Debrecen (Home) 1 - 1 Slavia Sofia (Away)
+2nd Leg: Slavia Sofia (Home) 1 - 0 Debrecen (Away)
+Debrecen vs Slavia Sofia, Winner: Slavia Sofia
+1st Leg: Konyaspor (Home) 2 - 3 Boavista (Away)
+2nd Leg: Boavista (Home) 2 - 3 Konyaspor (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Konyaspor 0 - 0 Boavista (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Konyaspor 4 - 2 Boavista
+Konyaspor wins on penalties!
+Konyaspor vs Boavista, Winner: Konyaspor
+1st Leg: Honvéd Budapest (Home) 1 - 3 Molde (Away)
+2nd Leg: Molde (Home) 3 - 1 Honvéd Budapest (Away)
+Honvéd Budapest vs Molde, Winner: Molde
+1st Leg: Celta Vigo (Home) 3 - 1 FC Augsburg (Away)
+2nd Leg: FC Augsburg (Home) 1 - 0 Celta Vigo (Away)
+Celta Vigo vs FC Augsburg, Winner: Celta Vigo
+Round 1 Winners: ['Djurgården', 'Domžale', 'Leicester City', 'Torino', 'Motherwell', 'Fortuna Sittard', 'Željezničar', 'Marseille', 'Southampton', 'Rijeka', 'Aston Villa', 'Reims', 'Slavia Sofia', 'Konyaspor', 'Molde', 'Celta Vigo']
+Round 2 Qualified: ['Utrecht', 'Vitesse', 'Portimonense', 'Rio Ave', 'Antwerp', 'Livingston', 'Wolfsberger AC', 'U Cluj', 'Lucerne', 'Sivasspor', 'AEK Athens', 'Slovan Liberec', 'Wisla Krakow', 'Krasnodar', 'Kolos Kovalivka', 'Radnicki Nis']
+Teams advancing to Round 2: ['Djurgården', 'Domžale', 'Leicester City', 'Torino', 'Motherwell', 'Fortuna Sittard', 'Željezničar', 'Marseille', 'Southampton', 'Rijeka', 'Aston Villa', 'Reims', 'Slavia Sofia', 'Konyaspor', 'Molde', 'Celta Vigo', 'Utrecht', 'Vitesse', 'Portimonense', 'Rio Ave', 'Antwerp', 'Livingston', 'Wolfsberger AC', 'U Cluj', 'Lucerne', 'Sivasspor', 'AEK Athens', 'Slovan Liberec', 'Wisla Krakow', 'Krasnodar', 'Kolos Kovalivka', 'Radnicki Nis']
+
 Current round: Round 2
-Brighton won against West Ham United 3 - 0
-Getafe won against Real Sociedad 3 - 0
-Borussia Monchengladbach won against 1899 Hoffenheim 4 - 0
-Torino won against Empoli 1 - 0
-Rennes won against Reims 5 - 2
-Sparta Rotterdam won against Rio Ave 4 - 0
-Casa Pia won against RWD Molenbeek 4 - 2
-Celtic won against Austria Wien 4 - 2
+1st Leg: Celta Vigo (Home) 4 - 1 Lucerne (Away)
+2nd Leg: Lucerne (Home) 2 - 3 Celta Vigo (Away)
+1st Leg: Molde (Home) 2 - 0 Slavia Sofia (Away)
+2nd Leg: Slavia Sofia (Home) 2 - 3 Molde (Away)
+1st Leg: Aston Villa (Home) 3 - 1 Domžale (Away)
+2nd Leg: Domžale (Home) 1 - 2 Aston Villa (Away)
+1st Leg: Željezničar (Home) 2 - 2 Konyaspor (Away)
+2nd Leg: Konyaspor (Home) 1 - 1 Željezničar (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Željezničar 1 - 1 Konyaspor (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Željezničar 4 - 3 Konyaspor
+Željezničar wins on penalties!
+1st Leg: Portimonense (Home) 1 - 2 Leicester City (Away)
+2nd Leg: Leicester City (Home) 2 - 2 Portimonense (Away)
+1st Leg: Motherwell (Home) 0 - 2 Southampton (Away)
+2nd Leg: Southampton (Home) 3 - 0 Motherwell (Away)
+1st Leg: U Cluj (Home) 2 - 1 Antwerp (Away)
+2nd Leg: Antwerp (Home) 3 - 3 U Cluj (Away)
+1st Leg: Rijeka (Home) 2 - 0 Slovan Liberec (Away)
+2nd Leg: Slovan Liberec (Home) 2 - 1 Rijeka (Away)
+1st Leg: Marseille (Home) 2 - 0 Sivasspor (Away)
+2nd Leg: Sivasspor (Home) 1 - 2 Marseille (Away)
+1st Leg: Wolfsberger AC (Home) 3 - 2 Djurgården (Away)
+2nd Leg: Djurgården (Home) 2 - 2 Wolfsberger AC (Away)
+1st Leg: Radnicki Nis (Home) 1 - 1 Kolos Kovalivka (Away)
+2nd Leg: Kolos Kovalivka (Home) 3 - 0 Radnicki Nis (Away)
+1st Leg: Rio Ave (Home) 4 - 4 Krasnodar (Away)
+2nd Leg: Krasnodar (Home) 1 - 2 Rio Ave (Away)
+1st Leg: Vitesse (Home) 2 - 1 Livingston (Away)
+2nd Leg: Livingston (Home) 2 - 1 Vitesse (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Vitesse 0 - 1 Livingston (Aggregate: 3 - 4)
+1st Leg: Torino (Home) 4 - 3 AEK Athens (Away)
+2nd Leg: AEK Athens (Home) 4 - 0 Torino (Away)
+1st Leg: Utrecht (Home) 3 - 2 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 0 - 3 Utrecht (Away)
+1st Leg: Reims (Home) 2 - 1 Wisla Krakow (Away)
+2nd Leg: Wisla Krakow (Home) 4 - 2 Reims (Away)
+
 Current round: Round 3
-Brighton won against Getafe 1 - 0
-Borussia Monchengladbach won against Torino 2 - 1
-Rennes won against Sparta Rotterdam 4 - 2
-Celtic won against Casa Pia 1 - 0
-Current round: Round 4
-Brighton won against Borussia Monchengladbach 3 - 1
-Rennes won against Celtic 1 - 0
-Current round: Round 5
-Brighton won against Rennes 2 - 0
-Winner of Europa Conference League: Brighton
+1st Leg: Rio Ave (Home) 2 - 2 Livingston (Away)
+2nd Leg: Livingston (Home) 4 - 2 Rio Ave (Away)
+1st Leg: Aston Villa (Home) 4 - 0 U Cluj (Away)
+2nd Leg: U Cluj (Home) 0 - 4 Aston Villa (Away)
+1st Leg: Molde (Home) 1 - 2 Wisla Krakow (Away)
+2nd Leg: Wisla Krakow (Home) 1 - 1 Molde (Away)
+1st Leg: AEK Athens (Home) 4 - 1 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 3 AEK Athens (Away)
+1st Leg: Željezničar (Home) 2 - 1 Leicester City (Away)
+2nd Leg: Leicester City (Home) 1 - 0 Željezničar (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Željezničar 1 - 0 Leicester City (Aggregate: 3 - 2)
+1st Leg: Marseille (Home) 3 - 1 Kolos Kovalivka (Away)
+2nd Leg: Kolos Kovalivka (Home) 2 - 3 Marseille (Away)
+1st Leg: Rijeka (Home) 1 - 1 Utrecht (Away)
+2nd Leg: Utrecht (Home) 1 - 1 Rijeka (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rijeka 1 - 1 Utrecht (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rijeka 3 - 4 Utrecht
+Utrecht wins on penalties!
+1st Leg: Southampton (Home) 3 - 0 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 2 - 2 Southampton (Away)
+
+Current round: Quarter-Final
+1st Leg: Utrecht (Home) 2 - 3 Željezničar (Away)
+2nd Leg: Željezničar (Home) 2 - 0 Utrecht (Away)
+1st Leg: Aston Villa (Home) 2 - 1 Wisla Krakow (Away)
+2nd Leg: Wisla Krakow (Home) 2 - 2 Aston Villa (Away)
+1st Leg: AEK Athens (Home) 4 - 0 Livingston (Away)
+2nd Leg: Livingston (Home) 2 - 1 AEK Athens (Away)
+1st Leg: Marseille (Home) 1 - 0 Southampton (Away)
+2nd Leg: Southampton (Home) 1 - 2 Marseille (Away)
+
+Current round: Semi-Final
+1st Leg: AEK Athens (Home) 2 - 0 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 5 - 2 AEK Athens (Away)
+1st Leg: Željezničar (Home) 4 - 3 Marseille (Away)
+2nd Leg: Marseille (Home) 3 - 2 Željezničar (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Željezničar 0 - 0 Marseille (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Željezničar 3 - 3 Marseille
+Penalties are tied! Sudden death begins!
+Sudden Death: Željezničar 4 - 3 Marseille
+Željezničar wins on sudden death penalties!
+
+Current round: Final
+Aston Villa 1 - 0 Željezničar
+Aston Villa won the match!
+
+Winner of Europa Conference League: Aston Villa

@@ -1,40 +1,6 @@
 import matches
-import settings
-from team import Team
 from database import create_teams_table, get_teams, update_team
-
-
-def select_league():
-    """
-        Method used to select which league to use. Creates the league table if it doesn't exist.
-    :return:
-    """
-    print("1. Premier League (England) \n"
-          "2. La Liga (Spain) \n"
-          "3. Bundesliga (Germany) \n"
-          "4. Ligue 1 (France) \n"
-          "5. Serie A (Italy) \n"
-          "6. Eredivisie (Netherlands) \n"
-          "7. Primeira Liga (Portugal) \n"
-          "8. Belgian Pro League (Belgium) \n"
-          "9. Scottish Premiership (Scotland) \n"
-          "10. Austrian Bundesliga (Austria)")
-
-    league_mapping = {
-        '1': settings.ENG,
-        '2': settings.ESP,
-        '3': settings.GER,
-        '4': settings.FRA,
-        '5': settings.ITA,
-        '6': settings.NED,
-        '7': settings.POR,
-        '8': settings.BEL,
-        '9': settings.SCO,
-        '10': settings.AUS
-    }
-
-    user_input = input("Enter the league number: ")
-    return league_mapping.get(user_input)
+from team import Team
 
 
 def select_teams_from_league(country):
@@ -52,9 +18,6 @@ def select_teams_from_league(country):
 
     if country_name is None or teams_obj is None or teams_name is None:
         raise ValueError("Invalid value")
-
-    print(f"Country: {country_name}")
-    print(f"Teams: {teams_name}")
 
     return country_name, teams_obj, teams_name, europe_places
 
@@ -77,7 +40,9 @@ def league_simulation(league, teams, europe):
 
 def cup_simulation(league, teams):
     sorted_teams = sorted(teams, key=lambda x: x.skill, reverse=True)
-    if len(teams) >= 16:
+    if len(teams) >= 32:
+        new_teams = sorted_teams[:32]
+    elif len(teams) >= 16:
         new_teams = sorted_teams[:16]
     else:
         new_teams = sorted_teams[:8]

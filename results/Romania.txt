@@ -1,0 +1,74 @@
+Winner of League: FCSB
+1. FCSB - 80 points - 26 wins - 2 draws - 2 losses - 76 scored - 13 against - Champions League - Round 2
+2. CFR Cluj - 70 points - 22 wins - 4 draws - 4 losses - 78 scored - 31 against - Champions League - Round 2
+3. Rapid Bucuresti - 63 points - 19 wins - 6 draws - 5 losses - 72 scored - 43 against - Champions League - Round 1
+4. Universitatea Craiova - 59 points - 18 wins - 5 draws - 7 losses - 70 scored - 39 against - Champions League - Round 1
+5. Farul Constanta - 56 points - 17 wins - 5 draws - 8 losses - 64 scored - 43 against - Champions League - Round 1
+6. Sepsi - 54 points - 16 wins - 6 draws - 8 losses - 53 scored - 39 against - Champions League - Round 1
+7. Dinamo Bucuresti - 48 points - 14 wins - 6 draws - 10 losses - 61 scored - 51 against - Europa League - Round 2
+8. UTA Arad - 42 points - 11 wins - 9 draws - 10 losses - 54 scored - 53 against - Europa League - Round 1
+9. U Cluj - 41 points - 11 wins - 8 draws - 11 losses - 61 scored - 64 against - Europa Conference League - Round 2
+10. Petrolul Ploiesti - 31 points - 8 wins - 7 draws - 15 losses - 43 scored - 51 against - Europa Conference League - Round 1
+11. Otelul Galati - 27 points - 5 wins - 12 draws - 13 losses - 39 scored - 56 against - No qualification
+12. Chindia Targoviste - 23 points - 5 wins - 8 draws - 17 losses - 40 scored - 73 against - No qualification
+13. FC Voluntari - 22 points - 5 wins - 7 draws - 18 losses - 39 scored - 69 against - No qualification
+14. Politehnica Iasi - 21 points - 6 wins - 3 draws - 21 losses - 36 scored - 73 against - No qualification
+15. Pandurii Targu Jiu - 17 points - 4 wins - 5 draws - 21 losses - 34 scored - 78 against - No qualification
+16. CS Mioveni - 16 points - 3 wins - 7 draws - 20 losses - 32 scored - 76 against - No qualification
+Teams of Romania Cup: ['FCSB', 'CFR Cluj', 'Universitatea Craiova', 'Farul Constanta', 'Rapid Bucuresti', 'Sepsi', 'Dinamo Bucuresti', 'UTA Arad', 'U Cluj', 'Otelul Galati', 'Petrolul Ploiesti', 'Politehnica Iasi', 'Chindia Targoviste', 'FC Voluntari', 'CS Mioveni', 'Pandurii Targu Jiu']
+
+Current round: Round 1
+U Cluj 2 - 1 FC Voluntari
+U Cluj won the match!
+Otelul Galati 0 - 1 Dinamo Bucuresti
+Dinamo Bucuresti won the match!
+Pandurii Targu Jiu 0 - 0 Rapid Bucuresti
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Pandurii Targu Jiu 0 - 0 Rapid Bucuresti (Aggregate: 0 - 0)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Pandurii Targu Jiu 3 - 3 Rapid Bucuresti
+Penalties are tied! Sudden death begins!
+Sudden Death: Pandurii Targu Jiu 3 - 4 Rapid Bucuresti
+Rapid Bucuresti wins on sudden death penalties!
+Universitatea Craiova 3 - 1 CS Mioveni
+Universitatea Craiova won the match!
+Sepsi 1 - 1 Politehnica Iasi
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Sepsi 1 - 1 Politehnica Iasi (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Sepsi 3 - 3 Politehnica Iasi
+Penalties are tied! Sudden death begins!
+Sudden Death: Sepsi 5 - 4 Politehnica Iasi
+Sepsi wins on sudden death penalties!
+CFR Cluj 2 - 0 Chindia Targoviste
+CFR Cluj won the match!
+Petrolul Ploiesti 1 - 3 UTA Arad
+UTA Arad won the match!
+FCSB 3 - 3 Farul Constanta
+Aggregate is tied! Proceeding to extra time...
+Extra Time: FCSB 0 - 0 Farul Constanta (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: FCSB 3 - 4 Farul Constanta
+Farul Constanta wins on penalties!
+
+Current round: Quarter-Final
+UTA Arad 2 - 1 Farul Constanta
+UTA Arad won the match!
+U Cluj 1 - 3 CFR Cluj
+CFR Cluj won the match!
+Dinamo Bucuresti 2 - 1 Rapid Bucuresti
+Dinamo Bucuresti won the match!
+Sepsi 3 - 1 Universitatea Craiova
+Sepsi won the match!
+
+Current round: Semi-Final
+Dinamo Bucuresti 3 - 1 UTA Arad
+Dinamo Bucuresti won the match!
+CFR Cluj 3 - 1 Sepsi
+CFR Cluj won the match!
+
+Current round: Final
+Dinamo Bucuresti 1 - 3 CFR Cluj
+CFR Cluj won the match!
+
+Winner of Romania Cup: CFR Cluj

@@ -1,0 +1,71 @@
+Winner of League: Dinamo Zagreb
+1. Dinamo Zagreb - 82 points - 26 wins - 4 draws - 0 losses - 94 scored - 18 against - Champions League - Round 1
+2. Hajduk Split - 80 points - 26 wins - 2 draws - 2 losses - 83 scored - 20 against - Champions League - Round 1
+3. Osijek - 65 points - 20 wins - 5 draws - 5 losses - 76 scored - 39 against - Europa League - Round 1
+4. Rijeka - 57 points - 16 wins - 9 draws - 5 losses - 72 scored - 44 against - Europa Conference League - Round 1
+5. Lokomotiva Zagreb - 49 points - 14 wins - 7 draws - 9 losses - 48 scored - 38 against - No qualification
+6. Slaven Belupo - 47 points - 13 wins - 8 draws - 9 losses - 56 scored - 48 against - No qualification
+7. Varazdin - 44 points - 14 wins - 2 draws - 14 losses - 47 scored - 55 against - No qualification
+8. Istra 1961 - 44 points - 13 wins - 5 draws - 12 losses - 55 scored - 53 against - No qualification
+9. NK Gorica - 44 points - 13 wins - 5 draws - 12 losses - 51 scored - 54 against - No qualification
+10. Šibenik - 39 points - 12 wins - 3 draws - 15 losses - 48 scored - 59 against - No qualification
+11. NK Rudeš - 35 points - 10 wins - 5 draws - 15 losses - 42 scored - 54 against - No qualification
+12. NK Zadar - 28 points - 8 wins - 4 draws - 18 losses - 42 scored - 77 against - No qualification
+13. Cibalia Vinkovci - 21 points - 6 wins - 3 draws - 21 losses - 32 scored - 69 against - No qualification
+14. Vinogradar - 17 points - 4 wins - 5 draws - 21 losses - 25 scored - 72 against - No qualification
+15. NK Hrvatski Dragovoljac - 15 points - 3 wins - 6 draws - 21 losses - 30 scored - 65 against - No qualification
+16. Inter Zaprešić - 14 points - 3 wins - 5 draws - 22 losses - 29 scored - 65 against - No qualification
+Teams of Croatia Cup: ['Dinamo Zagreb', 'Hajduk Split', 'Rijeka', 'Osijek', 'Slaven Belupo', 'Lokomotiva Zagreb', 'NK Gorica', 'Istra 1961', 'Varazdin', 'Šibenik', 'NK Rudeš', 'Inter Zaprešić', 'NK Hrvatski Dragovoljac', 'Cibalia Vinkovci', 'NK Zadar', 'Vinogradar']
+
+Current round: Round 1
+NK Zadar 2 - 2 Šibenik
+Aggregate is tied! Proceeding to extra time...
+Extra Time: NK Zadar 1 - 1 Šibenik (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: NK Zadar 3 - 4 Šibenik
+Šibenik wins on penalties!
+Vinogradar 2 - 4 NK Rudeš
+NK Rudeš won the match!
+Varazdin 2 - 3 NK Hrvatski Dragovoljac
+NK Hrvatski Dragovoljac won the match!
+Rijeka 3 - 1 Lokomotiva Zagreb
+Rijeka won the match!
+Slaven Belupo 3 - 2 NK Gorica
+Slaven Belupo won the match!
+Inter Zaprešić 2 - 2 Istra 1961
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Inter Zaprešić 1 - 0 Istra 1961 (Aggregate: 3 - 2)
+Dinamo Zagreb 4 - 0 Cibalia Vinkovci
+Dinamo Zagreb won the match!
+Hajduk Split 3 - 1 Osijek
+Hajduk Split won the match!
+
+Current round: Quarter-Final
+Dinamo Zagreb 0 - 1 Rijeka
+Rijeka won the match!
+Šibenik 2 - 2 Hajduk Split
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Šibenik 0 - 0 Hajduk Split (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Šibenik 3 - 2 Hajduk Split
+Šibenik wins on penalties!
+Inter Zaprešić 2 - 0 NK Rudeš
+Inter Zaprešić won the match!
+Slaven Belupo 3 - 0 NK Hrvatski Dragovoljac
+Slaven Belupo won the match!
+
+Current round: Semi-Final
+Inter Zaprešić 0 - 3 Rijeka
+Rijeka won the match!
+Slaven Belupo 2 - 2 Šibenik
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Slaven Belupo 1 - 1 Šibenik (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Slaven Belupo 4 - 3 Šibenik
+Slaven Belupo wins on penalties!
+
+Current round: Final
+Slaven Belupo 2 - 0 Rijeka
+Slaven Belupo won the match!
+
+Winner of Croatia Cup: Slaven Belupo

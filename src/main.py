@@ -1,125 +1,266 @@
-import settings
-from database import get_best_teams, update_general_table, create_general_table, generate_teams_table, check_team_stats, \
-    get_teams, update_team
-from leagues import league_simulation, select_league, select_teams_from_league, cup_simulation
+import sys
+
+from database import (
+    create_general_table,
+    update_general_table_with_stats,
+    populate_general_table,
+    update_team,
+    generate_teams_table,
+    get_teams,
+    check_team_stats,
+    get_best_teams,
+    get_competition_winners_from_db,
+    create_european_competitions_table,
+    get_european_competition_stats,
+    get_teams_by_skills,
+)
+from leagues import league_simulation, cup_simulation, select_teams_from_league
+from src.database import update_european_competition_appereances
 from src.matches import play_european_cup
 
 
+class InputHandler:
+    @staticmethod
+    def display_main_menu():
+        print(
+            "1. Simulate a season\n"
+            "2. Simulate a league\n"
+            "3. Simulate a cup\n"
+            "4. Simulate a European Cup\n"
+            "5. Check best teams\n"
+            "6. See stats for a team\n"
+            "7. See most winners of a competition\n"
+            "8. View European Competition Stats\n"
+            "9. See most skilled teams\n"
+            "q. Quit"
+        )
+        return input("Select action: ").strip().lower()
+
+    @staticmethod
+    def get_user_input(prompt):
+        return input(prompt).strip()
+
+
+class DatabaseUpdater:
+    @staticmethod
+    def initialize_database(settings):
+        print("Initializing general table and European tables...")
+        DatabaseUpdater.initialize_european_tables(settings)
+        create_general_table()
+        for country in settings.ALL_COUNTRIES:
+            league, teams_obj, teams_name, europe_places = select_teams_from_league(country)
+            generate_teams_table(league, teams_obj)
+        populate_general_table()
+        update_general_table_with_stats()
+
+    @staticmethod
+    def initialize_european_tables(settings):
+        for competition in [settings.UCL, settings.UEL, settings.UECL]:
+            create_european_competitions_table(competition)
+
+    @staticmethod
+    def update_general():
+        print("Updating general table with fresh stats...")
+        update_general_table_with_stats()
+
+    @staticmethod
+    def update_all_teams(teams, country):
+        for team in teams:
+            if team.country == country["name"]:
+                update_team(team, country["name"])
+
+
+class LeagueSimulator:
+    @classmethod
+    def simulate_league(cls, league, teams_obj, europe_places):
+        return league_simulation(league, teams_obj, europe_places)
+
+
+class CupSimulator:
+    @classmethod
+    def simulate_cup(cls, league, teams_obj):
+        return cup_simulation(league, teams_obj)
+
+
+class EuropeanCupSimulator:
+    @classmethod
+    def simulate_european_cup(cls, competition):
+        teams = get_teams(european_cup=competition, rounds=["Round 1", "Round 2"])
+        for team in teams:
+            update_european_competition_appereances(team.name, competition)
+        return play_european_cup(teams, competition)
+
+
+class StatsViewer:
+    @staticmethod
+    def view_team_stats(team, league):
+        check_team_stats(team, league)
+
+    @staticmethod
+    def get_best_teams(league):
+        get_best_teams(league)
+
+    @staticmethod
+    def get_competition_winners(competition):
+        winners = get_competition_winners_from_db(competition)
+        if not winners:
+            print(f"No winners found for competition: {competition}")
+            return
+        for rank, (team, titles) in enumerate(winners, start=1):
+            print(f"{rank}. {team}: {titles} titles")
+
+    @staticmethod
+    def view_european_stats(competition):
+        get_european_competition_stats(competition)
+
 class MainProgram:
-    def __init__(self):
-        # Initialize any variables or resources needed
-        self.choice = None
+    def __init__(self, settings):
+        self.settings = settings
         self.league = None
-        self.europe_places = None
-        self.teams_name = []
         self.teams_obj = []
+        self.teams_name = []
+        self.europe_places = None
+        self.choice = None
+
+        # Initialize dependencies
+        self.input_handler = InputHandler()
+        self.db_updater = DatabaseUpdater()
+        self.stats_viewer = StatsViewer()
+        self.european_simulator = EuropeanCupSimulator()
 
     def run(self):
+        self.db_updater.initialize_database(self.settings)
         while True:
-            self.select_league_and_teams()
-            self.select_choice()
-            self.update_general(create=True)
+            self.choice = self.input_handler.display_main_menu()
+            if self.choice == "q":
+                print("Thank you for using the program. Goodbye!")
+                sys.exit(0)
+            self.handle_choice()
 
-    def select_league_and_teams(self):
-        print("1. Simulate a season \n"
-              "2. Simulate a league \n"
-              "3. Simulate a cup \n"
-              "4. Simulate an European Cup \n"
-              "5. Check best teams \n"
-              "6. See stats for a team \n"
-              )
-        self.choice = input("Select action: ")
-        no_selection = ["1", "4"]
-        if self.choice not in no_selection:
-            country = select_league()
-            self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(country)
-            generate_teams_table(self.league, self.teams_obj)
-        self.update_general(create=True)
+    def handle_choice(self):
+        actions = {
+            "1": self.simulate_season,
+            "2": self.simulate_league,
+            "3": self.simulate_cup,
+            "4": self.simulate_european,
+            "5": self.view_best_teams,
+            "6": self.view_team_stats,
+            "7": self.view_winners,
+            "8": self.view_european_stats,
+            "9": self.view_skilled_teams,
+        }
+        if action := actions.get(self.choice):
+            action()
+        else:
+            print("Invalid choice. Please try again.")
 
-    def update_general(self, create=False):
-        if create:
-            create_general_table()
-        for team in self.teams_obj:
-            update_general_table(team)
-
-    def update_all_leagues(self):
-        for country in settings.ALL_COUNTRIES:
-            for team in self.teams_obj:
-                if team.country == country["name"]:
-                    update_team(team, country["name"])  # Update team data in the database
 
     def simulate_season(self):
-        """Simulates a season by playing all leagues and all european"""
-        for country in settings.ALL_COUNTRIES:
-            self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(country)
-            generate_teams_table(self.league, self.teams_obj)
-            self.simulate_league()
-            self.simulate_cup()
-        self.simulate_european(all_comps=True)
+        """Simulates an entire season: league → cup → all European competitions."""
+        seasons = int(self.input_handler.get_user_input("Enter number of seasons: "))
+        for _ in range(seasons):
+            for country in self.settings.ALL_COUNTRIES:
+                self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(country)
+                self.teams_obj = LeagueSimulator.simulate_league(self.league, self.teams_obj, self.europe_places)
+                self.db_updater.update_general()
+                self.teams_obj = CupSimulator.simulate_cup(self.league, self.teams_obj)
+                self.db_updater.update_general()
+
+            for competition in [self.settings.UCL, self.settings.UEL, self.settings.UECL]:
+                self.teams_obj = EuropeanCupSimulator.simulate_european_cup(competition)
+                self.db_updater.update_general()
 
     def simulate_league(self):
-        """Simulate a league"""
-        self.teams_obj = league_simulation(self.league, self.teams_obj, self.europe_places)
-        self.update_general()
+        country_name = self.input_handler.get_user_input("Enter the country name: ")
+
+        selected_country = next(
+            (country for country in self.settings.ALL_COUNTRIES if country["name"].lower() == country_name.lower()),
+            None
+        )
+        if not selected_country:
+            print(f"No league found for the specified country: {country_name}")
+            return
+
+        self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(selected_country)
+
+        self.teams_obj = LeagueSimulator.simulate_league(self.league, self.teams_obj, self.europe_places)
+        self.db_updater.update_general()
+        print(f"League simulation for {country_name} has been completed.")
 
     def simulate_cup(self):
-        """Simulate a cup"""
-        self.teams_obj = cup_simulation(self.league, self.teams_obj)
-        self.update_general()
+        country_name = self.input_handler.get_user_input("Enter the country name: ")
 
-    def simulate_european(self, all_comps=False):
-        """
-            Simulate a european cup
-        :param all_comps: If True, simulate all cups
-        """
-        if not all_comps:
-            print("1. Champions League \n"
-                  "2. Europa League \n"
-                  "3. Europa Conference League \n")
-            cup = input("Select competition:")
-            competition = {
-                "1": settings.UCL,
-                "2": settings.UEL,
-                "3": settings.UECL,
-            }.get(cup)
-            if competition is None:
-                return
-            self.teams_obj = get_teams(european_cup=competition)
-            self.teams_obj = play_european_cup(self.teams_obj, competition)
-            self.update_general()
-            self.update_all_leagues()
-        else:
-            for competition in [settings.UECL, settings.UEL, settings.UCL]:
-                self.teams_obj = get_teams(european_cup=competition)
-                self.teams_obj = play_european_cup(self.teams_obj, competition)
-                self.update_general()
-                self.update_all_leagues()
+        selected_country = next(
+            (country for country in self.settings.ALL_COUNTRIES if country["name"].lower() == country_name.lower()),
+            None
+        )
+        if not selected_country:
+            print(f"No cup found for the specified country: {country_name}")
+            return
 
-    def check_team_stats(self):
-        """
-            Check the stats of a team
-        """
-        input_team = input("Select team: ")
+        self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(selected_country)
+
+        self.teams_obj = CupSimulator.simulate_cup(self.league, self.teams_obj)
+        self.db_updater.update_general()
+        print(f"Cup simulation for {country_name} has been completed.")
+
+    def simulate_european(self):
+        competitions = {"1": self.settings.UCL, "2": self.settings.UEL, "3": self.settings.UECL}
+        choice = self.input_handler.get_user_input(
+            "Select competition (1. Champions League, 2. Europa League, 3. Europa Conference League): "
+        )
+        if competition := competitions.get(choice):
+            self.teams_obj = EuropeanCupSimulator.simulate_european_cup(competition)
+            self.db_updater.update_general()
+
+    def view_best_teams(self):
+        country_name = self.input_handler.get_user_input("Enter the country name: ")
+
+        selected_country = next(
+            (country for country in self.settings.ALL_COUNTRIES if country["name"].lower() == country_name.lower()),
+            None
+        )
+        if not selected_country:
+            print(f"No league found for the specified country: {country_name}")
+            return
+
+        self.stats_viewer.get_best_teams(selected_country["name"])
+
+    def view_team_stats(self):
+        country_name = self.input_handler.get_user_input("Enter the country name: ")
+
+        selected_country = next(
+            (country for country in self.settings.ALL_COUNTRIES if country["name"].lower() == country_name.lower()),
+            None
+        )
+        if not selected_country:
+            print(f"No cup found for the specified country: {country_name}")
+            return
+
+        self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(selected_country)
+        team_name = self.input_handler.get_user_input("Enter team name: ")
         for team in self.teams_obj:
-            if input_team == team.name:
-                self.update_general()
-                check_team_stats(team, self.league)
+            if team.name == team_name:
+                self.stats_viewer.view_team_stats(team, self.league)
 
-    def select_choice(self):
-        if self.choice == "1":
-            self.simulate_season()
-        if self.choice == "2":
-            self.simulate_league()
-        if self.choice == "3":
-            self.simulate_cup()
-        if self.choice == "4":
-            self.simulate_european()
-        if self.choice == "5":
-            get_best_teams(self.league)
-        if self.choice == "6":
-            self.check_team_stats()
+    def view_winners(self):
+        competition = self.input_handler.get_user_input("Enter competition name: ")
+        self.stats_viewer.get_competition_winners(competition)
+
+    def view_european_stats(self):
+        competition = self.input_handler.get_user_input(
+            "Select competition (1. UCL, 2. UEL, 3. UECL): "
+        )
+        competitions = {"1": self.settings.UCL, "2": self.settings.UEL, "3": self.settings.UECL}
+        self.stats_viewer.view_european_stats(competitions.get(competition))
+
+    def view_skilled_teams(self):
+        get_teams_by_skills()
 
 
 if __name__ == "__main__":
-    program = MainProgram()
+    from importlib import import_module
+
+    settings = import_module("settings")
+    program = MainProgram(settings)
     program.run()
