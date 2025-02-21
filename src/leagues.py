@@ -1,58 +1,6 @@
 import matches
-import settings
-from team import Team
 from database import create_teams_table, get_teams, update_team
-
-
-def select_league():
-    """
-        Method used to select which league to use. Creates the league table if it doesn't exist.
-    :return:
-    """
-    print("1. Premier League (England) \n"
-          "2. La Liga (Spain) \n"
-          "3. Bundesliga (Germany) \n"
-          "4. Ligue 1 (France) \n"
-          "5. Serie A (Italy) \n"
-          "6. Eredivisie (Netherlands) \n"
-          "7. Primeira Liga (Portugal) \n"
-          "8. Belgian Pro League (Belgium) \n"
-          "9. Scottish Premiership (Scotland) \n"
-          "10. Austrian Bundesliga (Austria) \n"
-          "11. Romanian League (Romania) \n"
-          "12. Swiss Super League (Switzerland) \n"
-          "13. Turkish Super League (Turkey) \n"
-          "14. Greek Super League (Greece) \n"
-          "15. Czech First League (Czech Republic) \n"
-          "16. Ekstraklasa (Poland) \n"
-          "17. Russian Premier League (Russia) \n"
-          "18. Ukrainian Premier League (Ukraine) \n"
-          "19. Serbian SuperLiga (Serbia)")
-
-    league_mapping = {
-        '1': settings.ENG,
-        '2': settings.ESP,
-        '3': settings.GER,
-        '4': settings.FRA,
-        '5': settings.ITA,
-        '6': settings.NED,
-        '7': settings.POR,
-        '8': settings.BEL,
-        '9': settings.SCO,
-        '10': settings.AUS,
-        '11': settings.ROM,
-        '12': settings.SUI,
-        '13': settings.TUR,
-        '14': settings.GRE,
-        '15': settings.CZE,
-        '16': settings.POL,
-        '17': settings.RUS,
-        '18': settings.UKR,
-        '19': settings.SRB
-    }
-
-    user_input = input("Enter the league number: ")
-    return league_mapping.get(user_input)
+from team import Team
 
 
 def select_teams_from_league(country):

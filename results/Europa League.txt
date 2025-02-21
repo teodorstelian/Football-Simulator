@@ -1,309 +1,148 @@
-Teams starting in Europa League Round 1: ['Aston Villa', 'Manchester United', 'Newcastle United', 'Leicester City', 'Athletic Bilbao', 'Mallorca', 'Sevilla', 'Villareal', 'Union Berlin', 'SC Freiburg', '1. FC Koln', 'Borussia Monchengladbach', 'AS Roma', 'Fiorentina', 'Lazio', 'Torino', 'Brest', 'Lille', 'Rennes', 'Strasbourg', 'Sparta Rotterdam', 'Utrecht', 'Chaves', 'Famalicao', 'Antwerp', 'Union SG', 'Motherwell', 'Dundee United', 'Austria Klagenfurt', 'Wolfsberger AC', 'Dinamo Bucuresti', 'U Cluj']
-1st Leg: Utrecht (Home) 2 - 2 Lazio (Away)
-2nd Leg: Lazio (Home) 3 - 1 Utrecht (Away)
-Utrecht vs Lazio, Winner: Lazio
-1st Leg: 1. FC Koln (Home) 4 - 1 Torino (Away)
-2nd Leg: Torino (Home) 3 - 1 1. FC Koln (Away)
-1. FC Koln vs Torino, Winner: 1. FC Koln
-1st Leg: Famalicao (Home) 2 - 2 Leicester City (Away)
-2nd Leg: Leicester City (Home) 2 - 1 Famalicao (Away)
-Famalicao vs Leicester City, Winner: Leicester City
-1st Leg: Union Berlin (Home) 1 - 1 Strasbourg (Away)
-2nd Leg: Strasbourg (Home) 2 - 2 Union Berlin (Away)
+Teams starting in Europa League Round 1: ['Brighton', 'Newcastle United', 'Tottenham Hotspur', 'Real Betis', 'Valencia', 'Villareal', 'SC Freiburg', '1. FC Koln', 'Borussia Monchengladbach', 'AS Roma', 'Fiorentina', 'Lazio', 'AS Monaco', 'Nice', 'Strasbourg', 'Sparta Rotterdam', 'Famalicao', 'Standard Liege', 'Hibernian', 'TSV Hartberg', 'UTA Arad', 'Antalyaspor', 'Rosenborg', 'AIK', 'Brøndby IF', 'Újpest FC', 'Osijek', 'Levski Sofia', 'Spartak Trnava', 'Olimpija Ljubljana', 'KuPS', 'Zrinjski Mostar']
+1st Leg: UTA Arad (Home) 1 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 0 UTA Arad (Away)
+UTA Arad vs Villareal, Winner: Villareal
+1st Leg: Brøndby IF (Home) 2 - 2 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 5 - 3 Brøndby IF (Away)
+Brøndby IF vs AS Monaco, Winner: AS Monaco
+1st Leg: Real Betis (Home) 3 - 2 SC Freiburg (Away)
+2nd Leg: SC Freiburg (Home) 2 - 2 Real Betis (Away)
+Real Betis vs SC Freiburg, Winner: Real Betis
+1st Leg: Tottenham Hotspur (Home) 2 - 1 Osijek (Away)
+2nd Leg: Osijek (Home) 2 - 0 Tottenham Hotspur (Away)
+Tottenham Hotspur vs Osijek, Winner: Osijek
+1st Leg: Lazio (Home) 1 - 0 Olimpija Ljubljana (Away)
+2nd Leg: Olimpija Ljubljana (Home) 3 - 2 Lazio (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Union Berlin 1 - 0 Strasbourg (Aggregate: 4 - 3)
-Union Berlin vs Strasbourg, Winner: Union Berlin
-1st Leg: Aston Villa (Home) 0 - 2 AS Roma (Away)
-2nd Leg: AS Roma (Home) 3 - 1 Aston Villa (Away)
-Aston Villa vs AS Roma, Winner: AS Roma
-1st Leg: Wolfsberger AC (Home) 1 - 2 Dinamo Bucuresti (Away)
-2nd Leg: Dinamo Bucuresti (Home) 2 - 4 Wolfsberger AC (Away)
-Wolfsberger AC vs Dinamo Bucuresti, Winner: Wolfsberger AC
-1st Leg: Union SG (Home) 2 - 2 Sparta Rotterdam (Away)
-2nd Leg: Sparta Rotterdam (Home) 1 - 2 Union SG (Away)
-Union SG vs Sparta Rotterdam, Winner: Union SG
-1st Leg: Athletic Bilbao (Home) 1 - 0 Sevilla (Away)
-2nd Leg: Sevilla (Home) 2 - 2 Athletic Bilbao (Away)
-Athletic Bilbao vs Sevilla, Winner: Athletic Bilbao
-1st Leg: Villareal (Home) 2 - 3 SC Freiburg (Away)
-2nd Leg: SC Freiburg (Home) 3 - 0 Villareal (Away)
-Villareal vs SC Freiburg, Winner: SC Freiburg
-1st Leg: Borussia Monchengladbach (Home) 2 - 1 Rennes (Away)
-2nd Leg: Rennes (Home) 1 - 2 Borussia Monchengladbach (Away)
-Borussia Monchengladbach vs Rennes, Winner: Borussia Monchengladbach
-1st Leg: Newcastle United (Home) 1 - 1 Lille (Away)
-2nd Leg: Lille (Home) 1 - 1 Newcastle United (Away)
+Extra Time: Lazio 0 - 1 Olimpija Ljubljana (Aggregate: 3 - 4)
+Lazio vs Olimpija Ljubljana, Winner: Olimpija Ljubljana
+1st Leg: AIK (Home) 2 - 3 Borussia Monchengladbach (Away)
+2nd Leg: Borussia Monchengladbach (Home) 3 - 2 AIK (Away)
+AIK vs Borussia Monchengladbach, Winner: Borussia Monchengladbach
+1st Leg: Rosenborg (Home) 1 - 0 Sparta Rotterdam (Away)
+2nd Leg: Sparta Rotterdam (Home) 3 - 2 Rosenborg (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Newcastle United 1 - 0 Lille (Aggregate: 3 - 2)
-Newcastle United vs Lille, Winner: Newcastle United
-1st Leg: Antwerp (Home) 3 - 1 Manchester United (Away)
-2nd Leg: Manchester United (Home) 3 - 1 Antwerp (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Antwerp 1 - 1 Manchester United (Aggregate: 5 - 5)
+Extra Time: Rosenborg 0 - 0 Sparta Rotterdam (Aggregate: 3 - 3)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: Antwerp 5 - 4 Manchester United
-Antwerp wins on penalties!
-Antwerp vs Manchester United, Winner: Antwerp
-1st Leg: Brest (Home) 1 - 4 Fiorentina (Away)
-2nd Leg: Fiorentina (Home) 3 - 0 Brest (Away)
-Brest vs Fiorentina, Winner: Fiorentina
-1st Leg: Mallorca (Home) 1 - 1 Austria Klagenfurt (Away)
-2nd Leg: Austria Klagenfurt (Home) 2 - 2 Mallorca (Away)
+Penalties: Rosenborg 5 - 3 Sparta Rotterdam
+Rosenborg wins on penalties!
+Rosenborg vs Sparta Rotterdam, Winner: Rosenborg
+1st Leg: 1. FC Koln (Home) 2 - 3 Hibernian (Away)
+2nd Leg: Hibernian (Home) 1 - 2 1. FC Koln (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Mallorca 1 - 1 Austria Klagenfurt (Aggregate: 4 - 4)
+Extra Time: 1. FC Koln 1 - 1 Hibernian (Aggregate: 5 - 5)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: Mallorca 3 - 3 Austria Klagenfurt
-Penalties are tied! Sudden death begins!
-Sudden Death: Mallorca 5 - 4 Austria Klagenfurt
-Mallorca wins on sudden death penalties!
-Mallorca vs Austria Klagenfurt, Winner: Mallorca
-1st Leg: Motherwell (Home) 3 - 2 Chaves (Away)
-2nd Leg: Chaves (Home) 1 - 1 Motherwell (Away)
-Motherwell vs Chaves, Winner: Motherwell
-1st Leg: U Cluj (Home) 1 - 3 Dundee United (Away)
-2nd Leg: Dundee United (Home) 5 - 1 U Cluj (Away)
-U Cluj vs Dundee United, Winner: Dundee United
-Round 1 Winners: ['Lazio', '1. FC Koln', 'Leicester City', 'Union Berlin', 'AS Roma', 'Wolfsberger AC', 'Union SG', 'Athletic Bilbao', 'SC Freiburg', 'Borussia Monchengladbach', 'Newcastle United', 'Antwerp', 'Fiorentina', 'Mallorca', 'Motherwell', 'Dundee United']
-Round 2 Qualified: ['AZ', 'SC Heerenveen', 'Arouca', 'Vitoria de Guimaraes', 'Gent', 'Hibernian', 'Austria Wien', 'Farul Constanta', 'Lugano', 'Kayserispor', 'PAOK Thessaloniki', 'Banik Ostrava', 'Rakow Czestochowa', 'Lokomotiv Moscow', 'Dnipro-1', 'Radnicki Nis']
-Teams advancing to Round 2: ['Lazio', '1. FC Koln', 'Leicester City', 'Union Berlin', 'AS Roma', 'Wolfsberger AC', 'Union SG', 'Athletic Bilbao', 'SC Freiburg', 'Borussia Monchengladbach', 'Newcastle United', 'Antwerp', 'Fiorentina', 'Mallorca', 'Motherwell', 'Dundee United', 'AZ', 'SC Heerenveen', 'Arouca', 'Vitoria de Guimaraes', 'Gent', 'Hibernian', 'Austria Wien', 'Farul Constanta', 'Lugano', 'Kayserispor', 'PAOK Thessaloniki', 'Banik Ostrava', 'Rakow Czestochowa', 'Lokomotiv Moscow', 'Dnipro-1', 'Radnicki Nis']
+Penalties: 1. FC Koln 5 - 3 Hibernian
+1. FC Koln wins on penalties!
+1. FC Koln vs Hibernian, Winner: 1. FC Koln
+1st Leg: AS Roma (Home) 2 - 2 Antalyaspor (Away)
+2nd Leg: Antalyaspor (Home) 3 - 4 AS Roma (Away)
+AS Roma vs Antalyaspor, Winner: AS Roma
+1st Leg: Valencia (Home) 3 - 1 Famalicao (Away)
+2nd Leg: Famalicao (Home) 2 - 2 Valencia (Away)
+Valencia vs Famalicao, Winner: Valencia
+1st Leg: Zrinjski Mostar (Home) 2 - 0 TSV Hartberg (Away)
+2nd Leg: TSV Hartberg (Home) 2 - 2 Zrinjski Mostar (Away)
+Zrinjski Mostar vs TSV Hartberg, Winner: Zrinjski Mostar
+1st Leg: Strasbourg (Home) 1 - 0 Standard Liege (Away)
+2nd Leg: Standard Liege (Home) 2 - 0 Strasbourg (Away)
+Strasbourg vs Standard Liege, Winner: Standard Liege
+1st Leg: Fiorentina (Home) 1 - 1 Nice (Away)
+2nd Leg: Nice (Home) 3 - 1 Fiorentina (Away)
+Fiorentina vs Nice, Winner: Nice
+1st Leg: Newcastle United (Home) 1 - 2 Levski Sofia (Away)
+2nd Leg: Levski Sofia (Home) 3 - 1 Newcastle United (Away)
+Newcastle United vs Levski Sofia, Winner: Levski Sofia
+1st Leg: Brighton (Home) 2 - 1 KuPS (Away)
+2nd Leg: KuPS (Home) 2 - 3 Brighton (Away)
+Brighton vs KuPS, Winner: Brighton
+1st Leg: Újpest FC (Home) 2 - 4 Spartak Trnava (Away)
+2nd Leg: Spartak Trnava (Home) 4 - 1 Újpest FC (Away)
+Újpest FC vs Spartak Trnava, Winner: Spartak Trnava
+Round 1 Winners: ['Villareal', 'AS Monaco', 'Real Betis', 'Osijek', 'Olimpija Ljubljana', 'Borussia Monchengladbach', 'Rosenborg', '1. FC Koln', 'AS Roma', 'Valencia', 'Zrinjski Mostar', 'Standard Liege', 'Nice', 'Levski Sofia', 'Brighton', 'Spartak Trnava']
+Round 2 Qualified: ['SC Heerenveen', 'Twente', 'Arouca', 'Vitoria de Guimaraes', 'Union SG', 'Hearts', 'Austria Wien', 'Dinamo Bucuresti', 'St. Gallen', 'Alanyaspor', 'PAOK Thessaloniki', 'Banik Ostrava', 'Pogon Szczecin', 'Dynamo Moscow', 'Dnipro-1', 'Vojvodina']
+Teams advancing to Round 2: ['Villareal', 'AS Monaco', 'Real Betis', 'Osijek', 'Olimpija Ljubljana', 'Borussia Monchengladbach', 'Rosenborg', '1. FC Koln', 'AS Roma', 'Valencia', 'Zrinjski Mostar', 'Standard Liege', 'Nice', 'Levski Sofia', 'Brighton', 'Spartak Trnava', 'SC Heerenveen', 'Twente', 'Arouca', 'Vitoria de Guimaraes', 'Union SG', 'Hearts', 'Austria Wien', 'Dinamo Bucuresti', 'St. Gallen', 'Alanyaspor', 'PAOK Thessaloniki', 'Banik Ostrava', 'Pogon Szczecin', 'Dynamo Moscow', 'Dnipro-1', 'Vojvodina']
 
 Current round: Round 2
-1st Leg: Lokomotiv Moscow (Home) 2 - 1 Leicester City (Away)
-2nd Leg: Leicester City (Home) 2 - 2 Lokomotiv Moscow (Away)
-1st Leg: Dundee United (Home) 2 - 3 Dnipro-1 (Away)
-2nd Leg: Dnipro-1 (Home) 2 - 1 Dundee United (Away)
-1st Leg: Farul Constanta (Home) 2 - 2 Athletic Bilbao (Away)
-2nd Leg: Athletic Bilbao (Home) 4 - 0 Farul Constanta (Away)
-1st Leg: AZ (Home) 2 - 1 Radnicki Nis (Away)
-2nd Leg: Radnicki Nis (Home) 0 - 2 AZ (Away)
-1st Leg: Lazio (Home) 2 - 0 Fiorentina (Away)
-2nd Leg: Fiorentina (Home) 0 - 1 Lazio (Away)
-1st Leg: Gent (Home) 3 - 0 Banik Ostrava (Away)
-2nd Leg: Banik Ostrava (Home) 3 - 2 Gent (Away)
-1st Leg: Austria Wien (Home) 2 - 2 Vitoria de Guimaraes (Away)
-2nd Leg: Vitoria de Guimaraes (Home) 1 - 0 Austria Wien (Away)
-1st Leg: Antwerp (Home) 0 - 1 Union SG (Away)
-2nd Leg: Union SG (Home) 2 - 1 Antwerp (Away)
-1st Leg: Hibernian (Home) 2 - 1 SC Heerenveen (Away)
-2nd Leg: SC Heerenveen (Home) 2 - 2 Hibernian (Away)
-1st Leg: Newcastle United (Home) 4 - 1 Kayserispor (Away)
-2nd Leg: Kayserispor (Home) 1 - 3 Newcastle United (Away)
-1st Leg: Wolfsberger AC (Home) 2 - 1 PAOK Thessaloniki (Away)
-2nd Leg: PAOK Thessaloniki (Home) 2 - 1 Wolfsberger AC (Away)
+1st Leg: Twente (Home) 2 - 1 Olimpija Ljubljana (Away)
+2nd Leg: Olimpija Ljubljana (Home) 2 - 3 Twente (Away)
+1st Leg: Standard Liege (Home) 2 - 1 Nice (Away)
+2nd Leg: Nice (Home) 3 - 0 Standard Liege (Away)
+1st Leg: 1. FC Koln (Home) 1 - 1 AS Roma (Away)
+2nd Leg: AS Roma (Home) 4 - 0 1. FC Koln (Away)
+1st Leg: St. Gallen (Home) 1 - 2 Union SG (Away)
+2nd Leg: Union SG (Home) 3 - 1 St. Gallen (Away)
+1st Leg: Alanyaspor (Home) 1 - 3 Hearts (Away)
+2nd Leg: Hearts (Home) 1 - 1 Alanyaspor (Away)
+1st Leg: SC Heerenveen (Home) 4 - 2 Banik Ostrava (Away)
+2nd Leg: Banik Ostrava (Home) 2 - 1 SC Heerenveen (Away)
+1st Leg: Valencia (Home) 4 - 0 Dinamo Bucuresti (Away)
+2nd Leg: Dinamo Bucuresti (Home) 3 - 3 Valencia (Away)
+1st Leg: AS Monaco (Home) 0 - 1 Zrinjski Mostar (Away)
+2nd Leg: Zrinjski Mostar (Home) 2 - 4 AS Monaco (Away)
+1st Leg: Brighton (Home) 1 - 1 Real Betis (Away)
+2nd Leg: Real Betis (Home) 2 - 2 Brighton (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Wolfsberger AC 0 - 1 PAOK Thessaloniki (Aggregate: 3 - 4)
-1st Leg: Borussia Monchengladbach (Home) 2 - 0 Union Berlin (Away)
-2nd Leg: Union Berlin (Home) 1 - 2 Borussia Monchengladbach (Away)
-1st Leg: Motherwell (Home) 2 - 3 SC Freiburg (Away)
-2nd Leg: SC Freiburg (Home) 1 - 1 Motherwell (Away)
-1st Leg: Rakow Czestochowa (Home) 1 - 0 AS Roma (Away)
-2nd Leg: AS Roma (Home) 2 - 0 Rakow Czestochowa (Away)
-1st Leg: Arouca (Home) 2 - 2 1. FC Koln (Away)
-2nd Leg: 1. FC Koln (Home) 1 - 3 Arouca (Away)
-1st Leg: Lugano (Home) 3 - 2 Mallorca (Away)
-2nd Leg: Mallorca (Home) 2 - 1 Lugano (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Lugano 0 - 1 Mallorca (Aggregate: 4 - 5)
+Extra Time: Brighton 1 - 0 Real Betis (Aggregate: 4 - 3)
+1st Leg: Pogon Szczecin (Home) 3 - 0 Vitoria de Guimaraes (Away)
+2nd Leg: Vitoria de Guimaraes (Home) 2 - 0 Pogon Szczecin (Away)
+1st Leg: Austria Wien (Home) 1 - 3 Villareal (Away)
+2nd Leg: Villareal (Home) 2 - 0 Austria Wien (Away)
+1st Leg: Spartak Trnava (Home) 4 - 0 Arouca (Away)
+2nd Leg: Arouca (Home) 3 - 1 Spartak Trnava (Away)
+1st Leg: Borussia Monchengladbach (Home) 4 - 2 Dnipro-1 (Away)
+2nd Leg: Dnipro-1 (Home) 2 - 1 Borussia Monchengladbach (Away)
+1st Leg: Levski Sofia (Home) 1 - 0 Vojvodina (Away)
+2nd Leg: Vojvodina (Home) 2 - 2 Levski Sofia (Away)
+1st Leg: Osijek (Home) 1 - 1 Dynamo Moscow (Away)
+2nd Leg: Dynamo Moscow (Home) 3 - 2 Osijek (Away)
+1st Leg: Rosenborg (Home) 2 - 0 PAOK Thessaloniki (Away)
+2nd Leg: PAOK Thessaloniki (Home) 1 - 1 Rosenborg (Away)
 
 Current round: Round 3
-1st Leg: AS Roma (Home) 1 - 1 SC Freiburg (Away)
-2nd Leg: SC Freiburg (Home) 2 - 1 AS Roma (Away)
-1st Leg: Newcastle United (Home) 3 - 0 Mallorca (Away)
-2nd Leg: Mallorca (Home) 1 - 2 Newcastle United (Away)
-1st Leg: PAOK Thessaloniki (Home) 1 - 1 Vitoria de Guimaraes (Away)
-2nd Leg: Vitoria de Guimaraes (Home) 2 - 1 PAOK Thessaloniki (Away)
-1st Leg: Gent (Home) 2 - 1 Hibernian (Away)
-2nd Leg: Hibernian (Home) 3 - 1 Gent (Away)
-1st Leg: Dnipro-1 (Home) 1 - 2 Athletic Bilbao (Away)
-2nd Leg: Athletic Bilbao (Home) 3 - 0 Dnipro-1 (Away)
-1st Leg: AZ (Home) 1 - 0 Lokomotiv Moscow (Away)
-2nd Leg: Lokomotiv Moscow (Home) 3 - 2 AZ (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: AZ 0 - 1 Lokomotiv Moscow (Aggregate: 3 - 4)
-1st Leg: Arouca (Home) 1 - 4 Union SG (Away)
-2nd Leg: Union SG (Home) 3 - 0 Arouca (Away)
-1st Leg: Lazio (Home) 3 - 0 Borussia Monchengladbach (Away)
-2nd Leg: Borussia Monchengladbach (Home) 0 - 2 Lazio (Away)
+1st Leg: Spartak Trnava (Home) 0 - 1 SC Heerenveen (Away)
+2nd Leg: SC Heerenveen (Home) 3 - 3 Spartak Trnava (Away)
+1st Leg: Nice (Home) 4 - 1 Pogon Szczecin (Away)
+2nd Leg: Pogon Szczecin (Home) 1 - 1 Nice (Away)
+1st Leg: Hearts (Home) 2 - 1 Borussia Monchengladbach (Away)
+2nd Leg: Borussia Monchengladbach (Home) 1 - 1 Hearts (Away)
+1st Leg: Union SG (Home) 1 - 2 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 3 - 1 Union SG (Away)
+1st Leg: Brighton (Home) 4 - 3 Villareal (Away)
+2nd Leg: Villareal (Home) 4 - 2 Brighton (Away)
+1st Leg: Rosenborg (Home) 1 - 2 Dynamo Moscow (Away)
+2nd Leg: Dynamo Moscow (Home) 2 - 2 Rosenborg (Away)
+1st Leg: Levski Sofia (Home) 3 - 3 Valencia (Away)
+2nd Leg: Valencia (Home) 1 - 3 Levski Sofia (Away)
+1st Leg: Twente (Home) 2 - 3 AS Roma (Away)
+2nd Leg: AS Roma (Home) 3 - 1 Twente (Away)
 
-Current round: Round 4
-1st Leg: Newcastle United (Home) 2 - 2 Athletic Bilbao (Away)
-2nd Leg: Athletic Bilbao (Home) 3 - 3 Newcastle United (Away)
+Current round: Quarter-Final
+1st Leg: AS Roma (Home) 2 - 0 Hearts (Away)
+2nd Leg: Hearts (Home) 1 - 3 AS Roma (Away)
+1st Leg: Dynamo Moscow (Home) 1 - 2 AS Monaco (Away)
+2nd Leg: AS Monaco (Home) 2 - 1 Dynamo Moscow (Away)
+1st Leg: Nice (Home) 3 - 2 Villareal (Away)
+2nd Leg: Villareal (Home) 1 - 0 Nice (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Newcastle United 1 - 1 Athletic Bilbao (Aggregate: 6 - 6)
+Extra Time: Nice 0 - 0 Villareal (Aggregate: 3 - 3)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: Newcastle United 1 - 5 Athletic Bilbao
-Athletic Bilbao wins on penalties!
-1st Leg: SC Freiburg (Home) 2 - 3 Vitoria de Guimaraes (Away)
-2nd Leg: Vitoria de Guimaraes (Home) 3 - 3 SC Freiburg (Away)
-1st Leg: Lokomotiv Moscow (Home) 2 - 2 Hibernian (Away)
-2nd Leg: Hibernian (Home) 1 - 2 Lokomotiv Moscow (Away)
-1st Leg: Lazio (Home) 3 - 2 Union SG (Away)
-2nd Leg: Union SG (Home) 2 - 2 Lazio (Away)
+Penalties: Nice 4 - 2 Villareal
+Nice wins on penalties!
+1st Leg: Levski Sofia (Home) 2 - 1 SC Heerenveen (Away)
+2nd Leg: SC Heerenveen (Home) 2 - 0 Levski Sofia (Away)
 
-Current round: Round 5
-1st Leg: Athletic Bilbao (Home) 1 - 1 Lazio (Away)
-2nd Leg: Lazio (Home) 2 - 2 Athletic Bilbao (Away)
+Current round: Semi-Final
+1st Leg: AS Monaco (Home) 3 - 1 SC Heerenveen (Away)
+2nd Leg: SC Heerenveen (Home) 3 - 1 AS Monaco (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Athletic Bilbao 1 - 0 Lazio (Aggregate: 4 - 3)
-1st Leg: Lokomotiv Moscow (Home) 2 - 2 Vitoria de Guimaraes (Away)
-2nd Leg: Vitoria de Guimaraes (Home) 2 - 1 Lokomotiv Moscow (Away)
+Extra Time: AS Monaco 0 - 1 SC Heerenveen (Aggregate: 4 - 5)
+1st Leg: AS Roma (Home) 2 - 0 Nice (Away)
+2nd Leg: Nice (Home) 1 - 3 AS Roma (Away)
 
-Current round: Final:
-Vitoria de Guimaraes 2 - 2 Athletic Bilbao
+Current round: Final
+SC Heerenveen 1 - 1 AS Roma
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Vitoria de Guimaraes 0 - 0 Athletic Bilbao (Aggregate: 2 - 2)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Vitoria de Guimaraes 5 - 1 Athletic Bilbao
-Vitoria de Guimaraes wins on penalties!
+Extra Time: SC Heerenveen 1 - 0 AS Roma (Aggregate: 2 - 1)
 
-Winner of Europa League: Vitoria de Guimaraes
-Teams starting in Europa League Round 1: ['Aston Villa', 'Manchester United', 'Newcastle United', 'Athletic Bilbao', 'Atletico Madrid', 'Villareal', 'Union Berlin', 'Borussia Monchengladbach', 'VfB Stuttgart', 'AS Roma', 'Fiorentina', 'Juventus', 'Marseille', 'Nice', 'Rennes', 'SC Heerenveen', 'Arouca', 'Gent', 'Dundee United', 'Austria Wien', 'UTA Arad', 'Konyaspor', 'Molde', 'Djurgården', 'FC Midtjylland', 'Debrecen', 'Rijeka', 'Botev Plovdiv', 'Zilina', 'Olimpija Ljubljana', 'Inter Turku', 'Zrinjski Mostar']
-1st Leg: Dundee United (Home) 1 - 3 Botev Plovdiv (Away)
-2nd Leg: Botev Plovdiv (Home) 1 - 4 Dundee United (Away)
-Dundee United vs Botev Plovdiv, Winner: Dundee United
-1st Leg: Gent (Home) 1 - 2 Aston Villa (Away)
-2nd Leg: Aston Villa (Home) 2 - 1 Gent (Away)
-Gent vs Aston Villa, Winner: Aston Villa
-1st Leg: Manchester United (Home) 3 - 2 Fiorentina (Away)
-2nd Leg: Fiorentina (Home) 0 - 3 Manchester United (Away)
-Manchester United vs Fiorentina, Winner: Manchester United
-1st Leg: Newcastle United (Home) 3 - 0 Union Berlin (Away)
-2nd Leg: Union Berlin (Home) 3 - 1 Newcastle United (Away)
-Newcastle United vs Union Berlin, Winner: Newcastle United
-1st Leg: Villareal (Home) 1 - 4 Rijeka (Away)
-2nd Leg: Rijeka (Home) 2 - 3 Villareal (Away)
-Villareal vs Rijeka, Winner: Rijeka
-1st Leg: Nice (Home) 2 - 3 Atletico Madrid (Away)
-2nd Leg: Atletico Madrid (Home) 1 - 1 Nice (Away)
-Nice vs Atletico Madrid, Winner: Atletico Madrid
-1st Leg: Borussia Monchengladbach (Home) 1 - 3 Juventus (Away)
-2nd Leg: Juventus (Home) 4 - 0 Borussia Monchengladbach (Away)
-Borussia Monchengladbach vs Juventus, Winner: Juventus
-1st Leg: Djurgården (Home) 2 - 3 Rennes (Away)
-2nd Leg: Rennes (Home) 2 - 1 Djurgården (Away)
-Djurgården vs Rennes, Winner: Rennes
-1st Leg: Debrecen (Home) 2 - 3 AS Roma (Away)
-2nd Leg: AS Roma (Home) 1 - 1 Debrecen (Away)
-Debrecen vs AS Roma, Winner: AS Roma
-1st Leg: Arouca (Home) 0 - 3 Athletic Bilbao (Away)
-2nd Leg: Athletic Bilbao (Home) 5 - 1 Arouca (Away)
-Arouca vs Athletic Bilbao, Winner: Athletic Bilbao
-1st Leg: Zilina (Home) 2 - 2 Zrinjski Mostar (Away)
-2nd Leg: Zrinjski Mostar (Home) 1 - 2 Zilina (Away)
-Zilina vs Zrinjski Mostar, Winner: Zilina
-1st Leg: VfB Stuttgart (Home) 1 - 2 UTA Arad (Away)
-2nd Leg: UTA Arad (Home) 2 - 1 VfB Stuttgart (Away)
-VfB Stuttgart vs UTA Arad, Winner: UTA Arad
-1st Leg: Olimpija Ljubljana (Home) 1 - 1 Marseille (Away)
-2nd Leg: Marseille (Home) 1 - 2 Olimpija Ljubljana (Away)
-Olimpija Ljubljana vs Marseille, Winner: Olimpija Ljubljana
-1st Leg: SC Heerenveen (Home) 2 - 1 Austria Wien (Away)
-2nd Leg: Austria Wien (Home) 3 - 2 SC Heerenveen (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: SC Heerenveen 1 - 1 Austria Wien (Aggregate: 5 - 5)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: SC Heerenveen 4 - 3 Austria Wien
-SC Heerenveen wins on penalties!
-SC Heerenveen vs Austria Wien, Winner: SC Heerenveen
-1st Leg: Inter Turku (Home) 1 - 2 FC Midtjylland (Away)
-2nd Leg: FC Midtjylland (Home) 2 - 2 Inter Turku (Away)
-Inter Turku vs FC Midtjylland, Winner: FC Midtjylland
-1st Leg: Molde (Home) 3 - 0 Konyaspor (Away)
-2nd Leg: Konyaspor (Home) 1 - 1 Molde (Away)
-Molde vs Konyaspor, Winner: Molde
-Round 1 Winners: ['Dundee United', 'Aston Villa', 'Manchester United', 'Newcastle United', 'Rijeka', 'Atletico Madrid', 'Juventus', 'Rennes', 'AS Roma', 'Athletic Bilbao', 'Zilina', 'UTA Arad', 'Olimpija Ljubljana', 'SC Heerenveen', 'FC Midtjylland', 'Molde']
-Round 2 Qualified: ['Feyenoord', 'Utrecht', 'Famalicao', 'Vitoria de Guimaraes', 'Standard Liege', 'Hibernian', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Lucerne', 'Sivasspor', 'PAOK Thessaloniki', 'Mlada Boleslav', 'Pogon Szczecin', 'Spartak Moscow', 'Kolos Kovalivka', 'TSC Backa Topola']
-Teams advancing to Round 2: ['Dundee United', 'Aston Villa', 'Manchester United', 'Newcastle United', 'Rijeka', 'Atletico Madrid', 'Juventus', 'Rennes', 'AS Roma', 'Athletic Bilbao', 'Zilina', 'UTA Arad', 'Olimpija Ljubljana', 'SC Heerenveen', 'FC Midtjylland', 'Molde', 'Feyenoord', 'Utrecht', 'Famalicao', 'Vitoria de Guimaraes', 'Standard Liege', 'Hibernian', 'Austria Klagenfurt', 'Dinamo Bucuresti', 'Lucerne', 'Sivasspor', 'PAOK Thessaloniki', 'Mlada Boleslav', 'Pogon Szczecin', 'Spartak Moscow', 'Kolos Kovalivka', 'TSC Backa Topola']
-
-Current round: Round 2
-1st Leg: Atletico Madrid (Home) 1 - 1 SC Heerenveen (Away)
-2nd Leg: SC Heerenveen (Home) 1 - 3 Atletico Madrid (Away)
-1st Leg: Olimpija Ljubljana (Home) 2 - 2 Zilina (Away)
-2nd Leg: Zilina (Home) 2 - 2 Olimpija Ljubljana (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Olimpija Ljubljana 1 - 0 Zilina (Aggregate: 5 - 4)
-1st Leg: Feyenoord (Home) 3 - 1 Mlada Boleslav (Away)
-2nd Leg: Mlada Boleslav (Home) 2 - 3 Feyenoord (Away)
-1st Leg: AS Roma (Home) 3 - 0 Rijeka (Away)
-2nd Leg: Rijeka (Home) 2 - 2 AS Roma (Away)
-1st Leg: Rennes (Home) 3 - 0 Dundee United (Away)
-2nd Leg: Dundee United (Home) 1 - 2 Rennes (Away)
-1st Leg: Standard Liege (Home) 2 - 2 Utrecht (Away)
-2nd Leg: Utrecht (Home) 2 - 2 Standard Liege (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Standard Liege 1 - 1 Utrecht (Aggregate: 5 - 5)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Standard Liege 5 - 3 Utrecht
-Standard Liege wins on penalties!
-1st Leg: Kolos Kovalivka (Home) 2 - 1 PAOK Thessaloniki (Away)
-2nd Leg: PAOK Thessaloniki (Home) 3 - 0 Kolos Kovalivka (Away)
-1st Leg: Manchester United (Home) 2 - 0 Spartak Moscow (Away)
-2nd Leg: Spartak Moscow (Home) 1 - 3 Manchester United (Away)
-1st Leg: Molde (Home) 5 - 1 UTA Arad (Away)
-2nd Leg: UTA Arad (Home) 0 - 1 Molde (Away)
-1st Leg: Hibernian (Home) 0 - 1 Vitoria de Guimaraes (Away)
-2nd Leg: Vitoria de Guimaraes (Home) 3 - 2 Hibernian (Away)
-1st Leg: Newcastle United (Home) 2 - 0 Juventus (Away)
-2nd Leg: Juventus (Home) 3 - 2 Newcastle United (Away)
-1st Leg: Aston Villa (Home) 2 - 1 FC Midtjylland (Away)
-2nd Leg: FC Midtjylland (Home) 1 - 3 Aston Villa (Away)
-1st Leg: Athletic Bilbao (Home) 4 - 3 TSC Backa Topola (Away)
-2nd Leg: TSC Backa Topola (Home) 2 - 1 Athletic Bilbao (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Athletic Bilbao 1 - 1 TSC Backa Topola (Aggregate: 6 - 6)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Athletic Bilbao 1 - 4 TSC Backa Topola
-TSC Backa Topola wins on penalties!
-1st Leg: Famalicao (Home) 4 - 3 Austria Klagenfurt (Away)
-2nd Leg: Austria Klagenfurt (Home) 2 - 2 Famalicao (Away)
-1st Leg: Dinamo Bucuresti (Home) 1 - 2 Lucerne (Away)
-2nd Leg: Lucerne (Home) 2 - 0 Dinamo Bucuresti (Away)
-1st Leg: Pogon Szczecin (Home) 2 - 0 Sivasspor (Away)
-2nd Leg: Sivasspor (Home) 1 - 0 Pogon Szczecin (Away)
-
-Current round: Round 3
-1st Leg: PAOK Thessaloniki (Home) 1 - 1 Molde (Away)
-2nd Leg: Molde (Home) 3 - 1 PAOK Thessaloniki (Away)
-1st Leg: Pogon Szczecin (Home) 2 - 1 Newcastle United (Away)
-2nd Leg: Newcastle United (Home) 2 - 1 Pogon Szczecin (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Pogon Szczecin 1 - 1 Newcastle United (Aggregate: 4 - 4)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Pogon Szczecin 3 - 5 Newcastle United
-Newcastle United wins on penalties!
-1st Leg: Rennes (Home) 2 - 3 Famalicao (Away)
-2nd Leg: Famalicao (Home) 2 - 3 Rennes (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Rennes 0 - 1 Famalicao (Aggregate: 5 - 6)
-1st Leg: Feyenoord (Home) 4 - 2 Aston Villa (Away)
-2nd Leg: Aston Villa (Home) 1 - 1 Feyenoord (Away)
-1st Leg: AS Roma (Home) 3 - 0 Vitoria de Guimaraes (Away)
-2nd Leg: Vitoria de Guimaraes (Home) 3 - 1 AS Roma (Away)
-1st Leg: Lucerne (Home) 2 - 3 Atletico Madrid (Away)
-2nd Leg: Atletico Madrid (Home) 3 - 1 Lucerne (Away)
-1st Leg: TSC Backa Topola (Home) 2 - 2 Olimpija Ljubljana (Away)
-2nd Leg: Olimpija Ljubljana (Home) 2 - 0 TSC Backa Topola (Away)
-1st Leg: Manchester United (Home) 1 - 0 Standard Liege (Away)
-2nd Leg: Standard Liege (Home) 0 - 2 Manchester United (Away)
-
-Current round: Round 4
-1st Leg: Manchester United (Home) 1 - 3 Atletico Madrid (Away)
-2nd Leg: Atletico Madrid (Home) 3 - 1 Manchester United (Away)
-1st Leg: AS Roma (Home) 3 - 1 Olimpija Ljubljana (Away)
-2nd Leg: Olimpija Ljubljana (Home) 2 - 1 AS Roma (Away)
-1st Leg: Feyenoord (Home) 2 - 2 Newcastle United (Away)
-2nd Leg: Newcastle United (Home) 1 - 0 Feyenoord (Away)
-1st Leg: Famalicao (Home) 0 - 2 Molde (Away)
-2nd Leg: Molde (Home) 2 - 1 Famalicao (Away)
-
-Current round: Round 5
-1st Leg: Atletico Madrid (Home) 0 - 0 Newcastle United (Away)
-2nd Leg: Newcastle United (Home) 2 - 0 Atletico Madrid (Away)
-1st Leg: AS Roma (Home) 3 - 1 Molde (Away)
-2nd Leg: Molde (Home) 2 - 2 AS Roma (Away)
-
-Current round: Final:
-AS Roma 2 - 1 Newcastle United
-AS Roma won the match!
-
-Winner of Europa League: AS Roma
+Winner of Europa League: SC Heerenveen

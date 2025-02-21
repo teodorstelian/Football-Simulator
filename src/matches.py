@@ -150,6 +150,15 @@ def generate_single_round(teams, competition, has_2_legs=False, logging=False):
 
     return next_round
 
+def get_round_name(number_teams):
+    if number_teams == 2:
+        return "Final"
+    elif number_teams == 4:
+        return "Semi-Final"
+    elif number_teams == 8:
+        return "Quarter-Final"
+    else:
+        return None
 
 def generate_fixtures_cup(teams, competition, has_2_legs=False, prev_rounds=0, logging=False):
     """
@@ -176,7 +185,8 @@ def generate_fixtures_cup(teams, competition, has_2_legs=False, prev_rounds=0, l
         # Shuffle the participants before each round
         random.shuffle(current_participants)
 
-        round_name = f"Round {round_num + prev_rounds + 1}" if len(current_participants) > 2 else "Final:"
+        round_name = get_round_name(len(current_participants)) or f"Round {round_num + prev_rounds + 1}"
+
         print(round_name)
         if logging:
             with open(competition_text, 'a',  encoding="utf-8") as log_file:

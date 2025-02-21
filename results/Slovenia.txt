@@ -1,136 +1,73 @@
 Winner of League: Maribor
-1. Maribor - 82 points - 27 wins - 1 draws - 2 losses - 100 scored - 20 against - Champions League - Round 1
-2. Olimpija Ljubljana - 75 points - 24 wins - 3 draws - 3 losses - 84 scored - 23 against - No qualification
-3. Koper - 62 points - 19 wins - 5 draws - 6 losses - 64 scored - 34 against - No qualification
-4. Domžale - 61 points - 18 wins - 7 draws - 5 losses - 66 scored - 38 against - No qualification
-5. Mura - 55 points - 16 wins - 7 draws - 7 losses - 58 scored - 42 against - No qualification
-6. Celje - 52 points - 16 wins - 4 draws - 10 losses - 64 scored - 41 against - No qualification
-7. Bravo - 49 points - 15 wins - 4 draws - 11 losses - 49 scored - 56 against - No qualification
-8. Tabor Sežana - 43 points - 13 wins - 4 draws - 13 losses - 54 scored - 52 against - No qualification
-9. Radomlje - 38 points - 12 wins - 2 draws - 16 losses - 58 scored - 55 against - No qualification
-10. Aluminij Kidricevo - 26 points - 7 wins - 5 draws - 18 losses - 36 scored - 64 against - No qualification
-11. Triglav Kranj - 25 points - 7 wins - 4 draws - 19 losses - 34 scored - 63 against - No qualification
-12. Krka - 23 points - 6 wins - 5 draws - 19 losses - 37 scored - 72 against - No qualification
-13. Dekani - 23 points - 5 wins - 8 draws - 17 losses - 34 scored - 70 against - No qualification
-14. Rudar Velenje - 22 points - 5 wins - 7 draws - 18 losses - 36 scored - 64 against - No qualification
-15. Dob - 22 points - 5 wins - 7 draws - 18 losses - 36 scored - 73 against - No qualification
-16. Beltinci - 21 points - 4 wins - 9 draws - 17 losses - 31 scored - 74 against - No qualification
+1. Maribor - 78 points - 25 wins - 3 draws - 2 losses - 86 scored - 24 against - Champions League - Round 1
+2. Olimpija Ljubljana - 77 points - 24 wins - 5 draws - 1 losses - 83 scored - 25 against - Europa League - Round 1
+3. Domžale - 63 points - 19 wins - 6 draws - 5 losses - 64 scored - 38 against - Europa Conference League - Round 1
+4. Celje - 62 points - 19 wins - 5 draws - 6 losses - 74 scored - 40 against - No qualification
+5. Koper - 58 points - 17 wins - 7 draws - 6 losses - 62 scored - 38 against - No qualification
+6. Mura - 47 points - 15 wins - 2 draws - 13 losses - 65 scored - 49 against - No qualification
+7. Bravo - 45 points - 14 wins - 3 draws - 13 losses - 45 scored - 46 against - No qualification
+8. Radomlje - 39 points - 11 wins - 6 draws - 13 losses - 61 scored - 61 against - No qualification
+9. Rudar Velenje - 36 points - 10 wins - 6 draws - 14 losses - 45 scored - 57 against - No qualification
+10. Dob - 36 points - 10 wins - 6 draws - 14 losses - 40 scored - 61 against - No qualification
+11. Tabor Sežana - 32 points - 8 wins - 8 draws - 14 losses - 45 scored - 58 against - No qualification
+12. Krka - 29 points - 8 wins - 5 draws - 17 losses - 47 scored - 63 against - No qualification
+13. Triglav Kranj - 25 points - 7 wins - 4 draws - 19 losses - 33 scored - 65 against - No qualification
+14. Aluminij Kidricevo - 20 points - 4 wins - 8 draws - 18 losses - 41 scored - 79 against - No qualification
+15. Dekani - 17 points - 5 wins - 2 draws - 23 losses - 25 scored - 72 against - No qualification
+16. Beltinci - 16 points - 4 wins - 4 draws - 22 losses - 30 scored - 70 against - No qualification
 Teams of Slovenia Cup: ['Maribor', 'Olimpija Ljubljana', 'Celje', 'Koper', 'Domžale', 'Mura', 'Radomlje', 'Bravo', 'Tabor Sežana', 'Rudar Velenje', 'Krka', 'Triglav Kranj', 'Aluminij Kidricevo', 'Dob', 'Dekani', 'Beltinci']
 
 Current round: Round 1
-Maribor 3 - 1 Radomlje
-Maribor won the match!
-Celje 2 - 0 Rudar Velenje
-Celje won the match!
-Mura 2 - 2 Olimpija Ljubljana
+Olimpija Ljubljana 1 - 1 Maribor
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Mura 1 - 1 Olimpija Ljubljana (Aggregate: 3 - 3)
+Extra Time: Olimpija Ljubljana 1 - 1 Maribor (Aggregate: 2 - 2)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: Mura 4 - 4 Olimpija Ljubljana
+Penalties: Olimpija Ljubljana 3 - 3 Maribor
 Penalties are tied! Sudden death begins!
-Sudden Death: Mura 5 - 6 Olimpija Ljubljana
-Olimpija Ljubljana wins on sudden death penalties!
-Krka 1 - 2 Domžale
-Domžale won the match!
-Koper 2 - 1 Bravo
-Koper won the match!
-Dekani 1 - 2 Aluminij Kidricevo
-Aluminij Kidricevo won the match!
-Triglav Kranj 3 - 1 Dob
-Triglav Kranj won the match!
-Tabor Sežana 3 - 2 Beltinci
-Tabor Sežana won the match!
-
-Current round: Round 2
-Koper 3 - 1 Olimpija Ljubljana
-Koper won the match!
-Aluminij Kidricevo 0 - 4 Domžale
-Domžale won the match!
-Maribor 4 - 0 Tabor Sežana
-Maribor won the match!
-Celje 4 - 0 Triglav Kranj
-Celje won the match!
-
-Current round: Round 3
-Koper 2 - 2 Domžale
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Koper 1 - 0 Domžale (Aggregate: 3 - 2)
-Maribor 3 - 1 Celje
-Maribor won the match!
-
-Current round: Final:
-Maribor 3 - 1 Koper
-Maribor won the match!
-
-Winner of Slovenia Cup: Maribor
-Winner of League: Maribor
-1. Maribor - 79 points - 25 wins - 4 draws - 1 losses - 76 scored - 24 against - Champions League - Round 1
-2. Olimpija Ljubljana - 71 points - 22 wins - 5 draws - 3 losses - 71 scored - 22 against - Europa League - Round 1
-3. Koper - 62 points - 19 wins - 5 draws - 6 losses - 78 scored - 44 against - Europa Conference League - Round 1
-4. Celje - 58 points - 18 wins - 4 draws - 8 losses - 72 scored - 44 against - No qualification
-5. Mura - 52 points - 15 wins - 7 draws - 8 losses - 59 scored - 47 against - No qualification
-6. Domžale - 51 points - 15 wins - 6 draws - 9 losses - 69 scored - 46 against - No qualification
-7. Radomlje - 49 points - 14 wins - 7 draws - 9 losses - 60 scored - 57 against - No qualification
-8. Bravo - 45 points - 13 wins - 6 draws - 11 losses - 62 scored - 58 against - No qualification
-9. Tabor Sežana - 41 points - 12 wins - 5 draws - 13 losses - 56 scored - 63 against - No qualification
-10. Dob - 35 points - 10 wins - 5 draws - 15 losses - 41 scored - 58 against - No qualification
-11. Rudar Velenje - 31 points - 8 wins - 7 draws - 15 losses - 51 scored - 62 against - No qualification
-12. Krka - 26 points - 6 wins - 8 draws - 16 losses - 48 scored - 62 against - No qualification
-13. Dekani - 24 points - 6 wins - 6 draws - 18 losses - 32 scored - 76 against - No qualification
-14. Triglav Kranj - 19 points - 4 wins - 7 draws - 19 losses - 41 scored - 74 against - No qualification
-15. Aluminij Kidricevo - 17 points - 4 wins - 5 draws - 21 losses - 35 scored - 72 against - No qualification
-16. Beltinci - 13 points - 2 wins - 7 draws - 21 losses - 25 scored - 67 against - No qualification
-Teams of Slovenia Cup: ['Maribor', 'Olimpija Ljubljana', 'Celje', 'Koper', 'Domžale', 'Mura', 'Radomlje', 'Bravo', 'Tabor Sežana', 'Rudar Velenje', 'Krka', 'Triglav Kranj', 'Aluminij Kidricevo', 'Dob', 'Dekani', 'Beltinci']
-
-Current round: Round 1
-Domžale 3 - 1 Bravo
-Domžale won the match!
-Dekani 2 - 3 Mura
-Mura won the match!
-Radomlje 0 - 1 Koper
-Koper won the match!
-Celje 4 - 1 Triglav Kranj
-Celje won the match!
-Tabor Sežana 1 - 1 Aluminij Kidricevo
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Tabor Sežana 0 - 1 Aluminij Kidricevo (Aggregate: 1 - 2)
-Maribor 3 - 0 Krka
-Maribor won the match!
-Rudar Velenje 4 - 4 Dob
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Rudar Velenje 0 - 1 Dob (Aggregate: 4 - 5)
-Olimpija Ljubljana 4 - 0 Beltinci
-Olimpija Ljubljana won the match!
-
-Current round: Round 2
-Koper 2 - 0 Domžale
-Koper won the match!
-Maribor 3 - 2 Mura
-Maribor won the match!
-Aluminij Kidricevo 1 - 3 Celje
-Celje won the match!
-Dob 2 - 2 Olimpija Ljubljana
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Dob 0 - 1 Olimpija Ljubljana (Aggregate: 2 - 3)
-
-Current round: Round 3
-Koper 1 - 1 Celje
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Koper 1 - 1 Celje (Aggregate: 2 - 2)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Koper 4 - 3 Celje
-Koper wins on penalties!
-Maribor 2 - 2 Olimpija Ljubljana
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Maribor 1 - 1 Olimpija Ljubljana (Aggregate: 3 - 3)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Maribor 4 - 4 Olimpija Ljubljana
-Penalties are tied! Sudden death begins!
-Sudden Death: Maribor 5 - 4 Olimpija Ljubljana
+Sudden Death: Olimpija Ljubljana 3 - 4 Maribor
 Maribor wins on sudden death penalties!
+Beltinci 3 - 2 Triglav Kranj
+Beltinci won the match!
+Rudar Velenje 2 - 2 Mura
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Rudar Velenje 1 - 1 Mura (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rudar Velenje 3 - 4 Mura
+Mura wins on penalties!
+Domžale 3 - 0 Aluminij Kidricevo
+Domžale won the match!
+Celje 2 - 1 Radomlje
+Celje won the match!
+Koper 3 - 2 Dob
+Koper won the match!
+Tabor Sežana 3 - 3 Bravo
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Tabor Sežana 0 - 0 Bravo (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Tabor Sežana 4 - 2 Bravo
+Tabor Sežana wins on penalties!
+Krka 2 - 2 Dekani
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Krka 0 - 1 Dekani (Aggregate: 2 - 3)
 
-Current round: Final:
-Koper 1 - 2 Maribor
+Current round: Quarter-Final
+Tabor Sežana 3 - 2 Dekani
+Tabor Sežana won the match!
+Beltinci 1 - 3 Koper
+Koper won the match!
+Mura 1 - 2 Celje
+Celje won the match!
+Maribor 3 - 2 Domžale
 Maribor won the match!
 
-Winner of Slovenia Cup: Maribor
+Current round: Semi-Final
+Celje 2 - 1 Koper
+Celje won the match!
+Tabor Sežana 1 - 3 Maribor
+Maribor won the match!
+
+Current round: Final
+Celje 4 - 1 Maribor
+Celje won the match!
+
+Winner of Slovenia Cup: Celje

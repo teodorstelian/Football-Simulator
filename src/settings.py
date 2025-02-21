@@ -127,7 +127,13 @@ BIH = {"name": "Bosnia_and_Herzegovina",
 
 ALL_COUNTRIES = [ENG, ESP, GER, ITA, FRA, NED, POR, BEL, SCO, AUS, ROM, SUI, TUR, GRE, CZE, POL,
                  RUS, UKR, SRB, NOR, SWE, DEN, HUN, CRO, BUL, SVK, SLO, FIN, BIH]
-# Europe Places - UCL, UEL, UECL
+
+# European Competitions
 UCL = "Champions League"
 UEL = "Europa League"
 UECL = "Europa Conference League"
+
+# Match Variables
+AVG_BASE_GOALS = 1.5
+HOME_WEIGHT = 0.5
+SKILL_WEIGHT = 15

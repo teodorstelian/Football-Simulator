@@ -466,7 +466,7 @@ def check_team_stats(team, league):
         (gen_name, country, skill, league_titles, cup_titles, ucl, uel, uecl, europe) = general
         # Access the column values from League table
         (
-            league_name, matches_played, wins, draws, losses, points, goals_scored, goals_against,
+            league_name, skill, matches_played, wins, draws, losses, points, goals_scored, goals_against,
             first_place, second_place, third_place, cup_finals, cup_wins
         ) = league
 
@@ -592,6 +592,7 @@ def get_european_competition_stats(competition):
         SELECT team_name, appearances, round_of_16, quarter_finals, semi_finals, finals, wins
         FROM {competition_table}
         ORDER BY wins DESC, finals DESC, semi_finals DESC, quarter_finals DESC, round_of_16 DESC, appearances DESC, team_name ASC
+        LIMIT 25
     """
     c.execute(query)
     stats = c.fetchall()

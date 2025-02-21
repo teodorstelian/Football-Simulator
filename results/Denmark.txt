@@ -1,130 +1,63 @@
 Winner of League: FC Copenhagen
-1. FC Copenhagen - 75 points - 24 wins - 3 draws - 3 losses - 86 scored - 24 against - Champions League - Round 1
-2. Brøndby IF - 75 points - 24 wins - 3 draws - 3 losses - 74 scored - 32 against - Champions League - Round 1
-3. FC Midtjylland - 66 points - 21 wins - 3 draws - 6 losses - 69 scored - 34 against - No qualification
-4. Nordsjælland - 60 points - 18 wins - 6 draws - 6 losses - 72 scored - 44 against - No qualification
-5. Aarhus GF - 52 points - 15 wins - 7 draws - 8 losses - 60 scored - 47 against - No qualification
-6. Silkeborg - 50 points - 15 wins - 5 draws - 10 losses - 51 scored - 50 against - No qualification
-7. Aalborg BK - 42 points - 13 wins - 3 draws - 14 losses - 50 scored - 48 against - No qualification
-8. Randers FC - 42 points - 11 wins - 9 draws - 10 losses - 52 scored - 48 against - No qualification
-9. Odense BK - 40 points - 12 wins - 4 draws - 14 losses - 49 scored - 54 against - No qualification
-10. Horsens - 37 points - 10 wins - 7 draws - 13 losses - 49 scored - 66 against - No qualification
-11. Viborg FF - 32 points - 8 wins - 8 draws - 14 losses - 44 scored - 57 against - No qualification
-12. SønderjyskE - 26 points - 6 wins - 8 draws - 16 losses - 44 scored - 62 against - No qualification
-13. Vejle BK - 25 points - 5 wins - 10 draws - 15 losses - 40 scored - 59 against - No qualification
-14. Lyngby - 19 points - 4 wins - 7 draws - 19 losses - 33 scored - 69 against - No qualification
-15. Hvidovre IF - 15 points - 3 wins - 6 draws - 21 losses - 29 scored - 70 against - No qualification
-16. Esbjerg - 15 points - 2 wins - 9 draws - 19 losses - 32 scored - 70 against - No qualification
+1. FC Copenhagen - 73 points - 23 wins - 4 draws - 3 losses - 83 scored - 27 against - Champions League - Round 1
+2. FC Midtjylland - 73 points - 23 wins - 4 draws - 3 losses - 81 scored - 30 against - Champions League - Round 1
+3. Brøndby IF - 64 points - 19 wins - 7 draws - 4 losses - 70 scored - 37 against - Europa League - Round 1
+4. Nordsjælland - 59 points - 18 wins - 5 draws - 7 losses - 58 scored - 38 against - Europa Conference League - Round 1
+5. Aalborg BK - 55 points - 16 wins - 7 draws - 7 losses - 64 scored - 43 against - No qualification
+6. Aarhus GF - 45 points - 13 wins - 6 draws - 11 losses - 47 scored - 46 against - No qualification
+7. Randers FC - 43 points - 11 wins - 10 draws - 9 losses - 55 scored - 48 against - No qualification
+8. SønderjyskE - 39 points - 12 wins - 3 draws - 15 losses - 44 scored - 63 against - No qualification
+9. Viborg FF - 37 points - 9 wins - 10 draws - 11 losses - 48 scored - 54 against - No qualification
+10. Silkeborg - 33 points - 9 wins - 6 draws - 15 losses - 45 scored - 60 against - No qualification
+11. Odense BK - 32 points - 9 wins - 5 draws - 16 losses - 51 scored - 60 against - No qualification
+12. Vejle BK - 28 points - 7 wins - 7 draws - 16 losses - 34 scored - 59 against - No qualification
+13. Lyngby - 26 points - 7 wins - 5 draws - 18 losses - 41 scored - 71 against - No qualification
+14. Esbjerg - 26 points - 7 wins - 5 draws - 18 losses - 40 scored - 67 against - No qualification
+15. Horsens - 21 points - 5 wins - 6 draws - 19 losses - 44 scored - 71 against - No qualification
+16. Hvidovre IF - 17 points - 3 wins - 8 draws - 19 losses - 37 scored - 68 against - No qualification
 Teams of Denmark Cup: ['FC Copenhagen', 'FC Midtjylland', 'Brøndby IF', 'Nordsjælland', 'Aalborg BK', 'Aarhus GF', 'Randers FC', 'Odense BK', 'Viborg FF', 'Silkeborg', 'SønderjyskE', 'Horsens', 'Lyngby', 'Vejle BK', 'Esbjerg', 'Hvidovre IF']
 
 Current round: Round 1
-FC Copenhagen 3 - 0 Lyngby
-FC Copenhagen won the match!
-Aalborg BK 2 - 2 Viborg FF
+Aalborg BK 1 - 1 FC Copenhagen
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Aalborg BK 1 - 1 Viborg FF (Aggregate: 3 - 3)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Aalborg BK 5 - 4 Viborg FF
-Aalborg BK wins on penalties!
-Odense BK 2 - 0 Hvidovre IF
-Odense BK won the match!
-Silkeborg 2 - 0 Vejle BK
-Silkeborg won the match!
-Esbjerg 2 - 1 Aarhus GF
-Esbjerg won the match!
-Horsens 0 - 2 Brøndby IF
-Brøndby IF won the match!
-SønderjyskE 4 - 3 FC Midtjylland
-SønderjyskE won the match!
-Randers FC 2 - 2 Nordsjælland
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Randers FC 0 - 1 Nordsjælland (Aggregate: 2 - 3)
-
-Current round: Round 2
-Brøndby IF 5 - 0 Esbjerg
-Brøndby IF won the match!
-Aalborg BK 2 - 2 Silkeborg
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Aalborg BK 1 - 1 Silkeborg (Aggregate: 3 - 3)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Aalborg BK 3 - 4 Silkeborg
-Silkeborg wins on penalties!
-Odense BK 2 - 0 SønderjyskE
-Odense BK won the match!
-FC Copenhagen 5 - 2 Nordsjælland
-FC Copenhagen won the match!
-
-Current round: Round 3
-Brøndby IF 3 - 2 Odense BK
-Brøndby IF won the match!
-FC Copenhagen 4 - 1 Silkeborg
-FC Copenhagen won the match!
-
-Current round: Final:
-Brøndby IF 3 - 3 FC Copenhagen
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Brøndby IF 0 - 0 FC Copenhagen (Aggregate: 3 - 3)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Brøndby IF 3 - 4 FC Copenhagen
-FC Copenhagen wins on penalties!
-
-Winner of Denmark Cup: FC Copenhagen
-Winner of League: FC Copenhagen
-1. FC Copenhagen - 78 points - 24 wins - 6 draws - 0 losses - 75 scored - 22 against - Champions League - Round 1
-2. Brøndby IF - 69 points - 21 wins - 6 draws - 3 losses - 82 scored - 34 against - Champions League - Round 1
-3. FC Midtjylland - 69 points - 20 wins - 9 draws - 1 losses - 69 scored - 27 against - Europa League - Round 1
-4. Nordsjælland - 61 points - 18 wins - 7 draws - 5 losses - 70 scored - 36 against - Europa Conference League - Round 1
-5. Aalborg BK - 52 points - 16 wins - 4 draws - 10 losses - 58 scored - 43 against - No qualification
-6. Odense BK - 49 points - 14 wins - 7 draws - 9 losses - 51 scored - 51 against - No qualification
-7. Viborg FF - 46 points - 13 wins - 7 draws - 10 losses - 55 scored - 49 against - No qualification
-8. Silkeborg - 37 points - 9 wins - 10 draws - 11 losses - 52 scored - 55 against - No qualification
-9. Horsens - 33 points - 9 wins - 6 draws - 15 losses - 46 scored - 60 against - No qualification
-10. Aarhus GF - 33 points - 9 wins - 6 draws - 15 losses - 45 scored - 54 against - No qualification
-11. Randers FC - 31 points - 7 wins - 10 draws - 13 losses - 42 scored - 55 against - No qualification
-12. SønderjyskE - 28 points - 8 wins - 4 draws - 18 losses - 47 scored - 69 against - No qualification
-13. Lyngby - 24 points - 6 wins - 6 draws - 18 losses - 43 scored - 65 against - No qualification
-14. Vejle BK - 20 points - 5 wins - 5 draws - 20 losses - 32 scored - 70 against - No qualification
-15. Hvidovre IF - 19 points - 5 wins - 4 draws - 21 losses - 31 scored - 73 against - No qualification
-16. Esbjerg - 18 points - 3 wins - 9 draws - 18 losses - 41 scored - 76 against - No qualification
-Teams of Denmark Cup: ['FC Copenhagen', 'FC Midtjylland', 'Brøndby IF', 'Nordsjælland', 'Aalborg BK', 'Aarhus GF', 'Odense BK', 'Randers FC', 'Viborg FF', 'Silkeborg', 'SønderjyskE', 'Horsens', 'Lyngby', 'Vejle BK', 'Esbjerg', 'Hvidovre IF']
-
-Current round: Round 1
-Silkeborg 3 - 1 Randers FC
-Silkeborg won the match!
-Viborg FF 2 - 2 Horsens
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Viborg FF 0 - 1 Horsens (Aggregate: 2 - 3)
-Odense BK 1 - 3 Esbjerg
-Esbjerg won the match!
-Vejle BK 0 - 1 Lyngby
-Lyngby won the match!
-Aarhus GF 0 - 1 FC Midtjylland
-FC Midtjylland won the match!
-Aalborg BK 1 - 3 FC Copenhagen
-FC Copenhagen won the match!
-SønderjyskE 1 - 3 Nordsjælland
-Nordsjælland won the match!
+Extra Time: Aalborg BK 0 - 1 FC Copenhagen (Aggregate: 1 - 2)
+Aarhus GF 2 - 0 Vejle BK
+Aarhus GF won the match!
 Hvidovre IF 0 - 2 Brøndby IF
 Brøndby IF won the match!
-
-Current round: Round 2
-Brøndby IF 1 - 3 Nordsjælland
-Nordsjælland won the match!
-Horsens 0 - 2 FC Copenhagen
-FC Copenhagen won the match!
-Lyngby 2 - 1 Esbjerg
+Esbjerg 2 - 1 Randers FC
+Esbjerg won the match!
+Odense BK 2 - 1 Viborg FF
+Odense BK won the match!
+Lyngby 2 - 1 FC Midtjylland
 Lyngby won the match!
-FC Midtjylland 3 - 0 Silkeborg
-FC Midtjylland won the match!
+Silkeborg 1 - 0 SønderjyskE
+Silkeborg won the match!
+Horsens 2 - 4 Nordsjælland
+Nordsjælland won the match!
 
-Current round: Round 3
+Current round: Quarter-Final
+Nordsjælland 6 - 2 Lyngby
+Nordsjælland won the match!
+Odense BK 1 - 1 Esbjerg
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Odense BK 1 - 1 Esbjerg (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Odense BK 4 - 5 Esbjerg
+Esbjerg wins on penalties!
+Aarhus GF 3 - 1 Silkeborg
+Aarhus GF won the match!
+FC Copenhagen 4 - 0 Brøndby IF
+FC Copenhagen won the match!
+
+Current round: Semi-Final
+Aarhus GF 2 - 0 Esbjerg
+Aarhus GF won the match!
 Nordsjælland 2 - 3 FC Copenhagen
 FC Copenhagen won the match!
-Lyngby 1 - 3 FC Midtjylland
-FC Midtjylland won the match!
 
-Current round: Final:
-FC Midtjylland 3 - 2 FC Copenhagen
-FC Midtjylland won the match!
+Current round: Final
+Aarhus GF 2 - 3 FC Copenhagen
+FC Copenhagen won the match!
 
-Winner of Denmark Cup: FC Midtjylland
+Winner of Denmark Cup: FC Copenhagen

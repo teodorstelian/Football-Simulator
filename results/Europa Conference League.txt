@@ -1,286 +1,159 @@
-Teams starting in Europa Conference League Round 1: ['Brighton', 'Fulham', 'Nottingham Forest', 'Southampton', 'Girona', 'Osasuna', 'Rayo Vallecano', 'Valencia', 'FC Augsburg', 'VfB Stuttgart', 'Fortuna Dusseldorf', 'Nurnberg', 'Bologna', 'Empoli', 'Monza', 'Sassuolo', 'Lorient', 'Montpellier', 'Nice', 'Reims', 'Go Ahead Eagles', 'RKC Waalwijk', 'Gil Vicente', 'Portimonense', 'Cercle Brugge', 'Mechelen', 'Kilmarnock', 'Livingston', 'Austria Lustenau', 'Mattersburg', 'Otelul Galati', 'CS Mioveni']
-1st Leg: Reims (Home) 1 - 1 Southampton (Away)
-2nd Leg: Southampton (Home) 1 - 3 Reims (Away)
-Reims vs Southampton, Winner: Reims
-1st Leg: Fortuna Dusseldorf (Home) 2 - 1 Nice (Away)
-2nd Leg: Nice (Home) 3 - 0 Fortuna Dusseldorf (Away)
-Fortuna Dusseldorf vs Nice, Winner: Nice
-1st Leg: Mattersburg (Home) 2 - 2 Livingston (Away)
-2nd Leg: Livingston (Home) 1 - 1 Mattersburg (Away)
+Teams starting in Europa Conference League Round 1: ['Aston Villa', 'Leicester City', 'Southampton', 'Celta Vigo', 'Osasuna', 'FC Augsburg', 'Nurnberg', 'Sassuolo', 'Torino', 'Marseille', 'Reims', 'Fortuna Sittard', 'Boavista', 'Charleroi', 'Motherwell', 'Austria Klagenfurt', 'Petrolul Ploiesti', 'Sion', 'Konyaspor', 'OFI Crete', 'Sigma Olomouc', 'Molde', 'Djurgården', 'Nordsjælland', 'Debrecen', 'Honvéd Budapest', 'Rijeka', 'Slavia Sofia', 'Zilina', 'Domžale', 'Ilves', 'Željezničar']
+1st Leg: Nordsjælland (Home) 0 - 2 Djurgården (Away)
+2nd Leg: Djurgården (Home) 4 - 1 Nordsjælland (Away)
+Nordsjælland vs Djurgården, Winner: Djurgården
+1st Leg: Domžale (Home) 3 - 2 Charleroi (Away)
+2nd Leg: Charleroi (Home) 1 - 1 Domžale (Away)
+Domžale vs Charleroi, Winner: Domžale
+1st Leg: Leicester City (Home) 3 - 1 Ilves (Away)
+2nd Leg: Ilves (Home) 0 - 3 Leicester City (Away)
+Leicester City vs Ilves, Winner: Leicester City
+1st Leg: Torino (Home) 2 - 0 OFI Crete (Away)
+2nd Leg: OFI Crete (Home) 1 - 2 Torino (Away)
+Torino vs OFI Crete, Winner: Torino
+1st Leg: Nurnberg (Home) 1 - 1 Motherwell (Away)
+2nd Leg: Motherwell (Home) 2 - 1 Nurnberg (Away)
+Nurnberg vs Motherwell, Winner: Motherwell
+1st Leg: Fortuna Sittard (Home) 2 - 0 Austria Klagenfurt (Away)
+2nd Leg: Austria Klagenfurt (Home) 2 - 1 Fortuna Sittard (Away)
+Fortuna Sittard vs Austria Klagenfurt, Winner: Fortuna Sittard
+1st Leg: Željezničar (Home) 1 - 1 Zilina (Away)
+2nd Leg: Zilina (Home) 0 - 2 Željezničar (Away)
+Željezničar vs Zilina, Winner: Željezničar
+1st Leg: Marseille (Home) 2 - 0 Petrolul Ploiesti (Away)
+2nd Leg: Petrolul Ploiesti (Home) 1 - 3 Marseille (Away)
+Marseille vs Petrolul Ploiesti, Winner: Marseille
+1st Leg: Southampton (Home) 4 - 0 Sassuolo (Away)
+2nd Leg: Sassuolo (Home) 0 - 3 Southampton (Away)
+Southampton vs Sassuolo, Winner: Southampton
+1st Leg: Rijeka (Home) 3 - 3 Sion (Away)
+2nd Leg: Sion (Home) 3 - 3 Rijeka (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Mattersburg 1 - 0 Livingston (Aggregate: 4 - 3)
-Mattersburg vs Livingston, Winner: Mattersburg
-1st Leg: Gil Vicente (Home) 2 - 2 Nottingham Forest (Away)
-2nd Leg: Nottingham Forest (Home) 2 - 1 Gil Vicente (Away)
-Gil Vicente vs Nottingham Forest, Winner: Nottingham Forest
-1st Leg: Lorient (Home) 1 - 1 Mechelen (Away)
-2nd Leg: Mechelen (Home) 2 - 2 Lorient (Away)
+Extra Time: Rijeka 0 - 0 Sion (Aggregate: 6 - 6)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Rijeka 4 - 4 Sion
+Penalties are tied! Sudden death begins!
+Sudden Death: Rijeka 6 - 5 Sion
+Rijeka wins on sudden death penalties!
+Rijeka vs Sion, Winner: Rijeka
+1st Leg: Aston Villa (Home) 4 - 0 Sigma Olomouc (Away)
+2nd Leg: Sigma Olomouc (Home) 1 - 4 Aston Villa (Away)
+Aston Villa vs Sigma Olomouc, Winner: Aston Villa
+1st Leg: Osasuna (Home) 0 - 1 Reims (Away)
+2nd Leg: Reims (Home) 3 - 2 Osasuna (Away)
+Osasuna vs Reims, Winner: Reims
+1st Leg: Debrecen (Home) 1 - 1 Slavia Sofia (Away)
+2nd Leg: Slavia Sofia (Home) 1 - 0 Debrecen (Away)
+Debrecen vs Slavia Sofia, Winner: Slavia Sofia
+1st Leg: Konyaspor (Home) 2 - 3 Boavista (Away)
+2nd Leg: Boavista (Home) 2 - 3 Konyaspor (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Lorient 1 - 0 Mechelen (Aggregate: 4 - 3)
-Lorient vs Mechelen, Winner: Lorient
-1st Leg: Cercle Brugge (Home) 1 - 1 Sassuolo (Away)
-2nd Leg: Sassuolo (Home) 3 - 2 Cercle Brugge (Away)
-Cercle Brugge vs Sassuolo, Winner: Sassuolo
-1st Leg: Kilmarnock (Home) 3 - 1 Valencia (Away)
-2nd Leg: Valencia (Home) 2 - 1 Kilmarnock (Away)
-Kilmarnock vs Valencia, Winner: Kilmarnock
-1st Leg: Montpellier (Home) 2 - 0 Nurnberg (Away)
-2nd Leg: Nurnberg (Home) 1 - 2 Montpellier (Away)
-Montpellier vs Nurnberg, Winner: Montpellier
-1st Leg: Empoli (Home) 4 - 2 Austria Lustenau (Away)
-2nd Leg: Austria Lustenau (Home) 2 - 0 Empoli (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Empoli 1 - 0 Austria Lustenau (Aggregate: 5 - 4)
-Empoli vs Austria Lustenau, Winner: Empoli
-1st Leg: Portimonense (Home) 1 - 0 VfB Stuttgart (Away)
-2nd Leg: VfB Stuttgart (Home) 1 - 2 Portimonense (Away)
-Portimonense vs VfB Stuttgart, Winner: Portimonense
-1st Leg: Osasuna (Home) 3 - 1 Otelul Galati (Away)
-2nd Leg: Otelul Galati (Home) 1 - 0 Osasuna (Away)
-Osasuna vs Otelul Galati, Winner: Osasuna
-1st Leg: Fulham (Home) 3 - 1 RKC Waalwijk (Away)
-2nd Leg: RKC Waalwijk (Home) 1 - 1 Fulham (Away)
-Fulham vs RKC Waalwijk, Winner: Fulham
-1st Leg: Bologna (Home) 1 - 1 CS Mioveni (Away)
-2nd Leg: CS Mioveni (Home) 2 - 3 Bologna (Away)
-Bologna vs CS Mioveni, Winner: Bologna
-1st Leg: Monza (Home) 1 - 3 Rayo Vallecano (Away)
-2nd Leg: Rayo Vallecano (Home) 2 - 2 Monza (Away)
-Monza vs Rayo Vallecano, Winner: Rayo Vallecano
-1st Leg: Girona (Home) 3 - 3 Go Ahead Eagles (Away)
-2nd Leg: Go Ahead Eagles (Home) 0 - 1 Girona (Away)
-Girona vs Go Ahead Eagles, Winner: Girona
-1st Leg: FC Augsburg (Home) 1 - 2 Brighton (Away)
-2nd Leg: Brighton (Home) 3 - 0 FC Augsburg (Away)
-FC Augsburg vs Brighton, Winner: Brighton
-Round 1 Winners: ['Reims', 'Nice', 'Mattersburg', 'Nottingham Forest', 'Lorient', 'Sassuolo', 'Kilmarnock', 'Montpellier', 'Empoli', 'Portimonense', 'Osasuna', 'Fulham', 'Bologna', 'Rayo Vallecano', 'Girona', 'Brighton']
-Round 2 Qualified: ['Fortuna Sittard', 'Vitesse', 'Boavista', 'Rio Ave', 'Charleroi', 'St Mirren', 'WSG Tirol', 'Petrolul Ploiesti', 'Grasshoppers', 'Adana Demirspor', 'Aris Thessaloniki', 'Jablonec', 'Wisla Krakow', 'Spartak Moscow', 'Kolos Kovalivka', 'Cukaricki']
-Teams advancing to Round 2: ['Reims', 'Nice', 'Mattersburg', 'Nottingham Forest', 'Lorient', 'Sassuolo', 'Kilmarnock', 'Montpellier', 'Empoli', 'Portimonense', 'Osasuna', 'Fulham', 'Bologna', 'Rayo Vallecano', 'Girona', 'Brighton', 'Fortuna Sittard', 'Vitesse', 'Boavista', 'Rio Ave', 'Charleroi', 'St Mirren', 'WSG Tirol', 'Petrolul Ploiesti', 'Grasshoppers', 'Adana Demirspor', 'Aris Thessaloniki', 'Jablonec', 'Wisla Krakow', 'Spartak Moscow', 'Kolos Kovalivka', 'Cukaricki']
+Extra Time: Konyaspor 0 - 0 Boavista (Aggregate: 5 - 5)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Konyaspor 4 - 2 Boavista
+Konyaspor wins on penalties!
+Konyaspor vs Boavista, Winner: Konyaspor
+1st Leg: Honvéd Budapest (Home) 1 - 3 Molde (Away)
+2nd Leg: Molde (Home) 3 - 1 Honvéd Budapest (Away)
+Honvéd Budapest vs Molde, Winner: Molde
+1st Leg: Celta Vigo (Home) 3 - 1 FC Augsburg (Away)
+2nd Leg: FC Augsburg (Home) 1 - 0 Celta Vigo (Away)
+Celta Vigo vs FC Augsburg, Winner: Celta Vigo
+Round 1 Winners: ['Djurgården', 'Domžale', 'Leicester City', 'Torino', 'Motherwell', 'Fortuna Sittard', 'Željezničar', 'Marseille', 'Southampton', 'Rijeka', 'Aston Villa', 'Reims', 'Slavia Sofia', 'Konyaspor', 'Molde', 'Celta Vigo']
+Round 2 Qualified: ['Utrecht', 'Vitesse', 'Portimonense', 'Rio Ave', 'Antwerp', 'Livingston', 'Wolfsberger AC', 'U Cluj', 'Lucerne', 'Sivasspor', 'AEK Athens', 'Slovan Liberec', 'Wisla Krakow', 'Krasnodar', 'Kolos Kovalivka', 'Radnicki Nis']
+Teams advancing to Round 2: ['Djurgården', 'Domžale', 'Leicester City', 'Torino', 'Motherwell', 'Fortuna Sittard', 'Željezničar', 'Marseille', 'Southampton', 'Rijeka', 'Aston Villa', 'Reims', 'Slavia Sofia', 'Konyaspor', 'Molde', 'Celta Vigo', 'Utrecht', 'Vitesse', 'Portimonense', 'Rio Ave', 'Antwerp', 'Livingston', 'Wolfsberger AC', 'U Cluj', 'Lucerne', 'Sivasspor', 'AEK Athens', 'Slovan Liberec', 'Wisla Krakow', 'Krasnodar', 'Kolos Kovalivka', 'Radnicki Nis']
 
 Current round: Round 2
-1st Leg: Girona (Home) 1 - 2 Bologna (Away)
-2nd Leg: Bologna (Home) 2 - 2 Girona (Away)
-1st Leg: Jablonec (Home) 0 - 3 Mattersburg (Away)
-2nd Leg: Mattersburg (Home) 1 - 2 Jablonec (Away)
-1st Leg: Osasuna (Home) 2 - 3 Portimonense (Away)
-2nd Leg: Portimonense (Home) 2 - 2 Osasuna (Away)
-1st Leg: Rio Ave (Home) 1 - 2 Lorient (Away)
-2nd Leg: Lorient (Home) 1 - 2 Rio Ave (Away)
+1st Leg: Celta Vigo (Home) 4 - 1 Lucerne (Away)
+2nd Leg: Lucerne (Home) 2 - 3 Celta Vigo (Away)
+1st Leg: Molde (Home) 2 - 0 Slavia Sofia (Away)
+2nd Leg: Slavia Sofia (Home) 2 - 3 Molde (Away)
+1st Leg: Aston Villa (Home) 3 - 1 Domžale (Away)
+2nd Leg: Domžale (Home) 1 - 2 Aston Villa (Away)
+1st Leg: Željezničar (Home) 2 - 2 Konyaspor (Away)
+2nd Leg: Konyaspor (Home) 1 - 1 Željezničar (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Rio Ave 0 - 1 Lorient (Aggregate: 3 - 4)
-1st Leg: Fortuna Sittard (Home) 3 - 1 Petrolul Ploiesti (Away)
-2nd Leg: Petrolul Ploiesti (Home) 3 - 2 Fortuna Sittard (Away)
-1st Leg: Montpellier (Home) 2 - 1 Kilmarnock (Away)
-2nd Leg: Kilmarnock (Home) 2 - 4 Montpellier (Away)
-1st Leg: Kolos Kovalivka (Home) 1 - 2 Fulham (Away)
-2nd Leg: Fulham (Home) 4 - 1 Kolos Kovalivka (Away)
-1st Leg: Cukaricki (Home) 2 - 1 Empoli (Away)
-2nd Leg: Empoli (Home) 2 - 3 Cukaricki (Away)
-1st Leg: Nottingham Forest (Home) 1 - 2 St Mirren (Away)
-2nd Leg: St Mirren (Home) 3 - 0 Nottingham Forest (Away)
-1st Leg: Charleroi (Home) 2 - 1 Rayo Vallecano (Away)
-2nd Leg: Rayo Vallecano (Home) 2 - 2 Charleroi (Away)
-1st Leg: Wisla Krakow (Home) 3 - 2 Reims (Away)
-2nd Leg: Reims (Home) 4 - 2 Wisla Krakow (Away)
-1st Leg: Brighton (Home) 4 - 2 Sassuolo (Away)
-2nd Leg: Sassuolo (Home) 2 - 3 Brighton (Away)
-1st Leg: Boavista (Home) 1 - 4 Adana Demirspor (Away)
-2nd Leg: Adana Demirspor (Home) 2 - 1 Boavista (Away)
-1st Leg: WSG Tirol (Home) 2 - 2 Spartak Moscow (Away)
-2nd Leg: Spartak Moscow (Home) 3 - 1 WSG Tirol (Away)
-1st Leg: Aris Thessaloniki (Home) 2 - 2 Vitesse (Away)
-2nd Leg: Vitesse (Home) 1 - 0 Aris Thessaloniki (Away)
-1st Leg: Nice (Home) 3 - 2 Grasshoppers (Away)
-2nd Leg: Grasshoppers (Home) 3 - 2 Nice (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Nice 1 - 1 Grasshoppers (Aggregate: 6 - 6)
+Extra Time: Željezničar 1 - 1 Konyaspor (Aggregate: 4 - 4)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: Nice 2 - 4 Grasshoppers
-Grasshoppers wins on penalties!
+Penalties: Željezničar 4 - 3 Konyaspor
+Željezničar wins on penalties!
+1st Leg: Portimonense (Home) 1 - 2 Leicester City (Away)
+2nd Leg: Leicester City (Home) 2 - 2 Portimonense (Away)
+1st Leg: Motherwell (Home) 0 - 2 Southampton (Away)
+2nd Leg: Southampton (Home) 3 - 0 Motherwell (Away)
+1st Leg: U Cluj (Home) 2 - 1 Antwerp (Away)
+2nd Leg: Antwerp (Home) 3 - 3 U Cluj (Away)
+1st Leg: Rijeka (Home) 2 - 0 Slovan Liberec (Away)
+2nd Leg: Slovan Liberec (Home) 2 - 1 Rijeka (Away)
+1st Leg: Marseille (Home) 2 - 0 Sivasspor (Away)
+2nd Leg: Sivasspor (Home) 1 - 2 Marseille (Away)
+1st Leg: Wolfsberger AC (Home) 3 - 2 Djurgården (Away)
+2nd Leg: Djurgården (Home) 2 - 2 Wolfsberger AC (Away)
+1st Leg: Radnicki Nis (Home) 1 - 1 Kolos Kovalivka (Away)
+2nd Leg: Kolos Kovalivka (Home) 3 - 0 Radnicki Nis (Away)
+1st Leg: Rio Ave (Home) 4 - 4 Krasnodar (Away)
+2nd Leg: Krasnodar (Home) 1 - 2 Rio Ave (Away)
+1st Leg: Vitesse (Home) 2 - 1 Livingston (Away)
+2nd Leg: Livingston (Home) 2 - 1 Vitesse (Away)
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Vitesse 0 - 1 Livingston (Aggregate: 3 - 4)
+1st Leg: Torino (Home) 4 - 3 AEK Athens (Away)
+2nd Leg: AEK Athens (Home) 4 - 0 Torino (Away)
+1st Leg: Utrecht (Home) 3 - 2 Fortuna Sittard (Away)
+2nd Leg: Fortuna Sittard (Home) 0 - 3 Utrecht (Away)
+1st Leg: Reims (Home) 2 - 1 Wisla Krakow (Away)
+2nd Leg: Wisla Krakow (Home) 4 - 2 Reims (Away)
 
 Current round: Round 3
-1st Leg: St Mirren (Home) 1 - 1 Bologna (Away)
-2nd Leg: Bologna (Home) 2 - 1 St Mirren (Away)
-1st Leg: Montpellier (Home) 1 - 3 Brighton (Away)
-2nd Leg: Brighton (Home) 3 - 2 Montpellier (Away)
-1st Leg: Spartak Moscow (Home) 4 - 1 Fortuna Sittard (Away)
-2nd Leg: Fortuna Sittard (Home) 1 - 2 Spartak Moscow (Away)
-1st Leg: Mattersburg (Home) 2 - 1 Portimonense (Away)
-2nd Leg: Portimonense (Home) 2 - 2 Mattersburg (Away)
-1st Leg: Fulham (Home) 1 - 1 Cukaricki (Away)
-2nd Leg: Cukaricki (Home) 3 - 0 Fulham (Away)
-1st Leg: Grasshoppers (Home) 2 - 2 Reims (Away)
-2nd Leg: Reims (Home) 1 - 2 Grasshoppers (Away)
-1st Leg: Adana Demirspor (Home) 4 - 2 Charleroi (Away)
-2nd Leg: Charleroi (Home) 1 - 2 Adana Demirspor (Away)
-1st Leg: Vitesse (Home) 3 - 3 Lorient (Away)
-2nd Leg: Lorient (Home) 1 - 3 Vitesse (Away)
-
-Current round: Round 4
-1st Leg: Brighton (Home) 1 - 1 Bologna (Away)
-2nd Leg: Bologna (Home) 3 - 2 Brighton (Away)
-1st Leg: Grasshoppers (Home) 0 - 1 Spartak Moscow (Away)
-2nd Leg: Spartak Moscow (Home) 2 - 1 Grasshoppers (Away)
-1st Leg: Vitesse (Home) 2 - 0 Mattersburg (Away)
-2nd Leg: Mattersburg (Home) 1 - 1 Vitesse (Away)
-1st Leg: Cukaricki (Home) 3 - 2 Adana Demirspor (Away)
-2nd Leg: Adana Demirspor (Home) 2 - 0 Cukaricki (Away)
-
-Current round: Round 5
-1st Leg: Spartak Moscow (Home) 2 - 1 Bologna (Away)
-2nd Leg: Bologna (Home) 2 - 0 Spartak Moscow (Away)
-1st Leg: Adana Demirspor (Home) 1 - 1 Vitesse (Away)
-2nd Leg: Vitesse (Home) 0 - 2 Adana Demirspor (Away)
-
-Current round: Final:
-Bologna 1 - 2 Adana Demirspor
-Adana Demirspor won the match!
-
-Winner of Europa Conference League: Adana Demirspor
-Teams starting in Europa Conference League Round 1: ['Brentford', 'Brighton', 'Leicester City', 'Mallorca', 'Espanyol', 'VfL Wolfsburg', 'Fortuna Dusseldorf', 'Lecce', 'Sassuolo', 'Strasbourg', 'Auxerre', 'NEC', 'Gil Vicente', 'Sint-Truiden', 'Livingston', 'Wolfsberger AC', 'Otelul Galati', 'Winterthur', 'Rizespor', 'OFI Crete', 'Jablonec', 'Bodø/Glimt', 'IFK Göteborg', 'Nordsjælland', 'Puskás Akadémia FC', 'Diósgyőri VTK', 'Hajduk Split', 'Levski Sofia', 'Spartak Trnava', 'Koper', 'SJK Seinäjoki', 'Široki Brijeg']
-1st Leg: Winterthur (Home) 3 - 2 Lecce (Away)
-2nd Leg: Lecce (Home) 3 - 1 Winterthur (Away)
-Winterthur vs Lecce, Winner: Lecce
-1st Leg: Puskás Akadémia FC (Home) 2 - 1 Auxerre (Away)
-2nd Leg: Auxerre (Home) 2 - 1 Puskás Akadémia FC (Away)
+1st Leg: Rio Ave (Home) 2 - 2 Livingston (Away)
+2nd Leg: Livingston (Home) 4 - 2 Rio Ave (Away)
+1st Leg: Aston Villa (Home) 4 - 0 U Cluj (Away)
+2nd Leg: U Cluj (Home) 0 - 4 Aston Villa (Away)
+1st Leg: Molde (Home) 1 - 2 Wisla Krakow (Away)
+2nd Leg: Wisla Krakow (Home) 1 - 1 Molde (Away)
+1st Leg: AEK Athens (Home) 4 - 1 Celta Vigo (Away)
+2nd Leg: Celta Vigo (Home) 2 - 3 AEK Athens (Away)
+1st Leg: Željezničar (Home) 2 - 1 Leicester City (Away)
+2nd Leg: Leicester City (Home) 1 - 0 Željezničar (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Puskás Akadémia FC 1 - 0 Auxerre (Aggregate: 4 - 3)
-Puskás Akadémia FC vs Auxerre, Winner: Puskás Akadémia FC
-1st Leg: Mallorca (Home) 1 - 2 Levski Sofia (Away)
-2nd Leg: Levski Sofia (Home) 3 - 0 Mallorca (Away)
-Mallorca vs Levski Sofia, Winner: Levski Sofia
-1st Leg: OFI Crete (Home) 2 - 1 Koper (Away)
-2nd Leg: Koper (Home) 1 - 3 OFI Crete (Away)
-OFI Crete vs Koper, Winner: OFI Crete
-1st Leg: Fortuna Dusseldorf (Home) 0 - 3 Bodø/Glimt (Away)
-2nd Leg: Bodø/Glimt (Home) 3 - 1 Fortuna Dusseldorf (Away)
-Fortuna Dusseldorf vs Bodø/Glimt, Winner: Bodø/Glimt
-1st Leg: Široki Brijeg (Home) 4 - 2 Diósgyőri VTK (Away)
-2nd Leg: Diósgyőri VTK (Home) 0 - 2 Široki Brijeg (Away)
-Široki Brijeg vs Diósgyőri VTK, Winner: Široki Brijeg
-1st Leg: Rizespor (Home) 0 - 1 Espanyol (Away)
-2nd Leg: Espanyol (Home) 3 - 1 Rizespor (Away)
-Rizespor vs Espanyol, Winner: Espanyol
-1st Leg: SJK Seinäjoki (Home) 3 - 2 Brentford (Away)
-2nd Leg: Brentford (Home) 1 - 3 SJK Seinäjoki (Away)
-SJK Seinäjoki vs Brentford, Winner: SJK Seinäjoki
-1st Leg: Nordsjælland (Home) 2 - 1 NEC (Away)
-2nd Leg: NEC (Home) 2 - 3 Nordsjælland (Away)
-Nordsjælland vs NEC, Winner: Nordsjælland
-1st Leg: Sint-Truiden (Home) 1 - 3 IFK Göteborg (Away)
-2nd Leg: IFK Göteborg (Home) 4 - 0 Sint-Truiden (Away)
-Sint-Truiden vs IFK Göteborg, Winner: IFK Göteborg
-1st Leg: Jablonec (Home) 2 - 1 Otelul Galati (Away)
-2nd Leg: Otelul Galati (Home) 2 - 2 Jablonec (Away)
-Jablonec vs Otelul Galati, Winner: Jablonec
-1st Leg: Strasbourg (Home) 3 - 0 Wolfsberger AC (Away)
-2nd Leg: Wolfsberger AC (Home) 3 - 2 Strasbourg (Away)
-Strasbourg vs Wolfsberger AC, Winner: Strasbourg
-1st Leg: Leicester City (Home) 3 - 3 Sassuolo (Away)
-2nd Leg: Sassuolo (Home) 2 - 3 Leicester City (Away)
-Leicester City vs Sassuolo, Winner: Leicester City
-1st Leg: Gil Vicente (Home) 2 - 1 Livingston (Away)
-2nd Leg: Livingston (Home) 3 - 3 Gil Vicente (Away)
-Gil Vicente vs Livingston, Winner: Gil Vicente
-1st Leg: Hajduk Split (Home) 3 - 2 Spartak Trnava (Away)
-2nd Leg: Spartak Trnava (Home) 2 - 3 Hajduk Split (Away)
-Hajduk Split vs Spartak Trnava, Winner: Hajduk Split
-1st Leg: Brighton (Home) 3 - 3 VfL Wolfsburg (Away)
-2nd Leg: VfL Wolfsburg (Home) 2 - 1 Brighton (Away)
-Brighton vs VfL Wolfsburg, Winner: VfL Wolfsburg
-Round 1 Winners: ['Lecce', 'Puskás Akadémia FC', 'Levski Sofia', 'OFI Crete', 'Bodø/Glimt', 'Široki Brijeg', 'Espanyol', 'SJK Seinäjoki', 'Nordsjælland', 'IFK Göteborg', 'Jablonec', 'Strasbourg', 'Leicester City', 'Gil Vicente', 'Hajduk Split', 'VfL Wolfsburg']
-Round 2 Qualified: ['Sparta Rotterdam', 'Vitesse', 'Chaves', 'Portimonense', 'Club Brugge', 'St Mirren', 'WSG Tirol', 'U Cluj', 'St. Gallen', 'Antalyaspor', 'Aris Thessaloniki', 'Banik Ostrava', 'Zaglebie Lubin', 'Dynamo Moscow', 'Metalist Kharkiv', 'Cukaricki']
-Teams advancing to Round 2: ['Lecce', 'Puskás Akadémia FC', 'Levski Sofia', 'OFI Crete', 'Bodø/Glimt', 'Široki Brijeg', 'Espanyol', 'SJK Seinäjoki', 'Nordsjælland', 'IFK Göteborg', 'Jablonec', 'Strasbourg', 'Leicester City', 'Gil Vicente', 'Hajduk Split', 'VfL Wolfsburg', 'Sparta Rotterdam', 'Vitesse', 'Chaves', 'Portimonense', 'Club Brugge', 'St Mirren', 'WSG Tirol', 'U Cluj', 'St. Gallen', 'Antalyaspor', 'Aris Thessaloniki', 'Banik Ostrava', 'Zaglebie Lubin', 'Dynamo Moscow', 'Metalist Kharkiv', 'Cukaricki']
-
-Current round: Round 2
-1st Leg: IFK Göteborg (Home) 2 - 1 Chaves (Away)
-2nd Leg: Chaves (Home) 2 - 2 IFK Göteborg (Away)
-1st Leg: Leicester City (Home) 2 - 1 Sparta Rotterdam (Away)
-2nd Leg: Sparta Rotterdam (Home) 2 - 1 Leicester City (Away)
+Extra Time: Željezničar 1 - 0 Leicester City (Aggregate: 3 - 2)
+1st Leg: Marseille (Home) 3 - 1 Kolos Kovalivka (Away)
+2nd Leg: Kolos Kovalivka (Home) 2 - 3 Marseille (Away)
+1st Leg: Rijeka (Home) 1 - 1 Utrecht (Away)
+2nd Leg: Utrecht (Home) 1 - 1 Rijeka (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Leicester City 0 - 0 Sparta Rotterdam (Aggregate: 3 - 3)
+Extra Time: Rijeka 1 - 1 Utrecht (Aggregate: 3 - 3)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: Leicester City 4 - 3 Sparta Rotterdam
-Leicester City wins on penalties!
-1st Leg: Cukaricki (Home) 2 - 1 Metalist Kharkiv (Away)
-2nd Leg: Metalist Kharkiv (Home) 2 - 3 Cukaricki (Away)
-1st Leg: Antalyaspor (Home) 3 - 1 St Mirren (Away)
-2nd Leg: St Mirren (Home) 1 - 1 Antalyaspor (Away)
-1st Leg: OFI Crete (Home) 3 - 1 Vitesse (Away)
-2nd Leg: Vitesse (Home) 2 - 1 OFI Crete (Away)
-1st Leg: U Cluj (Home) 1 - 3 WSG Tirol (Away)
-2nd Leg: WSG Tirol (Home) 1 - 2 U Cluj (Away)
-1st Leg: Espanyol (Home) 4 - 2 SJK Seinäjoki (Away)
-2nd Leg: SJK Seinäjoki (Home) 2 - 3 Espanyol (Away)
-1st Leg: Jablonec (Home) 2 - 2 Zaglebie Lubin (Away)
-2nd Leg: Zaglebie Lubin (Home) 4 - 3 Jablonec (Away)
-1st Leg: Aris Thessaloniki (Home) 3 - 0 Dynamo Moscow (Away)
-2nd Leg: Dynamo Moscow (Home) 2 - 3 Aris Thessaloniki (Away)
-1st Leg: Levski Sofia (Home) 3 - 0 Puskás Akadémia FC (Away)
-2nd Leg: Puskás Akadémia FC (Home) 1 - 4 Levski Sofia (Away)
-1st Leg: Banik Ostrava (Home) 1 - 1 Nordsjælland (Away)
-2nd Leg: Nordsjælland (Home) 1 - 1 Banik Ostrava (Away)
+Penalties: Rijeka 3 - 4 Utrecht
+Utrecht wins on penalties!
+1st Leg: Southampton (Home) 3 - 0 Wolfsberger AC (Away)
+2nd Leg: Wolfsberger AC (Home) 2 - 2 Southampton (Away)
+
+Current round: Quarter-Final
+1st Leg: Utrecht (Home) 2 - 3 Željezničar (Away)
+2nd Leg: Željezničar (Home) 2 - 0 Utrecht (Away)
+1st Leg: Aston Villa (Home) 2 - 1 Wisla Krakow (Away)
+2nd Leg: Wisla Krakow (Home) 2 - 2 Aston Villa (Away)
+1st Leg: AEK Athens (Home) 4 - 0 Livingston (Away)
+2nd Leg: Livingston (Home) 2 - 1 AEK Athens (Away)
+1st Leg: Marseille (Home) 1 - 0 Southampton (Away)
+2nd Leg: Southampton (Home) 1 - 2 Marseille (Away)
+
+Current round: Semi-Final
+1st Leg: AEK Athens (Home) 2 - 0 Aston Villa (Away)
+2nd Leg: Aston Villa (Home) 5 - 2 AEK Athens (Away)
+1st Leg: Željezničar (Home) 4 - 3 Marseille (Away)
+2nd Leg: Marseille (Home) 3 - 2 Željezničar (Away)
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Banik Ostrava 0 - 0 Nordsjælland (Aggregate: 2 - 2)
+Extra Time: Željezničar 0 - 0 Marseille (Aggregate: 6 - 6)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: Banik Ostrava 4 - 5 Nordsjælland
-Nordsjælland wins on penalties!
-1st Leg: Gil Vicente (Home) 0 - 2 Hajduk Split (Away)
-2nd Leg: Hajduk Split (Home) 1 - 2 Gil Vicente (Away)
-1st Leg: Bodø/Glimt (Home) 2 - 0 VfL Wolfsburg (Away)
-2nd Leg: VfL Wolfsburg (Home) 0 - 2 Bodø/Glimt (Away)
-1st Leg: St. Gallen (Home) 2 - 1 Široki Brijeg (Away)
-2nd Leg: Široki Brijeg (Home) 3 - 0 St. Gallen (Away)
-1st Leg: Club Brugge (Home) 4 - 0 Portimonense (Away)
-2nd Leg: Portimonense (Home) 2 - 5 Club Brugge (Away)
-1st Leg: Lecce (Home) 1 - 2 Strasbourg (Away)
-2nd Leg: Strasbourg (Home) 2 - 2 Lecce (Away)
+Penalties: Željezničar 3 - 3 Marseille
+Penalties are tied! Sudden death begins!
+Sudden Death: Željezničar 4 - 3 Marseille
+Željezničar wins on sudden death penalties!
 
-Current round: Round 3
-1st Leg: Cukaricki (Home) 1 - 1 Espanyol (Away)
-2nd Leg: Espanyol (Home) 0 - 1 Cukaricki (Away)
-1st Leg: Aris Thessaloniki (Home) 1 - 0 IFK Göteborg (Away)
-2nd Leg: IFK Göteborg (Home) 2 - 1 Aris Thessaloniki (Away)
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Aris Thessaloniki 1 - 1 IFK Göteborg (Aggregate: 3 - 3)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Aris Thessaloniki 5 - 4 IFK Göteborg
-Aris Thessaloniki wins on penalties!
-1st Leg: Nordsjælland (Home) 1 - 4 Hajduk Split (Away)
-2nd Leg: Hajduk Split (Home) 3 - 1 Nordsjælland (Away)
-1st Leg: Zaglebie Lubin (Home) 1 - 2 Club Brugge (Away)
-2nd Leg: Club Brugge (Home) 5 - 2 Zaglebie Lubin (Away)
-1st Leg: Bodø/Glimt (Home) 3 - 1 WSG Tirol (Away)
-2nd Leg: WSG Tirol (Home) 1 - 1 Bodø/Glimt (Away)
-1st Leg: Levski Sofia (Home) 2 - 1 Leicester City (Away)
-2nd Leg: Leicester City (Home) 0 - 3 Levski Sofia (Away)
-1st Leg: Strasbourg (Home) 1 - 1 Antalyaspor (Away)
-2nd Leg: Antalyaspor (Home) 2 - 1 Strasbourg (Away)
-1st Leg: OFI Crete (Home) 0 - 0 Široki Brijeg (Away)
-2nd Leg: Široki Brijeg (Home) 3 - 1 OFI Crete (Away)
+Current round: Final
+Aston Villa 1 - 0 Željezničar
+Aston Villa won the match!
 
-Current round: Round 4
-1st Leg: Levski Sofia (Home) 2 - 1 Antalyaspor (Away)
-2nd Leg: Antalyaspor (Home) 1 - 1 Levski Sofia (Away)
-1st Leg: Bodø/Glimt (Home) 0 - 2 Club Brugge (Away)
-2nd Leg: Club Brugge (Home) 2 - 1 Bodø/Glimt (Away)
-1st Leg: Hajduk Split (Home) 1 - 1 Široki Brijeg (Away)
-2nd Leg: Široki Brijeg (Home) 3 - 1 Hajduk Split (Away)
-1st Leg: Cukaricki (Home) 0 - 1 Aris Thessaloniki (Away)
-2nd Leg: Aris Thessaloniki (Home) 3 - 0 Cukaricki (Away)
-
-Current round: Round 5
-1st Leg: Široki Brijeg (Home) 2 - 2 Club Brugge (Away)
-2nd Leg: Club Brugge (Home) 3 - 1 Široki Brijeg (Away)
-1st Leg: Levski Sofia (Home) 2 - 0 Aris Thessaloniki (Away)
-2nd Leg: Aris Thessaloniki (Home) 2 - 2 Levski Sofia (Away)
-
-Current round: Final:
-Club Brugge 3 - 3 Levski Sofia
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Club Brugge 1 - 1 Levski Sofia (Aggregate: 4 - 4)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Club Brugge 5 - 3 Levski Sofia
-Club Brugge wins on penalties!
-
-Winner of Europa Conference League: Club Brugge
+Winner of Europa Conference League: Aston Villa

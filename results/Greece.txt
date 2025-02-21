@@ -1,135 +1,69 @@
 Winner of League: Olympiacos
-1. Olympiacos - 86 points - 28 wins - 2 draws - 0 losses - 91 scored - 19 against - Champions League - Round 2
-2. AEK Athens - 78 points - 25 wins - 3 draws - 2 losses - 88 scored - 36 against - Champions League - Round 1
-3. Panathinaikos - 75 points - 23 wins - 6 draws - 1 losses - 80 scored - 26 against - Champions League - Round 1
-4. PAOK Thessaloniki - 54 points - 16 wins - 6 draws - 8 losses - 66 scored - 37 against - Europa League - Round 2
-5. Aris Thessaloniki - 53 points - 16 wins - 5 draws - 9 losses - 62 scored - 46 against - Europa Conference League - Round 2
-6. OFI Crete - 51 points - 15 wins - 6 draws - 9 losses - 62 scored - 47 against - No qualification
-7. Atromitos - 49 points - 15 wins - 4 draws - 11 losses - 57 scored - 59 against - No qualification
-8. Asteras Tripoli - 40 points - 11 wins - 7 draws - 12 losses - 51 scored - 54 against - No qualification
-9. PAS Giannina - 35 points - 11 wins - 2 draws - 17 losses - 40 scored - 62 against - No qualification
-10. Volos - 34 points - 10 wins - 4 draws - 16 losses - 49 scored - 57 against - No qualification
-11. Lamia - 32 points - 9 wins - 5 draws - 16 losses - 44 scored - 64 against - No qualification
-12. Panetolikos - 30 points - 9 wins - 3 draws - 18 losses - 44 scored - 66 against - No qualification
-13. Xanthi - 24 points - 6 wins - 6 draws - 18 losses - 42 scored - 74 against - No qualification
-14. Ionikos - 21 points - 5 wins - 6 draws - 19 losses - 40 scored - 74 against - No qualification
-15. Larissa - 14 points - 3 wins - 5 draws - 22 losses - 37 scored - 81 against - No qualification
-16. Levadiakos - 7 points - 1 wins - 4 draws - 25 losses - 25 scored - 76 against - No qualification
+1. Olympiacos - 80 points - 26 wins - 2 draws - 2 losses - 88 scored - 16 against - Champions League - Round 2
+2. Panathinaikos - 72 points - 23 wins - 3 draws - 4 losses - 82 scored - 28 against - Champions League - Round 1
+3. Aris Thessaloniki - 64 points - 20 wins - 4 draws - 6 losses - 60 scored - 35 against - Champions League - Round 1
+4. PAOK Thessaloniki - 60 points - 17 wins - 9 draws - 4 losses - 66 scored - 38 against - Europa League - Round 2
+5. AEK Athens - 57 points - 17 wins - 6 draws - 7 losses - 68 scored - 43 against - Europa Conference League - Round 2
+6. OFI Crete - 53 points - 15 wins - 8 draws - 7 losses - 62 scored - 39 against - Europa Conference League - Round 1
+7. Atromitos - 50 points - 15 wins - 5 draws - 10 losses - 53 scored - 48 against - No qualification
+8. Asteras Tripoli - 43 points - 13 wins - 4 draws - 13 losses - 53 scored - 50 against - No qualification
+9. PAS Giannina - 37 points - 12 wins - 1 draws - 17 losses - 44 scored - 60 against - No qualification
+10. Volos - 37 points - 9 wins - 10 draws - 11 losses - 50 scored - 59 against - No qualification
+11. Lamia - 32 points - 9 wins - 5 draws - 16 losses - 44 scored - 68 against - No qualification
+12. Ionikos - 28 points - 7 wins - 7 draws - 16 losses - 49 scored - 68 against - No qualification
+13. Panetolikos - 28 points - 7 wins - 7 draws - 16 losses - 40 scored - 58 against - No qualification
+14. Xanthi - 12 points - 1 wins - 9 draws - 20 losses - 37 scored - 84 against - No qualification
+15. Levadiakos - 11 points - 2 wins - 5 draws - 23 losses - 35 scored - 90 against - No qualification
+16. Larissa - 11 points - 2 wins - 5 draws - 23 losses - 30 scored - 77 against - No qualification
 Teams of Greece Cup: ['Olympiacos', 'Panathinaikos', 'AEK Athens', 'PAOK Thessaloniki', 'Aris Thessaloniki', 'OFI Crete', 'Atromitos', 'Volos', 'Asteras Tripoli', 'Lamia', 'Panetolikos', 'PAS Giannina', 'Ionikos', 'Xanthi', 'Larissa', 'Levadiakos']
 
 Current round: Round 1
-Panathinaikos 1 - 2 AEK Athens
-AEK Athens won the match!
-Asteras Tripoli 2 - 2 Atromitos
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Asteras Tripoli 1 - 1 Atromitos (Aggregate: 3 - 3)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Asteras Tripoli 4 - 3 Atromitos
-Asteras Tripoli wins on penalties!
-Xanthi 2 - 2 Aris Thessaloniki
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Xanthi 0 - 0 Aris Thessaloniki (Aggregate: 2 - 2)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Xanthi 3 - 2 Aris Thessaloniki
-Xanthi wins on penalties!
-PAS Giannina 3 - 2 Ionikos
-PAS Giannina won the match!
-Levadiakos 3 - 3 Panetolikos
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Levadiakos 0 - 0 Panetolikos (Aggregate: 3 - 3)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Levadiakos 4 - 3 Panetolikos
-Levadiakos wins on penalties!
-OFI Crete 3 - 0 Larissa
+Asteras Tripoli 1 - 2 OFI Crete
 OFI Crete won the match!
-Lamia 2 - 3 Volos
-Volos won the match!
-Olympiacos 2 - 2 PAOK Thessaloniki
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Olympiacos 1 - 0 PAOK Thessaloniki (Aggregate: 3 - 2)
-
-Current round: Round 2
-Olympiacos 4 - 0 Asteras Tripoli
-Olympiacos won the match!
-PAS Giannina 2 - 3 AEK Athens
-AEK Athens won the match!
-Xanthi 1 - 3 Volos
-Volos won the match!
-OFI Crete 3 - 2 Levadiakos
-OFI Crete won the match!
-
-Current round: Round 3
-AEK Athens 3 - 2 Olympiacos
-AEK Athens won the match!
-Volos 2 - 2 OFI Crete
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Volos 0 - 1 OFI Crete (Aggregate: 2 - 3)
-
-Current round: Final:
-AEK Athens 2 - 0 OFI Crete
-AEK Athens won the match!
-
-Winner of Greece Cup: AEK Athens
-Winner of League: Olympiacos
-1. Olympiacos - 77 points - 25 wins - 2 draws - 3 losses - 87 scored - 26 against - Champions League - Round 2
-2. AEK Athens - 68 points - 22 wins - 2 draws - 6 losses - 73 scored - 33 against - Champions League - Round 1
-3. Panathinaikos - 68 points - 21 wins - 5 draws - 4 losses - 72 scored - 30 against - Champions League - Round 1
-4. PAOK Thessaloniki - 63 points - 19 wins - 6 draws - 5 losses - 75 scored - 36 against - Europa League - Round 2
-5. Aris Thessaloniki - 57 points - 16 wins - 9 draws - 5 losses - 59 scored - 43 against - Europa Conference League - Round 2
-6. OFI Crete - 54 points - 16 wins - 6 draws - 8 losses - 57 scored - 42 against - Europa Conference League - Round 1
-7. Volos - 42 points - 12 wins - 6 draws - 12 losses - 61 scored - 58 against - No qualification
-8. Asteras Tripoli - 38 points - 10 wins - 8 draws - 12 losses - 50 scored - 54 against - No qualification
-9. Atromitos - 37 points - 10 wins - 7 draws - 13 losses - 49 scored - 62 against - No qualification
-10. PAS Giannina - 34 points - 9 wins - 7 draws - 14 losses - 48 scored - 64 against - No qualification
-11. Lamia - 33 points - 8 wins - 9 draws - 13 losses - 49 scored - 65 against - No qualification
-12. Ionikos - 32 points - 9 wins - 5 draws - 16 losses - 46 scored - 67 against - No qualification
-13. Panetolikos - 26 points - 7 wins - 5 draws - 18 losses - 51 scored - 61 against - No qualification
-14. Larissa - 18 points - 5 wins - 3 draws - 22 losses - 33 scored - 80 against - No qualification
-15. Xanthi - 15 points - 4 wins - 3 draws - 23 losses - 34 scored - 77 against - No qualification
-16. Levadiakos - 15 points - 4 wins - 3 draws - 23 losses - 30 scored - 76 against - No qualification
-Teams of Greece Cup: ['Olympiacos', 'Panathinaikos', 'AEK Athens', 'PAOK Thessaloniki', 'Aris Thessaloniki', 'OFI Crete', 'Atromitos', 'Volos', 'Asteras Tripoli', 'Lamia', 'Panetolikos', 'PAS Giannina', 'Ionikos', 'Xanthi', 'Larissa', 'Levadiakos']
-
-Current round: Round 1
-Levadiakos 2 - 3 Asteras Tripoli
-Asteras Tripoli won the match!
-Ionikos 0 - 2 OFI Crete
-OFI Crete won the match!
-Olympiacos 0 - 2 AEK Athens
-AEK Athens won the match!
-Aris Thessaloniki 3 - 3 Panetolikos
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Aris Thessaloniki 1 - 0 Panetolikos (Aggregate: 4 - 3)
-Lamia 3 - 2 Larissa
+Larissa 3 - 1 Xanthi
+Larissa won the match!
+Lamia 2 - 0 Levadiakos
 Lamia won the match!
-Atromitos 3 - 2 Xanthi
+Panetolikos 0 - 2 Atromitos
 Atromitos won the match!
-Volos 3 - 2 PAS Giannina
-Volos won the match!
-PAOK Thessaloniki 0 - 2 Panathinaikos
-Panathinaikos won the match!
-
-Current round: Round 2
-Lamia 2 - 1 OFI Crete
-Lamia won the match!
-Atromitos 1 - 1 Aris Thessaloniki
+Ionikos 2 - 2 AEK Athens
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Atromitos 1 - 1 Aris Thessaloniki (Aggregate: 2 - 2)
+Extra Time: Ionikos 0 - 0 AEK Athens (Aggregate: 2 - 2)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: Atromitos 5 - 2 Aris Thessaloniki
+Penalties: Ionikos 3 - 3 AEK Athens
+Penalties are tied! Sudden death begins!
+Sudden Death: Ionikos 6 - 5 AEK Athens
+Ionikos wins on sudden death penalties!
+Panathinaikos 2 - 0 PAS Giannina
+Panathinaikos won the match!
+Volos 1 - 2 PAOK Thessaloniki
+PAOK Thessaloniki won the match!
+Olympiacos 3 - 0 Aris Thessaloniki
+Olympiacos won the match!
+
+Current round: Quarter-Final
+PAOK Thessaloniki 4 - 0 Lamia
+PAOK Thessaloniki won the match!
+Larissa 1 - 5 Olympiacos
+Olympiacos won the match!
+Ionikos 2 - 0 OFI Crete
+Ionikos won the match!
+Atromitos 3 - 3 Panathinaikos
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Atromitos 1 - 1 Panathinaikos (Aggregate: 4 - 4)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: Atromitos 4 - 3 Panathinaikos
 Atromitos wins on penalties!
-Volos 2 - 3 Panathinaikos
-Panathinaikos won the match!
-Asteras Tripoli 0 - 2 AEK Athens
-AEK Athens won the match!
 
-Current round: Round 3
-AEK Athens 3 - 2 Lamia
-AEK Athens won the match!
-Panathinaikos 3 - 1 Atromitos
-Panathinaikos won the match!
+Current round: Semi-Final
+Olympiacos 2 - 0 PAOK Thessaloniki
+Olympiacos won the match!
+Ionikos 1 - 1 Atromitos
+Aggregate is tied! Proceeding to extra time...
+Extra Time: Ionikos 0 - 1 Atromitos (Aggregate: 1 - 2)
 
-Current round: Final:
-Panathinaikos 3 - 1 AEK Athens
-Panathinaikos won the match!
+Current round: Final
+Atromitos 1 - 2 Olympiacos
+Olympiacos won the match!
 
-Winner of Greece Cup: Panathinaikos
+Winner of Greece Cup: Olympiacos

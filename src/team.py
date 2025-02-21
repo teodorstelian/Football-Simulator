@@ -1,5 +1,7 @@
 import random
 
+from src import settings
+
 
 class Team:
     def __init__(self, name, country, skill, europe="No Europe",
@@ -54,7 +56,10 @@ class Team:
             return "Draw"
 
     @staticmethod
-    def calculate_goals(skill_level, opponent_skill_level, is_home, base_goals=1.5, home_weight=0.5, skill_weight=15):
+    def calculate_goals(skill_level, opponent_skill_level, is_home,
+                        base_goals=settings.AVG_BASE_GOALS,
+                        home_weight=settings.HOME_WEIGHT,
+                        skill_weight=settings.SKILL_WEIGHT):
         """
         Calculates goals scored based on skill levels, home advantage, and other parameters.
         """

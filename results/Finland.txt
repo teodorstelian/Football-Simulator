@@ -1,121 +1,71 @@
 Winner of League: HJK Helsinki
-1. HJK Helsinki - 85 points - 28 wins - 1 draws - 1 losses - 89 scored - 18 against - Champions League - Round 1
-2. KuPS - 74 points - 24 wins - 2 draws - 4 losses - 89 scored - 28 against - Champions League - Round 1
-3. Ilves - 66 points - 20 wins - 6 draws - 4 losses - 73 scored - 37 against - No qualification
-4. Inter Turku - 65 points - 20 wins - 5 draws - 5 losses - 63 scored - 29 against - No qualification
-5. SJK Seinäjoki - 58 points - 17 wins - 7 draws - 6 losses - 66 scored - 47 against - No qualification
-6. Lahti - 44 points - 12 wins - 8 draws - 10 losses - 51 scored - 51 against - No qualification
-7. Honka - 43 points - 12 wins - 7 draws - 11 losses - 57 scored - 61 against - No qualification
-8. HIFK - 40 points - 11 wins - 7 draws - 12 losses - 60 scored - 58 against - No qualification
-9. TPS - 39 points - 11 wins - 6 draws - 13 losses - 46 scored - 53 against - No qualification
-10. RoPS - 28 points - 7 wins - 7 draws - 16 losses - 42 scored - 65 against - No qualification
-11. Mariehamn - 27 points - 8 wins - 3 draws - 19 losses - 41 scored - 62 against - No qualification
-12. VPS Vaasa - 27 points - 7 wins - 6 draws - 17 losses - 47 scored - 68 against - No qualification
-13. KTP - 23 points - 5 wins - 8 draws - 17 losses - 37 scored - 62 against - No qualification
-14. EIF - 22 points - 5 wins - 7 draws - 18 losses - 42 scored - 76 against - No qualification
-15. Jaro - 21 points - 6 wins - 3 draws - 21 losses - 33 scored - 72 against - No qualification
-16. MP Mikkeli - 15 points - 4 wins - 3 draws - 23 losses - 29 scored - 78 against - No qualification
+1. HJK Helsinki - 85 points - 28 wins - 1 draws - 1 losses - 93 scored - 19 against - Champions League - Round 1
+2. Inter Turku - 77 points - 25 wins - 2 draws - 3 losses - 72 scored - 25 against - Champions League - Round 1
+3. KuPS - 67 points - 21 wins - 4 draws - 5 losses - 69 scored - 26 against - Europa League - Round 1
+4. Ilves - 61 points - 19 wins - 4 draws - 7 losses - 62 scored - 36 against - Europa Conference League - Round 1
+5. SJK Seinäjoki - 53 points - 16 wins - 5 draws - 9 losses - 63 scored - 42 against - No qualification
+6. TPS - 51 points - 15 wins - 6 draws - 9 losses - 56 scored - 51 against - No qualification
+7. Honka - 45 points - 13 wins - 6 draws - 11 losses - 53 scored - 50 against - No qualification
+8. Lahti - 42 points - 12 wins - 6 draws - 12 losses - 54 scored - 53 against - No qualification
+9. HIFK - 35 points - 9 wins - 8 draws - 13 losses - 46 scored - 50 against - No qualification
+10. Jaro - 27 points - 7 wins - 6 draws - 17 losses - 32 scored - 63 against - No qualification
+11. VPS Vaasa - 25 points - 6 wins - 7 draws - 17 losses - 44 scored - 69 against - No qualification
+12. RoPS - 25 points - 5 wins - 10 draws - 15 losses - 40 scored - 63 against - No qualification
+13. Mariehamn - 23 points - 6 wins - 5 draws - 19 losses - 40 scored - 70 against - No qualification
+14. KTP - 23 points - 5 wins - 8 draws - 17 losses - 36 scored - 61 against - No qualification
+15. MP Mikkeli - 20 points - 5 wins - 5 draws - 20 losses - 31 scored - 68 against - No qualification
+16. EIF - 17 points - 4 wins - 5 draws - 21 losses - 28 scored - 73 against - No qualification
 Teams of Finland Cup: ['HJK Helsinki', 'KuPS', 'Inter Turku', 'Ilves', 'SJK Seinäjoki', 'HIFK', 'Honka', 'Lahti', 'TPS', 'Mariehamn', 'KTP', 'VPS Vaasa', 'RoPS', 'EIF', 'Jaro', 'MP Mikkeli']
 
 Current round: Round 1
-RoPS 0 - 2 HJK Helsinki
-HJK Helsinki won the match!
-MP Mikkeli 1 - 2 TPS
-TPS won the match!
-KTP 2 - 1 SJK Seinäjoki
-KTP won the match!
-Ilves 0 - 2 KuPS
-KuPS won the match!
-Jaro 4 - 2 EIF
-Jaro won the match!
-VPS Vaasa 3 - 0 Mariehamn
-VPS Vaasa won the match!
-Inter Turku 5 - 1 Lahti
-Inter Turku won the match!
-HIFK 2 - 1 Honka
-HIFK won the match!
-
-Current round: Round 2
-KuPS 6 - 0 Jaro
-KuPS won the match!
-HJK Helsinki 5 - 1 Inter Turku
-HJK Helsinki won the match!
-VPS Vaasa 1 - 2 KTP
-KTP won the match!
-HIFK 2 - 1 TPS
-HIFK won the match!
-
-Current round: Round 3
-KuPS 2 - 1 HJK Helsinki
-KuPS won the match!
-HIFK 2 - 3 KTP
-KTP won the match!
-
-Current round: Final:
-KuPS 3 - 0 KTP
-KuPS won the match!
-
-Winner of Finland Cup: KuPS
-Winner of League: HJK Helsinki
-1. HJK Helsinki - 84 points - 27 wins - 3 draws - 0 losses - 89 scored - 15 against - Champions League - Round 1
-2. KuPS - 69 points - 21 wins - 6 draws - 3 losses - 67 scored - 33 against - Champions League - Round 1
-3. Inter Turku - 67 points - 21 wins - 4 draws - 5 losses - 69 scored - 38 against - Europa League - Round 1
-4. SJK Seinäjoki - 57 points - 17 wins - 6 draws - 7 losses - 64 scored - 39 against - Europa Conference League - Round 1
-5. Honka - 50 points - 15 wins - 5 draws - 10 losses - 58 scored - 49 against - No qualification
-6. Ilves - 48 points - 14 wins - 6 draws - 10 losses - 57 scored - 47 against - No qualification
-7. KTP - 46 points - 13 wins - 7 draws - 10 losses - 57 scored - 50 against - No qualification
-8. Lahti - 45 points - 12 wins - 9 draws - 9 losses - 45 scored - 49 against - No qualification
-9. HIFK - 43 points - 11 wins - 10 draws - 9 losses - 55 scored - 47 against - No qualification
-10. TPS - 32 points - 9 wins - 5 draws - 16 losses - 46 scored - 64 against - No qualification
-11. Mariehamn - 31 points - 7 wins - 10 draws - 13 losses - 47 scored - 62 against - No qualification
-12. VPS Vaasa - 25 points - 7 wins - 4 draws - 19 losses - 40 scored - 67 against - No qualification
-13. EIF - 25 points - 7 wins - 4 draws - 19 losses - 34 scored - 65 against - No qualification
-14. RoPS - 24 points - 6 wins - 6 draws - 18 losses - 42 scored - 67 against - No qualification
-15. Jaro - 14 points - 2 wins - 8 draws - 20 losses - 39 scored - 70 against - No qualification
-16. MP Mikkeli - 12 points - 3 wins - 3 draws - 24 losses - 32 scored - 79 against - No qualification
-Teams of Finland Cup: ['HJK Helsinki', 'KuPS', 'Inter Turku', 'Ilves', 'SJK Seinäjoki', 'HIFK', 'Honka', 'Lahti', 'TPS', 'Mariehamn', 'KTP', 'VPS Vaasa', 'RoPS', 'EIF', 'Jaro', 'MP Mikkeli']
-
-Current round: Round 1
-KTP 2 - 1 Jaro
-KTP won the match!
-Ilves 3 - 1 Honka
-Ilves won the match!
-MP Mikkeli 0 - 3 Inter Turku
-Inter Turku won the match!
-RoPS 2 - 2 HIFK
+RoPS 1 - 1 Jaro
 Aggregate is tied! Proceeding to extra time...
-Extra Time: RoPS 1 - 0 HIFK (Aggregate: 3 - 2)
-SJK Seinäjoki 2 - 2 TPS
-Aggregate is tied! Proceeding to extra time...
-Extra Time: SJK Seinäjoki 0 - 0 TPS (Aggregate: 2 - 2)
+Extra Time: RoPS 0 - 0 Jaro (Aggregate: 1 - 1)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: SJK Seinäjoki 4 - 3 TPS
+Penalties: RoPS 5 - 3 Jaro
+RoPS wins on penalties!
+VPS Vaasa 3 - 3 Honka
+Aggregate is tied! Proceeding to extra time...
+Extra Time: VPS Vaasa 0 - 1 Honka (Aggregate: 3 - 4)
+KTP 3 - 3 SJK Seinäjoki
+Aggregate is tied! Proceeding to extra time...
+Extra Time: KTP 0 - 0 SJK Seinäjoki (Aggregate: 3 - 3)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: KTP 2 - 4 SJK Seinäjoki
 SJK Seinäjoki wins on penalties!
-VPS Vaasa 1 - 2 KuPS
-KuPS won the match!
-Lahti 3 - 1 Mariehamn
-Lahti won the match!
-EIF 0 - 4 HJK Helsinki
+Mariehamn 3 - 2 MP Mikkeli
+Mariehamn won the match!
+HJK Helsinki 2 - 0 Lahti
 HJK Helsinki won the match!
-
-Current round: Round 2
-RoPS 0 - 2 KuPS
-KuPS won the match!
-Ilves 1 - 4 SJK Seinäjoki
-SJK Seinäjoki won the match!
-HJK Helsinki 4 - 2 KTP
-HJK Helsinki won the match!
-Inter Turku 3 - 0 Lahti
+Ilves 1 - 2 Inter Turku
 Inter Turku won the match!
+EIF 2 - 3 HIFK
+HIFK won the match!
+TPS 0 - 2 KuPS
+KuPS won the match!
 
-Current round: Round 3
-SJK Seinäjoki 3 - 2 Inter Turku
-SJK Seinäjoki won the match!
-HJK Helsinki 2 - 0 KuPS
+Current round: Quarter-Final
+Mariehamn 0 - 3 HJK Helsinki
 HJK Helsinki won the match!
+HIFK 2 - 4 Inter Turku
+Inter Turku won the match!
+KuPS 2 - 0 Honka
+KuPS won the match!
+SJK Seinäjoki 3 - 0 RoPS
+SJK Seinäjoki won the match!
 
-Current round: Final:
-HJK Helsinki 3 - 0 SJK Seinäjoki
+Current round: Semi-Final
+SJK Seinäjoki 2 - 3 HJK Helsinki
+HJK Helsinki won the match!
+KuPS 2 - 2 Inter Turku
+Aggregate is tied! Proceeding to extra time...
+Extra Time: KuPS 0 - 0 Inter Turku (Aggregate: 2 - 2)
+Extra time ends in a draw. Proceeding to penalties!
+Penalties: KuPS 3 - 2 Inter Turku
+KuPS wins on penalties!
+
+Current round: Final
+KuPS 1 - 4 HJK Helsinki
 HJK Helsinki won the match!
 
 Winner of Finland Cup: HJK Helsinki

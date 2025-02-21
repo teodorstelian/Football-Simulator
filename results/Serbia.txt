@@ -1,144 +1,67 @@
 Winner of League: Red Star Belgrade
-1. Red Star Belgrade - 81 points - 26 wins - 3 draws - 1 losses - 88 scored - 26 against - Champions League - Round 2
-2. Vojvodina - 73 points - 24 wins - 1 draws - 5 losses - 81 scored - 34 against - Champions League - Round 1
-3. Partizan Belgrade - 64 points - 20 wins - 4 draws - 6 losses - 79 scored - 41 against - Champions League - Round 1
-4. Radnicki Nis - 59 points - 19 wins - 2 draws - 9 losses - 79 scored - 53 against - Europa League - Round 2
-5. Cukaricki - 58 points - 18 wins - 4 draws - 8 losses - 60 scored - 37 against - Europa Conference League - Round 2
-6. FK Napredak - 53 points - 16 wins - 5 draws - 9 losses - 61 scored - 50 against - No qualification
-7. FK Vozdovac - 47 points - 14 wins - 5 draws - 11 losses - 50 scored - 46 against - No qualification
-8. TSC Backa Topola - 43 points - 11 wins - 10 draws - 9 losses - 55 scored - 45 against - No qualification
-9. Spartak Subotica - 35 points - 8 wins - 11 draws - 11 losses - 56 scored - 60 against - No qualification
-10. Rad Beograd - 33 points - 10 wins - 3 draws - 17 losses - 45 scored - 65 against - No qualification
-11. Javor Ivanjica - 26 points - 6 wins - 8 draws - 16 losses - 45 scored - 72 against - No qualification
-12. Metalac Gornji Milanovac - 23 points - 7 wins - 2 draws - 21 losses - 38 scored - 67 against - No qualification
-13. Proleter Novi Sad - 23 points - 6 wins - 5 draws - 19 losses - 36 scored - 74 against - No qualification
-14. FK Novi Pazar - 22 points - 6 wins - 4 draws - 20 losses - 36 scored - 64 against - No qualification
-15. Sloboda Uzice - 22 points - 5 wins - 7 draws - 18 losses - 40 scored - 68 against - No qualification
-16. FK Kolubara - 19 points - 5 wins - 4 draws - 21 losses - 33 scored - 80 against - No qualification
+1. Red Star Belgrade - 84 points - 28 wins - 0 draws - 2 losses - 85 scored - 20 against - Champions League - Round 2
+2. Partizan Belgrade - 66 points - 19 wins - 9 draws - 2 losses - 75 scored - 29 against - Champions League - Round 1
+3. Cukaricki - 59 points - 17 wins - 8 draws - 5 losses - 72 scored - 46 against - Champions League - Round 1
+4. Vojvodina - 58 points - 16 wins - 10 draws - 4 losses - 68 scored - 32 against - Europa League - Round 2
+5. Radnicki Nis - 52 points - 15 wins - 7 draws - 8 losses - 62 scored - 54 against - Europa Conference League - Round 2
+6. Spartak Subotica - 51 points - 16 wins - 3 draws - 11 losses - 63 scored - 50 against - No qualification
+7. FK Napredak - 49 points - 14 wins - 7 draws - 9 losses - 46 scored - 43 against - No qualification
+8. TSC Backa Topola - 49 points - 13 wins - 10 draws - 7 losses - 57 scored - 38 against - No qualification
+9. FK Novi Pazar - 35 points - 8 wins - 11 draws - 11 losses - 48 scored - 61 against - No qualification
+10. FK Vozdovac - 33 points - 8 wins - 9 draws - 13 losses - 55 scored - 68 against - No qualification
+11. Rad Beograd - 29 points - 8 wins - 5 draws - 17 losses - 45 scored - 59 against - No qualification
+12. Metalac Gornji Milanovac - 23 points - 5 wins - 8 draws - 17 losses - 40 scored - 70 against - No qualification
+13. Javor Ivanjica - 22 points - 6 wins - 4 draws - 20 losses - 38 scored - 70 against - No qualification
+14. Proleter Novi Sad - 21 points - 5 wins - 6 draws - 19 losses - 38 scored - 75 against - No qualification
+15. Sloboda Uzice - 19 points - 4 wins - 7 draws - 19 losses - 33 scored - 70 against - No qualification
+16. FK Kolubara - 15 points - 3 wins - 6 draws - 21 losses - 34 scored - 74 against - No qualification
 Teams of Serbia Cup: ['Red Star Belgrade', 'Partizan Belgrade', 'Vojvodina', 'Cukaricki', 'Radnicki Nis', 'TSC Backa Topola', 'Spartak Subotica', 'FK Napredak', 'FK Vozdovac', 'FK Novi Pazar', 'Javor Ivanjica', 'Rad Beograd', 'Metalac Gornji Milanovac', 'Proleter Novi Sad', 'Sloboda Uzice', 'FK Kolubara']
 
 Current round: Round 1
-Rad Beograd 2 - 2 Proleter Novi Sad
+Sloboda Uzice 1 - 3 Red Star Belgrade
+Red Star Belgrade won the match!
+Vojvodina 4 - 1 FK Novi Pazar
+Vojvodina won the match!
+Rad Beograd 2 - 2 Metalac Gornji Milanovac
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Rad Beograd 1 - 1 Proleter Novi Sad (Aggregate: 3 - 3)
+Extra Time: Rad Beograd 1 - 1 Metalac Gornji Milanovac (Aggregate: 3 - 3)
 Extra time ends in a draw. Proceeding to penalties!
-Penalties: Rad Beograd 3 - 4 Proleter Novi Sad
-Proleter Novi Sad wins on penalties!
-FK Novi Pazar 2 - 2 FK Vozdovac
-Aggregate is tied! Proceeding to extra time...
-Extra Time: FK Novi Pazar 1 - 1 FK Vozdovac (Aggregate: 3 - 3)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: FK Novi Pazar 3 - 3 FK Vozdovac
+Penalties: Rad Beograd 2 - 2 Metalac Gornji Milanovac
 Penalties are tied! Sudden death begins!
-Sudden Death: FK Novi Pazar 6 - 7 FK Vozdovac
-FK Vozdovac wins on sudden death penalties!
-FK Napredak 4 - 0 Metalac Gornji Milanovac
-FK Napredak won the match!
-Cukaricki 2 - 2 Partizan Belgrade
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Cukaricki 1 - 0 Partizan Belgrade (Aggregate: 3 - 2)
-Radnicki Nis 1 - 2 Spartak Subotica
+Sudden Death: Rad Beograd 3 - 2 Metalac Gornji Milanovac
+Rad Beograd wins on sudden death penalties!
+Spartak Subotica 5 - 0 FK Kolubara
 Spartak Subotica won the match!
-TSC Backa Topola 3 - 2 Sloboda Uzice
+FK Vozdovac 1 - 0 FK Napredak
+FK Vozdovac won the match!
+TSC Backa Topola 2 - 1 Proleter Novi Sad
 TSC Backa Topola won the match!
-FK Kolubara 1 - 2 Red Star Belgrade
-Red Star Belgrade won the match!
-Javor Ivanjica 1 - 1 Vojvodina
+Radnicki Nis 2 - 2 Javor Ivanjica
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Javor Ivanjica 0 - 0 Vojvodina (Aggregate: 1 - 1)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Javor Ivanjica 4 - 3 Vojvodina
-Javor Ivanjica wins on penalties!
+Extra Time: Radnicki Nis 0 - 1 Javor Ivanjica (Aggregate: 2 - 3)
+Partizan Belgrade 3 - 0 Cukaricki
+Partizan Belgrade won the match!
 
-Current round: Round 2
-Red Star Belgrade 3 - 1 Proleter Novi Sad
-Red Star Belgrade won the match!
-Spartak Subotica 0 - 3 Cukaricki
-Cukaricki won the match!
-FK Vozdovac 0 - 1 FK Napredak
-FK Napredak won the match!
-Javor Ivanjica 3 - 1 TSC Backa Topola
-Javor Ivanjica won the match!
-
-Current round: Round 3
-Cukaricki 3 - 3 FK Napredak
+Current round: Quarter-Final
+Rad Beograd 3 - 3 Spartak Subotica
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Cukaricki 1 - 1 FK Napredak (Aggregate: 4 - 4)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Cukaricki 4 - 3 FK Napredak
-Cukaricki wins on penalties!
-Red Star Belgrade 1 - 0 Javor Ivanjica
-Red Star Belgrade won the match!
-
-Current round: Final:
-Red Star Belgrade 3 - 2 Cukaricki
-Red Star Belgrade won the match!
-
-Winner of Serbia Cup: Red Star Belgrade
-Winner of League: Red Star Belgrade
-1. Red Star Belgrade - 87 points - 29 wins - 0 draws - 1 losses - 88 scored - 22 against - Champions League - Round 2
-2. Partizan Belgrade - 71 points - 22 wins - 5 draws - 3 losses - 78 scored - 33 against - Champions League - Round 1
-3. Vojvodina - 65 points - 20 wins - 5 draws - 5 losses - 67 scored - 32 against - Champions League - Round 1
-4. TSC Backa Topola - 64 points - 20 wins - 4 draws - 6 losses - 68 scored - 42 against - Europa League - Round 2
-5. Cukaricki - 59 points - 18 wins - 5 draws - 7 losses - 69 scored - 38 against - Europa Conference League - Round 2
-6. Radnicki Nis - 53 points - 16 wins - 5 draws - 9 losses - 63 scored - 43 against - No qualification
-7. Spartak Subotica - 47 points - 14 wins - 5 draws - 11 losses - 55 scored - 52 against - No qualification
-8. FK Vozdovac - 44 points - 12 wins - 8 draws - 10 losses - 46 scored - 47 against - No qualification
-9. FK Novi Pazar - 38 points - 10 wins - 8 draws - 12 losses - 49 scored - 61 against - No qualification
-10. FK Napredak - 29 points - 7 wins - 8 draws - 15 losses - 50 scored - 62 against - No qualification
-11. Rad Beograd - 24 points - 5 wins - 9 draws - 16 losses - 44 scored - 60 against - No qualification
-12. Javor Ivanjica - 22 points - 5 wins - 7 draws - 18 losses - 42 scored - 69 against - No qualification
-13. Sloboda Uzice - 21 points - 5 wins - 6 draws - 19 losses - 35 scored - 79 against - No qualification
-14. Metalac Gornji Milanovac - 21 points - 4 wins - 9 draws - 17 losses - 44 scored - 73 against - No qualification
-15. Proleter Novi Sad - 20 points - 5 wins - 5 draws - 20 losses - 33 scored - 71 against - No qualification
-16. FK Kolubara - 9 points - 2 wins - 3 draws - 25 losses - 33 scored - 80 against - No qualification
-Teams of Serbia Cup: ['Red Star Belgrade', 'Partizan Belgrade', 'Vojvodina', 'Cukaricki', 'Radnicki Nis', 'TSC Backa Topola', 'Spartak Subotica', 'FK Napredak', 'FK Vozdovac', 'FK Novi Pazar', 'Javor Ivanjica', 'Rad Beograd', 'Metalac Gornji Milanovac', 'Proleter Novi Sad', 'Sloboda Uzice', 'FK Kolubara']
-
-Current round: Round 1
-Partizan Belgrade 2 - 2 Spartak Subotica
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Partizan Belgrade 0 - 1 Spartak Subotica (Aggregate: 2 - 3)
-Radnicki Nis 1 - 1 Red Star Belgrade
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Radnicki Nis 0 - 1 Red Star Belgrade (Aggregate: 1 - 2)
-TSC Backa Topola 1 - 0 FK Novi Pazar
+Extra Time: Rad Beograd 1 - 0 Spartak Subotica (Aggregate: 4 - 3)
+Javor Ivanjica 0 - 2 Partizan Belgrade
+Partizan Belgrade won the match!
+FK Vozdovac 1 - 2 TSC Backa Topola
 TSC Backa Topola won the match!
-FK Vozdovac 1 - 1 FK Kolubara
-Aggregate is tied! Proceeding to extra time...
-Extra Time: FK Vozdovac 1 - 0 FK Kolubara (Aggregate: 2 - 1)
-Vojvodina 3 - 0 Javor Ivanjica
-Vojvodina won the match!
-Cukaricki 3 - 0 Proleter Novi Sad
-Cukaricki won the match!
-Rad Beograd 2 - 3 FK Napredak
-FK Napredak won the match!
-Sloboda Uzice 3 - 1 Metalac Gornji Milanovac
-Sloboda Uzice won the match!
-
-Current round: Round 2
-FK Vozdovac 2 - 2 Cukaricki
-Aggregate is tied! Proceeding to extra time...
-Extra Time: FK Vozdovac 1 - 0 Cukaricki (Aggregate: 3 - 2)
-Red Star Belgrade 1 - 0 Spartak Subotica
-Red Star Belgrade won the match!
-Sloboda Uzice 1 - 2 Vojvodina
-Vojvodina won the match!
-FK Napredak 2 - 1 TSC Backa Topola
-FK Napredak won the match!
-
-Current round: Round 3
-Vojvodina 1 - 1 FK Napredak
-Aggregate is tied! Proceeding to extra time...
-Extra Time: Vojvodina 0 - 0 FK Napredak (Aggregate: 1 - 1)
-Extra time ends in a draw. Proceeding to penalties!
-Penalties: Vojvodina 3 - 2 FK Napredak
-Vojvodina wins on penalties!
-Red Star Belgrade 5 - 1 FK Vozdovac
+Red Star Belgrade 2 - 1 Vojvodina
 Red Star Belgrade won the match!
 
-Current round: Final:
-Vojvodina 1 - 1 Red Star Belgrade
+Current round: Semi-Final
+Partizan Belgrade 3 - 3 TSC Backa Topola
 Aggregate is tied! Proceeding to extra time...
-Extra Time: Vojvodina 0 - 1 Red Star Belgrade (Aggregate: 1 - 2)
+Extra Time: Partizan Belgrade 0 - 1 TSC Backa Topola (Aggregate: 3 - 4)
+Red Star Belgrade 4 - 1 Rad Beograd
+Red Star Belgrade won the match!
+
+Current round: Final
+Red Star Belgrade 2 - 1 TSC Backa Topola
+Red Star Belgrade won the match!
 
 Winner of Serbia Cup: Red Star Belgrade
