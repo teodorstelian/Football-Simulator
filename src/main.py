@@ -13,9 +13,10 @@ from database import (
     get_european_competition_stats,
     get_teams_by_skills,
 )
-from leagues import league_simulation, cup_simulation, select_teams_from_league
+from national_leagues import league_simulation, select_teams_from_league
 from src.database import update_european_competition_appereances
-from src.matches import play_european_cup
+from src.european_cups import play_european_cup
+from src.national_cups import cup_simulation
 
 
 class InputHandler:
