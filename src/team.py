@@ -81,7 +81,6 @@ class Team:
 
         def log_message(message):
             """Logs or stores messages."""
-            print(message)
             log_messages.append(message)
 
         def handle_tie_breaking(self_aggregate, opponent_aggregate):

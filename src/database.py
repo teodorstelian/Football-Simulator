@@ -545,7 +545,7 @@ def update_european_competition_appereances(team_name, competition):
     conn.close()
 
 
-def update_european_competition_round_team(team_name, competition, round):
+def update_european_competition_round_team(team_name, competition, cur_round):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
 
@@ -559,34 +559,35 @@ def update_european_competition_round_team(team_name, competition, round):
     row = c.fetchone()
 
     wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, coefficient = row
-    if round == "winner":
+
+    if cur_round == "winner":
         wins += 1
-        coefficient += 15
+        coefficient = round(coefficient + settings.COEF_WIN, 2)
         c.execute(f"UPDATE {competition_table} SET wins=?, coefficient=? WHERE team_name=?",
                   (wins, coefficient, team_name))
-    elif round == "finals":
+    elif cur_round == "finals":
         finals += 1
-        coefficient += 10
+        coefficient = round(coefficient + settings.COEF_FIN, 2)
         c.execute(f"UPDATE {competition_table} SET finals=?, coefficient=? WHERE team_name=?",
                   (finals, coefficient, team_name))
-    elif round == "semi_finals":
+    elif cur_round == "semi_finals":
         semi_finals += 1
-        coefficient += 6
+        coefficient = round(coefficient + settings.COEF_SEM, 2)
         c.execute(f"UPDATE {competition_table} SET semi_finals=?, coefficient=? WHERE team_name=?",
                   (semi_finals, coefficient, team_name))
-    elif round == "quarter_finals":
+    elif cur_round == "quarter_finals":
         quarter_finals += 1
-        coefficient += 3.5
+        coefficient = round(coefficient + settings.COEF_QUA, 2)
         c.execute(f"UPDATE {competition_table} SET quarter_finals=?, coefficient=? WHERE team_name=?",
                   (quarter_finals, coefficient, team_name))
-    elif round == "round_of_16":
+    elif cur_round == "round_of_16":
         round_of_16 += 1
-        coefficient += 1.75
+        coefficient = round(coefficient + settings.COEF_R16, 2)
         c.execute(f"UPDATE {competition_table} SET round_of_16=?, coefficient=? WHERE team_name=?",
                   (round_of_16, coefficient, team_name))
-    elif round == "round_of_32":
+    elif cur_round == "round_of_32":
         round_of_32 += 1
-        coefficient += 0.6
+        coefficient = round(coefficient + settings.COEF_R32, 2)
         c.execute(f"UPDATE {competition_table} SET round_of_32=?, coefficient=? WHERE team_name=?",
                   (round_of_32, coefficient, team_name))
 
@@ -628,3 +629,29 @@ def get_european_competition_stats(competition):
 
     return stats
 
+
+def get_team_coefficients(teams, competition):
+    """
+    Fetch coefficients for the given teams from the European competition table.
+
+    :param teams: A list of Team objects.
+    :param competition: The name of the European competition.
+    :return: A dictionary mapping team names to their coefficients.
+    """
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+
+    competition_table = competition.replace(" ", "")
+
+    # Initialize a mapping of team coefficients
+    team_coefficients = {}
+
+    for team in teams:
+        query = f"SELECT coefficient FROM {competition_table} WHERE team_name = ?"
+        c.execute(query, (team.name,))
+        row = c.fetchone()
+        # If the team is not found, assume coefficient is 0
+        team_coefficients[team.name] = row[0] if row else 0
+
+    conn.close()
+    return team_coefficients

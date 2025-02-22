@@ -4,7 +4,7 @@ from pathlib import Path
 
 import settings
 from src.database import update_european_competition_round_team, update_team, \
-    update_team_parameter, update_general_table_european_spots
+    update_team_parameter, update_general_table_european_spots, get_team_coefficients
 
 
 def play_country_cup(teams, country):
@@ -19,14 +19,14 @@ def play_country_cup(teams, country):
     competition_text = Path(f"{settings.RESULTS_FOLDER}/{country}.txt")
     competition_text.touch(exist_ok=True)
     teams_name = [team.name for team in teams]
-    print(teams_name)
+
     with open(competition_text, 'a', encoding="utf-8") as file:
         file.write(f"Teams of {country} Cup: {teams_name}\n")
 
     # Generate fixtures and determine the winner (single-legged matches for country cups)
     winner_obj = generate_fixtures_cup(teams, country, has_2_legs=False, logging=True)
     winner_name = winner_obj.name
-    print("Overall Winner:", winner_name)
+    print(f"Winner of {country} Cup:", winner_name)
 
     # Log the winner
     with open(competition_text, 'a', encoding="utf-8") as file:
@@ -76,7 +76,6 @@ def play_european_cup(teams, competition):
 
     # If there are Round 1 teams, play a single round of knockout from Round 1
     if round_1_teams:
-        print("Starting Round 1...")
         round_1_winners = generate_single_round(round_1_teams, competition, has_2_legs=True, logging=True, eur_round=stages["Round 1"]["db_name"])
     else:
         round_1_winners = []
@@ -93,9 +92,6 @@ def play_european_cup(teams, competition):
     with open(competition_text, 'a',  encoding="utf-8") as file:
         file.write(f"Teams advancing to Round 2: {[team.name for team in remaining_teams]}\n")
 
-    # Simulate the rest of the tournament
-    print("Starting Main Knockout Rounds...")
-
     for stage_name, stage_info in stages.items():
         if stage_name in ["Round 1"]:
             continue
@@ -105,7 +101,6 @@ def play_european_cup(teams, competition):
             raise ValueError(
                 f"Invalid team count for '{stage_name}'. Expected {current_teams}, but got {len(remaining_teams)}.")
 
-        print(f"Starting {stage_name}...")
         if stage_name == "Final":
             final_winner = generate_single_round(remaining_teams, competition, has_2_legs=False, logging=True, eur_round=stages[stage_name]["db_name"])[0]
         else:
@@ -113,7 +108,7 @@ def play_european_cup(teams, competition):
 
     # Log the overall winner
     winner_name = final_winner.name
-    print("Overall Winner:", winner_name)
+    print(f"Winner of {competition}:", winner_name)
     with open(competition_text, 'a',  encoding="utf-8") as file:
         file.write(f"\nWinner of {competition}: {winner_name}\n")
     winners_file = Path(f"{settings.RESULTS_FOLDER}/{settings.WINNERS_TEXT}")
@@ -148,24 +143,27 @@ def generate_single_round(teams, competition, has_2_legs=False, logging=False, e
         competition_text.touch(exist_ok=True)
 
     next_round = []
-    random.shuffle(teams)  # Shuffle the teams ONCE before creating matches
-    played_teams = set()  # Track teams that have already played in this round
+
+    # Fetch coefficients for all teams
+    team_coefficients = get_team_coefficients(teams, competition)
+
+    # Sort teams by coefficients (descending) and by skill (descending)
+    teams.sort(key=lambda team: (team_coefficients[team.name], team.skill), reverse=True)
+
+    # Write the sorted teams and their coefficients to the log file
+    if logging:
+        with open(competition_text, 'a', encoding="utf-8") as log_file:
+            log_file.write(f"--- Teams Sorted by Coefficients and Skill for {competition} ---\n")
+            for idx, team in enumerate(teams, start=1):
+                coef = team_coefficients.get(team.name, 0)
+                log_file.write(f"{idx}. {team.name} (Coefficient: {coef}, Skill: {team.skill})\n")
+            log_file.write("---------------------------------------------------\n")
 
     while teams:  # Continue until all teams are paired
-        home = teams.pop(0)  # Pick the first team
-        for away_index, away in enumerate(teams):
-            # Ensure the pair (home vs away) hasn't already played or mismatched
-            if home not in played_teams and away not in played_teams:
-                played_teams.add(home)
-                played_teams.add(away)
-                # Remove the away team from the pool
-                teams.pop(away_index)
-                break  # Stop looking for opponents after making a pair
-        else:
-            # If no valid opponent is found, something went wrong
-            raise Exception(f"Could not find an opponent for {home.name}.")
+        home = teams.pop(0)  # Best remaining team
+        away = teams.pop(-1)  # Worst remaining team
 
-        # Simulate the match
+        # Play the match
         winner = home.play_match(away, knockouts=True, has_2_legs=has_2_legs,
                                  file=competition_text if logging else None)
         if eur_round:
@@ -218,7 +216,6 @@ def generate_fixtures_cup(teams, competition, has_2_legs=False, prev_rounds=0, l
 
         round_name = get_round_name(len(current_participants)) or f"Round {round_num + prev_rounds + 1}"
 
-        print(round_name)
         if logging:
             with open(competition_text, 'a',  encoding="utf-8") as log_file:
                 log_file.write(f"\nCurrent round: {round_name}\n")
@@ -274,7 +271,6 @@ def play_fixture_league(teams):
     fixtures = generate_fixtures_league(teams)
 
     for _, round_fixtures in enumerate(fixtures):
-        print(f"Round {_ + 1}:")
         for home, away in round_fixtures:
             home.play_match(away)
 
@@ -283,7 +279,6 @@ def play_fixture_league(teams):
 
 
 def generate_standings(teams, league, europe):
-    print("--- Final Standings ---")
 
     # Sort teams based on points, wins, and goals scored (descending order)
     teams.sort(key=lambda x: (x.current['points'], x.current['wins'], x.current['scored']), reverse=True)
@@ -299,6 +294,9 @@ def generate_standings(teams, league, europe):
     # Prepare the league results file
     league_text = Path(f"{settings.RESULTS_FOLDER}/{league}.txt")
     league_text.touch(exist_ok=True)
+
+    with open(league_text, 'a', encoding="utf-8") as file:
+        file.write(f"--- Final Standings ---")
 
     for i, team in enumerate(teams):
         if i == 0:
@@ -340,9 +338,5 @@ def generate_standings(teams, league, europe):
                 f"{i + 1}. {team.name} - {current_team['points']} points - {current_team['wins']} wins - "
                 f"{current_team['draws']} draws - {current_team['losses']} losses"
                 f" - {current_team['scored']} scored - {current_team['against']} against - {team.europe}\n")
-        print(
-            f"{i + 1}. {team.name} - {current_team['points']} points - {current_team['wins']} wins - "
-            f"{current_team['draws']} draws - {current_team['losses']} losses"
-            f" - {current_team['scored']} scored - {current_team['against']} against - {team.europe}")
 
     return teams
