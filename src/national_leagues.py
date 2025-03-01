@@ -90,12 +90,17 @@ def generate_standings(teams, league, europe):
     teams.sort(key=lambda x: (x.current['points'], x.current['wins'], x.current['scored']), reverse=True)
 
     # Extract the number of European qualification spots from the `europe` parameter
-    cl_places_r1 = europe["UCL"][0]
-    cl_places_r2 = europe["UCL"][1]
-    el_places_r1 = europe["UEL"][0]
-    el_places_r2 = europe["UEL"][1]
-    ecl_places_r1 = europe["UECL"][0]
-    ecl_places_r2 = europe["UECL"][1]
+    cl_places_lp = europe["UCL"][0]
+    cl_places_q2 = europe["UCL"][1]
+    cl_places_q1 = europe["UCL"][2]
+
+    el_places_lp = europe["UEL"][0]
+    el_places_q2 = europe["UEL"][1]
+    el_places_q1 = europe["UEL"][2]
+
+    ecl_places_lp = europe["UECL"][0]
+    ecl_places_q2 = europe["UECL"][1]
+    ecl_places_q1 = europe["UECL"][2]
 
     # Prepare the league results file
     league_text = Path(f"{settings.RESULTS_FOLDER}/{league}.txt")
@@ -122,21 +127,29 @@ def generate_standings(teams, league, europe):
             team.third_place += 1
             update_team(team, league)
 
-        # Assign European Competition Qualifications
-        if i < cl_places_r1:
-            team.europe = f"{settings.UCL} - Round 2"
-        elif i < cl_places_r1 + cl_places_r2:
-            team.europe = f"{settings.UCL} - Round 1"
-        elif i < cl_places_r1 + cl_places_r2 + el_places_r1:
-            team.europe = f"{settings.UEL} - Round 2"
-        elif i < cl_places_r1 + cl_places_r2 + el_places_r1 + el_places_r2:
-            team.europe = f"{settings.UEL} - Round 1"
-        elif i < cl_places_r1 + cl_places_r2 + el_places_r1 + el_places_r2 + ecl_places_r1:
-            team.europe = f"{settings.UECL} - Round 2"
-        elif i <  cl_places_r1 + cl_places_r2 + el_places_r1 + el_places_r2 + ecl_places_r1 + ecl_places_r2:
-            team.europe = f"{settings.UECL} - Round 1"
+        # Define stages with the corresponding number of places
+        europe_stages = [
+            (cl_places_lp, f"{settings.UCL} - League Phase"),
+            (cl_places_q2, f"{settings.UCL} - Round 2"),
+            (cl_places_q1, f"{settings.UCL} - Round 1"),
+            (el_places_lp, f"{settings.UEL} - League Phase"),
+            (el_places_q2, f"{settings.UEL} - Round 2"),
+            (el_places_q1, f"{settings.UEL} - Round 1"),
+            (ecl_places_lp, f"{settings.UECL} - League Phase"),
+            (ecl_places_q2, f"{settings.UECL} - Round 2"),
+            (ecl_places_q1, f"{settings.UECL} - Round 1"),
+        ]
+
+        # Use a running total to avoid repetitive sums
+        threshold = 0
+        for places, stage in europe_stages:
+            threshold += places
+            if i < threshold:
+                team.europe = stage
+                break
         else:
             team.europe = "No qualification"
+
         update_general_table_european_spots(team)
         current_team = team.current
         with open(league_text, 'a', encoding="utf-8") as file:

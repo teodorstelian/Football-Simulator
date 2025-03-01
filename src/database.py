@@ -507,16 +507,19 @@ def create_european_competitions_table(competition):
     competition_table = competition.replace(" ", "")
 
     query = f'''CREATE TABLE IF NOT EXISTS {competition_table} (
-           team_name TEXT,
-           appearances INTEGER DEFAULT 0,
-           round_of_32 INTEGER DEFAULT 0,
-           round_of_16 INTEGER DEFAULT 0,
-           quarter_finals INTEGER DEFAULT 0,
-           semi_finals INTEGER DEFAULT 0,
-           finals INTEGER DEFAULT 0,
-           wins INTEGER DEFAULT 0,
-           coefficient REAL DEFAULT 0
-       )'''
+            team_name TEXT,
+            appearances INTEGER DEFAULT 0,
+            qual_round_1 INTEGER DEFAULT 0,
+            qual_round_2 INTEGER DEFAULT 0,
+            league_phase INTEGER DEFAULT 0,
+            round_of_32 INTEGER DEFAULT 0,
+            round_of_16 INTEGER DEFAULT 0,
+            quarter_finals INTEGER DEFAULT 0,
+            semi_finals INTEGER DEFAULT 0,
+            finals INTEGER DEFAULT 0,
+            wins INTEGER DEFAULT 0,
+            coefficient REAL DEFAULT 0
+        )'''
     c.execute(query)
     conn.commit()
     conn.close()
@@ -534,8 +537,9 @@ def update_european_competition_appereances(team_name, competition):
 
     if row is None:  # Insert new row if the team doesn't exist
         appearances = 1
-        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?,?,?, ?, ?, ?, ?)", (team_name, appearances, 0, 0, 0, 0, 0,0, 0))
-    else:  # Update appearances and wins if the team already exists
+        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                  (team_name, appearances, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+    else:  # Update appearances if the team already exists
         appearances = row[0]
         appearances += 1
         c.execute(f"UPDATE {competition_table} SET appearances=? WHERE team_name=?",
@@ -554,42 +558,57 @@ def update_european_competition_round_team(team_name, competition, cur_round):
 
     # Check if the team already exists in the table
     c.execute(
-        f"SELECT wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, coefficient FROM {competition_table} WHERE team_name=?",
+        f"SELECT wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, league_phase, qual_round_2, qual_round_1, coefficient FROM {competition_table} WHERE team_name=?",
         (team_name,))
     row = c.fetchone()
 
-    wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, coefficient = row
+    wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, league_phase, qual_round_2, qual_round_1, coefficient = row
 
-    if cur_round == "winner":
-        wins += 1
-        coefficient = round(coefficient + settings.COEF_WIN, 2)
-        c.execute(f"UPDATE {competition_table} SET wins=?, coefficient=? WHERE team_name=?",
-                  (wins, coefficient, team_name))
-    elif cur_round == "finals":
-        finals += 1
-        coefficient = round(coefficient + settings.COEF_FIN, 2)
-        c.execute(f"UPDATE {competition_table} SET finals=?, coefficient=? WHERE team_name=?",
-                  (finals, coefficient, team_name))
-    elif cur_round == "semi_finals":
-        semi_finals += 1
-        coefficient = round(coefficient + settings.COEF_SEM, 2)
-        c.execute(f"UPDATE {competition_table} SET semi_finals=?, coefficient=? WHERE team_name=?",
-                  (semi_finals, coefficient, team_name))
-    elif cur_round == "quarter_finals":
-        quarter_finals += 1
-        coefficient = round(coefficient + settings.COEF_QUA, 2)
-        c.execute(f"UPDATE {competition_table} SET quarter_finals=?, coefficient=? WHERE team_name=?",
-                  (quarter_finals, coefficient, team_name))
-    elif cur_round == "round_of_16":
-        round_of_16 += 1
-        coefficient = round(coefficient + settings.COEF_R16, 2)
-        c.execute(f"UPDATE {competition_table} SET round_of_16=?, coefficient=? WHERE team_name=?",
-                  (round_of_16, coefficient, team_name))
+    if cur_round == "qual_round_1":
+        qual_round_1 += 1
+        coefficient = round(coefficient + settings.COEF_QR1, 2)
+        c.execute(f"UPDATE {competition_table} SET qual_round_1=?, coefficient=? WHERE team_name=?",
+                  (qual_round_1, coefficient, team_name))
+    elif cur_round == "qual_round_2":
+        qual_round_2 += 1
+        coefficient = round(coefficient + settings.COEF_QR2, 2)
+        c.execute(f"UPDATE {competition_table} SET qual_round_2=?, coefficient=? WHERE team_name=?",
+                  (qual_round_2, coefficient, team_name))
+    elif cur_round == "league_phase":
+        league_phase += 1
+        coefficient = round(coefficient + settings.COEF_LGP, 2)  # COEF_LGP for league phase points
+        c.execute(f"UPDATE {competition_table} SET league_phase=?, coefficient=? WHERE team_name=?",
+                  (league_phase, coefficient, team_name))
     elif cur_round == "round_of_32":
         round_of_32 += 1
         coefficient = round(coefficient + settings.COEF_R32, 2)
         c.execute(f"UPDATE {competition_table} SET round_of_32=?, coefficient=? WHERE team_name=?",
                   (round_of_32, coefficient, team_name))
+    elif cur_round == "round_of_16":
+        round_of_16 += 1
+        coefficient = round(coefficient + settings.COEF_R16, 2)
+        c.execute(f"UPDATE {competition_table} SET round_of_16=?, coefficient=? WHERE team_name=?",
+                  (round_of_16, coefficient, team_name))
+    elif cur_round == "quarter_finals":
+        quarter_finals += 1
+        coefficient = round(coefficient + settings.COEF_QUA, 2)
+        c.execute(f"UPDATE {competition_table} SET quarter_finals=?, coefficient=? WHERE team_name=?",
+                  (quarter_finals, coefficient, team_name))
+    elif cur_round == "semi_finals":
+        semi_finals += 1
+        coefficient = round(coefficient + settings.COEF_SEM, 2)
+        c.execute(f"UPDATE {competition_table} SET semi_finals=?, coefficient=? WHERE team_name=?",
+                  (semi_finals, coefficient, team_name))
+    elif cur_round == "finals":
+        finals += 1
+        coefficient = round(coefficient + settings.COEF_FIN, 2)
+        c.execute(f"UPDATE {competition_table} SET finals=?, coefficient=? WHERE team_name=?",
+                  (finals, coefficient, team_name))
+    elif cur_round == "winner":
+        wins += 1
+        coefficient = round(coefficient + settings.COEF_WIN, 2)
+        c.execute(f"UPDATE {competition_table} SET wins=?, coefficient=? WHERE team_name=?",
+                  (wins, coefficient, team_name))
 
     conn.commit()
     conn.close()
@@ -602,11 +621,12 @@ def get_european_competition_stats(competition):
     competition_table = competition.replace(" ", "")
 
     query = f"""
-        SELECT team_name, appearances, round_of_32, round_of_16, quarter_finals,
+        SELECT team_name, appearances, qual_round_1, qual_round_2, league_phase, round_of_32, round_of_16, quarter_finals,
                semi_finals, finals, wins, coefficient
         FROM {competition_table}
         ORDER BY coefficient DESC, wins DESC, finals DESC, semi_finals DESC, quarter_finals DESC,
-                 round_of_16 DESC, round_of_32 DESC, appearances DESC, team_name ASC
+                 round_of_16 DESC, round_of_32 DESC, league_phase DESC, qual_round_2 DESC,
+                 qual_round_1 DESC, appearances DESC, team_name ASC
         LIMIT 25
     """
     c.execute(query)
@@ -616,9 +636,12 @@ def get_european_competition_stats(competition):
     # Display the results with rankings
     print(f"--- {competition} Stats (Ordered by Wins, Coefficients, and Other Metrics) ---")
     for rank, team in enumerate(stats, start=1):
-        team_name, appearances, round_of_32, round_of_16, quarter_finals, semi_finals, finals, wins, coefficient = team
+        team_name, appearances, qual_round_1, qual_round_2, league_phase, round_of_32, round_of_16, quarter_finals, semi_finals, finals, wins, coefficient = team
         print(f"{rank}. {team_name}:\n"
               f"   Total Appearances: {appearances}, "
+              f"Qualifying Round 1: {qual_round_1}, "
+              f"Qualifying Round 2: {qual_round_2}, "
+              f"League Phase: {league_phase}, "
               f"Round of 32: {round_of_32}, "
               f"Round of 16: {round_of_16}, "
               f"Quarter-Finals: {quarter_finals}, "
@@ -628,6 +651,7 @@ def get_european_competition_stats(competition):
               f"Coefficient: {coefficient}\n")
 
     return stats
+
 
 
 def get_team_coefficients(teams, competition):

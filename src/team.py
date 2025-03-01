@@ -68,7 +68,7 @@ class Team:
         max_goals = max(0, random.gauss(base_goals + skill_diff + home_advantage, 1))
         return round(max_goals)
 
-    def play_match(self, opponent, knockouts=False, has_2_legs=False, file=None):
+    def play_match(self, opponent, knockouts=False, has_2_legs=False, file=None, return_all_info=None):
         """
         Simulates a match or a two-legged tie.
         :param opponent: The opposing team.
@@ -206,7 +206,10 @@ class Team:
             with open(file, 'a',  encoding="utf-8") as f:
                 f.write('\n'.join(log_messages) + '\n')
 
-        return winner
+        if return_all_info:
+            return self.name, opponent.name, scored, conceded
+        else:
+            return winner
 
     def update_current(self):
         """Updates current season's statistics into cumulative stats."""

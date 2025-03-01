@@ -78,7 +78,7 @@ class CupSimulator:
 class EuropeanCupSimulator:
     @classmethod
     def simulate_european_cup(cls, competition):
-        teams = get_teams(european_cup=competition, rounds=["Round 1", "Round 2"])
+        teams = get_teams(european_cup=competition, rounds=["Round 1", "Round 2", "League Phase"])
         for team in teams:
             update_european_competition_appereances(team.name, competition)
         return play_european_cup(teams, competition)
