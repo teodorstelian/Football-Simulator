@@ -470,10 +470,11 @@ def check_team_stats(team, league):
     if general and league:
         # Access the column values from General table
         (gen_name, country, skill, league_titles, cup_titles, ucl, uel, uecl, europe) = general
-        # Access the column values from League table
+
+        # Access the column values from League table (now includes division)
         (
             league_name, skill, matches_played, wins, draws, losses, points, goals_scored, goals_against,
-            first_place, second_place, third_place, cup_finals, cup_wins
+            first_place, second_place, third_place, cup_finals, cup_wins, division
         ) = league
 
         # Print the values
@@ -481,6 +482,7 @@ def check_team_stats(team, league):
         print(f"Name: {gen_name}")
         print(f"Country: {country}")
         print(f"Skill: {skill}")
+        print(f"Division: {division}")
         print(f"Matches Played: {matches_played}")
         print(f"Wins: {wins}")
         print(f"Draws: {draws}")
@@ -504,6 +506,7 @@ def check_team_stats(team, league):
     # Close the connection
     c.close()
     conn.close()
+
 
 def create_european_competitions_table(competition):
     conn = sqlite3.connect(COMPETITIONS_DB)

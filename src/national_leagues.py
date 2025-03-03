@@ -41,7 +41,7 @@ def league_simulation(league, teams, europe, max_teams_in_first_division=12):
     # Step 2: Split teams into divisions
     divisions = {}
     division_number = 1
-    original_teams = teams
+
     while teams:
         divisions[division_number] = teams[:max_teams_in_first_division]
         teams = teams[max_teams_in_first_division:]  # Remove teams added to this division
@@ -66,7 +66,7 @@ def league_simulation(league, teams, europe, max_teams_in_first_division=12):
         all_teams_objects.extend(division_team_objects)
 
     # Step 4: Update teams in the database
-    for team in original_teams:
+    for team in all_teams_objects:
         update_team(team, league)  # Update team data in the database
 
     return all_teams_objects
@@ -192,6 +192,7 @@ def generate_standings(teams, league, europe, division):
             else:
                 team.europe = "No qualification"
 
+            team.division = division
             update_general_table_european_spots(team)
             current_team = team.current
             with open(league_text, 'a', encoding="utf-8") as file:
@@ -212,6 +213,7 @@ def generate_standings(teams, league, europe, division):
                     winners.write(f"Winner of {league} - Division {division}: {team.name}\n")
 
             team.europe = "No qualification"
+            team.division = division
 
             update_general_table_european_spots(team)
             current_team = team.current
