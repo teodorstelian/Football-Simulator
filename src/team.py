@@ -6,7 +6,7 @@ from src import settings
 class Team:
     def __init__(self, name, country, skill, europe="No Europe",
                  matches=0, wins=0, draws=0, losses=0, points=0, scored=0, against=0,
-                 first_place=0, second_place=0, third_place=0, cup_finals=0, cup_wins=0):
+                 first_place=0, second_place=0, third_place=0, cup_finals=0, cup_wins=0, division=1):
         self.name = name
         self.country = country
         self.skill = skill
@@ -24,6 +24,8 @@ class Team:
         self.third_place = third_place
         self.cup_finals = cup_finals
         self.cup_wins = cup_wins
+
+        self.division = division
 
         self.current = {
             "points": 0,
@@ -68,7 +70,7 @@ class Team:
         max_goals = max(0, random.gauss(base_goals + skill_diff + home_advantage, 1))
         return round(max_goals)
 
-    def play_match(self, opponent, knockouts=False, has_2_legs=False, file=None):
+    def play_match(self, opponent, knockouts=False, has_2_legs=False, file=None, return_all_info=None):
         """
         Simulates a match or a two-legged tie.
         :param opponent: The opposing team.
@@ -81,7 +83,6 @@ class Team:
 
         def log_message(message):
             """Logs or stores messages."""
-            print(message)
             log_messages.append(message)
 
         def handle_tie_breaking(self_aggregate, opponent_aggregate):
@@ -207,7 +208,10 @@ class Team:
             with open(file, 'a',  encoding="utf-8") as f:
                 f.write('\n'.join(log_messages) + '\n')
 
-        return winner
+        if return_all_info:
+            return self.name, opponent.name, scored, conceded
+        else:
+            return winner
 
     def update_current(self):
         """Updates current season's statistics into cumulative stats."""

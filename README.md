@@ -1,5 +1,4 @@
 # Football Simulator
-====================================
 
 A **Python-based football simulation program** that lets you explore different outcomes for professional football leagues, cups, and European tournaments. Perfect for football enthusiasts who love to simulate, analyze, or create alternative football histories!
 
@@ -12,8 +11,8 @@ A **Python-based football simulation program** that lets you explore different o
 
 ## Features
 ### ✅ General Features:
-- Simulate games based on team skills, league standings, and competition rules.
-- Supports simulation of **29 top European leagues**
+- Simulate games based on team skills, league standings, coefficients, and competition rules.
+- Supports **all European leagues**, and for some countries, even **second divisions**.
 
 ### ⚽ League Features:
 - Simulate full **league seasons** for all supported leagues.
@@ -21,36 +20,46 @@ A **Python-based football simulation program** that lets you explore different o
 
 ### 🏆 Cup Features:
 - Simulate **national football cups** for each of the supported countries.
-- National cups include the **top 16 teams** from the respective leagues.
+- National cups include more participants (e.g., top teams from multiple divisions).
 
 ### 🌍 European Competitions:
-- Simulate European tournaments in a Knockout style:
+- Simulate **European tournaments** in a more realistic structure:
+  - Expanded tournaments include **League Phase, Knockouts, and 2 Qualification Rounds**.
   - **UEFA Champions League (UCL)**.
   - **UEFA Europa League (UEL)**.
   - **UEFA Europa Conference League (UECL)**.
-- Track European appearances and wins for each team.
+- Competition coefficients adjust dynamically based on results, affecting tournament seedings.
+- Track European appearances, wins, and historical performances for each team.
+
+### 🌟 Coefficients & Seeding:
+- A robust coefficient system:
+  - Results from teams affect their league's standing in European competitions.
+  - Coefficients directly impact seeding for future simulations.
+  - Emulates real-life mechanics of European football competitions.
 
 ### 📊 Statistics & History:
 - Store and retrieve historical data in a relational database.
 - Track stats such as:
-  - Team records over all simulations.
-  - League, national cup, and European tournament winners.
+  - Team records and historical standings over all simulations.
+  - League, National Cup, and European tournament winners.
   - Most skilled teams based on skills database.
 
 ### 🗓️ Season Simulation:
 - Simulate an **entire season**:
-  - League.
-  - National Cup.
-  - All 3 European tournaments (UCL, UEL, UECL).
+  - Full domestic season (including secondary divisions, national cups).
+  - European Competitions:
+    1. **Qualification Rounds** (2 rounds).
+    2. **League Phase**.
+    3. **Knockout Rounds**.
 
 ---
 
 ## Upcoming Features
-- **Expanded database** with more leagues and teams.
-- Larger national cups with more participants.
-- Full-scale European tournaments with group stages and qualifications.
+- **Expanded database** with more teams.
+- Add **automatic promotion and relegation** system.
 - Enhanced statistics tracking:
   - In-depth analytics at team, league, and competition levels.
+  - Graphical charts and trend reports.
 - Option to export results to various formats (CSV, JSON, etc.).
 
 ---
@@ -106,3 +115,7 @@ Contributions are welcome! Feel free to submit pull requests or report issues:
    git checkout -b feature-name
    ```
 3. Submit your changes with a pull request.
+
+---
+
+Enjoy simulating your football fantasy with **Football Simulator**! 🚀⚽
