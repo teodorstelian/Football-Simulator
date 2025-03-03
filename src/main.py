@@ -48,7 +48,7 @@ class DatabaseUpdater:
         DatabaseUpdater.initialize_european_tables(settings)
         create_general_table()
         for country in settings.ALL_COUNTRIES:
-            league, teams_obj, teams_name, europe_places = select_teams_from_league(country)
+            league, teams_obj, teams_name, europe_places, d1_teams = select_teams_from_league(country)
             generate_teams_table(league, teams_obj)
         populate_general_table()
         update_general_table_with_stats()
@@ -65,8 +65,8 @@ class DatabaseUpdater:
 
 class LeagueSimulator:
     @classmethod
-    def simulate_league(cls, league, teams_obj, europe_places):
-        return league_simulation(league, teams_obj, europe_places)
+    def simulate_league(cls, league, teams_obj, europe_places, number_d1_teams):
+        return league_simulation(league, teams_obj, europe_places, number_d1_teams)
 
 
 class CupSimulator:
@@ -102,6 +102,7 @@ class MainProgram:
         self.teams_name = []
         self.europe_places = None
         self.choice = None
+        self.nr_d1 = 0
 
         # Initialize dependencies
         self.input_handler = InputHandler()
@@ -141,8 +142,8 @@ class MainProgram:
         seasons = int(self.input_handler.get_user_input("Enter number of seasons: "))
         for _ in range(seasons):
             for country in self.settings.ALL_COUNTRIES:
-                self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(country)
-                self.teams_obj = LeagueSimulator.simulate_league(self.league, self.teams_obj, self.europe_places)
+                self.league, self.teams_obj, self.teams_name, self.europe_places, self.nr_d1 = select_teams_from_league(country)
+                self.teams_obj = LeagueSimulator.simulate_league(self.league, self.teams_obj, self.europe_places, self.nr_d1)
                 self.db_updater.update_general()
                 self.teams_obj = CupSimulator.simulate_cup(self.league, self.teams_obj)
                 self.db_updater.update_general()
@@ -162,9 +163,9 @@ class MainProgram:
             print(f"No league found for the specified country: {country_name}")
             return
 
-        self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(selected_country)
+        self.league, self.teams_obj, self.teams_name, self.europe_places, self.nr_d1 = select_teams_from_league(selected_country)
 
-        self.teams_obj = LeagueSimulator.simulate_league(self.league, self.teams_obj, self.europe_places)
+        self.teams_obj = LeagueSimulator.simulate_league(self.league, self.teams_obj, self.europe_places, self.nr_d1)
         self.db_updater.update_general()
         print(f"League simulation for {country_name} has been completed.")
 
@@ -179,7 +180,7 @@ class MainProgram:
             print(f"No cup found for the specified country: {country_name}")
             return
 
-        self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(selected_country)
+        self.league, self.teams_obj, self.teams_name, self.europe_places, self.nr_d1 = select_teams_from_league(selected_country)
 
         self.teams_obj = CupSimulator.simulate_cup(self.league, self.teams_obj)
         self.db_updater.update_general()
@@ -218,7 +219,7 @@ class MainProgram:
             print(f"No cup found for the specified country: {country_name}")
             return
 
-        self.league, self.teams_obj, self.teams_name, self.europe_places = select_teams_from_league(selected_country)
+        self.league, self.teams_obj, self.teams_name, self.europe_places, self.nr_d1= select_teams_from_league(selected_country)
         team_name = self.input_handler.get_user_input("Enter team name: ")
         for team in self.teams_obj:
             if team.name == team_name:

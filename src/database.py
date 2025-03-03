@@ -23,7 +23,8 @@ def create_teams_table(league):
         second_place INTEGER DEFAULT 0,
         third_place INTEGER DEFAULT 0,
         cup_finals INTEGER DEFAULT 0,
-        cup_wins INTEGER DEFAULT 0
+        cup_wins INTEGER DEFAULT 0,
+        division INTEGER DEFAULT 1
     )
     """
     c.execute(query)
@@ -36,7 +37,7 @@ def insert_team(team, league):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
     query = f"""
-    INSERT INTO {league} VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    INSERT INTO {league} VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """
     c.execute(query, (
         team.name,
@@ -52,7 +53,8 @@ def insert_team(team, league):
         team.second_place,
         team.third_place,
         team.cup_finals,
-        team.cup_wins
+        team.cup_wins,
+        team.division
     ))
     conn.commit()
     conn.close()
@@ -74,7 +76,8 @@ def update_team(team, league):
         second_place = ?,
         third_place = ?,
         cup_finals = ?,
-        cup_wins = ?
+        cup_wins = ?,
+        division = ?
     WHERE name = ?
     """
     c.execute(query, (
@@ -90,6 +93,7 @@ def update_team(team, league):
         team.third_place,
         team.cup_finals,
         team.cup_wins,
+        team.division,
         team.name
     ))
     conn.commit()
@@ -306,15 +310,17 @@ def get_teams(league=None, european_cup=None, rounds=None):
             league_query = f"SELECT * FROM {country} WHERE name = ?"
             c.execute(league_query, (team_name,))
             team_stats = c.fetchone()
-            name, skill,  matches, wins, draws, losses, points, scored, against, first_place, second_place, third_place, cup_finals, cup_wins = team_stats
+            name, skill, matches, wins, draws, losses, points, scored, against, \
+                first_place, second_place, third_place, cup_finals, cup_wins, division = team_stats
         elif league:
-            name, skill, matches, wins, draws, losses, points, scored, against, first_place, second_place, third_place, cup_finals, cup_wins = data
+            name, skill, matches, wins, draws, losses, points, scored, against, \
+                first_place, second_place, third_place, cup_finals, cup_wins, division = data
 
         team = Team(
             name=name, country=country, skill=skill, matches=matches, wins=wins, draws=draws,
             losses=losses, points=points, scored=scored, against=against, first_place=first_place,
             second_place=second_place, third_place=third_place, cup_finals=cup_finals, cup_wins=cup_wins,
-            europe=europe
+            europe=europe, division=division
         )
         teams.append(team)
 

@@ -12,8 +12,10 @@ def cup_simulation(league, teams):
         new_teams = sorted_teams[:32]
     elif len(teams) >= 16:
         new_teams = sorted_teams[:16]
-    else:
+    elif len(teams) >= 8:
         new_teams = sorted_teams[:8]
+    else:
+        new_teams = sorted_teams[:4]
 
     teams = play_country_cup(new_teams, league)
 

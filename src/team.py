@@ -6,7 +6,7 @@ from src import settings
 class Team:
     def __init__(self, name, country, skill, europe="No Europe",
                  matches=0, wins=0, draws=0, losses=0, points=0, scored=0, against=0,
-                 first_place=0, second_place=0, third_place=0, cup_finals=0, cup_wins=0):
+                 first_place=0, second_place=0, third_place=0, cup_finals=0, cup_wins=0, division=1):
         self.name = name
         self.country = country
         self.skill = skill
@@ -24,6 +24,8 @@ class Team:
         self.third_place = third_place
         self.cup_finals = cup_finals
         self.cup_wins = cup_wins
+
+        self.division = division
 
         self.current = {
             "points": 0,

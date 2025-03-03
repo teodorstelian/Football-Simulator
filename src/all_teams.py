@@ -1,120 +1,183 @@
 # Country Teams - Name, Skill
 ENG_TEAMS = [("Arsenal", 95),
-             ("Aston Villa", 85),
-             ("Bournemouth", 75),
+             ("Aston Villa", 88),
+             ("Barnsley", 68),
+             ("Birmingham City", 72),
+             ("Blackburn Rovers", 75),
+             ("Blackpool", 70),
+             ("Bournemouth", 78),
              ("Brentford", 78),
              ("Brighton", 85),
-             ("Burnley", 72),
-             ("Chelsea", 93),
-             ("Crystal Palace", 76),
-             ("Everton", 74),
-             ("Fulham", 77),
+             ("Burnley", 80),
+             ("Cardiff City", 74),
+             ("Charlton Athletic", 70),
+             ("Chelsea", 94),
+             ("Coventry City", 73),
+             ("Crystal Palace", 79),
+             ("Derby County", 72),
+             ("Everton", 78),
+             ("Fulham", 84),
+             ("Huddersfield Town", 69),
+             ("Hull City", 70),
+             ("Leeds United", 76),
+             ("Leicester City", 85),
              ("Liverpool", 100),
-             ("Luton", 68),
+             ("Luton Town", 70),
              ("Manchester City", 100),
-             ("Manchester United", 92),
+             ("Manchester United", 94),
+             ("Middlesbrough", 75),
+             ("Millwall", 72),
              ("Newcastle United", 88),
-             ("Nottingham Forest", 75),
-             ("Sheffield United", 70),
-             ("Tottenham Hotspur", 90),
-             ("West Ham United", 78),
-             ("Wolverhampton Wanderers", 76),
-             ("Leeds United", 73),
-             ("Leicester City", 81),
-             ("Southampton", 80),
-             ("Watford", 70)]
+             ("Norwich City", 77),
+             ("Nottingham Forest", 87),
+             ("Preston North End", 72),
+             ("Queens Park Rangers", 71),
+             ("Reading", 70),
+             ("Sheffield United", 75),
+             ("Sheffield Wednesday", 74),
+             ("Southampton", 83),
+             ("Stoke City", 76),
+             ("Sunderland", 79),
+             ("Swansea City", 77),
+             ("Tottenham Hotspur", 92),
+             ("Watford", 72),
+             ("West Bromwich Albion", 77),
+             ("West Ham United", 82),
+             ("Wigan Athletic", 72),
+             ("Wolverhampton Wanderers", 80)]
 
-ESP_TEAMS = [("Alaves", 65),
-             ("Almeria", 72),
-             ("Athletic Bilbao", 84),
-             ("Atletico Madrid", 90),
-             ("Barcelona", 95),
-             ("Cadiz", 71),
-             ("Celta Vigo", 78),
-             ("Getafe", 75),
-             ("Girona", 76),
-             ("Granada", 70),
-             ("Las Palmas", 68),
-             ("Mallorca", 77),
-             ("Osasuna", 78),
-             ("Rayo Vallecano", 75),
-             ("Real Betis", 85),
-             ("Real Madrid", 100),
-             ("Real Sociedad", 88),
-             ("Sevilla", 86),
-             ("Valencia", 80),
-             ("Villareal", 84),
-             ("Levante", 73),
-             ("Espanyol", 76),
-             ("Zaragoza", 74)]
+ESP_TEAMS = [
+            ("AD Alcorcon", 69),
+            ("Alaves", 70),
+            ("Almeria", 74),
+            ("Athletic Bilbao", 85),
+            ("Atletico Madrid", 91),
+            ("Barcelona", 96),
+            ("Cadiz", 73),
+            ("Celta Vigo", 80),
+            ("Deportivo La Coruna", 72),
+            ("Espanyol", 77),
+            ("Getafe", 76),
+            ("Girona", 77),
+            ("Granada", 72),
+            ("Las Palmas", 70),
+            ("Levante", 74),
+            ("Mallorca", 78),
+            ("Malaga", 71),
+            ("Osasuna", 80),
+            ("Rayo Vallecano", 76),
+            ("Real Betis", 86),
+            ("Real Madrid", 100),
+            ("Real Oviedo", 71),
+            ("Real Sociedad", 89),
+            ("Real Valladolid", 73),
+            ("Real Zaragoza", 75),
+            ("Sevilla", 87),
+            ("Sporting Gijon", 70),
+            ("Tenerife", 72),
+            ("Valencia", 82),
+            ("Villarreal", 85)
+]
 
-GER_TEAMS = [("FC Augsburg", 73),
-             ("Union Berlin", 82),
-             ("VfL Bochum", 70),
-             ("Werder Bremen", 74),
-             ("Darmstadt 98", 67),
-             ("Borussia Dortmund", 96),
-             ("Eintracht Frankfurt", 86),
-             ("SC Freiburg", 83),
-             ("1. FC Heidenheim", 65),
-             ("1899 Hoffenheim", 77),
-             ("1. FC Koln", 74),
-             ("RB Leipzig", 92),
-             ("Bayer Leverkusen", 87),
-             ("Mainz 05", 78),
-             ("Borussia Monchengladbach", 79),
-             ("Bayern Munchen", 100),
-             ("VfB Stuttgart", 75),
-             ("VfL Wolfsburg", 82),
-             ("Fortuna Dusseldorf", 74),
-             ("Hertha Berlin", 73),
-             ("Nurnberg", 70)]
+GER_TEAMS = [
+            ("1. FC Heidenheim", 67),
+            ("1. FC Kaiserslautern", 72),
+            ("1. FC Koln", 76),
+            ("1860 Munchen", 69),
+            ("1899 Hoffenheim", 79),
+            ("Arminia Bielefeld", 68),
+            ("Bayer Leverkusen", 89),
+            ("Bayern Munchen", 100),
+            ("Borussia Dortmund", 95),
+            ("Borussia Monchengladbach", 81),
+            ("Darmstadt 98", 70),
+            ("Dynamo Dresden", 66),
+            ("Eintracht Braunschweig", 70),
+            ("Eintracht Frankfurt", 88),
+            ("Energy Cottbus", 67),
+            ("FC Augsburg", 75),
+            ("FC Ingolstadt", 72),
+            ("Fortuna Dusseldorf", 76),
+            ("Greuther Furth", 71),
+            ("Hamburger SV", 78),
+            ("Hansa Rostock", 72),
+            ("Hertha Berlin", 75),
+            ("Karlsruher SC", 70),
+            ("Mainz 05", 80),
+            ("RB Leipzig", 92),
+            ("SC Freiburg", 85),
+            ("Schalke 04", 78),
+            ("SpVgg Unterhaching", 65),
+            ("St. Pauli", 74),
+            ("Union Berlin", 84),
+            ("VfB Stuttgart", 77),
+            ("VfL Bochum", 72),
+            ("VfL Wolfsburg", 84),
+            ("Werder Bremen", 77)
+]
 
-ITA_TEAMS = [("AC Milan", 92),
-             ("AS Roma", 86),
-             ("Atalanta", 88),
-             ("Bologna", 76),
-             ("Cagliari", 70),
-             ("Empoli", 72),
-             ("Fiorentina", 83),
-             ("Frosinone", 68),
-             ("Genoa", 70),
-             ("Hellas Verona", 72),
-             ("Inter Milan", 92),
-             ("Juventus", 92),
-             ("Lazio", 86),
-             ("Lecce", 74),
-             ("Monza", 77),
-             ("Napoli", 94),
-             ("Salernitana", 72),
-             ("Sassuolo", 78),
-             ("Torino", 80),
-             ("Udinese", 74),
-             ("Parma", 73),
-             ("Sampdoria", 76),
-             ("SPAL", 68)]
+ITA_TEAMS = [
+            ("AC Milan", 92),
+            ("AS Roma", 87),
+            ("Atalanta", 89),
+            ("Bologna", 78),
+            ("Cagliari", 72),
+            ("Cremonese", 70),
+            ("Empoli", 74),
+            ("Fiorentina", 84),
+            ("Frosinone", 70),
+            ("Genoa", 72),
+            ("Hellas Verona", 73),
+            ("Inter Milan", 92),
+            ("Juventus", 93),
+            ("Lazio", 87),
+            ("Lecce", 75),
+            ("Monza", 78),
+            ("Napoli", 95),
+            ("Palermo", 71),
+            ("Parma", 74),
+            ("Pisa", 70),
+            ("Reggina", 69),
+            ("Salernitana", 74),
+            ("Sampdoria", 77),
+            ("Sassuolo", 79),
+            ("SPAL", 70),
+            ("Spezia", 71),
+            ("Torino", 81),
+            ("Udinese", 75),
+            ("Venezia", 71)
+        ]
 
-FRA_TEAMS = [("Brest", 72),
-             ("Clermont", 74),
-             ("Le Havre", 67),
-             ("RC Lens", 87),
-             ("Lille", 85),
-             ("Lorient", 75),
-             ("Olympique Lyon", 84),
-             ("Marseille", 85),
-             ("AS Monaco", 84),
-             ("Metz", 70),
-             ("Montpellier", 75),
-             ("Nantes", 76),
-             ("Nice", 79),
-             ("PSG", 100),
-             ("Reims", 74),
-             ("Rennes", 86),
-             ("Strasbourg", 77),
-             ("Toulouse", 76),
-             ("Auxerre", 74),
-             ("Troyes", 70),
-             ("Caen", 67)]
+FRA_TEAMS = [
+            ("Angers SCO", 72),
+            ("AJ Auxerre", 76),
+            ("AS Monaco", 86),
+            ("Bordeaux", 78),
+            ("Brest", 73),
+            ("Caen", 70),
+            ("Clermont", 75),
+            ("Dijon", 72),
+            ("Grenoble Foot", 70),
+            ("Le Havre", 70),
+            ("Lille", 86),
+            ("Lorient", 76),
+            ("Marseille", 87),
+            ("Metz", 72),
+            ("Montpellier", 76),
+            ("Nantes", 78),
+            ("Nice", 81),
+            ("Olympique Lyon", 86),
+            ("Paris FC", 72),
+            ("PSG", 100),
+            ("RC Lens", 88),
+            ("Reims", 76),
+            ("Rennes", 87),
+            ("Stade Lavallois", 68),
+            ("Strasbourg", 78),
+            ("Toulouse", 77),
+            ("Troyes", 72)
+]
+
 
 NED_TEAMS = [("Ajax", 88),
              ("Almere City", 66),
@@ -137,26 +200,34 @@ NED_TEAMS = [("Ajax", 88),
              ("Cambuur", 66),
              ("NAC Breda", 68)]
 
-POR_TEAMS = [("Arouca", 72),
-             ("Benfica", 90),
-             ("Boavista", 74),
-             ("Braga", 88),
-             ("Casa Pia", 68),
-             ("Chaves", 72),
-             ("Estoril", 65),
-             ("Estrela da Amadora", 63),
-             ("Famalicao", 76),
-             ("Farense", 65),
-             ("Gil Vicente", 73),
-             ("Moreirense", 62),
-             ("Portimonense", 71),
-             ("Porto", 91),
-             ("Rio Ave", 74),
-             ("Sporting CP", 89),
-             ("Vitoria de Guimaraes", 79),
-             ("Vizela", 67),
-             ("Academica Coimbra", 65),
-             ("Belenenses", 64)]
+POR_TEAMS = [
+            ("Academica Coimbra", 68),
+            ("Arouca", 74),
+            ("Belenenses", 66),
+            ("Benfica", 92),
+            ("Boavista", 76),
+            ("Braga", 89),
+            ("Casa Pia", 70),
+            ("Chaves", 74),
+            ("Estoril", 68),
+            ("Estrela da Amadora", 65),
+            ("Famalicao", 77),
+            ("Farense", 69),
+            ("Gil Vicente", 75),
+            ("Leixoes SC", 66),
+            ("Maritimo", 70),
+            ("Moreirense", 65),
+            ("Nacional", 67),
+            ("Portimonense", 73),
+            ("Porto", 92),
+            ("Rio Ave", 75),
+            ("Sporting CP", 90),
+            ("Tondela", 67),
+            ("Varzim", 64),
+            ("Vitoria de Guimaraes", 80),
+            ("Vizela", 69)
+]
+
 
 BEL_TEAMS = [("Anderlecht", 82),
              ("Antwerp", 81),
@@ -211,30 +282,47 @@ AUS_TEAMS = [("Austria Klagenfurt", 71),
              ("Kapfenberger SV", 63),
              ("Wiener Neustadt", 66)]
 
-ROM_TEAMS = [("FCSB", 84),
-             ("CFR Cluj", 81),
-             ("Universitatea Craiova", 79),
-             ("Farul Constanta", 76),
-             ("Sepsi", 74),
-             ("Rapid Bucuresti", 75),
-             ("Dinamo Bucuresti", 73),
-             ("UTA Arad", 71),
-             ("Otelul Galati", 69),
-             ("U Cluj", 70),
-             ("Petrolul Ploiesti", 67),
-             ("Politehnica Iasi", 65),
-             ("Chindia Targoviste", 63),
-             ("FC Voluntari", 62),
-             ("CS Mioveni", 61),
-             ("Pandurii Targu Jiu", 60)]
+ROM_TEAMS = [
+            ("ACS Poli Timisoara", 67),
+            ("Astra Giurgiu", 75),
+            ("Chindia Targoviste", 67),
+            ("Concordia Chiajna", 65),
+            ("CS Mioveni", 64),
+            ("CFR Cluj", 84),
+            ("Dinamo Bucuresti", 77),
+            ("Farul Constanta", 79),
+            ("FCSB", 87),
+            ("FC Arges", 72),
+            ("FC Botosani", 71),
+            ("FC Brasov", 68),
+            ("FC Hermannstadt", 69),
+            ("FC Rapid Bucuresti", 79),
+            ("FC U Craiova 1948", 74),
+            ("FC Voluntari", 67),
+            ("Gaz Metan Medias", 68),
+            ("Gloria Bistrita", 65),
+            ("Jiul Petrosani", 64),
+            ("Otelul Galati", 73),
+            ("Pandurii Targu Jiu", 66),
+            ("Petrolul Ploiesti", 71),
+            ("Politehnica Iasi", 68),
+            ("Ripensia Timisoara", 69),
+            ("Sepsi", 76),
+            ("Steaua Bucuresti", 65),
+            ("Universitatea Cluj", 73),
+            ("Universitatea Craiova", 82),
+            ("UTA Arad", 73),
+            ("Victoria Bucuresti", 65)
+]
 
-SUI_TEAMS = [("Young Boys", 86),  # Buffed
-             ("FC Basel", 84),  # Buffed
-             ("FC Zurich", 81),  # Buffed
+
+SUI_TEAMS = [("Young Boys", 86),
+             ("FC Basel", 84),
+             ("FC Zurich", 81),
              ("Grasshoppers", 77),
-             ("Servette", 79),  # Buffed slightly
+             ("Servette", 79),
              ("Lugano", 77),
-             ("St. Gallen", 78),  # Buffed slightly
+             ("St. Gallen", 78),
              ("Sion", 74),
              ("Lucerne", 75),
              ("Winterthur", 71),
@@ -242,7 +330,6 @@ SUI_TEAMS = [("Young Boys", 86),  # Buffed
              ("Aarau", 67),
              ("FC Lausanne-Sport", 69),
              ("Wil 1900", 65),
-             ("FC Vaduz", 66),
              ("Schaffhausen", 64)]
 
 
@@ -265,9 +352,9 @@ TUR_TEAMS = [("Galatasaray", 88),
              ("MKE Ankaragucu", 68)]
 
 
-GRE_TEAMS = [("Olympiacos", 87),  # Buffed
-             ("Panathinaikos", 85),  # Buffed
-             ("AEK Athens", 84),  # Buffed
+GRE_TEAMS = [("Olympiacos", 87),
+             ("Panathinaikos", 85),
+             ("AEK Athens", 84),
              ("PAOK Thessaloniki", 82),
              ("Aris Thessaloniki", 79),
              ("OFI Crete", 76),
@@ -301,7 +388,7 @@ CZE_TEAMS = [("Slavia Prague", 83),
              ("Vysocina Jihlava", 59)]
 
 
-POL_TEAMS = [("Legia Warsaw", 84),  # Buffed
+POL_TEAMS = [("Legia Warsaw", 84),
              ("Lech Poznan", 82),
              ("Rakow Czestochowa", 81),
              ("Gornik Zabrze", 77),
@@ -319,10 +406,10 @@ POL_TEAMS = [("Legia Warsaw", 84),  # Buffed
              ("Podbeskidzie", 62)]
 
 
-RUS_TEAMS = [("Zenit Saint Petersburg", 88),  # Buffed slightly
-             ("CSKA Moscow", 86),  # Buffed slightly
-             ("Spartak Moscow", 85),  # Buffed slightly
-             ("Lokomotiv Moscow", 83),  # Buffed slightly
+RUS_TEAMS = [("Zenit Saint Petersburg", 88),
+             ("CSKA Moscow", 86),
+             ("Spartak Moscow", 85),
+             ("Lokomotiv Moscow", 83),
              ("Dynamo Moscow", 81),
              ("Krasnodar", 80),
              ("Rostov", 78),
@@ -337,8 +424,8 @@ RUS_TEAMS = [("Zenit Saint Petersburg", 88),  # Buffed slightly
              ("FC Nizhny Novgorod", 60)]
 
 
-UKR_TEAMS = [("Shakhtar Donetsk", 88),  # Balanced
-             ("Dynamo Kyiv", 86),  # Balanced
+UKR_TEAMS = [("Shakhtar Donetsk", 88),
+             ("Dynamo Kyiv", 86),
              ("Zorya Luhansk", 83),
              ("Dnipro-1", 81),
              ("Kolos Kovalivka", 78),
@@ -355,8 +442,8 @@ UKR_TEAMS = [("Shakhtar Donetsk", 88),  # Balanced
              ("Prytula Kolomyya", 62)]
 
 
-SRB_TEAMS = [("Red Star Belgrade", 88),  # Balanced
-             ("Partizan Belgrade", 86),  # Balanced
+SRB_TEAMS = [("Red Star Belgrade", 88),
+             ("Partizan Belgrade", 86),
              ("Vojvodina", 83),
              ("Cukaricki", 81),
              ("Radnicki Nis", 78),
@@ -381,7 +468,7 @@ NOR_TEAMS = [("Rosenborg", 83),
              ("Lillestrøm", 74),
              ("Stabæk", 71),
              ("Tromsø", 72),
-             ("Viking", 78),  # Kept Viking stronger
+             ("Viking", 78),
              ("Sarpsborg 08", 73),
              ("Odd", 71),
              ("Strømsgodset", 70),
@@ -547,3 +634,305 @@ BIH_TEAMS = [("FK Sarajevo", 83),
              ("Igman Konjic", 61),
              ("Gosk Gabela", 59),
              ("FK Rudar Prijedor", 58)]
+
+ICE_TEAMS = [
+    ("KR Reykjavik", 78),
+    ("Valur", 76),
+    ("FH Hafnarfjordur", 75),
+    ("Breidablik", 74),
+    ("KA Akureyri", 72),
+    ("Vikingur Reykjavik", 73),
+    ("Stjarnan", 69),
+    ("Fram Reykjavik", 68),
+    ("Fylkir", 67),
+    ("Grindavik", 65),
+    ("Throttur", 63),
+    ("Selfoss", 61),
+    ("Leiknir Reykjavik", 60)
+]
+
+IRL_TEAMS = [
+    ("Shamrock Rovers", 79),
+    ("Bohemians", 75),
+    ("Dundalk", 77),
+    ("St Patrick's Athletic", 73),
+    ("Sligo Rovers", 71),
+    ("Cork City", 70),
+    ("Derry City", 72),
+    ("UCD", 67),
+    ("Shelbourne", 66),
+    ("Drogheda United", 65),
+    ("Galway United", 63),
+    ("Finn Harps", 61),
+    ("Bray Wanderers", 60)
+]
+
+EST_TEAMS = [
+    ("Flora Tallinn", 80),
+    ("Levadia Tallinn", 76),
+    ("Nomme Kalju", 74),
+    ("Paide Linnameeskond", 72),
+    ("Tammeka", 69),
+    ("Kuressaare", 66),
+    ("Trans Narva", 68),
+    ("Tallinna Kalev", 65),
+    ("Vaprus Parnu", 63),
+    ("Viljandi JK Tulevik", 62)
+]
+
+LAT_TEAMS = [
+    ("Riga FC", 80),
+    ("RFS", 79),
+    ("Liepaja", 77),
+    ("Valmiera FC", 76),
+    ("Jelgava", 70),
+    ("Spartaks Jurmala", 72),
+    ("Metta", 68),
+    ("Daugavpils", 66),
+    ("Auda", 64),
+    ("Rēzekne", 63)
+]
+
+LUX_TEAMS = [
+    ("F91 Dudelange", 82),
+    ("Progrès Niederkorn", 79),
+    ("Differdange 03", 77),
+    ("Jeunesse Esch", 75),
+    ("Union Titus Petange", 73),
+    ("Racing FC Union Luxembourg", 71),
+    ("Etzella Ettelbruck", 69),
+    ("Fola Esch", 74),
+    ("Mondorf-les-Bains", 67),
+    ("RFCU Luxembourg", 70)
+]
+
+KAZ_TEAMS = [
+    ("FC Astana", 82),
+    ("Kairat Almaty", 80),
+    ("Tobol Kostanay", 78),
+    ("Shakhter Karagandy", 75),
+    ("Ordabasy", 74),
+    ("Aktobe", 73),
+    ("Zhetysu", 71),
+    ("Taraz", 69),
+    ("Atyrau", 67),
+    ("Kyzyl-Zhar", 66),
+    ("Caspiy Aktau", 65),
+    ("Maktaaral", 62)
+]
+
+ISR_TEAMS = [
+    ("Maccabi Haifa", 86),
+    ("Maccabi Tel Aviv", 84),
+    ("Hapoel Be'er Sheva", 83),
+    ("Beitar Jerusalem", 78),
+    ("Hapoel Tel Aviv", 77),
+    ("Bnei Sakhnin", 75),
+    ("Ironi Kiryat Shmona", 74),
+    ("Hapoel Haifa", 72),
+    ("Maccabi Netanya", 76),
+    ("Ashdod SC", 70),
+    ("Hapoel Hadera", 69),
+    ("Hapoel Kfar Saba", 68),
+    ("Hapoel Petah Tikva", 67),
+    ("Sektzia Ness Ziona", 65)
+]
+
+CYP_TEAMS = [
+    ("APOEL Nicosia", 85),
+    ("Anorthosis Famagusta", 84),
+    ("Omonia Nicosia", 83),
+    ("AEL Limassol", 80),
+    ("Apollon Limassol", 82),
+    ("Pafos FC", 79),
+    ("AEK Larnaca", 81),
+    ("Doxa Katokopias", 72),
+    ("Nea Salamis", 73),
+    ("Olympiakos Nicosia", 71),
+    ("Enosis Neon Paralimni", 68),
+    ("Karmiotissa", 67),
+    ("Ethnikos Achna", 65)
+]
+
+BLR_TEAMS = [
+    ("BATE Borisov", 86),
+    ("Dinamo Minsk", 84),
+    ("Shakhtyor Soligorsk", 83),
+    ("Neman Grodno", 80),
+    ("Torpedo-BelAZ Zhodino", 79),
+    ("Isloch Minsk", 76),
+    ("Rukh Brest", 75),
+    ("Gomel", 74),
+    ("Slavia Mozyr", 72),
+    ("Energetik-BGU", 71),
+    ("Dinamo Brest", 78),
+    ("Dnepr Mogilev", 67),
+    ("FC Minsk", 68),
+    ("Vitebsk", 70)
+]
+
+LTU_TEAMS = [
+    ("FK Zalgiris", 82),
+    ("Suduva Marijampole", 79),
+    ("Kauno Zalgiris", 76),
+    ("FK Panevezys", 74),
+    ("FK Riteriai", 72),
+    ("Banga Gargzdai", 70),
+    ("Dainava Alytus", 68),
+    ("FK Jonava", 66),
+    ("FA Siauliai", 67),
+    ("Atmosfera", 65)
+]
+
+GEO_TEAMS = [
+    ("Dinamo Tbilisi", 85),
+    ("Dinamo Batumi", 83),
+    ("Torpedo Kutaisi", 81),
+    ("Saburtalo Tbilisi", 78),
+    ("Samgurali Tskaltubo", 75),
+    ("Locomotive Tbilisi", 73),
+    ("Dila Gori", 76),
+    ("Sioni Bolnisi", 70),
+    ("Telavi", 68),
+    ("Gagra", 67)
+]
+
+ALB_TEAMS = [
+    ("KF Tirana", 85),
+    ("Partizani Tirana", 83),
+    ("Kukesi", 80),
+    ("Vllaznia Shkoder", 78),
+    ("Teuta Durres", 79),
+    ("KF Laci", 76),
+    ("Bylis Ballsh", 73),
+    ("Skenderbeu", 74),
+    ("Egnatia", 70),
+    ("Kastrioti", 67)
+]
+
+ARM_TEAMS = [
+    ("FC Pyunik", 84),
+    ("Ararat-Armenia", 83),
+    ("Alashkert", 81),
+    ("FC Ararat", 79),
+    ("Urartu", 77),
+    ("Shirak Gyumri", 75),
+    ("Van", 72),
+    ("BKMA", 70),
+    ("Noah", 73),
+    ("Sevan FC", 68)
+]
+
+MKD_TEAMS = [
+    ("Vardar Skopje", 84),
+    ("Shkëndija Tetovo", 83),
+    ("Rabotnički Skopje", 81),
+    ("Akademija Pandev", 79),
+    ("Renova Tetovo", 77),
+    ("Sileks Kratovo", 75),
+    ("Shkupi Skopje", 84),
+    ("Borec Veles", 72),
+    ("Pelister", 68),
+    ("Struga Trim Lum", 73)
+]
+
+KOS_TEAMS = [
+    ("FC Drita", 83),
+    ("FC Ballkani", 82),
+    ("KF Llapi", 80),
+    ("KF Gjilani", 79),
+    ("KF Prishtina", 81),
+    ("KF Trepca'89", 78),
+    ("KF Feronikeli", 76),
+    ("KF Malisheva", 73),
+    ("KF Dukagjini", 72),
+    ("KF Vushtrria", 70)
+]
+
+MDA_TEAMS = [
+    ("Sheriff Tiraspol", 89),
+    ("Petrocub Hincesti", 81),
+    ("Zimbru Chisinau", 80),
+    ("Milsami Orhei", 78),
+    ("FC Sfintul Gheorghe", 76),
+    ("Dinamo-Auto", 73),
+    ("Balti", 72),
+    ("Floresti", 68),
+    ("Speranta", 67),
+    ("Codru Lozova", 65)
+]
+
+MNE_TEAMS = [
+    ("Buducnost Podgorica", 84),
+    ("Sutjeska Niksic", 83),
+    ("FK Iskra", 78),
+    ("FK Dečić", 76),
+    ("FK Podgorica", 74),
+    ("FK Rudar Pljevlja", 72),
+    ("FK Zeta", 70),
+    ("FK Jezero", 68),
+    ("FK Petrovac", 67),
+    ("FK Kom", 65)
+]
+
+AND_TEAMS = [
+    ("FC Andorra", 80),
+    ("UE Santa Coloma", 77),
+    ("Inter Club d’Escaldes", 76),
+    ("UE Engordany", 73),
+    ("FC Santa Coloma", 75),
+    ("Atlètic Club d'Escaldes", 72),
+    ("Penya Encarnada", 68),
+    ("CE Carroi", 65),
+    ("UE Sant Julià", 70),
+    ("FC Ordino", 67)
+]
+
+MLT_TEAMS = [
+    ("Hibernians", 82),
+    ("Valletta FC", 81),
+    ("Birkirkara", 80),
+    ("Floriana", 79),
+    ("Gzira United", 78),
+    ("Balzan", 76),
+    ("Hamrun Spartans", 75),
+    ("Mosta", 71),
+    ("Sirens", 70),
+    ("Santa Lucia", 68),
+    ("Sliema Wanderers", 64)
+]
+
+SMR_TEAMS = [
+    ("Tre Penne", 70),
+    ("La Fiorita", 68),
+    ("SP Tre Fiori", 65),
+    ("SS Folgore", 64),
+    ("Cosmos", 63),
+    ("SP Cailungo", 62),
+    ("SS Murata", 61),
+    ("Virtus", 60),
+    ("Pennarossa", 59),
+    ("Domagnano", 58)
+]
+
+LIE_TEAMS = [
+    ("FC Vaduz", 69),
+    ("FC Balzers", 67),
+    ("USV Eschen/Mauren", 66),
+    ("FC Ruggell", 65),
+    ("FC Triesenberg", 64),
+    ("FC Triesen", 63),
+    ("FC Schaan", 62)
+]
+
+FRO_TEAMS = [
+    ("KI Klaksvik", 82),
+    ("HB Torshavn", 80),
+    ("B36 Torshavn", 79),
+    ("NSI Runavik", 76),
+    ("Vikingur Gota", 77),
+    ("EB/Streymur", 74),
+    ("07 Vestur", 72),
+    ("TB Tvoroyri", 68),
+    ("AB Argir", 70)
+]
