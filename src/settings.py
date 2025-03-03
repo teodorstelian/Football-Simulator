@@ -8,128 +8,108 @@ WINNERS_TEXT = "winners.txt"
 COMPETITIONS_DB = "Competitions.db"
 GENERAL_TABLE = "General"
 
-# Countries - Name, Teams, European Places
-ENG = {"name": "England",
-       "teams": ENG_TEAMS,
-       "europe": {"UCL": [1, 2, 3],
-                  "UEL": [1, 1, 4],
-                  "UECL": [1, 1, 4]}
-       }
+# Country Rankings (1 for the strongest, increasing for weaker countries)
+COUNTRY_RANKINGS = {
+    "England": 1,
+    "Spain": 2,
+    "Germany": 3,
+    "Italy": 4,
+    "France": 5,
+    "Netherlands": 6,
+    "Portugal": 7,
+    "Belgium": 8,
+    "Scotland": 9,
+    "Austria": 10,
+    "Romania": 11,
+    "Switzerland": 12,
+    "Turkey": 13,
+    "Greece": 14,
+    "Czech_Republic": 15,
+    "Poland": 16,
+    "Russia": 17,
+    "Ukraine": 18,
+    "Serbia": 19,
+    "Norway": 20,
+    "Sweden": 21,
+    "Denmark": 22,
+    "Hungary": 23,
+    "Croatia": 24,
+    "Bulgaria": 25,
+    "Slovakia": 26,
+    "Slovenia": 27,
+    "Finland": 28,
+    "Bosnia_and_Herzegovina": 29,
+}
 
-ESP = {"name": "Spain",
-       "teams": ESP_TEAMS,
-       "europe": {"UCL": [1, 2, 3], "UEL": [1, 1, 4], "UECL": [1, 1, 4]}}
+# European Spots By Rank Ranges
+EUROPE_PLACES_BY_RANK = {
+    range(1, 2): {"UCL": [2, 1, 2], "UEL": [0, 2, 2], "UECL": [2, 1, 2]},  # Top 3 countries
+    range(2, 4): {"UCL": [1, 3, 2], "UEL": [0, 2, 1], "UECL": [1, 3, 2]},  # Top 3 countries
+    range(4, 6): {"UCL": [0, 3, 2], "UEL": [2, 1, 1], "UECL": [0, 3, 2]},  # Top 3 countries
+    range(6, 11): {"UCL": [0, 2, 3], "UEL": [0, 1, 3], "UECL": [0, 2, 3]},  # Ranks 5-6
+    range(11, 16): {"UCL": [0, 1, 3], "UEL": [0, 1, 3], "UECL": [0, 1, 3]},  # Ranks 7-10
+    range(16, 20): {"UCL": [0, 1, 2], "UEL": [0, 1, 2], "UECL": [0, 1, 2]},  # Ranks 11-20
+    range(20, 26): {"UCL": [0, 0, 2], "UEL": [0, 1, 2], "UECL": [0, 0, 2]},  # Ranks 11-20
+    range(26, 30): {"UCL": [0, 0, 1], "UEL": [0, 1, 2], "UECL": [0, 0, 1]},  # Ranks 11-20
+}
 
-GER = {"name": "Germany",
-       "teams": GER_TEAMS,
-       "europe": {"UCL": [1, 2, 3], "UEL": [1, 1, 4], "UECL": [1, 1, 4]}}
 
-ITA = {"name": "Italy",
-       "teams": ITA_TEAMS,
-       "europe": {"UCL": [1, 2, 3], "UEL": [1, 1, 4], "UECL": [1, 1, 4]}}
+TEAM_MAPPINGS = {
+    "England": ENG_TEAMS,
+    "Spain": ESP_TEAMS,
+    "Germany": GER_TEAMS,
+    "Italy": ITA_TEAMS,
+    "France": FRA_TEAMS,
+    "Netherlands": NED_TEAMS,
+    "Portugal": POR_TEAMS,
+    "Belgium": BEL_TEAMS,
+    "Scotland": SCO_TEAMS,
+    "Austria": AUS_TEAMS,
+    "Romania": ROM_TEAMS,
+    "Switzerland": SUI_TEAMS,
+    "Turkey": TUR_TEAMS,
+    "Greece": GRE_TEAMS,
+    "Czech_Republic": CZE_TEAMS,
+    "Poland": POL_TEAMS,
+    "Russia": RUS_TEAMS,
+    "Ukraine": UKR_TEAMS,
+    "Serbia": SRB_TEAMS,
+    "Norway": NOR_TEAMS,
+    "Sweden": SWE_TEAMS,
+    "Denmark": DEN_TEAMS,
+    "Hungary": HUN_TEAMS,
+    "Croatia": CRO_TEAMS,
+    "Bulgaria": BUL_TEAMS,
+    "Slovakia": SVK_TEAMS,
+    "Slovenia": SLO_TEAMS,
+    "Finland": FIN_TEAMS,
+    "Bosnia_and_Herzegovina": BIH_TEAMS,
+}
 
-FRA = {"name": "France",
-       "teams": FRA_TEAMS,
-       "europe": {"UCL": [0, 2, 3], "UEL": [0, 1, 4], "UECL": [0, 1, 4]}}
 
-NED = {"name": "Netherlands",
-       "teams": NED_TEAMS,
-       "europe": {"UCL": [0, 2, 2], "UEL": [0, 2, 4], "UECL": [0, 2, 4]}}
+# Function to determine European places for a country based on its ranking
+def get_europe_places(country_name):
+    rank = COUNTRY_RANKINGS.get(country_name)
+    if rank is None:
+        raise ValueError(f"Country '{country_name}' is not ranked.")
 
-POR = {"name": "Portugal",
-       "teams": POR_TEAMS,
-       "europe": {"UCL": [0, 2, 2], "UEL": [0, 2, 4], "UECL": [0, 2, 4]}}
+    for rank_range, places in EUROPE_PLACES_BY_RANK.items():
+        if rank in rank_range:
+            return places
 
-BEL = {"name": "Belgium",
-       "teams": BEL_TEAMS,
-       "europe": {"UCL": [0, 2, 2], "UEL": [0, 1, 3], "UECL": [0, 2, 2]}}
+    # Default for unranked or unmatched countries
+    return {"UCL": [0, 0, 0], "UEL": [0, 0, 0], "UECL": [0, 0, 0]}
 
-SCO = {"name": "Scotland",
-       "teams": SCO_TEAMS,
-       "europe": {"UCL": [0, 2, 2], "UEL": [0, 2, 2], "UECL": [0, 1, 3]}}
 
-AUS = {"name": "Austria",
-       "teams": AUS_TEAMS,
-       "europe": {"UCL": [0, 2, 2], "UEL": [0, 2, 2], "UECL": [0, 2, 2]}}
-
-ROM = {"name": "Romania",
-       "teams": ROM_TEAMS,
-       "europe": {"UCL": [0, 2, 4], "UEL": [0, 2, 2], "UECL": [0, 2, 2]}}
-
-SUI = {"name": "Switzerland",
-       "teams": SUI_TEAMS,
-       "europe": {"UCL": [0, 2, 4], "UEL": [0, 1, 2], "UECL": [0, 1, 2]}}
-
-TUR = {"name": "Turkey",
-       "teams": TUR_TEAMS,
-       "europe": {"UCL": [0, 2, 4], "UEL": [0, 1, 3], "UECL": [0, 1, 3]}}
-
-GRE = {"name": "Greece",
-       "teams": GRE_TEAMS,
-       "europe": {"UCL": [0, 1, 2], "UEL": [0, 1, 2], "UECL": [0, 1, 2]}}
-
-CZE = {"name": "Czech_Republic",
-       "teams": CZE_TEAMS,
-       "europe": {"UCL": [0, 1, 2], "UEL": [0, 1, 2], "UECL": [0, 1, 2]}}
-
-POL = {"name": "Poland",
-       "teams": POL_TEAMS,
-       "europe": {"UCL": [0, 1, 2], "UEL": [0, 1, 2], "UECL": [0, 1, 2]}}
-
-RUS = {"name": "Russia",
-       "teams": RUS_TEAMS,
-       "europe": {"UCL": [0, 1, 2], "UEL": [0, 1, 2], "UECL": [0, 1, 2]}}
-
-UKR = {"name": "Ukraine",
-       "teams": UKR_TEAMS,
-       "europe": {"UCL": [0, 1, 2], "UEL": [0, 1, 2], "UECL": [0, 1, 2]}}
-
-SRB = {"name": "Serbia",
-       "teams": SRB_TEAMS,
-       "europe": {"UCL": [0, 1, 2], "UEL": [0, 1, 2], "UECL": [0, 1, 2]}}
-
-NOR = {"name": "Norway",
-       "teams": NOR_TEAMS,
-       "europe": {"UCL": [0, 0, 1], "UEL": [0, 1, 1], "UECL": [0, 1, 1]}}
-
-SWE = {"name": "Sweden",
-       "teams": SWE_TEAMS,
-       "europe": {"UCL": [0, 0, 1], "UEL": [0, 1, 1], "UECL": [0, 1, 1]}}
-
-DEN = {"name": "Denmark",
-       "teams": DEN_TEAMS,
-       "europe": {"UCL": [0, 0, 2], "UEL": [0, 1, 1], "UECL": [0, 1, 1]}}
-
-HUN = {"name": "Hungary",
-       "teams": HUN_TEAMS,
-       "europe": {"UCL": [0, 0, 2], "UEL": [0, 1, 1], "UECL": [0, 1, 1]}}
-
-CRO = {"name": "Croatia",
-       "teams": CRO_TEAMS,
-       "europe": {"UCL": [0, 0, 2], "UEL": [0, 1, 1], "UECL": [0, 1, 1]}}
-
-BUL = {"name": "Bulgaria",
-       "teams": BUL_TEAMS,
-       "europe": {"UCL": [0, 0, 2], "UEL": [0, 1, 1], "UECL": [0, 1, 1]}}
-
-SVK = {"name": "Slovakia",
-       "teams": SVK_TEAMS,
-       "europe": {"UCL": [0, 0, 1], "UEL": [0, 1, 1], "UECL": [0, 1, 1]}}
-
-SLO = {"name": "Slovenia",
-       "teams": SLO_TEAMS,
-       "europe": {"UCL": [0, 0, 1], "UEL": [0, 1, 1], "UECL": [0, 1, 1]}}
-
-FIN = {"name": "Finland",
-       "teams": FIN_TEAMS,
-       "europe": {"UCL": [0, 0, 2], "UEL": [0, 0, 1], "UECL": [0, 0, 1]}}
-
-BIH = {"name": "Bosnia_and_Herzegovina",
-       "teams": BIH_TEAMS,
-       "europe": {"UCL": [0, 0, 1], "UEL": [0, 0, 1], "UECL": [0, 0, 1]}}
-
-ALL_COUNTRIES = [ENG, ESP, GER, ITA, FRA, NED, POR, BEL, SCO, AUS, ROM, SUI, TUR, GRE, CZE, POL,
-                 RUS, UKR, SRB, NOR, SWE, DEN, HUN, CRO, BUL, SVK, SLO, FIN, BIH]
+# Generate ALL_COUNTRIES dynamically
+ALL_COUNTRIES = []
+for country_name in COUNTRY_RANKINGS:
+    country_data = {
+        "name": country_name,
+        "teams": TEAM_MAPPINGS.get(country_name, []),  # Use defined teams or an empty list
+        "europe": get_europe_places(country_name),  # Dynamically fetch Europe places
+    }
+    ALL_COUNTRIES.append(country_data)
 
 # European Competitions
 UCL = "Champions League"
