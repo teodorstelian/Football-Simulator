@@ -14,7 +14,8 @@ from database import (
     get_teams_by_skills,
 )
 from national_leagues import league_simulation, select_teams_from_league
-from src.database import update_european_competition_appereances
+from src.database import update_european_competition_appereances, update_general_table_with_total_coefficients, \
+    get_all_european_competition_stats
 from src.european_cups import play_european_cup
 from src.national_cups import cup_simulation
 
@@ -80,8 +81,10 @@ class EuropeanCupSimulator:
     def simulate_european_cup(cls, competition):
         teams = get_teams(european_cup=competition, rounds=["Round 1", "Round 2", "League Phase"])
         for team in teams:
-            update_european_competition_appereances(team.name, competition)
-        return play_european_cup(teams, competition)
+            update_european_competition_appereances(team, competition)
+        new_teams = play_european_cup(teams, competition)
+        update_general_table_with_total_coefficients()
+        return new_teams
 
 
 class StatsViewer:
@@ -231,11 +234,17 @@ class MainProgram:
 
     def view_european_stats(self):
         competition = self.input_handler.get_user_input(
-            "Select competition (1. UCL, 2. UEL, 3. UECL): "
+            "Select competition (1. UCL, 2. UEL, 3. UECL, 4.All): "
         )
-        competitions = {"1": self.settings.UCL, "2": self.settings.UEL, "3": self.settings.UECL}
-        get_european_competition_stats(competitions.get(competition))
+        competitions = {"1": self.settings.UCL, "2": self.settings.UEL, "3": self.settings.UECL, "4": "General"}
+        country_filter = self.input_handler.get_user_input(
+            "Enter a country to filter by (or press Enter to view all): "
+        )
 
+        if competitions.get(competition) == "General":
+            get_all_european_competition_stats(country_filter)
+        else:
+            get_european_competition_stats(competitions.get(competition), country_filter)
 
 if __name__ == "__main__":
     from importlib import import_module

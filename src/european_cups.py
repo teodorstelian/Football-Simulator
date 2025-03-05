@@ -20,8 +20,8 @@ def play_european_cup(teams, competition):
 
     # Define the stages with the required number of teams
     stages = {
-        "Round 1": {"teams": 64, "db_name": "qual_round_1"},
-        "Round 2": {"teams": 64, "db_name": "qual_round_2"},
+        "Round 1": {"teams": 64, "db_name": "q1"},
+        "Round 2": {"teams": 64, "db_name": "q2"},
         "League Phase": {"teams": 36, "db_name": "league_phase"},
         "Round of 32": {"teams": 16, "db_name": "round_of_32"},
         "Round of 16": {"teams": 16, "db_name": "round_of_16"},
@@ -214,6 +214,9 @@ def play_league_phase(teams, competition, logging=False):
             for pot_name, pot in pools.items():
                 log_file.write(f"{pot_name}: {[team.name for team in pot]}\n")
             log_file.write("---------------------------------------------------\n")
+
+    for team in teams:
+        update_european_competition_round_team(team.name, competition, "league_phase")
 
     # Initialize league table
     league_table = {team.name: {"points": 0, "goals_scored": 0, "goals_conceded": 0} for team in teams}

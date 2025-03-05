@@ -127,6 +127,7 @@ def create_general_table():
         ucl INTEGER DEFAULT 0,
         uel INTEGER DEFAULT 0,
         uecl INTEGER DEFAULT 0,
+        coef REAL DEFAULT 0.0,
         europe TEXT
     )
     """
@@ -138,7 +139,7 @@ def create_general_table():
 def populate_general_table():
     """
     Populate the GENERAL_TABLE with initial data (team names and country) from all the leagues.
-    This ensures the table is not empty after being reset.
+    This ensures the table is not empty after being reset, and initializes the total_coefficient column.
     """
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
@@ -162,10 +163,12 @@ def populate_general_table():
         teams = c.fetchall()
         for (team_name, team_skill) in teams:
             insert_query = f"""
-                INSERT INTO {settings.GENERAL_TABLE} (name, skill, country, league_titles, cup_titles, ucl, uel, uecl, europe)
-                VALUES (?,?, ?, 0, 0, 0, 0, 0, ?)
+                INSERT INTO {settings.GENERAL_TABLE} (
+                    name, skill, country, league_titles, cup_titles, ucl, uel, uecl, europe, coef
+                )
+                VALUES (?, ?, ?, 0, 0, 0, 0, 0, ?, 0)
             """
-            c.execute(insert_query, (team_name,team_skill, league_name, "No Europe"))
+            c.execute(insert_query, (team_name, team_skill, league_name, "No Europe"))
 
     conn.commit()
     conn.close()
@@ -256,6 +259,51 @@ def update_general_table_with_stats():
     conn.commit()
     conn.close()
 
+def update_general_table_with_total_coefficients():
+    """
+    Updates the 'total_coefficient' column in the GENERAL_TABLE by summing up
+    coefficients from all European competition tables for each team.
+    """
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+
+    # Fetch all teams listed in the GENERAL_TABLE
+    c.execute(f"SELECT name FROM {settings.GENERAL_TABLE}")
+    general_teams = c.fetchall()
+
+    for team in general_teams:
+        team_name = team[0]
+
+        # Sum coefficients from all European competition tables
+        total_coefficient = 0
+        for competition in [settings.UCL, settings.UEL, settings.UECL]:
+            if competition == settings.UCL:
+                coef_mult=2.5
+            elif competition == settings.UEL:
+                coef_mult=1.25
+            else:
+                coef_mult=0.5
+            competition_table = competition.replace(" ", "")
+            query = f"SELECT coefficient FROM {competition_table} WHERE team_name = ?"
+            c.execute(query, (team_name,))
+            result = c.fetchone()
+            if result:
+                total_coefficient += result[0] * coef_mult
+
+        # Update the 'total_coefficient' in the GENERAL_TABLE
+        update_query = f"""
+        UPDATE {settings.GENERAL_TABLE}
+        SET coef= ?
+        WHERE name = ?
+        """
+        c.execute(update_query, (total_coefficient, team_name))
+
+    conn.commit()
+    conn.close()
+    print("GENERAL_TABLE updated with total coefficients.")
+
+
+
 def update_general_table_european_spots(team):
     """
     Updates the GENERAL_TABLE with values based on the connected league and European competition tables.
@@ -304,7 +352,7 @@ def get_teams(league=None, european_cup=None, rounds=None):
         team_query = f"SELECT * FROM {settings.GENERAL_TABLE} WHERE name = ?"
         c.execute(team_query, (team_name,))
         team_attrib = c.fetchone()
-        name, country, skill, titles, cups, ucl, uel, uecl, europe = team_attrib
+        name, country, skill, titles, cups, ucl, uel, uecl, coef, europe = team_attrib
 
         if european_cup:
             league_query = f"SELECT * FROM {country} WHERE name = ?"
@@ -517,9 +565,12 @@ def create_european_competitions_table(competition):
 
     query = f'''CREATE TABLE IF NOT EXISTS {competition_table} (
             team_name TEXT,
+            country TEXT DEFAULT '',
             appearances INTEGER DEFAULT 0,
-            qual_round_1 INTEGER DEFAULT 0,
-            qual_round_2 INTEGER DEFAULT 0,
+            q1 INTEGER DEFAULT 0,
+            q2 INTEGER DEFAULT 0,
+            q3 INTEGER DEFAULT 0,
+            q_p_off INTEGER DEFAULT 0,
             league_phase INTEGER DEFAULT 0,
             round_of_32 INTEGER DEFAULT 0,
             round_of_16 INTEGER DEFAULT 0,
@@ -533,12 +584,14 @@ def create_european_competitions_table(competition):
     conn.commit()
     conn.close()
 
-def update_european_competition_appereances(team_name, competition):
+def update_european_competition_appereances(team, competition):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
 
     # Replace spaces with underscores for table names
     competition_table = competition.replace(" ", "")
+
+    team_name = team.name
 
     # Check if the team already exists in the table
     c.execute(f"SELECT appearances FROM {competition_table} WHERE team_name=?", (team_name,))
@@ -546,8 +599,8 @@ def update_european_competition_appereances(team_name, competition):
 
     if row is None:  # Insert new row if the team doesn't exist
         appearances = 1
-        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
-                  (team_name, appearances, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+        c.execute(f"INSERT INTO {competition_table} VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                  (team_name, team.country, appearances, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
     else:  # Update appearances if the team already exists
         appearances = row[0]
         appearances += 1
@@ -567,25 +620,25 @@ def update_european_competition_round_team(team_name, competition, cur_round):
 
     # Check if the team already exists in the table
     c.execute(
-        f"SELECT wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, league_phase, qual_round_2, qual_round_1, coefficient FROM {competition_table} WHERE team_name=?",
+        f"SELECT wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, league_phase, q_p_off, q3, q2, q1, coefficient FROM {competition_table} WHERE team_name=?",
         (team_name,))
     row = c.fetchone()
 
-    wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, league_phase, qual_round_2, qual_round_1, coefficient = row
+    wins, finals, semi_finals, quarter_finals, round_of_16, round_of_32, league_phase,q_p_off, q3, q2, q1, coefficient = row
 
-    if cur_round == "qual_round_1":
-        qual_round_1 += 1
+    if cur_round == "q1":
+        q1 += 1
         coefficient = round(coefficient + settings.COEF_QR1, 2)
-        c.execute(f"UPDATE {competition_table} SET qual_round_1=?, coefficient=? WHERE team_name=?",
-                  (qual_round_1, coefficient, team_name))
-    elif cur_round == "qual_round_2":
-        qual_round_2 += 1
+        c.execute(f"UPDATE {competition_table} SET q1=?, coefficient=? WHERE team_name=?",
+                  (q1, coefficient, team_name))
+    elif cur_round == "q2":
+        q2 += 1
         coefficient = round(coefficient + settings.COEF_QR2, 2)
-        c.execute(f"UPDATE {competition_table} SET qual_round_2=?, coefficient=? WHERE team_name=?",
-                  (qual_round_2, coefficient, team_name))
+        c.execute(f"UPDATE {competition_table} SET q2=?, coefficient=? WHERE team_name=?",
+                  (q2, coefficient, team_name))
     elif cur_round == "league_phase":
         league_phase += 1
-        coefficient = round(coefficient + settings.COEF_LGP, 2)  # COEF_LGP for league phase points
+        coefficient = round(coefficient + settings.COEF_LGP, 2)
         c.execute(f"UPDATE {competition_table} SET league_phase=?, coefficient=? WHERE team_name=?",
                   (league_phase, coefficient, team_name))
     elif cur_round == "round_of_32":
@@ -622,34 +675,91 @@ def update_european_competition_round_team(team_name, competition, cur_round):
     conn.commit()
     conn.close()
 
-def get_european_competition_stats(competition):
+def get_all_european_competition_stats(country=None):
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
+
+    # Base query
+    query = f"""
+        SELECT name, country, ucl, uel, uecl, coef
+        FROM {settings.GENERAL_TABLE}
+    """
+
+    # Add filtering by country if provided
+    if country:
+        query += f" WHERE country = ?"
+
+    # Order and limit results
+    query += """
+        ORDER BY ucl DESC, uel DESC, uecl DESC, coef DESC, name ASC
+        LIMIT 25
+    """
+
+    # Execute the query
+    if country:
+        c.execute(query, (country,))
+    else:
+        c.execute(query)
+
+    stats = c.fetchall()
+    conn.close()
+
+    # Display the results with rankings
+    print(f"--- All European Stats (Ordered by UCL, UEL, UECL Wins, Coefficients) ---")
+    for rank, team in enumerate(stats, start=1):
+        (name, country, ucl, uel, uecl, coef) = team
+        print(f"{rank}. {name} ({country}):\n"
+              f"   UCL: {ucl}, "
+              f"UEL: {uel}, "
+              f"UECL: {uecl}, "
+              f"Coef: {coef}\n")
+
+    return stats
+
+def get_european_competition_stats(competition, country=None):
     conn = sqlite3.connect(COMPETITIONS_DB)
     c = conn.cursor()
 
     # Replace spaces with underscores for table names
     competition_table = competition.replace(" ", "")
 
+    # Base query
     query = f"""
-        SELECT team_name, appearances, qual_round_1, qual_round_2, league_phase, round_of_32, round_of_16, quarter_finals,
-               semi_finals, finals, wins, coefficient
+        SELECT team_name, appearances, q1, q2, league_phase, round_of_32, round_of_16, quarter_finals,
+               semi_finals, finals, wins, coefficient, country
         FROM {competition_table}
+    """
+
+    # Add filtering by country if provided
+    if country:
+        query += f" WHERE country = ?"
+
+    # Order and limit results
+    query += """
         ORDER BY coefficient DESC, wins DESC, finals DESC, semi_finals DESC, quarter_finals DESC,
-                 round_of_16 DESC, round_of_32 DESC, league_phase DESC, qual_round_2 DESC,
-                 qual_round_1 DESC, appearances DESC, team_name ASC
+                 round_of_16 DESC, round_of_32 DESC, league_phase DESC, q2 DESC,
+                 q1 DESC, appearances DESC, team_name ASC
         LIMIT 25
     """
-    c.execute(query)
+
+    # Execute the query
+    if country:
+        c.execute(query, (country,))
+    else:
+        c.execute(query)
+
     stats = c.fetchall()
     conn.close()
 
     # Display the results with rankings
     print(f"--- {competition} Stats (Ordered by Wins, Coefficients, and Other Metrics) ---")
     for rank, team in enumerate(stats, start=1):
-        team_name, appearances, qual_round_1, qual_round_2, league_phase, round_of_32, round_of_16, quarter_finals, semi_finals, finals, wins, coefficient = team
-        print(f"{rank}. {team_name}:\n"
-              f"   Total Appearances: {appearances}, "
-              f"Qualifying Round 1: {qual_round_1}, "
-              f"Qualifying Round 2: {qual_round_2}, "
+        (team_name, appearances, q1, q2, league_phase, round_of_32, round_of_16,
+         quarter_finals, semi_finals, finals, wins, coefficient, country_name) = team
+        print(f"{rank}. {team_name} ({country_name}):\n"
+              f"   Entries: {appearances}, "
+              f"Qual R1: {q1}, "
+              f"Qual R2: {q2}, "
               f"League Phase: {league_phase}, "
               f"Round of 32: {round_of_32}, "
               f"Round of 16: {round_of_16}, "
@@ -657,10 +767,9 @@ def get_european_competition_stats(competition):
               f"Semi-Finals: {semi_finals}, "
               f"Finals: {finals}, "
               f"Wins: {wins}, "
-              f"Coefficient: {coefficient}\n")
+              f"Coef: {coefficient}\n")
 
     return stats
-
 
 
 def get_team_coefficients(teams, competition):
