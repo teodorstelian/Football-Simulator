@@ -1,19 +1,21 @@
 # Country Teams - Name, Skill
-ENG_TEAMS = [("Arsenal", 95),
+ENG_TEAMS = [("Accrington Stanley", 65),
+             ("Arsenal", 95),
              ("Aston Villa", 88),
              ("Barnsley", 68),
              ("Birmingham City", 72),
              ("Blackburn Rovers", 75),
              ("Blackpool", 70),
+             ("Bolton Wanderers", 73),
              ("Bournemouth", 78),
              ("Brentford", 78),
-             ("Brighton", 85),
+             ("Brighton", 87),
              ("Burnley", 80),
              ("Cardiff City", 74),
              ("Charlton Athletic", 70),
              ("Chelsea", 94),
              ("Coventry City", 73),
-             ("Crystal Palace", 79),
+             ("Crystal Palace", 82),
              ("Derby County", 72),
              ("Everton", 78),
              ("Fulham", 84),
@@ -27,9 +29,10 @@ ENG_TEAMS = [("Arsenal", 95),
              ("Manchester United", 94),
              ("Middlesbrough", 75),
              ("Millwall", 72),
-             ("Newcastle United", 88),
+             ("Newcastle United", 89),
              ("Norwich City", 77),
              ("Nottingham Forest", 87),
+             ("Portsmouth", 74),
              ("Preston North End", 72),
              ("Queens Park Rangers", 71),
              ("Reading", 70),
@@ -40,11 +43,13 @@ ENG_TEAMS = [("Arsenal", 95),
              ("Sunderland", 79),
              ("Swansea City", 77),
              ("Tottenham Hotspur", 92),
+             ("Tranmere Rovers", 66),
              ("Watford", 72),
              ("West Bromwich Albion", 77),
-             ("West Ham United", 82),
+             ("West Ham United", 83),
              ("Wigan Athletic", 72),
              ("Wolverhampton Wanderers", 80)]
+
 
 ESP_TEAMS = [
             ("AD Alcorcon", 69),
@@ -313,11 +318,13 @@ AUS_TEAMS = [("Austria Klagenfurt", 71),
              ("Wiener Neustadt", 66)]
 
 ROM_TEAMS = [
+            ("Academica Clinceni", 68),
             ("ACS Poli Timisoara", 67),
             ("Astra Giurgiu", 75),
             ("Chindia Targoviste", 67),
-            ("Concordia Chiajna", 65),
             ("CFR Cluj", 84),
+            ("Concordia Chiajna", 65),
+            ("CS Hunedoara", 66),
             ("CS Mioveni", 64),
             ("Dinamo Bucuresti", 77),
             ("Farul Constanta", 79),
@@ -328,6 +335,7 @@ ROM_TEAMS = [
             ("FC Hermannstadt", 69),
             ("FC Rapid Bucuresti", 79),
             ("FC U Craiova 1948", 74),
+            ("FC Universitatea Alba Iulia", 65),
             ("FC Voluntari", 67),
             ("Foresta Suceava", 65),
             ("Gaz Metan Medias", 68),
@@ -345,10 +353,10 @@ ROM_TEAMS = [
             ("Steaua Bucuresti", 65),
             ("Universitatea Cluj", 73),
             ("Universitatea Craiova", 82),
+            ("Unirea Slobozia", 67),
             ("UTA Arad", 73),
             ("Victoria Bucuresti", 65)
 ]
-
 
 SUI_TEAMS = [("Young Boys", 86),
              ("FC Basel", 84),
@@ -365,8 +373,6 @@ SUI_TEAMS = [("Young Boys", 86),
              ("FC Lausanne-Sport", 69),
              ("Wil 1900", 65),
              ("Schaffhausen", 64)]
-
-
 
 TUR_TEAMS = [
             ("Adana Demirspor", 80),

@@ -76,7 +76,7 @@ FIRST_DIVISION_TEAM_COUNTS = {
     "Austria": 12,
     "Romania": 16,
     "Switzerland": 10,
-    "Turkey": 19,
+    "Turkey": 20,
     "Greece": 14,
     "Czech_Republic": 16,
     "Poland": 18,

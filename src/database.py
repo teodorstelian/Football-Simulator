@@ -24,7 +24,7 @@ def create_teams_table(league):
         third_place INTEGER DEFAULT 0,
         cup_finals INTEGER DEFAULT 0,
         cup_wins INTEGER DEFAULT 0,
-        division INTEGER DEFAULT 1
+        division INTEGER DEFAULT 0
     )
     """
     c.execute(query)

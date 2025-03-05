@@ -7,7 +7,10 @@ from src.database import update_team, update_team_parameter
 
 
 def cup_simulation(league, teams):
-    sorted_teams = sorted(teams, key=lambda x: x.skill, reverse=True)
+    # Sort teams by division (ascending) and then by skill (descending)
+    sorted_teams = sorted(teams, key=lambda x: (x.division, -x.skill))
+
+    # Determine the number of teams to participate based on available teams
     if len(teams) >= 32:
         new_teams = sorted_teams[:32]
     elif len(teams) >= 16:
@@ -17,11 +20,15 @@ def cup_simulation(league, teams):
     else:
         new_teams = sorted_teams[:4]
 
+    # Play the cup with the filtered and sorted teams
     teams = play_country_cup(new_teams, league)
 
+    # Update each team in the league after the cup
     for team in teams:
         update_team(team, league)  # Update team data in the database
+
     return teams
+
 
 def play_country_cup(teams, country):
     """

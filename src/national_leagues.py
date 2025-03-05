@@ -1,7 +1,9 @@
+import sqlite3
 from pathlib import Path
 
 from database import create_teams_table, get_teams, update_team, update_general_table_european_spots
 from src import settings
+from src.settings import COMPETITIONS_DB
 from team import Team
 
 
@@ -27,40 +29,69 @@ def select_teams_from_league(country):
 
 def league_simulation(league, teams, europe, max_teams_in_first_division=12):
     """
-        Simulate a league by playing the fixtures, updating the teams, and generating the standings.
-        If the number of teams exceeds the max for the first division, split into divisions.
+    Simulate a league by playing the fixtures, updating the teams, and generating the standings.
+    If the number of teams exceeds the max for the first division, split into divisions only if all
+    teams have division=0. Otherwise, use their existing division values from the database.
+
     :param league: The league we want to simulate.
     :param teams: The teams found in the league.
     :param europe: How many places are for UCL, UEL, UECL.
     :param max_teams_in_first_division: Max number of teams allowed in the first division.
     :return: Combined list of all teams objects.
     """
-    # Step 1: Sort teams by skill (descending) for accurate division placement
-    teams.sort(key=lambda x: x.skill, reverse=True)
+    conn = sqlite3.connect(COMPETITIONS_DB)
+    c = conn.cursor()
 
-    # Step 2: Split teams into divisions
+    # Fetch current divisions for all teams in the league
+    c.execute(f"SELECT name, division FROM {league}")
+    existing_division_data = {row[0]: row[1] for row in c.fetchall()}
+    conn.close()
+
+    # Check if all teams have division=0
+    all_divisions_zero = all(existing_division_data.get(team.name, 0) == 0 for team in teams)
+
     divisions = {}
-    division_number = 1
+    if all_divisions_zero:
+        print("All teams have division=0. Splitting teams into new divisions.")
 
-    while teams:
-        divisions[division_number] = teams[:max_teams_in_first_division]
-        teams = teams[max_teams_in_first_division:]  # Remove teams added to this division
-        division_number += 1
+        # Step 1: Sort teams by skill (descending) for accurate division placement
+        teams.sort(key=lambda x: x.skill, reverse=True)
 
-    # Step 3: Simulate leagues for each division and combine all teams objects
+        # Step 2: Split teams into divisions
+        division_number = 1
+        while teams:
+            divisions[division_number] = teams[:max_teams_in_first_division]
+            teams = teams[max_teams_in_first_division:]  # Remove teams added to this division
+            division_number += 1
+
+    else:
+        print("Using existing team divisions from the database.")
+        # Step 1: Group teams by their existing division values
+        for team in teams:
+            division_number = existing_division_data.get(team.name, 0)
+            if division_number not in divisions:
+                divisions[division_number] = []
+            divisions[division_number].append(team)
+
+    sorted_divisions = dict(sorted(divisions.items()))
+    last_division_number = list(sorted_divisions.keys())[-1]
+
+    # Step 3: Simulate leagues for each division and combine all team objects
     all_teams_objects = []
-    for division_number, division_teams in divisions.items():
-
-        play_fixture_league(division_teams)
+    for division_number, division_teams in sorted_divisions.items():
+        play_fixture_league(division_teams)  # Simulate fixtures for this division
 
         if division_number == 1:
-            # Generate standings with Europe for the top division only
+            # Generate standings with European spots only for the top division
             print(f"Simulating Division {division_number} with European spots")
             division_team_objects = generate_standings(division_teams, league, europe, division_number)
         else:
-            # Generate standings without Europe for lower divisions
+            # Generate standings without European spots for lower divisions
             print(f"Simulating Division {division_number}")
-            division_team_objects = generate_standings(division_teams, league, None, division_number)
+            if division_number == last_division_number:
+                division_team_objects = generate_standings(division_teams, league, None, division_number, last_division=True)
+            else:
+                division_team_objects = generate_standings(division_teams, league, None, division_number)
 
         # Combine teams into a single list
         all_teams_objects.extend(division_team_objects)
@@ -70,6 +101,7 @@ def league_simulation(league, teams, europe, max_teams_in_first_division=12):
         update_team(team, league)  # Update team data in the database
 
     return all_teams_objects
+
 
 def get_default_teams_country(teams, country):
     """
@@ -124,39 +156,46 @@ def play_fixture_league(teams):
         team.update_current()
 
     return teams
+def generate_standings(teams, league, europe, division, last_division=False):
+    """
+    Generate standings for a division, update European spots (for Division 1), and handle relegation/promotion.
 
-def generate_standings(teams, league, europe, division):
+    :param teams: List of team objects participating in the division.
+    :param league: League name under which the division operates.
+    :param europe: European competition spots configuration (only applies for Division 1).
+    :param division: Current division number (1 is the top division).
+    :return: Updated list of team objects.
+    """
 
-    # Sort teams based on points, wins, and goals scored (descending order)
+    # Step 1: Sort teams based on points, wins, and goals scored (descending order)
     teams.sort(key=lambda x: (x.current['points'], x.current['wins'], x.current['scored']), reverse=True)
+
     # Prepare the league results file
     league_text = Path(f"{settings.RESULTS_FOLDER}/{league}.txt")
     league_text.touch(exist_ok=True)
 
     with open(league_text, 'a', encoding="utf-8") as file:
-        file.write(f"--- Final Standings ---")
+        file.write(f"--- Final Standings ---\n")
 
+    # Step 2: Process Division 1 (with European spots and relegation)
     if division == 1:
-
         for i, team in enumerate(teams):
             if i == 0:
-                with open(league_text, 'a',  encoding="utf-8") as file:
+                # Winner of the league
+                with open(league_text, 'a', encoding="utf-8") as file:
                     file.write(f"Winner of {league} - Division {division}: {team.name}\n")
                 print(f"Winner of {league} - Division {division}: {team.name}")
                 winners_file = Path(f"{settings.RESULTS_FOLDER}/{settings.WINNERS_TEXT}")
                 winners_file.touch(exist_ok=True)
-                with open(winners_file, 'a',  encoding="utf-8") as winners:
+                with open(winners_file, 'a', encoding="utf-8") as winners:
                     winners.write(f"Winner of {league} - Division {division}: {team.name}\n")
                 team.first_place += 1
-                update_team(team, league)
             elif i == 1:
                 team.second_place += 1
-                update_team(team, league)
             elif i == 2:
                 team.third_place += 1
-                update_team(team, league)
 
-            # Extract the number of European qualification spots from the `europe` parameter
+            # Assign European qualification spots
             cl_places_lp = europe["UCL"][0]
             cl_places_q2 = europe["UCL"][1]
             cl_places_q1 = europe["UCL"][2]
@@ -182,7 +221,6 @@ def generate_standings(teams, league, europe, division):
                 (ecl_places_q1, f"{settings.UECL} - Round 1"),
             ]
 
-            # Use a running total to avoid repetitive sums
             threshold = 0
             for places, stage in europe_stages:
                 threshold += places
@@ -192,8 +230,14 @@ def generate_standings(teams, league, europe, division):
             else:
                 team.europe = "No qualification"
 
-            team.division = division
+            # Handle relegation for the last two teams in Division 1
+            if i >= len(teams) - 2:
+                team.division = division + 1
+            else:
+                team.division = division  # Retain division for other teams
+
             update_general_table_european_spots(team)
+
             current_team = team.current
             with open(league_text, 'a', encoding="utf-8") as file:
                 file.write(
@@ -201,6 +245,7 @@ def generate_standings(teams, league, europe, division):
                     f"{current_team['draws']} draws - {current_team['losses']} losses"
                     f" - {current_team['scored']} scored - {current_team['against']} against - {team.europe}\n")
 
+    # Step 3: Process Lower Divisions (with promotion)
     else:
         for i, team in enumerate(teams):
             if i == 0:
@@ -212,10 +257,18 @@ def generate_standings(teams, league, europe, division):
                 with open(winners_file, 'a', encoding="utf-8") as winners:
                     winners.write(f"Winner of {league} - Division {division}: {team.name}\n")
 
+            # Handle promotion for the first two teams in lower divisions
+            if i < 2:
+                team.division = division - 1
+            elif i >= len(teams) - 2 and not last_division:
+                team.division = division + 1
+            else:
+                team.division = division  # Retain division for other teams
+
             team.europe = "No qualification"
-            team.division = division
 
             update_general_table_european_spots(team)
+
             current_team = team.current
             with open(league_text, 'a', encoding="utf-8") as file:
                 file.write(
