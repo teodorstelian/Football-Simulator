@@ -20,8 +20,10 @@ def play_european_cup(teams, competition):
 
     # Define the stages with the required number of teams
     stages = {
-        "Round 1": {"teams": 64, "db_name": "qual_round_1"},
-        "Round 2": {"teams": 64, "db_name": "qual_round_2"},
+        "Round 1": {"teams": 32, "db_name": "q1"},
+        "Round 2": {"teams": 32, "db_name": "q2"},
+        "Round 3": {"teams": 40, "db_name": "q3"},
+        "Play-Off": {"teams": 48, "db_name": "q_p_off"},
         "League Phase": {"teams": 36, "db_name": "league_phase"},
         "Round of 32": {"teams": 16, "db_name": "round_of_32"},
         "Round of 16": {"teams": 16, "db_name": "round_of_16"},
@@ -33,6 +35,8 @@ def play_european_cup(teams, competition):
     # Split teams into Round 1 and Round 2 based on their 'europe' field
     round_1_teams = [team for team in teams if "Round 1" in team.europe]
     round_2_teams = [team for team in teams if "Round 2" in team.europe]
+    round_3_teams = [team for team in teams if "Round 3" in team.europe]
+    play_off_teams = [team for team in teams if "Play-Off" in team.europe]
     league_phase_teams = [team for team in teams if "League Phase" in team.europe]
 
     # Log Round 1 teams
@@ -59,10 +63,39 @@ def play_european_cup(teams, competition):
     # Log teams advanced
     with open(competition_text, 'a',  encoding="utf-8") as file:
         file.write(f"Round 2 Winners: {[team.name for team in round_2_winners]}\n")
+        file.write(f"Round 3 Qualified: {[team.name for team in round_3_teams]}\n")
+
+    # Combine Round 2 winners with Round 3 teams
+    remaining_teams = round_2_winners + round_3_teams
+
+    # Log Round 3 teams
+    with open(competition_text, 'a', encoding="utf-8") as file:
+        file.write(f"Teams advancing to Round 3: {[team.name for team in remaining_teams]}\n")
+
+    round_3_winners = generate_single_round(remaining_teams, competition, has_2_legs=True, logging=True,
+                                            eur_round=stages["Round 3"]["db_name"])
+
+    # Log teams advanced
+    with open(competition_text, 'a', encoding="utf-8") as file:
+        file.write(f"Round 3 Winners: {[team.name for team in round_3_winners]}\n")
+        file.write(f"Play-Off Qualified: {[team.name for team in play_off_teams]}\n")
+
+    # Combine Round 3 winners with Play-Off teams
+    remaining_teams = round_3_winners + play_off_teams
+
+    # Log Play-off teams
+    with open(competition_text, 'a', encoding="utf-8") as file:
+        file.write(f"Teams advancing to Play-off: {[team.name for team in remaining_teams]}\n")
+
+    play_off_winners = generate_single_round(remaining_teams, competition, has_2_legs=True, logging=True,
+                                            eur_round=stages["Play-Off"]["db_name"])
+
+    # Log teams advanced
+    with open(competition_text, 'a', encoding="utf-8") as file:
+        file.write(f"Play-Off Winners: {[team.name for team in play_off_winners]}\n")
         file.write(f"League Phase Qualified: {[team.name for team in league_phase_teams]}\n")
 
-    # Combine Round 2 winners with League Phase teams
-    remaining_teams = round_2_winners + league_phase_teams
+    remaining_teams = play_off_winners + league_phase_teams
 
     # Log League Phase Teams
     with open(competition_text, 'a', encoding="utf-8") as file:
@@ -89,7 +122,7 @@ def play_european_cup(teams, competition):
 
     # Play the knockout stages from Round of 16 onwards
     for stage_name, stage_info in stages.items():
-        if stage_name in ["Round 1", "Round 2", "League Phase", "Round of 32"]:
+        if stage_name in ["Round 1", "Round 2", "Round 3", "Play-Off", "League Phase", "Round of 32"]:
             continue
 
         current_teams = stage_info["teams"]
@@ -214,6 +247,9 @@ def play_league_phase(teams, competition, logging=False):
             for pot_name, pot in pools.items():
                 log_file.write(f"{pot_name}: {[team.name for team in pot]}\n")
             log_file.write("---------------------------------------------------\n")
+
+    for team in teams:
+        update_european_competition_round_team(team.name, competition, "league_phase")
 
     # Initialize league table
     league_table = {team.name: {"points": 0, "goals_scored": 0, "goals_conceded": 0} for team in teams}
