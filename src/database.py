@@ -636,6 +636,16 @@ def update_european_competition_round_team(team_name, competition, cur_round):
         coefficient = round(coefficient + settings.COEF_QR2, 2)
         c.execute(f"UPDATE {competition_table} SET q2=?, coefficient=? WHERE team_name=?",
                   (q2, coefficient, team_name))
+    elif cur_round == "q3":
+        q3 += 1
+        coefficient = round(coefficient + settings.COEF_QR3, 2)
+        c.execute(f"UPDATE {competition_table} SET q3=?, coefficient=? WHERE team_name=?",
+                  (q3, coefficient, team_name))
+    elif cur_round == "q_p_off":
+        q_p_off += 1
+        coefficient = round(coefficient + settings.COEF_POFF, 2)
+        c.execute(f"UPDATE {competition_table} SET q_p_off=?, coefficient=? WHERE team_name=?",
+                  (q_p_off, coefficient, team_name))
     elif cur_round == "league_phase":
         league_phase += 1
         coefficient = round(coefficient + settings.COEF_LGP, 2)

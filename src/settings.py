@@ -120,16 +120,20 @@ FIRST_DIVISION_TEAM_COUNTS = {
 
 # European Spots By Rank Ranges
 EUROPE_PLACES_BY_RANK = {
-    range(1, 2): {"UCL": [2, 1, 1], "UEL": [0, 2, 2], "UECL": [2, 1, 1]},  # Top Country
-    range(2, 4): {"UCL": [1, 2, 1], "UEL": [0, 2, 1], "UECL": [1, 2, 0]},  # Ranks 2-3
-    range(4, 6): {"UCL": [0, 3, 1], "UEL": [2, 1, 0], "UECL": [0, 2, 1]},  # Ranks 4-5
-    range(6, 11): {"UCL": [0, 2, 1], "UEL": [0, 1, 2], "UECL": [0, 2, 1]},  # Ranks 6-10
-    range(11, 16): {"UCL": [0, 1, 2], "UEL": [0, 1, 2], "UECL": [0, 1, 2]},  # Ranks 11-15
-    range(16, 20): {"UCL": [0, 1, 1], "UEL": [0, 1, 2], "UECL": [0, 1, 2]},  # Ranks 15-19
-    range(20, 22): {"UCL": [0, 1, 1], "UEL": [0, 1, 1], "UECL": [0, 1, 1]},  # Ranks 20-21
-    range(22, 24): {"UCL": [0, 0, 2], "UEL": [0, 1, 1], "UECL": [0, 1, 1]},  # Ranks 22-23
-    range(24, 30): {"UCL": [0, 0, 2], "UEL": [0, 1, 1], "UECL": [0, 0, 2]},  # Ranks 24-29
-    range(30, 52): {"UCL": [0, 0, 1], "UEL": [0, 0, 1], "UECL": [0, 0, 1]},  # Ranks 30-51
+    range(1, 2): {"UCL": [3, 1, 1, 0, 0], "UEL": [0, 1, 1, 0, 0], "UECL": [1, 1, 2, 0, 0]},  # Top Country
+    range(2, 4): {"UCL": [2, 2, 1, 0, 0], "UEL": [0, 1, 1, 0, 0], "UECL": [1, 2, 0, 0, 0]},  # Ranks 2-3
+    range(4, 6): {"UCL": [2, 2, 1, 0, 0], "UEL": [0, 1, 1, 0, 0], "UECL": [1, 1, 1, 0, 0]},  # Ranks 4-5
+    range(6, 7): {"UCL": [1, 2, 1, 0, 0], "UEL": [1, 0, 0, 1, 0], "UECL": [1, 0, 1, 0, 0]},  # Ranks 6
+    range(7, 11): {"UCL": [0, 2, 1, 0, 0], "UEL": [1, 1, 0, 0, 0], "UECL": [0, 2, 1, 0, 0]},  # Ranks 7-10
+    range(11, 16): {"UCL": [0, 1, 2, 0, 0], "UEL": [1, 1, 1, 0, 0], "UECL": [0, 1, 1, 0, 0]},  # Ranks 11-15
+    range(16, 18): {"UCL": [0, 1, 1, 1, 0], "UEL": [1, 1, 1, 0, 0], "UECL": [0, 1, 1, 1, 0]},  # Ranks 16-17
+    range(18, 20): {"UCL": [0, 1, 1, 1, 0], "UEL": [0, 1, 1, 0, 0], "UECL": [1, 1, 0, 0, 0]},  # Ranks 18-19
+    range(20, 22): {"UCL": [0, 0, 0, 2, 1], "UEL": [0, 1, 1, 0, 1], "UECL": [1, 1, 0, 1, 0]},  # Ranks 20-21
+    range(22, 24): {"UCL": [0, 0, 0, 1, 1], "UEL": [0, 1, 1, 0, 1], "UECL": [1, 1, 1, 0, 0]},  # Ranks 22-23
+    range(24, 30): {"UCL": [0, 0, 0, 1, 1], "UEL": [0, 1, 1, 0, 1], "UECL": [0, 0, 1, 2, 0]},  # Ranks 24-29
+    range(30, 33): {"UCL": [0, 0, 0, 0, 1], "UEL": [0, 0, 0, 1, 1], "UECL": [0, 0, 0, 0, 2]},  # Ranks 30-32
+    range(33, 45): {"UCL": [0, 0, 0, 0, 1], "UEL": [0, 0, 0, 1, 1], "UECL": [0, 0, 0, 0, 1]},  # Ranks 33-44
+    range(45, 52): {"UCL": [0, 0, 0, 0, 1], "UEL": [0, 0, 0, 0, 1], "UECL": [0, 0, 0, 0, 2]},  # Ranks 45-51
 }
 
 
@@ -199,7 +203,7 @@ def get_europe_places(country_name):
             return places
 
     # Default for unranked or unmatched countries
-    return {"UCL": [0, 0, 0], "UEL": [0, 0, 0], "UECL": [0, 0, 0]}
+    return {"UCL": [0, 0, 0, 0, 0], "UEL": [0, 0, 0, 0, 0], "UECL": [0, 0, 0, 0, 0]}
 
 
 # Generate ALL_COUNTRIES dynamically
@@ -228,12 +232,14 @@ BEST_TEAMS_SKILLS = 25
 BEST_TEAMS_LEAGUE = 10
 
 # Coefficients
-COEF_WIN = 60
+COEF_WIN = 55
 COEF_FIN = 25
-COEF_SEM = 12
-COEF_QUA = 5.5
-COEF_R16 = 2.7
-COEF_R32 = 1.3
-COEF_LGP = 0.6
-COEF_QR2 = 0.25
+COEF_SEM = 12.5
+COEF_QUA = 7.5
+COEF_R16 = 4.2
+COEF_R32 = 2.3
+COEF_LGP = 1.2
+COEF_POFF = 0.7
+COEF_QR3 = 0.4
+COEF_QR2 = 0.2
 COEF_QR1 = 0.1

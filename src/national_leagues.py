@@ -197,26 +197,38 @@ def generate_standings(teams, league, europe, division, last_division=False):
 
             # Assign European qualification spots
             cl_places_lp = europe["UCL"][0]
-            cl_places_q2 = europe["UCL"][1]
-            cl_places_q1 = europe["UCL"][2]
+            cl_places_poff = europe["UCL"][1]
+            cl_places_q3 = europe["UCL"][2]
+            cl_places_q2 = europe["UCL"][3]
+            cl_places_q1 = europe["UCL"][4]
 
             el_places_lp = europe["UEL"][0]
-            el_places_q2 = europe["UEL"][1]
-            el_places_q1 = europe["UEL"][2]
+            el_places_poff = europe["UEL"][1]
+            el_places_q3 = europe["UEL"][2]
+            el_places_q2 = europe["UEL"][3]
+            el_places_q1 = europe["UEL"][4]
 
             ecl_places_lp = europe["UECL"][0]
-            ecl_places_q2 = europe["UECL"][1]
-            ecl_places_q1 = europe["UECL"][2]
+            ecl_places_poff = europe["UECL"][1]
+            ecl_places_q3 = europe["UECL"][2]
+            ecl_places_q2 = europe["UECL"][3]
+            ecl_places_q1 = europe["UECL"][4]
 
             # Define stages with the corresponding number of places
             europe_stages = [
                 (cl_places_lp, f"{settings.UCL} - League Phase"),
+                (cl_places_poff, f"{settings.UCL} - Play-Off"),
+                (cl_places_q3, f"{settings.UCL} - Round 3"),
                 (cl_places_q2, f"{settings.UCL} - Round 2"),
                 (cl_places_q1, f"{settings.UCL} - Round 1"),
                 (el_places_lp, f"{settings.UEL} - League Phase"),
+                (el_places_poff, f"{settings.UEL} - Play-Off"),
+                (el_places_q3, f"{settings.UEL} - Round 3"),
                 (el_places_q2, f"{settings.UEL} - Round 2"),
                 (el_places_q1, f"{settings.UEL} - Round 1"),
                 (ecl_places_lp, f"{settings.UECL} - League Phase"),
+                (ecl_places_poff, f"{settings.UECL} - Play-Off"),
+                (ecl_places_q3, f"{settings.UECL} - Round 3"),
                 (ecl_places_q2, f"{settings.UECL} - Round 2"),
                 (ecl_places_q1, f"{settings.UECL} - Round 1"),
             ]

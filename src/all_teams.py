@@ -213,6 +213,7 @@ NED_TEAMS = [
             ("Excelsior", 66),
             ("Feyenoord", 87),
             ("Fortuna Sittard", 72),
+            ("FC Groningen", 75),
             ("Go Ahead Eagles", 73),
             ("Heracles Almelo", 72),
             ("NAC Breda", 70),
@@ -220,6 +221,7 @@ NED_TEAMS = [
             ("PEC Zwolle", 68),
             ("PSV Eindhoven", 88),
             ("RKC Waalwijk", 71),
+            ("Roda JC", 71),
             ("SC Heerenveen", 79),
             ("Sparta Rotterdam", 78),
             ("Twente", 85),
@@ -904,16 +906,19 @@ KOS_TEAMS = [
 ]
 
 MDA_TEAMS = [
-    ("Sheriff Tiraspol", 87),
-    ("Petrocub Hincesti", 81),
-    ("Zimbru Chisinau", 80),
-    ("Milsami Orhei", 78),
-    ("FC Sfintul Gheorghe", 76),
-    ("Dinamo-Auto", 73),
-    ("Balti", 72),
-    ("Floresti", 68),
-    ("Speranta", 67),
-    ("Codru Lozova", 65)
+    ("Balti", 67),
+    ("Codru Lozova", 60),
+    ("Dinamo-Auto", 68),
+    ("FC Costuleni", 64),
+    ("FC Sfintul Gheorghe", 71),
+    ("Floresti", 63),
+    ("Iskra-Stal", 70),
+    ("Milsami Orhei", 73),
+    ("Petrocub Hincesti", 76),
+    ("Rapid Ghidighici", 69),
+    ("Sheriff Tiraspol", 82),
+    ("Tiligul Tiraspol", 74),
+    ("Zimbru Chisinau", 75)
 ]
 
 MNE_TEAMS = [
